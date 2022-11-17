@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Wu-etal-2019-LVMapper:">
+    <titleInfo>
+        <title>LVMapper: A Large-Variance Clone Detector Using Sequencing Alignment Approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ming</namePart>
+        <namePart type="family">Wu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pengcheng</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kangqi</namePart>
+        <namePart type="family">Yin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Haoyu</namePart>
+        <namePart type="family">Cheng</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yun</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>To detect large-variance code clones (i.e. clones with many modifications) in large-scale code repositories is difficult because most current tools can only detect almost identical or very similar clones. It has an important impact on downstream software applications such as bug detection, code completion, software analysis, etc. Recently, CCAligner made an attempt to detect the code clones with insertions or deletions in one place, which were called large-gap clones. Our contribution is to develop a novel and effective detection approach of large-variance clones to more general cases for not only the concentrated code modifications but also the scattered code modifications. A detector named LVMapper is proposed, borrowing and changing the approach of sequencing alignment in bioinformatics which can find two similar sequences with more differences. The ability of LVMapper was tested on 8 open source projects datasets, and the results show that LVMapper detected more than 5 times of large-variance clones compared with other state-of-the-art tools including CCAligner. Furthermore, our new tool also presents comparable recall for general Type-1, Type-2 and Type-3 clones with precision of 88.5% on the widely used benchmarking dataset BigCloneBench.</abstract>
+    <identifier type="citekey">Wu-etal-2019-LVMapper:</identifier>
+    <identifier type="doi">10.1109/ACCESS.2020.2971545</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.219</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

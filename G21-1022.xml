@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mondal-etal-2021-Reproducibility">
+    <titleInfo>
+        <title>Reproducibility Challenges and Their Impacts on Technical Q&amp;A Websites: The Practitioners’ Perspectives</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Saikat</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Software developers often submit questions to technical Q&amp;A sites like Stack Overflow (SO) to resolve their code-level problems. Usually, they include example code segments with their questions to explain the programming issues. When users of SO attempt to answer the questions, they prefer to reproduce the issues reported in questions using the given code segments. However, such code segments could not always reproduce the issues due to several unmet challenges (e.g., too short code segment) that might prevent questions from receiving appropriate and prompt solutions. A previous study produced a catalog of potential challenges that hinder the reproducibility of issues reported at SO questions. However, it is unknown how the practitioners (i.e., developers) perceive the challenge catalog. Understanding the developers’ perspective is inevitable to introduce interactive tool support that promotes reproducibility. We thus attempt to understand developers’ perspectives by surveying 53 users of SO. In particular, we attempt to – (1) see developers’ viewpoints on the agreement to those challenges, (2) find the potential impact of those challenges, (3) see how developers address them, and (4) determine and prioritize tool support needs. Survey results show that about 90% of participants agree to the already exposed challenges. However, they report some additional challenges (e.g., error log missing) that might prevent reproducibility. According to the participants, too short code segment and absence of required Class/Interface/Method from code segments severely prevent reproducibility, followed by missing important part of code. To promote reproducibility, participants strongly recommend introducing tool support that interacts with question submitters with suggestions for improving the code segments if the given code segments fail to reproduce the issues.</abstract>
+    <identifier type="citekey">Mondal-etal-2021-Reproducibility</identifier>
+    <identifier type="doi">10.1145/3511430.3511439</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.22</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

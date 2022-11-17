@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mostaeen-etal-2019-Designing">
+    <titleInfo>
+        <title>Designing for Real-Time Groupware Systems to Support Complex Scientific Data Analysis</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Golam</namePart>
+        <namePart type="family">Mostaeen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Scientific Workflow Management Systems (SWfMSs) have become popular for accelerating the specification, execution, visualization, and monitoring of data-intensive scientific experiments. Unfortunately, to the best of our knowledge no existing SWfMSs directly support collaboration. Data is increasing in complexity, dimensionality, and volume, and the efficient analysis of data often goes beyond the realm of an individual and requires collaboration with multiple researchers from varying domains. In this paper, we propose a groupware system architecture for data analysis that in addition to supporting collaboration, also incorporates features from SWfMSs to support modern data analysis processes. As a proof of concept for the proposed architecture we developed SciWorCS - a groupware system for scientific data analysis. We present two real-world use-cases: collaborative software repository analysis and bioinformatics data analysis. The results of the experiments evaluating the proposed system are promising. Our bioinformatics user study demonstrates that SciWorCS can leverage real-world data analysis tasks by supporting real-time collaboration among users.</abstract>
+    <identifier type="citekey">Mostaeen-etal-2019-Designing</identifier>
+    <identifier type="doi">10.1145/3331151</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.140</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zhu-etal-2018-Forward">
+    <titleInfo>
+        <title>Forward and Inverse Radar Modeling of Terrestrial Snow Using SnowSAR Data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jiyue</namePart>
+        <namePart type="family">Zhu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shurun</namePart>
+        <namePart type="family">Tan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">King</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Derksen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Lemmetyinen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Tsang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>In this paper, we develop a radar snow water equivalent (SWE) retrieval algorithm based on a parameterized forward model of bicontinuous dense media radiative transfer (Bic-DMRT). The algorithm is based on retrieving the absorption loss of the snowpack which is directly proportional to the SWE. In the algorithm, Bic-DMRT is first applied to generate a lookup table (LUT) of snowpack backscattering at X- and Ku-band. Regression training is applied to the LUT to transform the dual-frequency backscatter into functions of two parameters: the scattering albedo at X-band and SWE. The background scattering is subtracted from the SnowSAR data to give the volume scattering of snow. Classification of SnowSAR data is applied to provide a priori information. Based on the obtained volume scattering and the priori information, a cost function is established to find SWE. Performance of the retrieval algorithm was tested using three sets of airborne SnowSAR data acquired over mixed areas in Finland and open tundra landscape in Canada. It is shown that the retrieval algorithm has a root-mean-square error below 30 mm of SWE and a correlation coefficient above 0.64.</abstract>
+    <identifier type="citekey">Zhu-etal-2018-Forward</identifier>
+    <identifier type="doi">10.1109/TGRS.2018.2848642</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.152</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

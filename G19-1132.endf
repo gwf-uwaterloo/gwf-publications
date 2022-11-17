@@ -1,0 +1,19 @@
+﻿%0 Conference Proceedings
+%T On the choice of calibration metrics for “high-flow” estimation using hydrologic models
+%A Mizukami, N.
+%A Rakovec, O.
+%A Newman, A.
+%A Clark, M.
+%A Wood, A.
+%A Gupta, H.
+%A Kumar, Rohini
+%S Global Water Futures 2019
+%D 2019
+%I University of Waterloo
+%C Online
+%F Mizukami-etal-2019-On
+%X Abstract. Calibration is an essential step for improvingthe accuracy of simulations generated using hydrologic models. A key modelingdecision is selecting the performance metric to be optimized. It has beencommon to use squared error performance metrics, or normalized variants suchas Nash–Sutcliffe efficiency (NSE), based on the idea that theirsquared-error nature will emphasize the estimates of high flows. However, weconclude that NSE-based model calibrations actually result in poorreproduction of high-flow events, such as the annual peak flows that are usedfor flood frequency estimation. Using three different types of performancemetrics, we calibrate two hydrological models at a daily step, the VariableInfiltration Capacity (VIC) model and the mesoscale Hydrologic Model (mHM),and evaluate their ability to simulate high-flow events for 492 basinsthroughout the contiguous United States. The metrics investigated are(1) NSE, (2) Kling–Gupta efficiency (KGE) and its variants, and (3) annualpeak flow bias (APFB), where the latter is an application-specific metricthat focuses on annual peak flows. As expected, the APFB metric produces thebest annual peak flow estimates; however, performance on otherhigh-flow-related metrics is poor. In contrast, the use of NSE results inannual peak flow estimates that are more than 20 % worse, primarily dueto the tendency of NSE to underestimate observed flow variability. On theother hand, the use of KGE results in annual peak flow estimates that arebetter than from NSE, owing to improved flow time series metrics (mean andvariance), with only a slight degradation in performance with respect toother related metrics, particularly when a non-standard weighting of thecomponents of KGE is used. Stochastically generated ensemble simulationsbased on model residuals show the ability to improve the high-flow metrics,regardless of the deterministic performances. However, we emphasize thatimproving the fidelity of streamflow dynamics from deterministicallycalibrated models is still important, as it may improve high-flow metrics(for the right reasons). Overall, this work highlights the need for a deeperunderstanding of performance metric behavior and design in relation to thedesired goals of model calibration.
+%R 10.5194/HESS-23-2601-2019
+%U https://aclanthology.org/2019.GWF-1.132
+%U https://doi.org/10.5194/HESS-23-2601-2019
+

@@ -1,0 +1,19 @@
+﻿%0 Conference Proceedings
+%T High-resolution meteorological forcing data for hydrological modelling and climate change impact analysis in the Mackenzie River Basin
+%A E. Asong, Z.
+%A Elshamy, M.
+%A Princz, D.
+%A Wheater, H.
+%A Pomeroy, J.
+%A Pietroniro, A.
+%A Cannon, A.
+%S Global Water Futures 2020
+%D 2020
+%I University of Waterloo
+%C Online
+%F E.Asong-etal-2020-High-resolution
+%X Abstract. Cold region hydrology is very sensitive to the impacts of climate warming.Impacts of warming over recent decades in western Canada include glacierretreat, permafrost thaw, and changing patterns of precipitation, with anincreased proportion of winter precipitation falling as rainfall and shorter durations of snow cover, as well as consequent changes in flow regimes. Future warming is expected to continue along these lines. Physically realistic andsophisticated hydrological models driven by reliable climate forcing canprovide the capability to assess hydrological responses to climate change.However, the provision of reliable forcing data remains problematic,particularly in data-sparse regions. Hydrological processes in cold regionsinvolve complex phase changes and so are very sensitive to small biases inthe driving meteorology, particularly in temperature and precipitation,including precipitation phase. Cold regions often have sparse surfaceobservations, particularly at high elevations that generate a large amountof runoff. This paper aims to provide an improved set of forcing data forlarge-scale hydrological models for climate change impact assessment. Thebest available gridded data in Canada are from the high-resolution forecastsof the Global Environmental Multiscale (GEM) atmospheric model and outputsof the Canadian Precipitation Analysis (CaPA), but these datasets have ashort historical record. The EU WATCH ERA-Interim reanalysis (WFDEI) has alonger historical record but has often been found to be biased relative toobservations over Canada. The aim of this study, therefore, is to blend thestrengths of both datasets (GEM-CaPA and WFDEI) to produce a less-biasedlong-record product (WFDEI-GEM-CaPA) for hydrological modelling and climatechange impact assessment over the Mackenzie River Basin. First, amultivariate generalization of the quantile mapping technique wasimplemented to bias-correct WFDEI against GEM-CaPA at 3 h \times 0.125 ∘ resolution during the 2005–2016 overlap period, followed by ahindcast of WFDEI-GEM-CaPA from 1979. The derived WFDEI-GEM-CaPA data arevalidated against station observations as a preliminary step to assess theiradded value. This product is then used to bias-correct climate projectionsfrom the Canadian Centre for Climate Modelling and Analysis CanadianRegional Climate Model (CanRCM4) between 1950 and 2100 under RCP8.5, and ananalysis of the datasets shows that the biases in the original WFDEI producthave been removed and the climate change signals in CanRCM4 are preserved.The resulting bias-corrected datasets are a consistent set of historical andclimate projection data suitable for large-scale modelling and futureclimate scenario analysis. The final historical product (WFDEI-GEM-CaPA,1979–2016) is freely available at the Federated Research Data Repository at https://doi.org/10.20383/101.0111 (Asong et al.,2018), while the original and corrected CanRCM4 data are available at https://doi.org/10.20383/101.0162 (Asong et al., 2019).
+%R 10.5194/ESSD-12-629-2020
+%U https://aclanthology.org/2020.GWF-1.64
+%U https://doi.org/10.5194/ESSD-12-629-2020
+

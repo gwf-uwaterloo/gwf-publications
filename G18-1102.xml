@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="WazedNafi-etal-2018-[Research">
+    <titleInfo>
+        <title>[Research Paper] CroLSim: Cross Language Software Similarity Detector Using API Documentation</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kawser</namePart>
+        <namePart type="family">Wazed Nafi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>In today’s open source era, developers look forsimilar software applications in source code repositories for anumber of reasons, including, exploring alternative implementations, reusing source code, or looking for a better application. However, while there are a great many studies for finding similarapplications written in the same programming language, there isa marked lack of studies for finding similar software applicationswritten in different languages. In this paper, we fill the gapby proposing a novel modelCroLSimwhich is able to detectsimilar software applications across different programming lan-guages. In our approach, we use the API documentation tofind relationships among the API calls used by the differentprogramming languages. We adopt a deep learning based word-vector learning method to identify semantic relationships amongthe API documentation which we then use to detect cross-language similar software applications. For evaluating CroLSim, we formed a repository consisting of 8,956 Java, 7,658 C#, and 10,232 Python applications collected from GitHub. Weobserved thatCroLSimcan successfully detect similar softwareapplications across different programming languages with a meanaverage precision rate of 0.65, an average confidence rate of3.6 (out of 5) with 75% high rated successful queries, whichoutperforms all related existing approaches with a significantperformance improvement.</abstract>
+    <identifier type="citekey">Wazed Nafi-etal-2018-[Research</identifier>
+    <identifier type="doi">10.1109/SCAM.2018.00023</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.102</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

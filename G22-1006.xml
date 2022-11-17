@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="AbediniAla-etal-2022-Facilitating">
+    <titleInfo>
+        <title>Facilitating Asynchronous Collaboration in Scientific Workflow Composition Using Provenance</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mostafa</namePart>
+        <namePart type="family">AbediniAla</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Advances in scientific domains are led to an increase in the complexity of the experiments. To address this growing complexity, scientists from different domains require to work collaboratively. Scientific Workflow Management Systems (SWfMSs) are popular tools for data-intensive experiments. To the best of our knowledge, very few of the existing SWfMSs support collaboration, and it is not efficient in many cases. Researchers share a single version of the workflow in existing collaborative data analysis systems, which increases the chance of interference as the number of collaborators grows. Moreover, for effective collaboration, contributors require a clear view of the project’s status, the information that existing SWfMSs do not provide. Another significant problem is most scientists are not capable of adding collaborative tools to existing SWfMSs, and they need software engineers to take on this responsibility. Even for software engineers such tasks could be challenging and time consuming. In this paper, we attempted to address this crucial issue in scientific workflow composition and doing so in a collaborative setting. Hence, we propose a tool to facilitate collaborative workflow composition. This tool provides branching and versioning, which are standard version control system features to allow multiple researchers to contribute to the project asynchronously. We also suggest some visualizations and a variety of reports to increase group awareness and help the scientists to realize the project’s status and issues. As a proof of concept, we developed an API to capture the provenance data and provide collaborative tools. This API is developed as an example for software engineers to help them understand how to integrate collaborative tools into any SWfMS. We collect provenance information during workflow composition and then employ it to track workflow versions using the proposed collaborative tool. Prior to implementing the visualizations, we surveyed to discover how much the proposed visualizations could contribute to group awareness. Moreover, in the survey we investigated to what extent the proposed version control system could help address shortcomings in collaborative experiments. The survey participants provided us with valuable feedback. In future, we will use the survey responses to enhance the proposed version control system and visualizations.</abstract>
+    <identifier type="citekey">AbediniAla-etal-2022-Facilitating</identifier>
+    <identifier type="doi">10.1145/3534520</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.6</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="AnaytulIslam-etal-2018-[Research">
+    <titleInfo>
+        <title>[Research Paper] Detecting Evolutionary Coupling Using Transitive Association Rules</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Md.</namePart>
+        <namePart type="family">Anaytul Islam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Md.</namePart>
+        <namePart type="family">Moksedul Islam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>If two or more program entities (such as files, classes, methods) co-change (i.e., change together) frequently during software evolution, then it is likely that these two entities are coupled (i.e., the entities are related). Such a coupling is termed as evolutionary coupling in the literature. The concept of traditional evolutionary coupling restricts us to assume coupling among only those entities that changed together in the past. The entities that did not co-change in the past might also have coupling. However, such couplings can not be retrieved using the current concept of detecting evolutionary coupling in the literature. In this paper, we investigate whether we can detect such couplings by applying transitive rules on the evolutionary couplings detected using the traditional mechanism. We call these couplings that we detect using our proposed mechanism as transitive evolutionary couplings. According to our research on thousands of revisions of four subject systems, transitive evolutionary couplings combined with the traditional ones provide us with 13.96% higher recall and 5.56% higher precision in detecting future co-change candidates when compared with a state-of-the-art technique.</abstract>
+    <identifier type="citekey">Anaytul Islam-etal-2018-[Research</identifier>
+    <identifier type="doi">10.1109/SCAM.2018.00020</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.62</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

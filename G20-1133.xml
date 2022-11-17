@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Marsh-etal-2020-The">
+    <titleInfo>
+        <title>The Canadian Hydrological Model (CHM) v1.0: a multi-scale, multi-extent, variable-complexity hydrological model – design and overview</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract. Despite debate in the rainfall–runoff hydrology literature about the meritsof physics-based and spatially distributed models, substantial work in cold-region hydrology has shown improved predictive capacity by includingphysics-based process representations, relatively high-resolution semi-distributed andfully distributed discretizations, and the use of physically identifiableparameters that require limited calibration. While there is increasingmotivation for modelling at hyper-resolution (  1 km) and snowdrift-resolving scales ( \approx  1 to 100 m), the capabilities ofexisting cold-region hydrological models are computationally limited atthese scales. Here, a new distributed model, the Canadian Hydrological Model (CHM), ispresented. Although designed to be applied generally, it has a focus forapplication where cold-region processes play a role in hydrology. Keyfeatures include the ability to do the following: capture spatial heterogeneity in the surfacediscretization in an efficient manner via variable-resolution unstructuredmeshes; include multiple process representations; change,remove, and decouple hydrological process algorithms; work at both apoint and spatially distributed scale; scale to multiple spatialextents and scales; and utilize a variety of forcing fields (boundary andinitial conditions). This paper focuses on the overall model philosophyand design, and it provides a number of cold-region-specific features andexamples.</abstract>
+    <identifier type="citekey">Marsh-etal-2020-The</identifier>
+    <identifier type="doi">10.5194/GMD-13-225-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.133</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T Associating Code Clones with Association Rules for Change Impact Analysis
+%A Mondal, Manishankar
+%A Roy, B.
+%A Roy, C.
+%A A. Schneider, Kevin
+%S Global Water Futures 2020
+%D 2020
+%I University of Waterloo
+%C Online
+%F Mondal-etal-2020-Associating
+%X When a programmer makes changes to a target program entity (files, classes, methods), it is important to identify which other entities might also get impacted. These entities constitute the impact set for the target entity. Association rules have been widely used for discovering the impact sets. However, such rules only depend on the previous co-change history of the program entities ignoring the fact that similar entities might often need to be updated together consistently even if they did not co-change before. Considering this fact, we investigate whether cloning relationships among program entities can be associated with association rules to help us better identify the impact sets. In our research, we particularly investigate whether the impact set detection capability of a clone detector can be utilized to enhance the capability of the state-of-the-art association rule mining technique, Tarmaq, in discovering impact sets. We use the well known clone detector called NiCad in our investigation and consider both regular and micro-clones. Our evolutionary analysis on thousands of commit operations of eight diverse subject systems reveals that consideration of code clones can enhance the impact set detection accuracy of Tarmaq with a significantly higher precision and recall. Micro-clones of 3LOC and 4LOC and regular code clones of 5LOC to 20LOC contribute the most towards enhancing the detection accuracy.
+%R 10.1109/SANER48275.2020.9054846
+%U https://aclanthology.org/2020.GWF-1.137
+%U https://doi.org/10.1109/SANER48275.2020.9054846
+

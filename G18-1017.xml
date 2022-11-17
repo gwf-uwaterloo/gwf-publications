@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Barszcz-etal-2018-Improving">
+    <titleInfo>
+        <title>Improving the Explicit Prediction of Freezing Rain in a Kilometer-Scale Numerical Weather Prediction Model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Barszcz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Milbrandt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>AbstractA freezing rain event, in which the Meteorological Centre of Canada’s 2.5-km numerical weather prediction system significantly underpredicted the quantity of freezing rain, is examined. The prediction system models precipitation types explicitly, directly from the Milbrandt–Yau microphysics scheme. It was determined that the freezing rain underprediction for this case was due primarily to excessive refreezing of rain, originating from melting snow and graupel, in and under the temperature inversion of the advancing warm front ultimately depleting the supply of rain reaching the surface. The refreezing was caused from excessive collisional freezing between rain and graupel. Sensitivity experiments were conducted to examine the effects of a temperature threshold for collisional freezing and on varying the values of the collection efficiencies between rain and ice-phase hydrometeors. It was shown that by reducing the rain–graupel collection efficiency and by imposing a temperature threshold of −5°C, ...</abstract>
+    <identifier type="citekey">Barszcz-etal-2018-Improving</identifier>
+    <identifier type="doi">10.1175/WAF-D-17-0136.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.17</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T FLeCCS: A Technique for Suggesting Fragment-Level Similar Co-change Candidates
+%A Mondal, Manishankar
+%A Roy, C.
+%A Roy, B.
+%A A. Schneider, Kevin
+%S Global Water Futures 2021
+%D 2021
+%I University of Waterloo
+%C Online
+%F Mondal-etal-2021-FLeCCS:
+%X When a programmer changes a particular code fragment, the other similar code fragments in the code-base may also need to be changed together (i.e., co-changed) consistently to ensure that the software system remains consistent. Existing studies and tools apply clone detectors to identify these similar co-change candidates for a target code fragment. However, clone detectors suffer from a confounding configuration choice problem and it affects their accuracy in retrieving co-change candidates.In our research, we propose and empirically evaluate a lightweight co-change suggestion technique that can automatically suggest fragment level similar co-change candidates for a target code fragment using WA-DiSC (Weighted Average Dice–Sørensen Co-efficient) through a context-sensitive mining of the entire code-base. We apply our technique, FLeCCS (Fragment Level Co-change Candidate Suggester), on six subject systems written in three different programming languages (Java, C, and C#) and compare its performance with the existing state-of-the-art techniques. According to our experiment, our technique outperforms not only the existing code clone based techniques but also the association rule mining based techniques in detecting co-change candidates with a significantly higher accuracy (precision and recall). We also find that File Proximity Ranking performs significantly better than Similarity Extent Ranking when ranking the co-change candidates suggested by our proposed technique.
+%R 10.1109/ICPC52881.2021.00024
+%U https://aclanthology.org/2021.GWF-1.21
+%U https://doi.org/10.1109/ICPC52881.2021.00024
+

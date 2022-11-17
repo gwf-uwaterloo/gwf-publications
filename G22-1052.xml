@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Lipoth-etal-2022-A">
+    <titleInfo>
+        <title>A new very simply explicitly invertible approximation for the standard normal cumulative distribution function</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jessica</namePart>
+        <namePart type="family">Lipoth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yoseph</namePart>
+        <namePart type="family">Tereda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>This paper proposes a new very simply explicitly invertible function to approximate the standard normal cumulative distribution function (CDF). The new function was fit to the standard normal CDF using both MATLAB’s Global Optimization Toolbox and the BARON software package. The results of three separate fits are presented in this paper. Each fit was performed across the range $ 0 \textbackslashleq z \textbackslashleq 7 $ and achieved a maximum absolute error (MAE) superior to the best MAE reported for previously published very simply explicitly invertible approximations of the standard normal CDF. The best MAE reported from this study is 2.73e–05, which is nearly a factor of five better than the best MAE reported for other published very simply explicitly invertible approximations.</abstract>
+    <identifier type="citekey">Lipoth-etal-2022-A</identifier>
+    <identifier type="doi">10.3934/math.2022648</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.52</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

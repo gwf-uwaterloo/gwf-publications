@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Rakovec-etal-2019-Diagnostic">
+    <titleInfo>
+        <title>Diagnostic Evaluation of Large‐Domain Hydrologic Models Calibrated Across the Contiguous United States</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">O</namePart>
+        <namePart type="family">Rakovec</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="family">Mizukami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rohini</namePart>
+        <namePart type="family">Kumar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Newman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Thober</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Samaniego</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>This study presents diagnostic evaluation of two large‐domain hydrologic models: the mesoscale Hydrologic Model (mHM) and the Variable Infiltration Capacity (VIC) over the contiguous United States (CONUS). These models have been calibrated using the Multiscale Parameter Regionalization scheme in a joint, multibasin approach using 492 medium‐sized basins across the CONUS yielding spatially distributed model parameter sets. The mHM simulations are used as a performance benchmark to examine performance deficiencies in the VIC model. We find that after calibration to streamflow, VIC generally overestimates the magnitude and temporal variability of evapotranspiration (ET) as compared to mHM as well as the FLUXNET observation‐based ET product, resulting in underestimation of the mean and variability of runoff. We perform a controlled calibration experiment to investigate the effect of varying number of transfer function parameters in mHM and to enable a fair comparison between both models (14 and 48 for mHM vs. 14 for VIC). Results of this experiment show similar behavior of mHM with 14 and 48 parameters. Furthermore, we diagnose the internal functioning of the VIC model by looking at the relationship of the evaporative fraction versus the degree of soil saturation and compare it with that of the mHM model, which has a different model structure, a prescribed nonlinear relationship between these variables and exhibits better model skill than VIC. Despite these limitations, the VIC‐based CONUS‐wide calibration constrained against streamflow exhibits better ET skill as compared to two preexisting independent VIC studies.</abstract>
+    <identifier type="citekey">Rakovec-etal-2019-Diagnostic</identifier>
+    <identifier type="doi">10.1029/2019JD030767</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.162</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

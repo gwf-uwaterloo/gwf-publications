@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="F.Thompson-etal-2021-Considerations">
+    <titleInfo>
+        <title>Considerations for Ku-Band Radar Retrieval of Snow Water Equivalent at Mid-Latitude Ontario Agricultural Sites</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">F. Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kelly</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract Mid-latitude snow is understudied compared to snow in the northern high latitudes despite its importance as a source of freshwater to this economically significant region. The mid-latitudes provide opportunity to understand the influence on SWE retrievals of ice and vegetation, conditions which may encroach the north with a warming climate. Successful retrieval of SWE and snow depth was demonstrated using the Microwave Emission Model of Layered Snowpacks, adapted for backscattering (MEMLS3&amp;a) with multi-angle Ku-band UWScat snow observations (VV polarization), of agricultural fields in Maryhill and Englehart, Ontario. A single-layer parameterization provided best results for Maryhill (RMSE of 21.9 mm SWE) while a dual-layer parameterization provided best results for Englehart (RMSE of 24.6 mm). Accounting for soil effects using a soil-subtraction method improved RMSE by up to 6.3 mm SWE. Retrievals were repeated with in situ snow depths improving accuracy at both sites (RMSE = 12.0 and 10.9 mm SWE for Maryhill and Englehart, respectively). Observations containing ice lenses and partially buried vegetation yielded a retrieval accuracy of RMSE = 60.4 mm which improved with in situ snow depths (RMSE = 21.1 mm SWE). These results compared favorably with the often-cited accuracy requirement of RMSE = 30 mm SWE.</abstract>
+    <identifier type="citekey">F. Thompson-etal-2021-Considerations</identifier>
+    <identifier type="doi">10.1080/07038992.2021.1898938</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.142</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Srivastava-etal-2015-Variance">
+    <titleInfo>
+        <title>Variance Based Global Sensitivity Analysis for Uncorrelated and Correlated Inputs With Gaussian Processes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ankur</namePart>
+        <namePart type="family">Srivastava</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Arun</namePart>
+        <namePart type="family">K. Subramaniyan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Liping</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2015</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2015</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Methods for efficient variance based global sensitivity analysis of complex high-dimensional problems are presented and compared. Variance decomposition methods rank inputs according to Sobol indices which can be computationally expensive to evaluate. Main and interaction effect Sobol indices can be computed efficiently in the Kennedy &amp; O’Hagan framework with Gaussian Processes (GPs). These methods use the High Dimensional Model Representation (HDMR) concept for variance decomposition which presents a unique model representation when inputs are uncorrelated. However, when the inputs are correlated, multiple model representations may be possible leading to ambiguous sensitivity ranking with Sobol indices. In this work we present the effect of input correlation on sensitivity analysis and discuss the methods presented by Li &amp; Rabitz in the context of Kennedy &amp; O’ Hagan framework with GPs. Results are demonstrated on simulated and real problems for correlated and uncorrelated inputs and demonstrate the utility of variance decomposition methods for sensitivity analysis.Copyright \copyright 2015 by ASME</abstract>
+    <identifier type="citekey">Srivastava-etal-2015-Variance</identifier>
+    <identifier type="doi">10.1115/GT2015-43693</identifier>
+    <location>
+        <url>https://aclanthology.org/2015.GWF-1.7</url>
+    </location>
+    <part>
+        <date>2015</date>
+    </part>
+</mods>
+</modsCollection>

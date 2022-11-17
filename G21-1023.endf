@@ -1,0 +1,14 @@
+﻿%0 Conference Proceedings
+%T Automatically Generating Release Notes with Content Classification Models
+%A Sumana Nath, Sristy
+%A Roy, B.
+%S Global Water Futures 2021
+%D 2021
+%I University of Waterloo
+%C Online
+%F SumanaNath-etal-2021-Automatically
+%X Release notes are admitted as an essential technical document in software maintenance. They summarize the main changes, e.g. bug fixes and new features, that have happened in the software since the previous release. Manually producing release notes is a time-consuming and challenging task. For that reason, sometimes developers neglect to write release notes. For example, we collect data from GitHub with over 1900 releases, and among them, 37% of the release notes are empty. To mitigate this problem, we propose an automatic release notes generation approach by applying the text summarization techniques, i.e. TextRank. To improve the keyword extraction method of traditional TextRank, we integrate the GloVe word embedding technique with TextRank. After generating release notes automatically, we apply machine learning algorithms to classify the release note contents (or sentences). We classify the contents into six categories, e.g. bug fixes and performance improvements, to represent the release notes better for users. We use the evaluation metric, e.g. ROUGE, to evaluate the automatically generated release notes. We also compare the performance of our technique with two popular extractive algorithms, e.g. Luhn’s and latent semantic analysis (LSA). Our evaluation results show that the improved TextRank method outperforms the two algorithms.
+%R 10.1142/s0218194021400192
+%U https://aclanthology.org/2021.GWF-1.23
+%U https://doi.org/10.1142/s0218194021400192
+

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Yassin-etal-2017-Enhanced">
+    <titleInfo>
+        <title>Enhanced identification of a hydrologic model using streamflow and satellite water storage data: A multicriteria sensitivity analysis and optimization approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">G</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Davison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2017</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Hydrologic model development and calibration have continued in most cases to focus only on accurately reproducing streamflows. However, complex models, for example, the so‐called physically based models, possess large degrees of freedom that, if not constrained properly, may lead to poor model performance when used for prediction. We argue that constraining a model to represent streamflow, which is an integrated resultant of many factors across the watershed, is necessary but by no means sufficient to develop a high‐fidelity model. To address this problem, we develop a framework to utilize the Gravity Recovery and Climate Experiment’s (GRACE) total water storage anomaly data as a supplement to streamflows for model calibration, in a multiobjective setting. The VARS method (Variogram Analysis of Response Surfaces) for global sensitivity analysis is used to understand the model behaviour with respect to streamflow and GRACE data, and the BORG multiobjective optimization method is applied for model calibration. Two subbasins of the Saskatchewan River Basin in Western Canada are used as a case study. Results show that the developed framework is superior to the conventional approach of calibration only to streamflows, even when multiple streamflow‐based error functions are simultaneously minimized. It is shown that a range of (possibly false) system trajectories in state variable space can lead to similar (acceptable) model responses. This observation has significant implications for land‐surface and hydrologic model development and, if not addressed properly, may undermine the credibility of the model in prediction. The framework effectively constrains the model behaviour (by constraining posterior parameter space) and results in more credible representation of hydrology across the watershed.</abstract>
+    <identifier type="citekey">Yassin-etal-2017-Enhanced</identifier>
+    <identifier type="doi">10.1002/hyp.11267</identifier>
+    <location>
+        <url>https://aclanthology.org/2017.GWF-1.48</url>
+    </location>
+    <part>
+        <date>2017</date>
+    </part>
+</mods>
+</modsCollection>

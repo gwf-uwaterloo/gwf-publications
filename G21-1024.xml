@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Odunayo-etal-2021-Rescuing">
+    <titleInfo>
+        <title>Rescuing historical climate observations to support hydrological research: a case study of solar radiation data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ogundepo</namePart>
+        <namePart type="family">Odunayo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Naveela</namePart>
+        <namePart type="family">N. Sookoo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gautam</namePart>
+        <namePart type="family">Bathla</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anthony</namePart>
+        <namePart type="family">Cavallin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Persaud</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kathy</namePart>
+        <namePart type="family">Szigeti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>The acceleration of climate change and its impact highlight the need for long-term reliable climate data at high spatiotemporal resolution to answer key science questions in cold regions hydrology. Prior to the digital age, climate records were archived on paper. For example, from the 1950s to the 1990s, solar radiation data from recording stations worldwide were published in booklets by the former Union of Soviet Socialist Republics (USSR) Hydrometeorological Service. As a result, the data are not easily accessible by most researchers. The overarching aim of this research is to develop techniques to convert paper-based climate records into a machine-readable format to support environmental research in cold regions. This study compares the performance of a proprietary optical character recognition (OCR) service with an open-source OCR tool for digitizing hydrometeorological data. We built a digitization pipeline combining different image preprocessing techniques, semantic segmentation, and an open-source OCR engine for extracting data and metadata recorded in the scanned documents. Each page contains blocks of text with station names and tables containing the climate data. The process begins with image preprocessing to reduce noise and to improve quality before the page content is segmented to detect tables and finally run through an OCR engine for text extraction. We outline the digitization process and report on initial results, including different segmentation approaches, preprocessing image algorithms, and OCR techniques to ensure accurate extraction and organization of relevant metadata from thousands of scanned climate records. We evaluated the performance of Tesseract OCR and ABBYY FineReader on text extraction. We find that although ABBY FineReader has better accuracy on the sample data, our custom extraction pipeline using Tesseract is efficient and scalable because it is flexible and allows for more customization.</abstract>
+    <identifier type="citekey">Odunayo-etal-2021-Rescuing</identifier>
+    <identifier type="doi">10.1145/3469096.3474929</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.24</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

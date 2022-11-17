@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Harder-etal-2019-A">
+    <titleInfo>
+        <title>A simple model for local-scale sensible and latent heat advection contributions to snowmelt</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Harder</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract. Local-scale advection of energy from warm snow-free surfaces to coldsnow-covered surfaces is an important component of the energy balance duringsnow-cover depletion. Unfortunately, this process is difficult to quantify inone-dimensional snowmelt models. This paper proposes a simple sensible andlatent heat advection model for snowmelt situations that can be readilycoupled to one-dimensional energy balance snowmelt models. An existingadvection parameterization was coupled to a conceptual frozen soilinfiltration surface water retention model to estimate the areal averagesensible and latent heat advection contributions to snowmelt. The proposedmodel compared well with observations of latent and sensible heat advection,providing confidence in the process parameterizations and the assumptionsapplied. Snow-covered area observations from unmanned aerial vehicle imagerywere used to update and evaluate the scaling properties of snow patch areadistribution and lengths. Model dynamics and snowmelt implications wereexplored within an idealized modelling experiment, by coupling to aone-dimensional energy balance snowmelt model. Dry, snow-free surfaces wereassociated with advection of dry air that compensated for positive sensibleheat advection fluxes and so limited the net influence of advection onsnowmelt. Latent and sensible heat advection fluxes both contributed positivefluxes to snow when snow-free surfaces were wet and enhanced net advectioncontributions to snowmelt. The increased net advection fluxes from wetsurfaces typically develop towards the end of snowmelt and offset decreasesin the one-dimensional areal average melt energy that declines withsnow-covered area. The new model can be readily incorporated into existingone-dimensional snowmelt hydrology and land surface scheme models and willfoster improvements in snowmelt understanding and predictions.</abstract>
+    <identifier type="citekey">Harder-etal-2019-A</identifier>
+    <identifier type="doi">10.5194/HESS-23-1-2019</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.73</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

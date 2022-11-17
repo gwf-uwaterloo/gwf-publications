@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="R.Green-etal-2019-Extended">
+    <titleInfo>
+        <title>Extended BACOLI</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">R. Green</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>BACOLI is a Fortran software package for solving one-dimensional parabolic partial differential equations (PDEs) with separated boundary conditions by B-spline adaptive collocation methods. A distinguishing feature of BACOLI is its ability to estimate and control error and correspondingly adapt meshes in both space and time. Many models of scientific interest, however, can be formulated as multiscale parabolic PDE systems, that is, models that couple a system of parabolic PDEs describing dynamics on a global scale with a system of ordinary differential equations describing dynamics on a local scale. This article describes the Fortran software eBACOLI, the extension of BACOLI to solve such multiscale models. The performance of the extended software is demonstrated to be statistically equivalent to the original for purely parabolic PDE systems. Results from eBACOLI are given for various multiscale models from the extended problem class considered.</abstract>
+    <identifier type="citekey">R. Green-etal-2019-Extended</identifier>
+    <identifier type="doi">10.1145/3301320</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.66</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Saifullah-etal-2020-Exploring">
+    <titleInfo>
+        <title>Exploring Type Inference Techniques of Dynamically Typed Languages</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Saifullah</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Asaduzzaman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Developers often prefer dynamically typed programming languages, such as JavaScript, because such languages do not require explicit type declarations. However, such a feature hinders software engineering tasks, such as code completion, type related bug fixes and so on. Deep learning-based techniques are proposed in the literature to infer the types of code elements in JavaScript snippets. These techniques are computationally expensive. While several type inference techniques have been developed to detect types in code snippets written in statically typed languages, it is not clear how effective those techniques are for inferring types in dynamically typed languages, such as JavaScript. In this paper, we investigate the type inference techniques of JavaScript to understand the above two issues further. While doing that we propose a new technique that considers the locally specific code tokens as the context to infer the types of code elements. The evaluation result shows that the proposed technique is 20-47% more accurate than the statically typed language-based techniques and 5–14 times faster than the deep learning techniques without sacrificing accuracy. Our analysis of sensitivity, overlapping of predicted types and the number of training examples justify the importance of our technique.</abstract>
+    <identifier type="citekey">Saifullah-etal-2020-Exploring</identifier>
+    <identifier type="doi">10.1109/SANER48275.2020.9054814</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.165</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

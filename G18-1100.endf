@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T Fine-Grained Attribute Level Locking Scheme for Collaborative Scientific Workflow Development
+%A Mostaeen, Golam
+%A Roy, B.
+%A Roy, C.
+%A A. Schneider, Kevin
+%S Global Water Futures 2018
+%D 2018
+%I University of Waterloo
+%C Online
+%F Mostaeen-etal-2018-Fine-Grained
+%X Scientific Workflow Management Systems are being widely used in recent years for data-intensive analysis tasks or domain-specific discoveries. It often becomes challenging for an individual to effectively analyze the large scale scientific data of relatively higher complexity and dimensions, and requires a collaboration of multiple members of different disciplines. Hence, researchers have focused on designing collaborative workflow management systems. However, consistency management in the face of conflicting concurrent operations of the collaborators is a major challenge in such systems. In this paper, we propose a locking scheme (e.g., collaborator gets write access to non-conflicting components of the workflow at a given time) to facilitate consistency management in collaborative scientific workflow management systems. The proposed method allows locking workflow components at a granular level in addition to supporting locks on a targeted part of the collaborative workflow. We conducted several experiments to analyze the performance of the proposed method in comparison to related existing methods. Our studies show that the proposed method can reduce the average waiting time of a collaborator by up to 36.19% in comparison to existing descendent modular level locking techniques for collaborative scientific workflow management systems.
+%R 10.1109/SCC.2018.00047
+%U https://aclanthology.org/2018.GWF-1.100
+%U https://doi.org/10.1109/SCC.2018.00047
+

@@ -1,0 +1,18 @@
+﻿%0 Conference Proceedings
+%T Flexible vector-based spatial configurations in land models
+%A Gharari, S.
+%A Clark, M.
+%A Mizukami, N.
+%A Knoben, W.
+%A S. Wong, Jefferson
+%A Pietroniro, A.
+%S Global Water Futures 2020
+%D 2020
+%I University of Waterloo
+%C Online
+%F Gharari-etal-2020-Flexible
+%X Abstract. Land models are increasingly used in terrestrial hydrology due totheir process-oriented representation of water and energy fluxes. A priorispecification of the grid size of the land models is typically defined basedon the spatial resolution of forcing data, the modeling objectives, theavailable geospatial information, and computational resources. Thevariability of the inputs, soil types, vegetation covers, and forcing ismasked or aggregated based on the a priori grid size. In this study, we propose analternative vector-based implementation to directly configure a land modelusing unique combinations of land cover types, soil types, and other desiredgeographical features that have hydrological significance, such as elevationzone, slope, and aspect. The main contributions of this paper are to (1) implement the vector-based spatial configuration using the VariableInfiltration Capacity (VIC) model; (2) illustrate how the spatialconfiguration of the model affects simulations of basin-average quantities(i.e., streamflow) as well as the spatial variability of internal processes(snow water equivalent, SWE, and evapotranspiration, ET); and (3) describe the work and challenges ahead to improve thespatial structure of land models. Our results show that a modelconfiguration with a lower number of computational units, once calibrated,may have similar accuracy to model configurations with more computationalunits. However, the different calibrated parameter sets produce a range of,sometimes contradicting, internal states and fluxes. To better address theshortcomings of the current generation of land models, we encourage the landmodel community to adopt flexible spatial configurations to improve modelrepresentations of fluxes and states at the scale of interest.
+%R 10.5194/hess-2020-111
+%U https://aclanthology.org/2020.GWF-1.105
+%U https://doi.org/10.5194/hess-2020-111
+

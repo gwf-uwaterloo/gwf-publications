@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="SumanaNath-etal-2022-Exploring">
+    <titleInfo>
+        <title>Exploring Relevant Artifacts of Release Notes: The Practitioners’ Perspective</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Sristy</namePart>
+        <namePart type="family">Sumana Nath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>A software release note is one of the essential documents in the software development life cycle. The software release contains a set of information, e.g., bug fixes and security fixes. Release notes are used in different phases, e.g., requirement engineering, software testing and release management. Different types of practitioners (e.g., project managers and clients) get benefited from the release notes to understand the overview of the latest release. As a result, several studies have been done about release notes production and usage in practice. However, two significant problems (e.g., duplication and inconsistency in release notes contents) exist in producing well-written &amp; well-structured release notes and organizing appropriate information regarding different targeted users’ needs. For that reason, practitioners face difficulties in writing and reading the release notes using existing tools. To mitigate these problems, we execute two different studies in our paper. First, we execute an exploratory study by analyzing 3,347 release notes of 21 GitHub repositories to understand the documented contents of the release notes. As a result, we find relevant key artifacts, e.g., issues (29%), pull-requests (32%), commits (19%), and common vulnerabilities and exposures (CVE) issues (6%) in the release note contents. Second, we conduct a survey study with 32 professionals to understand the key information that is included in release notes regarding users’ roles. For example, project managers are more interested in learning about new features than less critical bug fixes. Our study can guide future research directions to help practitioners produce the release notes with relevant content and improve the documentation quality.</abstract>
+    <identifier type="citekey">Sumana Nath-etal-2022-Exploring</identifier>
+    <identifier type="doi">10.48550/arXiv.2204.05355</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.11</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

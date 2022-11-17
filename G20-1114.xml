@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Hoekstra-etal-2020-Lake">
+    <titleInfo>
+        <title>Lake Ice-Water Classification of RADARSAT-2 Images by Integrating IRGS Segmentation with Pixel-Based Random Forest Labeling</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hoekstra</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mingzhe</namePart>
+        <namePart type="family">Jiang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="family">A Clausi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Changes to ice cover on lakes throughout the northern landscape has been established as an indicator of climate change and variability, expected to have implications for both human and environmental systems. Monitoring lake ice cover is also required to enable more reliable weather forecasting across lake-rich northern latitudes. Currently, the Canadian Ice Service (CIS) monitors lakes using synthetic aperture radar (SAR) and optical imagery through visual interpretation, with total lake ice cover reported weekly as a fraction out of ten. An automated method of classification would allow for more detailed records to be delivered operationally. In this research, we present an automatic ice-mapping approach which integrates unsupervised segmentation from the Iterative Region Growing using Semantics (IRGS) algorithm with supervised random forest (RF) labeling. IRGS first locally segments homogeneous regions in an image, then merges similar regions into classes across the entire scene. Recently, these output regions were manually labeled by the user to generate ice maps, or were labeled using a Support Vector Machine (SVM) classifier. Here, three labeling methods (Manual, SVM, and RF) are applied after IRGS segmentation to perform ice-water classification on 36 RADARSAT-2 scenes of Great Bear Lake (Canada). SVM and RF classifiers are also tested without integration with IRGS. An accuracy assessment has been performed on the results, comparing outcomes with author-generated reference data, as well as the reported ice fraction from CIS. The IRGS-RF average classification accuracy for this dataset is 95.8%, demonstrating the potential of this automated method to provide detailed and reliable lake ice cover information operationally.</abstract>
+    <identifier type="citekey">Hoekstra-etal-2020-Lake</identifier>
+    <identifier type="doi">10.3390/rs12091425</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.114</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

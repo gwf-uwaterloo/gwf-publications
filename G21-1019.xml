@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mondal-etal-2021-Semantic">
+    <titleInfo>
+        <title>Semantic Slicing of Architectural Change Commits: Towards Semantic Design Review</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sristy</namePart>
+        <namePart type="family">Sumana Nath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Software architectural changes involve more than one module or component and are complex to analyze compared to local code changes. Development teams aiming to review architectural aspects (design) of a change commit consider many essential scenarios such as access rules and restrictions on usage of program entities across modules. Moreover, design review is essential when proper architectural formulations are paramount for developing and deploying a system. Untangling architectural changes, recovering semantic design, and producing design notes are the crucial tasks of the design review process. To support these tasks, we construct a lightweight tool [4] that can detect and decompose semantic slices of a commit containing architectural instances. A semantic slice consists of a description of relational information of involved modules, their classes, methods and connected modules in a change instance, which is easy to understand to a reviewer. We extract various directory and naming structures (DANS) properties from the source code for developing our tool. Utilizing the DANS properties, our tool first detects architectural change instances based on our defined metric and then decomposes the slices (based on string processing). Our preliminary investigation with ten open-source projects (developed in Java and Kotlin) reveals that the DANS properties produce highly reliable precision and recall (93-100%) for detecting and generating architectural slices. Our proposed tool will serve as the preliminary approach for the semantic design recovery and design summary generation for the project releases.</abstract>
+    <identifier type="citekey">Mondal-etal-2021-Semantic</identifier>
+    <identifier type="doi">10.1145/3475716.3484487</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.19</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

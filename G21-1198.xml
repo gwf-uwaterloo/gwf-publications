@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Thériault-etal-2021-Improvement">
+    <titleInfo>
+        <title>Improvement of Solid Precipitation Measurements Using a Hotplate Precipitation Gauge</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="family">Leroux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Rasmussen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Accurate snowfall measurement is challenging because it depends on the precipitation gauge used, meteorological conditions, and the precipitation microphysics. Upstream of weighing gauges, the flow field is disturbed by the gauge and any shielding used usually creates an updraft, which deflects solid precipitation from falling in the gauge, resulting in significant undercatch. Wind shields are often used with weighing gauges to reduce this updraft, and transfer functions are required to adjust the snowfall measurements to consider gauge undercatch. Using these functions reduces the bias in precipitation measurement but not the root-mean-square error (RMSE). In this study, the accuracy of the Hotplate precipitation gauge was compared to standard unshielded and shielded weighing gauges collected during the WMO Solid Precipitation Intercomparison Experiment program. The analysis performed in this study shows that the Hotplate precipitation gauge bias after wind correction is near zero and similar to wind corrected weighing gauges. The RMSE of the Hotplate precipitation gauge measurements is lower than weighing gauges (with or without an Alter shield) for wind speeds up to 5 m s−1, the wind speed limit at which sufficient data were available. This study shows that the Hotplate precipitation gauge measurement has a low bias and RMSE due to its aerodynamic shape, making its performance mostly independent of the type of solid precipitation.</abstract>
+    <identifier type="citekey">Thériault-etal-2021-Improvement</identifier>
+    <identifier type="doi">10.1175/JHM-D-20-0168.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.198</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

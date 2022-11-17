@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="F.Thompson-etal-2021-Estimating">
+    <titleInfo>
+        <title>Estimating wind slab thickness in a Tundra snowpack using Ku-band scatterometer observations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">F. Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Kelly</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>ABSTRACT Estimating snow water equivalent (SWE) in the northern high latitudesis important from climate, ecological and human perspectives since it enables us to track changes in spatiotemporal distribution of snow. The snow in much of this region is described as tundra, comprised of wind slab and depth hoar. Recent work in tundra environments has identified the potential of wind slab to limit radar sensitivity to SWE at 17.2 GHz, which has negative implications for SWE retrievals and demonstrates a need to constrain retrieval parameters. Radar measurements at 17.2 GHz were made in Trail Valley Creek using the University of Waterloo Scatterometer (UWScat), and combined with the Freeman-Durden polarimetric decomposition to address this need by introducing a novel relationship between wind slab thickness and double-bounce scattering, which can be used to constrain wind slab thickness. The relationship strengthens with path length through wind slab and was strong at incidence angles \geq 46° and wind slab with thickness \geq 19 cm. Wind slab thickness and SWE were estimated with an RMSE of 6.0 cm and 5.5 mm, respectively. This relationship is valid for use in tundra snow with depth hoar. More testing is recommended to determine the maximum detectable wind slab thickness.</abstract>
+    <identifier type="citekey">F. Thompson-etal-2021-Estimating</identifier>
+    <identifier type="doi">10.1080/2150704X.2021.1961174</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.141</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

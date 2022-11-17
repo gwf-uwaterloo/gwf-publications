@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T HistoRank: History-Based Ranking of Co-change Candidates
+%A Mondal, Manishankar
+%A Roy, B.
+%A Roy, C.
+%A A. Schneider, Kevin
+%S Global Water Futures 2020
+%D 2020
+%I University of Waterloo
+%C Online
+%F Mondal-etal-2020-HistoRank:
+%X Evolutionary coupling is a well investigated phenomenon during software evolution and maintenance. If two or more program entities co-change (i.e., change together) frequently during evolution, it is expected that the entities are coupled. This type of coupling is called evolutionary coupling or change coupling in the literature. Evolutionary coupling is realized using association rules and two measures: support and confidence. Association rules have been extensively used for predicting co-change candidates for a target program entity (i.e., an entity that a programmer attempts to change). However, association rules often predict a large number of co-change candidates with many false positives. Thus, it is important to rank the predicted co-change candidates so that the true positives get higher priorities. The predicted co-change candidates have always been ranked using the support and confidence measures of the association rules. In our research, we investigate five different ranking mechanisms on thousands of commits of ten diverse subject systems. On the basis of our findings, we propose a history-based ranking approach, HistoRank (History-based Ranking), that analyzes the previous ranking history to dynamically select the most appropriate one from those five ranking mechanisms for ranking co-change candidates of a target program entity. According to our experiment result, HistoRank outperforms each individual ranking mechanism with a significantly better MAP (mean average precision). We investigate different variants of HistoRank and realize that the variant that emphasizes the ranking in the most recent occurrence of co-change in the history performs the best.
+%R 10.1109/SANER48275.2020.9054869
+%U https://aclanthology.org/2020.GWF-1.138
+%U https://doi.org/10.1109/SANER48275.2020.9054869
+

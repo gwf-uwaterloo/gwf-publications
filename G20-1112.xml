@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="RakibHasan-etal-2020-Tracing">
+    <titleInfo>
+        <title>Tracing shapes with eyes: design and evaluation of an eye tracking based approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mohammad</namePart>
+        <namePart type="family">Rakib Hasan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Debajyoti</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Gutwin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Eye tracking systems can provide people with severe motor impairments a way to communicate through gaze-based interactions. Such systems transform a user’s gaze input into mouse pointer coordinates that can trigger keystrokes on an on-screen keyboard. However, typing using this approach requires large back-and-forth eye movements, and the required effort depends both on the length of the text and the keyboard layout. Motivated by the idea of sketch-based image search, we explore a gaze-based approach where users draw a shape on a sketchpad using gaze input, and the shape is used to search for similar letters, words, and other predefined controls. The sketch-based approach is area efficient (compared to an on-screen keyboard), allows users to create custom commands, and creates opportunities for gaze-based authentication. Since variation in the drawn shapes makes the search difficult, the system can show a guide (e.g., a 14-segment digital display) on the sketchpad so that users can trace their desired shape. In this paper, we take a first step that investigates the feasibility of the sketch-based approach, by examining how well users can trace a given shape using gaze input. We designed an interface where participants traced a set of given shapes. We then compared the similarity of the drawn and traced shapes. Our study results show the potential of the sketch-based approach: users were able to trace shapes reasonably well using gaze input, even for complex shapes involving three letters; shape tracing accuracy for gaze was better than ‘free-form’ hand drawing. We also report on how different shape complexities influence the time and accuracy of the shape tracing tasks.</abstract>
+    <identifier type="citekey">Rakib Hasan-etal-2020-Tracing</identifier>
+    <identifier type="doi">10.1145/3396339.3396390</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.112</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,15 @@
+﻿%0 Conference Proceedings
+%T DAESA—A Matlab Tool for Structural Analysis of Differential-Algebraic Equations
+%A Pryce, J.
+%A Nedialkov, N.
+%A Tan, Guangning
+%S Global Water Futures 2015
+%D 2015
+%I University of Waterloo
+%C Online
+%F Pryce-etal-2015-DAESA—A
+%X daesa, Differential-Algebraic Equations Structural Analyzer, is a Matlab tool for structural analysis of differential-algebraic equations (DAEs). It allows convenient translation of a DAE system into Matlab and provides a small set of easy-to-use functions. daesa can analyze systems that are fully nonlinear, high-index, and of any order. It determines structural index, number of degrees of freedom, constraints, variables to be initialized, and suggests a solution scheme. The structure of a DAE can be readily visualized by this tool. It also can construct a block-triangular form of the DAE, which can be exploited to solve it efficiently in a block-wise manner. This article describes the theory and algorithms underlying the code.
+%R 10.1145/2689664
+%U https://aclanthology.org/2015.GWF-1.1
+%U https://doi.org/10.1145/2689664
+

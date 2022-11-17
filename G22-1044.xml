@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Merchant-etal-2022-Applying">
+    <titleInfo>
+        <title>Applying Machine Learning and Time-Series Analysis on Sentinel-1A SAR/InSAR for Characterizing Arctic Tundra Hydro-Ecological Conditions</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Merchant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mayah</namePart>
+        <namePart type="family">Obadia</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Brisco</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">DeVries</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Synthetic aperture radar (SAR) is a widely used tool for Earth observation activities. It is particularly effective during times of persistent cloud cover, low light conditions, or where in situ measurements are challenging. The intensity measured by a polarimetric SAR has proven effective for characterizing Arctic tundra landscapes due to the unique backscattering signatures associated with different cover types. However, recently, there has been increased interest in exploiting novel interferometric SAR (InSAR) techniques that rely on both the amplitude and absolute phase of a pair of acquisitions to produce coherence measurements, although the simultaneous use of both intensity and interferometric coherence in Arctic tundra image classification has not been widely tested. In this study, a time series of dual-polarimetric (VV, VH) Sentinel-1 SAR/InSAR data collected over one growing season, in addition to a digital elevation model (DEM), was used to characterize an Arctic tundra study site spanning a hydrologically dynamic coastal delta, open tundra, and high topographic relief from mountainous terrain. SAR intensity and coherence patterns based on repeat-pass interferometry were analyzed in terms of ecological structure (i.e., graminoid, or woody) and hydrology (i.e., wet, or dry) using machine learning methods. Six hydro-ecological cover types were delineated using time-series statistical descriptors (i.e., mean, standard deviation, etc.) as model inputs. Model evaluations indicated SAR intensity to have better predictive power than coherence, especially for wet landcover classes due to temporal decorrelation. However, accuracies improved when both intensity and coherence were used, highlighting the complementarity of these two measures. Combining time-series SAR/InSAR data with terrain derivatives resulted in the highest per-class F1 score values, ranging from 0.682 to 0.955. The developed methodology is independent of atmospheric conditions (i.e., cloud cover or sunlight) as it does not rely on optical information, and thus can be regularly updated over forthcoming seasons or annually to support ecosystem monitoring.</abstract>
+    <identifier type="citekey">Merchant-etal-2022-Applying</identifier>
+    <identifier type="doi">10.3390/rs14051123</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.44</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

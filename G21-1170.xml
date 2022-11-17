@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ireson-etal-2021-Using">
+    <titleInfo>
+        <title>Using observed soil moisture to constrain the uncertainty of simulated hydrological fluxes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ireson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Amankwah</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sujan</namePart>
+        <namePart type="family">Basnet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Talia</namePart>
+        <namePart type="family">Bobenic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Morgan</namePart>
+        <namePart type="family">Braaten</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Brannen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Brauner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mennatullah</namePart>
+        <namePart type="family">Elrashidy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ines</namePart>
+        <namePart type="family">Sanchez-Rodriguez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Barr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Using data from five long‐term field sites measuring soil moisture, we show the limitations of using soil moisture observations alone to constrain modelled hydrological fluxes. We test a land surface model, Modélisation Environnementale communautaire‐Surface Hydrology/Canadian Land Surface Scheme, with two configurations: one where the soil hydraulic properties are determined using a pedotransfer function (the texture‐based calibration) and one where they are assigned directly (the hydraulic properties‐based calibration). The hydraulic properties‐based calibration outperforms the texture‐based calibration in terms of reproducing changes in soil moisture storage within a 1.6 m deep profile at each site, but both perform reasonably well, especially in the summer months. When the models are constrained using observations of changes in soil moisture, the predicted hydrological fluxes are subject to very large uncertainties associated with equifinality. The uncertainty is larger for the hydraulic properties‐based calibration, even though the performance was better. We argue that since the pedotransfer functions constrain the model parameters in the texture‐based calibrations in an unrealistic way, the texture‐based calibration underestimates the uncertainty in the fluxes. We recommend that reproducing observed cumulative changes in soil moisture storage should be considered a necessary but insufficient criterion of model success. Additional sources of information are needed to reduce uncertainties, and these could include improved estimation of the soil hydraulic properties and direct observations of fluxes, particularly evapotranspiration.</abstract>
+    <identifier type="citekey">Ireson-etal-2021-Using</identifier>
+    <identifier type="doi">10.1002/hyp.14465</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.170</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

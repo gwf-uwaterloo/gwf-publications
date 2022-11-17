@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Duguay-etal-2019-Advancement">
+    <titleInfo>
+        <title>Advancement in Bedfast Lake ICE Mapping From Sentinel-1 Sar Data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Junqian</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Algorithms for the generation of a bedfast/floating lake ice product from Sentinel-1A/B synthetic aperture radar (SAR) data were implemented, cross-compared, and validated for various permafrost regions (Alaska, Canada and Russia). The algorithms consisted of: 1) thresholding; 2) Iteration Region Growing with Semantics (IRGS); and 3) K-means. The thresholding algorithm (92.4%) was found to perform slightly better on average than the IRGS algorithm (90.1%), and to outperform K-means (85.3%). The thresholding algorithm was therefore selected for implementation of a processing chain to generate a novel bedfast/floating lake ice product. Using a time series of Sentinel-1 SAR data, the new map product shows the day of year (DOY) when the ice becomes bedfast or remains afloat for individual lake sections.</abstract>
+    <identifier type="citekey">Duguay-etal-2019-Advancement</identifier>
+    <identifier type="doi">10.1109/IGARSS.2019.8900650</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.56</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

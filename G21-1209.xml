@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Kuenen-etal-2021-Supplementary">
+    <titleInfo>
+        <title>Supplementary material to “CAMS-REG-v4: a state-of-the-art high-resolution European emission inventory for air quality modelling”</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Kuenen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Dellaert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Visschedijk</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Jalkanen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">I</namePart>
+        <namePart type="family">Super</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">A. C. Denier van der Gon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract. This paper presents a state-of-the-art anthropogenic emission inventory developed for the European domain for a 18-year time series (2000–2017) at a 0.1° \times 0.05° grid, specifically designed to support air quality modelling. The main air pollutants are included: NOx, SO2, NMVOC, NH3, CO, PM10 and PM2.5 and also CH4. To stay as close as possible to the emissions as officially reported and used in policy assessment, the inventory uses where possible the officially reported emission data by European countries to the UN Framework Convention on Climate Change and the Convention on Long-Range Transboundary Air Pollution as the basis. Where deemed necessary because of errors, incompleteness of inconsistencies, these are replaced with or complemented by other emission data, most notably the estimates included in the Greenhouse gas Air pollution Interaction and Synergies (GAINS) model. Emissions are collected at the high sectoral level, distinguishing around 250 different sector-fuel combinations, whereafter a consistent spatial distribution is applied for Europe. A specific proxy is selected for each of the sector-fuel combinations, pollutants and years. Point source emissions are largely based on reported facility level emissions, complemented by other sources of point source data for power plants. For specific sources, the resulting emission data were replaced with other datasets. Emissions from shipping (both inland and at sea) are based on the results from the a separate shipping emission model where emissions are based on actual ship movement data, and agricultural waste burning emissions are based on satellite observations. The resulting spatially distributed emissions are evaluated against earlier versions of the dataset as well as to alternative emission estimates, which reveals specific discrepancies in some cases. Along with the resulting annual emission maps, profiles for splitting PM and NMVOC into individual component are provided, as well as information on the height profile by sector and temporal disaggregation down to hourly level to support modelling activities. Annual grid maps are available in csv and NetCDF format (Kuenen et al., 2021).</abstract>
+    <identifier type="citekey">Kuenen-etal-2021-Supplementary</identifier>
+    <identifier type="doi">10.5194/essd-2021-242-supplement</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.209</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

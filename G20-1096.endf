@@ -1,0 +1,14 @@
+﻿%0 Conference Proceedings
+%T Correlation Effects? A Major but Often Neglected Component in Sensitivity and Uncertainty Analysis
+%A Do, N.
+%A Razavi, S.
+%S Global Water Futures 2020
+%D 2020
+%I University of Waterloo
+%C Online
+%F Do-etal-2020-Correlation
+%X Global sensitivity analysis (GSA) provides essential insights into the behavior of Earth and environmental systems models and identifies dominant controls of output uncertainty. Previous work on GSA, however, has typically been under the assumption that the controlling factors such as model inputs and parameters are independent, whereas, in many cases, they are correlated and their joint distribution follows a variety of forms. Although this assumption can limit the credibility of GSA and its results, very few studies in the field of water and environmental modeling address this issue. In this paper, we first discuss the significance of correlation effects in GSA and then propose a new GSA framework for properly accounting for correlations in input/parameter spaces. To this end, we extend the “variogram‐based” theory of GSA, called variogram analysis of response surfaces (VARS), and develop a new generalized star sampling technique (called gSTAR) to accommodate correlated multivariate distributions. We test the new gSTAR‐VARS method on two test functions, against a state‐of‐the‐art GSA method that handles correlation effects. We then apply gSTAR‐VARS to the HBV‐SASK model, calibrated via a Bayesian, Markov chain Monte Carlo approach, for design flood estimation in the Oldman River Basin in Canada. Results demonstrate that accounting for correlation effects can be critically important in GSA, especially in the presence of nonlinearity and interaction effects in the underlying response surfaces. The proposed method can efficiently handle correlations and different distribution types and simultaneously generate a range of sensitivity indices, such as total‐variogram effects, variance‐based total‐order effects, and derivative‐based elementary effects.
+%R 10.1029/2019WR025436
+%U https://aclanthology.org/2020.GWF-1.96
+%U https://doi.org/10.1029/2019WR025436
+

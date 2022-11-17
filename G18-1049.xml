@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gupta-etal-2018-Revisiting">
+    <titleInfo>
+        <title>Revisiting the Basis of Sensitivity Analysis for Dynamical Earth System Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Gupta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>This paper investigates the problem of global sensitivity analysis (GSA) of Dynamical Earth System Models and proposes a basis for how such analyses should be performed. We argue that (a) performance metric‐based approaches to parameter GSA are actually identifiability analyses, (b) the use of a performance metric to assess sensitivity unavoidably distorts the information provided by the model about relative parameter importance, and (c) it is a serious conceptual flaw to interpret the results of such an analysis as being consistent and accurate indications of the sensitivity of the model response to parameter perturbations. Further, because such approaches depend on availability of system state/output observational data, the analysis they provide is necessarily incomplete. Here we frame the GSA problem from first principles, using trajectories of the partial derivatives of model outputs with respect to controlling factors as the theoretical basis for sensitivity, and construct a global sensitivity matrix from which statistical indices of total period time‐aggregate parameter importance, and time series of time‐varying parameter importance, can be inferred. We demonstrate this framework using the HBV‐SASK conceptual hydrologic model applied to the Oldman basin in Canada and show that it disagrees with performance metric‐based methods regarding which parameters exert the strongest controls on model behavior. Further, it is highly efficient, requiring less than 1,000 base samples to obtain stable and robust parameter importance assessments for our 10‐parameter example.</abstract>
+    <identifier type="citekey">Gupta-etal-2018-Revisiting</identifier>
+    <identifier type="doi">10.1029/2018WR022668</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.49</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

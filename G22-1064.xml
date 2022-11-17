@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zolfaghari-etal-2022-Impact">
+    <titleInfo>
+        <title>Impact of Spectral Resolution on Quantifying Cyanobacteria in Lakes and Reservoirs: A Machine-Learning Assessment</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Zolfaghari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="family">Pahlevan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Binding</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniela</namePart>
+        <namePart type="family">Gurlin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Simis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Antonio</namePart>
+        <namePart type="family">Ruiz Verdú</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lin</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Crawford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Vanderwoude</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Errera</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Zastepa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Cyanobacterial harmful algal blooms are an increasing threat to coastal and inland waters. These blooms can be detected using optical radiometers due to the presence of phycocyanin (PC) pigments. The spectral resolution of best-available multispectral sensors limits their ability to diagnostically detect PC in the presence of other photosynthetic pigments. To assess the role of spectral resolution in the determination of PC, a large (\textlessinline-formula\textgreater \textlesstex-math notation=“LaTeX”\textgreater$N =905$ \textless/tex-math\textgreater\textless/inline-formula\textgreater) database of colocated \textlessitalic\textgreaterin situ\textless/italic\textgreater radiometric spectra and PC are employed. We first examine the performance of selected widely used machine-learning (ML) models against that of benchmark algorithms for hyperspectral remote sensing reflectance (\textlessinline-formula\textgreater \textlesstex-math notation=“LaTeX”\textgreater$R_\textbackslashmathrm rs$ \textless/tex-math\textgreater\textless/inline-formula\textgreater) spectra resampled to the spectral configuration of the Hyperspectral Imager for the Coastal Ocean (HICO) with a full-width at half-maximum (FWHM) of \textless 6 nm. Results show that the multilayer perceptron (MLP) neural network applied to HICO spectral configurations (median errors \textless 65%) outperforms other ML models. This model is subsequently applied to \textlessinline-formula\textgreater \textlesstex-math notation=“LaTeX”\textgreater$R_\textbackslashmathrm rs$ \textless/tex-math\textgreater\textless/inline-formula\textgreater spectra resampled to the band configuration of existing satellite instruments and of the one proposed for the next Landsat sensor. These results confirm that employing MLP models to estimate PC from hyperspectral data delivers tangible improvements compared with retrievals from multispectral data and benchmark algorithms (with median errors between \textlessinline-formula\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashsim 73$ \textless/tex-math\textgreater\textless/inline-formula\textgreater% and 126%) and shows promise for developing a globally applicable cyanobacteria measurement approach.</abstract>
+    <identifier type="citekey">Zolfaghari-etal-2022-Impact</identifier>
+    <identifier type="doi">10.1109/TGRS.2021.3114635</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.64</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

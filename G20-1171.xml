@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sigmund-etal-2020-Deep">
+    <titleInfo>
+        <title>Deep Learning Neural Network Approach for Predicting the Sorption of Ionizable and Polar Organic Pollutants to a Wide Range of Carbonaceous Materials</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">G</namePart>
+        <namePart type="family">Sigmund</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Gharasoo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Thorsten</namePart>
+        <namePart type="family">Hüffer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">T</namePart>
+        <namePart type="family">Hofmann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Most contaminants of emerging concern are polar and/or ionizable organic compounds, whose removal from engineered and environmental systems is difficult. Carbonaceous sorbents include activated carbon, biochar, fullerenes, and carbon nanotubes, with applications such as drinking water filtration, wastewater treatment, and contaminant remediation. Tools for predicting sorption of many emerging contaminants to these sorbents are lacking because existing models were developed for neutral compounds. A method to select the appropriate sorbent for a given contaminant based on the ability to predict sorption is required by researchers and practitioners alike. Here, we present a widely applicable deep learning neural network approach that excellently predicted the conventionally used Freundlich isotherm fitting parameters log KF and n (R2 \textgreater 0.98 for log KF, and R2 \textgreater 0.91 for n). The neural network models are based on parameters generally available for carbonaceous sorbents and/or parameters freely available from online databases. A freely accessible graphical user interface is provided.</abstract>
+    <identifier type="citekey">Sigmund-etal-2020-Deep</identifier>
+    <identifier type="doi">10.1021/acs.est.9b06287</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.171</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

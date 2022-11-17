@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Brunner-etal-2021-Flood">
+    <titleInfo>
+        <title>Flood spatial coherence, triggers, and performance in hydrological simulations: large-sample evaluation of four streamflow-calibrated models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Brunner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Melsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">O</namePart>
+        <namePart type="family">Rakovec</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="family">Mizukami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract. Floods cause extensive damage, especially if they affect large regions. Assessments of current, local, and regional flood hazards and their future changes often involve the use of hydrologic models. A reliable hydrologic model ideally reproduces both local flood characteristics and spatial aspects of flooding under current and future climate conditions. However, uncertainties in simulated floods can be considerable and yield unreliable hazard and climate change impact assessments.This study evaluates the extent to which models calibrated according to standard model calibration metrics such as the widely used Kling–Gupta efficiency are able to capture flood spatial coherence and triggering mechanisms.To highlight challenges related to flood simulations, we investigate how flood timing, magnitude, and spatial variability are represented by an ensemble of hydrological models when calibrated on streamflow using the Kling–Gupta efficiency metric, an increasingly common metric of hydrologic model performance also in flood-related studies. Specifically, we compare how four well-known models (the Sacramento Soil Moisture Accounting model, SAC; the Hydrologiska Byrans Vattenbalansavdelning model, HBV; the variable infiltration capacity model, VIC; and the mesoscale hydrologic model, mHM) represent (1) flood characteristics and their spatial patterns and (2) how they translate changes in meteorologic variables that trigger floods into changes in flood magnitudes.Our results show that both the modeling of local and spatial flood characteristics are challenging as models underestimate flood magnitude, and flood timing is not necessarily well captured. They further show that changes in precipitation and temperature are not always well translated to changes in flood flow, which makes local and regional flood hazard assessments even more difficult for future conditions.From a large sample of catchments and with multiple models, we conclude that calibration on the integrated Kling–Gupta metric alone is likely to yield models that have limited reliability in flood hazard assessments, undermining their utility for regional and future change assessments. We underscore that such assessments can be improved by developing flood-focused, multi-objective, and spatial calibration metrics, by improving flood generating process representation through model structure comparisons and by considering uncertainty in precipitation input.</abstract>
+    <identifier type="citekey">Brunner-etal-2021-Flood</identifier>
+    <identifier type="doi">10.5194/HESS-25-105-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.54</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

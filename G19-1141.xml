@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mostaeen-etal-2019-CloneCognition:">
+    <titleInfo>
+        <title>CloneCognition: machine learning based code clone validation tool</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Golam</namePart>
+        <namePart type="family">Mostaeen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="family">Svajlenko</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool ’CloneCognition’ (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.</abstract>
+    <identifier type="citekey">Mostaeen-etal-2019-CloneCognition:</identifier>
+    <identifier type="doi">10.1145/3338906.3341182</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.141</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

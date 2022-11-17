@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zahmatkesh-etal-2021-Understanding">
+    <titleInfo>
+        <title>Understanding Uncertainty in Probabilistic Floodplain Mapping in the Time of Climate Change</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Z</namePart>
+        <namePart type="family">Zahmatkesh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shasha</namePart>
+        <namePart type="family">Han</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Coulibaly</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>An integrated framework was employed to develop probabilistic floodplain maps, taking into account hydrologic and hydraulic uncertainties under climate change impacts. To develop the maps, several scenarios representing the individual and compounding effects of the models’ input and parameters uncertainty were defined. Hydrologic model calibration and validation were performed using a Dynamically Dimensioned Search algorithm. A generalized likelihood uncertainty estimation method was used for quantifying uncertainty. To draw on the potential benefits of the proposed methodology, a flash-flood-prone urban watershed in the Greater Toronto Area, Canada, was selected. The developed floodplain maps were updated considering climate change impacts on the input uncertainty with rainfall Intensity–Duration–Frequency (IDF) projections of RCP8.5. The results indicated that the hydrologic model input poses the most uncertainty to floodplain delineation. Incorporating climate change impacts resulted in the expansion of the potential flood area and an increase in water depth. Comparison between stationary and non-stationary IDFs showed that the flood probability is higher when a non-stationary approach is used. The large inevitable uncertainty associated with floodplain mapping and increased future flood risk under climate change imply a great need for enhanced flood modeling techniques and tools. The probabilistic floodplain maps are beneficial for implementing risk management strategies and land-use planning.</abstract>
+    <identifier type="citekey">Zahmatkesh-etal-2021-Understanding</identifier>
+    <identifier type="doi">10.3390/W13091248</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.161</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

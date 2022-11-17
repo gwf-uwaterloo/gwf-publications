@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zhang-etal-2020-Joint">
+    <titleInfo>
+        <title>Joint Modeling of Crop and Irrigation in the central United States Using the Noah‐MP Land Surface Model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zhe</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Barlage</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fei</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaoyu</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xingtu</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Representing climate‐crop interactions is critical to Earth system modeling. Despite recent progress in modeling dynamic crop growth and irrigation in land surface models (LSMs), transitioning these models from field to regional scales is still challenging. This study applies the Noah‐MP LSM with dynamic crop‐growth and irrigation schemes to jointly simulate the crop yield and irrigation amount for corn and soybean in the central United States. The model performance of crop yield and irrigation amount are evaluated at county‐level against the USDA reports and USGS water withdrawal data, respectively. The bulk simulation (with uniform planting/harvesting management and no irrigation) produces significant biases in crop yield estimates for all planting regions, with root‐mean‐square‐errors (RMSEs) being 28.1% and 28.4% for corn and soybean, respectively. Without an irrigation scheme, the crop yields in the irrigated regions are reduced due to water stress with RMSEs of 48.7% and 20.5%. Applying a dynamic irrigation scheme effectively improves crop yields in irrigated regions and reduces RMSEs to 22.3% and 16.8%. In rainfed regions, the model overestimates crop yields. Applying spatially varied planting and harvesting dates at state‐level reduces crop yields and irrigation amount for both crops, especially in northern states. A “nitrogen‐stressed” simulation is conducted and found that the improvement of irrigation on crop yields is limited when the crops are under nitrogen stress. Several uncertainties in modeling crop growth are identified, including yield‐gap, planting date, rubisco capacity, and discrepancies between available data sets, pointing to future efforts to incorporating spatially varying crop parameters to better constrain crop growing seasons.</abstract>
+    <identifier type="citekey">Zhang-etal-2020-Joint</identifier>
+    <identifier type="doi">10.1029/2020MS002159</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.2</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

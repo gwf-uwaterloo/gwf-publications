@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="SotoodehMollashahi-etal-2018-Improving">
+    <titleInfo>
+        <title>Improving revisitation in long documents with two-level artificial-landmark scrollbars</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ehsan</namePart>
+        <namePart type="family">Sotoodeh Mollashahi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Md.</namePart>
+        <namePart type="family">Sami Uddin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Gutwin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Document readers with linear navigation controls do not work well when users need to navigate to previously-visited locations, particularly when documents are long. Existing solutions - bookmarks, search, history, and read wear - are valuable but limited in terms of effort, clutter, and interpretability. In this paper, we investigate artificial landmarks as a way to improve support for revisitation in long documents - inspired by visual augmentations seen in physical books such as coloring on page edges or indents cut into pages. We developed several artificial-landmark visualizations that can represent locations even in documents that are many hundreds of pages long, and tested them in studies where participants visited multiple locations in long documents. Results show that providing two columns of landmark icons led to significantly better performance and user preference. Artificial landmarks provide a new mechanism to build spatial memory of long documents - and can be used either alone or with existing techniques like bookmarks, read wear, and search.</abstract>
+    <identifier type="citekey">Sotoodeh Mollashahi-etal-2018-Improving</identifier>
+    <identifier type="doi">10.1145/3206505.3206554</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.97</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

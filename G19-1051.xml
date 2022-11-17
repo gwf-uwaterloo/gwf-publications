@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="David-etal-2019-Analytical">
+    <titleInfo>
+        <title>Analytical Propagation of Runoff Uncertainty Into Discharge Uncertainty Through a Large River Network</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hobbs</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Turmon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Emery</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Reager</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>The transport of freshwater from continents to oceans through rivers has traditionally been estimated by routing runoff from land surface models within river models to obtain discharge. This paradigm imposes that errors are transferred from runoff to discharge, yet the analytical propagation of uncertainty from runoff to discharge has never been derived. Here we apply statistics to the continuity equation within a river network to derive two equations that propagate the mean and variance/covariance of runoff errors independently. We validate these equations in a case study of the rivers in the western United States and, for the first time, invert observed discharge errors for spatially distributed runoff errors. Our results suggest that the largest discharge error source is the joint variability of runoff errors across space, not the mean or amplitude of individual errors. Our findings significantly advance the science of error quantification in model‐based estimates of river discharge.</abstract>
+    <identifier type="citekey">David-etal-2019-Analytical</identifier>
+    <identifier type="doi">10.1029/2019GL083342</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.51</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Guerrero-etal-2017-Parameter">
+    <titleInfo>
+        <title>Parameter sensitivity analysis of a 1-D cold region lake model for land-surface schemes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Guerrero</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Pernica</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Mackay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Spence</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2017</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Lakes might be sentinels of climate change, but the uncertainty in their main feedback to the atmosphere – heat-exchange fluxes – is often not considered within climate models. Additionally, these fluxes are seldom measured, hindering critical evaluation of model output. Analysis of the Canadian Small Lake Model (CSLM), a one-dimensional integral lake model, was performed to assess its ability to reproduce diurnal and seasonal variations in heat fluxes and the sensitivity of simulated fluxes to changes in model parameters, i.e. turbulent transport parameters and the light extinction coefficient ( K d ). A recently developed software package, Problem Solving environment for Uncertainty Analysis and Design Exploration (PSUADE), was used to perform Sensitivity Analysis (SA) and identify the parameters that dominate model behavior. The Generalized Likelihood Uncertainty Estimation (GLUE) was applied to quantify the fluxes’ uncertainty, comparing daily-averaged eddy covariance observations to the output of CSLM. Seven qualitative and two quantitative SA methods were tested and the posterior likelihoods of the modeled parameters, obtained from the GLUE analysis, were used to determine the dominant parameters and the uncertainty in the modeled fluxes. Despite the ubiquity of the equifinality issue – different parameter-values combinations yielding equivalent results – the answer to the question was unequivocal: K d , a measure of how much light penetrates the lake, dominates sensible and latent heat fluxes and the uncertainty their estimates is strongly related to the accuracy with which K d is determined. This is important since K d is seldom measured and accurate estimates of its value could reduce modeling uncertainty.</abstract>
+    <identifier type="citekey">Guerrero-etal-2017-Parameter</identifier>
+    <identifier type="doi">10.5194/HESS-21-6345-2017</identifier>
+    <location>
+        <url>https://aclanthology.org/2017.GWF-1.15</url>
+    </location>
+    <part>
+        <date>2017</date>
+    </part>
+</mods>
+</modsCollection>

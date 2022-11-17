@@ -1,0 +1,15 @@
+﻿%0 Conference Proceedings
+%T Advancing Space‐Time Simulation of Random Fields: From Storms to Cyclones and Beyond
+%A Papalexiou, S.
+%A Serinaldi, F.
+%A Porcu, E.
+%S Global Water Futures 2021
+%D 2021
+%I University of Waterloo
+%C Online
+%F Papalexiou-etal-2021-Advancing
+%X Realistic stochastic simulation of hydro‐environmental fluxes in space and time, such as rainfall, is challenging yet of paramount importance to inform environmental risk analysis and decision making under uncertainty. Here, we advance random fields simulation by introducing the concepts of general velocity fields and general anisotropy transformations. This expands the capabilities of the so‐called Complete Stochastic Modeling Solution (CoSMoS) framework enabling the simulation of random fields (RF’s) preserving: (a) any non‐Gaussian marginal distribution, (b) any spatiotemporal correlation structure (STCS), (c) general advection expressed by velocity fields with locally varying speed and direction, and (d) locally varying anisotropy. We also introduce new copula‐based STCS’s and provide conditions guaranteeing their positive definiteness. To illustrate the potential of CoSMoS, we simulate RF’s with complex patterns and motion mimicking rainfall storms moving across an area, spiraling fields resembling weather cyclones, fields converging to (or diverging from) a point, and colliding air masses. The proposed methodology is implemented in the freely available CoSMoS R package.
+%R 10.1029/2020WR029466
+%U https://aclanthology.org/2021.GWF-1.120
+%U https://doi.org/10.1029/2020WR029466
+

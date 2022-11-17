@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="F.Islam-etal-2019-Comparing">
+    <titleInfo>
+        <title>Comparing Bug Replication in Regular and Micro Code Clones</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Judith</namePart>
+        <namePart type="family">F. Islam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">A. Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Copying and pasting source code during software development is known as code cloning. Clone fragments with a minimum size of 5 LOC were usually considered in previous studies. In recent studies, clone fragments which are less than 5 LOC are referred as micro-clones. It has been established by the literature that code clones are closely related with software bugs as well as bug replication. None of the previous studies have been conducted on bug-replication of micro-clones. In this paper we investigate and compare bug-replication in between regular and micro-clones. For the purpose of our investigation, we analyze the evolutionary history of our subject systems and identify occurrences of similarity preserving co-changes (SPCOs) in both regular and micro-clones where they experienced bug-fixes. From our experiment on thousands of revisions of six diverse subject systems written in three different programming languages, C, C# and Java we find that the percentage of clone fragments that take part in bug-replication is often higher in micro-clones than in regular code clones. The percentage of bugs that get replicated in micro-clones is almost the same as the percentage in regular clones. Finally, both regular and micro-clones have similar tendencies of replicating severe bugs according to our experiment. Thus, micro-clones in a code-base should not be ignored. We should rather consider these equally important as of the regular clones when making clone management decisions.</abstract>
+    <identifier type="citekey">F. Islam-etal-2019-Comparing</identifier>
+    <identifier type="doi">10.1109/ICPC.2019.00022</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.81</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

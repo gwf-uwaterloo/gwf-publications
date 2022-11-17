@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Liaw-etal-2021-Explaining">
+    <titleInfo>
+        <title>Explaining the Shortcomings of Log‐Transforming the Dependent Variable in Regression Models and Recommending a Better Alternative: Evidence From Soil CO2 Emission Studies</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Liaw</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Khomik</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Arain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Log‐transforming the dependent variable of a regression model, though convenient and frequently used, is accompanied by an under‐prediction problem. We found that this underprediction can reach up to 20%, which is significant in studies that aim to estimate annual budgets. The fundamental reason for this problem is simply that the log‐function is concave, and it has nothing to do with whether the dependent variable has a log‐normal distribution or not. Using field‐observed data of soil CO2 emission, soil temperature and soil moisture in a saturated‐specification of a regression model for predicting emissions, we revealed that the under‐predictions of the log‐transformed approach were pervasive and systematically biased. The key determinant of the problem’s severity was the coefficient of variation in the dependent variable that differed among different combinations of the values of the explanatory factors. By applying a parsimonious (Gaussian‐Gamma) specification of the regression model to data from four different ecosystems, we found that this under‐prediction problem was serious to various extents, and that for a relatively weak explanatory factor, the log‐transformed approach is prone to yield a physically nonsensical estimated coefficient. Finally, we showed and concluded that the problem can be avoided by switching to the nonlinear approach, which does not require the assumption of homoscedasticity for the error term in computing the standard errors of the estimated coefficients.</abstract>
+    <identifier type="citekey">Liaw-etal-2021-Explaining</identifier>
+    <identifier type="doi">10.1029/2021JG006238</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.174</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

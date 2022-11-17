@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zhang-etal-2022-Cooling">
+    <titleInfo>
+        <title>Cooling Effects Revealed by Modeling of Wetlands and Land‐Atmosphere Interactions</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Z</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Barlage</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Bortolotti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Z</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">X</namePart>
+        <namePart type="family">Ma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Y</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Wetlands are important ecosystems—they provide vital hydrological and ecological services such as regulating floods, storing carbon, and providing wildlife habitat. The ability to simulate their spatial extents and hydrological processes is important for valuing wetlands’ function. The purpose of this study is to dynamically represent the spatial extents and hydrological processes of wetlands and investigate their feedback to regional climate in the Prairie Pothole Region (PPR) of North America, where a large number of wetlands exist. In this study, we incorporated a wetland scheme into the Noah‐MP land surface model with two major modifications: (a) modifying the subgrid saturation fraction for spatial wetland extent and (b) incorporating a dynamic wetland storage to simulate hydrological processes. This scheme was evaluated at a fen site in central Saskatchewan, Canada and applied regionally in the PPR with 13‐year climate forcing produced by a high‐resolution convection‐permitting model. The differences between wetland and no‐wetland simulations are significant, with increasing latent heat and evapotranspiration while suppressing sensible heat and runoff in the wetland scheme. Finally, the dynamic wetland scheme was applied in the Weather Research and Forecasting (WRF) model. The wetlands scheme not only modifies the surface energy balance but also interacts with the lower atmosphere, shallowing the planetary boundary layer height and promoting cloud formation. A cooling effect of 1–3°C in summer temperature is evident where wetlands are abundant. In particular, the wetland simulation shows reduction in the number of hot days for \textgreater10 days over the summer of 2006, when a long‐lasting heatwave occurred. This research has great implications for land surface/regional climate modeling and wetland conservation, especially in mitigating extreme heatwaves under climate change.</abstract>
+    <identifier type="citekey">Zhang-etal-2022-Cooling</identifier>
+    <identifier type="doi">10.1029/2021WR030573</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.72</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

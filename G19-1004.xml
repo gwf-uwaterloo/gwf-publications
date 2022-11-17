@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Pernak-etal-2019-Forecasting">
+    <titleInfo>
+        <title>Forecasting Surface O3 in Texas Urban Areas Using Random Forest and Generalized Additive Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="family">Pernak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Alvarado</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Lonsdale</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Mountain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hegarty</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">T</namePart>
+        <namePart type="family">Nehrkorn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>We developed and evaluated three types of statistical forecasting models (quantitative, probabilistic, and classification) for predicting the maximum daily 8-hour average concentration of ozone based on meteorological and ozone monitoring data for six Texas urban areas from 2009 to 2015. The quantitative and probabilistic forecasting models were generalized additive models (GAMs), whereas the classification forecast used the random forest machine learning method. We found that for the quantitative forecasting models, five of the eight predictors (the day of week, day of the year, water vapor density, wind speed, and previous day’s ozone measurement) were significant at the α = 0.001 level for all urban areas, whereas the other three varied in significance according to the location. The quantitative forecasting for the 2016 ozone season agreed well with the associated measurements (R2 of ~0.70), but it tended to under-predict the ozone level for the days with the highest concentrations. By contrast, the probabilistic forecasting models showed little accuracy in determining the probability of concentrations exceeding policy-relevant thresholds during this season. The success rate for the random forest classification models typically exceeded 75% and would likely increase if the training data sets contained more extreme events.</abstract>
+    <identifier type="citekey">Pernak-etal-2019-Forecasting</identifier>
+    <identifier type="doi">10.4209/aaqr.2018.12.0464</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.4</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

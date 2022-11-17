@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Elshamy-etal-2020-On">
+    <titleInfo>
+        <title>On the configuration and initialization of a large-scale hydrological land surface model to represent permafrost</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Elshamy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="family">Princz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">G</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Abdelhamed</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Abstract. Permafrost is an important feature of cold-region hydrology, particularly inriver basins such as the Mackenzie River basin (MRB), and it needs to beproperly represented in hydrological and land surface models (H-LSMs) builtinto existing Earth system models (ESMs), especially under the unprecedentedclimate warming trends that have been observed. Higher rates of warming havebeen reported in high latitudes compared to the global average, resulting inpermafrost thaw with wide-ranging implications for hydrology and feedbacksto climate. The current generation of H-LSMs is being improved to simulatepermafrost dynamics by allowing deep soil profiles and incorporating organicsoils explicitly. Deeper soil profiles have larger hydraulic and thermalmemories that require more effort to initialize. This study aims to devise arobust, yet computationally efficient, initialization and parameterizationapproach applicable to regions where data are scarce and simulationstypically require large computational resources. The study furtherdemonstrates an upscaling approach to inform large-scale ESM simulationsbased on the insights gained by modelling at small scales. We usedpermafrost observations from three sites along the Mackenzie River valleyspanning different permafrost classes to test the validity of the approach.Results show generally good performance in reproducing present-climatepermafrost properties at the three sites. The results also emphasize thesensitivity of the simulations to the soil layering scheme used, the depthto bedrock, and the organic soil properties.</abstract>
+    <identifier type="citekey">Elshamy-etal-2020-On</identifier>
+    <identifier type="doi">10.5194/HESS-24-349-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.98</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

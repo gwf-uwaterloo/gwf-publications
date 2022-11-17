@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Cai-etal-2019-Evaluation">
+    <titleInfo>
+        <title>Evaluation of Gridded Precipitation Data and Interpolation Methods for Forest Fire Danger Rating in Alberta, Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Xinli</namePart>
+        <namePart type="family">Cai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xianli</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Jain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Flannigan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>The Canadian Forest Fire Weather Index System is the primary measurement of wildfire danger in Canada. Interpolating daily precipitation, one of the inputs for the Fire Weather Index System is a key challenge in areas without sufficient weather stations. This work evaluates the performance of gridded precipitation from the Canadian Precipitation Analysis (CaPA) System and six interpolation methods to achieve the best fire danger rating in Alberta, Canada. Results show that the CaPA System has only average performance due to limited radar coverage (10%) in the forested region; however, using the CaPA System as a covariate with regression kriging generates significantly better precipitation estimates. Ordinary kriging, regression kriging with elevation as a covariate, and the thin‐plate smoothed spline are methods with similar performance. Fuel moisture codes of the Fire Weather Index System respond differently to precipitation amounts due to differences in their time constants for drying. Fine fuels with a short drying time (Fine Fuel Moisture Code) are best estimated by the CaPA System because of its enhanced skill in estimating small precipitation events. Compacted organic fuels with longer drying times (Duff Moisture Code and Drought Code) are best estimated by regression kriging with CaPA because it better predicts significant precipitation events. The dense fire weather station network in our study area (~3.0 stations/10,000 km2) allows us to perform a sensitivity analysis, and we find that a threshold of \textgreater0.5 stations/10,000 km2 is needed for regression kriging with CaPA to become appreciably better than the CaPA System.</abstract>
+    <identifier type="citekey">Cai-etal-2019-Evaluation</identifier>
+    <identifier type="doi">10.1029/2018JD028754</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.36</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

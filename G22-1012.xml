@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="ZarreenZarreenOishie-etal-2022-Commit-Checker:">
+    <titleInfo>
+        <title>Commit-Checker: A human-centric approach for adopting bug inducing commit detection using machine learning models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Naz</namePart>
+        <namePart type="family">Zarreen Zarreen Oishie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2022</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Software bug prediction is one of the promising research areas in software engineering. Software developers must allocate a reasonable amount of time and resources to test and debug the developed software extensively to improve software quality. However, it is not always possible to test software thoroughly with limited time and resources to develop high quality software. Sometimes software companies release software products in a hurry to make profit in a competitive environment. As a result the released software might have software defects and can affect the reputation of those software companies. Ideally, any software application that is already in the market should not contain bugs. If it does, depending on its severity, it might cause a great cost. Although a significant amount of work has been done to automate different parts of testing to detect bugs, fixing a bug after it is discovered is still a costly task that developers need to do. Sometimes these bug fixing changes introduce new bugs in the system. Researchers estimated that 80% of the total cost of a software system is spent on fixing bugs [8]. They show that the software faults and failures costs the US economy $59.5 billion a year [9].</abstract>
+    <identifier type="citekey">Zarreen Zarreen Oishie-etal-2022-Commit-Checker:</identifier>
+    <identifier type="doi">10.1145/3511430.3511463</identifier>
+    <location>
+        <url>https://aclanthology.org/2022.GWF-1.12</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

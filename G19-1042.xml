@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Cholette-etal-2019-Parameterization">
+    <titleInfo>
+        <title>Parameterization of the Bulk Liquid Fraction on Mixed-Phase Particles in the Predicted Particle Properties (P3) Scheme: Description and Idealized Simulations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mélissa</namePart>
+        <namePart type="family">Cholette</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Morrison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Milbrandt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Bulk microphysics parameterizations that are used to represent clouds and precipitation usually allow only solid and liquid hydrometeors. Predicting the bulk liquid fraction on ice allows an explicit representation of mixed-phase particles and various precipitation types, such as wet snow and ice pellets. In this paper, an approach for the representation of the bulk liquid fraction into the predicted particle properties (P3) microphysics scheme is proposed and described. Solid-phase microphysical processes, such as melting and sublimation, have been modified to account for the liquid component. New processes, such as refreezing and condensation of the liquid portion of mixed-phase particles, have been added to the parameterization. Idealized simulations using a one-dimensional framework illustrate the overall behavior of the modified scheme. The proposed approach compares well to a Lagrangian benchmark model. Temperatures required for populations of ice crystals to melt completely also agree well with previous studies. The new processes of refreezing and condensation impact both the surface precipitation type and feedback between the temperature and the phase changes. Overall, prediction of the bulk liquid fraction allows an explicit description of new precipitation types, such as wet snow and ice pellets, and improves the representation of hydrometeor properties when the temperature is near 0°C.</abstract>
+    <identifier type="citekey">Cholette-etal-2019-Parameterization</identifier>
+    <identifier type="doi">10.1175/JAS-D-18-0278.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.42</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

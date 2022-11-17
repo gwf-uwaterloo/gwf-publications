@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gauch-etal-2020-An">
+    <titleInfo>
+        <title>An Open-Source Interface to the Canadian Surface Prediction Archive</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Gauch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="family">Bai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Mai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2020</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Data-intensive research and decision-making continue to gain adoption across diverse organizations. As researchers and practitioners increasingly rely on analyzing large data products to both answer scientific questions and for operational needs, data acquisition and pre-processing become critical tasks. For environmental science, the Canadian Surface Prediction Archive (CaSPAr) facilitates easy access to custom subsets of numerical weather predictions. We demonstrate a new open-source interface for CaSPAr that provides easy-to-use map-based querying capabilities and automates data ingestion into the CaSPAr batch processing server.</abstract>
+    <identifier type="citekey">Gauch-etal-2020-An</identifier>
+    <identifier type="doi">10.1145/3383583.3398626</identifier>
+    <location>
+        <url>https://aclanthology.org/2020.GWF-1.104</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

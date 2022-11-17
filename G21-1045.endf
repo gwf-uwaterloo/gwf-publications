@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies
+%A Chegoonian, A.
+%A Zolfaghari, K.
+%A Baulch, H.
+%A Duguay, C.
+%S Global Water Futures 2021
+%D 2021
+%I University of Waterloo
+%C Online
+%F Chegoonian-etal-2021-Support
+%X Chlorophyll-a concentration (chla) is a useful indicator of harmful algal blooms in early warning systems that use remote sensing data as input. However, its retrieval is challenging in small waterbodies due to the lack of high spatial-resolution water-color sensors and the substantial optical interference of other water constituents. Here, we demonstrate the potential of support vector machines and Sentinel-2 images to retrieve chla in a shallow eutrophic lake (Buffalo Pound Lake, Saskatchewan, Canada). Following validation against in-situ chla measurements over three open water seasons (2017–2019), our proposed method based on Support Vector Regression (SVR) outperforms the most common semi-empirical models, i.e., locally-tuned indices (normalized difference chlorophyll index, 2band, and 3band), as well as the state-of-the-art global empirical model (Mixture Density Network). The superiority of SVR is shown in terms of overall and stratified accuracy, as well as spatial validity. We argue that for small waterbodies where numerous matched pairs of in-situ chla and reflectance are not available, SVR might retrieve chla more accurately than locally-tuned indices and global empirical models.
+%R 10.1109/IGARSS47720.2021.9554110
+%U https://aclanthology.org/2021.GWF-1.45
+%U https://doi.org/10.1109/IGARSS47720.2021.9554110
+

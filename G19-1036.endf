@@ -1,0 +1,16 @@
+﻿%0 Conference Proceedings
+%T Evaluation of Gridded Precipitation Data and Interpolation Methods for Forest Fire Danger Rating in Alberta, Canada
+%A Cai, Xinli
+%A Wang, Xianli
+%A Jain, P.
+%A Flannigan, M.
+%S Global Water Futures 2019
+%D 2019
+%I University of Waterloo
+%C Online
+%F Cai-etal-2019-Evaluation
+%X The Canadian Forest Fire Weather Index System is the primary measurement of wildfire danger in Canada. Interpolating daily precipitation, one of the inputs for the Fire Weather Index System is a key challenge in areas without sufficient weather stations. This work evaluates the performance of gridded precipitation from the Canadian Precipitation Analysis (CaPA) System and six interpolation methods to achieve the best fire danger rating in Alberta, Canada. Results show that the CaPA System has only average performance due to limited radar coverage (10%) in the forested region; however, using the CaPA System as a covariate with regression kriging generates significantly better precipitation estimates. Ordinary kriging, regression kriging with elevation as a covariate, and the thin‐plate smoothed spline are methods with similar performance. Fuel moisture codes of the Fire Weather Index System respond differently to precipitation amounts due to differences in their time constants for drying. Fine fuels with a short drying time (Fine Fuel Moisture Code) are best estimated by the CaPA System because of its enhanced skill in estimating small precipitation events. Compacted organic fuels with longer drying times (Duff Moisture Code and Drought Code) are best estimated by regression kriging with CaPA because it better predicts significant precipitation events. The dense fire weather station network in our study area (~3.0 stations/10,000 km2) allows us to perform a sensitivity analysis, and we find that a threshold of \textgreater0.5 stations/10,000 km2 is needed for regression kriging with CaPA to become appreciably better than the CaPA System.
+%R 10.1029/2018JD028754
+%U https://aclanthology.org/2019.GWF-1.36
+%U https://doi.org/10.1029/2018JD028754
+

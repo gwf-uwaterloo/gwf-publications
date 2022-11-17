@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Newman-etal-2019-Methodological">
+    <titleInfo>
+        <title>Methodological Intercomparisons of Station-Based Gridded Meteorological Products: Utility, Limitations, and Paths Forward</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Newman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ryan</namePart>
+        <namePart type="family">J. Longman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">T</namePart>
+        <namePart type="family">Giambelluca</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>This study presents a gridded meteorology intercomparison using the State of Hawaii as a testbed. This is motivated by the goal to provide the broad user community with knowledge of interproduct differences and the reasons differences exist. More generally, the challenge of generating station-based gridded meteorological surfaces and the difficulties in attributing interproduct differences to specific methodological decisions are demonstrated. Hawaii is a useful testbed because it is traditionally underserved, yet meteorologically interesting and complex. In addition, several climatological and daily gridded meteorology datasets are now available, which are used extensively by the applications modeling community, thus an intercomparison enhances Hawaiian specific capabilities. We compare PRISM climatology and three daily datasets: new datasets from the University of Hawai‘i and the National Center for Atmospheric Research, and Daymet version 3 for precipitation and temperature variables only. General conclusions that have emerged are 1) differences in input station data significantly influence the product differences, 2) explicit prediction of precipitation occurrence is crucial across multiple metrics, and 3) attribution of differences to specific methodological choices is difficult and limits the usefulness of intercomparisons. Because generating gridded meteorological fields is an elaborate process with many methodological choices interacting in complex ways, future work should 1) develop modular frameworks that allows users to easily examine the breadth of methodological choices, 2) collate available nontraditional high-quality observational datasets for true out-of-sample validation and make them publicly available, and 3) define benchmarks of acceptable performance for methodological components and products.</abstract>
+    <identifier type="citekey">Newman-etal-2019-Methodological</identifier>
+    <identifier type="doi">10.1175/JHM-D-18-0114.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.146</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

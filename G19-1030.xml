@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Alaya-etal-2019-Evaluation">
+    <titleInfo>
+        <title>Evaluation and Comparison of CanRCM4 and CRCM5 to Estimate Probable Maximum Precipitation over North America</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Alaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2019</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Recently dam managers have begun to use data produced by regional climate models to estimate how probable maximum precipitation (PMP) might evolve in the future. Before accomplishing such a task, it is essential to assess PMP estimates derived from regional climate models (RCMs). In the current study PMP over North America estimated from two Canadian RCMs, CanRCM4 and CRCM5, is compared with estimates derived from three reanalysis products: ERA-Interim, NARR, and CFSR. An additional hybrid dataset (MSWEP-ERA) produced by combining precipitation from the Multi-Source Weighted-Ensemble Precipitation (MSWEP) dataset and precipitable water (PW) from ERA-Interim is also considered to derive PMP estimates that can serve as a reference. A recently developed approach using a statistical bivariate extreme values distribution is used to provide a probabilistic description of the PMP estimates using the moisture maximization method. Such a probabilistic description naturally allows an assessment of PMP estimates that includes quantification of their uncertainty. While PMP estimates based on the two RCMs exhibit spatial patterns similar to those of MSWEP-ERA and the three sets of reanalyses on the continental scale over North America, CanRCM4 has a tendency for overestimation while CRCM5 has a tendency for modest underestimation. Generally, CRCM5 shows good agreement with ERA-Interim, while CanRCM4 is more comparable to CFSR. Overall, the good ability of the two RCMs to reproduce the major characteristics of the different components involved in the estimation of PMP suggests that they may be useful tools for PMP estimation that could serve as a basis for flood studies at the basin scale.</abstract>
+    <identifier type="citekey">Alaya-etal-2019-Evaluation</identifier>
+    <identifier type="doi">10.1175/jhm-d-18-0233.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2019.GWF-1.30</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Conway-etal-2018-Challenges">
+    <titleInfo>
+        <title>Challenges in Modeling Turbulent Heat Fluxes to Snowpacks in Forest Clearings</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Conway</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="family">Kinar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2018</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>Forest clearings are common features of evergreen forests and produce snowpack accumulation and melt differing from that in adjacent forests and open terrain. This study has investigated the challenges in specifying the turbulent fluxes of sensible and latent heat to snowpacks in forest clearings. The snowpack in two forest clearings in the Canadian Rockies was simulated using a one-dimensional (1D) snowpack model. A trade-off was found between optimizing against measured snow surface temperature or snowmelt when choosing how to specify the turbulent fluxes. Schemes using the Monin–Obukhov similarity theory tended to produce negatively biased surface temperature, while schemes that enhanced turbulent fluxes, to reduce the surface temperature bias, resulted in too much melt. Uncertainty estimates from Monte Carlo experiments showed that no realistic parameter set could successfully remove biases in both surface temperature and melt. A simple scheme that excludes atmospheric stability correction was required to successfully simulate surface temperature under low wind speed conditions. Nonturbulent advective fluxes and/or nonlocal sources of turbulence are thought to account for the maintenance of heat exchange in low-wind conditions. The simulation of snowmelt was improved by allowing enhanced latent heat fluxes during low-wind conditions. Caution is warranted when snowpack models are optimized on surface temperature, as model tuning may compensate for deficiencies in conceptual and numerical models of radiative, conductive, and turbulent heat exchange at the snow surface and within the snowpack. Such model tuning could have large impacts on the melt rate and timing of the snow-free transition in simulations of forest clearings within hydrological and meteorological models.</abstract>
+    <identifier type="citekey">Conway-etal-2018-Challenges</identifier>
+    <identifier type="doi">10.1175/JHM-D-18-0050.1</identifier>
+    <location>
+        <url>https://aclanthology.org/2018.GWF-1.38</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

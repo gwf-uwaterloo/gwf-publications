@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sadeghian-etal-2021-Effects">
+    <titleInfo>
+        <title>Effects of quality controlled measured and re-analysed meteorological data on the performance of water temperature simulations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="family">Sadeghian</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hudson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>ABSTRACT One of the most prominent sources of error and uncertainty in water quality modelling results is the input data. In this study, data from three meteorological databases were used to test the performance of a water temperature model of Lake Diefenbaker: the data from Environment and Climate Change Canada (ECCC) had long-term quality control history (\textgreater20 years); the data from the AccuWeather had short-term quality control history (\textless10 years), and the data from the MeteoBlue database were modelled values. The CE-QUAL-W2 hydrodynamic and water quality model was used for this study. The model was calibrated by adjusting model coefficients controlling the amounts of measured solar radiation and wind that reach the surface of the water. The sensitivity results showed very similar performances, with slightly better performances (root mean square root difference of \pm 0.1) with the ECCC data followed by the MeteoBlue data and thereafter by the AccuWeather data.</abstract>
+    <identifier type="citekey">Sadeghian-etal-2021-Effects</identifier>
+    <identifier type="doi">10.1080/02626667.2021.1994975</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.71</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Papalexiou-etal-2021-Probabilistic">
+    <titleInfo>
+        <title>Probabilistic Evaluation of Drought in CMIP6 Simulations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">R. Rajulapati</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">E</namePart>
+        <namePart type="family">Foufoula‐Georgiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Trenberth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Water Futures 2021</title>
+        </titleInfo>
+        <originInfo>
+            <publisher>University of Waterloo</publisher>
+            <place>
+                <placeTerm type="text">Online</placeTerm>
+            </place>
+        </originInfo>
+        <genre authority="marcgt">conference publication</genre>
+    </relatedItem>
+    <abstract>As droughts have widespread social and ecological impacts, it is critical to develop long‐term adaptation and mitigation strategies to reduce drought vulnerability. Climate models are important in quantifying drought changes. Here, we assess the ability of 285 CMIP6 historical simulations, from 17 models, to reproduce drought duration and severity in three observational data sets using the Standardized Precipitation Index (SPI). We used summary statistics beyond the mean and standard deviation, and devised a novel probabilistic framework, based on the Hellinger distance, to quantify the difference between observed and simulated drought characteristics. Results show that many simulations have less than \pm10% error in reproducing the observed drought summary statistics. The hypothesis that simulations and observations are described by the same distribution cannot be rejected for more than 80% of the grids based on our H distance framework. No single model stood out as demonstrating consistently better performance over large regions of the globe. The variance in drought statistics among the simulations is higher in the tropics compared to other latitudinal zones. Though the models capture the characteristics of dry spells well, there is considerable bias in low precipitation values. Good model performance in terms of SPI does not imply good performance in simulating low precipitation. Our study emphasizes the need to probabilistically evaluate climate model simulations in order to both pinpoint model weaknesses and identify a subset of best‐performing models that are useful for impact assessments.</abstract>
+    <identifier type="citekey">Papalexiou-etal-2021-Probabilistic</identifier>
+    <identifier type="doi">10.1029/2021EF002150</identifier>
+    <location>
+        <url>https://aclanthology.org/2021.GWF-1.69</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>
