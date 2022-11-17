@@ -1,0 +1,31 @@
+#######################################
+# MAC OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# logfiles
+.philog.LOGFILE
+
+# backup files
+*~
+*#
+
+#######################################
+**/__pycache__
+
+# generated website
+/build/
+
+#virtual environment
+/venv/
