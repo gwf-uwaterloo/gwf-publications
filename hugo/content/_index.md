@@ -1,5 +1,5 @@
 ---
-Title: ACL Anthology
+Title: GWF Anthology
 date: "0001-01-01"
 css_container: container-fluid
 ---
