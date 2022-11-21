@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mondal-2020-A">
+    <titleInfo>
+        <title>A survey on clone refactoring and tracking</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Systems and Software, Volume 159</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Mondal-2020-A</identifier>
+    <identifier type="doi">10.1016/j.jss.2019.110429</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-115001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>159</number></detail>
+        <detail type="page"><number>110429</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Meloche-2022-Characterizing">
+    <titleInfo>
+        <title>Characterizing tundra snow sub-pixel variability to improve brightness temperature estimation in satellite SWE retrievals</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Julien</namePart>
+        <namePart type="family">Meloche</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Langlois</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nick</namePart>
+        <namePart type="family">Rutter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Royer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Josh</namePart>
+        <namePart type="family">King</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Branden</namePart>
+        <namePart type="family">Walker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Evan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wilcox</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>The Cryosphere, Volume 16, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreaterAbstract. Topography and vegetation play a major role in sub-pixel variability ofArctic snowpack properties but are not considered in current passivemicrowave (PMW) satellite SWE retrievals. Simulation of sub-pixelvariability of snow properties is also problematic when downscaling snow andclimate models. In this study, we simplified observed variability ofsnowpack properties (depth, density, microstructure) in a two-layer modelwith mean values and distributions of two multi-year tundra dataset so theycould be incorporated in SWE retrieval schemes. Spatial variation of snowdepth was parameterized by a log-normal distribution with mean (μsd)values and coefficients of variation (CVsd). Snow depth variability(CVsd) was found to increase as a function of the area measured by aremotely piloted aircraft system (RPAS). Distributions of snow specificsurface area (SSA) and density were found for the wind slab (WS) and depthhoar (DH) layers. The mean depth hoar fraction (DHF) was found to be higherin Trail Valley Creek (TVC) than in Cambridge Bay (CB), where TVC is at alower latitude with a subarctic shrub tundra compared to CB, which is agraminoid tundra. DHFs were fitted with a Gaussian process and predicted fromsnow depth. Simulations of brightness temperatures using the Snow MicrowaveRadiative Transfer (SMRT) model incorporating snow depth and DHF variationwere evaluated with measurements from the Special Sensor Microwave/Imagerand Sounder (SSMIS) sensor. Variation in snow depth (CVsd) is proposedas an effective parameter to account for sub-pixel variability in PMWemission, improving simulation by 8 K. SMRT simulations using a CVsd of0.9 best matched CVsd observations from spatial datasets for areas &amp;gt; 3 km2, which is comparable to the 3.125 km pixel size ofthe Equal-Area Scalable Earth (EASE)-Grid 2.0 enhanced resolution at 37 GHz. \textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Meloche-2022-Characterizing</identifier>
+    <identifier type="doi">10.5194/tc-16-87-2022</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-46001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>87</start>
+            <end>101</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

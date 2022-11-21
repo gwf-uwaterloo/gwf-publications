@@ -1,0 +1,18 @@
+﻿%0 Journal Article
+%T Proof-of-Concept of a Quasi-2D Water-Quality Modelling Approach to Simulate Transverse Mixing in Rivers
+%A Sabokruhie, Pouya
+%A Akomeah, Eric
+%A Rosner, Tammy
+%A Lindenschmidt, Karl-Erich
+%J Water, Volume 13, Issue 21
+%D 2021
+%V 13
+%N 21
+%I MDPI AG
+%F Sabokruhie-2021-Proof-of-Concept
+%X \textlessjats:p\textgreaterA quasi-two-dimensional (quasi-2D) modelling approach is introduced to mimic transverse mixing of an inflow into a river from one of its banks, either an industrial outfall or a tributary. The concentrations of determinands in the inflow vary greatly from those in the river, leading to very long mixing lengths in the river downstream of the inflow location. Ideally, a two-dimensional (2D) model would be used on a small scale to capture the mixing of the two flow streams. However, for large-scale applications of several hundreds of kilometres of river length, such an approach demands too many computational resources and too much computational time, especially if the application will at some point require ensemble input from climate-change scenario data. However, a one-dimensional (1D) model with variables varying in the longitudinal flow direction but averaged across the cross-sections is too simple of an approach to capture the lateral mixing between different flow streams within the river. Hence, a quasi-2D method is proposed in which a simplified 1D solver is still applied but the discretisation of the model setup can be carried out in such a way as to enable a 2D representation of the model domain. The quasi-2D model setup also allows secondary channels and side lakes in floodplains to be incorporated into the discretisation. To show proof-of-concept, the approach has been tested on a stretch of the lower Athabasca River in Canada flowing through the oil sands region between Fort McMurray and Fort MacKay. A dye tracer and suspended sediments are the constituents modelled in this test case.\textless/jats:p\textgreater
+%R 10.3390/w13213071
+%U https://aclanthology.org/G21-146001
+%U https://doi.org/10.3390/w13213071
+%P 3071
+

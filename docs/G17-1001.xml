@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="ElKorh-etal-2017-Iron">
+<mods ID="ElKorh-2017-Iron">
     <titleInfo>
         <title>Iron isotope fractionation in subduction-related high-pressure metabasites (Ile de Groix, France)</title>
     </titleInfo>
@@ -12,21 +12,21 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">B</namePart>
+        <namePart type="given">Béatrice</namePart>
         <namePart type="family">Luais</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">E</namePart>
+        <namePart type="given">Etienne</namePart>
         <namePart type="family">Deloule</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">D</namePart>
+        <namePart type="given">Damien</namePart>
         <namePart type="family">Cividini</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -36,25 +36,27 @@
         <dateIssued>2017</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Global Water Futures 2017</title>
+            <title>Contributions to Mineralogy and Petrology, Volume 172, Issue 6</title>
         </titleInfo>
         <originInfo>
-            <publisher>University of Waterloo</publisher>
-            <place>
-                <placeTerm type="text">Online</placeTerm>
-            </place>
+            <issuance>continuing</issuance>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
-        <genre authority="marcgt">conference publication</genre>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">El Korh-etal-2017-Iron</identifier>
+    <identifier type="citekey">El Korh-2017-Iron</identifier>
     <identifier type="doi">10.1007/s00410-017-1357-x</identifier>
     <location>
-        <url>https://aclanthology.org/2017.GWF-1.1</url>
+        <url>https://aclanthology.org/G17-1001</url>
     </location>
     <part>
         <date>2017</date>
+        <detail type="volume"><number>172</number></detail>
+        <detail type="issue"><number>6</number></detail>
     </part>
 </mods>
 </modsCollection>

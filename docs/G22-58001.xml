@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Lipoth-2022-A">
+    <titleInfo>
+        <title>A new very simply explicitly invertible approximation for the standard normal cumulative distribution function</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jessica</namePart>
+        <namePart type="family">Lipoth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yoseph</namePart>
+        <namePart type="family">Tereda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>AIMS Mathematics, Volume 7, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Institute of Mathematical Sciences (AIMS)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p xml:lang=“fr”\textgreater&amp;lt;abstract&amp;gt;&amp;lt;p&amp;gt;This paper proposes a new very simply explicitly invertible function to approximate the standard normal cumulative distribution function (CDF). The new function was fit to the standard normal CDF using both MATLAB’s Global Optimization Toolbox and the BARON software package. The results of three separate fits are presented in this paper. Each fit was performed across the range $ 0 \textbackslashleq z \textbackslashleq 7 $ and achieved a maximum absolute error (MAE) superior to the best MAE reported for previously published very simply explicitly invertible approximations of the standard normal CDF. The best MAE reported from this study is 2.73e–05, which is nearly a factor of five better than the best MAE reported for other published very simply explicitly invertible approximations.&amp;lt;/p&amp;gt;&amp;lt;/abstract&amp;gt;\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Lipoth-2022-A</identifier>
+    <identifier type="doi">10.3934/math.2022648</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-58001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>7</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>11635</start>
+            <end>11646</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zwieback-2019-Fine-Scale">
+    <titleInfo>
+        <title>Fine-Scale SAR Soil Moisture Estimation in the Subarctic Tundra</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Zwieback</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Transactions on Geoscience and Remote Sensing, Volume 57, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Zwieback-2019-Fine-Scale</identifier>
+    <identifier type="doi">10.1109/tgrs.2019.2893908</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-196001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>57</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>4898</start>
+            <end>4912</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

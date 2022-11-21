@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="E.Cuffaro-etal-2018-Proceedings">
+<mods ID="Ferguson-2018-Comment">
     <titleInfo>
-        <title>Proceedings of the 9th International Workshop on Physics and Computation</title>
+        <title>Comment on “Groundwater Pumping Is a Significant Unrecognized Contributor to Global Anthropogenic Element Cycles”</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">E. Cuffaro</namePart>
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Ferguson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippos</namePart>
-        <namePart type="family">Papayannopoulos</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">McIntosh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -22,26 +23,31 @@
         <dateIssued>2018</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Global Water Futures 2018</title>
+            <title>Groundwater, Volume 57, Issue 1</title>
         </titleInfo>
         <originInfo>
-            <publisher>University of Waterloo</publisher>
-            <place>
-                <placeTerm type="text">Online</placeTerm>
-            </place>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
         </originInfo>
-        <genre authority="marcgt">conference publication</genre>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The 9th International Workshop on Physics and Computation (PC 2018) was held as a satellite workshop of the 17th International Conference on Unconventional Computation and Natural Computation (UCNC 2018) in Fontainebleau, France, which was held from 25-29 June 2018. PC 2018 was an interdisciplinary meeting which brought together researchers from various domains with interests in physics and computation. Research and important issues relating to the interface between physics and the theories of computation, computability and information, including their application to physical systems, were presented and discussed.</abstract>
-    <identifier type="citekey">E. Cuffaro-etal-2018-Proceedings</identifier>
-    <identifier type="doi">10.4204/EPTCS.273</identifier>
+    <identifier type="citekey">Ferguson-2018-Comment</identifier>
+    <identifier type="doi">10.1111/gwat.12840</identifier>
     <location>
-        <url>https://aclanthology.org/2018.GWF-1.1</url>
+        <url>https://aclanthology.org/G18-1001</url>
     </location>
     <part>
         <date>2018</date>
+        <detail type="volume"><number>57</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>82</start>
+            <end>82</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

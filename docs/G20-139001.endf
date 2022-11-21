@@ -1,0 +1,21 @@
+﻿%0 Journal Article
+%T SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018
+%A Tang, Guoqiang
+%A Clark, Martyn P.
+%A Newman, Andrew J.
+%A Wood, Andrew W.
+%A Papalexiou, Simon Michael
+%A Vionnet, Vincent
+%A Whitfield, Paul H.
+%J Earth System Science Data, Volume 12, Issue 4
+%D 2020
+%V 12
+%N 4
+%I Copernicus GmbH
+%F Tang-2020-SCDNA:
+%X \textlessjats:p\textgreaterAbstract. Station-based serially complete datasets (SCDs) of precipitation and temperature observations areimportant for hydrometeorological studies. Motivated by the lack of serially complete stationobservations for North America, this study seeks to develop an SCD from 1979 to 2018 from stationdata. The new SCD for North America (SCDNA) includes daily precipitation, minimum temperature(Tmin⁡), and maximum temperature (Tmax⁡) data for 27 276 stations. Raw meteorologicalstation data were obtained from the Global Historical Climate Network Daily (GHCN-D), the GlobalSurface Summary of the Day (GSOD), Environment and Climate Change Canada (ECCC), and a compiledstation database in Mexico. Stations with at least 8-year-long records were selected, which underwentlocation correction and were subjected to strict quality control. Outputs from three reanalysisproducts (ERA5, JRA-55, and MERRA-2) provided auxiliary information to estimate stationrecords. Infilling during the observation period and reconstruction beyond the observation periodwere accomplished by combining estimates from 16 strategies (variants of quantile mapping, spatialinterpolation, and machine learning). A sensitivity experiment was conducted by assuming that 30 % ofobservations from stations were missing – this enabled independent validation and provided areference for reconstruction. Quantile mapping and mean value corrections were applied to thefinal estimates. The median Kling–Gupta efficiency (KGE′) values of the final SCDNA forall stations are 0.90, 0.98, and 0.99 for precipitation, Tmin⁡, and Tmax⁡,respectively. The SCDNA is closer to station observations than the four benchmark griddedproducts and can be used in applications that require either quality-controlled meteorologicalstation observations or reconstructed long-term estimates for analysis and modeling. The datasetis available at https://doi.org/10.5281/zenodo.3735533 (Tang et al., 2020). \textless/jats:p\textgreater
+%R 10.5194/essd-12-2381-2020
+%U https://aclanthology.org/G20-139001
+%U https://doi.org/10.5194/essd-12-2381-2020
+%P 2381-2409
+

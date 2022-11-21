@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Wiebe-2022-Meteorological">
+    <titleInfo>
+        <title>Meteorological and hydrological data from the Alder Creek watershed, SW Ontario</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wiebe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Rudolph</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth System Science Data, Volume 14, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Wiebe-2022-Meteorological</identifier>
+    <identifier type="doi">10.5194/essd-14-3229-2022</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-70001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>3229</start>
+            <end>3248</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

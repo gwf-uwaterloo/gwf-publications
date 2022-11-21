@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mostaeen-2019-Designing">
+    <titleInfo>
+        <title>Designing for Real-Time Groupware Systems to Support Complex Scientific Data Analysis</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Golam</namePart>
+        <namePart type="family">Mostaeen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the ACM on Human-Computer Interaction, Volume 3, Issue EICS</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Association for Computing Machinery (ACM)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreaterScientific Workflow Management Systems (SWfMSs) have become popular for accelerating the specification, execution, visualization, and monitoring of data-intensive scientific experiments. Unfortunately, to the best of our knowledge no existing SWfMSs directly support collaboration. Data is increasing in complexity, dimensionality, and volume, and the efficient analysis of data often goes beyond the realm of an individual and requires collaboration with multiple researchers from varying domains. In this paper, we propose a groupware system architecture for data analysis that in addition to supporting collaboration, also incorporates features from SWfMSs to support modern data analysis processes. As a proof of concept for the proposed architecture we developed SciWorCS - a groupware system for scientific data analysis. We present two real-world use-cases: collaborative software repository analysis and bioinformatics data analysis. The results of the experiments evaluating the proposed system are promising. Our bioinformatics user study demonstrates that SciWorCS can leverage real-world data analysis tasks by supporting real-time collaboration among users.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Mostaeen-2019-Designing</identifier>
+    <identifier type="doi">10.1145/3331151</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-130001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>3</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>28</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

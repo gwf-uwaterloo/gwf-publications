@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Vionnet-2021-Canadian">
+    <titleInfo>
+        <title>Canadian historical Snow Water Equivalent dataset (CanSWE, 1928–2020)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Vionnet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colleen</namePart>
+        <namePart type="family">Mortimer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Brady</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Louise</namePart>
+        <namePart type="family">Arnal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ross</namePart>
+        <namePart type="family">Brown</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth System Science Data, Volume 13, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Vionnet-2021-Canadian</identifier>
+    <identifier type="doi">10.5194/essd-13-4603-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-69001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>4603</start>
+            <end>4619</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

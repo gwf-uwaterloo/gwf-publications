@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Tang-2022-EM-Earth:">
+    <titleInfo>
+        <title>EM-Earth: The Ensemble Meteorological Dataset for Planet Earth</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Bulletin of the American Meteorological Society, Volume 103, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Tang-2022-EM-Earth:</identifier>
+    <identifier type="doi">10.1175/bams-d-21-0106.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-32001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>103</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>E996</start>
+            <end>E1018</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

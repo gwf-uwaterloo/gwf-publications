@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Naveau-2018-Revising">
+    <titleInfo>
+        <title>Revising Return Periods for Record Events in a Climate Event Attribution Context</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Naveau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aurélien</namePart>
+        <namePart type="family">Ribes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francis</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexis</namePart>
+        <namePart type="family">Hannart</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Tuel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pascal</namePart>
+        <namePart type="family">Yiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Climate, Volume 31, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreater Both climate and statistical models play an essential role in the process of demonstrating that the distribution of some atmospheric variable has changed over time and in establishing the most likely causes for the detected change. One statistical difficulty in the research field of detection and attribution resides in defining events that can be easily compared and accurately inferred from reasonable sample sizes. As many impacts studies focus on extreme events, the inference of small probabilities and the computation of their associated uncertainties quickly become challenging. In the particular context of event attribution, the authors address the question of how to compare records between the counterfactual “world as it might have been” without anthropogenic forcings and the factual “world that is.” Records are often the most important events in terms of impact and get much media attention. The authors will show how to efficiently estimate the ratio of two small probabilities of records. The inferential gain is particularly substantial when a simple hypothesis-testing procedure is implemented. The theoretical justification of such a proposed scheme can be found in extreme value theory. To illustrate this study’s approach, classical indicators in event attribution studies, like the risk ratio or the fraction of attributable risk, are modified and tailored to handle records. The authors illustrate the advantages of their method through theoretical results, simulation studies, temperature records in Paris, and outputs from a numerical climate model. \textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Naveau-2018-Revising</identifier>
+    <identifier type="doi">10.1175/jcli-d-16-0752.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-93001</url>
+    </location>
+    <part>
+        <date>2018</date>
+        <detail type="volume"><number>31</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>3411</start>
+            <end>3422</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Barszcz-2018-Improving">
+    <titleInfo>
+        <title>Improving the Explicit Prediction of Freezing Rain in a Kilometer-Scale Numerical Weather Prediction Model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Agnieszka</namePart>
+        <namePart type="family">Barszcz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Milbrandt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Weather and Forecasting, Volume 33, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:title\textgreaterAbstract\textless/jats:title\textgreater \textlessjats:p\textgreaterA freezing rain event, in which the Meteorological Centre of Canada’s 2.5-km numerical weather prediction system significantly underpredicted the quantity of freezing rain, is examined. The prediction system models precipitation types explicitly, directly from the Milbrandt–Yau microphysics scheme. It was determined that the freezing rain underprediction for this case was due primarily to excessive refreezing of rain, originating from melting snow and graupel, in and under the temperature inversion of the advancing warm front ultimately depleting the supply of rain reaching the surface. The refreezing was caused from excessive collisional freezing between rain and graupel. Sensitivity experiments were conducted to examine the effects of a temperature threshold for collisional freezing and on varying the values of the collection efficiencies between rain and ice-phase hydrometeors. It was shown that by reducing the rain–graupel collection efficiency and by imposing a temperature threshold of −5°C, above which collisional freezing is not permitted, excessive rain–graupel collection and graupel formation can be controlled in the microphysics scheme, leading to an improved simulation of freezing rain at the surface.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Barszcz-2018-Improving</identifier>
+    <identifier type="doi">10.1175/waf-d-17-0136.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-14001</url>
+    </location>
+    <part>
+        <date>2018</date>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>767</start>
+            <end>782</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

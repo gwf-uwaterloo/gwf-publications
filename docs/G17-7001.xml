@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Brouwer-2017-The">
+    <titleInfo>
+        <title>The economic value of river restoration</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Brouwer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oleg</namePart>
+        <namePart type="family">Sheremet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2017</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources and Economics, Volume 17</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Brouwer-2017-The</identifier>
+    <identifier type="doi">10.1016/j.wre.2017.02.005</identifier>
+    <location>
+        <url>https://aclanthology.org/G17-7001</url>
+    </location>
+    <part>
+        <date>2017</date>
+        <detail type="volume"><number>17</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>8</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

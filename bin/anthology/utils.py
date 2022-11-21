@@ -46,7 +46,7 @@ def is_journal(anthology_id):
         venue = anthology_id.split("-")[0].split(".")[-1]
         return venue in data.JOURNAL_IDS
     else:
-        return anthology_id[0] in ("J", "Q")
+        return anthology_id[0] in ("G")
 
 
 def is_volume_id(anthology_id):

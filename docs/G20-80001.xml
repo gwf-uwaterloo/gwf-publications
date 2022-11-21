@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gauch-2020-An">
+    <titleInfo>
+        <title>An Open-Source Interface to the Canadian Surface Prediction Archive</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Gauch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="family">Bai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juliane</namePart>
+        <namePart type="family">Mai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>ACM</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Gauch-2020-An</identifier>
+    <identifier type="doi">10.1145/3383583.3398626</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-80001</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="He-2019-Lake">
+    <titleInfo>
+        <title>Lake O’Hara alpine hydrological observatory: hydrological and meteorological dataset, 2004–2017</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jesse</namePart>
+        <namePart type="family">He</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth System Science Data, Volume 11, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreaterAbstract. The Lake O’Hara watershed in the Canadian Rockies has been the site of several hydrologicalinvestigations. It has been instrumented to a degree uncommon for many alpinestudy watersheds. Air temperature, relative humidity, wind, precipitation,radiation, and snow depth are measured at two meteorological stations nearLake O’Hara and in the higher elevation Opabin Plateau. Water levels at LakeO’Hara, Opabin Lake, and several stream gauging stations are recorded usingpressure transducers and validated against manual measurements.Stage–discharge rating curves were determined at gauging stations and usedto calculate discharge from stream stage. The database includes additionaldata such as water chemistry (temperature, electrical conductivity, andstable isotope abundance) and snow survey (snow depth and density) for selectyears, as well as geospatial data (elevation and land cover). This datasetwill be useful for the future study of alpine regions, where substantial andlong-term hydrological datasets are scarce due to difficult field conditions.The dataset can be accessed at https://doi.org/10.20383/101.035. \textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">He-2019-Lake</identifier>
+    <identifier type="doi">10.5194/essd-11-111-2019</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-11002</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>111</start>
+            <end>117</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

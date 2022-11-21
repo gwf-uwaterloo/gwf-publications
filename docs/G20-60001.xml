@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Budhathoki-2020-Improved">
+    <titleInfo>
+        <title>Improved modelling of a Prairie catchment using a progressive two-stage calibration strategy with in situ soil moisture and streamflow data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Sujata</namePart>
+        <namePart type="family">Budhathoki</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology Research, Volume 51, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IWA Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:title\textgreaterAbstract\textless/jats:title\textgreater \textlessjats:p\textgreaterDynamic contributing areas, various fill-and-spill mechanisms and cold-region processes make the hydrological modelling of the Prairies very challenging. Several models (from simple conceptual to advanced process-based) are available, but the focus has been largely in reproducing streamflow. Few studies have assimilated soil moisture and other hydrological fluxes for improved simulation, but the emphasis has been predominately on simulating contributing areas. However, previous research has shown that the contributing areas are dynamic, and can vary from one year to the next, depending on hydro-meteorological conditions. Therefore, the areas deemed non-contributing can also occasionally contribute to streamflow. In this study, we introduce a progressive two-stage calibration strategy to constrain soil moisture in non-contributing areas. We demonstrate that constraining soil moisture in non-contributing areas can result in improved hydrological simulations and more realistic process representations. The Nash–Sutcliffe efficiency (NSE) values for simulated soil moisture in contributing areas increased by 68% at 20 cm and 25% at 50 cm soil depths during validation when non-contributing areas were constrained. This further led to increases in NSE values in streamflow simulation during calibration (6%) and validation (12%). Our findings suggest that soil moisture in non-contributing areas should be properly constrained for improved modelling of Prairie catchments.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Budhathoki-2020-Improved</identifier>
+    <identifier type="doi">10.2166/nh.2020.109</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-60001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>51</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>505</start>
+            <end>520</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

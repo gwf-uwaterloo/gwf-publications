@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Goldacre-etal-2016-OpenTrials:">
+<mods ID="Goldacre-2016-OpenTrials:">
     <titleInfo>
         <title>OpenTrials: towards a collaborative open database of all available information on all clinical trials</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">B</namePart>
+        <namePart type="given">Ben</namePart>
         <namePart type="family">Goldacre</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
+        <namePart type="given">Jonathan</namePart>
         <namePart type="family">Gray</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -22,25 +22,27 @@
         <dateIssued>2016</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Global Water Futures 2016</title>
+            <title>Trials, Volume 17, Issue 1</title>
         </titleInfo>
         <originInfo>
-            <publisher>University of Waterloo</publisher>
-            <place>
-                <placeTerm type="text">Online</placeTerm>
-            </place>
+            <issuance>continuing</issuance>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
-        <genre authority="marcgt">conference publication</genre>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Goldacre-etal-2016-OpenTrials:</identifier>
+    <identifier type="citekey">Goldacre-2016-OpenTrials:</identifier>
     <identifier type="doi">10.1186/s13063-016-1290-8</identifier>
     <location>
-        <url>https://aclanthology.org/2016.GWF-1.1</url>
+        <url>https://aclanthology.org/G16-1001</url>
     </location>
     <part>
         <date>2016</date>
+        <detail type="volume"><number>17</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

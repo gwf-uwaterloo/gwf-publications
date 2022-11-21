@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Elshamy-2020-On">
+    <titleInfo>
+        <title>On the configuration and initialization of a large-scale hydrological land surface model to represent permafrost</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Elshamy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Princz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gonzalo</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Abdelhamed</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Al</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 24, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreaterAbstract. Permafrost is an important feature of cold-region hydrology, particularly in river basins such as the Mackenzie River basin (MRB), and it needs to be properly represented in hydrological and land surface models (H-LSMs) built into existing Earth system models (ESMs), especially under the unprecedented climate warming trends that have been observed. Higher rates of warming have been reported in high latitudes compared to the global average, resulting in permafrost thaw with wide-ranging implications for hydrology and feedbacks to climate. The current generation of H-LSMs is being improved to simulate permafrost dynamics by allowing deep soil profiles and incorporating organic soils explicitly. Deeper soil profiles have larger hydraulic and thermal memories that require more effort to initialize. This study aims to devise a robust, yet computationally efficient, initialization and parameterization approach applicable to regions where data are scarce and simulations typically require large computational resources. The study further demonstrates an upscaling approach to inform large-scale ESM simulations based on the insights gained by modelling at small scales. We used permafrost observations from three sites along the Mackenzie River valley spanning different permafrost classes to test the validity of the approach. Results show generally good performance in reproducing present-climate permafrost properties at the three sites. The results also emphasize the sensitivity of the simulations to the soil layering scheme used, the depth to bedrock, and the organic soil properties.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Elshamy-2020-On</identifier>
+    <identifier type="doi">10.5194/hess-24-349-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-75001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>349</start>
+            <end>379</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

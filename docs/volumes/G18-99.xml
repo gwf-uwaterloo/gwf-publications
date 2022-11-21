@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Petford-2018-Pointing">
+    <titleInfo>
+        <title>Pointing All Around You</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Julian</namePart>
+        <namePart type="family">Petford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Miguel</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Nacenta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Carl</namePart>
+        <namePart type="family">Gutwin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>ACM</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Petford-2018-Pointing</identifier>
+    <identifier type="doi">10.1145/3173574.3174107</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-99001</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

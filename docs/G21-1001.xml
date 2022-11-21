@@ -1,53 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="DeHaan-etal-2021-Assessment">
+<mods ID="DeHaan-2021-Assessment">
     <titleInfo>
         <title>Assessment of Different Water Use Efficiency Calculations for Dominant Forage Crops in the Great Lakes Basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">K</namePart>
+        <namePart type="given">Kevin</namePart>
         <namePart type="family">De Haan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
+        <namePart type="given">Myroslava</namePart>
         <namePart type="family">Khomik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
+        <namePart type="given">Adam</namePart>
         <namePart type="family">Green</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">W</namePart>
+        <namePart type="given">Warren</namePart>
         <namePart type="family">Helgason</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
+        <namePart type="given">Merrin</namePart>
+        <namePart type="given">L</namePart>
         <namePart type="family">Macrae</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
+        <namePart type="given">Mazda</namePart>
         <namePart type="family">Kompanizare</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">R</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
         <namePart type="family">Petrone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -57,26 +59,29 @@
         <dateIssued>2021</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Global Water Futures 2021</title>
+            <title>Agriculture, Volume 11, Issue 8</title>
         </titleInfo>
         <originInfo>
-            <publisher>University of Waterloo</publisher>
-            <place>
-                <placeTerm type="text">Online</placeTerm>
-            </place>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
         </originInfo>
-        <genre authority="marcgt">conference publication</genre>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Water use efficiency (WUE) can be calculated using a range of methods differing in carbon uptake and water use variable selection. Consequently, inconsistencies arise between WUE calculations due to complex physical and physiological interactions. The purpose of this study was to quantify and compare WUE estimates (harvest or flux-based) for alfalfa (C3 plant) and maize (C4 plant) and determine effects of input variables, plant physiology and farming practices on estimates. Four WUE calculations were investigated: two “harvest-based” methods, using above ground carbon content and either precipitation or evapotranspiration (ET), and two “flux-based” methods, using gross primary productivity (GPP) and either ET or transpiration. WUE estimates differed based on method used at both half-hourly and seasonal scales. Input variables used in calculations affected WUE estimates, and plant physiology led to different responses in carbon assimilation and water use variables. WUE estimates were also impacted by different plant physiological responses and processing methods, even when the same carbon assimilation and water use variables were considered. This study highlights a need to develop a metric of measuring cropland carbon-water coupling that accounts for all water use components, plant carbon responses, and biomass production.</abstract>
-    <identifier type="citekey">De Haan-etal-2021-Assessment</identifier>
+    <abstract>\textlessjats:p\textgreaterWater use efficiency (WUE) can be calculated using a range of methods differing in carbon uptake and water use variable selection. Consequently, inconsistencies arise between WUE calculations due to complex physical and physiological interactions. The purpose of this study was to quantify and compare WUE estimates (harvest or flux-based) for alfalfa (C3 plant) and maize (C4 plant) and determine effects of input variables, plant physiology and farming practices on estimates. Four WUE calculations were investigated: two “harvest-based” methods, using above ground carbon content and either precipitation or evapotranspiration (ET), and two “flux-based” methods, using gross primary productivity (GPP) and either ET or transpiration. WUE estimates differed based on method used at both half-hourly and seasonal scales. Input variables used in calculations affected WUE estimates, and plant physiology led to different responses in carbon assimilation and water use variables. WUE estimates were also impacted by different plant physiological responses and processing methods, even when the same carbon assimilation and water use variables were considered. This study highlights a need to develop a metric of measuring cropland carbon-water coupling that accounts for all water use components, plant carbon responses, and biomass production.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">De Haan-2021-Assessment</identifier>
     <identifier type="doi">10.3390/agriculture11080739</identifier>
     <location>
-        <url>https://aclanthology.org/2021.GWF-1.1</url>
+        <url>https://aclanthology.org/G21-1001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <detail type="page"><number>739</number></detail>
     </part>
 </mods>
 </modsCollection>

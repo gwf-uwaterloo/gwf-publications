@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Svajlenko-2021-The">
+    <titleInfo>
+        <title>The Mutation and Injection Framework: Evaluating Clone Detection Tools with Mutation Analysis</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="family">Svajlenko</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Transactions on Software Engineering, Volume 47, Issue 5</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Svajlenko-2021-The</identifier>
+    <identifier type="doi">10.1109/tse.2019.2912962</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-183001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>47</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <extent unit="page">
+            <start>1060</start>
+            <end>1087</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Saberi-2022-Incorporating">
+    <titleInfo>
+        <title>Incorporating Aleatoric Uncertainties in Lake Ice Mapping Using RADARSAT–2 SAR Images and CNNs</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nastaran</namePart>
+        <namePart type="family">Saberi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Katharine</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 14, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\textlessjats:p\textgreaterWith the increasing availability of SAR imagery in recent years, more research is being conducted using deep learning (DL) for the classification of ice and open water; however, ice and open water classification using conventional DL methods such as convolutional neural networks (CNNs) is not yet accurate enough to replace manual analysis for operational ice chart mapping. Understanding the uncertainties associated with CNN model predictions can help to quantify errors and, therefore, guide efforts on potential enhancements using more–advanced DL models and/or synergistic approaches. This paper evaluates an approach for estimating the aleatoric uncertainty [a measure used to identify the noise inherent in data] of CNN probabilities to map ice and open water with a custom loss function applied to RADARSAT–2 HH and HV observations. The images were acquired during the 2014 ice season of Lake Erie and Lake Ontario, two of the five Laurentian Great Lakes of North America. Operational image analysis charts from the Canadian Ice Service (CIS), which are based on visual interpretation of SAR imagery, are used to provide training and testing labels for the CNN model and to evaluate the accuracy of the model predictions. Bathymetry, as a variable that has an impact on the ice regime of lakes, was also incorporated during model training in supplementary experiments. Adding aleatoric loss and bathymetry information improved the accuracy of mapping water and ice. Results are evaluated quantitatively (accuracy metrics) and qualitatively (visual comparisons). Ice and open water scores were improved in some sections of the lakes by using aleatoric loss and including bathymetry. In Lake Erie, the ice score was improved by ∼2 on average in the shallow near–shore zone as a result of better mapping of dark ice (low backscatter) in the western basin. As for Lake Ontario, the open water score was improved by ∼6 on average in the deepest profundal off–shore zone.\textless/jats:p\textgreater</abstract>
+    <identifier type="citekey">Saberi-2022-Incorporating</identifier>
+    <identifier type="doi">10.3390/rs14030644</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-31001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <detail type="page"><number>644</number></detail>
+    </part>
+</mods>
+</modsCollection>

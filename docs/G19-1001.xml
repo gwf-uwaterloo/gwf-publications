@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Gauch-etal-2019-The">
+<mods ID="Dalby-2019-Bordering">
     <titleInfo>
-        <title>The Proper Care and Feeding of CAMELS: How Limited Training Data Affects Streamflow Prediction</title>
+        <title>Bordering sustainability in the Anthropocene</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="family">Gauch</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Mai</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jimmy</namePart>
-        <namePart type="family">Lin</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Dalby</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -29,25 +15,31 @@
         <dateIssued>2019</dateIssued>
     </originInfo>
     <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Global Water Futures 2019</title>
+            <title>Territory, Politics, Governance, Volume 8, Issue 2</title>
         </titleInfo>
         <originInfo>
-            <publisher>University of Waterloo</publisher>
-            <place>
-                <placeTerm type="text">Online</placeTerm>
-            </place>
+            <issuance>continuing</issuance>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
-        <genre authority="marcgt">conference publication</genre>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Gauch-etal-2019-The</identifier>
-    <identifier type="doi">10.1016/J.ENVSOFT.2020.104926</identifier>
+    <identifier type="citekey">Dalby-2019-Bordering</identifier>
+    <identifier type="doi">10.1080/21622671.2018.1559758</identifier>
     <location>
-        <url>https://aclanthology.org/2019.GWF-1.1</url>
+        <url>https://aclanthology.org/G19-1001</url>
     </location>
     <part>
         <date>2019</date>
+        <detail type="volume"><number>8</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>144</start>
+            <end>160</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>
