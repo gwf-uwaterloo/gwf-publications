@@ -9,6 +9,7 @@
 %V 162
 %I Elsevier BV
 %F Nafi-2020-A
+%X Abstract While there are novel approaches for detecting and categorizing similar software applications, previous research focused on detecting similarity in applications written in the same programming language and not on detecting similarity in applications written in different programming languages. Cross-language software similarity detection is inherently more challenging due to variations in language, application structures, support libraries used, and naming conventions. In this paper we propose a novel model, CroLSim, to detect similar software applications across different programming languages. We define a semantic relationship among cross-language libraries and API methods (both local and third party) using functional descriptions and a word-vector learning model. Our experiments show that CroLSim can successfully detect cross-language similar software applications, which outperforms all existing approaches (mean average precision rate of 0.65, confidence rate of 3.6, and 75% highly rated successful queries). Furthermore, we applied CroLSim to a source code repository to see whether our model can recommend cross-language source code fragments if queried directly with source code. From our experiments we found that CroLSim can recommend cross-language functional similar source code when source code is directly used as a query (average precision=0.28, recall=0.85, and F-Measure=0.40).
 %R 10.1016/j.jss.2019.110491
 %U https://aclanthology.org/G20-117001
 %U https://doi.org/10.1016/j.jss.2019.110491

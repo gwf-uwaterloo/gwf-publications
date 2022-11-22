@@ -7,6 +7,7 @@
 %V 172
 %I Elsevier BV
 %F Wei-2022-Qualitative
+%X The susceptible-infected-recovered (SIR) model is perhaps the most basic epidemiological model for the evolution of disease spread within a population. Because of its direct representation of fundamental physical quantities, a true solution to an SIR model possesses a number of qualitative properties, such as conservation of the total population or positivity or monotonicity of its constituent populations, that may only be guaranteed to hold numerically under step-size restrictions on the solver. Operator-splitting methods with order greater than two require backward sub-steps in each operator, and the effects of these backward sub-steps on the step-size restrictions for guarantees of qualitative correctness of numerical solutions are not well studied. In this study, we analyze the impact of backward steps on step-size restrictions for guaranteed qualitative properties by applying third- and fourth-order operator-splitting methods to the SIR epidemic model. We find that it is possible to provide step-size restrictions that guarantee qualitative property preservation of the numerical solution despite the negative sub-steps, but care must be taken in the choice of the method. Results such as this open the door for the design and application of high-order operator-splitting methods to other mathematical models in general for which qualitative property preservation is important.
 %R 10.1016/j.apnum.2021.10.003
 %U https://aclanthology.org/G22-13001
 %U https://doi.org/10.1016/j.apnum.2021.10.003

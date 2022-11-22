@@ -10,14 +10,14 @@
 # Notes regarding mirrors:
 # we try to keep the rules compatible with mirrors.
 # there is one variable we need to fill in:
-# gwf-anthology is the base directory of the anthology
+# gwf-publications is the base directory of the anthology
 # and is replaced in this file during build time.
 
 # This is important for returning the proper encoding for BibTeX files
 AddDefaultCharset utf-8
 
 # Use the Anthology-themed error document
-ErrorDocument 404 /gwf-anthology/404.html
+ErrorDocument 404 /gwf-publications/404.html
 
 RewriteEngine On
 
@@ -55,8 +55,8 @@ RewriteRule ^papers/[A-Za-z]/[A-Za-z]\d{2}/([A-Za-z])(\d{2})\-(\d{4})/?$ https:/
 # The internal retrievals are used for all anthology hosts.
 
 # Volume pages (e.g., redirect /W19-75 to /volumes/W19-75)
-RewriteRule ^([A-Za-z]\d{2}\-\d{1,2})/?$ /gwf-anthology/volumes/$1 [L,NC]
-RewriteRule ^(\d{4}\.[a-zA-Z\d]+\-[a-zA-Z\d]+)/?$ /gwf-anthology/volumes/$1 [L,NC]
+RewriteRule ^([A-Za-z]\d{2}\-\d{1,2})/?$ /gwf-publications/volumes/$1 [L,NC]
+RewriteRule ^(\d{4}\.[a-zA-Z\d]+\-[a-zA-Z\d]+)/?$ /gwf-publications/volumes/$1 [L,NC]
 
 # Volume URLs (e.g., P17-1.pdf loads P/P17/P17-1.pdf, 2020.acl-main loads acl/2020.acl-main.pdf)
 RewriteRule ^([A-Za-z])(\d{2})\-(\d{1,2})\.pdf$ anthology-files/pdf/$1/$1$2/$1$2-$3.pdf [L,NC]

@@ -10,6 +10,7 @@
 %V 111
 %I Elsevier BV
 %F Sheikholeslami-2019-Global
+%X Abstract Dynamical earth and environmental systems models are typically computationally intensive and highly parameterized with many uncertain parameters. Together, these characteristics severely limit the applicability of Global Sensitivity Analysis (GSA) to high-dimensional models because very large numbers of model runs are typically required to achieve convergence and provide a robust assessment. Paradoxically, only 30 percent of GSA applications in the environmental modelling literature have investigated models with more than 20 parameters, suggesting that GSA is under-utilized on problems for which it should prove most useful. We develop a novel grouping strategy, based on bootstrap-based clustering, that enables efficient application of GSA to high-dimensional models. We also provide a new measure of robustness that assesses GSA stability and convergence. For two models, having 50 and 111 parameters, we show that grouping-enabled GSA provides results that are highly robust to sampling variability, while converging with a much smaller number of model runs.
 %R 10.1016/j.envsoft.2018.09.002
 %U https://aclanthology.org/G19-162001
 %U https://doi.org/10.1016/j.envsoft.2018.09.002

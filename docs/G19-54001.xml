@@ -34,6 +34,7 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
+    <abstract>Algorithms for the generation of a bedfast/floating lake ice product from Sentinel-1A/B synthetic aperture radar (SAR) data were implemented, cross-compared, and validated for various permafrost regions (Alaska, Canada and Russia). The algorithms consisted of: 1) thresholding; 2) Iteration Region Growing with Semantics (IRGS); and 3) K-means. The thresholding algorithm (92.4%) was found to perform slightly better on average than the IRGS algorithm (90.1%), and to outperform K-means (85.3%). The thresholding algorithm was therefore selected for implementation of a processing chain to generate a novel bedfast/floating lake ice product. Using a time series of Sentinel-1 SAR data, the new map product shows the day of year (DOY) when the ice becomes bedfast or remains afloat for individual lake sections.</abstract>
     <identifier type="citekey">Duguay-2019-Advancement</identifier>
     <identifier type="doi">10.1109/igarss.2019.8900650</identifier>
     <location>
