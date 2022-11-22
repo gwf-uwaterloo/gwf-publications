@@ -1,5 +1,5 @@
 ---
-Title: GWF Anthology
+Title: GWF Publications
 date: "2019-03-09"
 css_container: container-fluid
 layout: "index_flex"

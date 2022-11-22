@@ -1,5 +1,5 @@
 ---
-Title: GWF Anthology
+Title: GWF Publications
 date: "0001-01-01"
 css_container: container-fluid
 ---
