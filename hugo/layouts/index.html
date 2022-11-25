@@ -1,15 +1,272 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://localhost:8000/gwf-publications/events/gwf-2016/">
-        <script type="text/javascript">
-            window.location.href = "https://localhost:8000/gwf-publications/events/gwf-2016/"
-        </script>
-        <title>Page Redirection</title>
-    </head>
-    <body>
-        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
-        If you are not redirected automatically, follow this <a href='https://localhost:8000/gwf-publications/events/gwf-2016/'>link to the publications</a>.
-    </body>
-</html>
+{{ define "main" }}
+
+<div>
+  <div>
+    {{ $.Scratch.Set "paper_count" 0 }}
+    {{ range $.Site.Data.papers }}
+    {{ $.Scratch.Add "paper_count" (len .) }}
+    {{ end }}
+
+
+    <h2 class="pl-2 pb-2">Welcome to the GWF Publications Archive!</h2>
+
+    <aside class="card acl-greeting font-weight-light mb-3">
+      <div class="card-body">
+        This archive currently hosts {{ $.Scratch.Get "paper_count" }} papers from the <a
+          href="https://gwf.usask.ca/">Global Water Futures</a> research program.<br>
+        Check out a co-authorship graph of GWF researchers <a
+          href="https://gwf-uwaterloo.github.io/gwf-publications-old/index.html">here</a>.
+      </div>
+    </aside>
+
+    <div>
+      <a class="align-middle" href="#year_2022">2022</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2021">2021</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2020">2020</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2019">2019</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2018">2018</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2017">2017</a> &nbsp|&nbsp
+      <a class="align-middle" href="#year_2016">2016</a>
+    </div>
+
+    <!-- Temporarily disabled...
+    <aside class="alert alert-info acl-news mb-3" role="alert">
+      // The news message pulls from content/_index.md
+      {{ if (gt (time .PublishDate).Year 2018) }}
+      <div class="acl-news-date">{{ .PublishDate.Format "January 2006" }}</div>
+      {{ end }}
+      {{ .Content }}
+    </aside>
+    -->
+
+    <!-- <div class="row mb-3">
+      {{/* if (fileExists "/data-export/anthology.bib.gz") */}}
+      <div class="col-6 col-xl-12 mb-2">
+        <a class="btn btn-block btn-info" href="{{/* "/anthology.bib.gz" | relURL */}}">Full Anthology as BibTeX ({{/* printf "%.2f MB" (div (os.Stat "/data-export/anthology.bib.gz").Size 1000000.0) */}})</a>
+        <a class="btn btn-block btn-info" href="{{/* "/anthology+abstracts.bib.gz" | relURL */}}">…with abstracts ({{/* printf "%.2f MB" (div (os.Stat "/data-export/anthology+abstracts.bib.gz").Size 1000000.0) */}})</a>
+      </div>
+      {{/* end */}}
+      <div class="col-6 col-xl-12 mb-2">
+        <a class="btn btn-block btn-warning" href="{{/* ($.Site.GetPage "/faq/feedback.md").RelPermalink */}}">Give feedback</a>
+      </div>
+    </div> -->
+  </div>
+
+  <section id="main">
+
+    <hr />
+    <div id="year_2022">
+      <h2 id="title">
+        2022
+      </h2>
+    </div>
+
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2022" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry-author" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+    <hr />
+    <div id="year_2021">
+      <h2 id="title">
+        2021
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2021" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+    <hr />
+    <div id="year_2020">
+      <h2 id="title">
+        2020
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2020" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+    <hr />
+    <div id="year_2019">
+      <h2 id="title">
+        2019
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2019" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+    <hr />
+    <div id="year_2018">
+      <h2 id="title">
+        2018
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2018" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+    <hr />
+    <div id="year_2017">
+      <h2 id="title">
+        2017
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2017" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+
+
+    <hr />
+    <div id="year_2016">
+      <h2 id="title">
+        2016
+      </h2>
+    </div>
+    {{ $venue := index .Site.Data.venues "GWF" }}
+    {{ $volumes := index $venue "volumes_by_year" "2016" }}
+
+    {{/* Check if any of the volumes associated with this event have abstracts */}}
+    {{ $with_abstracts := 0 }}
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    {{ if $volume.has_abstracts }}
+    {{ $with_abstracts = add $with_abstracts 1 }}
+    {{ end }}
+    {{ end }}
+
+    {{ range $volumes }}
+    {{ $volume := index $.Site.Data.volumes . }}
+    <div id="{{ . | anchorize }}">
+
+      {{ range $volume.papers }}
+      {{ $page := printf "/papers/%s/%s.md" (index (split . "-") 0) . }}
+      {{ ($.Site.GetPage $page).Render "list-entry" }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </section>
+
+</div>
+
+{{ end }}
