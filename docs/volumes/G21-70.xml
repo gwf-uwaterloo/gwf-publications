@@ -1,21 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rajulapati-2021-The">
+<mods ID="Tang-2021-SC-Earth:">
     <titleInfo>
-        <title>The Perils of Regridding: Examples using a Global Precipitation Dataset</title>
+        <title>SC-Earth: A Station-Based Serially Complete Earth Dataset from 1950 to 2019</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Chandra</namePart>
-        <namePart type="given">Rupa</namePart>
-        <namePart type="family">Rajulapati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -29,9 +20,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -43,7 +34,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Applied Meteorology and Climatology</title>
+            <title>Journal of Climate, Volume 34, Issue 16</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -52,13 +43,19 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rajulapati-2021-The</identifier>
-    <identifier type="doi">10.1175/jamc-d-20-0259.1</identifier>
+    <identifier type="citekey">Tang-2021-SC-Earth:</identifier>
+    <identifier type="doi">10.1175/jcli-d-21-0067.1</identifier>
     <location>
         <url>https://aclanthology.org/G21-70001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>16</number></detail>
+        <extent unit="page">
+            <start>6493</start>
+            <end>6511</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

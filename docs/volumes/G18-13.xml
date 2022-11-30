@@ -1,87 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Barber-2018-Potential">
+<mods ID="Barszcz-2018-Improving">
     <titleInfo>
-        <title>Potential impacts of climate change on the habitat of boreal woodland caribou</title>
+        <title>Improving the Explicit Prediction of Freezing Rain in a Kilometer-Scale Numerical Weather Prediction Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Quinn</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Barber</namePart>
+        <namePart type="given">Agnieszka</namePart>
+        <namePart type="family">Barszcz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marc-André</namePart>
-        <namePart type="family">Parisien</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Milbrandt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ellen</namePart>
-        <namePart type="family">Whitman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Diana</namePart>
-        <namePart type="family">Stralberg</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martin-Hugues</namePart>
-        <namePart type="family">St-Laurent</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Evan</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">DeLancey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Price</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dominique</namePart>
-        <namePart type="family">Arseneault</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xianli</namePart>
-        <namePart type="family">Wang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Flannigan</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -93,25 +34,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecosphere, Volume 9, Issue 10</title>
+            <title>Weather and Forecasting, Volume 33, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Barber-2018-Potential</identifier>
-    <identifier type="doi">10.1002/ecs2.2472</identifier>
+    <identifier type="citekey">Barszcz-2018-Improving</identifier>
+    <identifier type="doi">10.1175/waf-d-17-0136.1</identifier>
     <location>
         <url>https://aclanthology.org/G18-13001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>9</number></detail>
-        <detail type="issue"><number>10</number></detail>
-        <detail type="page"><number>e02472</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>767</start>
+            <end>782</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

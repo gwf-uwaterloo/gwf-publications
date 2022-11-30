@@ -1,36 +1,99 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="VanMeter-2019-Biogeochemical">
+<mods ID="Walker-2019-Increasing">
     <titleInfo>
-        <title>Biogeochemical asynchrony: Ecosystem drivers of seasonal concentration regimes across the Great Lakes Basin</title>
+        <title>Increasing wildfires threaten historic carbon sink of boreal forest soils</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kim</namePart>
+        <namePart type="given">Xanthe</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Van Meter</namePart>
+        <namePart type="family">Walker</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Shadman</namePart>
-        <namePart type="family">Chowdhury</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Danyka</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Byrnes</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Cumming</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nandita</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Basu</namePart>
+        <namePart type="given">Nicola</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Day</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="family">Ebert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Scott</namePart>
+        <namePart type="family">Goetz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jill</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Johnstone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stefano</namePart>
+        <namePart type="family">Potter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brendan</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Rogers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Edward</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Schuur</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Merritt</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Turetsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michelle</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Mack</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,27 +105,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Limnology and Oceanography, Volume 65, Issue 4</title>
+            <title>Nature, Volume 572, Issue 7770</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Van Meter-2019-Biogeochemical</identifier>
-    <identifier type="doi">10.1002/lno.11353</identifier>
+    <identifier type="citekey">Walker-2019-Increasing</identifier>
+    <identifier type="doi">10.1038/s41586-019-1474-y</identifier>
     <location>
         <url>https://aclanthology.org/G19-171001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>65</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>572</number></detail>
+        <detail type="issue"><number>7770</number></detail>
         <extent unit="page">
-            <start>848</start>
-            <end>862</end>
+            <start>520</start>
+            <end>523</end>
         </extent>
     </part>
 </mods>

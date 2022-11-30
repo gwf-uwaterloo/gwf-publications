@@ -1,40 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huo-2021-Reduction">
+<mods ID="Thompson-2021-Considerations">
     <titleInfo>
-        <title>Reduction in autumn precipitation over Southwest China by anthropogenic aerosol emissions from eastern China</title>
+        <title>Considerations for Ku-Band Radar Retrieval of Snow Water Equivalent at Mid-Latitude Ontario Agricultural Sites</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Huo</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zhihong</namePart>
-        <namePart type="family">Jiang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hongyun</namePart>
-        <namePart type="family">Ma</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Kelly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,24 +25,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmospheric Research, Volume 257</title>
+            <title>Canadian Journal of Remote Sensing, Volume 47, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Huo-2021-Reduction</identifier>
-    <identifier type="doi">10.1016/j.atmosres.2021.105627</identifier>
+    <identifier type="citekey">Thompson-2021-Considerations</identifier>
+    <identifier type="doi">10.1080/07038992.2021.1898938</identifier>
     <location>
         <url>https://aclanthology.org/G21-133001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>257</number></detail>
-        <detail type="page"><number>105627</number></detail>
+        <detail type="volume"><number>47</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>119</start>
+            <end>142</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,49 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chun-2017-A">
+<mods ID="Costa-2017-A">
     <titleInfo>
-        <title>A novel stochastic method for reconstructing daily precipitation times-series using tree-ring data from the western Canadian Boreal Forest</title>
+        <title>A modelling framework to simulate field-scale nitrate response and transport during snowmelt: The WINTRA model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Chun</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Mamet</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="family">Roste</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Metsaranta</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="family">Barr</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnstone</namePart>
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">H</namePart>
+        <namePart type="given">Howard</namePart>
         <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cherie</namePart>
+        <namePart type="family">Westbrook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -55,27 +60,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Dendrochronologia, Volume 44</title>
+            <title>Hydrological Processes, Volume 31, Issue 24</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Tree ring data provide proxy records of historical hydroclimatic conditions that are widely used for reconstructing precipitation time series. Most previous applications are limited to annual time scales, though information about daily precipitation would enable a range of additional analyses of environmental processes to be investigated and modelled. We used statistical downscaling to simulate stochastic daily precipitation ensembles using dendrochronological data from the western Canadian boreal forest. The simulated precipitation series were generally consistent with observed precipitation data, though reconstructions were poorly constrained during short periods of forest pest outbreaks. The proposed multiple temporal scale precipitation reconstruction can generate annual daily maxima and persistent monthly wet and dry episodes, so that the observed and simulated ensembles have similar precipitation characteristics (i.e. magnitude, peak, and duration)—an improvement on previous modelling studies. We discuss how ecological disturbances may limit reconstructions by inducing non-linear responses in tree growth, and conclude with suggestions of possible applications and further development of downscaling methods for dendrochronological data.</abstract>
-    <identifier type="citekey">Chun-2017-A</identifier>
-    <identifier type="doi">10.1016/j.dendro.2017.01.003</identifier>
+    <abstract>Modeling nutrient transport during snowmelt in cold regions remains a major scientific challenge. A key limitation of existing nutrient models for application in cold regions is the inadequate representation of snowmelt, including hydrological and biogeochemical processes. This brief period can account for more than 80% of the total annual surface runoff in the Canadian Prairies and Northern Canada and processes such as atmospheric deposition, over-winter redistribution of snow, ion exclusion from snow crystals, frozen soils, and snowcovered area depletion during melt influence the distribution and release of snow and soil nutrients, thus affecting the timing and magnitude of snowmelt runoff nutrient concentrations.Research in cold regions suggests that nitrate (NO3) runoff at the field scale can be divided into five phases during snowmelt. In the first phase, water and ions originating from ion-rich snow layers travel and diffuse through the snowpack. This process causes ion concentrations in runoff to gradually increase. The second phase occurs when this snow ion meltwater front has reached the bottom of the snowpack and forms runoff to the edge-of-the-field (EOF). During the third and fourth phases, the main source of NO3 transitions from the snowpack to the soil. Finally, the fifth and last phase occurs when the snow has completely melted, and the thawing soil becomes the main source of NO3 to the stream.In this research, a process-based model was developed to simulate hourly export based on this five-phase approach. Results from an application in the Red River Basin of southern Manitoba, Canada shows that the model can adequately capture the dynamics and rapid changes of NO3 concentrations during this period at relevant temporal resolutions. This is a significant achievement to advance the current nutrient modeling paradigm in cold climates, which is generally limited to satisfactory results at monthly or annual resolutions. The approach can inform catchment-scale nutrient models to improve simulation of this critical snowmelt period.Nutrient exports Winter Snow Nitrate Agriculture Nutrient model</abstract>
+    <identifier type="citekey">Costa-2017-A</identifier>
+    <identifier type="doi">10.1002/hyp.11346</identifier>
     <location>
         <url>https://aclanthology.org/G17-9001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>44</number></detail>
+        <detail type="volume"><number>31</number></detail>
+        <detail type="issue"><number>24</number></detail>
         <extent unit="page">
-            <start>9</start>
-            <end>18</end>
+            <start>4250</start>
+            <end>4268</end>
         </extent>
     </part>
 </mods>

@@ -1,26 +1,99 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sheikholeslami-2019-What">
+<mods ID="Stampoulis-2019-Model-data">
     <titleInfo>
-        <title>What should we do when a model crashes? Recommendations for global sensitivity analysis of Earth and environmental systems models</title>
+        <title>Model-data fusion of hydrologic simulations and GRACE terrestrial water storage observations to estimate changes in water table depth</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Dimitrios</namePart>
+        <namePart type="family">Stampoulis</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Reager</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Haghnegahdar</namePart>
+        <namePart type="given">Cédric</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tom</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Farr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amy</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Trangsrud</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ralph</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Basilio</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Sabo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gregory</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Osterman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Lundgren</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,27 +105,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geoscientific Model Development, Volume 12, Issue 10</title>
+            <title>Advances in Water Resources, Volume 128</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sheikholeslami-2019-What</identifier>
-    <identifier type="doi">10.5194/gmd-12-4275-2019</identifier>
+    <identifier type="citekey">Stampoulis-2019-Model-data</identifier>
+    <identifier type="doi">10.1016/j.advwatres.2019.04.004</identifier>
     <location>
         <url>https://aclanthology.org/G19-161001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>10</number></detail>
+        <detail type="volume"><number>128</number></detail>
         <extent unit="page">
-            <start>4275</start>
-            <end>4296</end>
+            <start>13</start>
+            <end>27</end>
         </extent>
     </part>
 </mods>

@@ -1,47 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chen-2019-Using">
+<mods ID="Cholette-2019-Parameterization">
     <titleInfo>
-        <title>Using 4-km WRF CONUS simulations to assess impacts of the surface coupling strength on regional climate simulation</title>
+        <title>Parameterization of the Bulk Liquid Fraction on Mixed-Phase Particles in the Predicted Particle Properties (P3) Scheme: Description and Idealized Simulations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Liang</namePart>
-        <namePart type="family">Chen</namePart>
+        <namePart type="given">Mélissa</namePart>
+        <namePart type="family">Cholette</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Hugh</namePart>
+        <namePart type="family">Morrison</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Chen</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Milbrandt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Barlage</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhe</namePart>
-        <namePart type="family">Zhang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -53,27 +41,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climate Dynamics, Volume 53, Issue 9-10</title>
+            <title>Journal of the Atmospheric Sciences, Volume 76, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Chen-2019-Using</identifier>
-    <identifier type="doi">10.1007/s00382-019-04932-9</identifier>
+    <abstract>Abstract Bulk microphysics parameterizations that are used to represent clouds and precipitation usually allow only solid and liquid hydrometeors. Predicting the bulk liquid fraction on ice allows an explicit representation of mixed-phase particles and various precipitation types, such as wet snow and ice pellets. In this paper, an approach for the representation of the bulk liquid fraction into the predicted particle properties (P3) microphysics scheme is proposed and described. Solid-phase microphysical processes, such as melting and sublimation, have been modified to account for the liquid component. New processes, such as refreezing and condensation of the liquid portion of mixed-phase particles, have been added to the parameterization. Idealized simulations using a one-dimensional framework illustrate the overall behavior of the modified scheme. The proposed approach compares well to a Lagrangian benchmark model. Temperatures required for populations of ice crystals to melt completely also agree well with previous studies. The new processes of refreezing and condensation impact both the surface precipitation type and feedback between the temperature and the phase changes. Overall, prediction of the bulk liquid fraction allows an explicit description of new precipitation types, such as wet snow and ice pellets, and improves the representation of hydrometeor properties when the temperature is near 0°C.</abstract>
+    <identifier type="citekey">Cholette-2019-Parameterization</identifier>
+    <identifier type="doi">10.1175/jas-d-18-0278.1</identifier>
     <location>
         <url>https://aclanthology.org/G19-41001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>53</number></detail>
-        <detail type="issue"><number>9-10</number></detail>
+        <detail type="volume"><number>76</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>6397</start>
-            <end>6416</end>
+            <start>561</start>
+            <end>582</end>
         </extent>
     </part>
 </mods>

@@ -1,36 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Marsh-2021-Performance">
+<mods ID="Lin-2021-Pyserini:">
     <titleInfo>
-        <title>Performance improvements to modern hydrological models via lookup table optimizations</title>
+        <title>Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christopher</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Green</namePart>
+        <namePart type="given">Xueguang</namePart>
+        <namePart type="family">Ma</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Sheng-Chieh</namePart>
+        <namePart type="family">Lin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Raymond</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Spiteri</namePart>
+        <namePart type="given">Jheng-Hong</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ronak</namePart>
+        <namePart type="family">Pradeep</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rodrigo</namePart>
+        <namePart type="family">Nogueira</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,24 +53,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 139</title>
+            <title>Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Marsh-2021-Performance</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2021.105018</identifier>
+    <identifier type="citekey">Lin-2021-Pyserini:</identifier>
+    <identifier type="doi">10.1145/3404835.3463238</identifier>
     <location>
         <url>https://aclanthology.org/G21-16001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>139</number></detail>
-        <detail type="page"><number>105018</number></detail>
     </part>
 </mods>
 </modsCollection>

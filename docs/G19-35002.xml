@@ -1,27 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lv-2019-Evaluation">
+<mods ID="Costa-2019-Temporal">
     <titleInfo>
-        <title>Evaluation of SNODAS Snow Water Equivalent in Western Canada and Assimilation Into a Cold Region Hydrological Model</title>
+        <title>Temporal Dynamics of Snowmelt Nutrient Release from Snow–Plant Residue Mixtures: An Experimental Analysis and Mathematical Model Development</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Zhibang</namePart>
-        <namePart type="family">Lv</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Jian</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xing</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="family">Roste</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,27 +39,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 55, Issue 12</title>
+            <title>Journal of Environmental Quality, Volume 48, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Lv-2019-Evaluation</identifier>
-    <identifier type="doi">10.1029/2019wr025333</identifier>
+    <abstract>Reducing eutrophication in surface water is a major environmental challenge in many countries around the world. In cold Canadian prairie agricultural regions, part of the eutrophication challenge arises during spring snowmelt when a significant portion of the total annual nutrient export occurs, and plant residues can act as a nutrient source instead of a sink. Although the total mass of nutrients released from various crop residues has been studied before, little research has been conducted to capture fine-timescale temporal dynamics of nutrient leaching from plant residues, and the processes have not been represented in water quality models. In this study, we measured the dynamics of P and N release from a cold-hardy perennial plant species, alfalfa ( L.), to meltwater after freeze-thaw through a controlled snowmelt experiment. Various winter conditions were simulated by exposing alfalfa residues to different numbers of freeze-thaw cycles (FTCs) of uniform magnitude prior to snowmelt. The monitored P and N dynamics showed that most nutrients were released during the initial stages of snowmelt (first 5 h) and that the magnitude of nutrient release was affected by the number of FTCs. A threshold of five FTCs was identified for a greater nutrient release, with plant residue contributing between 0.29 (NO) and 9 (PO) times more nutrients than snow. The monitored temporal dynamics of nutrient release were used to develop the first process-based predictive model controlled by three potentially measurable parameters that can be integrated into catchment water quality models to improve nutrient transport simulations during snowmelt.</abstract>
+    <identifier type="citekey">Costa-2019-Temporal</identifier>
+    <identifier type="doi">10.2134/jeq2018.12.0440</identifier>
     <location>
         <url>https://aclanthology.org/G19-35002</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>55</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>48</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>11166</start>
-            <end>11187</end>
+            <start>869</start>
+            <end>879</end>
         </extent>
     </part>
 </mods>

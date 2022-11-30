@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="AbediniAla-2022-Facilitating">
+<mods ID="Bhattacharjee-2022-Supporting">
     <titleInfo>
-        <title>Facilitating Asynchronous Collaboration in Scientific Workflow Composition Using Provenance</title>
+        <title>Supporting program comprehension by generating abstract code summary tree</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mostafa</namePart>
-        <namePart type="family">AbediniAla</namePart>
+        <namePart type="given">Avijit</namePart>
+        <namePart type="family">Bhattacharjee</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -18,6 +18,14 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2022</dateIssued>
     </originInfo>
@@ -25,27 +33,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Proceedings of the ACM on Human-Computer Interaction, Volume 6, Issue EICS</title>
+            <title>Proceedings of the ACM/IEEE 44th International Conference on Software Engineering: New Ideas and Emerging Results</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Association for Computing Machinery (ACM)</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">AbediniAla-2022-Facilitating</identifier>
-    <identifier type="doi">10.1145/3534520</identifier>
+    <identifier type="citekey">Bhattacharjee-2022-Supporting</identifier>
+    <identifier type="doi">10.1145/3510455.3512793</identifier>
     <location>
         <url>https://aclanthology.org/G22-8001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>6</number></detail>
-        <extent unit="page">
-            <start>1</start>
-            <end>26</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bodo-2021-Radial">
+<mods ID="Sabokruhie-2021-Proof-of-Concept">
     <titleInfo>
-        <title>Radial variations in xylem sap flux in a temperate red pine plantation forest</title>
+        <title>Proof-of-Concept of a Quasi-2D Water-Quality Modelling Approach to Simulate Transverse Mixing in Rivers</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Alanna</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Bodo</namePart>
+        <namePart type="given">Pouya</namePart>
+        <namePart type="family">Sabokruhie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Altaf</namePart>
-        <namePart type="family">Arain</namePart>
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Akomeah</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tammy</namePart>
+        <namePart type="family">Rosner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,24 +39,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Processes, Volume 10, Issue 1</title>
+            <title>Water, Volume 13, Issue 21</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bodo-2021-Radial</identifier>
-    <identifier type="doi">10.1186/s13717-021-00295-4</identifier>
+    <identifier type="citekey">Sabokruhie-2021-Proof-of-Concept</identifier>
+    <identifier type="doi">10.3390/w13213071</identifier>
     <location>
         <url>https://aclanthology.org/G21-151001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>10</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>21</number></detail>
+        <detail type="page"><number>3071</number></detail>
     </part>
 </mods>
 </modsCollection>

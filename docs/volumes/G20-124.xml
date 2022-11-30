@@ -1,40 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ratelle-2020-Human">
+<mods ID="Remmer-2020-Multi-year">
     <titleInfo>
-        <title>Human biomonitoring of metals in sub-Arctic Dene communities of the Northwest Territories, Canada</title>
+        <title>Multi-year isoscapes of lake water balances across a dynamic northern freshwater delta</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mylene</namePart>
-        <namePart type="family">Ratelle</namePart>
+        <namePart type="given">Casey</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Remmer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sara</namePart>
-        <namePart type="family">Packull-McCormick</namePart>
+        <namePart type="given">Laura</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Neary</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Michele</namePart>
-        <namePart type="family">Bouchard</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Kay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Shannon</namePart>
-        <namePart type="family">Majowicz</namePart>
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Wolfe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Laird</namePart>
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,24 +51,97 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Research, Volume 190</title>
+            <title>Environmental Research Letters, Volume 15, Issue 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>IOP Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ratelle-2020-Human</identifier>
-    <identifier type="doi">10.1016/j.envres.2020.110008</identifier>
+    <identifier type="citekey">Remmer-2020-Multi-year</identifier>
+    <identifier type="doi">10.1088/1748-9326/abb267</identifier>
     <location>
         <url>https://aclanthology.org/G20-124001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>190</number></detail>
-        <detail type="page"><number>110008</number></detail>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>104066</number></detail>
+    </part>
+</mods>
+<mods ID="Wilkinson-2020-Shallow">
+    <titleInfo>
+        <title>Shallow peat is most vulnerable to high peat burn severity during wildfire</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Wilkinson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Tekatch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Markle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Moore</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Research Letters, Volume 15, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IOP Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Wilkinson-2020-Shallow</identifier>
+    <identifier type="doi">10.1088/1748-9326/aba7e8</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-124002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>104032</number></detail>
     </part>
 </mods>
 </modsCollection>

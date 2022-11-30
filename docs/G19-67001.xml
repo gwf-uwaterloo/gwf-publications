@@ -1,88 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Guillaume-2019-Introductory">
+<mods ID="Hanes-2019-Fire-regime">
     <titleInfo>
-        <title>Introductory overview of identifiability analysis: A guide to evaluating whether you have the right type of data for your modeling purpose</title>
+        <title>Fire-regime changes in Canada over the last half century</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Joseph</namePart>
-        <namePart type="given">H.A.</namePart>
-        <namePart type="family">Guillaume</namePart>
+        <namePart type="given">Chelene</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Hanes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xianli</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Piyush</namePart>
+        <namePart type="family">Jain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marc-André</namePart>
+        <namePart type="family">Parisien</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">John</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Little</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
         <namePart type="given">D</namePart>
-        <namePart type="family">Jakeman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stefano</namePart>
-        <namePart type="family">Marsili-Libelli</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Asher</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Brunner</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Barry</namePart>
-        <namePart type="family">Croke</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mary</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Hill</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anthony</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Jakeman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Karel</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Keesman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Johannes</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Stigter</namePart>
+        <namePart type="family">Flannigan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -94,27 +56,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 119</title>
+            <title>Canadian Journal of Forest Research, Volume 49, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Identifiability is a fundamental concept in parameter estimation, and therefore key to the large majority of environmental modeling applications. Parameter identifiability analysis assesses whether it is theoretically possible to estimate unique parameter values from data, given the quantities measured, conditions present in the forcing data, model structure (and objective function), and properties of errors in the model and observations. In other words, it tackles the problem of whether the right type of data is available to estimate the desired parameter values. Identifiability analysis is therefore an essential technique that should be adopted more routinely in practice, alongside complementary methods such as uncertainty analysis and evaluation of model performance. This article provides an introductory overview to the topic. We recommend that any modeling study should document whether a model is non-identifiable, the source of potential non-identifiability, and how this affects intended project outcomes.</abstract>
-    <identifier type="citekey">Guillaume-2019-Introductory</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2019.07.007</identifier>
+    <abstract>Contemporary fire regimes of Canadian forests have been well documented based on forest fire records between the late 1950s to 1990s. Due to known limitations of fire datasets, an analysis of changes in fire-regime characteristics could not be easily undertaken. This paper presents fire-regime trends nationally and within two zonation systems, the homogeneous fire-regime zones and ecozones, for two time periods, 1959–2015 and 1980–2015. Nationally, trends in both area burned and number of large fires (\geq200 ha) have increased significantly since 1959, which might be due to increases in lightning-caused fires. Human-caused fires, in contrast, have shown a decline. Results suggest that large fires have been getting larger over the last 57 years and that the fire season has been starting approximately one week earlier and ending one week later. At the regional level, trends in fire regimes are variable across the country, with fewer significant trends. Area burned, number of large fires, and lightning-caused fires are increasing in most of western Canada, whereas human-caused fires are either stable or declining throughout the country. Overall, Canadian forests appear to have been engaged in a trajectory towards more active fire regimes over the last half century.</abstract>
+    <identifier type="citekey">Hanes-2019-Fire-regime</identifier>
+    <identifier type="doi">10.1139/cjfr-2018-0293</identifier>
     <location>
         <url>https://aclanthology.org/G19-67001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>119</number></detail>
+        <detail type="volume"><number>49</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>418</start>
-            <end>432</end>
+            <start>256</start>
+            <end>269</end>
         </extent>
     </part>
 </mods>

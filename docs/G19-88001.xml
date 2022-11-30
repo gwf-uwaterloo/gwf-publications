@@ -1,420 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lawrence-2019-The">
+<mods ID="Leroux-2019-Simulation">
     <titleInfo>
-        <title>The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty</title>
+        <title>Simulation of Capillary Pressure Overshoot in Snow Combining Trapping of the Wetting Phase With a Nonequilibrium Richards Equation Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Lawrence</namePart>
+        <namePart type="given">Nicolas</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leroux</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rosie</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Fisher</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Charles</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Koven</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Keith</namePart>
+        <namePart type="given">John</namePart>
         <namePart type="given">W</namePart>
-        <namePart type="family">Oleson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Swenson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gordon</namePart>
-        <namePart type="family">Bonan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nathan</namePart>
-        <namePart type="family">Collier</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bardan</namePart>
-        <namePart type="family">Ghimire</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Leo</namePart>
-        <namePart type="family">van Kampenhout</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Daniel</namePart>
-        <namePart type="family">Kennedy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Erik</namePart>
-        <namePart type="family">Kluzek</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Lawrence</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fang</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hongyi</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Danica</namePart>
-        <namePart type="family">Lombardozzi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Riley</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Sacks</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mingjie</namePart>
-        <namePart type="family">Shi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mariana</namePart>
-        <namePart type="family">Vertenstein</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Wieder</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chonggang</namePart>
-        <namePart type="family">Xu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ashehad</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Ali</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Badger</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gautam</namePart>
-        <namePart type="family">Bisht</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michiel</namePart>
-        <namePart type="family">van den Broeke</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Brunke</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Burns</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jonathan</namePart>
-        <namePart type="family">Buzan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anthony</namePart>
-        <namePart type="family">Craig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kyla</namePart>
-        <namePart type="family">Dahlin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Beth</namePart>
-        <namePart type="family">Drewniak</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Joshua</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Fisher</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mark</namePart>
-        <namePart type="family">Flanner</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Fox</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pierre</namePart>
-        <namePart type="family">Gentine</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Forrest</namePart>
-        <namePart type="family">Hoffman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gretchen</namePart>
-        <namePart type="family">Keppel‐Aleks</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ryan</namePart>
-        <namePart type="family">Knox</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sanjiv</namePart>
-        <namePart type="family">Kumar</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jan</namePart>
-        <namePart type="family">Lenaerts</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="given">Ruby</namePart>
-        <namePart type="family">Leung</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Lipscomb</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yaqiong</namePart>
-        <namePart type="family">Lu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ashutosh</namePart>
-        <namePart type="family">Pandey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jon</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Pelletier</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Justin</namePart>
-        <namePart type="family">Perket</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Randerson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Daniel</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Ricciuto</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Sanderson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Slater</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zachary</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Subin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jinyun</namePart>
-        <namePart type="family">Tang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">Quinn</namePart>
-        <namePart type="family">Thomas</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Maria</namePart>
-        <namePart type="family">Val Martin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xubin</namePart>
-        <namePart type="family">Zeng</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -426,7 +27,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Advances in Modeling Earth Systems, Volume 11, Issue 12</title>
+            <title>Water Resources Research, Volume 55, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -435,19 +36,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The Community Land Model (CLM) is the land component of the Community Earth System Model (CESM) and is used in several global and regional modeling systems. In this paper, we introduce model developments included in CLM version 5 (CLM5), which is the default land component for CESM2. We assess an ensemble of simulations, including prescribed and prognostic vegetation state, multiple forcing data sets, and CLM4, CLM4.5, and CLM5, against a range of metrics including from the International Land Model Benchmarking (ILAMBv2) package. CLM5 includes new and updated processes and parameterizations: (1) dynamic land units, (2) updated parameterizations and structure for hydrology and snow (spatially explicit soil depth, dry surface layer, revised groundwater scheme, revised canopy interception and canopy snow processes, updated fresh snow density, simple firn model, and Model for Scale Adaptive River Transport), (3) plant hydraulics and hydraulic redistribution, (4) revised nitrogen cycling (flexible leaf stoichiometry, leaf N optimization for photosynthesis, and carbon costs for plant nitrogen uptake), (5) global crop model with six crop types and time‐evolving irrigated areas and fertilization rates, (6) updated urban building energy, (7) carbon isotopes, and (8) updated stomatal physiology. New optional features include demographically structured dynamic vegetation model (Functionally Assembled Terrestrial Ecosystem Simulator), ozone damage to plants, and fire trace gas emissions coupling to the atmosphere. Conclusive establishment of improvement or degradation of individual variables or metrics is challenged by forcing uncertainty, parametric uncertainty, and model structural complexity, but the multivariate metrics presented here suggest a general broad improvement from CLM4 to CLM5.</abstract>
-    <identifier type="citekey">Lawrence-2019-The</identifier>
-    <identifier type="doi">10.1029/2018ms001583</identifier>
+    <identifier type="citekey">Leroux-2019-Simulation</identifier>
+    <identifier type="doi">10.1029/2018wr022969</identifier>
     <location>
         <url>https://aclanthology.org/G19-88001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>55</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>4245</start>
-            <end>4287</end>
+            <start>236</start>
+            <end>248</end>
         </extent>
     </part>
 </mods>

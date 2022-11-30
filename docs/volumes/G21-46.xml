@@ -1,52 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Salk-2021-Warming">
+<mods ID="Chegoonian-2021-Support">
     <titleInfo>
-        <title>Warming combined with experimental eutrophication intensifies lake phytoplankton blooms</title>
+        <title>Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kateri</namePart>
+        <namePart type="given">Amir</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Chegoonian</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kiana</namePart>
+        <namePart type="family">Zolfaghari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">Salk</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Venkiteswaran</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Raoul‐Marie</namePart>
-        <namePart type="family">Couture</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Scott</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Higgins</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Paterson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -58,28 +42,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Limnology and Oceanography, Volume 67, Issue 1</title>
+            <title>2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Salk-2021-Warming</identifier>
-    <identifier type="doi">10.1002/lno.11982</identifier>
+    <identifier type="citekey">Chegoonian-2021-Support</identifier>
+    <identifier type="doi">10.1109/igarss47720.2021.9554110</identifier>
     <location>
         <url>https://aclanthology.org/G21-46001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>67</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>147</start>
-            <end>158</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Taheri-2022-Green">
+<mods ID="Huang-2022-Selection">
     <titleInfo>
-        <title>Green Approach Using RuO\textlesssub\textgreater2\textless/sub\textgreater/GO Nanocomposite for Low Cost and Highly Sensitive pH Sensing</title>
+        <title>Selection of Aptamers for Sensing Caffeine and Discrimination of Its Three Single Demethylated Analogues</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahtab</namePart>
-        <namePart type="family">Taheri</namePart>
+        <namePart type="given">Po-Jung</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Jamal</namePart>
-        <namePart type="family">Deen</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,26 +26,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of The Electrochemical Society, Volume 169, Issue 4</title>
+            <title>Analytical Chemistry, Volume 94, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>The Electrochemical Society</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Monitoring the real-time status of food products using pH sensors is important to determine if pathogens are present and growing, which in turn affects food quality. A promising material for pH sensors is ruthenium dioxide (RuO2) due to its chemical stability and excellent performance. Furthermore, graphene oxide (GO) provides an electrode with large surface area and good electrical properties. Here, in situ sol-gel deposition of RuO2 nanoparticles on the surface of GO as a facile, cost-effective, and environmentally friendly approach is used for the fabrication of a flexible pH sensor. As-synthesized GO-RuO2 nanocomposites with a low volume were applied on the surface of screen printed carbon paste. The obtained GO-RuO2 nanocomposite pH sensor achieved high pH sensitivity (55.5 mV/pH) in the pH range of 4-10, up to 4 times higher compared to the unmodified carbon electrode. The increased sensitivity is due to the positive role of RuO2 nanoparticles densely anchored across the GO sheets. It also shows low drift (0.36 mV/hr) and low hysteretic width. Considering this novel method and material with the cost-effective green synthesis approach, as well as excellent pH sensing properties, GO-RuO2 can be considered as a promising material for production of high-performance electrochemical pH sensors.</abstract>
-    <identifier type="citekey">Taheri-2022-Green</identifier>
-    <identifier type="doi">10.1149/1945-7111/ac5f1f</identifier>
+    <abstract>With the growing consumption of caffeine-containing beverages, detection of caffeine has become an important biomedical, bioanalytical, and environmental topic. We herein isolated four high-quality aptamers for caffeine with dissociation constants ranging from 2.2 to 14.6 μM as characterized using isothermal titration calorimetry. Different binding patterns were obtained for the three single demethylated analogues: theobromine, theophylline, and paraxanthine, highlighting the effect of the molecular symmetry of the arrangement of the three methyl groups in caffeine. A structure-switching fluorescent sensor was designed showing a detection limit of 1.2 μM caffeine, which reflected the labeled caffeine concentration within 6.1% difference for eight commercial beverages. In 20% human serum, a detection limit of 4.0 μM caffeine was achieved. With the four aptamer sensors forming an array, caffeine and the three analogues were well separated from nine other closely related molecules.</abstract>
+    <identifier type="citekey">Huang-2022-Selection</identifier>
+    <identifier type="doi">10.1021/acs.analchem.1c04349</identifier>
     <location>
         <url>https://aclanthology.org/G22-64001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>169</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <detail type="page"><number>047501</number></detail>
+        <detail type="volume"><number>94</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>3142</start>
+            <end>3149</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

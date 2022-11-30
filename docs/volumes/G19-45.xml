@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Costa-2019-Preferential">
+<mods ID="Costa-2019-Using">
     <titleInfo>
-        <title>Preferential meltwater flowpaths as a driver of preferential elution of chemicals from melting snowpacks</title>
+        <title>Using an inverse modelling approach with equifinality control to investigate the dominant controls on snowmelt nutrient export</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Diogo</namePart>
@@ -13,8 +13,28 @@
     </name>
     <name type="personal">
         <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
         <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,26 +46,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 662</title>
+            <title>Hydrological Processes, Volume 33, Issue 23</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Costa-2019-Preferential</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2019.01.091</identifier>
+    <identifier type="citekey">Costa-2019-Using</identifier>
+    <identifier type="doi">10.1002/hyp.13463</identifier>
     <location>
         <url>https://aclanthology.org/G19-45001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>662</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>23</number></detail>
         <extent unit="page">
-            <start>110</start>
-            <end>120</end>
+            <start>2958</start>
+            <end>2977</end>
         </extent>
     </part>
 </mods>

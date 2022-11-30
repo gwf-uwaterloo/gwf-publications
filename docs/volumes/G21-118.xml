@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Qu-2021-A">
+<mods ID="Escobar-2021-Integrated">
     <titleInfo>
-        <title>A Microflow Cytometry-Based Agglutination Immunoassay for Point-of-Care Quantitative Detection of SARS-CoV-2 IgM and IgG</title>
+        <title>Integrated Microfluidic-Based Platforms for On-Site Detection and Quantification of Infectious Pathogens: Towards On-Site Medical Translation of SARS-CoV-2 Diagnostic Platforms</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jianxi</namePart>
-        <namePart type="family">Qu</namePart>
+        <namePart type="given">Andres</namePart>
+        <namePart type="family">Escobar</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mathieu</namePart>
-        <namePart type="family">Chenier</namePart>
+        <namePart type="given">Phyllis</namePart>
+        <namePart type="family">Chiu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jianxi</namePart>
+        <namePart type="family">Qu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,7 +46,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Micromachines, Volume 12, Issue 4</title>
+            <title>Micromachines, Volume 12, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -48,16 +55,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Qu-2021-A</identifier>
-    <identifier type="doi">10.3390/mi12040433</identifier>
+    <identifier type="citekey">Escobar-2021-Integrated</identifier>
+    <identifier type="doi">10.3390/mi12091079</identifier>
     <location>
         <url>https://aclanthology.org/G21-118001</url>
     </location>
     <part>
         <date>2021</date>
         <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <detail type="page"><number>433</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <detail type="page"><number>1079</number></detail>
     </part>
 </mods>
 </modsCollection>

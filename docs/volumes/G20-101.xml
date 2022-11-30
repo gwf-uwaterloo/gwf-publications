@@ -1,61 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Li-2020-Climate">
+<mods ID="Murfitt-2020-Assessing">
     <titleInfo>
-        <title>Climate Changes and Their Teleconnections With ENSO Over the Last 55 Years, 1961–2015, in Floods‐Dominated Basin, Jiangxi Province, China</title>
+        <title>Assessing the Performance of Methods for Monitoring Ice Phenology of the World’s Largest High Arctic Lake Using High-Density Time Series Analysis of Sentinel-1 Data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hongyi</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xiaoyong</namePart>
-        <namePart type="family">Zhong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ziqiang</namePart>
-        <namePart type="family">Ma</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Guoqiang</namePart>
-        <namePart type="family">Tang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Leiding</namePart>
-        <namePart type="family">Ding</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xinxin</namePart>
-        <namePart type="family">Sui</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jintao</namePart>
-        <namePart type="family">Xu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yu</namePart>
-        <namePart type="family">He</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -67,24 +26,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth and Space Science, Volume 7, Issue 3</title>
+            <title>Remote Sensing, Volume 12, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Li-2020-Climate</identifier>
-    <identifier type="doi">10.1029/2019ea001047</identifier>
+    <identifier type="citekey">Murfitt-2020-Assessing</identifier>
+    <identifier type="doi">10.3390/rs12030382</identifier>
     <location>
-        <url>https://aclanthology.org/G20-101001</url>
+        <url>https://aclanthology.org/G20-101002</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>7</number></detail>
+        <detail type="volume"><number>12</number></detail>
         <detail type="issue"><number>3</number></detail>
+        <detail type="page"><number>382</number></detail>
     </part>
 </mods>
 </modsCollection>

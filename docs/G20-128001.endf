@@ -1,17 +1,16 @@
 ﻿%0 Journal Article
-%T An integrated environmental analytics system (IDEAS) based on a DGGS
-%A Robertson, Colin
-%A Chaudhuri, Chiranjib
-%A Hojati, Majid
-%A Roberts, Steven A.
-%J ISPRS Journal of Photogrammetry and Remote Sensing, Volume 162
+%T A physically-based modelling framework for operational forecasting of river ice breakup
+%A Rokaya, Prabin
+%A Morales-Marin, Luis
+%A Lindenschmidt, Karl-Erich
+%J Advances in Water Resources, Volume 139
 %D 2020
-%V 162
+%V 139
 %I Elsevier BV
-%F Robertson-2020-An
-%X Abstract Discrete global grid systems (DGGS) have been proposed as a data model for a digital earth framework. We introduce a new data model and analytics system called IDEAS – integrated discrete environmental analysis system to create an operational DGGS-based GIS which is suitable for large scale environmental modelling and analysis. Our analysis demonstrates that DGGS-based GIS is feasible within a relational database environment incorporating common data analytics tools. Common GIS operations implemented in our DGGS data model outperformed the same operations computed using traditional geospatial data types. A case study into wildfire modelling demonstrates the capability for data integration and supporting big data geospatial analytics. These results indicate that DGGS data models have significant capability to solve some of the key outstanding problems related to geospatial data analytics, providing a common representation upon which fast and scalable algorithms can be built.
-%R 10.1016/j.isprsjprs.2020.02.009
+%F Rokaya-2020-A
+%X Abstract Forecasting river ice breakup is critical for supporting emergency responses to river ice-related flooding along rivers in the northern hemisphere. However, due to complex river ice processes, forecasting river ice breakup is more challenging than predicting open-water flood conditions. Although considerable progress has been made in understanding the mechanisms and characteristics of breakup processes and in forecasting breakup timing using empirical methods at the local scale, fewer advances have been made in understanding and forecasting breakup using physically-based models, particularly at the catchment scale. In this study, we present a physically-based coupled hydrological and water temperature modelling framework for breakup prediction in cold region catchments in real time. The modelling framework was applied for operational forecasting of the 2019 breakup event along the Athabasca River at Fort McMurray in Alberta. Further model validation was performed by hindcasting the 2016, 2017 and 2018 breakup events. The model shows promising results for predicting the ice cover breakup with an average error of about 5 days, demonstrating its usefulness in real-time operational forecasting. Importantly, the model generates breakup progression at the catchment scale, providing an advantage over existing site specific breakup prediction methods.
+%R 10.1016/j.advwatres.2020.103554
 %U https://aclanthology.org/G20-128001
-%U https://doi.org/10.1016/j.isprsjprs.2020.02.009
-%P 214-228
+%U https://doi.org/10.1016/j.advwatres.2020.103554
+%P 103554
 

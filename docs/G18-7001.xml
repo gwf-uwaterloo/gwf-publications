@@ -1,21 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Aksamit-2018-Scale">
+<mods ID="Allen-2018-Global">
     <titleInfo>
-        <title>Scale Interactions in Turbulence for Mountain Blowing Snow</title>
+        <title>Global Estimates of River Flow Wave Travel Times and Implications for Low‐Latency Satellite Data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">N</namePart>
-        <namePart type="given">O</namePart>
-        <namePart type="family">Aksamit</namePart>
+        <namePart type="given">George</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Allen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Cédric</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Faisal</namePart>
+        <namePart type="family">Hossain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,28 +50,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 19, Issue 2</title>
+            <title>Geophysical Research Letters, Volume 45, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Blowing snow particle transport responds to wind motions across many length and time scales. This coupling is nonlinear by nature and complicated in atmospheric flows where eddies of many sizes are superimposed. In mountainous terrain, wind flow descriptions are further complicated by topographically influenced or enhanced flows. To improve the current understanding and modeling of blowing snow transport in complex terrain, statistically significant timing and frequencies of wind–snow coupling were identified in high-frequency observations of surface blowing snow and near-surface turbulence from a mountain field site in the Canadian Rockies. Investigation of the mechanisms influencing near-surface, high-frequency turbulence and snow concentration fluctuations provided strong evidence for amplitude modulation from large-scale motions. The large-scale atmospheric motions modulating near-surface turbulence and snow transport were then compared to specific quadrant analysis structures recently identified as relevant for outdoor blowing snow transport. The results suggest that large atmospheric structures modulate the amplitude of high-frequency turbulence and modify turbulence statistics typically used to model blowing snow. Additionally, blowing snow was preferentially redistributed under the footprint of these same sweep motions, with both low- and high-frequency coherence increasing in their presence.</abstract>
-    <identifier type="citekey">Aksamit-2018-Scale</identifier>
-    <identifier type="doi">10.1175/jhm-d-17-0179.1</identifier>
+    <identifier type="citekey">Allen-2018-Global</identifier>
+    <identifier type="doi">10.1029/2018gl077914</identifier>
     <location>
         <url>https://aclanthology.org/G18-7001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>19</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>45</number></detail>
+        <detail type="issue"><number>15</number></detail>
         <extent unit="page">
-            <start>305</start>
-            <end>320</end>
+            <start>7551</start>
+            <end>7560</end>
         </extent>
     </part>
 </mods>

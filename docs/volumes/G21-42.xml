@@ -1,36 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chegoonian-2021-Support">
+<mods ID="DeBofsky-2021-Responses">
     <titleInfo>
-        <title>Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies</title>
+        <title>Responses of juvenile fathead minnow (Pimephales promelas) gut microbiome to a chronic dietary exposure of benzo[a]pyrene</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Chegoonian</namePart>
+        <namePart type="given">Abigail</namePart>
+        <namePart type="family">DeBofsky</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kiana</namePart>
-        <namePart type="family">Zolfaghari</namePart>
+        <namePart type="given">Yuwei</namePart>
+        <namePart type="family">Xie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Helen</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Baulch</namePart>
+        <namePart type="given">Jonathan</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Challis</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Claude</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Duguay</namePart>
+        <namePart type="given">Niteesh</namePart>
+        <namePart type="family">Jain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Markus</namePart>
+        <namePart type="family">Brinkmann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jones</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Giesy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,22 +63,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS</title>
+            <title>Environmental Pollution, Volume 278</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IEEE</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Chegoonian-2021-Support</identifier>
-    <identifier type="doi">10.1109/igarss47720.2021.9554110</identifier>
+    <identifier type="citekey">DeBofsky-2021-Responses</identifier>
+    <identifier type="doi">10.1016/j.envpol.2021.116821</identifier>
     <location>
         <url>https://aclanthology.org/G21-42001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>278</number></detail>
+        <detail type="page"><number>116821</number></detail>
     </part>
 </mods>
 </modsCollection>

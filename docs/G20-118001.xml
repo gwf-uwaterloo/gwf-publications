@@ -1,47 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ouellet-2020-Validation">
+<mods ID="Paik-2020-Determining">
     <titleInfo>
-        <title>Validation of the micro-EROD assay with H4IIE cells for assessing sediment contamination with dioxin-like chemicals</title>
+        <title>Determining the Anthropogenic Greenhouse Gas Contribution to the Observed Intensification of Extreme Precipitation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jacob</namePart>
-        <namePart type="family">Ouellet</namePart>
+        <namePart type="given">Seungmok</namePart>
+        <namePart type="family">Paik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Carolin</namePart>
-        <namePart type="family">Gembé</namePart>
+        <namePart type="given">Seung‐Ki</namePart>
+        <namePart type="family">Min</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sebastian</namePart>
-        <namePart type="family">Buchinger</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Georg</namePart>
-        <namePart type="family">Reifferscheid</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Henner</namePart>
-        <namePart type="family">Hollert</namePart>
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">Markus</namePart>
-        <namePart type="family">Brinkmann</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Donat</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">King</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qiaohong</namePart>
+        <namePart type="family">Sun</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -53,25 +55,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Pollution, Volume 265</title>
+            <title>Geophysical Research Letters, Volume 47, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>In vitro bioassays have been used as a bioanalytical means of detecting dioxin-like compounds (DLCs) in environmental matrices and have been suggested as a tool for quantifying DLCs in sediments. The present study evaluated the relationship between bioanalytical results from the micro-7-ethoxyresorufin-O-deethylase (EROD) bioassay and chemical analytical results in 25 sediment samples collected from rivers across Germany. Sediments were collected, polychlorinated dibenzo-p-dioxins and dibenzofurans (PCDD/Fs) and dioxin-like polychlorinated biphenyls (DL-PCBs) were extracted from the sediments, biological toxicity equivalent quotients (BEQs) were determined by micro-EROD assay and toxicity equivalent quotients (TEQs) were calculated from chemical analysis. Correlations between BEQs and TEQs were evaluated, and linear regression modeling was performed, excluding 6 samples as validation data, to derive equations for predicting TEQs from BEQs. Validation data was tested to evaluate predictive capabilities of the models. Correlations were observed between BEQ and TEQ for PCDD/Fs (r=0.987), PCBs (r=0.623), measured sum of PCDD/F and PCBs (r = 0.975) and calculated sum of PCDD/F and PCBs (r = 0.971). The modeling equations provided low variances as evaluated by mean absolute error (MAE) (łeq10.3 pg/g) and root mean square error (RMSE) (łeq15.8 pg/g) indicating that expected TEQs could be reasonably well calculated from BEQs. Predicted TEQs from validation data fell within the 95% probability intervals of the test data and had low variances (MAEłeq6.5 pg/g) and (RMSEłeq10.7 pg/g). Our results indicate that the micro-EROD bioassay can be used as a screening tool for DLCs in sediment and has the capability to be used as an alternate method to chemical analysis for quantifying dioxin-like potential of sediments.</abstract>
-    <identifier type="citekey">Ouellet-2020-Validation</identifier>
-    <identifier type="doi">10.1016/j.envpol.2020.114984</identifier>
+    <abstract>This study conducts a detection and attribution analysis of the observed changes in extreme precipitation during 1951–2015. Observed and CMIP6 multimodel simulated changes in annual maximum daily and consecutive 5-day precipitation are compared using an optimal fingerprinting technique for different spatial scales from global land, Northern Hemisphere extratropics, tropics, three continental regions (North America and western and eastern Eurasia), and global “dry” and “wet” land areas (as defined by their average extreme precipitation intensities). Results indicate that anthropogenic greenhouse gas influence is robustly detected in the observed intensification of extreme precipitation over the global land and most of the subregions considered, all with clear separation from natural and anthropogenic aerosol forcings. Also, the human-induced greenhouse gas increases are found to be a dominant contributor to the observed increase in extreme precipitation intensity, which largely follows the increased moisture availability under global warming.</abstract>
+    <identifier type="citekey">Paik-2020-Determining</identifier>
+    <identifier type="doi">10.1029/2019gl086875</identifier>
     <location>
         <url>https://aclanthology.org/G20-118001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>265</number></detail>
-        <detail type="page"><number>114984</number></detail>
+        <detail type="volume"><number>47</number></detail>
+        <detail type="issue"><number>12</number></detail>
     </part>
 </mods>
 </modsCollection>

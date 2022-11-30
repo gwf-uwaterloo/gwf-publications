@@ -1,54 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bevan-2018-Enlargement">
+<mods ID="Chasmer-2018-Monitoring">
     <titleInfo>
-        <title>Enlargement and evolution of a semi-alluvial creek in response to urbanization</title>
+        <title>Monitoring ecosystem reclamation recovery using optical remote sensing: Comparison with field measurements and eddy covariance</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Vernon</namePart>
-        <namePart type="family">Bevan</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Chasmer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bruce</namePart>
-        <namePart type="family">MacVicar</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Baker</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Margot</namePart>
-        <namePart type="family">Chapuis</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kimisha</namePart>
-        <namePart type="family">Ghunowa</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Straker</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Elli</namePart>
-        <namePart type="family">Papangelakis</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Strilesky</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Parish</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="family">Snodgrass</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Petrone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -60,27 +54,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth Surface Processes and Landforms, Volume 43, Issue 11</title>
+            <title>Science of The Total Environment, Volume 642</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bevan-2018-Enlargement</identifier>
-    <identifier type="doi">10.1002/esp.4391</identifier>
+    <identifier type="citekey">Chasmer-2018-Monitoring</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2018.06.039</identifier>
     <location>
         <url>https://aclanthology.org/G18-18001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>43</number></detail>
-        <detail type="issue"><number>11</number></detail>
+        <detail type="volume"><number>642</number></detail>
         <extent unit="page">
-            <start>2295</start>
-            <end>2312</end>
+            <start>436</start>
+            <end>446</end>
         </extent>
     </part>
 </mods>

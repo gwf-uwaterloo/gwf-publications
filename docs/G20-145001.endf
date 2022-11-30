@@ -1,15 +1,19 @@
 ﻿%0 Journal Article
-%T On the sensitivity of modelled groundwater recharge estimates to rain gauge network scale
-%A Wiebe, Andrew J.
-%A Rudolph, David L.
-%J Journal of Hydrology, Volume 585
+%T LVMapper: A Large-Variance Clone Detector Using Sequencing Alignment Approach
+%A Wu, Ming
+%A Wang, Pengcheng
+%A Yin, Kangqi
+%A Cheng, Haoyu
+%A Xu, Yun
+%A Roy, Chanchal K.
+%J IEEE Access, Volume 8
 %D 2020
-%V 585
-%I Elsevier BV
-%F Wiebe-2020-On
-%X Abstract Rainfall is often the largest component of the water budget and even a small uncertainty percentage may lead to challenges for accurately estimating groundwater recharge as a calculated residual within a water budget approach. Watersheds are a common scale for water budget assessment, and rainfall monitoring networks typically have widely spaced gauges that are frequently outside the watershed of interest. The effects of rainfall spatial variability and uncertainty on groundwater recharge estimates have received little attention and may influence water budget-derived recharge estimations. In the present study, the influence of spatial density in rainfall measurement on the numerical estimation of groundwater recharge was investigated through a series of modelling scenarios utilizing field data obtained from progressively denser rain gauge networks associated with a typical watershed in southern Ontario. The uncertainty of the recharge component of the water budget was used as a metric to aid interpretation of results. The scenarios employed networks composed of: 1) one nearby national weather station (within 3 km), 2) a regional network of six stations (within 30 km), and 3) a local network of six stations, five of which were within the selected watershed. A coupled and fully distributed hydrologic model (MIKE SHE) was used in the scenario analysis and applied to the Alder Creek watershed on the Waterloo Moraine near Kitchener-Waterloo, Ontario. Rainfall showed poor spatial correlation, even at the daily time scale. Average annual results over a three-year period showed that recharge rates varied up to 140 mm per year (~40% of previously estimated annual recharge) among scenarios, with differences between scenarios greater than the water budget uncertainty during one of the years. These findings suggest that the availability of local rainfall measurements has the potential to influence the calibration of transient watershed hydrogeological models.
-%R 10.1016/j.jhydrol.2020.124741
+%V 8
+%I Institute of Electrical and Electronics Engineers (IEEE)
+%F Wu-2020-LVMapper:
+%X To detect large-variance code clones (i.e. clones with relatively more differences) in large-scale code repositories is difficult because most current tools can only detect almost identical or very similar clones. It will make promotion and changes to some software applications such as bug detection, code completion, software analysis, etc. Recently, CCAligner made an attempt to detect clones with relatively concentrated modifications called large-gap clones. Our contribution is to develop a novel and effective detection approach of large-variance clones to more general cases for not only the concentrated code modifications but also the scattered code modifications. A detector named LVMapper is proposed, borrowing and changing the approach of sequencing alignment in bioinformatics which can find two similar sequences with more differences. The ability of LVMapper was tested on both self-synthetic datasets and real cases, and the results show substantial improvement in detecting large-variance clones compared with other state-of-the-art tools including CCAligner. Furthermore, our new tool also presents good recall and precision for general Type-1, Type-2 and Type-3 clones on the widely used benchmarking dataset, BigCloneBench.
+%R 10.1109/access.2020.2971545
 %U https://aclanthology.org/G20-145001
-%U https://doi.org/10.1016/j.jhydrol.2020.124741
-%P 124741
+%U https://doi.org/10.1109/access.2020.2971545
+%P 27986-27997
 

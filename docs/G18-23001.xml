@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Brouwer-2018-A">
+<mods ID="Brouwer-2018-Economic">
     <titleInfo>
-        <title>A global meta-analysis of groundwater quality valuation studies</title>
+        <title>Economic valuation of groundwater protection using a groundwater quality ladder based on chemical threshold levels</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Roy</namePart>
@@ -12,8 +12,24 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Noémie</namePart>
-        <namePart type="family">Neverre</namePart>
+        <namePart type="given">Carlos</namePart>
+        <namePart type="given">Miraldo</namePart>
+        <namePart type="family">Ordens</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rute</namePart>
+        <namePart type="family">Pinto</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">Teresa</namePart>
+        <namePart type="family">Condesso de Melo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,28 +41,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>European Review of Agricultural Economics, Volume 47, Issue 3</title>
+            <title>Ecological Indicators, Volume 88</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Oxford University Press (OUP)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract A global meta-analysis consisting of almost three decades of groundwater quality valuation studies is presented. New in this study is the focus on the uncertainties surrounding different groundwater quality levels and the control included for groundwater contaminants originating from agriculture and other sources. Separate meta-regression models are estimated for the USA, Europe and the World, detecting sensitivity to scope and reference dependence. Public willingness to pay appears more sensitive to uncertainty in the baseline scenario than in the policy scenario. The high explanatory power of the estimated meta-regression models and low prediction errors provide confidence in their usefulness for reliable benefits transfer.</abstract>
-    <identifier type="citekey">Brouwer-2018-A</identifier>
-    <identifier type="doi">10.1093/erae/jby043</identifier>
+    <abstract>Abstract Improving groundwater quality is expected to yield direct use benefits to society (e.g. clean and safe drinking water) and groundwater dependent ecosystems. Ten years after the adoption of the European Groundwater Directive (GWD), policymaker and public understanding of the societal value of groundwater protection is still rather limited. This is partly due to the invisible and intangible nature of groundwater resources and the sheer lack of valuation studies. This study contributes to the limited number of groundwater valuation studies in Europe by estimating the public benefits from improved groundwater quality in the Aveiro Quaternary Aquifer (AQA) in Portugal. This is the first and only economic valuation study of groundwater in Portugal. In order to communicate the various benefits provided by groundwater resources in easy understandable terms to lay people, and to assess public perception and willingness to pay (WTP) for groundwater protection, a groundwater quality ladder was developed based on the threshold values proposed in the GWD. The ladder reflects the different use and non-use values of groundwater quality improvements and accounts for natural background levels of chemicals in groundwater. The large-scale survey targets a representative sample of residents in the AQA. Split samples are used to assess the impact of framing groundwater protection in a broader regional water resources management context, giving part of the sample furthermore time to think about their WTP for the different groundwater threshold levels. Although use values dominate public WTP for the different groundwater threshold values, substantial non-use values are also found. Public WTP is considerable, varying between 20 and 30% over and above the current water bill residents pay for safe drinking water quality and natural background levels, respectively. Giving respondents time to think and framing groundwater protection as part of the improvement of all water resources in the region results in a more conservative WTP estimate. Public WTP is higher for better informed private well owners in rural areas. Aggregated across the entire aquifer the estimated total economic value is 1.5 million euros annually for safe drinking water quality and 3.5 million euros annually for groundwater containing natural background levels only.</abstract>
+    <identifier type="citekey">Brouwer-2018-Economic</identifier>
+    <identifier type="doi">10.1016/j.ecolind.2018.01.041</identifier>
     <location>
         <url>https://aclanthology.org/G18-23001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>47</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>88</number></detail>
         <extent unit="page">
-            <start>893</start>
-            <end>932</end>
+            <start>292</start>
+            <end>304</end>
         </extent>
     </part>
 </mods>

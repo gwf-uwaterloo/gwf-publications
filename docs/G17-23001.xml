@@ -1,28 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Krogh-2017-Diagnosis">
+<mods ID="Li-2017-Recent">
     <titleInfo>
-        <title>Diagnosis of the hydrology of a small Arctic basin at the tundra-taiga transition using a physically based hydrological model</title>
+        <title>Recent Very Hot Summers in Northern Hemispheric Land Areas Measured by Wet Bulb Globe Temperature Will Be the Norm Within 20 Years</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sebastian</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Krogh</namePart>
+        <namePart type="given">Chao</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Francis</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yuanyuan</namePart>
+        <namePart type="family">Fang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anna</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Michalak</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,27 +47,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 550</title>
+            <title>Earth’s Future, Volume 5, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract A better understanding of cold regions hydrological processes and regimes in transitional environments is critical for predicting future Arctic freshwater fluxes under climate and vegetation change. A physically based hydrological model using the Cold Regions Hydrological Model platform was created for a small Arctic basin in the tundra-taiga transition region. The model represents snow redistribution and sublimation by wind and vegetation, snowmelt energy budget, evapotranspiration, subsurface flow through organic terrain, infiltration to frozen soils, freezing and thawing of soils, permafrost and streamflow routing. The model was used to reconstruct the basin water cycle over 28 years to understand and quantify the mass fluxes controlling its hydrological regime. Model structure and parameters were set from the current understanding of Arctic hydrology, remote sensing, field research in the basin and region, and calibration against streamflow observations. Calibration was restricted to subsurface hydraulic and storage parameters. Multi-objective evaluation of the model using observed streamflow, snow accumulation and ground freeze/thaw state showed adequate simulation. Significant spatial variability in the winter mass fluxes was found between tundra, shrubs and forested sites, particularly due to the substantial blowing snow redistribution and sublimation from the wind-swept upper basin, as well as sublimation of canopy intercepted snow from the forest (about 17% of snowfall). At the basin scale, the model showed that evapotranspiration is the largest loss of water (47%), followed by streamflow (39%) and sublimation (14%). The models streamflow performance sensitivity to a set of parameter was analysed, as well as the mean annual mass balance uncertainty associated with these parameters.</abstract>
-    <identifier type="citekey">Krogh-2017-Diagnosis</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2017.05.042</identifier>
+    <abstract>Wet bulb Globe Temperature (WBGT) accounts for the effect of environmental temperature and humidity on thermal comfort, and can be directly related to the ability of the human body to dissipate excess metabolic heat and thus avoid heat stress. Using WBGT as a measure of environmental conditions conducive to heat stress, we show that anthropogenic influence has very substantially increased the likelihood of extreme high summer mean WBGT in northern hemispheric land areas relative to the climate that would have prevailed in the absence of anthropogenic forcing. We estimate that the likelihood of summer mean WGBT exceeding the observed historical record value has increased by a factor of at least 70 at regional scales due to anthropogenic influence on the climate. We further estimate that, in most northern hemispheric regions, these changes in the likelihood of extreme summer mean WBGT are roughly an order of magnitude larger than the corresponding changes in the likelihood of extreme hot summers as simply measured by surface air temperature. Projections of future summer mean WBGT under the RCP8.5 emissions scenario that are constrained by observations indicate that by 2030s at least 50% of the summers will have mean WBGT higher than the observed historical record value in all the analyzed regions, and that this frequency of occurrence will increase to 95% by mid-century.</abstract>
+    <identifier type="citekey">Li-2017-Recent</identifier>
+    <identifier type="doi">10.1002/2017ef000639</identifier>
     <location>
         <url>https://aclanthology.org/G17-23001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>550</number></detail>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>12</number></detail>
         <extent unit="page">
-            <start>685</start>
-            <end>703</end>
+            <start>1203</start>
+            <end>1216</end>
         </extent>
     </part>
 </mods>

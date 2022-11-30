@@ -1,28 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Barszcz-2018-Improving">
+<mods ID="BenAlaya-2018-Probable">
     <titleInfo>
-        <title>Improving the Explicit Prediction of Freezing Rain in a Kilometer-Scale Numerical Weather Prediction Model</title>
+        <title>Probable Maximum Precipitation: Its Estimation and Uncertainty Quantification Using Bivariate Extreme Value Analysis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Agnieszka</namePart>
-        <namePart type="family">Barszcz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Milbrandt</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Julie</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Thériault</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ben Alaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">X</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Forecasting, Volume 33, Issue 3</title>
+            <title>Journal of Hydrometeorology, Volume 19, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -43,19 +42,19 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract A freezing rain event, in which the Meteorological Centre of Canada’s 2.5-km numerical weather prediction system significantly underpredicted the quantity of freezing rain, is examined. The prediction system models precipitation types explicitly, directly from the Milbrandt–Yau microphysics scheme. It was determined that the freezing rain underprediction for this case was due primarily to excessive refreezing of rain, originating from melting snow and graupel, in and under the temperature inversion of the advancing warm front ultimately depleting the supply of rain reaching the surface. The refreezing was caused from excessive collisional freezing between rain and graupel. Sensitivity experiments were conducted to examine the effects of a temperature threshold for collisional freezing and on varying the values of the collection efficiencies between rain and ice-phase hydrometeors. It was shown that by reducing the rain–graupel collection efficiency and by imposing a temperature threshold of −5°C, above which collisional freezing is not permitted, excessive rain–graupel collection and graupel formation can be controlled in the microphysics scheme, leading to an improved simulation of freezing rain at the surface.</abstract>
-    <identifier type="citekey">Barszcz-2018-Improving</identifier>
-    <identifier type="doi">10.1175/waf-d-17-0136.1</identifier>
+    <abstract>Abstract Probable maximum precipitation (PMP) is the key parameter used to estimate the probable maximum flood (PMF), both of which are important for dam safety and civil engineering purposes. The usual operational procedure for obtaining PMP values, which is based on a moisture maximization approach, produces a single PMP value without an estimate of its uncertainty. We therefore propose a probabilistic framework based on a bivariate extreme value distribution to aid in the interpretation of these PMP values. This 1) allows us to evaluate estimates from the operational procedure relative to an estimate of a plausible distribution of PMP values, 2) enables an evaluation of the uncertainty of these values, and 3) provides clarification of the impact of the assumption that a PMP event occurs under conditions of maximum moisture availability. Results based on a 50-yr Canadian Centre for Climate Modelling and Analysis Regional Climate Model (CanRCM4) simulation over North America reveal that operational PMP estimates are highly uncertain and suggest that the assumption that PMP events have maximum moisture availability may not be valid. Specifically, in the climate simulated by CanRCM4, the operational approach applied to 50-yr data records produces a value that is similar to the value that is obtained in our approach when assuming complete dependence between extreme precipitation efficiency and extreme precipitable water. In contrast, our results suggest weaker than complete dependence. Estimates from the operational approach are 15% larger on average over North America than those obtained when accounting for the dependence between precipitation efficiency and precipitable water extremes realistically. A difference of this magnitude may have serious implications in engineering design.</abstract>
+    <identifier type="citekey">Ben Alaya-2018-Probable</identifier>
+    <identifier type="doi">10.1175/jhm-d-17-0110.1</identifier>
     <location>
         <url>https://aclanthology.org/G18-14001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>19</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>767</start>
-            <end>782</end>
+            <start>679</start>
+            <end>694</end>
         </extent>
     </part>
 </mods>

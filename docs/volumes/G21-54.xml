@@ -1,19 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Das-2021-Exploring">
+<mods ID="Abdelmoaty-2021-Biases">
     <titleInfo>
-        <title>Exploring the Potential of Zoning Regulation for Reducing Ice-Jam Flood Risk Using a Stochastic Modelling Framework</title>
+        <title>Biases Beyond the Mean in CMIP6 Extreme Precipitation: A Global Investigation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Apurba</namePart>
-        <namePart type="family">Das</namePart>
+        <namePart type="given">Hebatallah</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="family">Abdelmoaty</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chandra</namePart>
+        <namePart type="given">Rupa</namePart>
+        <namePart type="family">Rajulapati</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amir</namePart>
+        <namePart type="family">AghaKouchak</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,25 +42,102 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 13, Issue 16</title>
+            <title>Earth’s Future, Volume 9, Issue 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Das-2021-Exploring</identifier>
-    <identifier type="doi">10.3390/w13162202</identifier>
+    <identifier type="citekey">Abdelmoaty-2021-Biases</identifier>
+    <identifier type="doi">10.1029/2021ef002196</identifier>
     <location>
         <url>https://aclanthology.org/G21-54001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>16</number></detail>
-        <detail type="page"><number>2202</number></detail>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>10</number></detail>
+    </part>
+</mods>
+<mods ID="Papalexiou-2021-Probabilistic">
+    <titleInfo>
+        <title>Probabilistic Evaluation of Drought in CMIP6 Simulations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chandra</namePart>
+        <namePart type="given">Rupa</namePart>
+        <namePart type="family">Rajulapati</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Efi</namePart>
+        <namePart type="family">Foufoula‐Georgiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Trenberth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth’s Future, Volume 9, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Papalexiou-2021-Probabilistic</identifier>
+    <identifier type="doi">10.1029/2021ef002150</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-54002</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>10</number></detail>
     </part>
 </mods>
 </modsCollection>

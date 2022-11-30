@@ -1,16 +1,17 @@
 ﻿%0 Journal Article
-%T CLCDSA: Cross Language Code Clone Detection using Syntactical Features and API Documentation
-%A Nafi, Kawser Wazed
-%A Kar, Tonny Shekha
-%A Roy, Banani
-%A Roy, Chanchal K.
-%A Schneider, Kevin A.
-%J 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)
+%T Controls on evapotranspiration from jack pine forests in the Boreal Plains Ecozone
+%A Nazarbakhsh, Mahtab
+%A Ireson, Andrew M.
+%A Barr, Alan G.
+%J Hydrological Processes, Volume 34, Issue 4
 %D 2019
-%I IEEE
-%F Nafi-2019-CLCDSA:
-%X Software clones are detrimental to software maintenance and evolution and as a result many clone detectors have been proposed. These tools target clone detection in software applications written in a single programming language. However, a software application may be written in different languages for different platforms to improve the application’s platform compatibility and adoption by users of different platforms. Cross language clones (CLCs) introduce additional challenges when maintaining multi-platform applications and would likely go undetected using existing tools. In this paper, we propose CLCDSA, a cross language clone detector which can detect CLCs without extensive processing of the source code and without the need to generate an intermediate representation. The proposed CLCDSA model analyzes different syntactic features of source code across different programming languages to detect CLCs. To support large scale clone detection, the CLCDSA model uses an action filter based on cross language API call similarity to discard non-potential clones. The design methodology of CLCDSA is two-fold: (a) it detects CLCs on the fly by comparing the similarity of features, and (b) it uses a deep neural network based feature vector learning model to learn the features and detect CLCs. Early evaluation of the model observed an average precision, recall and F-measure score of 0.55, 0.86, and 0.64 respectively for the first phase and 0.61, 0.93, and 0.71 respectively for the second phase which indicates that CLCDSA outperforms all available models in detecting cross language clones.
-%R 10.1109/ase.2019.00099
+%V 34
+%N 4
+%I Wiley
+%F Nazarbakhsh-2019-Controls
+%X The exchanges of water, energy and carbon between the land surface and the atmosphere are tightly coupled, so that errors in simulating evapotranspiration lead to errors in simulating both the water and carbon balances. Areas with seasonally frozen soils present a particular challenge due to the snowmelt‐dominated hydrology and the impact of soil freezing on the soil hydraulic properties and plant root water uptake. Land surface schemes that have been applied in high latitudes often have reported problems with simulating the snowpack and runoff. Models applied at the Boreal Ecosystem Research and Monitoring Sites in central Saskatchewan have consistently over‐predicted evapotranspiration as compared with flux tower estimates. We assessed the performance of two Canadian land surface schemes (CLASS and CLASS‐CTEM) for simulating point‐scale evapotranspiration at an instrumented jack pine sandy upland site in the southern edge of the boreal forest in Saskatchewan, Canada. Consistent with past reported results, these models over‐predicted evapotranspiration, as compared with flux tower observations, but only in the spring period. Looking systematically at soil properties and vegetation characteristics, we found that the dominant control on evapotranspiration within these models was the canopy conductance. However, the problem of excessive spring ET could not be solved satisfactorily by changing the soil or vegetation parameters. The model overestimation of spring ET coincided with the overestimation of spring soil liquid water content. Improved algorithms for the infiltration of snowmelt into frozen soils and plant‐water uptake during the snowmelt and soil thaw periods may be key to addressing the biases in spring ET.
+%R 10.1002/hyp.13674
 %U https://aclanthology.org/G19-132001
-%U https://doi.org/10.1109/ase.2019.00099
+%U https://doi.org/10.1002/hyp.13674
+%P 927-940
 

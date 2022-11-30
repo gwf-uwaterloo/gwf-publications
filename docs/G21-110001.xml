@@ -1,42 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="VargasGodoy-2021-The">
+<mods ID="Perra-2021-Commingled">
     <titleInfo>
-        <title>The Global Water Cycle Budget: A Chronological Review</title>
+        <title>Commingled Fluids in Abandoned Boreholes: Proximity Analysis of a Hidden Liability</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mijael</namePart>
-        <namePart type="given">Rodrigo</namePart>
-        <namePart type="family">Vargas Godoy</namePart>
+        <namePart type="given">Christopher</namePart>
+        <namePart type="family">Perra</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yannis</namePart>
-        <namePart type="family">Markonis</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">McIntosh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Martin</namePart>
-        <namePart type="family">Hanel</namePart>
+        <namePart type="given">Theresa</namePart>
+        <namePart type="family">Watson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jan</namePart>
-        <namePart type="family">Kyselý</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Ferguson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,27 +40,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Surveys in Geophysics, Volume 42, Issue 5</title>
+            <title>Groundwater, Volume 60, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Vargas Godoy-2021-The</identifier>
-    <identifier type="doi">10.1007/s10712-021-09652-6</identifier>
+    <abstract>The interactions between old abandoned wellbores of suspect well integrity with hydraulic fracturing (HF), enhanced oil recovery (EOR), or salt water disposal (SWD) operations can result in upward leakage of deep aqueous liquids into overlying aquifers. This potential for upward fluid migration is largely unquantified as monitoring abandoned wells is rarely done, and leakage may go unnoticed especially when in deeper aquifers. This study performs a proximity analysis between old abandoned wells and HF, EOR, and SWD wells, and identifies commingled old abandoned wellbores, which are those wells where groundwater may flow from one aquifer to one or more other aquifers, to identify the locations with the greatest potential for upward aqueous fluid migration at three study sites in the Western Canadian Sedimentary Basin. Our analysis indicates that at all three study sites there are several locations where HF, EOR, or SWD operations are located in close proximity to a given old abandoned well. Much of this overlap occurs in formations above typically produced hydrocarbon reservoirs but below exploited potable aquifers, otherwise known as the intermediate zone, which is often connected between abandonment plugs in old abandoned wells. Information on the intermediate zone is often lacking, and this study suggests that unanticipated alterations to groundwater flow systems within the intermediate zone may be occurring. Results indicate the need for more field-based research on the intermediate zone.</abstract>
+    <identifier type="citekey">Perra-2021-Commingled</identifier>
+    <identifier type="doi">10.1111/gwat.13140</identifier>
     <location>
         <url>https://aclanthology.org/G21-110001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>42</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>60</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>1075</start>
-            <end>1107</end>
+            <start>210</start>
+            <end>224</end>
         </extent>
     </part>
 </mods>

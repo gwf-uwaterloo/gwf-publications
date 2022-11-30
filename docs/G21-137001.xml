@@ -1,33 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Xiong-2021-Dual-Modality">
+<mods ID="Huang-2021-Estimating">
     <titleInfo>
-        <title>Dual-Modality Imaging Microfluidic Cytometer for Onsite Detection of Phytoplankton</title>
+        <title>Estimating concurrent climate extremes: A conditional approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Bo</namePart>
-        <namePart type="family">Xiong</namePart>
+        <namePart type="given">Whitney</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tianqi</namePart>
-        <namePart type="family">Hong</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Monahan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Herbert</namePart>
-        <namePart type="family">Schellhorn</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiyin</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Francis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,26 +35,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Photonics, Volume 8, Issue 10</title>
+            <title>Weather and Climate Extremes, Volume 33</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Phytoplankton monitoring is essential for better understanding and mitigation of phytoplankton bloom formation. We present a microfluidic cytometer with two imaging modalities for onsite detection and identification of phytoplankton: a lensless imaging mode for morphological features, and a fluorescence imaging mode for autofluorescence signal of phytoplankton. Both imaging modes are integrated in a microfluidic device with a field of view (FoV) of 3.7 mm \times 2.4 mm and a depth of field (DoF) of 0.8 mm. The particles in the water flow channel can be detected and classified with automated image processing algorithms and machine learning models using their morphology and fluorescence features. The performance of the device was demonstrated by measuring Chlamydomonas, Euglena, and non-fluorescent beads in both separate and mixed flow samples. The recall rates for Chlamydomonas and Euglena ware 93.6% and 94.4%. The dual-modality imaging approach enabled observing both morphology and fluorescence features with a large DoF and FoV which contribute to high-throughput analysis. Moreover, this imaging flow cytometer platform is portable, low-cost, and shows potential in the onsite phytoplankton monitoring.</abstract>
-    <identifier type="citekey">Xiong-2021-Dual-Modality</identifier>
-    <identifier type="doi">10.3390/photonics8100435</identifier>
+    <abstract>Simultaneous concurrence of extreme values across multiple climate variables can result in large societal and environmental impacts. Therefore, there is growing interest in understanding these concurrent extremes. In many applications, not only the frequency but also the magnitude of concurrent extremes are of interest. One way to approach this problem is to study the distribution of one climate variable given that another is extreme. In this work we develop a statistical framework for estimating bivariate concurrent extremes via a conditional approach, where univariate extreme value modeling is combined with dependence modeling of the conditional tail distribution using techniques from quantile regression and extreme value analysis to quantify concurrent extremes. We focus on the distribution of daily wind speed conditioned on daily precipitation taking its seasonal maximum. The Canadian Regional Climate Model large ensemble is used to assess the performance of the proposed framework both via a simulation study with specified dependence structure and via an analysis of the climate model-simulated dependence structure.</abstract>
+    <identifier type="citekey">Huang-2021-Estimating</identifier>
+    <identifier type="doi">10.1016/j.wace.2021.100332</identifier>
     <location>
         <url>https://aclanthology.org/G21-137001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>10</number></detail>
-        <detail type="page"><number>435</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="page"><number>100332</number></detail>
     </part>
 </mods>
 </modsCollection>

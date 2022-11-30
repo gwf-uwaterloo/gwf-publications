@@ -1,19 +1,17 @@
 ﻿%0 Journal Article
-%T Canadian historical Snow Water Equivalent dataset (CanSWE, 1928–2020)
-%A Vionnet, Vincent
-%A Mortimer, Colleen
-%A Brady, Mike
-%A Arnal, Louise
-%A Brown, Ross
-%J Earth System Science Data, Volume 13, Issue 9
+%T VISCOUS: A Variance‐Based Sensitivity Analysis Using Copulas for Efficient Identification of Dominant Hydrological Processes
+%A Sheikholeslami, Razi
+%A Gharari, Shervan
+%A Papalexiou, Simon Michael
+%A Clark, Martyn P.
+%J Water Resources Research, Volume 57, Issue 7
 %D 2021
-%V 13
-%N 9
-%I Copernicus GmbH
-%F Vionnet-2021-Canadian
-%X Abstract. In situ measurements of water equivalent of snow cover (SWE) – the vertical depth of water that would be obtained if all the snow cover melted completely – are used in many applications including water management, flood forecasting, climate monitoring, and evaluation of hydrological and land surface models. The Canadian historical SWE dataset (CanSWE) combines manual and automated pan-Canadian SWE observations collected by national, provincial and territorial agencies as well as hydropower companies. Snow depth (SD) and bulk snow density (defined as the ratio of SWE to SD) are also included when available. This new dataset supersedes the previous Canadian Historical Snow Survey (CHSSD) dataset published by Brown et al. (2019), and this paper describes the efforts made to correct metadata, remove duplicate observations and quality control records. The CanSWE dataset was compiled from 15 different sources and includes SWE information for all provinces and territories that measure SWE. Data were updated to July 2020, and new historical data from the Government of Northwest Territories, Government of Newfoundland and Labrador, Saskatchewan Water Security Agency, and Hydro-Québec were included. CanSWE includes over 1 million SWE measurements from 2607 different locations across Canada over the period 1928–2020. It is publicly available at https://doi.org/10.5281/zenodo.4734371 (Vionnet et al., 2021).
-%R 10.5194/essd-13-4603-2021
+%V 57
+%N 7
+%I American Geophysical Union (AGU)
+%F Sheikholeslami-2021-VISCOUS:
+%X Global sensitivity analysis (GSA) has long been recognized as an indispensable tool for model analysis. GSA has been extensively used for model simplification, identifiability analysis, and diagnostic tests. Nevertheless, computationally efficient methodologies are needed for GSA, not only to reduce the computational overhead, but also to improve the quality and robustness of the results. This is especially the case for process-based hydrologic models, as their simulation time typically exceeds the computational resources available for a comprehensive GSA. To overcome this computational barrier, we propose a data-driven method called VISCOUS, variance-based sensitivity analysis using copulas. VISCOUS uses Gaussian mixture copulas to approximate the joint probability density function of a given set of input-output pairs for estimating the variance-based sensitivity indices. Our method identifies dominant hydrologic factors by recycling existing input-output data, and thus can deal with arbitrary sample sets drawn from the input-output space. We used two hydrologic models of increasing complexity (HBV and VIC) to assess the performance of VISCOUS. Our results confirm that VISCOUS and the conventional variance-based method can detect similar important and unimportant factors. Furthermore, the VISCOUS method can substantially reduce the computational cost required for sensitivity analysis. Our proposed method is particularly useful for process-based models with many uncertain parameters, large domain size, and high spatial and temporal resolution.
+%R 10.1029/2020wr028435
 %U https://aclanthology.org/G21-69001
-%U https://doi.org/10.5194/essd-13-4603-2021
-%P 4603-4619
+%U https://doi.org/10.1029/2020wr028435
 

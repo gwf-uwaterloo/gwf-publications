@@ -1,40 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Tan-2021-Moisture">
+<mods ID="Shea-2021-The">
     <titleInfo>
-        <title>Moisture budget analysis of extreme precipitation associated with different types of atmospheric rivers over western North America</title>
+        <title>The Role of Basin Geometry in Mountain Snowpack Responses to Climate Change</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yaheng</namePart>
-        <namePart type="family">Tan</namePart>
+        <namePart type="given">Joseph</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Shea</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Song</namePart>
-        <namePart type="family">Yang</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Xing</namePart>
+        <namePart type="family">Fang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ziqian</namePart>
-        <namePart type="family">Wang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiaohong</namePart>
-        <namePart type="family">Sun</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,28 +42,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climate Dynamics, Volume 58, Issue 3-4</title>
+            <title>Frontiers in Water, Volume 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Frontiers Media SA</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Tan-2021-Moisture</identifier>
-    <identifier type="doi">10.1007/s00382-021-05933-3</identifier>
+    <abstract>Snowmelt contributions to streamflow in mid-latitude mountain basins typically dominate other runoff sources on annual and seasonal timescales. Future increases in temperature and changes in precipitation will affect both snow accumulation and seasonal runoff timing and magnitude, but the underlying and fundamental roles of mountain basin geometry and hypsometry on snowmelt sensitivity have received little attention. To investigate the role of basin geometry in snowmelt sensitivity, a linear snow accumulation model and the Cold Regions Hydrological Modeling (CRHM) platform driven are used to estimate how hypsometry affects basin-wide snow volumes and snowmelt runoff. Area-elevation distributions for fifty basins in western Canada were extracted, normalized according to their elevation statistics, and classified into three clusters that represent top-heavy, middle, and bottom-heavy basins. Prescribed changes in air temperature alter both the snow accumulation gradient and the total snowmelt energy, leading to snowpack volume reductions (10–40%), earlier melt onsets (1–4 weeks) and end of melt season (3 weeks), increases in early spring melt rates and reductions in seasonal areal melt rates (up to 50%). Basin hypsometry controls the magnitude of the basin response. The most sensitive basins are bottom-heavy, and have a greater proportion of their area at low elevations. The least sensitive basins are top-heavy, and have a greater proportion of their area at high elevations. Basins with similar proportional areas at high and low elevations fall in between the others in terms of sensitivity and other metrics. This work provides context for anticipating the impacts of ongoing hydrological change due to climate change, and provides guidance for both monitoring networks and distributed modeling efforts.</abstract>
+    <identifier type="citekey">Shea-2021-The</identifier>
+    <identifier type="doi">10.3389/frwa.2021.604275</identifier>
     <location>
         <url>https://aclanthology.org/G21-177001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>58</number></detail>
-        <detail type="issue"><number>3-4</number></detail>
-        <extent unit="page">
-            <start>793</start>
-            <end>809</end>
-        </extent>
+        <detail type="volume"><number>3</number></detail>
     </part>
 </mods>
 </modsCollection>

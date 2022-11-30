@@ -1,55 +1,66 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Markwart-2019-Selenium">
+<mods ID="Melsen-2019-Subjective">
     <titleInfo>
-        <title>Selenium oxyanion bioconcentration in natural freshwater periphyton</title>
+        <title>Subjective modeling decisions can significantly impact the simulation of flood and drought events</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Blue</namePart>
-        <namePart type="family">Markwart</namePart>
+        <namePart type="given">Lieke</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Melsen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karsten</namePart>
-        <namePart type="family">Liber</namePart>
+        <namePart type="given">Adriaan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Teuling</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yuwei</namePart>
-        <namePart type="family">Xie</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">J.J.F.</namePart>
+        <namePart type="family">Torfs</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Katherine</namePart>
-        <namePart type="family">Raes</namePart>
+        <namePart type="given">Massimiliano</namePart>
+        <namePart type="family">Zappa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Markus</namePart>
-        <namePart type="family">Hecker</namePart>
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="family">Janz</namePart>
+        <namePart type="given">Pablo</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mendoza</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lorne</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Doig</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Remko</namePart>
+        <namePart type="family">Uijlenhoet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -61,7 +72,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecotoxicology and Environmental Safety, Volume 180</title>
+            <title>Journal of Hydrology, Volume 568</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -70,18 +81,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Selenium (Se) enrichment has been demonstrated to vary by several orders of magnitude among species of planktonic algae. This is a substantial source of uncertainty when modelling Se biodynamics in aquatic systems. In addition, Se bioconcentration data are largely lacking for periphytic species of algae, and for multi-species periphyton biofilms, adding to the challenge of modelling Se transfer in periphyton-based food webs. To better predict Se dynamics in periphyton dominated, freshwater ecosystems, the goal of this study was to assess the relative influence of periphyton community composition on the uptake of waterborne Se oxyanions. Naturally grown freshwater periphyton communities, sampled from five different water bodies, were exposed to environmentally relevant concentrations of selenite [Se(IV)] or selenate [Se(VI)] (nominal concentrations of 5 and 25 μg Se L-1) under similar, controlled laboratory conditions for a period of 8 days. Unique periphyton assemblages were derived from the five different field sites, as confirmed by light microscopy and targeted DNA sequencing of the plastid 23S rRNA gene in algae. Selenium accumulation demonstrated a maximum of 23.6-fold difference for Se(IV) enrichment and 2.1-fold difference for Se(VI) enrichment across the periphyton/biofilm assemblages tested. The assemblage from one field site demonstrated both high accumulation of Se(IV) and iron, and was subjected to additional experimentation to elucidate the mechanism(s) of Se accumulation. Selenite accumulation (at nominal concentrations of 5 and 25 μg Se L-1 and mean pH of 7.5 across all treatment replicates) was assessed in both unaltered and heat-killed periphyton, and in periphyton from the same site grown without light to exclude phototrophic organisms. Following an exposure length of 8 days, all periphyton treatments showed similar levels of Se accumulation, indicating that much of the apparent uptake of Se(IV) was due to non-biological processes (i.e., surface adsorption). The results of this study will help reduce uncertainty in the prediction of Se dynamics and food-chain transfer in freshwater environments. Further exploration of the ecological consequences of extracellular adsorption of Se(IV) to periphyton, rather than intracellular absorption, is recommended to further refine predictions related to Se biodynamics in freshwater food webs.</abstract>
-    <identifier type="citekey">Markwart-2019-Selenium</identifier>
-    <identifier type="doi">10.1016/j.ecoenv.2019.05.004</identifier>
+    <abstract>It is generally acknowledged in the environmental sciences that the choice of a computational model impacts the research results. In this study of a flood and drought event in the Swiss Thur basin, we show that modeling decisions during the model configuration, beyond the model choice, also impact the model results. In our carefully designed experiment we investigated four modeling decisions in ten nested basins: the spatial resolution of the model, the spatial representation of the forcing data, the calibration period, and the performance metric. The flood characteristics were mainly affected by the performance metric, whereas the drought characteristics were mainly affected by the calibration period. The results could be related to the processes that triggered the particular events studied. The impact of the modeling decisions on the simulations did, however, vary among the investigated sub-basins. In spite of the limitations of this study, our findings have important implications for the understanding and quantification of uncertainty in any hydrological or even environmental model. Modeling decisions during model configuration introduce subjectivity from the modeler. Multiple working hypotheses during model configuration can provide insights on the impact of such subjective modeling decisions.</abstract>
+    <identifier type="citekey">Melsen-2019-Subjective</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2018.11.046</identifier>
     <location>
         <url>https://aclanthology.org/G19-115001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>180</number></detail>
+        <detail type="volume"><number>568</number></detail>
         <extent unit="page">
-            <start>693</start>
-            <end>704</end>
+            <start>1093</start>
+            <end>1104</end>
         </extent>
     </part>
 </mods>

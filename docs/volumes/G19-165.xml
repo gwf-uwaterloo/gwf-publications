@@ -1,35 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Stockdale-2019-Could">
+<mods ID="St-Pierre-2019-Influence">
     <titleInfo>
-        <title>Could restoration of a landscape to a pre-European historical vegetation condition reduce burn probability?</title>
+        <title>Influence of the Model Horizontal Resolution on Atmospheric Conditions Leading to Freezing Rain in Regional Climate Simulations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christopher</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Stockdale</namePart>
+        <namePart type="given">Médéric</namePart>
+        <namePart type="family">St-Pierre</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Neal</namePart>
-        <namePart type="family">McLoughlin</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="family">Flannigan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">Ellen</namePart>
-        <namePart type="family">Macdonald</namePart>
+        <namePart type="given">Dominique</namePart>
+        <namePart type="family">Paquin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,25 +33,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecosphere, Volume 10, Issue 2</title>
+            <title>Atmosphere-Ocean, Volume 57, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Stockdale-2019-Could</identifier>
-    <identifier type="doi">10.1002/ecs2.2584</identifier>
+    <identifier type="citekey">St-Pierre-2019-Influence</identifier>
+    <identifier type="doi">10.1080/07055900.2019.1583088</identifier>
     <location>
         <url>https://aclanthology.org/G19-165001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>10</number></detail>
+        <detail type="volume"><number>57</number></detail>
         <detail type="issue"><number>2</number></detail>
-        <detail type="page"><number>e02584</number></detail>
+        <extent unit="page">
+            <start>101</start>
+            <end>119</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

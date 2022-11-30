@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Haghnegahdar-2017-Insights">
+<mods ID="Haghnegahdar-2017-Multicriteria">
     <titleInfo>
-        <title>Insights into sensitivity analysis of Earth and environmental systems models: On the impact of parameter perturbation scale</title>
+        <title>Multicriteria sensitivity analysis as a diagnostic tool for understanding model behaviour and characterizing model uncertainty</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Amin</namePart>
@@ -18,6 +18,20 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2017</dateIssued>
     </originInfo>
@@ -25,26 +39,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 95</title>
+            <title>Hydrological Processes, Volume 31, Issue 25</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Haghnegahdar-2017-Insights</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2017.03.031</identifier>
+    <identifier type="citekey">Haghnegahdar-2017-Multicriteria</identifier>
+    <identifier type="doi">10.1002/hyp.11358</identifier>
     <location>
         <url>https://aclanthology.org/G17-14001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>95</number></detail>
+        <detail type="volume"><number>31</number></detail>
+        <detail type="issue"><number>25</number></detail>
         <extent unit="page">
-            <start>115</start>
-            <end>131</end>
+            <start>4462</start>
+            <end>4476</end>
         </extent>
     </part>
 </mods>

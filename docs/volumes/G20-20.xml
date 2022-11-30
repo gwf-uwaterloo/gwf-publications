@@ -1,27 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moon-2020-Zn">
+<mods ID="Xiong-2020-A">
     <titleInfo>
-        <title>Zn \textlesssup\textgreater2+\textless/sup\textgreater ‐Dependent DNAzymes: From Solution Chemistry to Analytical, Materials and Therapeutic Applications</title>
+        <title>A Frequency-domain optofluidic dissolved oxygen sensor with total internal reflection design for in situ monitoring</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Woohyun</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Moon</namePart>
+        <namePart type="given">Bo</namePart>
+        <namePart type="family">Xiong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yongjie</namePart>
-        <namePart type="family">Yang</namePart>
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Mahoney</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Joe</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Lo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qiyin</namePart>
+        <namePart type="family">Fang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,27 +40,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>ChemBioChem, Volume 22, Issue 5</title>
+            <title>IEEE Journal of Selected Topics in Quantum Electronics</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Moon-2020-Zn</identifier>
-    <identifier type="doi">10.1002/cbic.202000586</identifier>
+    <identifier type="citekey">Xiong-2020-A</identifier>
+    <identifier type="doi">10.1109/jstqe.2020.2997810</identifier>
     <location>
         <url>https://aclanthology.org/G20-20001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>22</number></detail>
-        <detail type="issue"><number>5</number></detail>
         <extent unit="page">
-            <start>779</start>
-            <end>789</end>
+            <start>1</start>
+            <end>1</end>
         </extent>
     </part>
 </mods>

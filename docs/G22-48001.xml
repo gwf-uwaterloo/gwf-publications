@@ -1,74 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moslemi-Aqdam-2022-Understanding">
+<mods ID="Merchant-2022-Applying">
     <titleInfo>
-        <title>Understanding among-lake variability of mercury concentrations in Northern Pike (Esox lucius): A whole-ecosystem study in subarctic lakes</title>
+        <title>Applying Machine Learning and Time-Series Analysis on Sentinel-1A SAR/InSAR for Characterizing Arctic Tundra Hydro-Ecological Conditions</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mehdi</namePart>
-        <namePart type="family">Moslemi-Aqdam</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="given">Allan</namePart>
+        <namePart type="family">Merchant</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Leanne</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Baker</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Baltzer</namePart>
+        <namePart type="given">Mayah</namePart>
+        <namePart type="family">Obadia</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">Brian</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Branfireun</namePart>
+        <namePart type="family">Brisco</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marlene</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Evans</namePart>
+        <namePart type="given">Ben</namePart>
+        <namePart type="family">DeVries</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Laird</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">George</namePart>
-        <namePart type="family">Low</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="family">Low</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Heidi</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Swanson</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -80,25 +47,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 822</title>
+            <title>Remote Sensing, Volume 14, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Mercury concentrations ([Hg]) in fish reflect complex biogeochemical and ecological interactions that occur at a range of spatial and biological scales. Elucidating these interactions is crucial to understanding and predicting fish [Hg], particularly at northern latitudes, where environmental perturbations are having profound effects on land-water-animal interactions, and where fish are a critical subsistence food source. Using data from eleven subarctic lakes that span an area of ~60,000 km2 in the Dehcho Region of Northwest Territories (Canada), we investigated how trophic ecology and growth rates of fish, lake water chemistry, and catchment characteristics interact to affect [Hg] in Northern Pike (Esox lucius), a predatory fish of widespread subsistence and commercial importance. Results from linear regression and piecewise structural equation models showed that 83% of among-lake variability in Northern Pike [Hg] was explained by fish growth rates (negative) and concentrations of methyl Hg ([MeHg]) in benthic invertebrates (positive). These variables were in turn influenced by concentrations of dissolved organic carbon, MeHg (water), and total Hg (sediment) in lakes, which were ultimately driven by catchment characteristics. Lakes in relatively larger catchments and with more temperate/subpolar needleleaf and mixed forests had higher [Hg] in Northern Pike. Our results provide a plausible mechanistic understanding of how interacting processes at scales ranging from whole catchments to individual organisms influence fish [Hg], and give insight into factors that could be considered for prioritizing lakes for monitoring in subarctic regions.</abstract>
-    <identifier type="citekey">Moslemi-Aqdam-2022-Understanding</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2022.153430</identifier>
+    <abstract>Synthetic aperture radar (SAR) is a widely used tool for Earth observation activities. It is particularly effective during times of persistent cloud cover, low light conditions, or where in situ measurements are challenging. The intensity measured by a polarimetric SAR has proven effective for characterizing Arctic tundra landscapes due to the unique backscattering signatures associated with different cover types. However, recently, there has been increased interest in exploiting novel interferometric SAR (InSAR) techniques that rely on both the amplitude and absolute phase of a pair of acquisitions to produce coherence measurements, although the simultaneous use of both intensity and interferometric coherence in Arctic tundra image classification has not been widely tested. In this study, a time series of dual-polarimetric (VV, VH) Sentinel-1 SAR/InSAR data collected over one growing season, in addition to a digital elevation model (DEM), was used to characterize an Arctic tundra study site spanning a hydrologically dynamic coastal delta, open tundra, and high topographic relief from mountainous terrain. SAR intensity and coherence patterns based on repeat-pass interferometry were analyzed in terms of ecological structure (i.e., graminoid, or woody) and hydrology (i.e., wet, or dry) using machine learning methods. Six hydro-ecological cover types were delineated using time-series statistical descriptors (i.e., mean, standard deviation, etc.) as model inputs. Model evaluations indicated SAR intensity to have better predictive power than coherence, especially for wet landcover classes due to temporal decorrelation. However, accuracies improved when both intensity and coherence were used, highlighting the complementarity of these two measures. Combining time-series SAR/InSAR data with terrain derivatives resulted in the highest per-class F1 score values, ranging from 0.682 to 0.955. The developed methodology is independent of atmospheric conditions (i.e., cloud cover or sunlight) as it does not rely on optical information, and thus can be regularly updated over forthcoming seasons or annually to support ecosystem monitoring.</abstract>
+    <identifier type="citekey">Merchant-2022-Applying</identifier>
+    <identifier type="doi">10.3390/rs14051123</identifier>
     <location>
         <url>https://aclanthology.org/G22-48001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>822</number></detail>
-        <detail type="page"><number>153430</number></detail>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <detail type="page"><number>1123</number></detail>
     </part>
 </mods>
 </modsCollection>

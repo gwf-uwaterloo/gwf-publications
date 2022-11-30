@@ -1,20 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bevington-2022-Accelerated">
+<mods ID="Rasouli-2022-The">
     <titleInfo>
-        <title>Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery</title>
+        <title>The sensitivity of snow hydrology to changes in air temperature and precipitation in three North American headwater basins</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Alexandre</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Bevington</namePart>
+        <namePart type="given">Kabir</namePart>
+        <namePart type="family">Rasouli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Menounos</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,7 +34,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 270</title>
+            <title>Journal of Hydrology, Volume 606</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -35,16 +43,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The retreat of mountain glaciers affects mountain hazards and hydrology, and new methods are needed to rapidly map glacier retreat at planetary scales. We automatically map 14,329 glaciers (30,063 km 2 ) in British Columbia and Alberta, Canada, from 1984 to 2020 using satellite image archives from the Landsat 4, 5, 7 and 8 missions and reveal an acceleration in area loss that commenced in 2011. Glacier fragmentation, disappearance, and proglacial lake development also accelerated, as did the retreat of glaciers to higher elevations. Our annually-resolved method relies on the existence of previously published and manually validated glacier inventories from the mid-1980s and mid-2000’s. Our methods performed well for clean ice glaciers, had occasional errors when proglacial lakes were present, and consistently underestimated the area of debris-covered glaciers. Clean ice glacier area loss accelerated sevenfold between the early [1984–2010] and late [2011−2020] epochs. This acceleration yielded rates of area shrinkage of −49 \pm 7 km 2 a −1 [early] and − 340 \pm 40 km 2 a −1 [late] with accelerated losses (32-fold increase) for small glaciers on Vancouver Island over the last decade. Glacier fragmentation accelerated from 26 \pm 5.6 fragments a −1 to 88 \pm 39 fragments a −1 . About 1141 glaciers fell below our 0.05 km 2 detection limit and so disappeared from our database, representing a loss of 8%. Proglacial lake area growth accelerated from 9.2 \pm 1.1 km 2 a −1 to 49 \pm 4.5 km 2 a −1 . We also observed an acceleration in the upwards migration of median glacier elevations for clean ice glaciers from 0.31 \pm 0.08 m a −1 to 4.7 \pm 0.7 m a −1 . Our workflow demonstrates the advantages of annual resolution glacier inventories and contributes towards the implementation of planetary mapping of glaciers and glacier attributes at annual resolution. \bullet We produced annually-resolved [1984–2020], western Canadian glacier inventory. \bullet Glaciers retreat, fragmentation and disappearance accelerated over last decade. \bullet Our workflow could yield planetary-scale, annual glacier inventories.</abstract>
-    <identifier type="citekey">Bevington-2022-Accelerated</identifier>
-    <identifier type="doi">10.1016/j.rse.2021.112862</identifier>
+    <abstract>\bullet The precipitation increase can offset the impact of warming on mountain snow hydrology. \bullet The offsetting role of precipitation is effective at the high elevations and high latitudes. \bullet The projected precipitation elasticity of annual runoff increases as latitude decreases. \bullet The projected precipitation elasticity of peak snowpack increases as latitude increases. \bullet Elasticities indicated that runoff changes are primarily attributed to precipitation change. Whether or not the impact of warming on mountain snow and runoff can be offset by precipitation increases has not been well examined, but it is crucially important for future downstream water supply. Using the physically based Cold Regions Hydrological Modelling Platform (CRHM), elasticity (percent change in runoff divided by change in a climate forcing) and the sensitivity of snow regimes to perturbations were investigated in three well-instrumented mountain research basins spanning the northern North American Cordillera. Hourly meteorological observations were perturbed using air temperature and precipitation changes and were then used to force hydrological models for each basin. In all three basins, lower temperature sensitivities of annual runoff volume ( łeq 6% °C −1 ) and higher sensitivities of peak snowpack (−17% °C −1 ) showed that annual runoff was far less sensitive to temperature than the snow regime. Higher and lower precipitation elasticities of annual runoff (1.5 – 2.1) and peak snowpack (0.7 – 1.1) indicated that the runoff change is primarily attributed to precipitation change and, secondarily, to warming. A low discrepancy between observed and simulated precipitation elasticities showed that the model results are reliable, and one can conduct sensitivity analysis. The air temperature elasticities, however, must be interpreted with care as the projected warmings range beyond the observed temperatures and, hence, it is not possible to test their reliability. Simulations using multiple elevations showed that the timing of peak snowpack was most sensitive to temperature. For the range of warming expected from North American climate model simulations, the impacts of warming on annual runoff, but not on peak snowpack, can be offset by the size of precipitation increases projected for the near-future period 2041–2070. To offset the impact of 2 °C warming on annual runoff, precipitation would need to increase by less than 5% in all three basins. To offset the impact of 2 °C warming on peak snowpack, however, precipitation would need to increase by 12% in Wolf Creek in Yukon Territory, 18% in Marmot Creek in the Canadian Rockies, and an amount greater than the maximum projected at Reynolds Mountain in Idaho. The role of increased precipitation as a compensator for the impact of warming on snowpack is more effective at the highest elevations and higher latitudes. Increased precipitation leads to resilient and strongly coupled snow and runoff regimes, contrasting sharply with the sensitive and weakly coupled regimes at low elevations and in temperate climate zones.</abstract>
+    <identifier type="citekey">Rasouli-2022-The</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.127460</identifier>
     <location>
         <url>https://aclanthology.org/G22-92001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>270</number></detail>
-        <detail type="page"><number>112862</number></detail>
+        <detail type="volume"><number>606</number></detail>
+        <detail type="page"><number>127460</number></detail>
     </part>
 </mods>
 </modsCollection>

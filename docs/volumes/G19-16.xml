@@ -1,35 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ahasanuzzaman-2019-CAPS:">
+<mods ID="Ahmed-2019-Fire-retardant">
     <titleInfo>
-        <title>CAPS: a supervised technique for classifying Stack Overflow posts concerning API issues</title>
+        <title>Fire-retardant, self-extinguishing triboelectric nanogenerators</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Md</namePart>
-        <namePart type="family">Ahasanuzzaman</namePart>
+        <namePart type="given">Abdelsalam</namePart>
+        <namePart type="family">Ahmed</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Muhammad</namePart>
-        <namePart type="family">Asaduzzaman</namePart>
+        <namePart type="given">Maher</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">El-Kady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Islam</namePart>
+        <namePart type="family">Hassan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="given">Ayman</namePart>
+        <namePart type="family">Negm</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amir</namePart>
+        <namePart type="given">Masoud</namePart>
+        <namePart type="family">Pourrahimi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mit</namePart>
+        <namePart type="family">Muni</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ponnambalam</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Kaner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,27 +71,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Empirical Software Engineering, Volume 25, Issue 2</title>
+            <title>Nano Energy, Volume 59</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ahasanuzzaman-2019-CAPS:</identifier>
-    <identifier type="doi">10.1007/s10664-019-09743-4</identifier>
+    <identifier type="citekey">Ahmed-2019-Fire-retardant</identifier>
+    <identifier type="doi">10.1016/j.nanoen.2019.02.026</identifier>
     <location>
         <url>https://aclanthology.org/G19-16001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>25</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>59</number></detail>
         <extent unit="page">
-            <start>1493</start>
-            <end>1532</end>
+            <start>336</start>
+            <end>345</end>
         </extent>
     </part>
 </mods>

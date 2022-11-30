@@ -1,28 +1,73 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rasouli-2019-Hydrological">
+<mods ID="Robinne-2019-A">
     <titleInfo>
-        <title>Hydrological Responses of Headwater Basins to Monthly Perturbed Climate in the North American Cordillera</title>
+        <title>A Regional-Scale Index for Assessing the Exposure of Drinking-Water Sources to Wildfires</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kabir</namePart>
-        <namePart type="family">Rasouli</namePart>
+        <namePart type="given">François-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bladon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Uldis</namePart>
+        <namePart type="family">Silins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Monica</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Emelko</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Flannigan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marc-André</namePart>
+        <namePart type="family">Parisien</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xianli</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stefan</namePart>
         <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="family">Kienzle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Paul</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Whitfield</namePart>
+        <namePart type="given">Diane</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Dupont</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,28 +79,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 20, Issue 5</title>
+            <title>Forests, Volume 10, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rasouli-2019-Hydrological</identifier>
-    <identifier type="doi">10.1175/jhm-d-18-0166.1</identifier>
+    <identifier type="citekey">Robinne-2019-A</identifier>
+    <identifier type="doi">10.3390/f10050384</identifier>
     <location>
         <url>https://aclanthology.org/G19-147001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>20</number></detail>
+        <detail type="volume"><number>10</number></detail>
         <detail type="issue"><number>5</number></detail>
-        <extent unit="page">
-            <start>863</start>
-            <end>882</end>
-        </extent>
+        <detail type="page"><number>384</number></detail>
     </part>
 </mods>
 </modsCollection>

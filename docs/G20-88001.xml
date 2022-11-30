@@ -1,21 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Harrison-2020-Seeing">
+<mods ID="Hoekstra-2020-Lake">
     <titleInfo>
-        <title>Seeing beneath disputes: A transdisciplinary framework for diagnosing complex conservation conflicts</title>
+        <title>Lake Ice-Water Classification of RADARSAT-2 Images by Integrating IRGS Segmentation with Pixel-Based Random Forest Labeling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hannah</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Harrison</namePart>
+        <namePart type="given">Marie</namePart>
+        <namePart type="family">Hoekstra</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
+        <namePart type="given">Mingzhe</namePart>
+        <namePart type="family">Jiang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Loring</namePart>
+        <namePart type="family">Clausi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,25 +40,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Biological Conservation, Volume 248</title>
+            <title>Remote Sensing, Volume 12, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Conservation conflicts are pressing social and environmental sustainability issues, and the complex underlying causes and escalating factors of such conflicts can often be difficult to understand. Appropriate tools are needed for breaking down complex conservation conflicts into their varied, heterogenous parts so their nature and the complex relationships between them may be better understood and addressed using appropriate interventions. Importantly, these tools must transcend disciplinary silos so as to be applicable across social science disciplines as well as within and outside of the academic context. This article synthesizes a breadth of conservation conflict literature to lay out a transdisciplinary framework for diagnosing complex conservation conflicts composed of six key aspects: complexity, emergence, and stages; conflict status; basis of contention and cognitive framing; state of knowledge; state of values; and interventions. This framework is based in systems thinking and differs from other key conservation conflict frameworks by using conflict emergence as a starting point. To complement this approach, our diagnostic tool encourages users to harness thinking based in storytelling and consider how a conservation conflict represents a larger ongoing narrative with depth, meaning, and containing complex, interrelated storylines. As poorly understood stakeholder disputes can seriously undermine conservation efforts, this framework pushes forward practical understandings of conservation conflict interventions by offering a novel, transdisciplinary diagnostic tool for better understanding their complex, multifaceted variables.</abstract>
-    <identifier type="citekey">Harrison-2020-Seeing</identifier>
-    <identifier type="doi">10.1016/j.biocon.2020.108670</identifier>
+    <abstract>Changes to ice cover on lakes throughout the northern landscape has been established as an indicator of climate change and variability, expected to have implications for both human and environmental systems. Monitoring lake ice cover is also required to enable more reliable weather forecasting across lake-rich northern latitudes. Currently, the Canadian Ice Service (CIS) monitors lakes using synthetic aperture radar (SAR) and optical imagery through visual interpretation, with total lake ice cover reported weekly as a fraction out of ten. An automated method of classification would allow for more detailed records to be delivered operationally. In this research, we present an automatic ice-mapping approach which integrates unsupervised segmentation from the Iterative Region Growing using Semantics (IRGS) algorithm with supervised random forest (RF) labeling. IRGS first locally segments homogeneous regions in an image, then merges similar regions into classes across the entire scene. Recently, these output regions were manually labeled by the user to generate ice maps, or were labeled using a Support Vector Machine (SVM) classifier. Here, three labeling methods (Manual, SVM, and RF) are applied after IRGS segmentation to perform ice-water classification on 36 RADARSAT-2 scenes of Great Bear Lake (Canada). SVM and RF classifiers are also tested without integration with IRGS. An accuracy assessment has been performed on the results, comparing outcomes with author-generated reference data, as well as the reported ice fraction from CIS. The IRGS-RF average classification accuracy for this dataset is 95.8%, demonstrating the potential of this automated method to provide detailed and reliable lake ice cover information operationally.</abstract>
+    <identifier type="citekey">Hoekstra-2020-Lake</identifier>
+    <identifier type="doi">10.3390/rs12091425</identifier>
     <location>
         <url>https://aclanthology.org/G20-88001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>248</number></detail>
-        <detail type="page"><number>108670</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <detail type="page"><number>1425</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,21 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wallace-2019-Tall">
+<mods ID="Wang-2019-Synergistically">
     <titleInfo>
-        <title>Tall Shrubs Mediate Abiotic Conditions and Plant Communities at the Taiga–Tundra Ecotone</title>
+        <title>Synergistically Boosted Degradation of Organic Dyes by CeO\textlesssub\textgreater2\textless/sub\textgreater Nanoparticles with Fluoride at Low pH</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Cory</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Wallace</namePart>
+        <namePart type="given">Yawen</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Baltzer</namePart>
+        <namePart type="given">Tongtong</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,27 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecosystems, Volume 23, Issue 4</title>
+            <title>ACS Applied Nano Materials, Volume 3, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Wallace-2019-Tall</identifier>
-    <identifier type="doi">10.1007/s10021-019-00435-0</identifier>
+    <abstract>Catalysts that can work without the need of light and additional oxidants such as H2O2 to degrade organic pollutants have been long sought. In this work, we report that at acidic condition, CeO2 na...</abstract>
+    <identifier type="citekey">Wang-2019-Synergistically</identifier>
+    <identifier type="doi">10.1021/acsanm.9b02356</identifier>
     <location>
         <url>https://aclanthology.org/G19-174001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>3</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>828</start>
-            <end>841</end>
+            <start>842</start>
+            <end>849</end>
         </extent>
     </part>
 </mods>

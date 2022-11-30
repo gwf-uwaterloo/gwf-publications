@@ -1,28 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Barszcz-2018-Improving">
+<mods ID="BenAlaya-2018-Probable">
     <titleInfo>
-        <title>Improving the Explicit Prediction of Freezing Rain in a Kilometer-Scale Numerical Weather Prediction Model</title>
+        <title>Probable Maximum Precipitation: Its Estimation and Uncertainty Quantification Using Bivariate Extreme Value Analysis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Agnieszka</namePart>
-        <namePart type="family">Barszcz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Milbrandt</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Julie</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Thériault</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ben Alaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">F</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">X</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Forecasting, Volume 33, Issue 3</title>
+            <title>Journal of Hydrometeorology, Volume 19, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -43,18 +42,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Barszcz-2018-Improving</identifier>
-    <identifier type="doi">10.1175/waf-d-17-0136.1</identifier>
+    <identifier type="citekey">Ben Alaya-2018-Probable</identifier>
+    <identifier type="doi">10.1175/jhm-d-17-0110.1</identifier>
     <location>
         <url>https://aclanthology.org/G18-14001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>19</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>767</start>
-            <end>782</end>
+            <start>679</start>
+            <end>694</end>
         </extent>
     </part>
 </mods>

@@ -1,20 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Svajlenko-2021-The">
+<mods ID="Clark-2021-Energy">
     <titleInfo>
-        <title>The Mutation and Injection Framework: Evaluating Clone Detection Tools with Mutation Analysis</title>
+        <title>Energy and carbon fluxes from an oil sands pit lake</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jeffrey</namePart>
-        <namePart type="family">Svajlenko</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">Graham</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">Gordon</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Drewitt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sean</namePart>
         <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,29 +35,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>IEEE Transactions on Software Engineering, Volume 47, Issue 5</title>
+            <title>Science of The Total Environment, Volume 752</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>An abundant number of clone detection tools have been proposed in the literature due to the many applications and benefits of clone detection. However, there has been difficulty in the performance evaluation and comparison of these clone detectors. This is due to a lack of reliable benchmarks, and the manual efforts required to validate a large number of candidate clones. In particular, there has been a lack of a synthetic benchmark that can precisely and comprehensively measure clone-detection recall. In this paper, we present a mutation-analysis based benchmarking framework that can be used not only to evaluate the recall of clone detection tools for different types of clones but also for specific kinds of clone edits and without any manual efforts. The framework uses an editing taxonomy of clone synthesis for generating thousands of artificial clones, injects into code bases and automatically evaluates the subject clone detection tools following the mutation analysis approach. Additionally, the framework has features where custom clone pairs could also be used in the framework for evaluating the subject tools. This gives the opportunity of evaluating specialized tools for specialized contexts such as evaluating a tool’s capability for the detection of complex Type-4 clones or real world clones without writing complex mutation operators for them. We demonstrate this framework by evaluating the performance of ten modern clone detection tools across two clone granularities (function and block) and three programming languages (Java, C and C#). Furthermore, we provide a variant of the framework that can be used to evaluate specialized tools such as for large gaped clone detection. Our experiments demonstrate confidence in the accuracy of our Mutation and Injection Framework when comparing against the expected results of the corresponding tools, and widely used real-world benchmarks such as Bellon’s benchmark and BigCloneBench. We provide features so that most clone detection tools that report clones in the form of clone pairs (either in filename/line numbers or filename/tokens) could be evaluated using the framework.</abstract>
-    <identifier type="citekey">Svajlenko-2021-The</identifier>
-    <identifier type="doi">10.1109/tse.2019.2912962</identifier>
+    <abstract>Currently, post-mining landscape plans in the Athabasca Oil Sand Region include large watersheds terminating in pit lakes. In 2012, Base Mine Lake (BML), was constructed with the aim of demonstrating technologies associated with lake reclamation in the region. This paper examines the first 6.5 years of lake-atmosphere energy and carbon exchange. Energetically, BML behaved similar to other northern lakes, storing large quantities of heat in the spring and releasing it in the fall as sensible and latent heat fluxes. At various times a hydrocarbon sheen formed on the lake, which may have suppressed evaporation. However, simple linear relationships failed to statistically quantify the impacts and more comprehensive modelling of the variability may be required. At daily scales, variability in evaporation was well explained by the product of vapour pressure deficit and wind speed as well as the available energy (R2 = 0.74), while sensible heat was explained by the product of wind speed and the difference in air and surface temperature as well as available energy (R2 = 0.85). Spring CH4 fluxes were high, particularly around ice melt, with a maximum flux of 3.3 g m-2 day-1. Otherwise fluxes were low, except during irregular periods. The peak flux of these periods occurred following ~58 h of continuously falling pressure, relating cyclone activity to these large periods of methane emissions. Annually, CO2 and CH4 fluxes were initially high, with median fluxes of 231 mg CO2 m-2 h-1 and 23 mg CH4 m-2 h-1 in 2014. However, the median fluxes reduced quickly and over the least three years of the study (2017 through 2019) the median fluxes declined to 36 mg CO2 m-2 h-1 and 10 mg CH4 m-2 h-1. Overall, BML behaves similar to other boreal lake ecosystems with above average carbon fluxes compared to other constructed reservoirs.</abstract>
+    <identifier type="citekey">Clark-2021-Energy</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2020.141966</identifier>
     <location>
         <url>https://aclanthology.org/G21-183001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>47</number></detail>
-        <detail type="issue"><number>5</number></detail>
-        <extent unit="page">
-            <start>1060</start>
-            <end>1087</end>
-        </extent>
+        <detail type="volume"><number>752</number></detail>
+        <detail type="page"><number>141966</number></detail>
     </part>
 </mods>
 </modsCollection>

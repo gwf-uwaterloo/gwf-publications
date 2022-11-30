@@ -1,42 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Shafii-2017-A">
+<mods ID="Sheikholeslami-2017-Progressive">
     <titleInfo>
-        <title>A diagnostic approach to constraining flow partitioning in hydrologic models using a multiobjective optimization framework</title>
+        <title>Progressive Latin Hypercube Sampling: An efficient approach for robust sampling-based analysis of environmental models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahyar</namePart>
-        <namePart type="family">Shafii</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nandita</namePart>
-        <namePart type="family">Basu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Craig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,27 +25,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 53, Issue 4</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 93</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Shafii-2017-A</identifier>
-    <identifier type="doi">10.1002/2016wr019736</identifier>
+    <identifier type="citekey">Sheikholeslami-2017-Progressive</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2017.03.010</identifier>
     <location>
         <url>https://aclanthology.org/G17-32001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>53</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>93</number></detail>
         <extent unit="page">
-            <start>3279</start>
-            <end>3301</end>
+            <start>109</start>
+            <end>126</end>
         </extent>
     </part>
 </mods>

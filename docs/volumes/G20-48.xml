@@ -1,21 +1,53 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Balliston-2020-Heterogeneity">
+<mods ID="Beel-2020-Differential">
     <titleInfo>
-        <title>Heterogeneity of the peat profile and its role in unsaturated sodium chloride rise at field and laboratory scales</title>
+        <title>Differential impact of thermal and physical permafrost disturbances on High Arctic dissolved and particulate fluvial fluxes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nicole</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Balliston</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Beel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jonathan</namePart>
         <namePart type="given">S</namePart>
-        <namePart type="family">Price</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Lamoureux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Orwin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Pope</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Lafrenière</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Scott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,23 +59,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Vadose Zone Journal, Volume 19, Issue 1</title>
+            <title>Scientific Reports, Volume 10, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Balliston-2020-Heterogeneity</identifier>
-    <identifier type="doi">10.1002/vzj2.20015</identifier>
+    <identifier type="citekey">Beel-2020-Differential</identifier>
+    <identifier type="doi">10.1038/s41598-020-68824-3</identifier>
     <location>
         <url>https://aclanthology.org/G20-48001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>19</number></detail>
+        <detail type="volume"><number>10</number></detail>
         <detail type="issue"><number>1</number></detail>
     </part>
 </mods>

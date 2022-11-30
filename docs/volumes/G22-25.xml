@@ -1,33 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Akomeah-2022-Evidence-based">
+<mods ID="Kang-2022-Controls">
     <titleInfo>
-        <title>Evidence-based identification of integrated water quality systems</title>
+        <title>Controls of lithium isotope spatial variability across the Yukon River: Implications for weathering processes in a warming subarctic basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="family">Akomeah</namePart>
+        <namePart type="given">Myunghak</namePart>
+        <namePart type="family">Kang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Elliott</namePart>
+        <namePart type="family">Skierszkan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Luis</namePart>
-        <namePart type="family">Morales-Marin</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="family">Brennan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Elmira</namePart>
-        <namePart type="family">Hassanzadeh</namePart>
+        <namePart type="given">Diego</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Fernandez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhaoping</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Isabelle</namePart>
+        <namePart type="family">Girard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="family">Gammon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ghislain</namePart>
+        <namePart type="family">de Laplante</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Clément</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Bataille</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,25 +76,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Environmental Planning and Management</title>
+            <title>Geochimica et Cosmochimica Acta, Volume 323</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Akomeah-2022-Evidence-based</identifier>
-    <identifier type="doi">10.1080/09640568.2022.2028609</identifier>
+    <identifier type="citekey">Kang-2022-Controls</identifier>
+    <identifier type="doi">10.1016/j.gca.2022.02.016</identifier>
     <location>
         <url>https://aclanthology.org/G22-25001</url>
     </location>
     <part>
         <date>2022</date>
+        <detail type="volume"><number>323</number></detail>
         <extent unit="page">
             <start>1</start>
-            <end>22</end>
+            <end>19</end>
         </extent>
     </part>
 </mods>

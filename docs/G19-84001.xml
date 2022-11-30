@@ -1,60 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kettridge-2019-Severe">
+<mods ID="Krogh-2019-Impact">
     <titleInfo>
-        <title>Severe wildfire exposes remnant peat carbon stocks to increased post-fire drying</title>
+        <title>Impact of Future Climate and Vegetation on the Hydrology of an Arctic Headwater Basin at the Tundra–Taiga Transition</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">N</namePart>
-        <namePart type="family">Kettridge</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Lukenbach</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Hokanson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Devito</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">C</namePart>
+        <namePart type="given">Sebastian</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Mendoza</namePart>
+        <namePart type="family">Krogh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Waddington</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -66,25 +27,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Scientific Reports, Volume 9, Issue 1</title>
+            <title>Journal of Hydrometeorology, Volume 20, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The potential of high severity wildfires to increase global terrestrial carbon emissions and exacerbate future climatic warming is of international concern. Nowhere is this more prevalent than within high latitude regions where peatlands have, over millennia, accumulated legacy carbon stocks comparable to all human CO2 emissions since the beginning of the industrial revolution. Drying increases rates of peat decomposition and associated atmospheric and aquatic carbon emissions. The degree to which severe wildfires enhance drying under future climates and induce instability in peatland ecological communities and carbon stocks is unknown. Here we show that high burn severities increased post-fire evapotranspiration by 410% within a feather moss peatland by burning through the protective capping layer that restricts evaporative drying in response to low severity burns. High burn severities projected under future climates will therefore leave peatlands that dominate dry sub-humid regions across the boreal, on the edge of their climatic envelopes, more vulnerable to intense post-fire drying, inducing high rates of carbon loss to the atmosphere that amplify the direct combustion emissions.</abstract>
-    <identifier type="citekey">Kettridge-2019-Severe</identifier>
-    <identifier type="doi">10.1038/s41598-019-40033-7</identifier>
+    <abstract>Abstract The rapidly warming Arctic is experiencing permafrost degradation and shrub expansion. Future climate projections show a clear increase in mean annual temperature and increasing precipitation in the Arctic; however, the impact of these changes on hydrological cycling in Arctic headwater basins is poorly understood. This study investigates the impact of climate change, as represented by simulations using a high-resolution atmospheric model under a pseudo-global-warming configuration, and projected changes in vegetation, using a spatially distributed and physically based Arctic hydrological model, on a small headwater basin at the tundra–taiga transition in northwestern Canada. Climate projections under the RCP8.5 emission scenario show a 6.1°C warming, a 38% increase in annual precipitation, and a 19 W m−2 increase in all-wave annual irradiance over the twenty-first century. Hydrological modeling results suggest a shift in hydrological processes with maximum peak snow accumulation increasing by 70%, snow-cover duration shortening by 26 days, active layer deepening by 0.25 m, evapotranspiration increasing by 18%, and sublimation decreasing by 9%. This results in an intensification of the hydrological regime by doubling discharge volume, a 130% increase in spring runoff, and earlier and larger peak streamflow. Most hydrological changes were found to be driven by climate change; however, increasing vegetation cover and density reduced blowing snow redistribution and sublimation, and increased evaporation from intercepted rainfall. This study provides the first detailed investigation of projected changes in climate and vegetation on the hydrology of an Arctic headwater basin, and so it is expected to help inform larger-scale climate impact studies in the Arctic.</abstract>
+    <identifier type="citekey">Krogh-2019-Impact</identifier>
+    <identifier type="doi">10.1175/jhm-d-18-0187.1</identifier>
     <location>
         <url>https://aclanthology.org/G19-84001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>9</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>197</start>
+            <end>215</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

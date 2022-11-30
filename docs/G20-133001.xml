@@ -1,33 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Schiwy-2020-New">
+<mods ID="Sharma-2020-Contribution">
     <titleInfo>
-        <title>New Insights into the Toxicokinetics of 3,4-Dichloroaniline in Early Life Stages of Zebrafish (Danio rerio)</title>
+        <title>Contribution of Atmospheric Rivers to Annual, Seasonal, and Extreme Precipitation Across British Columbia and Southeastern Alaska</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sabrina</namePart>
-        <namePart type="family">Schiwy</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Sharma</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ann-Kathrin</namePart>
-        <namePart type="family">Herber</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Henner</namePart>
-        <namePart type="family">Hollert</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Markus</namePart>
-        <namePart type="family">Brinkmann</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,26 +27,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Toxics, Volume 8, Issue 1</title>
+            <title>Journal of Geophysical Research: Atmospheres, Volume 125, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>In the fish embryo toxicity (FET) test with zebrafish (Danio rerio) embryos, 3,4-dichloroaniline (3,4-DCA) is often employed as a positive control substance. Previous studies have characterized bioconcentration and transformation of 3,4-DCA in this test under flow-through conditions. However, the dynamic changes of chemical concentrations in exposure media and embryos were not studied systematically under the commonly used semi-static exposure conditions in multiwell plates. To overcome these limitations, we conducted semi-static exposures experiments where embryolarval zebrafish were exposed to 0.5, 2.0, and 4.0 mg L−1 of 3,4-DCA for up to 120 hpf, with 24-h renewal intervals. During each renewal interval, concentrations of 3,4-DCA were quantified in water samples at 0, 6, 18, and 24 h using high-performance liquid chromatography with diode array detection. Levels of 3,4-DCA in larvae were measured after 120 h exposure. Concentrations of 3,4-DCA in the test vessels decreased rapidly during exposure. Taking these dynamics into account, bioconcentration factors in the present study ranged from 12.9 to 29.8 L kg−1, depending on exposure concentration. In summary, this study contributed to our knowledge of chemical dynamics in the FET test with embryolarval zebrafish, which will aid in defining suitable exposure conditions for future studies.</abstract>
-    <identifier type="citekey">Schiwy-2020-New</identifier>
-    <identifier type="doi">10.3390/toxics8010016</identifier>
+    <identifier type="citekey">Sharma-2020-Contribution</identifier>
+    <identifier type="doi">10.1029/2019jd031823</identifier>
     <location>
         <url>https://aclanthology.org/G20-133001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <detail type="page"><number>16</number></detail>
+        <detail type="volume"><number>125</number></detail>
+        <detail type="issue"><number>9</number></detail>
     </part>
 </mods>
 </modsCollection>

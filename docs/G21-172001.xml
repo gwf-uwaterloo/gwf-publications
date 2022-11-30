@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Pelto-2021-Surface">
+<mods ID="Leipe-2021-Rapid">
     <titleInfo>
-        <title>Surface Mass-Balance Gradients From Elevation and Ice Flux Data in the Columbia Basin, Canada</title>
+        <title>Rapid shrub expansion in a subarctic mountain basin revealed by repeat airborne LiDAR</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ben</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Pelto</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Leipe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Menounos</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,24 +27,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Earth Science, Volume 9</title>
+            <title>Environmental Research Communications, Volume 3, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>IOP Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The mass-balance—elevation relation for a given glacier is required for many numerical models of ice flow. Direct measurements of this relation using remotely-sensed methods are complicated by ice dynamics, so observations are currently limited to glaciers where surface mass-balance measurements are routinely made. We test the viability of using the continuity equation to estimate annual surface mass balance between flux-gates in the absence of in situ measurements, on five glaciers in the Columbia Mountains of British Columbia, Canada. Repeat airborne laser scanning surveys of glacier surface elevation, ice penetrating radar surveys and publicly available maps of ice thickness are used to estimate changes in surface elevation and ice flux. We evaluate this approach by comparing modeled to observed mass balance. Modeled mass-balance gradients well-approximate those obtained from direct measurement of surface mass balance, with a mean difference of +6.6 \textlessmml:math xmlns:mml=“http://www.w3.org/1998/Math/MathML” id=“m1”\textgreater\textlessmml:mo\textgreater\pm\textless/mml:mo\textgreater\textless/mml:math\textgreater 4%. Regressing modeled mass balance, equilibrium line altitudes are on average 15 m higher than satellite-observations of the transient snow line. Estimates of mass balance over flux bins compare less favorably than the gradients. Average mean error (+0.03 \textlessmml:math xmlns:mml=“http://www.w3.org/1998/Math/MathML” id=“m2”\textgreater\textlessmml:mo\textgreater\pm\textless/mml:mo\textgreater\textless/mml:math\textgreater 0.07 m w.e.) between observed and modeled mass balance over flux bins is relatively small, yet mean absolute error (0.55 \textlessmml:math xmlns:mml=“http://www.w3.org/1998/Math/MathML” id=“m3”\textgreater\textlessmml:mo\textgreater\pm\textless/mml:mo\textgreater\textless/mml:math\textgreater 0.18 m w.e.) and average modeled mass-balance uncertainty (0.57 m w.e.) are large. Mass conservation, assessed with glaciological data, is respected (when estimates are within 1σ uncertainties) for 84% of flux bins representing 86% of total glacier area. Uncertainty on ice velocity, especially for areas where surface velocity is low (&amp;amp;lt;10 m a −1 ) contributes the greatest error in estimating ice flux. We find that using modeled ice thicknesses yields comparable modeled mass-balance gradients relative to using observations of ice thickness, but we caution against over-interpreting individual flux-bin mass balances due to large mass-balance residuals. Given the performance of modeled ice thickness and the increasing availability of ice velocity and surface topography data, we suggest that similar efforts to produce mass-balance gradients using modern high-resolution datasets are feasible on larger scales.</abstract>
-    <identifier type="citekey">Pelto-2021-Surface</identifier>
-    <identifier type="doi">10.3389/feart.2021.675681</identifier>
+    <abstract>Abstract As a consequence of increasing temperatures, a rapid increase in shrub vegetation has occurred throughout the circumpolar North and is expected to continue. Rates of shrub expansion are highly variable, both at the regional scale and within local study areas. This study uses repeat airborne LiDAR and field surveys to measure changes in shrub vegetation cover along with landscape-scale variations in a well-studied subarctic headwater catchment in Yukon Territory, Canada. Airborne LiDAR surveys were conducted in August 2007 and 2018, whereas vegetation surveys were conducted in summer 2019. Machine learning classification algorithms were used to predict shrub presence/absence in 2018 based on rasterized LiDAR metrics, with the best-performing model applied to the 2007 LiDAR to create binary shrub cover layers to compare between survey years. Results show a 63.3% total increase in detectable shrub cover &amp;gt;= 0.45 m in height between 2007 and 2018, with an average yearly expansion of 5.8%. These changes were compared across terrain derivatives to quantify the influence of topography on shrub expansion. Terrain comparisons show that shrubs are located in and are preferentially expanding into lower and flatter areas near stream networks, at lower slope positions and with a higher potential for topographic wetness. Overall, the findings from this research reinforce the documented increase in pan-Arctic shrub vegetation in recent years, quantify the variation in shrub expansion over terrain derivatives at the landscape scale, and demonstrate the feasibility of using LiDAR to compare changes in shrub properties over time.</abstract>
+    <identifier type="citekey">Leipe-2021-Rapid</identifier>
+    <identifier type="doi">10.1088/2515-7620/ac0e0c</identifier>
     <location>
         <url>https://aclanthology.org/G21-172001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>9</number></detail>
+        <detail type="volume"><number>3</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <detail type="page"><number>071001</number></detail>
     </part>
 </mods>
 </modsCollection>

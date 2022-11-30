@@ -1,21 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Leipe-2021-Rapid">
+<mods ID="Conway-2021-Icefield">
     <titleInfo>
-        <title>Rapid shrub expansion in a subarctic mountain basin revealed by repeat airborne LiDAR</title>
+        <title>Icefield Breezes: Mesoscale Diurnal Circulation in the Atmospheric Boundary Layer Over an Outlet of the Columbia Icefield, Canadian Rockies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Leipe</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Conway</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Sicart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,25 +43,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Research Communications, Volume 3, Issue 7</title>
+            <title>Journal of Geophysical Research: Atmospheres, Volume 126, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IOP Publishing</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Leipe-2021-Rapid</identifier>
-    <identifier type="doi">10.1088/2515-7620/ac0e0c</identifier>
+    <identifier type="citekey">Conway-2021-Icefield</identifier>
+    <identifier type="doi">10.1029/2020jd034225</identifier>
     <location>
         <url>https://aclanthology.org/G21-169001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>3</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <detail type="page"><number>071001</number></detail>
+        <detail type="volume"><number>126</number></detail>
+        <detail type="issue"><number>6</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,19 +1,18 @@
 ﻿%0 Journal Article
-%T Differential impact of thermal and physical permafrost disturbances on High Arctic dissolved and particulate fluvial fluxes
-%A Beel, C. R.
-%A Lamoureux, S. F.
-%A Orwin, J. F.
-%A Pope, M. A.
-%A Lafrenière, M. J.
-%A Scott, N. A.
-%J Scientific Reports, Volume 10, Issue 1
+%T An Exploratory Study to Find Motives Behind Cross-platform Forks from Software Heritage Dataset
+%A Bhattacharjee, Avijit
+%A Nath, Sristy Sumana
+%A Zhou, Shurui
+%A Chakroborti, Debasish
+%A Roy, Banani
+%A Roy, Chanchal K.
+%A Schneider, Kevin
+%J Proceedings of the 17th International Conference on Mining Software Repositories
 %D 2020
-%V 10
-%N 1
-%I Springer Science and Business Media LLC
-%F Beel-2020-Differential
-%X Abstract Climate warming and changing precipitation patterns have thermally (active layer deepening) and physically (permafrost-thaw related mass movements) disturbed permafrost-underlain watersheds across much of the Arctic, increasing the transfer of dissolved and particulate material from terrestrial to aquatic ecosystems. We examined the multiyear (2006–2017) impact of thermal and physical permafrost disturbances on all of the major components of fluvial flux. Thermal disturbances increased the flux of dissolved organic carbon (DOC), but localized physical disturbances decreased multiyear DOC flux. Physical disturbances increased major ion and suspended sediment flux, which remained elevated a decade after disturbance, and changed carbon export from a DOC to a particulate organic carbon (POC) dominated system. As the magnitude and frequency of physical permafrost disturbance intensifies in response to Arctic climate change, disturbances will become an increasingly important mechanism to deliver POC from terrestrial to aquatic ecosystems. Although nival runoff remained the primary hydrological driver, the importance of pluvial runoff as driver of fluvial flux increased following both thermal and physical permafrost disturbance. We conclude the transition from a nival-dominated fluvial regime to a regime where rainfall runoff is proportionately more important will be a likely tipping point to accelerated High Arctic change.
-%R 10.1038/s41598-020-68824-3
+%I ACM
+%F Bhattacharjee-2020-An
+%X The fork-based development mechanism provides the flexibility and the unified processes for software teams to collaborate easily in a distributed setting without too much coordination overhead.Currently, multiple social coding platforms support fork-based development, such as GitHub, GitLab, and Bitbucket. Although these different platforms virtually share the same features, they have different emphasis. As GitHub is the most popular platform and the corresponding data is publicly available, most of the current studies are focusing on GitHub hosted projects. However, we observed anecdote evidences that people are confused about choosing among these platforms, and some projects are migrating from one platform to another, and the reasons behind these activities remain unknown.With the advances of Software Heritage Graph Dataset (SWHGD),we have the opportunity to investigate the forking activities across platforms. In this paper, we conduct an exploratory study on 10popular open-source projects to identify cross-platform forks and investigate the motivation behind. Preliminary result shows that cross-platform forks do exist. For the 10 subject systems in this study, we found 81,357 forks in total among which 179 forks are on GitLab. Based on our qualitative analysis, we found that most of the cross-platform forks that we identified are mirrors of the repositories on another platform, but we still find cases that were created due to preference of using certain functionalities (e.g. Continuous Integration (CI)) supported by different platforms. This study lays the foundation of future research directions, such as understanding the differences between platforms and supporting cross-platform collaboration.
+%R 10.1145/3379597.3387512
 %U https://aclanthology.org/G20-51001
-%U https://doi.org/10.1038/s41598-020-68824-3
+%U https://doi.org/10.1145/3379597.3387512
 

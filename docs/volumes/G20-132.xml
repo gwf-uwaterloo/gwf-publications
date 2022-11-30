@@ -1,96 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Roy-2020-L-Band">
+<mods ID="Scott-2020-Retrieval">
     <titleInfo>
-        <title>L-Band response to freeze/thaw in a boreal forest stand from ground- and tower-based radiometer observations</title>
+        <title>Retrieval of ice/water observations from synthetic aperture radar imagery for use in lake ice data assimilation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Alexandre</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Toose</namePart>
+        <namePart type="given">Linlin</namePart>
+        <namePart type="family">Xu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Alex</namePart>
-        <namePart type="family">Mavrovic</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Christoforos</namePart>
-        <namePart type="family">Pappas</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alain</namePart>
-        <namePart type="family">Royer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Derksen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Berg</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Tracy</namePart>
-        <namePart type="family">Rowlandson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mariam</namePart>
-        <namePart type="family">El-Amine</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alan</namePart>
-        <namePart type="family">Barr</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Black</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alexandre</namePart>
-        <namePart type="family">Langlois</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
+        <namePart type="given">Homa</namePart>
+        <namePart type="given">Kheyrollah</namePart>
+        <namePart type="family">Pour</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -102,7 +34,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 237</title>
+            <title>Journal of Great Lakes Research, Volume 46, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -111,15 +43,19 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Roy-2020-L-Band</identifier>
-    <identifier type="doi">10.1016/j.rse.2019.111542</identifier>
+    <identifier type="citekey">Scott-2020-Retrieval</identifier>
+    <identifier type="doi">10.1016/j.jglr.2020.08.018</identifier>
     <location>
         <url>https://aclanthology.org/G20-132001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>237</number></detail>
-        <detail type="page"><number>111542</number></detail>
+        <detail type="volume"><number>46</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>1521</start>
+            <end>1532</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

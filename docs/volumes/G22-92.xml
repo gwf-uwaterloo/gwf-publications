@@ -1,20 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bevington-2022-Accelerated">
+<mods ID="Rasouli-2022-The">
     <titleInfo>
-        <title>Accelerated change in the glaciated environments of western Canada revealed through trend analysis of optical satellite imagery</title>
+        <title>The sensitivity of snow hydrology to changes in air temperature and precipitation in three North American headwater basins</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Alexandre</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Bevington</namePart>
+        <namePart type="given">Kabir</namePart>
+        <namePart type="family">Rasouli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Menounos</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,7 +34,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 270</title>
+            <title>Journal of Hydrology, Volume 606</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -35,15 +43,15 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bevington-2022-Accelerated</identifier>
-    <identifier type="doi">10.1016/j.rse.2021.112862</identifier>
+    <identifier type="citekey">Rasouli-2022-The</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.127460</identifier>
     <location>
         <url>https://aclanthology.org/G22-92001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>270</number></detail>
-        <detail type="page"><number>112862</number></detail>
+        <detail type="volume"><number>606</number></detail>
+        <detail type="page"><number>127460</number></detail>
     </part>
 </mods>
 </modsCollection>

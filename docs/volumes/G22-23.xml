@@ -1,36 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Grace-2022-Numerical">
+<mods ID="Chegoonian-2022-Improvement">
     <titleInfo>
-        <title>Numerical simulations of the three-dimensionalization of a shear flow in radiatively forced cold water below the density maximum</title>
+        <title>Improvement of field fluorometry estimates of chlorophyll \textlessi\textgreatera\textless/i\textgreater concentration in a cyanobacteria‐rich eutrophic lake</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Grace</namePart>
+        <namePart type="given">Amir</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Chegoonian</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marek</namePart>
-        <namePart type="family">Stastna</namePart>
+        <namePart type="given">Kiana</namePart>
+        <namePart type="family">Zolfaghari</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Lamb</namePart>
+        <namePart type="given">Peter</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leavitt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">Andrea</namePart>
-        <namePart type="family">Scott</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,24 +50,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Physical Review Fluids, Volume 7, Issue 2</title>
+            <title>Limnology and Oceanography: Methods, Volume 20, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Physical Society (APS)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Grace-2022-Numerical</identifier>
-    <identifier type="doi">10.1103/physrevfluids.7.023501</identifier>
+    <identifier type="citekey">Chegoonian-2022-Improvement</identifier>
+    <identifier type="doi">10.1002/lom3.10480</identifier>
     <location>
         <url>https://aclanthology.org/G22-23001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>7</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>193</start>
+            <end>209</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,42 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Fang-2019-Hydrometeorological">
+<mods ID="Foroutan-2019-Automatic">
     <titleInfo>
-        <title>Hydrometeorological data from Marmot Creek Research Basin, Canadian Rockies</title>
+        <title>Automatic mapping and geomorphometry extraction technique for crevasses in geodetic mass-balance calculations at Haig Glacier, Canadian Rockies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Xing</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Marzieh</namePart>
+        <namePart type="family">Foroutan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Shawn</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Marshall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">DeBeer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Phillip</namePart>
-        <namePart type="family">Harder</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Evan</namePart>
-        <namePart type="family">Siemens</namePart>
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Menounos</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,27 +33,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 11, Issue 2</title>
+            <title>Journal of Glaciology, Volume 65, Issue 254</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Cambridge University Press (CUP)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Fang-2019-Hydrometeorological</identifier>
-    <identifier type="doi">10.5194/essd-11-455-2019</identifier>
+    <identifier type="citekey">Foroutan-2019-Automatic</identifier>
+    <identifier type="doi">10.1017/jog.2019.71</identifier>
     <location>
         <url>https://aclanthology.org/G19-58001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>65</number></detail>
+        <detail type="issue"><number>254</number></detail>
         <extent unit="page">
-            <start>455</start>
-            <end>471</end>
+            <start>971</start>
+            <end>982</end>
         </extent>
     </part>
 </mods>

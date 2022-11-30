@@ -1,33 +1,78 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sheikholeslami-2017-Improved">
+<mods ID="Sillmann-2017-Understanding">
     <titleInfo>
-        <title>Improved Understanding of River Ice Processes Using Global Sensitivity Analysis Approaches</title>
+        <title>Understanding, modeling and predicting weather and climate extremes: Challenges and opportunities</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Jana</namePart>
+        <namePart type="family">Sillmann</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fuad</namePart>
-        <namePart type="family">Yassin</namePart>
+        <namePart type="given">Thordis</namePart>
+        <namePart type="family">Thorarinsdottir</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Noel</namePart>
+        <namePart type="family">Keenlyside</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">Nathalie</namePart>
+        <namePart type="family">Schaller</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lisa</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Alexander</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gabriele</namePart>
+        <namePart type="family">Hegerl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sonia</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Seneviratne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Robert</namePart>
+        <namePart type="family">Vautard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,25 +84,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrologic Engineering, Volume 22, Issue 11</title>
+            <title>Weather and Climate Extremes, Volume 18</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Society of Civil Engineers (ASCE)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>AbstractThe high impact of river ice phenomena on the hydrology of cold regions has led to the extensive use of numerical models in simulating and predicting river ice processes. Consequently, ther...</abstract>
-    <identifier type="citekey">Sheikholeslami-2017-Improved</identifier>
-    <identifier type="doi">10.1061/(asce)he.1943-5584.0001574</identifier>
+    <abstract>Weather and climate extremes are identified as major areas necessitating further progress in climate research and have thus been selected as one of the World Climate Research Programme (WCRP) Grand Challenges. Here, we provide an overview of current challenges and opportunities for scientific progress and cross-community collaboration on the topic of understanding, modeling and predicting extreme events based on an expert workshop organized as part of the implementation of the WCRP Grand Challenge on Weather and Climate Extremes. In general, the development of an extreme event depends on a favorable initial state, the presence of large-scale drivers, and positive local feedbacks, as well as stochastic processes. We, therefore, elaborate on the scientific challenges related to large-scale drivers and local-to-regional feedback processes leading to extreme events. A better understanding of the drivers and processes will improve the prediction of extremes and will support process-based evaluation of the representation of weather and climate extremes in climate model simulations. Further, we discuss how to address these challenges by focusing on short-duration (less than three days) and long-duration (weeks to months) extreme events, their underlying mechanisms and approaches for their evaluation and prediction.</abstract>
+    <identifier type="citekey">Sillmann-2017-Understanding</identifier>
+    <identifier type="doi">10.1016/j.wace.2017.10.003</identifier>
     <location>
         <url>https://aclanthology.org/G17-34001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>22</number></detail>
-        <detail type="issue"><number>11</number></detail>
+        <detail type="volume"><number>18</number></detail>
+        <extent unit="page">
+            <start>65</start>
+            <end>74</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

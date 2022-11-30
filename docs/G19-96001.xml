@@ -1,19 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lindenschmidt-2019-Radar">
+<mods ID="Lindenschmidt-2019-CE-QUAL-W2">
     <titleInfo>
-        <title>Radar Scatter Decomposition to Differentiate between Running Ice Accumulations and Intact Ice Covers along Rivers</title>
+        <title>CE-QUAL-W2 model of dam outflow elevation impact on temperature, dissolved oxygen and nutrients in a reservoir</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Karl–Erich</namePart>
+        <namePart type="given">Karl-Erich</namePart>
         <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zhaoqin</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Meghan</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amir</namePart>
+        <namePart type="family">Sadeghian</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Luis</namePart>
+        <namePart type="family">Morales-Marin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,26 +40,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 11, Issue 3</title>
+            <title>Scientific Data, Volume 6, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>For ice-jam flood forecasting it is important to differentiate between intact ice covers and ice runs. Ice runs consist of long accumulations of rubble ice that stem from broken up ice covers or ice-jams that have released. A water wave generally travels ahead of the ice run at a faster celerity, arriving at the potentially high flood–risk area much sooner than the ice accumulation. Hence, a rapid detection of the ice run is necessary to lengthen response times for flood mitigation. Intact ice covers are stationary and hence are not an immediate threat to a downstream flood situation, allowing more time for flood preparedness. However, once ice accumulations are moving and potentially pose imminent impacts to flooding, flood response may have to switch from a mitigation to an evacuation mode of the flood management plan. Ice runs are generally observed, often by chance, through ground observations or airborne surveys. In this technical note, we introduce a novel method of differentiating ice runs from intact ice covers using imagery acquired from space-borne radar backscatter signals. The signals are decomposed into different scatter components—surface scattering, volume scattering and double-bounce—the ratios of one to another allow differentiation between intact and running ice. The method is demonstrated for the breakup season of spring 2018 along the Athabasca River, when an ice run shoved into an intact ice cover which led to some flooding in Fort McMurray, Alberta, Canada.</abstract>
-    <identifier type="citekey">Lindenschmidt-2019-Radar</identifier>
-    <identifier type="doi">10.3390/rs11030307</identifier>
+    <abstract>Abstract Dams are typically designed to serve as flood protection, provide water for irrigation, human and animal consumption, and harness hydropower. Despite these benefits, dam operations can have adverse effects on in-reservoir and downstream water temperature regimes, biogeochemical cycling and aquatic ecosystems. We present a water quality dataset of water withdrawal scenarios generated after implementing the 2D hydrodynamic and water quality model, CE-QUAL-W2. The scenarios explore how six water extraction scenarios, starting at 5 m above the reservoir bottom at the dam and increasing upward at 10 m intervals to 55 m, influence water quality in Lake Diefenbaker reservoir, Saskatchewan, Canada. The model simulates daily water temperature, dissolved oxygen, total phosphorus, phosphate as phosphorus, labile phosphorus, total nitrogen, nitrate as nitrogen, labile nitrogen, and ammonium at 87 horizontal segments and at 60 water depths during the 2011–2013 period. This dataset intends to facilitate a broader investigation of in-reservoir nutrient dynamics under dam operations, and to extend the understanding of reservoir nutrient dynamics globally.</abstract>
+    <identifier type="citekey">Lindenschmidt-2019-CE-QUAL-W2</identifier>
+    <identifier type="doi">10.1038/s41597-019-0316-y</identifier>
     <location>
         <url>https://aclanthology.org/G19-96001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <detail type="page"><number>307</number></detail>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

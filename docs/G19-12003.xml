@@ -1,36 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wolfe-2019-A">
+<mods ID="Remmer-2019-Delineating">
     <titleInfo>
-        <title>A watershed classification approach that looks beyond hydrology: application to a semi-arid, agricultural region in Canada</title>
+        <title>Delineating extent and magnitude of river flooding to lakes across a northern delta using water isotope tracers</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jared</namePart>
-        <namePart type="given">D</namePart>
+        <namePart type="given">Casey</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Remmer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tanner</namePart>
+        <namePart type="family">Owca</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Laura</namePart>
+        <namePart type="family">Neary</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Johan</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Wiklund</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="family">Kay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
         <namePart type="family">Wolfe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Shook</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Spence</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Colin</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Whitfield</namePart>
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,28 +64,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
+            <title>Hydrological Processes, Volume 34, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. Classification and clustering approaches provide a means to group watersheds according to similar attributes, functions, or behaviours, and can aid in managing natural resources. Although they are widely used, approaches based on hydrological response parameters restrict analyses to regions where well-developed hydrological records exist, and overlook factors contributing to other management concerns, including biogeochemistry and ecology. In the Canadian Prairie, hydrometric gauging is sparse and often seasonal. Moreover, large areas are endorheic and the landscape is highly modified by human activity, complicating classification based solely on hydrological parameters. We compiled climate, geological, topographical, and land-cover data from the Prairie and conducted a classification of watersheds using a hierarchical clustering of principal components. Seven classes were identified based on the clustering of watersheds, including those distinguishing southern Manitoba, the pothole region, river valleys, and grasslands. Important defining variables were climate, elevation, surficial geology, wetland distribution, and land cover. In particular, three classes occur almost exclusively within regions that tend not to contribute to major river systems, and collectively encompass the majority of the study area. The gross difference in key characteristics across the classes suggests that future water management and climate change may carry with them heterogeneous sets of implications for water security across the Prairie. This emphasizes the importance of developing management strategies that target sub-regions expected to behave coherently as current human-induced changes to the landscape will affect how watersheds react to change. The study provides the first classification of watersheds within the Prairie based on climatic and biophysical attributes, with the framework used being applicable to other regions where hydrometric data are sparse. Our findings provide a foundation for addressing questions related to hydrological, biogeochemical, and ecological behaviours at a regional level, enhancing the capacity to address issues of water security.</abstract>
-    <identifier type="citekey">Wolfe-2019-A</identifier>
-    <identifier type="doi">10.5194/hess-23-3945-2019</identifier>
+    <abstract>Hydrological monitoring in complex, dynamic northern floodplain landscapes is challenging, but increasingly important as a consequence of multiple stressors. The Peace‐Athabasca Delta in northern Alberta, Canada, is a Ramsar Wetland of International Importance reliant on episodic river ice‐jam flood events to recharge abundant perched lakes and wetlands. Improved and systematic monitoring of landscape‐scale hydrological connectivity among freshwater ecosystems (rivers, channels, wetlands, and lakes) is needed to guide stewardship decisions in the face of climate change and upstream industrial development. Here, we use water isotope compositions, supplemented by measurements of specific conductivity and field observations, from 68 lakes and 9 river sites in May 2018 to delineate the extent and magnitude of spring ice‐jam induced flooding along the Peace and Athabasca rivers. Lake‐specific estimates of input water isotope composition (δI) were modelled after accounting for influence of evaporative isotopic enrichment. Then, using the distinct isotopic signature of input water sources, we develop a set of binary mixing models and estimate the proportion of input to flooded lakes attributable to river floodwater and precipitation (snow or rain). This approach allowed identification of areas and magnitude of flooding that were not captured by other methods, including direct observations from flyovers, and to demarcate flow pathways in the delta. We demonstrate water isotope tracers as an efficient and effective monitoring tool for delineating spatial extent and magnitude of an important hydrological process and elucidating connectivity in the Peace‐Athabasca Delta, an approach that can be readily adopted at other floodplain landscapes.</abstract>
+    <identifier type="citekey">Remmer-2019-Delineating</identifier>
+    <identifier type="doi">10.1002/hyp.13585</identifier>
     <location>
         <url>https://aclanthology.org/G19-12003</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>3945</start>
-            <end>3967</end>
+            <start>303</start>
+            <end>320</end>
         </extent>
     </part>
 </mods>

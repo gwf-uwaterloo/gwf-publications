@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zaerpour-2021-Informing">
+<mods ID="Moccia-2021-Spatial">
     <titleInfo>
-        <title>Informing Stochastic Streamflow Generation by Large-Scale Climate Indices at Single and Multiple Sites</title>
+        <title>Spatial variability of precipitation extremes over Italy using a fine-resolution gridded product</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Masoud</namePart>
-        <namePart type="family">Zaerpour</namePart>
+        <namePart type="given">Benedetta</namePart>
+        <namePart type="family">Moccia</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -20,8 +20,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ali</namePart>
-        <namePart type="family">Nazemi</namePart>
+        <namePart type="given">Fabio</namePart>
+        <namePart type="family">Russo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francesco</namePart>
+        <namePart type="family">Napolitano</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,7 +40,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Advances in Water Resources, Volume 156</title>
+            <title>Journal of Hydrology: Regional Studies, Volume 37</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -42,16 +49,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet An algorithm for incorporating climate indices in streamflow generation is proposed \bullet The algorithm is based on vine copulas, merged with a formal input selector \bullet The algorithm enables representing dynamic impacts of climate indices on streamflow \bullet The algorithm shows a better prediction skill, particularly in high flow seasons \bullet The algorithm captures modes of streamflow variability better than existing schemes \bullet The algorithm is generic and can be applied in single and multisite modes Despite the existence of several stochastic streamflow generators, not much attention has been given to representing the impacts of large-scale climate indices on seasonal to interannual streamflow variability. By merging a formal predictor selection scheme with vine copulas, we propose a generic approach to explicitly incorporate large-scale climate indices in ensemble streamflow generation at single and multiple sites and in both short-term prediction and long-term projection modes. The proposed framework is applied at three headwater streams in the Oldman River Basin in southern Alberta, Canada. The results demonstrate higher skills than existing models both in terms of representing intra- and inter-annual variability, as well as accuracy and predictability of streamflow, particularly during high flow seasons. The proposed algorithm presents a globally relevant scheme for the stochastic streamflow generation, where the impacts of large-scale climate indices on streamflow variability across time and space are significant.</abstract>
-    <identifier type="citekey">Zaerpour-2021-Informing</identifier>
-    <identifier type="doi">10.1016/j.advwatres.2021.104037</identifier>
+    <abstract>\bullet Analysis shows the G E V distribution can underestimate precipitation extremes. \bullet G E V + and B r X I I describe more consistently extreme precipitation than the G E V . \bullet Maps of rainfall depths for different return periods are provided for Italy. Italy. Knowing magnitude and frequency of extreme precipitation is necessary to reduce their impact on vulnerable areas. Here we investigate the performance of the Generalized Extreme Value ( G E V ) distribution, using a fine-resolution satellite-based gridded product, to analyze 13,247 daily rainfall annual maxima samples. A non-extreme value distribution with a power-type behavior, that is, the Burr Type XII ( B r X I I ), is also evaluated and used to test the reliability of the G E V in describing extreme rainfall. (1) in 44.9 % of the analyzed samples the G E V predicts an upper rainfall limit; we deem this is an artifact due to sample variations; (2) we suggest the G E V + distribution, that is, the G E V with shape parameters restricted only to positive values as a more consistent model complying with the nature of extreme precipitation; (3) G E V , G E V + , and B r X I I performed equally well in describing the observed annual precipitation, yet all distributions underestimate the observed sample maximum; (4) the B r X I I , for large return periods, predicts larger rainfall amounts compared to G E V indicating that G E V estimates could underestimate the risk of extremes; and (5) the correlation between the predicted rainfall and the elevation is investigated. Based on the results of this study, we suggest instead of using the classical G E V to use the G E V + and non-extreme value distributions such as the B r X I I to describe precipitation extremes.</abstract>
+    <identifier type="citekey">Moccia-2021-Spatial</identifier>
+    <identifier type="doi">10.1016/j.ejrh.2021.100906</identifier>
     <location>
         <url>https://aclanthology.org/G21-111001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>156</number></detail>
-        <detail type="page"><number>104037</number></detail>
+        <detail type="volume"><number>37</number></detail>
+        <detail type="page"><number>100906</number></detail>
     </part>
 </mods>
 </modsCollection>

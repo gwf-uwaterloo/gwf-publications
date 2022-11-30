@@ -1,29 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huang-2021-Estimating">
+<mods ID="Thompson-2021-Estimating">
     <titleInfo>
-        <title>Estimating concurrent climate extremes: A conditional approach</title>
+        <title>Estimating wind slab thickness in a Tundra snowpack using Ku-band scatterometer observations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Whitney</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Monahan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Kelly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,25 +25,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Climate Extremes, Volume 33</title>
+            <title>Remote Sensing Letters, Volume 12, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Simultaneous concurrence of extreme values across multiple climate variables can result in large societal and environmental impacts. Therefore, there is growing interest in understanding these concurrent extremes. In many applications, not only the frequency but also the magnitude of concurrent extremes are of interest. One way to approach this problem is to study the distribution of one climate variable given that another is extreme. In this work we develop a statistical framework for estimating bivariate concurrent extremes via a conditional approach, where univariate extreme value modeling is combined with dependence modeling of the conditional tail distribution using techniques from quantile regression and extreme value analysis to quantify concurrent extremes. We focus on the distribution of daily wind speed conditioned on daily precipitation taking its seasonal maximum. The Canadian Regional Climate Model large ensemble is used to assess the performance of the proposed framework both via a simulation study with specified dependence structure and via an analysis of the climate model-simulated dependence structure.</abstract>
-    <identifier type="citekey">Huang-2021-Estimating</identifier>
-    <identifier type="doi">10.1016/j.wace.2021.100332</identifier>
+    <abstract>Estimating snow water equivalent (SWE) in the northern high latitudesis important from climate, ecological and human perspectives since it enables us to track changes in spatiotemporal distribution...</abstract>
+    <identifier type="citekey">Thompson-2021-Estimating</identifier>
+    <identifier type="doi">10.1080/2150704x.2021.1961174</identifier>
     <location>
         <url>https://aclanthology.org/G21-132001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="page"><number>100332</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>1123</start>
+            <end>1135</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

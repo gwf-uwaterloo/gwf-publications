@@ -1,73 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Robinne-2019-A">
+<mods ID="Rokaya-2019-Correlation">
     <titleInfo>
-        <title>A Regional-Scale Index for Assessing the Exposure of Drinking-Water Sources to Wildfires</title>
+        <title>Correlation among parameters and boundary conditions in river ice models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">François-Nicolas</namePart>
-        <namePart type="family">Robinne</namePart>
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Bladon</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Uldis</namePart>
-        <namePart type="family">Silins</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Monica</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Emelko</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Flannigan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Marc-André</namePart>
-        <namePart type="family">Parisien</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xianli</namePart>
-        <namePart type="family">Wang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stefan</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Kienzle</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Diane</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Dupont</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -79,25 +25,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Forests, Volume 10, Issue 5</title>
+            <title>Modeling Earth Systems and Environment, Volume 6, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Robinne-2019-A</identifier>
-    <identifier type="doi">10.3390/f10050384</identifier>
+    <identifier type="citekey">Rokaya-2019-Correlation</identifier>
+    <identifier type="doi">10.1007/s40808-019-00696-7</identifier>
     <location>
         <url>https://aclanthology.org/G19-149001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>10</number></detail>
-        <detail type="issue"><number>5</number></detail>
-        <detail type="page"><number>384</number></detail>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>499</start>
+            <end>512</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

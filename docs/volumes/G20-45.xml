@@ -1,58 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Asong-2020-High-resolution">
+<mods ID="Balliston-2020-Heterogeneity">
     <titleInfo>
-        <title>High-resolution meteorological forcing data for hydrological modelling and climate change impact analysis in the Mackenzie River Basin</title>
+        <title>Heterogeneity of the peat profile and its role in unsaturated sodium chloride rise at field and laboratory scales</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Zilefac</namePart>
-        <namePart type="given">Elvis</namePart>
-        <namePart type="family">Asong</namePart>
+        <namePart type="given">Nicole</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Balliston</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="given">Ezzat</namePart>
-        <namePart type="family">Elshamy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Daniel</namePart>
-        <namePart type="family">Princz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="given">Simon</namePart>
-        <namePart type="family">Wheater</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">Willard</namePart>
-        <namePart type="family">Pomeroy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alain</namePart>
-        <namePart type="family">Pietroniro</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alex</namePart>
-        <namePart type="family">Cannon</namePart>
+        <namePart type="given">Jonathan</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Price</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -64,78 +27,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 12, Issue 1</title>
+            <title>Vadose Zone Journal, Volume 19, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Asong-2020-High-resolution</identifier>
-    <identifier type="doi">10.5194/essd-12-629-2020</identifier>
+    <identifier type="citekey">Balliston-2020-Heterogeneity</identifier>
+    <identifier type="doi">10.1002/vzj2.20015</identifier>
     <location>
         <url>https://aclanthology.org/G20-45001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>12</number></detail>
+        <detail type="volume"><number>19</number></detail>
         <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>629</start>
-            <end>645</end>
-        </extent>
-    </part>
-</mods>
-<mods ID="Slaughter-2020-Paleo-hydrologic">
-    <titleInfo>
-        <title>Paleo-hydrologic reconstruction of 400 years of past flows at a weekly time step for major rivers of Western Canada</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Slaughter</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2020</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Earth System Science Data, Volume 12, Issue 1</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Slaughter-2020-Paleo-hydrologic</identifier>
-    <identifier type="doi">10.5194/essd-12-231-2020</identifier>
-    <location>
-        <url>https://aclanthology.org/G20-45002</url>
-    </location>
-    <part>
-        <date>2020</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>231</start>
-            <end>243</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

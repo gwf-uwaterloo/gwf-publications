@@ -1,33 +1,108 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Jitnikovitch-2021-Snow">
+<mods ID="Holtzman-2021-L-band">
     <titleInfo>
-        <title>Snow water equivalent measurement in the Arctic based on cosmic ray neutron attenuation</title>
+        <title>L-band vegetation optical depth as an indicator of plant water potential in a temperate deciduous forest stand</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Anton</namePart>
-        <namePart type="family">Jitnikovitch</namePart>
+        <namePart type="given">Nataniel</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Holtzman</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Leander</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Anderegg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Branden</namePart>
-        <namePart type="family">Walker</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Kraatz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Darin</namePart>
-        <namePart type="family">Desilets</namePart>
+        <namePart type="given">Alex</namePart>
+        <namePart type="family">Mavrovic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oliver</namePart>
+        <namePart type="family">Sonnentag</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christoforos</namePart>
+        <namePart type="family">Pappas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Cosh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Langlois</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tarendra</namePart>
+        <namePart type="family">Lakhankar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Derek</namePart>
+        <namePart type="family">Tesser</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="family">Steiner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andreas</namePart>
+        <namePart type="family">Colliander</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandra</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Konings</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,7 +114,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>The Cryosphere, Volume 15, Issue 11</title>
+            <title>Biogeosciences, Volume 18, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -48,18 +123,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Jitnikovitch-2021-Snow</identifier>
-    <identifier type="doi">10.5194/tc-15-5227-2021</identifier>
+    <identifier type="citekey">Holtzman-2021-L-band</identifier>
+    <identifier type="doi">10.5194/bg-18-739-2021</identifier>
     <location>
         <url>https://aclanthology.org/G21-88001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>15</number></detail>
-        <detail type="issue"><number>11</number></detail>
+        <detail type="volume"><number>18</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>5227</start>
-            <end>5239</end>
+            <start>739</start>
+            <end>753</end>
         </extent>
     </part>
 </mods>

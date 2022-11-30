@@ -1,64 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rakovec-2019-Diagnostic">
+<mods ID="Razavi-2019-VARS-TOOL:">
     <titleInfo>
-        <title>Diagnostic Evaluation of Large‐Domain Hydrologic Models Calibrated Across the Contiguous United States</title>
+        <title>VARS-TOOL: A toolbox for comprehensive, efficient, and robust sensitivity and uncertainty analysis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Oldrich</namePart>
-        <namePart type="family">Rakovec</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Naoki</namePart>
-        <namePart type="family">Mizukami</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rohini</namePart>
-        <namePart type="family">Kumar</namePart>
+        <namePart type="given">Hoshin</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Gupta</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Newman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stephan</namePart>
-        <namePart type="family">Thober</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Wood</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Luis</namePart>
-        <namePart type="family">Samaniego</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Haghnegahdar</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -70,27 +40,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Geophysical Research: Atmospheres, Volume 124, Issue 24</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 112</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rakovec-2019-Diagnostic</identifier>
-    <identifier type="doi">10.1029/2019jd030767</identifier>
+    <abstract>Abstract VARS-TOOL is a software toolbox for sensitivity and uncertainty analysis. Developed primarily around the “Variogram Analysis of Response Surfaces” framework, VARS-TOOL adopts a multi-method approach that enables simultaneous generation of a range of sensitivity indices, including ones based on derivative, variance, and variogram concepts, from a single sample. Other special features of VARS-TOOL include (1) novel tools for time-varying and time-aggregate sensitivity analysis of dynamical systems models, (2) highly efficient sampling techniques, such as Progressive Latin Hypercube Sampling (PLHS), that maximize robustness and rapid convergence to stable sensitivity estimates, (3) factor grouping for dealing with high-dimensional problems, (4) visualization for monitoring stability and convergence, (5) model emulation for handling model crashes, and (6) an interface that allows working with any model in any programming language and operating system. As a test bed for training and research, VARS-TOOL provides a set of mathematical test functions and the (dynamical) HBV-SASK hydrologic model.</abstract>
+    <identifier type="citekey">Razavi-2019-VARS-TOOL:</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2018.10.005</identifier>
     <location>
         <url>https://aclanthology.org/G19-146001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>124</number></detail>
-        <detail type="issue"><number>24</number></detail>
+        <detail type="volume"><number>112</number></detail>
         <extent unit="page">
-            <start>13991</start>
-            <end>14007</end>
+            <start>95</start>
+            <end>107</end>
         </extent>
     </part>
 </mods>

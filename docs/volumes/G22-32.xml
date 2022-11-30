@@ -1,28 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Tang-2022-EM-Earth:">
+<mods ID="Rokaya-2022-Modelling">
     <titleInfo>
-        <title>EM-Earth: The Ensemble Meteorological Dataset for Planet Earth</title>
+        <title>Modelling of ice jam floods under past and future climates: A review</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Guoqiang</namePart>
-        <namePart type="family">Tang</namePart>
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
         <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,28 +39,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Bulletin of the American Meteorological Society, Volume 103, Issue 4</title>
+            <title>Journal of Hydrology X, Volume 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Tang-2022-EM-Earth:</identifier>
-    <identifier type="doi">10.1175/bams-d-21-0106.1</identifier>
+    <identifier type="citekey">Rokaya-2022-Modelling</identifier>
+    <identifier type="doi">10.1016/j.hydroa.2022.100120</identifier>
     <location>
         <url>https://aclanthology.org/G22-32001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>103</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>E996</start>
-            <end>E1018</end>
-        </extent>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="page"><number>100120</number></detail>
     </part>
 </mods>
 </modsCollection>

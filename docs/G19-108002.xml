@@ -1,54 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Smith-2019-The">
+<mods ID="Morales-Marín-2019-A">
     <titleInfo>
-        <title>The Latitudes, Attitudes, and Platitudes of Watershed Phosphorus Management in North America</title>
+        <title>A hydrological and water temperature modelling framework to simulate the timing of river freeze-up and ice-cover breakup in large-scale catchments</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">D</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Smith</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">M</namePart>
         <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Morales-Marín</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">P</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Kleinman</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Sanyal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">H</namePart>
+        <namePart type="family">Kadowaki</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Z</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">P</namePart>
-        <namePart type="family">Jarvie</namePart>
+        <namePart type="family">Rokaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">K</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">King</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Bryant</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -60,28 +56,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Environmental Quality, Volume 48, Issue 5</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 114</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Phosphorus (P) plays a crucial role in agriculture as a primary fertilizer nutrient-and as a cause of the eutrophication of surface waters. Despite decades of efforts to keep P on agricultural fields and reduce losses to waterways, frequent algal blooms persist, triggering not only ecological disruption but also economic, social, and political consequences. We investigate historical and persistent factors affecting agricultural P mitigation in a transect of major watersheds across North America: Lake Winnipeg, Lake Erie, the Chesapeake Bay, and Lake Okeechobee/Everglades. These water bodies span 26 degrees of latitude, from the cold climate of central Canada to the subtropics of the southeastern United States. These water bodies and their associated watersheds have tracked trajectories of P mitigation that manifest remarkable similarities, and all have faced challenges in the application of science to agricultural management that continue to this day. An evolution of knowledge and experience in watershed P mitigation calls into question uniform solutions as well as efforts to transfer strategies from other arenas. As a result, there is a need to admit to shortcomings of past approaches, plotting a future for watershed P mitigation that accepts the sometimes two-sided nature of Hennig Brandt’s “Devil’s Element.”</abstract>
-    <identifier type="citekey">Smith-2019-The</identifier>
-    <identifier type="doi">10.2134/jeq2019.03.0136</identifier>
+    <abstract>Abstract Ice phenology, defined as the timing of freeze-up and ice-cover breakup, plays a key role in streamflow regimes in cold-region river catchments. River freeze-up and ice-cover breakup events are controlled by meteorological and hydrological variables. In this study, we present a modelling framework consisting of a physically-based semi-distributed hydrological model and the integration of a 1D stream temperature model that can predict the ice duration in cold region rivers. The hydrological model provides streamflow and hydraulic parameters for the stream temperature model to obtain instream water temperature. The model was successfully applied in the Athabasca River basin in western Canada. Calibration was carried out using the water temperature recorded in the stations at the towns of Hinton, Athabasca and Fort McMurray. Model results show consistent correspondence between simulated freeze-up and breakup dates and the hydrometric station data. In the main tributaries of the basin, freeze-up timing spans from the last week of September to the second week of November and ice-cover breakup occurs from the second week of March to the last week of May. The model presents an application of water temperature and ice phenology simulation which can be incorporated in ice-jam flood forecasting and future climate change studies.</abstract>
+    <identifier type="citekey">Morales-Marín-2019-A</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2019.01.009</identifier>
     <location>
         <url>https://aclanthology.org/G19-108002</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>48</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>114</number></detail>
         <extent unit="page">
-            <start>1176</start>
-            <end>1190</end>
+            <start>49</start>
+            <end>63</end>
         </extent>
     </part>
 </mods>

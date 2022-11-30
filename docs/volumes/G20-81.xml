@@ -1,56 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ghiasi-2020-Application">
+<mods ID="Green-2020-Energy">
     <titleInfo>
-        <title>Application of GNSS Interferometric Reflectometry for the Estimation of Lake Ice Thickness</title>
+        <title>Energy stores and mercury concentrations in a common minnow (spottail shiner, \textlessscp\textgreater \textlessi\textgreaterNotropis hudsonius\textless/i\textgreater \textless/scp\textgreater ) associated with a peaking hydroelectric dam</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yusof</namePart>
-        <namePart type="family">Ghiasi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Claude</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Duguay</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Justin</namePart>
-        <namePart type="family">Murfitt</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Joost</namePart>
+        <namePart type="given">Derek</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">van der Sanden</namePart>
+        <namePart type="family">Green</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Thompson</namePart>
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jardine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hugo</namePart>
-        <namePart type="family">Drouin</namePart>
+        <namePart type="given">Lynn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Weber</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christian</namePart>
-        <namePart type="family">Prévost</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Janz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -62,25 +43,77 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 12, Issue 17</title>
+            <title>River Research and Applications, Volume 36, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ghiasi-2020-Application</identifier>
-    <identifier type="doi">10.3390/rs12172721</identifier>
+    <identifier type="citekey">Green-2020-Energy</identifier>
+    <identifier type="doi">10.1002/rra.3625</identifier>
     <location>
         <url>https://aclanthology.org/G20-81001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>17</number></detail>
-        <detail type="page"><number>2721</number></detail>
+        <detail type="volume"><number>36</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>1046</start>
+            <end>1055</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Papangelakis-2020-Process‐based">
+    <titleInfo>
+        <title>Process‐based assessment of success and failure in a constructed riffle‐pool river restoration project</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Elli</namePart>
+        <namePart type="family">Papangelakis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">MacVicar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>River Research and Applications, Volume 36, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Papangelakis-2020-Process‐based</identifier>
+    <identifier type="doi">10.1002/rra.3636</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-81002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>36</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>1222</start>
+            <end>1241</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

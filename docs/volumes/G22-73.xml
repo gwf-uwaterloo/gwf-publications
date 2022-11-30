@@ -1,34 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Jensen-2022-Microbial">
+<mods ID="Wallace-2022-Scale‐dependent">
     <titleInfo>
-        <title>Microbial Community Compositional Stability in Agricultural Soils During Freeze-Thaw and Fertilizer Stress</title>
+        <title>Scale‐dependent responses of understory vegetation to the physical structure of undisturbed tundra shrub patches</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Grant</namePart>
-        <namePart type="family">Jensen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Konrad</namePart>
-        <namePart type="family">Krogstad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Laura</namePart>
+        <namePart type="given">Cory</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Hug</namePart>
+        <namePart type="family">Wallace</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,23 +27,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Environmental Science, Volume 10</title>
+            <title>Ecosphere, Volume 13, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Jensen-2022-Microbial</identifier>
-    <identifier type="doi">10.3389/fenvs.2022.908568</identifier>
+    <identifier type="citekey">Wallace-2022-Scale‐dependent</identifier>
+    <identifier type="doi">10.1002/ecs2.4218</identifier>
     <location>
         <url>https://aclanthology.org/G22-73001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>10</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
     </part>
 </mods>
 </modsCollection>

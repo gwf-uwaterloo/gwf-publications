@@ -1,35 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mondal-2019-An">
+<mods ID="Moon-2019-Replacing">
     <titleInfo>
-        <title>An empirical study on bug propagation through code cloning</title>
+        <title>Replacing Mg\textlesssup\textgreater2+\textless/sup\textgreaterby Fe\textlesssup\textgreater2+\textless/sup\textgreaterfor RNA‐Cleaving DNAzymes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Manishankar</namePart>
-        <namePart type="family">Mondal</namePart>
+        <namePart type="given">Woohyun</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Moon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,24 +26,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Systems and Software, Volume 158</title>
+            <title>ChemBioChem, Volume 21, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mondal-2019-An</identifier>
-    <identifier type="doi">10.1016/j.jss.2019.110407</identifier>
+    <identifier type="citekey">Moon-2019-Replacing</identifier>
+    <identifier type="doi">10.1002/cbic.201900344</identifier>
     <location>
         <url>https://aclanthology.org/G19-125001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>158</number></detail>
-        <detail type="page"><number>110407</number></detail>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>401</start>
+            <end>407</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

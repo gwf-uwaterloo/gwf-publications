@@ -1,43 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Benettin-2021-On">
+<mods ID="KumarMondal-2021-Large">
     <titleInfo>
-        <title>On the use of leaf water to determine plant water source: A proof of concept</title>
+        <title>Large Scale Image Registration Utilizing Data-Tunneling in the MapReduce Cluster</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Paolo</namePart>
-        <namePart type="family">Benettin</namePart>
+        <namePart type="given">Amit</namePart>
+        <namePart type="family">Kumar Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Magali</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Nehemy</namePart>
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lucas</namePart>
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Cernusak</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ansgar</namePart>
-        <namePart type="family">Kahmen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jeffrey</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">McDonnell</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -49,24 +41,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 35, Issue 3</title>
+            <title>Lecture Notes on Data Engineering and Communications Technologies</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Singapore</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Benettin-2021-On</identifier>
-    <identifier type="doi">10.1002/hyp.14073</identifier>
+    <identifier type="citekey">Kumar Mondal-2021-Large</identifier>
+    <identifier type="doi">10.1007/978-981-16-6636-0_14</identifier>
     <location>
         <url>https://aclanthology.org/G21-27001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>35</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>167</start>
+            <end>180</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

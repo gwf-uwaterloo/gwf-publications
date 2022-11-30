@@ -1,61 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Fowler-2020-Many">
+<mods ID="Ghiasi-2020-Application">
     <titleInfo>
-        <title>Many Commonly Used Rainfall‐Runoff Models Lack Long, Slow Dynamics: Implications for Runoff Projections</title>
+        <title>Application of GNSS Interferometric Reflectometry for the Estimation of Lake Ice Thickness</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Keirnan</namePart>
-        <namePart type="family">Fowler</namePart>
+        <namePart type="given">Yusof</namePart>
+        <namePart type="family">Ghiasi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Wouter</namePart>
-        <namePart type="family">Knoben</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Murray</namePart>
-        <namePart type="family">Peel</namePart>
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tim</namePart>
-        <namePart type="family">Peterson</namePart>
+        <namePart type="given">Joost</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">van der Sanden</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dongryeol</namePart>
-        <namePart type="family">Ryu</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Margarita</namePart>
-        <namePart type="family">Saft</namePart>
+        <namePart type="given">Hugo</namePart>
+        <namePart type="family">Drouin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ki‐Weon</namePart>
-        <namePart type="family">Seo</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Western</namePart>
+        <namePart type="given">Christian</namePart>
+        <namePart type="family">Prévost</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -67,84 +62,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 56, Issue 5</title>
+            <title>Remote Sensing, Volume 12, Issue 17</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Fowler-2020-Many</identifier>
-    <identifier type="doi">10.1029/2019wr025286</identifier>
+    <identifier type="citekey">Ghiasi-2020-Application</identifier>
+    <identifier type="doi">10.3390/rs12172721</identifier>
     <location>
         <url>https://aclanthology.org/G20-78001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>56</number></detail>
-        <detail type="issue"><number>5</number></detail>
-    </part>
-</mods>
-<mods ID="PardoLara-2020-In">
-    <titleInfo>
-        <title>In Situ Estimates of Freezing/Melting Point Depression in Agricultural Soils Using Permittivity and Temperature Measurements</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Pardo Lara</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Berg</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Warland</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Erica</namePart>
-        <namePart type="family">Tetlock</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2020</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Water Resources Research, Volume 56, Issue 5</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Pardo Lara-2020-In</identifier>
-    <identifier type="doi">10.1029/2019wr026020</identifier>
-    <location>
-        <url>https://aclanthology.org/G20-78002</url>
-    </location>
-    <part>
-        <date>2020</date>
-        <detail type="volume"><number>56</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>17</number></detail>
+        <detail type="page"><number>2721</number></detail>
     </part>
 </mods>
 </modsCollection>

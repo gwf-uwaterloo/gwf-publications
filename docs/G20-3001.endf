@@ -1,21 +1,16 @@
 ﻿%0 Journal Article
-%T Joint Modeling of Crop and Irrigation in the central United States Using the Noah‐MP Land Surface Model
-%A Zhang, Zhe
-%A Barlage, Michael
-%A Chen, Fei
-%A Li, Yanping
-%A Helgason, Warren
-%A Xu, Xiaoyu
-%A Liu, Xing
-%A Li, Zhenhua
-%J Journal of Advances in Modeling Earth Systems, Volume 12, Issue 7
+%T Rainfall–Runoff Prediction at Multiple Timescales with a SingleLong Short-Term Memory Network
+%A Gauch, Martin
+%A Kratzert, Frederik
+%A Klotz, Daniel
+%A Nearing, Grey
+%A Lin, Jimmy
+%A Hochreiter, Sepp
 %D 2020
-%V 12
-%N 7
-%I American Geophysical Union (AGU)
-%F Zhang-2020-Joint
-%X Representing climate-crop interactions is critical to earth system modeling. Despite recent progress in modeling dynamic crop growth and irrigation in land surface models (LSMs), transitioning thes...
-%R 10.1029/2020ms002159
+%I Copernicus GmbH
+%F Gauch-2020-Rainfall–Runoff
+%X Abstract. Long Short-Term Memory Networks (LSTMs) have been applied to daily discharge prediction with remarkable success. Many practical scenarios, however, require predictions at more granular timescales. For instance, accurate prediction of short but extreme flood peaks can make a life-saving difference, yet such peaks may escape the coarse temporal resolution of daily predictions. Naively training an LSTM on hourly data, however, entails very long input sequences that make learning hard and computationally expensive. In this study, we propose two Multi-Timescale LSTM (MTS-LSTM) architectures that jointly predict multiple timescales within one model, as they process long-past inputs at a single temporal resolution and branch out into each individual timescale for more recent input steps. We test these models on 516 basins across the continental United States and benchmark against the US National Water Model. Compared to naive prediction with a distinct LSTM per timescale, the multi-timescale architectures are computationally more efficient with no loss in accuracy. Beyond prediction quality, the multi-timescale LSTM can process different input variables at different timescales, which is especially relevant to operational applications where the lead time of meteorological forcings depends on their temporal resolution.
+%R 10.5194/hess-2020-540
 %U https://aclanthology.org/G20-3001
-%U https://doi.org/10.1029/2020ms002159
+%U https://doi.org/10.5194/hess-2020-540
 

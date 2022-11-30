@@ -1,63 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wang-2019-Climate-phenology-hydrology">
+<mods ID="Abu-2019-Using">
     <titleInfo>
-        <title>Climate-phenology-hydrology interactions in northern high latitudes: Assessing the value of remote sensing data in catchment ecohydrological studies</title>
+        <title>Using two-eyed seeing to bridge Western science and Indigenous knowledge systems and understand long-term change in the Saskatchewan River Delta, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hailong</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Razak</namePart>
+        <namePart type="family">Abu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Doerthe</namePart>
-        <namePart type="family">Tetzlaff</namePart>
+        <namePart type="given">Maureen</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Reed</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="family">Buttle</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hjalmar</namePart>
-        <namePart type="family">Laudon</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">McNamara</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Christopher</namePart>
-        <namePart type="family">Spence</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Soulsby</namePart>
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jardine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -69,27 +34,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 656</title>
+            <title>International Journal of Water Resources Development, Volume 36, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>We assessed the hydrological implications of climate effects on vegetation phenology in northern environments by fusion of data from remote-sensing and local catchment monitoring. Studies using satellite data have shown earlier and later dates for the start (SOS) and end of growing seasons (EOS), respectively, in the Northern Hemisphere over the last 3 decades. However, estimates of the change greatly depend on the satellite data utilized. Validation with experimental data on climate-vegetation-hydrology interactions requires long-term observations of multiple variables which are rare and usually restricted to small catchments. In this study, we used two NDVI (normalized difference vegetation index) products (at ~25 &amp; 0.5 km spatial resolutions) to infer SOS and EOS for six northern catchments, and then investigated the likely climate impacts on phenology change and consequent effects on catchment water yield, using both assimilated data (GLDAS: global land data assimilation system) and direct catchment observations. The major findings are: (1) The assimilated air temperature compared well with catchment observations (regression slopes and R2 close to 1), whereas underestimations of summer rainstorms resulted in overall underestimations of precipitation (regression slopes of 0.3-0.7, R2 \geq 0.46). (2) The two NDVI products inferred different vegetation phenology characteristics. (3) Increased mean pre-season temperature significantly influenced the advance of SOS and delay of EOS. The precipitation influence was weaker, but delayed SOS corresponding to increased pre-season precipitation at most sites can be related to later snow melting. (4) Decreased catchment streamflow over the last 15 years could be related to the advance in SOS and extension of growing seasons. Greater streamflow reductions in the cold sites than the warm ones imply stronger climate warming impacts on vegetation and hydrology in colder northerly environments. The methods used in this study have potential for better understanding interactions between vegetation, climate and hydrology in observation-scarce regions.</abstract>
-    <identifier type="citekey">Wang-2019-Climate-phenology-hydrology</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2018.11.361</identifier>
+    <abstract>Although researchers now recognize that Indigenous knowledge can strengthen environmental planning and assessment, little research has empirically demonstrated how to bring together Indigenous know...</abstract>
+    <identifier type="citekey">Abu-2019-Using</identifier>
+    <identifier type="doi">10.1080/07900627.2018.1558050</identifier>
     <location>
         <url>https://aclanthology.org/G19-14001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>656</number></detail>
+        <detail type="volume"><number>36</number></detail>
+        <detail type="issue"><number>5</number></detail>
         <extent unit="page">
-            <start>19</start>
-            <end>28</end>
+            <start>757</start>
+            <end>776</end>
         </extent>
     </part>
 </mods>

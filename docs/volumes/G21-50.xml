@@ -1,36 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Abdelmoaty-2021-Biases">
+<mods ID="Salk-2021-Warming">
     <titleInfo>
-        <title>Biases Beyond the Mean in CMIP6 Extreme Precipitation: A Global Investigation</title>
+        <title>Warming combined with experimental eutrophication intensifies lake phytoplankton blooms</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hebatallah</namePart>
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="family">Abdelmoaty</namePart>
+        <namePart type="given">Kateri</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Salk</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Venkiteswaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raoul‐Marie</namePart>
+        <namePart type="family">Couture</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Scott</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Higgins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Paterson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chandra</namePart>
-        <namePart type="given">Rupa</namePart>
-        <namePart type="family">Rajulapati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">AghaKouchak</namePart>
+        <namePart type="given">Sherry</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Schiff</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,102 +58,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth’s Future, Volume 9, Issue 10</title>
+            <title>Limnology and Oceanography, Volume 67, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Abdelmoaty-2021-Biases</identifier>
-    <identifier type="doi">10.1029/2021ef002196</identifier>
+    <identifier type="citekey">Salk-2021-Warming</identifier>
+    <identifier type="doi">10.1002/lno.11982</identifier>
     <location>
         <url>https://aclanthology.org/G21-50001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>9</number></detail>
-        <detail type="issue"><number>10</number></detail>
-    </part>
-</mods>
-<mods ID="Papalexiou-2021-Probabilistic">
-    <titleInfo>
-        <title>Probabilistic Evaluation of Drought in CMIP6 Simulations</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chandra</namePart>
-        <namePart type="given">Rupa</namePart>
-        <namePart type="family">Rajulapati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Konstantinos</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Andreadis</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Efi</namePart>
-        <namePart type="family">Foufoula‐Georgiou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Trenberth</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2021</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Earth’s Future, Volume 9, Issue 10</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Papalexiou-2021-Probabilistic</identifier>
-    <identifier type="doi">10.1029/2021ef002150</identifier>
-    <location>
-        <url>https://aclanthology.org/G21-50002</url>
-    </location>
-    <part>
-        <date>2021</date>
-        <detail type="volume"><number>9</number></detail>
-        <detail type="issue"><number>10</number></detail>
+        <detail type="volume"><number>67</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>147</start>
+            <end>158</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

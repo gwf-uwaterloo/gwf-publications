@@ -1,75 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Liu-2018-A">
+<mods ID="Sprenger-2018-Storage">
     <titleInfo>
-        <title>A solar powered long range real-time water quality monitoring system by LoRaWAN</title>
+        <title>Storage, mixing, and fluxes of water in the critical zone across northern environments inferred by stable isotopes of soil water</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yan-Ting</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Matthias</namePart>
+        <namePart type="family">Sprenger</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bo-Yi</namePart>
-        <namePart type="family">Lin</namePart>
+        <namePart type="given">Doerthe</namePart>
+        <namePart type="family">Tetzlaff</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xiao-Feng</namePart>
-        <namePart type="family">Yue</namePart>
+        <namePart type="given">Jim</namePart>
+        <namePart type="family">Buttle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zong-Xuan</namePart>
-        <namePart type="family">Cai</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zi-Xian</namePart>
-        <namePart type="family">Yang</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">McNamara</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Wei-Hong</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Hjalmar</namePart>
+        <namePart type="family">Laudon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Song-Yi</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Nadine</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Shatilla</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jun-Lin</namePart>
-        <namePart type="family">Lu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jing-Wen</namePart>
-        <namePart type="family">Peng</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jen-Yeu</namePart>
-        <namePart type="family">Chen</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Soulsby</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -81,23 +70,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>2018 27th Wireless and Optical Communication Conference (WOCC)</title>
+            <title>Hydrological Processes, Volume 32, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IEEE</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>In order to maintain the quality of water resources in the global environment, we must conduct water quality monitoring. With the evolution of technology, we can improve the management of water quality by the IoT(Internet of Things) system. Therefore, this paper provides a real-time water quality monitoring system by the Internet of Things system. We selected Dong Lake in National Dong Hwa University as a test field to monitor water temperature, turbidity, conductivity, and pH. After that, the various water quality data will be transmitted to the database via wireless transmission. Finally, these data will be displayed on the web page immediately. And, it is very important to select what kind of wireless communication technique. For the long-range application in the field, we used Low-Power Wide-Area Network (LPWAN)-Long Range Wide Area Network (LoRaWAN) for data transmission. To extend the system life, a solar panel is adapted to recharge battery.</abstract>
-    <identifier type="citekey">Liu-2018-A</identifier>
-    <identifier type="doi">10.1109/wocc.2018.8373792</identifier>
+    <abstract>We thank Audrey Innes for isotope analysis at University of Aberdeen for Bruntland Burn and Krycklan sites, Johannes Tiwari (SLU) for isotope sampling in Krycklan, Pernilla Lofvenius (SLU) for providing PET data for Krycklan (via SITES), and Jeff McDonnell and Kim Janzen (University of Saskatchewan) for soil water isotope analysis for the Dorset and Wolf Creek sites. The Krycklan part was funded by the KAW Branch-Point project. We acknowledge the funding from the European Research Council (ERC, project GA 335910 VeWa). We thank the Editor and three anonymous reviewers for their critical comments during the peer-review process.</abstract>
+    <identifier type="citekey">Sprenger-2018-Storage</identifier>
+    <identifier type="doi">10.1002/hyp.13135</identifier>
     <location>
         <url>https://aclanthology.org/G18-5001</url>
     </location>
     <part>
         <date>2018</date>
+        <detail type="volume"><number>32</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>1720</start>
+            <end>1737</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

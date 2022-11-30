@@ -1,40 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Marcinek-2021-Revised">
+<mods ID="Halali-2021-Investigating">
     <titleInfo>
-        <title>Revised application of copper ion selective electrode (Cu-ISE) in marine waters: A new meta-calibration approach</title>
+        <title>Investigating the stability of electrically conductive membranes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Saša</namePart>
-        <namePart type="family">Marcinek</namePart>
+        <namePart type="given">Mohamad</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Halali</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Arnaud</namePart>
-        <namePart type="family">Chapoulie</namePart>
+        <namePart type="given">Melissa</namePart>
+        <namePart type="family">Larocque</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pascal</namePart>
-        <namePart type="family">Salaün</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Scott</namePart>
-        <namePart type="family">Smith</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dario</namePart>
-        <namePart type="family">Omanović</namePart>
+        <namePart type="given">Charles-Franҫois</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Talanta, Volume 226</title>
+            <title>Journal of Membrane Science, Volume 627</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -55,16 +42,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Copper (Cu) is a bio-essential trace element that is of concerns due to its potential toxicity at concentrations commonly encountered in coastal waters. Here, we revisit the applicability of Cu(II) ion selective electrode (Cu-ISE) based on a jalpaite membrane for the measurement of Cufree in seawater. At high total Cu concentration (\textgreater0.1 mM), (near)Nernstian slope was obtained and determination of Cufree down to fM levels was possible. However, this slope decreases with decreasing total Cu concentration (e.g. 7 mV/decade at 15 nM total Cu) making the use of a common single calibration approach unreliable. To solve this problem, we carried out several calibrations at different levels of total Cu (15 nM - 1 mM) and ethylenediamine (EN: 5 μM - 15 mM) and fitted the calibration parameters (slope and intercept) as a function of total Cu using the Gompertz function (a meta-calibration approach). The derived empirical equations allowed the determination of Cufree at any total Cu concentration above 20 nM (determination of Cufree at lower total Cu levels is prevented by the dissolution of the electrode). We successfully tested this meta-calibration approach in UV digested seawater in presence of a synthetic ligand (EN), isolated natural organic matter (humic acid, HA) and in a natural estuarine sample. In each case, our meta-calibration approach provided a good agreement with modeled speciation data (Visual MINTEQ), while standard single approach failed. We provide here a new method for the direct determination of the free Cu ion concentration in seawater at levels relevant for coastal waters.</abstract>
-    <identifier type="citekey">Marcinek-2021-Revised</identifier>
-    <identifier type="doi">10.1016/j.talanta.2021.122170</identifier>
+    <abstract>Stability of electrically conductive membranes (ECM) is critical for expanding their application in separation-based technologies. In this work, ECMs were synthesized by coating polyethersulfone membranes with carbon nanotubes (CNT) crosslinked to polyvinyl alcohol (PVA) using two types of crosslinkers (succinic acid or glutaraldehyde). ECMs demonstrated a 21% reduction in flux over 4 h under cathodic potential (2 V) in comparison to a 69% reduction in flux for control experiments when filtering a realistic bacterial suspension. Subsequently, the electrochemical, physical, and mechanical stability of the ECMs were explored using chronoamperometry and cyclic voltammetry, an evaluation of polymer leaching from membranes, and micro mechanical scratch testing, respectively. ECMs were shown to be unstable under anodic potentials (2–4 V) with the glutaraldehyde crosslinking demonstrating the highest electrochemical stability. PVA was shown to be a physically unstable crosslinking agent for CNTs under concentration polarization conditions. Instability was moderated by extending CP layers through thicker and less dense nanolayers. ECMs showed higher mechanical stability and resistance to surface damage, in particular when coated with glutaraldehyde. We quantified the relationship between ECM surface instability and their physical and electrochemical properties. In so doing, we provide guidance for making practical and scalable electrically conductive membranes. \bullet Applied potential impedes the development of membrane biofouling. \bullet Electrically conductive membranes are unstable under operating conditions. \bullet Physical, mechanical, and electrochemical stability of membranes were investigated. \bullet PVA and GA protect CNT from anodic electro-oxidation.</abstract>
+    <identifier type="citekey">Halali-2021-Investigating</identifier>
+    <identifier type="doi">10.1016/j.memsci.2021.119181</identifier>
     <location>
         <url>https://aclanthology.org/G21-120001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>226</number></detail>
-        <detail type="page"><number>122170</number></detail>
+        <detail type="volume"><number>627</number></detail>
+        <detail type="page"><number>119181</number></detail>
     </part>
 </mods>
 </modsCollection>

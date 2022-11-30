@@ -1,19 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Das-2021-Modelling">
+<mods ID="Brunner-2021-Flood">
     <titleInfo>
-        <title>Modelling climatic impacts on ice-jam floods: a review of current models, modelling capabilities, challenges, and future prospects</title>
+        <title>Flood spatial coherence, triggers, and performance in hydrological simulations: large-sample evaluation of four streamflow-calibrated models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Apurba</namePart>
-        <namePart type="family">Das</namePart>
+        <namePart type="given">Manuela</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Brunner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Lieke</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Melsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oldrich</namePart>
+        <namePart type="family">Rakovec</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wouter</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,28 +66,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Reviews, Volume 29, Issue 3</title>
+            <title>Hydrology and Earth System Sciences, Volume 25, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Canadian Science Publishing</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>River ice is an important hydraulic and hydrological component of many rivers in the high northern latitudes of the world. It controls the hydraulic characteristics of streamflow, affects the geomorphology of channels, and can cause flooding due to ice-jam formation during ice-cover freeze-up and breakup periods. In recent decades, climate change has considerably altered ice regimes, affecting the severity of ice-jam flooding. Although many approaches have been developed to model river ice regimes and the severity of ice-jam flooding, appropriate methods that account for the impacts of future climate on ice-jam flooding have not been well established. Therefore, the main goals of this study are to review current knowledge regarding climate change impacts on river ice processes and to assess current modelling capabilities to determine the severity of ice jams under future climatic conditions. Finally, a conceptual river ice-jam modelling approach is presented for incorporating climate change impacts on ice jams.</abstract>
-    <identifier type="citekey">Das-2021-Modelling</identifier>
-    <identifier type="doi">10.1139/er-2020-0108</identifier>
+    <abstract>Abstract. Floods cause extensive damage, especially if they affect large regions. Assessments of current, local, and regional flood hazards and their future changes often involve the use of hydrologic models. A reliable hydrologic model ideally reproduces both local flood characteristics and spatial aspects of flooding under current and future climate conditions. However, uncertainties in simulated floods can be considerable and yield unreliable hazard and climate change impact assessments. This study evaluates the extent to which models calibrated according to standard model calibration metrics such as the widely used Kling–Gupta efficiency are able to capture flood spatial coherence and triggering mechanisms. To highlight challenges related to flood simulations, we investigate how flood timing, magnitude, and spatial variability are represented by an ensemble of hydrological models when calibrated on streamflow using the Kling–Gupta efficiency metric, an increasingly common metric of hydrologic model performance also in flood-related studies. Specifically, we compare how four well-known models (the Sacramento Soil Moisture Accounting model, SAC; the Hydrologiska Byråns Vattenbalansavdelning model, HBV; the variable infiltration capacity model, VIC; and the mesoscale hydrologic model, mHM) represent (1) flood characteristics and their spatial patterns and (2) how they translate changes in meteorologic variables that trigger floods into changes in flood magnitudes. Our results show that both the modeling of local and spatial flood characteristics are challenging as models underestimate flood magnitude, and flood timing is not necessarily well captured. They further show that changes in precipitation and temperature are not always well translated to changes in flood flow, which makes local and regional flood hazard assessments even more difficult for future conditions. From a large sample of catchments and with multiple models, we conclude that calibration on the integrated Kling–Gupta metric alone is likely to yield models that have limited reliability in flood hazard assessments, undermining their utility for regional and future change assessments. We underscore that such assessments can be improved by developing flood-focused, multi-objective, and spatial calibration metrics, by improving flood generating process representation through model structure comparisons and by considering uncertainty in precipitation input.</abstract>
+    <identifier type="citekey">Brunner-2021-Flood</identifier>
+    <identifier type="doi">10.5194/hess-25-105-2021</identifier>
     <location>
         <url>https://aclanthology.org/G21-55001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>29</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>25</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>378</start>
-            <end>390</end>
+            <start>105</start>
+            <end>119</end>
         </extent>
     </part>
 </mods>

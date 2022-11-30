@@ -1,52 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moore-2017-Peatland">
+<mods ID="Morales-Marín-2017-Estimating">
     <titleInfo>
-        <title>Peatland water repellency: Importance of soil water content, moss species, and burn severity</title>
+        <title>Estimating Sediment Loadings in the South Saskatchewan River Catchment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">P</namePart>
+        <namePart type="given">L</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Moore</namePart>
+        <namePart type="family">Morales-Marín</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Lukenbach</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">N</namePart>
-        <namePart type="family">Kettridge</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">K</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Devito</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Waddington</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -58,26 +35,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 554</title>
+            <title>Water Resources Management, Volume 32, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Moore-2017-Peatland</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2017.09.036</identifier>
+    <identifier type="citekey">Morales-Marín-2017-Estimating</identifier>
+    <identifier type="doi">10.1007/s11269-017-1838-8</identifier>
     <location>
         <url>https://aclanthology.org/G17-28001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>554</number></detail>
+        <detail type="volume"><number>32</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>656</start>
-            <end>665</end>
+            <start>769</start>
+            <end>783</end>
         </extent>
     </part>
 </mods>

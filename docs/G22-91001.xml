@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Pradhananga-2022-Diagnosing">
+<mods ID="Thériault-2022-Storms">
     <titleInfo>
-        <title>Diagnosing changes in glacier hydrology from physical principles using a hydrological model with snow redistribution, sublimation, firnification and energy balance ablation algorithms</title>
+        <title>Storms and Precipitation Across the continental Divide Experiment (SPADE)</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dhiraj</namePart>
-        <namePart type="family">Pradhananga</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicolas</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leroux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">André</namePart>
+        <namePart type="family">Bertoncini</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephen</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,6 +51,49 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Hadleigh</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hilary</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zen</namePart>
+        <namePart type="family">Mariani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aurélie</namePart>
+        <namePart type="family">Desroches-Lapointe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Selina</namePart>
+        <namePart type="family">Mitchell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juris</namePart>
+        <namePart type="family">Almonte</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2022</dateIssued>
     </originInfo>
@@ -26,25 +101,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 608</title>
+            <title>Bulletin of the American Meteorological Society, Volume 103, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet A novel physically based glacier hydrological model has been developed in CRHM. \bullet The model considers processes such as blowing snow and sublimation, avalanches, firnification, glacier mass balance and energy-budget of snow/ice. \bullet The model was driven with both in-situ and reanalysis data and evaluated with respect to albedo, mass balance, and runoff. \bullet The hydrology of two partially glacierized catchments was simulated without any calibration of streamflow parameters. \bullet The long term increases in discharge are due to increased glacier ice melt. A comprehensive glacier hydrology model was developed within the Cold Regions Hydrological Modelling platform (CRHM) to include modules representing wind flow over complex terrain, blowing snow redistribution and sublimation by wind, snow redistribution by avalanches, solar irradiance to sloping surfaces, surface sublimation, glacier mass balance and runoff, meltwater and streamflow routing. The physically based glacier hydrology model created from these modules in CRHM was applied to simulate the hydrology of the instrumented, glacierized and rapidly deglaciating Peyto and Athabasca glacier research basins in the Canadian Rockies without calibration of parameters from streamflow. It was tested against observed albedo, point and aggregated glacier mass balance, and streamflow and found to successfully simulate surface albedo, snow redistribution, snow and glacier accumulation and ablation, mass balance and streamflow discharge, both when driven by in-situ observations and reanalysis forcing data. Long term modelling results indicate that the increases in discharge from the 1960s to the present are due to increased glacier ice melt contributions, despite declining precipitation and snow melt.</abstract>
-    <identifier type="citekey">Pradhananga-2022-Diagnosing</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2022.127545</identifier>
+    <abstract>Abstract The Canadian Rockies are a triple-continental divide, whose high mountains are drained by major snow-fed and rain-fed rivers flowing to the Pacific, Atlantic, and Arctic Oceans. The objective of the April–June 2019 Storms and Precipitation Across the continental Divide Experiment (SPADE) was to determine the atmospheric processes producing precipitation on the eastern and western sides of the Canadian Rockies during springtime, a period when upslope events of variable phase dominate precipitation on the eastern slopes. To do so, three observing sites across the divide were instrumented with advanced meteorological sensors. During the 13 observed events, the western side recorded only 25% of the eastern side’s precipitation accumulation, rainfall occurred rather than snowfall, and skies were mainly clear. Moisture sources and amounts varied markedly between events. An atmospheric river landfall in California led to moisture flowing persistently northward and producing the longest duration of precipitation on both sides of the divide. Moisture from the continental interior always produced precipitation on the eastern side but only in specific conditions on the western side. Mainly slow-falling ice crystals, sometimes rimed, formed at higher elevations on the eastern side (&amp;gt;3 km MSL), were lifted, and subsequently drifted westward over the divide during nonconvective storms to produce rain at the surface on the western side. Overall, precipitation generally crossed the divide in the Canadian Rockies during specific spring-storm atmospheric conditions although amounts at the surface varied with elevation, condensate type, and local and large-scale flow fields.</abstract>
+    <identifier type="citekey">Thériault-2022-Storms</identifier>
+    <identifier type="doi">10.1175/bams-d-21-0146.1</identifier>
     <location>
         <url>https://aclanthology.org/G22-91001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>608</number></detail>
-        <detail type="page"><number>127545</number></detail>
+        <detail type="volume"><number>103</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>E2628</start>
+            <end>E2649</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

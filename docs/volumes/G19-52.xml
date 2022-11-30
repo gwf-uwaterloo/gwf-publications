@@ -1,40 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ding-2019-Bioretention">
+<mods ID="Du-2019-China’s">
     <titleInfo>
-        <title>Bioretention cells under cold climate conditions: Effects of freezing and thawing on water infiltration, soil structure, and nutrient removal</title>
+        <title>China’s Agricultural Irrigation and Water Conservancy Projects: A Policy Synthesis and Discussion of Emerging Issues</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Brenden</namePart>
-        <namePart type="family">Ding</namePart>
+        <namePart type="given">Lijuan</namePart>
+        <namePart type="family">Du</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
+        <namePart type="given">Li</namePart>
+        <namePart type="family">Xu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Behrad</namePart>
-        <namePart type="family">Gharedaghloo</namePart>
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Changshun</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Elodie</namePart>
-        <namePart type="family">Passeport</namePart>
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bo</namePart>
+        <namePart type="family">Lei</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,27 +61,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 649</title>
+            <title>Sustainability, Volume 11, Issue 24</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ding-2019-Bioretention</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2018.08.366</identifier>
+    <identifier type="citekey">Du-2019-China’s</identifier>
+    <identifier type="doi">10.3390/su11247027</identifier>
     <location>
         <url>https://aclanthology.org/G19-52001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>649</number></detail>
-        <extent unit="page">
-            <start>749</start>
-            <end>759</end>
-        </extent>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>24</number></detail>
+        <detail type="page"><number>7027</number></detail>
     </part>
 </mods>
 </modsCollection>

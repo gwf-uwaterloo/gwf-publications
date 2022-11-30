@@ -1,21 +1,19 @@
 ﻿%0 Journal Article
-%T No evidence of isotopic fractionation in olive trees (\textlessi\textgreaterOlea europaea\textless/i\textgreater): a stable isotope tracing experiment
-%A Amin, Anam
-%A Zuecco, Giulia
-%A Marchina, Chiara
-%A Engel, Michael
-%A Penna, Daniele
-%A McDonnell, Jeffrey J.
-%A Borga, Marco
-%J Hydrological Sciences Journal, Volume 66, Issue 16
+%T Rescuing historical climate observations to support hydrological research
+%A Odunayo, Ogundepo
+%A Sookoo, Naveela N.
+%A Bathla, Gautam
+%A Cavallin, Anthony
+%A Persaud, Bhaleka D.
+%A Szigeti, Kathy
+%A Van Cappellen, Philippe
+%A Lin, Jimmy
+%J Proceedings of the 21st ACM Symposium on Document Engineering
 %D 2021
-%V 66
-%N 16
-%I Informa UK Limited
-%F Amin-2021-No
-%X Plant transpiration is the dominant water flux in the global terrestrial water balance and a key process in the hydrological sciences. Stable isotopes have contributed greatly to this understanding...
-%R 10.1080/02626667.2021.1987440
+%I ACM
+%F Odunayo-2021-Rescuing
+%X The acceleration of climate change and its impact highlight the need for long-term reliable climate data at high spatiotemporal resolution to answer key science questions in cold regions hydrology. Prior to the digital age, climate records were archived on paper. For example, from the 1950s to the 1990s, solar radiation data from recording stations worldwide were published in booklets by the former Union of Soviet Socialist Republics (USSR) Hydrometeorological Service. As a result, the data are not easily accessible by most researchers. The overarching aim of this research is to develop techniques to convert paper-based climate records into a machine-readable format to support environmental research in cold regions. This study compares the performance of a proprietary optical character recognition (OCR) service with an open-source OCR tool for digitizing hydrometeorological data. We built a digitization pipeline combining different image preprocessing techniques, semantic segmentation, and an open-source OCR engine for extracting data and metadata recorded in the scanned documents. Each page contains blocks of text with station names and tables containing the climate data. The process begins with image preprocessing to reduce noise and to improve quality before the page content is segmented to detect tables and finally run through an OCR engine for text extraction. We outline the digitization process and report on initial results, including different segmentation approaches, preprocessing image algorithms, and OCR techniques to ensure accurate extraction and organization of relevant metadata from thousands of scanned climate records. We evaluated the performance of Tesseract OCR and ABBYY FineReader on text extraction. We find that although ABBY FineReader has better accuracy on the sample data, our custom extraction pipeline using Tesseract is efficient and scalable because it is flexible and allows for more customization.
+%R 10.1145/3469096.3474929
 %U https://aclanthology.org/G21-26001
-%U https://doi.org/10.1080/02626667.2021.1987440
-%P 2415-2430
+%U https://doi.org/10.1145/3469096.3474929
 

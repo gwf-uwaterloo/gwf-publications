@@ -1,17 +1,16 @@
 ﻿%0 Journal Article
-%T Designing for Real-Time Groupware Systems to Support Complex Scientific Data Analysis
-%A Mostaeen, Golam
+%T CLCDSA: Cross Language Code Clone Detection using Syntactical Features and API Documentation
+%A Nafi, Kawser Wazed
+%A Kar, Tonny Shekha
 %A Roy, Banani
-%A Roy, Chanchal
-%A Schneider, Kevin
-%J Proceedings of the ACM on Human-Computer Interaction, Volume 3, Issue EICS
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J 2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)
 %D 2019
-%V 3
-%I Association for Computing Machinery (ACM)
-%F Mostaeen-2019-Designing
-%X Scientific Workflow Management Systems (SWfMSs) have become popular for accelerating the specification, execution, visualization, and monitoring of data-intensive scientific experiments. Unfortunately, to the best of our knowledge no existing SWfMSs directly support collaboration. Data is increasing in complexity, dimensionality, and volume, and the efficient analysis of data often goes beyond the realm of an individual and requires collaboration with multiple researchers from varying domains. In this paper, we propose a groupware system architecture for data analysis that in addition to supporting collaboration, also incorporates features from SWfMSs to support modern data analysis processes. As a proof of concept for the proposed architecture we developed SciWorCS - a groupware system for scientific data analysis. We present two real-world use-cases: collaborative software repository analysis and bioinformatics data analysis. The results of the experiments evaluating the proposed system are promising. Our bioinformatics user study demonstrates that SciWorCS can leverage real-world data analysis tasks by supporting real-time collaboration among users.
-%R 10.1145/3331151
+%I IEEE
+%F Nafi-2019-CLCDSA:
+%X Software clones are detrimental to software maintenance and evolution and as a result many clone detectors have been proposed. These tools target clone detection in software applications written in a single programming language. However, a software application may be written in different languages for different platforms to improve the application’s platform compatibility and adoption by users of different platforms. Cross language clones (CLCs) introduce additional challenges when maintaining multi-platform applications and would likely go undetected using existing tools. In this paper, we propose CLCDSA, a cross language clone detector which can detect CLCs without extensive processing of the source code and without the need to generate an intermediate representation. The proposed CLCDSA model analyzes different syntactic features of source code across different programming languages to detect CLCs. To support large scale clone detection, the CLCDSA model uses an action filter based on cross language API call similarity to discard non-potential clones. The design methodology of CLCDSA is two-fold: (a) it detects CLCs on the fly by comparing the similarity of features, and (b) it uses a deep neural network based feature vector learning model to learn the features and detect CLCs. Early evaluation of the model observed an average precision, recall and F-measure score of 0.55, 0.86, and 0.64 respectively for the first phase and 0.61, 0.93, and 0.71 respectively for the second phase which indicates that CLCDSA outperforms all available models in detecting cross language clones.
+%R 10.1109/ase.2019.00099
 %U https://aclanthology.org/G19-130001
-%U https://doi.org/10.1145/3331151
-%P 1-28
+%U https://doi.org/10.1109/ase.2019.00099
 

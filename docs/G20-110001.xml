@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Marsh-2020-The">
+<mods ID="Meinen-2020-Mapping">
     <titleInfo>
-        <title>The Canadian Hydrological Model (CHM) v1.0: a multi-scale, multi-extent, variable-complexity hydrological model – design and overview</title>
+        <title>Mapping erosion and deposition in an agricultural landscape: Optimization of UAV image acquisition schemes for SfM-MVS</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christopher</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Benjamin</namePart>
+        <namePart type="given">U</namePart>
+        <namePart type="family">Meinen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Derek</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Robinson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,29 +27,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geoscientific Model Development, Volume 13, Issue 1</title>
+            <title>Remote Sensing of Environment, Volume 239</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. Despite debate in the rainfall–runoff hydrology literature about the merits of physics-based and spatially distributed models, substantial work in cold-region hydrology has shown improved predictive capacity by including physics-based process representations, relatively high-resolution semi-distributed and fully distributed discretizations, and the use of physically identifiable parameters that require limited calibration. While there is increasing motivation for modelling at hyper-resolution (&amp;lt; 1 km) and snowdrift-resolving scales (\approx 1 to 100 m), the capabilities of existing cold-region hydrological models are computationally limited at these scales. Here, a new distributed model, the Canadian Hydrological Model (CHM), is presented. Although designed to be applied generally, it has a focus for application where cold-region processes play a role in hydrology. Key features include the ability to do the following: capture spatial heterogeneity in the surface discretization in an efficient manner via variable-resolution unstructured meshes; include multiple process representations; change, remove, and decouple hydrological process algorithms; work at both a point and spatially distributed scale; scale to multiple spatial extents and scales; and utilize a variety of forcing fields (boundary and initial conditions). This paper focuses on the overall model philosophy and design, and it provides a number of cold-region-specific features and examples.</abstract>
-    <identifier type="citekey">Marsh-2020-The</identifier>
-    <identifier type="doi">10.5194/gmd-13-225-2020</identifier>
+    <abstract>Abstract Structure-from-motion (SfM) and multi-view stereo (MVS) algorithms coupled with the use of unmanned aerial vehicles (UAVs) have become a popular tool in the geosciences for modelling complex landscapes on-demand allowing for high-resolution topographic change-detection studies to be conducted at minimal cost. To identify the effects of UAV image orientation on the accuracy of SfM-MVS 3D surface models, we tested four different UAV image acquisition schemes that incorporated both nadir and oblique imagery of an agricultural field. The coupling of nadir and oblique imaging angles led to the highest surface model accuracy in the absence of ground control points (GCPs; vertical RMSE: 0.047 m, horizontal RMSE: 0.019 m), while with a normative distribution of GCPs the nadir-only image sets had similar accuracy metrics (vertical RMSE 0.028 m, horizontal RMSE 0.017 m) to surface models generated with nadir and oblique imaging angles (vertical RMSE 0.028 m, horizontal RMSE 0.013 m). Homologous keypoint matching between nadir and oblique imagery was poor when the survey conditions were bright and the surface texture of the field was homogeneous, leading to broad-scale vertical noise in the generated surface models. Results indicate that a nadir-only image set accompanied with a dense deployment of GCPs is the most ideal for SfM-MVS agricultural 3D surface reconstructions. The diachronic analysis of surface models generated from nadir-only image sets were able to detect surface-change \textgreater0.040 m in depth (i.e., rill and gully erosion, depositional zones) and were comparable to results obtained from a terrestrial laser scanner. Stable GCPs should be used where possible to ensure precise co-registration between subsequent UAV surveys.</abstract>
+    <identifier type="citekey">Meinen-2020-Mapping</identifier>
+    <identifier type="doi">10.1016/j.rse.2020.111666</identifier>
     <location>
         <url>https://aclanthology.org/G20-110001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>225</start>
-            <end>247</end>
-        </extent>
+        <detail type="volume"><number>239</number></detail>
+        <detail type="page"><number>111666</number></detail>
     </part>
 </mods>
 </modsCollection>

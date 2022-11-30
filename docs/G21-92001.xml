@@ -1,44 +1,432 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Neary-2021-A">
+<mods ID="Knox-2021-Identifying">
     <titleInfo>
-        <title>A new lake classification scheme for the Peace-Athabasca Delta (Canada) characterizes hydrological processes that cause lake-level variation</title>
+        <title>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Laura</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Neary</namePart>
+        <namePart type="given">Sara</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Knox</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Casey</namePart>
+        <namePart type="given">Sheel</namePart>
+        <namePart type="family">Bansal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gavin</namePart>
+        <namePart type="family">McNicol</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karina</namePart>
+        <namePart type="family">Schafer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cove</namePart>
+        <namePart type="family">Sturtevant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Masahito</namePart>
+        <namePart type="family">Ueyama</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alex</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Valach</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dennis</namePart>
+        <namePart type="family">Baldocchi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kyle</namePart>
+        <namePart type="family">Delwiche</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ankur</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">Remmer</namePart>
+        <namePart type="family">Desai</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jadine</namePart>
-        <namePart type="family">Krist</namePart>
+        <namePart type="given">Eugenie</namePart>
+        <namePart type="family">Euskirchen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brent</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Wolfe</namePart>
+        <namePart type="given">Jinxun</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roland</namePart>
+        <namePart type="given">Annalea</namePart>
+        <namePart type="family">Lohila</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Avni</namePart>
+        <namePart type="family">Malhotra</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lulie</namePart>
+        <namePart type="family">Melling</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">William</namePart>
+        <namePart type="family">Riley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Benjamin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Runkle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jessica</namePart>
+        <namePart type="family">Turner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rodrigo</namePart>
+        <namePart type="family">Vargas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qing</namePart>
+        <namePart type="family">Zhu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tuula</namePart>
+        <namePart type="family">Alto</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Etienne</namePart>
+        <namePart type="family">Fluet‐Chouinard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mathias</namePart>
+        <namePart type="family">Goeckede</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Joe</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Melton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oliver</namePart>
+        <namePart type="family">Sonnentag</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Timo</namePart>
+        <namePart type="family">Vesala</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Ward</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhen</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sarah</namePart>
+        <namePart type="family">Feron</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zutao</namePart>
+        <namePart type="family">Ouyang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pavel</namePart>
+        <namePart type="family">Alekseychik</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mika</namePart>
+        <namePart type="family">Aurela</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gil</namePart>
+        <namePart type="family">Bohrer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
         <namePart type="given">I</namePart>
-        <namePart type="family">Hall</namePart>
+        <namePart type="family">Campbell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jiquan</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Housen</namePart>
+        <namePart type="family">Chu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Higo</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Dalmagro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jordan</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Goodrich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pia</namePart>
+        <namePart type="family">Gottschalk</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Takashi</namePart>
+        <namePart type="family">Hirano</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hiroki</namePart>
+        <namePart type="family">Iwata</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gerald</namePart>
+        <namePart type="family">Jurasinski</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Minseok</namePart>
+        <namePart type="family">Kang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Franziska</namePart>
+        <namePart type="family">Koebsch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ivan</namePart>
+        <namePart type="family">Mammarella</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mats</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Nilsson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Keisuke</namePart>
+        <namePart type="family">Ono</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matthias</namePart>
+        <namePart type="family">Peichl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Olli</namePart>
+        <namePart type="family">Peltola</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Youngryel</namePart>
+        <namePart type="family">Ryu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Torsten</namePart>
+        <namePart type="family">Sachs</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ayaka</namePart>
+        <namePart type="family">Sakabe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jed</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Sparks</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Eeva‐Stiina</namePart>
+        <namePart type="family">Tuittila</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">George</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Vourlitis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guan</namePart>
+        <namePart type="given">X</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lisamarie</namePart>
+        <namePart type="family">Windham‐Myers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Benjamin</namePart>
+        <namePart type="family">Poulter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Robert</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Jackson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,25 +438,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology: Regional Studies, Volume 38</title>
+            <title>Global Change Biology, Volume 27, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The Peace-Athabasca Delta, a Ramsar Wetland of International Importance in northeastern Alberta, is protected within Wood Buffalo National Park and contributes to its UNESCO World Heritage status yet is threatened by climate change and upstream energy projects. Recent drawdown of the delta’s abundant shallow lakes and rivers has deteriorated vital habitat for wildlife and impaired navigation routes. Here, we report continuous measurements at ~50 lakes during open-water seasons of 2018 and 2019 to improve understanding of hydrological processes causing lake-level variation. Analyses reveal four patterns of lake-level variation attributable to influential hydrological processes, which provide the basis for a new lake classification scheme: 1) ‘Drawdown’ (\geq15 cm decline) by evaporation and/or outflow after ice-jam floods, 2) ‘Stable’ lake levels (\textless15 cm change) sustained by rainfall, 3) ‘Gradual Rise’ by inundation from the open-drainage network, and 4) ‘Rapid Rise’ by input of river floodwater. River flooding during the open-water season is an under-recognized recharge mechanism yet occurred extensively in the Athabasca sector and appears to be a common occurrence based on the Athabasca River hydrometric record. Lake-level loggers show strong ability to track shifts in hydrological processes, and can be integrated with other methods to decipher their causes and ecological consequences across water-rich landscapes. \bullet Concerns over lake drying in the Peace-Athabasca Delta motivated this study. \bullet Depth loggers captured lake-level responses to flooding, rainfall and evaporation. \bullet Four patterns comprise a new classification scheme for lakes in the PAD. \bullet Timing, magnitude and extent of open-water flooding was quantified. \bullet Open-water season river flooding identified as an important recharge mechanism.</abstract>
-    <identifier type="citekey">Neary-2021-A</identifier>
-    <identifier type="doi">10.1016/j.ejrh.2021.100948</identifier>
+    <abstract>While wetlands are the largest natural source of methane (CH4) to the atmosphere, they represent a large source of uncertainty in the global CH4 budget due to the complex biogeochemical controls on CH4 dynamics. Here we present, to our knowledge, the first multi-site synthesis of how predictors of CH4 fluxes (FCH4) in freshwater wetlands vary across wetland types at diel, multiday (synoptic), and seasonal time scales. We used several statistical approaches (correlation analysis, generalized additive modeling, mutual information, and random forests) in a wavelet-based multi-resolution framework to assess the importance of environmental predictors, nonlinearities and lags on FCH4 across 23 eddy covariance sites. Seasonally, soil and air temperature were dominant predictors of FCH4 at sites with smaller seasonal variation in water table depth (WTD). In contrast, WTD was the dominant predictor for wetlands with smaller variations in temperature (e.g., seasonal tropical/subtropical wetlands). Changes in seasonal FCH4 lagged fluctuations in WTD by ~17 \pm 11 days, and lagged air and soil temperature by median values of 8 \pm 16 and 5 \pm 15 days, respectively. Temperature and WTD were also dominant predictors at the multiday scale. Atmospheric pressure (PA) was another important multiday scale predictor for peat-dominated sites, with drops in PA coinciding with synchronous releases of CH4. At the diel scale, synchronous relationships with latent heat flux and vapor pressure deficit suggest that physical processes controlling evaporation and boundary layer mixing exert similar controls on CH4 volatilization, and suggest the influence of pressurized ventilation in aerenchymatous vegetation. In addition, 1- to 4-h lagged relationships with ecosystem photosynthesis indicate recent carbon substrates, such as root exudates, may also control FCH4. By addressing issues of scale, asynchrony, and nonlinearity, this work improves understanding of the predictors and timing of wetland FCH4 that can inform future studies and models, and help constrain wetland CH4 emissions.</abstract>
+    <identifier type="citekey">Knox-2021-Identifying</identifier>
+    <identifier type="doi">10.1111/gcb.15661</identifier>
     <location>
         <url>https://aclanthology.org/G21-92001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>38</number></detail>
-        <detail type="page"><number>100948</number></detail>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>15</number></detail>
+        <extent unit="page">
+            <start>3582</start>
+            <end>3604</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

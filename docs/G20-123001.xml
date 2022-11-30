@@ -1,26 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Pi-2020-A">
+<mods ID="Ratelle-2020-Food">
     <titleInfo>
-        <title>A DNA-based biosensor for aqueous Hg(II): Performance under variable pH, temperature and competing ligand composition</title>
+        <title>Food frequency questionnaire assessing traditional food consumption in Dene/Métis communities, Northwest Territories, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kunfu</namePart>
-        <namePart type="family">Pi</namePart>
+        <namePart type="given">Mylène</namePart>
+        <namePart type="family">Ratelle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Kelly</namePart>
+        <namePart type="family">Skinner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Sara</namePart>
+        <namePart type="family">Packull-McCormick</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Laird</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +39,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hazardous Materials, Volume 385</title>
+            <title>International Journal of Circumpolar Health, Volume 79, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Mercury (Hg) is a toxic metal posing major health risks to human beings and wildlife. The characterization of Hg fate and transport in aquatic environments is hindered by a lack of sensitive, selective and easily field-deployable analytical techniques. Here we assess the reliability and performance of a Hg2+ sensor based on the selective binding of Hg2+ to a thymine-rich DNA under environmentally-relevant conditions. Experimental results indicate that the interactions between the DNA and SYBR Green I, which produce the detection fluorescence signal, are significantly impacted by pH, metal ligands and natural dissolved organic matter (NDOM). These interferences are largely eliminated by immobilizing the DNA in a polyacrylamide hydrogel, although high concentrations of NDOM, such as fulvic acids, still affect the sensor’s performance due to competitive binding of Hg2+. The binding of Hg2+ to NDOM, however, can be accounted for via equilibrium speciation calculations, which also yield the complexation constant for Hg2+ binding to the DNA in the hydrogel. The equilibrium calculations reproduce the results for the entire set of experimental conditions, from simple electrolyte solutions to complex aqueous compositions mimicking natural lake waters, and across large ranges of pH (3-10) and temperature (5-50 °C).</abstract>
-    <identifier type="citekey">Pi-2020-A</identifier>
-    <identifier type="doi">10.1016/j.jhazmat.2019.121572</identifier>
+    <abstract>Food Frequency Questionnaires (FFQ) can be used to document food consumption and to estimate the intake of contaminants for Indigenous populations. The objective of this project was to refine and i...</abstract>
+    <identifier type="citekey">Ratelle-2020-Food</identifier>
+    <identifier type="doi">10.1080/22423982.2020.1760071</identifier>
     <location>
         <url>https://aclanthology.org/G20-123001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>385</number></detail>
-        <detail type="page"><number>121572</number></detail>
+        <detail type="volume"><number>79</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

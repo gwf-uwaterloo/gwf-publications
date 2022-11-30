@@ -1,45 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Aukes-2021-&lt;scp&gt;Size‐based&lt;/scp&gt;">
+<mods ID="Vionnet-2021-Canadian">
     <titleInfo>
-        <title>\textlessscp\textgreaterSize‐based\textless/scp\textgreater characterization of freshwater dissolved organic matter finds similarities within a waterbody type across different Canadian ecozones</title>
+        <title>Canadian historical Snow Water Equivalent dataset (CanSWE, 1928–2020)</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Pieter</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Aukes</namePart>
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Vionnet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
+        <namePart type="given">Colleen</namePart>
+        <namePart type="family">Mortimer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Venkiteswaran</namePart>
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Brady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Elgood</namePart>
+        <namePart type="given">Louise</namePart>
+        <namePart type="family">Arnal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Spoelstra</namePart>
+        <namePart type="given">Ross</namePart>
+        <namePart type="family">Brown</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -51,27 +46,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Limnology and Oceanography Letters, Volume 6, Issue 2</title>
+            <title>Earth System Science Data, Volume 13, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Aukes-2021-&lt;scp&gt;Size‐based&lt;/scp&gt;</identifier>
-    <identifier type="doi">10.1002/lol2.10180</identifier>
+    <abstract>Abstract. In situ measurements of water equivalent of snow cover (SWE) – the vertical depth of water that would be obtained if all the snow cover melted completely – are used in many applications including water management, flood forecasting, climate monitoring, and evaluation of hydrological and land surface models. The Canadian historical SWE dataset (CanSWE) combines manual and automated pan-Canadian SWE observations collected by national, provincial and territorial agencies as well as hydropower companies. Snow depth (SD) and bulk snow density (defined as the ratio of SWE to SD) are also included when available. This new dataset supersedes the previous Canadian Historical Snow Survey (CHSSD) dataset published by Brown et al. (2019), and this paper describes the efforts made to correct metadata, remove duplicate observations and quality control records. The CanSWE dataset was compiled from 15 different sources and includes SWE information for all provinces and territories that measure SWE. Data were updated to July 2020, and new historical data from the Government of Northwest Territories, Government of Newfoundland and Labrador, Saskatchewan Water Security Agency, and Hydro-Québec were included. CanSWE includes over 1 million SWE measurements from 2607 different locations across Canada over the period 1928–2020. It is publicly available at https://doi.org/10.5281/zenodo.4734371 (Vionnet et al., 2021).</abstract>
+    <identifier type="citekey">Vionnet-2021-Canadian</identifier>
+    <identifier type="doi">10.5194/essd-13-4603-2021</identifier>
     <location>
         <url>https://aclanthology.org/G21-73001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>6</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>85</start>
-            <end>95</end>
+            <start>4603</start>
+            <end>4619</end>
         </extent>
     </part>
 </mods>

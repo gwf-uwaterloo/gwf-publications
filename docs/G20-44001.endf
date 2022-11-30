@@ -1,14 +1,18 @@
 ﻿%0 Journal Article
-%T SemanticCloneBench: A Semantic Code Clone Benchmark using Crowd-Source Knowledge
-%A Al-Omari, Farouq
-%A Roy, Chanchal K.
-%A Chen, Tonghao
-%J 2020 IEEE 14th International Workshop on Software Clones (IWSC)
+%T Time Variant Sensitivity Analysis of Hydrological Model Parameters in a Cold Region Using Flow Signatures
+%A Bajracharya, Ajay
+%A Awoye, Hervé
+%A Stadnyk, Tricia
+%A Asadzadeh, Masoud
+%J Water, Volume 12, Issue 4
 %D 2020
-%I IEEE
-%F Al-Omari-2020-SemanticCloneBench:
-%X Not only do newly proposed code clone detection techniques, but existing techniques and tools also need to be evaluated and compared. This evaluation process could be done by assessing the reported clones manually or by using benchmarks. The main limitations of available benchmarks include: they are restricted to one programming language; they have a limited number of clone pairs that are confined within the selected system(s); they require manual validation; they do not support all types of code clones. To overcome these limitations, we proposed a methodology to generate a wide range of semantic clone benchmark(s) for different programming languages with minimal human validation. Our technique is based on the knowledge provided by developers who participate in the crowd-sourced information website, Stack Overflow. We applied automatic filtering, selection and validation to the source code in Stack Overflow answers. Finally, we build a semantic code clone benchmark of 4000 clones pairs for the languages Java, C, C# and Python.
-%R 10.1109/iwsc50091.2020.9047643
+%V 12
+%N 4
+%I MDPI AG
+%F Bajracharya-2020-Time
+%X The complex terrain, seasonality, and cold region hydrology of the Nelson Churchill River Basin (NCRB) presents a formidable challenge for hydrological modeling, which complicates the calibration of model parameters. Seasonality leads to different hydrological processes dominating at different times of the year, which translates to time variant sensitivity in model parameters. In this study, Hydrological Predictions for the Environment model (HYPE) is set up in the NCRB to analyze the time variant sensitivity analysis (TVSA) of model parameters using a Global Sensitivity Analysis technique known as Variogram Analysis of Response Surfaces (VARS). TVSA can identify parameters that are highly influential in a short period but relatively uninfluential over the whole simulation period. TVSA is generally effective in identifying model’s sensitivity to event-based parameters related to cold region processes such as snowmelt and frozen soil. This can guide event-based calibration, useful for operational flood forecasting. In contrast to residual based metrics, flow signatures, specifically the slope of the mid-segment of the flow duration curve, allows VARS to detect the influential parameters throughout the timescale of analysis. The results are beneficial for the calibration process in complex and multi-dimensional models by targeting the informative parameters, which are associated with the cold region hydrological processes.
+%R 10.3390/w12040961
 %U https://aclanthology.org/G20-44001
-%U https://doi.org/10.1109/iwsc50091.2020.9047643
+%U https://doi.org/10.3390/w12040961
+%P 961
 

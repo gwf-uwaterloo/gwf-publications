@@ -1,49 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Paik-2020-Determining">
+<mods ID="Paul-2020-Spatial">
     <titleInfo>
-        <title>Determining the Anthropogenic Greenhouse Gas Contribution to the Observed Intensification of Extreme Precipitation</title>
+        <title>Spatial and stratigraphic variation of near‐surface ground ice in discontinuous permafrost of the taiga shield</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Seungmok</namePart>
-        <namePart type="family">Paik</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Paul</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Seung‐Ki</namePart>
-        <namePart type="family">Min</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Kokelj</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xuebin</namePart>
-        <namePart type="family">Zhang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Markus</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Donat</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">King</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiaohong</namePart>
-        <namePart type="family">Sun</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -55,24 +35,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geophysical Research Letters, Volume 47, Issue 12</title>
+            <title>Permafrost and Periglacial Processes, Volume 32, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Paik-2020-Determining</identifier>
-    <identifier type="doi">10.1029/2019gl086875</identifier>
+    <identifier type="citekey">Paul-2020-Spatial</identifier>
+    <identifier type="doi">10.1002/ppp.2085</identifier>
     <location>
         <url>https://aclanthology.org/G20-120001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>47</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>32</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>3</start>
+            <end>18</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

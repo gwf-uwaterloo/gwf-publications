@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Leroux-2019-Simulation">
+<mods ID="Li-2019-How">
     <titleInfo>
-        <title>Simulation of Capillary Pressure Overshoot in Snow Combining Trapping of the Wetting Phase With a Nonequilibrium Richards Equation Model</title>
+        <title>How Much Information Is Required to Well Constrain Local Estimates of Future Precipitation Extremes?</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nicolas</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Leroux</namePart>
+        <namePart type="given">Chao</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Francis</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guilong</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,7 +39,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 55, Issue 1</title>
+            <title>Earth’s Future, Volume 7, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -36,18 +48,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Leroux-2019-Simulation</identifier>
-    <identifier type="doi">10.1029/2018wr022969</identifier>
+    <identifier type="citekey">Li-2019-How</identifier>
+    <identifier type="doi">10.1029/2018ef001001</identifier>
     <location>
         <url>https://aclanthology.org/G19-90001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>55</number></detail>
+        <detail type="volume"><number>7</number></detail>
         <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>236</start>
-            <end>248</end>
+            <start>11</start>
+            <end>24</end>
         </extent>
     </part>
 </mods>

@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Das-2022-A">
+<mods ID="Zhang-2022-Climate">
     <titleInfo>
-        <title>A stochastic modelling approach to forecast real-time ice jam flood severity along the transborder (New Brunswick/Maine) Saint John River of North America</title>
+        <title>Climate change impacts on ice jam behavior in an inland delta: a new ice jam projection framework</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Apurba</namePart>
-        <namePart type="family">Das</namePart>
+        <namePart type="given">Fan</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sujata</namePart>
-        <namePart type="family">Budhathoki</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="family">Elshamy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,7 +32,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Stochastic Environmental Research and Risk Assessment, Volume 36, Issue 7</title>
+            <title>Climatic Change, Volume 171, Issue 1-2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -41,19 +41,15 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Das-2022-A</identifier>
-    <identifier type="doi">10.1007/s00477-022-02234-x</identifier>
+    <identifier type="citekey">Zhang-2022-Climate</identifier>
+    <identifier type="doi">10.1007/s10584-022-03312-3</identifier>
     <location>
         <url>https://aclanthology.org/G22-37001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>36</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <extent unit="page">
-            <start>1903</start>
-            <end>1915</end>
-        </extent>
+        <detail type="volume"><number>171</number></detail>
+        <detail type="issue"><number>1-2</number></detail>
     </part>
 </mods>
 </modsCollection>

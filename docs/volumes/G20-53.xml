@@ -1,35 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bergstedt-2020-Influence">
+<mods ID="Bondaruk-2020-Assessing">
     <titleInfo>
-        <title>Influence of surface water on coarse resolution C-band backscatter: Implications for freeze/thaw retrieval from scatterometer data</title>
+        <title>Assessing the state of the art in Discrete Global Grid Systems: OGC criteria and present functionality</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Helena</namePart>
-        <namePart type="family">Bergstedt</namePart>
+        <namePart type="given">Ben</namePart>
+        <namePart type="family">Bondaruk</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Annett</namePart>
-        <namePart type="family">Bartsch</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Roberts</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Claude</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Duguay</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Jones</namePart>
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,24 +33,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 247</title>
+            <title>Geomatica, Volume 74, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bergstedt-2020-Influence</identifier>
-    <identifier type="doi">10.1016/j.rse.2020.111911</identifier>
+    <identifier type="citekey">Bondaruk-2020-Assessing</identifier>
+    <identifier type="doi">10.1139/geomat-2019-0015</identifier>
     <location>
         <url>https://aclanthology.org/G20-53001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>247</number></detail>
-        <detail type="page"><number>111911</number></detail>
+        <detail type="volume"><number>74</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>9</start>
+            <end>30</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

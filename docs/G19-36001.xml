@@ -1,34 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cai-2019-Evaluation">
+<mods ID="Casson-2019-Hydrological">
     <titleInfo>
-        <title>Evaluation of Gridded Precipitation Data and Interpolation Methods for Forest Fire Danger Rating in Alberta, Canada</title>
+        <title>Hydrological and Seasonal Controls of Phosphorus in Northern Great Plains Agricultural Streams</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Xinli</namePart>
-        <namePart type="family">Cai</namePart>
+        <namePart type="given">Nora</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Casson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xianli</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Henry</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Wilson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Piyush</namePart>
-        <namePart type="family">Jain</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Flannigan</namePart>
+        <namePart type="given">Stephanie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Higgins</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,27 +35,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Geophysical Research: Atmospheres, Volume 124, Issue 1</title>
+            <title>Journal of Environmental Quality, Volume 48, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cai-2019-Evaluation</identifier>
-    <identifier type="doi">10.1029/2018jd028754</identifier>
+    <abstract>Controls on nutrient transport in cold, low-relief agricultural regions vary dramatically among seasons. The spring snowmelt is often the dominant runoff and nutrient loading event of the year. However, climate change may increase the proportion of runoff occurring with rainfall, and there is an urgent need to understand seasonal controls on nutrient transport to understand how patterns may change in the future. In this study, we assess patterns and drivers of total P (TP) dynamics in eight streams draining agriculturally dominated watersheds, located in southern Manitoba, Canada. Data from three years of monitoring revealed highly coherent patterns of TP concentrations in streams, with pronounced peaks in the spring and midsummer across the region. This coherent pattern was in spite of considerable interannual variability in the magnitude and timing of discharge; in particular, a major storm event occurred in summer 2014, which resulted in more discharge than the preceding spring melt. Concentration-discharge model fits were generally poor or not significant, suggesting that runoff generation is not the primary driver of TP dynamics in the majority of streams. Seasonal patterns of conductivity and stream temperature suggest that mechanisms controlling TP vary by season; a spring TP concentration maximum may be related to surface runoff over frozen soils, whereas the summer TP maximum may be related to temperature-driven biogeochemical processes, which are not well represented in current conceptual or predictive models. These findings suggest that controls on stream TP concentrations are dynamic through the year, and responses to increases in dormant and nondormant season temperatures may depend on seasonally variable processes.</abstract>
+    <identifier type="citekey">Casson-2019-Hydrological</identifier>
+    <identifier type="doi">10.2134/jeq2018.07.0281</identifier>
     <location>
         <url>https://aclanthology.org/G19-36001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>124</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>48</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>3</start>
-            <end>17</end>
+            <start>978</start>
+            <end>987</end>
         </extent>
     </part>
 </mods>

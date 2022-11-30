@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zaerpour-2021-Informing">
+<mods ID="Moccia-2021-Spatial">
     <titleInfo>
-        <title>Informing Stochastic Streamflow Generation by Large-Scale Climate Indices at Single and Multiple Sites</title>
+        <title>Spatial variability of precipitation extremes over Italy using a fine-resolution gridded product</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Masoud</namePart>
-        <namePart type="family">Zaerpour</namePart>
+        <namePart type="given">Benedetta</namePart>
+        <namePart type="family">Moccia</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -20,8 +20,15 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ali</namePart>
-        <namePart type="family">Nazemi</namePart>
+        <namePart type="given">Fabio</namePart>
+        <namePart type="family">Russo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francesco</namePart>
+        <namePart type="family">Napolitano</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,7 +40,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Advances in Water Resources, Volume 156</title>
+            <title>Journal of Hydrology: Regional Studies, Volume 37</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -42,15 +49,15 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Zaerpour-2021-Informing</identifier>
-    <identifier type="doi">10.1016/j.advwatres.2021.104037</identifier>
+    <identifier type="citekey">Moccia-2021-Spatial</identifier>
+    <identifier type="doi">10.1016/j.ejrh.2021.100906</identifier>
     <location>
         <url>https://aclanthology.org/G21-111001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>156</number></detail>
-        <detail type="page"><number>104037</number></detail>
+        <detail type="volume"><number>37</number></detail>
+        <detail type="page"><number>100906</number></detail>
     </part>
 </mods>
 </modsCollection>

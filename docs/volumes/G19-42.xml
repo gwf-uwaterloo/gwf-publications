@@ -1,35 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cholette-2019-Parameterization">
+<mods ID="Clark-2019-The">
     <titleInfo>
-        <title>Parameterization of the Bulk Liquid Fraction on Mixed-Phase Particles in the Predicted Particle Properties (P3) Scheme: Description and Idealized Simulations</title>
+        <title>The initial three years of carbon dioxide exchange between the atmosphere and a reclaimed oil sand wetland</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mélissa</namePart>
-        <namePart type="family">Cholette</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hugh</namePart>
-        <namePart type="family">Morrison</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Milbrandt</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Julie</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Thériault</namePart>
+        <namePart type="given">Graham</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Elyn</namePart>
+        <namePart type="family">Humphreys</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,27 +34,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of the Atmospheric Sciences, Volume 76, Issue 2</title>
+            <title>Ecological Engineering, Volume 135</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cholette-2019-Parameterization</identifier>
-    <identifier type="doi">10.1175/jas-d-18-0278.1</identifier>
+    <identifier type="citekey">Clark-2019-The</identifier>
+    <identifier type="doi">10.1016/j.ecoleng.2019.05.016</identifier>
     <location>
         <url>https://aclanthology.org/G19-42001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>76</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>135</number></detail>
         <extent unit="page">
-            <start>561</start>
-            <end>582</end>
+            <start>116</start>
+            <end>126</end>
         </extent>
     </part>
 </mods>

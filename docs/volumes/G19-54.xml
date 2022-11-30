@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Duguay-2019-Advancement">
+<mods ID="Eicher-Sodo-2019-Characterizing">
     <titleInfo>
-        <title>Advancement in Bedfast Lake ICE Mapping From Sentinel-1 Sar Data</title>
+        <title>Characterizing the Phytotoxic Effects of Hydrogen Peroxide on Common Microgreen Species and Lettuce Cultivars</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Claude</namePart>
-        <namePart type="family">Duguay</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="family">Eicher-Sodo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Junqian</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Robert</namePart>
+        <namePart type="family">Gordon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Youbin</namePart>
+        <namePart type="family">Zheng</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,96 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium</title>
+            <title>HortTechnology, Volume 29, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IEEE</publisher>
+            <publisher>American Society for Horticultural Science</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Duguay-2019-Advancement</identifier>
-    <identifier type="doi">10.1109/igarss.2019.8900650</identifier>
+    <identifier type="citekey">Eicher-Sodo-2019-Characterizing</identifier>
+    <identifier type="doi">10.21273/horttech04255-18</identifier>
     <location>
         <url>https://aclanthology.org/G19-54001</url>
     </location>
     <part>
         <date>2019</date>
-    </part>
-</mods>
-<mods ID="Kang-2019-Operating">
-    <titleInfo>
-        <title>Operating Procedures and Calibration of a Hyperspectral Sensor Onboard a Remotely Piloted Aircraft System For Water and Agriculture Monitoring</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">Kyung-Kuk</namePart>
-        <namePart type="family">Kang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Marie</namePart>
-        <namePart type="family">Hoekstra</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Marzieh</namePart>
-        <namePart type="family">Foroutan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="given">Masoud</namePart>
-        <namePart type="family">Chegoonian</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kiana</namePart>
-        <namePart type="family">Zolfaghari</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Claude</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Duguay</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2019</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>IEEE</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Kang-2019-Operating</identifier>
-    <identifier type="doi">10.1109/igarss.2019.8900128</identifier>
-    <location>
-        <url>https://aclanthology.org/G19-54002</url>
-    </location>
-    <part>
-        <date>2019</date>
+        <detail type="volume"><number>29</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>283</start>
+            <end>289</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

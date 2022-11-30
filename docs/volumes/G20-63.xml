@@ -1,41 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Carr-2020-Impacts">
+<mods ID="Costa-2020-Modelling">
     <titleInfo>
-        <title>Impacts of Varying Dam Outflow Elevations on Water Temperature, Dissolved Oxygen, and Nutrient Distributions in a Large Prairie Reservoir</title>
+        <title>Modelling nutrient dynamics in cold agricultural catchments: A review</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Meghan</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carr</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">Sadeghian</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karsten</namePart>
-        <namePart type="family">Rinke</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Luis</namePart>
-        <namePart type="family">Morales-Marin</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -47,28 +46,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Engineering Science, Volume 37, Issue 1</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 124</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Mary Ann Liebert Inc</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Carr-2020-Impacts</identifier>
-    <identifier type="doi">10.1089/ees.2019.0146</identifier>
+    <identifier type="citekey">Costa-2020-Modelling</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2019.104586</identifier>
     <location>
         <url>https://aclanthology.org/G20-63001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>37</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>78</start>
-            <end>97</end>
-        </extent>
+        <detail type="volume"><number>124</number></detail>
+        <detail type="page"><number>104586</number></detail>
     </part>
 </mods>
 </modsCollection>

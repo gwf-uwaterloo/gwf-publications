@@ -1,21 +1,14 @@
 ﻿%0 Journal Article
-%T Subwatershed-based lake and river routing products for hydrologic and land surface models applied over Canada
-%A Han, Ming
-%A Mai, Juliane
-%A Tolson, Bryan A.
-%A Craig, James R.
-%A Gaborit, Étienne
-%A Liu, Hongli
-%A Lee, Konhee
-%J Canadian Water Resources Journal / Revue canadienne des ressources hydriques, Volume 45, Issue 3
+%T Tracing shapes with eyes
+%A Hasan, Mohammad Rakib
+%A Mondal, Debajyoti
+%A Gutwin, Carl
+%J Proceedings of the 11th Augmented Human International Conference
 %D 2020
-%V 45
-%N 3
-%I Informa UK Limited
-%F Han-2020-Subwatershed-based
-%X Lakes and reservoirs have critical impacts on hydrological, biogeochemical, and ecological processes, and they should be an essential component of regional-scale hydrological and eco-hydrological m...
-%R 10.1080/07011784.2020.1772116
+%I ACM
+%F Hasan-2020-Tracing
+%X Eye tracking systems can provide people with severe motor impairments a way to communicate through gaze-based interactions. Such systems transform a user’s gaze input into mouse pointer coordinates that can trigger keystrokes on an on-screen keyboard. However, typing using this approach requires large back-and-forth eye movements, and the required effort depends both on the length of the text and the keyboard layout. Motivated by the idea of sketch-based image search, we explore a gaze-based approach where users draw a shape on a sketchpad using gaze input, and the shape is used to search for similar letters, words, and other predefined controls. The sketch-based approach is area efficient (compared to an on-screen keyboard), allows users to create custom commands, and creates opportunities for gaze-based authentication. Since variation in the drawn shapes makes the search difficult, the system can show a guide (e.g., a 14-segment digital display) on the sketchpad so that users can trace their desired shape. In this paper, we take a first step that investigates the feasibility of the sketch-based approach, by examining how well users can trace a given shape using gaze input. We designed an interface where participants traced a set of given shapes. We then compared the similarity of the drawn and traced shapes. Our study results show the potential of the sketch-based approach: users were able to trace shapes reasonably well using gaze input, even for complex shapes involving three letters; shape tracing accuracy for gaze was better than ‘free-form’ hand drawing. We also report on how different shape complexities influence the time and accuracy of the shape tracing tasks.
+%R 10.1145/3396339.3396390
 %U https://aclanthology.org/G20-86001
-%U https://doi.org/10.1080/07011784.2020.1772116
-%P 237-251
+%U https://doi.org/10.1145/3396339.3396390
 

@@ -1,75 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wang-2021-On">
+<mods ID="BenAlaya-2021-On">
     <titleInfo>
-        <title>On the Optimal Design of Field Significance Tests for Changes in Climate Extremes</title>
+        <title>On estimating long period wind speed return levels from annual maxima</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jianyu</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ben Alaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chao</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Francis</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="given">W</namePart>
         <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xuebin</namePart>
+        <namePart type="given">X</namePart>
         <namePart type="family">Zhang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Guilong</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhihong</namePart>
-        <namePart type="family">Jiang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Panmao</namePart>
-        <namePart type="family">Zhai</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ying</namePart>
-        <namePart type="family">Sun</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhen</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qun</namePart>
-        <namePart type="family">Yue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -81,24 +34,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geophysical Research Letters, Volume 48, Issue 9</title>
+            <title>Weather and Climate Extremes, Volume 34</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Wang-2021-On</identifier>
-    <identifier type="doi">10.1029/2021gl092831</identifier>
+    <identifier type="citekey">Ben Alaya-2021-On</identifier>
+    <identifier type="doi">10.1016/j.wace.2021.100388</identifier>
     <location>
         <url>https://aclanthology.org/G21-136001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>48</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="page"><number>100388</number></detail>
     </part>
 </mods>
 </modsCollection>

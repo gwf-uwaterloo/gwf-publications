@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Jansen-2021-Mimicry">
+<mods ID="Clark-Vogel-2021-The-Abuse">
     <titleInfo>
-        <title>Mimicry of a Conceptual Hydrological Model (HBV): What’s in a Name?</title>
+        <title>The Abuse of Popular Performance Metrics in Hydrologic Modeling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Koen</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Jansen</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adriaan</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Teuling</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Vogel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">James</namePart>
+        <namePart type="given">Jonathan</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">Craig</namePart>
+        <namePart type="family">Lamontagne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marco</namePart>
-        <namePart type="family">Dal Molin</namePart>
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -45,23 +45,47 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juraj</namePart>
-        <namePart type="family">Parajka</namePart>
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marc</namePart>
-        <namePart type="family">Vis</namePart>
+        <namePart type="given">Shervan</namePart>
+        <namePart type="family">Gharari</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lieke</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Melsen</namePart>
+        <namePart type="given">Jim</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Freer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -73,7 +97,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 57, Issue 5</title>
+            <title>Water Resources Research, Volume 57, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -82,16 +106,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Models that mimic an original model might have a different model structure than the original model, that affects model output. This study assesses model structure differences and their impact on output by comparing 7 model implementations that carry the name HBV. We explain and quantify output differences with individual model structure components at both the numerical (e.g., explicit/implicit scheme) and mathematical level (e.g., lineair/power outflow). It was found that none of the numerical and mathematical formulations of the mimicking models were (originally) the same as the benchmark, HBV-light. This led to small but distinct output differences in simulated streamflow for different numerical implementations (KGE difference up to 0.15), and major output differences due to mathematical differences (KGE median loss of 0.27). These differences decreased after calibrating the individual models to the simulated streamflow of the benchmark model. We argue that the lack of systematic model naming has led to a diverging concept of the HBV-model, diminishing the concept of model mimicry. Development of a systematic model naming framework, open accessible model code and more elaborate model descriptions are suggested to enhance model mimicry and model development.</abstract>
-    <identifier type="citekey">Jansen-2021-Mimicry</identifier>
-    <identifier type="doi">10.1029/2020wr029143</identifier>
+    <abstract>The goal of this commentary is to critically evaluate the use of popular performance metrics in hydrologic modeling. We focus on the Nash-Sutcliffe Efficiency (NSE) and the Kling-Gupta Efficiency (KGE) metrics, which are both widely used in hydrologic research and practice around the world. Our specific objectives are: (a) to provide tools that quantify the sampling uncertainty in popular performance metrics; (b) to quantify sampling uncertainty in popular performance metrics across a large sample of catchments; and (c) to prescribe the further research that is, needed to improve the estimation, interpretation, and use of popular performance metrics in hydrologic modeling. Our large-sample analysis demonstrates that there is substantial sampling uncertainty in the NSE and KGE estimators. This occurs because the probability distribution of squared errors between model simulations and observations has heavy tails, meaning that performance metrics can be heavily influenced by just a few data points. Our results highlight obvious (yet ignored) abuses of performance metrics that contaminate the conclusions of many hydrologic modeling studies: It is essential to quantify the sampling uncertainty in performance metrics when justifying the use of a model for a specific purpose and when comparing the performance of competing models.</abstract>
+    <identifier type="citekey">Clark-Vogel-2021-The-Abuse</identifier>
+    <identifier type="doi">10.1029/2020wr029001</identifier>
     <location>
         <url>https://aclanthology.org/G21-57001</url>
     </location>
     <part>
         <date>2021</date>
         <detail type="volume"><number>57</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="issue"><number>9</number></detail>
     </part>
 </mods>
 </modsCollection>

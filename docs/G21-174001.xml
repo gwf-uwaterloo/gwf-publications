@@ -1,36 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Shea-2021-The">
+<mods ID="Munir-2021-Thermal">
     <titleInfo>
-        <title>The Role of Basin Geometry in Mountain Snowpack Responses to Climate Change</title>
+        <title>Thermal Characteristics of a Beaver Dam Analogues Equipped Spring-Fed Creek in the Canadian Rockies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Joseph</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Shea</namePart>
+        <namePart type="given">Tariq</namePart>
+        <namePart type="family">Munir</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Paul</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Whitfield</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xing</namePart>
-        <namePart type="family">Fang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Cherie</namePart>
+        <namePart type="family">Westbrook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,24 +25,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Water, Volume 3</title>
+            <title>Water, Volume 13, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Snowmelt contributions to streamflow in mid-latitude mountain basins typically dominate other runoff sources on annual and seasonal timescales. Future increases in temperature and changes in precipitation will affect both snow accumulation and seasonal runoff timing and magnitude, but the underlying and fundamental roles of mountain basin geometry and hypsometry on snowmelt sensitivity have received little attention. To investigate the role of basin geometry in snowmelt sensitivity, a linear snow accumulation model and the Cold Regions Hydrological Modeling (CRHM) platform driven are used to estimate how hypsometry affects basin-wide snow volumes and snowmelt runoff. Area-elevation distributions for fifty basins in western Canada were extracted, normalized according to their elevation statistics, and classified into three clusters that represent top-heavy, middle, and bottom-heavy basins. Prescribed changes in air temperature alter both the snow accumulation gradient and the total snowmelt energy, leading to snowpack volume reductions (10–40%), earlier melt onsets (1–4 weeks) and end of melt season (3 weeks), increases in early spring melt rates and reductions in seasonal areal melt rates (up to 50%). Basin hypsometry controls the magnitude of the basin response. The most sensitive basins are bottom-heavy, and have a greater proportion of their area at low elevations. The least sensitive basins are top-heavy, and have a greater proportion of their area at high elevations. Basins with similar proportional areas at high and low elevations fall in between the others in terms of sensitivity and other metrics. This work provides context for anticipating the impacts of ongoing hydrological change due to climate change, and provides guidance for both monitoring networks and distributed modeling efforts.</abstract>
-    <identifier type="citekey">Shea-2021-The</identifier>
-    <identifier type="doi">10.3389/frwa.2021.604275</identifier>
+    <abstract>Beaver dam analogues (BDAs) are becoming an increasingly popular stream restoration technique. One ecological function BDAs might help restore is suitable habitat conditions for fish in streams where loss of beaver dams and channel incision has led to their decline. A critical physical characteristic for fish is stream temperature. We examined the thermal regime of a spring-fed Canadian Rocky Mountain stream in relation to different numbers of BDAs installed in series over three study periods (April–October; 2017–2019). While all BDA configurations significantly influenced stream and pond temperatures, single- and double-configuration BDAs incrementally increased stream temperatures. Single and double configuration BDAs warmed the downstream waters of mean maxima of 9.9, 9.3 °C by respective mean maxima of 0.9 and 1.0 °C. Higher pond and stream temperatures occurred when ponding and discharge decreased, and vice versa. In 2019, variation in stream temperature below double-configuration BDAs was lower than the single-configuration BDA. The triple-configuration BDA, in contrast, cooled the stream, although the mean maximum stream temperature was the highest below these structures. Ponding upstream of BDAs increased discharge and resulted in cooling of the stream. Rainfall events sharply and transiently reduced stream temperatures, leading to a three-way interaction between BDA configuration, rainfall and stream discharge as factors co-influencing the stream temperature regime. Our results have implications for optimal growth of regionally important and threatened bull and cutthroat trout fish species.</abstract>
+    <identifier type="citekey">Munir-2021-Thermal</identifier>
+    <identifier type="doi">10.3390/w13070990</identifier>
     <location>
         <url>https://aclanthology.org/G21-174001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>3</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <detail type="page"><number>990</number></detail>
     </part>
 </mods>
 </modsCollection>

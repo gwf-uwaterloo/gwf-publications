@@ -1,18 +1,22 @@
 ﻿%0 Journal Article
-%T An Exploratory Study to Find Motives Behind Cross-platform Forks from Software Heritage Dataset
-%A Bhattacharjee, Avijit
-%A Nath, Sristy Sumana
-%A Zhou, Shurui
-%A Chakroborti, Debasish
-%A Roy, Banani
-%A Roy, Chanchal K.
-%A Schneider, Kevin
-%J Proceedings of the 17th International Conference on Mining Software Repositories
+%T Towards indigenous community-led monitoring of fish in the oil sands region of Canada: Lessons at the intersection of cultural consensus and fish science
+%A Brunet, Nicolas D.
+%A Jardine, Timothy D.
+%A Jones, Paul D.
+%A Macdermid, Findlay
+%A Reed, Graeme
+%A Bogdan, Ana-Maria
+%A Tchir, Devan R.
+%A Natcher, David C.
+%J The Extractive Industries and Society, Volume 7, Issue 4
 %D 2020
-%I ACM
-%F Bhattacharjee-2020-An
-%X The fork-based development mechanism provides the flexibility and the unified processes for software teams to collaborate easily in a distributed setting without too much coordination overhead.Currently, multiple social coding platforms support fork-based development, such as GitHub, GitLab, and Bitbucket. Although these different platforms virtually share the same features, they have different emphasis. As GitHub is the most popular platform and the corresponding data is publicly available, most of the current studies are focusing on GitHub hosted projects. However, we observed anecdote evidences that people are confused about choosing among these platforms, and some projects are migrating from one platform to another, and the reasons behind these activities remain unknown.With the advances of Software Heritage Graph Dataset (SWHGD),we have the opportunity to investigate the forking activities across platforms. In this paper, we conduct an exploratory study on 10popular open-source projects to identify cross-platform forks and investigate the motivation behind. Preliminary result shows that cross-platform forks do exist. For the 10 subject systems in this study, we found 81,357 forks in total among which 179 forks are on GitLab. Based on our qualitative analysis, we found that most of the cross-platform forks that we identified are mirrors of the repositories on another platform, but we still find cases that were created due to preference of using certain functionalities (e.g. Continuous Integration (CI)) supported by different platforms. This study lays the foundation of future research directions, such as understanding the differences between platforms and supporting cross-platform collaboration.
-%R 10.1145/3379597.3387512
+%V 7
+%N 4
+%I Elsevier BV
+%F Brunet-2020-Towards
+%X Abstract In the Oil Sands Regions of Alberta, Canada, Indigenous reassertion of rights and responsibilities has lead to a renewed leadership in monitoring the effects of industries on various environment receptors. This study, conducted with Cold Lake First Nations, Alberta (CLFN), sought to explore local concerns regarding fish consumption safety and population health in response to multiple anthropogenic stressors focusing upon oil extraction. We undertook this work using a novel research design comprised of two distinct approaches including a participatory fish health and toxicology study and a cultural consensus survey of CLFN members. The cultural consensus study assessed similarities and differences in knowledge and perceptions of CLFN members. The fish toxicology and health research involved implementing a co-designed protocol to collect and sample fish for toxicants and overall population health using scientific indicators. We discuss the results of each study as well as the tangible application of our work in achieving a Multiple Evidence Base approach. Our work highlights that complementarities between our studies as part of a negotiated research process can form a single cohesive narrative to better inform fisheries management while respecting community knowledge, culture and rights to access land, water and country foods.
+%R 10.1016/j.exis.2020.06.014
 %U https://aclanthology.org/G20-55001
-%U https://doi.org/10.1145/3379597.3387512
+%U https://doi.org/10.1016/j.exis.2020.06.014
+%P 1319-1329
 

@@ -1,48 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kahsay-2019-A">
+<mods ID="Kettridge-2019-Severe">
     <titleInfo>
-        <title>A hybrid partial and general equilibrium modeling approach to assess the hydro-economic impacts of large dams – The case of the Grand Ethiopian Renaissance Dam in the Eastern Nile River basin</title>
+        <title>Severe wildfire exposes remnant peat carbon stocks to increased post-fire drying</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Tewodros</namePart>
-        <namePart type="given">Negash</namePart>
-        <namePart type="family">Kahsay</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Kettridge</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Diane</namePart>
-        <namePart type="family">Arjoon</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Lukenbach</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Onno</namePart>
-        <namePart type="family">Kuik</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hokanson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Devito</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amaury</namePart>
-        <namePart type="family">Tilmant</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pieter</namePart>
-        <namePart type="family">van der Zaag</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mendoza</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,27 +66,71 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 117</title>
+            <title>Scientific Reports, Volume 9, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kahsay-2019-A</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2019.03.007</identifier>
+    <identifier type="citekey">Kettridge-2019-Severe</identifier>
+    <identifier type="doi">10.1038/s41598-019-40033-7</identifier>
     <location>
         <url>https://aclanthology.org/G19-82001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>117</number></detail>
-        <extent unit="page">
-            <start>76</start>
-            <end>88</end>
-        </extent>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>1</number></detail>
+    </part>
+</mods>
+<mods ID="Thomas-2019-Identifying">
+    <titleInfo>
+        <title>Identifying Climate-Induced Groundwater Depletion in GRACE Observations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Thomas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Scientific Reports, Volume 9, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Springer Science and Business Media LLC</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Thomas-2019-Identifying</identifier>
+    <identifier type="doi">10.1038/s41598-019-40155-y</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-82002</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

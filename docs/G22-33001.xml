@@ -1,26 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Terry-2022-Buffalo">
+<mods ID="Saberi-2022-Incorporating">
     <titleInfo>
-        <title>Buffalo Pound Lake—Modelling Water Resource Management Scenarios of a Large Multi-Purpose Prairie Reservoir</title>
+        <title>Incorporating Aleatoric Uncertainties in Lake Ice Mapping Using RADARSAT–2 SAR Images and CNNs</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Julie</namePart>
-        <namePart type="family">Terry</namePart>
+        <namePart type="given">Nastaran</namePart>
+        <namePart type="family">Saberi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John-Mark</namePart>
-        <namePart type="family">Davies</namePart>
+        <namePart type="given">Katharine</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 14, Issue 4</title>
+            <title>Remote Sensing, Volume 14, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -41,17 +42,17 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Water quality models are an emerging tool in water management to understand and inform decisions related to eutrophication. This study tested flow scenario effects on the water quality of Buffalo Pound Lake—a eutrophic reservoir supplying water for approximately 25% of Saskatchewan’s population. The model CE-QUAL-W2 was applied to assess the impact of inter-basin water diversion after the impounded lake received high inflows from local runoff. Three water diversion scenarios were tested: continuous flow, immediate release after nutrient loading increased, and a timed release initiated when water levels returned to normal operating range. Each scenario was tested at three different transfer flow rates. The transfers had a dilution effect but did not affect the timing of the nutrient peaks in the upstream portion of the lake. In the lake’s downstream section, nutrients peaked at similar concentrations as the base model, but peaks arrived earlier in the season and attenuated rapidly. Results showed greater variation among scenarios in wet years compared to dry years. Dependent on the timing and quantity of water transferred, some but not all water quality parameters are predicted to improve along with the water diversion flows over the period tested. The results suggest that it is optimal to transfer water while local watershed runoff is minimal.</abstract>
-    <identifier type="citekey">Terry-2022-Buffalo</identifier>
-    <identifier type="doi">10.3390/w14040584</identifier>
+    <abstract>With the increasing availability of SAR imagery in recent years, more research is being conducted using deep learning (DL) for the classification of ice and open water; however, ice and open water classification using conventional DL methods such as convolutional neural networks (CNNs) is not yet accurate enough to replace manual analysis for operational ice chart mapping. Understanding the uncertainties associated with CNN model predictions can help to quantify errors and, therefore, guide efforts on potential enhancements using more–advanced DL models and/or synergistic approaches. This paper evaluates an approach for estimating the aleatoric uncertainty [a measure used to identify the noise inherent in data] of CNN probabilities to map ice and open water with a custom loss function applied to RADARSAT–2 HH and HV observations. The images were acquired during the 2014 ice season of Lake Erie and Lake Ontario, two of the five Laurentian Great Lakes of North America. Operational image analysis charts from the Canadian Ice Service (CIS), which are based on visual interpretation of SAR imagery, are used to provide training and testing labels for the CNN model and to evaluate the accuracy of the model predictions. Bathymetry, as a variable that has an impact on the ice regime of lakes, was also incorporated during model training in supplementary experiments. Adding aleatoric loss and bathymetry information improved the accuracy of mapping water and ice. Results are evaluated quantitatively (accuracy metrics) and qualitatively (visual comparisons). Ice and open water scores were improved in some sections of the lakes by using aleatoric loss and including bathymetry. In Lake Erie, the ice score was improved by ∼2 on average in the shallow near–shore zone as a result of better mapping of dark ice (low backscatter) in the western basin. As for Lake Ontario, the open water score was improved by ∼6 on average in the deepest profundal off–shore zone.</abstract>
+    <identifier type="citekey">Saberi-2022-Incorporating</identifier>
+    <identifier type="doi">10.3390/rs14030644</identifier>
     <location>
         <url>https://aclanthology.org/G22-33001</url>
     </location>
     <part>
         <date>2022</date>
         <detail type="volume"><number>14</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <detail type="page"><number>584</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <detail type="page"><number>644</number></detail>
     </part>
 </mods>
 </modsCollection>

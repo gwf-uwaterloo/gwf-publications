@@ -1,40 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ghoreishi-2021-Peering">
+<mods ID="Wang-2021-On">
     <titleInfo>
-        <title>Peering into agricultural rebound phenomenon using a global sensitivity analysis approach</title>
+        <title>On the Optimal Design of Field Significance Tests for Changes in Climate Extremes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mohammad</namePart>
-        <namePart type="family">Ghoreishi</namePart>
+        <namePart type="given">Jianyu</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Chao</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Elshorbagy</namePart>
+        <namePart type="given">Francis</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kenneth</namePart>
-        <namePart type="family">Belcher</namePart>
+        <namePart type="given">Guilong</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhihong</namePart>
+        <namePart type="family">Jiang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Panmao</namePart>
+        <namePart type="family">Zhai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ying</namePart>
+        <namePart type="family">Sun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhen</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qun</namePart>
+        <namePart type="family">Yue</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,118 +81,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 602</title>
+            <title>Geophysical Research Letters, Volume 48, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ghoreishi-2021-Peering</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.126739</identifier>
+    <identifier type="citekey">Wang-2021-On</identifier>
+    <identifier type="doi">10.1029/2021gl092831</identifier>
     <location>
         <url>https://aclanthology.org/G21-141001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>602</number></detail>
-        <detail type="page"><number>126739</number></detail>
-    </part>
-</mods>
-<mods ID="Krogh-2021-Simulating">
-    <titleInfo>
-        <title>Simulating site-scale permafrost hydrology: Sensitivity to modelling decisions and air temperature</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Sebastian</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Krogh</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2021</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Journal of Hydrology, Volume 602</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Krogh-2021-Simulating</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.126771</identifier>
-    <location>
-        <url>https://aclanthology.org/G21-141002</url>
-    </location>
-    <part>
-        <date>2021</date>
-        <detail type="volume"><number>602</number></detail>
-        <detail type="page"><number>126771</number></detail>
-    </part>
-</mods>
-<mods ID="Nicholls-2021-Evapotranspiration">
-    <titleInfo>
-        <title>Evapotranspiration and energy partitioning across a forest-shrub vegetation gradient in a subarctic, alpine catchment</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Erin</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Nicholls</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2021</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Journal of Hydrology, Volume 602</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Nicholls-2021-Evapotranspiration</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.126790</identifier>
-    <location>
-        <url>https://aclanthology.org/G21-141003</url>
-    </location>
-    <part>
-        <date>2021</date>
-        <detail type="volume"><number>602</number></detail>
-        <detail type="page"><number>126790</number></detail>
+        <detail type="volume"><number>48</number></detail>
+        <detail type="issue"><number>9</number></detail>
     </part>
 </mods>
 </modsCollection>

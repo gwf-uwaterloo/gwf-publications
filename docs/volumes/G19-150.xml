@@ -1,34 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Robinne-Gallagher-2019-A-novel">
+<mods ID="Rokaya-2019-Climatic">
     <titleInfo>
-        <title>A novel tool for measuring the penetration of the ecosystem service concept into public policy</title>
+        <title>Climatic effects on ice phenology and ice-jam flooding of the Athabasca River in western Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">François-Nicolas</namePart>
-        <namePart type="family">Robinne</namePart>
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Louise</namePart>
-        <namePart type="family">Gallagher</namePart>
+        <namePart type="given">Luis</namePart>
+        <namePart type="family">Morales-Marín</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christian</namePart>
-        <namePart type="family">Bréthaut</namePart>
+        <namePart type="given">Barrie</namePart>
+        <namePart type="family">Bonsal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Martin</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Schlaepfer</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,24 +46,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecosystem Services, Volume 36</title>
+            <title>Hydrological Sciences Journal, Volume 64, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Robinne-Gallagher-2019-A-novel</identifier>
-    <identifier type="doi">10.1016/j.ecoser.2019.100914</identifier>
+    <identifier type="citekey">Rokaya-2019-Climatic</identifier>
+    <identifier type="doi">10.1080/02626667.2019.1638927</identifier>
     <location>
         <url>https://aclanthology.org/G19-150001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>36</number></detail>
-        <detail type="page"><number>100914</number></detail>
+        <detail type="volume"><number>64</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>1265</start>
+            <end>1278</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,64 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="McCarter-2020-Pore-scale">
+<mods ID="Mekis-2020-Near-0">
     <titleInfo>
-        <title>Pore-scale controls on hydrological and geochemical processes in peat: Implications on interacting processes</title>
+        <title>Near-0 °C surface temperature and precipitation type patterns across Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">C</namePart>
-        <namePart type="given">P</namePart>
+        <namePart type="given">Eva</namePart>
+        <namePart type="family">Mekis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Theriault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bohdan</namePart>
+        <namePart type="family">Kochtubajda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">McCarter</namePart>
+        <namePart type="family">Bonsal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="family">Rezanezhad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Quinton</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="family">Gharedaghloo</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">B</namePart>
-        <namePart type="family">Lennartz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Price</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Connon</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Zhuo</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -70,24 +56,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth-Science Reviews, Volume 207</title>
+            <title>Hydrology and Earth System Sciences, Volume 24, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">McCarter-2020-Pore-scale</identifier>
-    <identifier type="doi">10.1016/j.earscirev.2020.103227</identifier>
+    <identifier type="citekey">Mekis-2020-Near-0</identifier>
+    <identifier type="doi">10.5194/hess-24-1741-2020</identifier>
     <location>
         <url>https://aclanthology.org/G20-111001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>207</number></detail>
-        <detail type="page"><number>103227</number></detail>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>1741</start>
+            <end>1761</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,74 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ahmed-2019-All">
+<mods ID="Akbarzadeh-2019-Effects">
     <titleInfo>
-        <title>All printable snow-based triboelectric nanogenerator</title>
+        <title>Effects of Damming on River Nitrogen Fluxes: A Global Analysis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Abdelsalam</namePart>
-        <namePart type="family">Ahmed</namePart>
+        <namePart type="given">Zahra</namePart>
+        <namePart type="family">Akbarzadeh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Islam</namePart>
-        <namePart type="family">Hassan</namePart>
+        <namePart type="given">Taylor</namePart>
+        <namePart type="family">Maavara</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Islam</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Mosa</namePart>
+        <namePart type="given">Stephanie</namePart>
+        <namePart type="family">Slowinski</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Esraa</namePart>
-        <namePart type="family">Elsanadidy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gayatri</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Phadke</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Maher</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">El-Kady</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Rusling</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ponnambalam</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Kaner</namePart>
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Van Cappellen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -80,27 +39,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Nano Energy, Volume 60</title>
+            <title>Global Biogeochemical Cycles, Volume 33, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The development of power generators that can function in harsh snowy environments and in contact with snow can be beneficial but challenging to accomplish. Herein, we introduce the first snow-based triboelectric nanogenerator (snow-TENG) that can be used as an energy harvester and a multifunctional sensor based on the principle of snow-triboelectrification. In this work, we used a 3D printing technique for the precise design and deposition of the electrode and triboelectric layer, leading to flexible, stretchable and metal-free triboelectric generators. Based on the single electrode mode, the device can generate an instantaneous output power density as high as 0.2 mW/m2, an open circuit voltage up to 8 V, and a current density of 40 μA/m2. In addition, the snow-TENG can function as a miniaturized weather station to monitor the weather in real time to provide accurate information about the snowfall rate, snow accumulation depth, wind direction, and speed in snowy and/or icy environments. In addition, the snow-TENG can be used as a wearable power source and biomechanical sensor to detect human body motions, which may prove useful for snow-related sports. Unlike conventional sensor platforms, our design works without the need for batteries or image processing systems. We envision these devices could potentially be integrated into solar panels to ensure continuous power supply during snowy weather conditions.</abstract>
-    <identifier type="citekey">Ahmed-2019-All</identifier>
-    <identifier type="doi">10.1016/j.nanoen.2019.03.032</identifier>
+    <abstract>This code, developed in MATLAB R2018a, is a process based mass balance modelfor simulating the biogeochemical cycling of nitrogen in dam reservoirs.</abstract>
+    <identifier type="citekey">Akbarzadeh-2019-Effects</identifier>
+    <identifier type="doi">10.1029/2019gb006222</identifier>
     <location>
         <url>https://aclanthology.org/G19-19001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>60</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>11</number></detail>
         <extent unit="page">
-            <start>17</start>
-            <end>25</end>
+            <start>1339</start>
+            <end>1357</end>
         </extent>
     </part>
 </mods>

@@ -1,33 +1,59 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sigmund-2020-Deep">
+<mods ID="Tang-2020-SCDNA:">
     <titleInfo>
-        <title>Deep Learning Neural Network Approach for Predicting the Sorption of Ionizable and Polar Organic Pollutants to a Wide Range of Carbonaceous Materials</title>
+        <title>SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gabriel</namePart>
-        <namePart type="family">Sigmund</namePart>
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mehdi</namePart>
-        <namePart type="family">Gharasoo</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thorsten</namePart>
-        <namePart type="family">Hüffer</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Newman</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thilo</namePart>
-        <namePart type="family">Hofmann</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Vionnet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,27 +65,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Science &amp;amp; Technology, Volume 54, Issue 7</title>
+            <title>Earth System Science Data, Volume 12, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sigmund-2020-Deep</identifier>
-    <identifier type="doi">10.1021/acs.est.9b06287</identifier>
+    <identifier type="citekey">Tang-2020-SCDNA:</identifier>
+    <identifier type="doi">10.5194/essd-12-2381-2020</identifier>
     <location>
         <url>https://aclanthology.org/G20-137001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>54</number></detail>
-        <detail type="issue"><number>7</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>4583</start>
-            <end>4591</end>
+            <start>2381</start>
+            <end>2409</end>
         </extent>
     </part>
 </mods>

@@ -1,43 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hanes-2022-Mapping">
+<mods ID="Duignan-2022-Be">
     <titleInfo>
-        <title>Mapping organic layer thickness and fuel load of the boreal forest in Alberta, Canada</title>
+        <title>Be like the running water: Assessing gendered and age-based water insecurity experiences with Six Nations First Nation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Chelene</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Hanes</namePart>
+        <namePart type="given">Sarah</namePart>
+        <namePart type="family">Duignan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="family">Wotton</namePart>
+        <namePart type="given">Tina</namePart>
+        <namePart type="family">Moffat</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Douglas</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Woolford</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Martell</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="family">Flannigan</namePart>
+        <namePart type="given">Dawn</namePart>
+        <namePart type="family">Martin-Hill</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -49,7 +32,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geoderma, Volume 417</title>
+            <title>Social Science &amp;amp; Medicine, Volume 298</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -58,16 +41,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Maps of organic layer thickness and fuel load were developed using machine learning. \bullet Tree species was the most important variable in the final random forest model. \bullet Error in our final models was close to the natural variability we expected to find. \bullet The resultant maps will help improve fuel consumption models. Forest organic layers are important soil carbon pools that can, in the absence of disturbance, accumulate to great depths, especially in lowland areas. Across the Canadian boreal forest, fire is the primary disturbance agent, often limiting organic layer accumulation through the direct consumption of these fuels. Organic layer thickness (OLT) and fuel load (OLFL) are common physical attributes used to characterize these layers, especially for wildland fire science. Understanding the drivers and spatial distribution of these attributes is important to improve predictions of fire behaviour, emissions and effects models. We developed maps of OLT and OLFL using machine learning approaches (weighted K-nearest neighbour and random forests) for the forested region of the province of Alberta, Canada (538, 058 km 2 ). The random forests approach was found to be the best approach to model the spatial distribution of these forest floor attributes. A databased of 3, 237 OLT and 594 OLFL plots were used to train the models. The error in our final model, particularly for OLT (5 cm), was relatively close to the variability we would expect to find naturally (3 cm). The dominant tree species was the most important covariate in the models. Age, solar radiation, spatial location, climate variables and surficial geology were also important drivers, although their level of importance varied between tree species and depended on the modelling method that was used.</abstract>
-    <identifier type="citekey">Hanes-2022-Mapping</identifier>
-    <identifier type="doi">10.1016/j.geoderma.2022.115827</identifier>
+    <abstract>Indigenous households are 90 times more likely to be without running water than non-Indigenous households in Canada. Current primary indicators of water quality and security for Indigenous Peoples are based on federal boil water advisories, which do not disaggregate at household levels to identify who is most at risk within or between communities. A mixed methods approach was used to assess the level of water insecurity and perceptions of water access by gender and age for a sample of households in Six Nations of the Grand River First Nations in Ontario, Canada. A household survey captured water security using the Household Water InSecurity Experiences (HWISE) scale and Likert-type responses to perceptions of water access, contextualized using semi-structured individual and group interviews. From 2019 to 2020, 66 households participated in the survey, 18 individuals participated in semi-structured individual interviews, and 7 individuals participated in 3 semi-structured group interviews. The survey sample demonstrated high levels of household water insecurity (57.5%, n = 38). Interviews revealed that women were more dissatisfied with their drinking water situations due to quality, source, and cost, though they shared water sharing as a coping strategy. Women faced more physical and mental barriers accessing water for their households, due to their roles as caretakers of their family and knowledge protectors for their communities. Generational divides were found in interviews about what qualified as “good water,” with older participants understanding it as relating to traditional water sourcing, and younger participants wanting clean, accessible tap water. Taken together, the participants demonstrated a frustration with the sub-standard drinking water on reserve.</abstract>
+    <identifier type="citekey">Duignan-2022-Be</identifier>
+    <identifier type="doi">10.1016/j.socscimed.2022.114864</identifier>
     <location>
         <url>https://aclanthology.org/G22-5001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>417</number></detail>
-        <detail type="page"><number>115827</number></detail>
+        <detail type="volume"><number>298</number></detail>
+        <detail type="page"><number>114864</number></detail>
     </part>
 </mods>
 </modsCollection>

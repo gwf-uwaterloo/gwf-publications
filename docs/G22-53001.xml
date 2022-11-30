@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Martin-2022-Thermodynamic">
+<mods ID="RamirezPrieto-2022-Dietary">
     <titleInfo>
-        <title>Thermodynamic basis for the demarcation of Arctic and alpine treelines</title>
+        <title>Dietary Intakes of Traditional Foods for Dene/Métis in the Dehcho and Sahtú Regions of the Northwest Territories</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Meredith</namePart>
-        <namePart type="given">Richardson</namePart>
-        <namePart type="family">Martin</namePart>
+        <namePart type="given">Maria</namePart>
+        <namePart type="family">Ramirez Prieto</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Praveen</namePart>
-        <namePart type="family">Kumar</namePart>
+        <namePart type="given">Mylène</namePart>
+        <namePart type="family">Ratelle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
+        <namePart type="given">Brian</namePart>
+        <namePart type="given">Douglas</namePart>
+        <namePart type="family">Laird</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">Kelly</namePart>
+        <namePart type="family">Skinner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,25 +40,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Scientific Reports, Volume 12, Issue 1</title>
+            <title>Nutrients, Volume 14, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>At the edge of alpine and Arctic ecosystems all over the world, a transition zone exists beyond which it is either infeasible or unfavorable for trees to exist, colloquially identified as the treeline. We explore the possibility of a thermodynamic basis behind this demarcation in vegetation by considering ecosystems as open systems driven by thermodynamic advantage-defined by vegetation’s ability to dissipate heat from the earth’s surface to the air above the canopy. To deduce whether forests would be more thermodynamically advantageous than existing ecosystems beyond treelines, we construct and examine counterfactual scenarios in which trees exist beyond a treeline instead of the existing alpine meadow or Arctic tundra. Meteorological data from the Italian Alps, United States Rocky Mountains, and Western Canadian Taiga-Tundra are used as forcing for model computation of ecosystem work and temperature gradients at sites on both sides of each treeline with and without trees. Model results indicate that the alpine sites do not support trees beyond the treeline, as their presence would result in excessive CO[Formula: see text] loss and extended periods of snowpack due to temperature inversions (i.e., positive temperature gradient from the earth surface to the atmosphere). Further, both Arctic and alpine sites exhibit negative work resulting in positive feedback between vegetation heat dissipation and temperature gradient, thereby extending the duration of temperature inversions. These conditions demonstrate thermodynamic infeasibility associated with the counterfactual scenario of trees existing beyond a treeline. Thus, we conclude that, in addition to resource constraints, a treeline is an outcome of an ecosystem’s ability to self-organize towards the most advantageous vegetation structure facilitated by thermodynamic feasibility.</abstract>
-    <identifier type="citekey">Martin-2022-Thermodynamic</identifier>
-    <identifier type="doi">10.1038/s41598-022-16462-2</identifier>
+    <abstract>A dietary transition away from traditional foods and toward a diet of the predominantly unhealthy market is a public health and sociocultural concern throughout Indigenous communities in Canada, including those in the sub-Arctic and remote regions of Dehcho and Sahtú of the Northwest Territories, Canada. The main aim of the present study is to describe dietary intakes for macronutrients and micronutrients in traditional and market food from the Mackenzie Valley study. We also show the trends of contributions and differences of dietary intakes over time from 1994 data collected and reported by the Centre for Indigenous People’s Nutrition and Environment (CINE) in 1996. Based on 24-h dietary recall data, the study uses descriptive statistics to describe the observed dietary intake of the Dene First Nations communities in the Dehcho and Sahtú regions of the NWT. Indigenous people in Canada, like the sub-Arctic regions of Dehcho and Sahtú of the NWT, continue to consume traditional foods, although as a small percentage of their total dietary intake. The observed dietary intake calls for action to ensure that traditional food remains a staple as it is critical for the wellbeing of Dene in the Dehcho and Sahtú regions and across the territory.</abstract>
+    <identifier type="citekey">Ramirez Prieto-2022-Dietary</identifier>
+    <identifier type="doi">10.3390/nu14020378</identifier>
     <location>
         <url>https://aclanthology.org/G22-53001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <detail type="page"><number>378</number></detail>
     </part>
 </mods>
 </modsCollection>

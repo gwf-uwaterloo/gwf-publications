@@ -1,20 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lv-2019-Detecting">
+<mods ID="Mahoney-2019-Optofluidic">
     <titleInfo>
-        <title>Detecting intercepted snow on mountain needleleaf forest canopies using satellite remote sensing</title>
+        <title>Optofluidic Dissolved Oxygen Sensing With Sensitivity Enhancement Through Multiple Reflections</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Zhibang</namePart>
-        <namePart type="family">Lv</namePart>
+        <namePart type="given">Eric</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="family">Mahoney</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Huan-Hsuan</namePart>
+        <namePart type="given">Leo</namePart>
+        <namePart type="family">Hsu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fei</namePart>
+        <namePart type="family">Du</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bo</namePart>
+        <namePart type="family">Xiong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qiyin</namePart>
+        <namePart type="family">Fang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,24 +56,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 231</title>
+            <title>IEEE Sensors Journal, Volume 19, Issue 22</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Lv-2019-Detecting</identifier>
-    <identifier type="doi">10.1016/j.rse.2019.111222</identifier>
+    <identifier type="citekey">Mahoney-2019-Optofluidic</identifier>
+    <identifier type="doi">10.1109/jsen.2019.2932414</identifier>
     <location>
         <url>https://aclanthology.org/G19-107001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>231</number></detail>
-        <detail type="page"><number>111222</number></detail>
+        <detail type="volume"><number>19</number></detail>
+        <detail type="issue"><number>22</number></detail>
+        <extent unit="page">
+            <start>10452</start>
+            <end>10460</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,19 +1,18 @@
 ﻿%0 Journal Article
-%T A spatial evaluation of global wildfire-water risks to human and natural systems
-%A Robinne, François-Nicolas
-%A Bladon, Kevin D.
-%A Miller, Carol
-%A Parisien, Marc-André
-%A Mathieu, Jérôme
-%A Flannigan, Mike D.
-%J Science of The Total Environment, Volume 610-611
+%T On the appropriate definition of soil profile configuration and initial conditions for land surface–hydrology models in cold regions
+%A Sapriza-Azuri, Gonzalo
+%A Gamazo, Pablo
+%A Razavi, Saman
+%A Wheater, Howard S.
+%J Hydrology and Earth System Sciences, Volume 22, Issue 6
 %D 2018
-%V 610
-%I Elsevier BV
-%F Robinne-2018-A
-%X The large mediatic coverage of recent massive wildfires across the world has emphasized the vulnerability of freshwater resources. The extensive hydrogeomorphic effects from a wildfire can impair the ability of watersheds to provide safe drinking water to downstream communities and high-quality water to maintain riverine ecosystem health. Safeguarding water use for human activities and ecosystems is required for sustainable development; however, no global assessment of wildfire impacts on water supply is currently available. Here, we provide the first global evaluation of wildfire risks to water security, in the form of a spatially explicit index. We adapted the Driving forces-Pressure-State-Impact-Response risk analysis framework to select a comprehensive set of indicators of fire activity and water availability, which we then aggregated to a single index of wildfire-water risk using a simple additive weighted model. Our results show that water security in many regions of the world is potentially vulnerable, regardless of socio-economic status. However, in developing countries, a critical component of the risk is the lack of socio-economic capability to respond to disasters. Our work highlights the importance of addressing wildfire-induced risks in the development of water security policies; the geographic differences in the components of the overall risk could help adapting those policies to different regional contexts.
-%R 10.1016/j.scitotenv.2017.08.112
+%V 22
+%N 6
+%I Copernicus GmbH
+%F Sapriza-Azuri-2018-On
+%X Abstract. Arctic and subarctic regions are amongst the most susceptible regions on Earth to global warming and climate change. Understanding and predicting the impact of climate change in these regions require a proper process representation of the interactions between climate, carbon cycle, and hydrology in Earth system models. This study focuses on land surface models (LSMs) that represent the lower boundary condition of general circulation models (GCMs) and regional climate models (RCMs), which simulate climate change evolution at the global and regional scales, respectively. LSMs typically utilize a standard soil configuration with a depth of no more than 4 m, whereas for cold, permafrost regions, field experiments show that attention to deep soil profiles is needed to understand and close the water and energy balances, which are tightly coupled through the phase change. To address this gap, we design and run a series of model experiments with a one-dimensional LSM, called CLASS (Canadian Land Surface Scheme), as embedded in the MESH (Modélisation Environmentale Communautaire – Surface and Hydrology) modelling system, to (1) characterize the effect of soil profile depth under different climate conditions and in the presence of parameter uncertainty; (2) assess the effect of including or excluding the geothermal flux in the LSM at the bottom of the soil column; and (3) develop a methodology for temperature profile initialization in permafrost regions, where the system has an extended memory, by the use of paleo-records and bootstrapping. Our study area is in Norman Wells, Northwest Territories of Canada, where measurements of soil temperature profiles and historical reconstructed climate data are available. Our results demonstrate a dominant role for parameter uncertainty, that is often neglected in LSMs. Considering such high sensitivity to parameter values and dependency on the climate condition, we show that a minimum depth of 20 m is essential to adequately represent the temperature dynamics. We further show that our proposed initialization procedure is effective and robust to uncertainty in paleo-climate reconstructions and that more than 300 years of reconstructed climate time series are needed for proper model initialization.
+%R 10.5194/hess-22-3295-2018
 %U https://aclanthology.org/G18-11002
-%U https://doi.org/10.1016/j.scitotenv.2017.08.112
-%P 1193-1206
+%U https://doi.org/10.5194/hess-22-3295-2018
+%P 3295-3309
 

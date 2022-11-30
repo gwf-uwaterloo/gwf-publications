@@ -1,72 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kythreotis-2019-Citizen">
+<mods ID="Lehner-2019-The">
     <titleInfo>
-        <title>Citizen Social Science for More Integrative and Effective Climate Action: A Science-Policy Perspective</title>
+        <title>The potential to reduce uncertainty in regional runoff projections from climate models</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Flavio</namePart>
+        <namePart type="family">Lehner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Andrew</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Kythreotis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chrystal</namePart>
-        <namePart type="family">Mantyka-Pringle</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Theresa</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Mercer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lorraine</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Whitmarsh</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="family">Corner</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jouni</namePart>
-        <namePart type="family">Paavola</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Chambers</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Byron</namePart>
+        <namePart type="given">Julie</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Miller</namePart>
+        <namePart type="family">Vano</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Noel</namePart>
-        <namePart type="family">Castree</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Lawrence</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Justin</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Mankin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -78,24 +58,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Environmental Science, Volume 7</title>
+            <title>Nature Climate Change, Volume 9, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Governments are struggling to limit global temperatures below the 2°C Paris target with existing climate change policy approaches. This is because conventional climate policies have been predominantly (inter)nationally top-down, which limits citizen agency in driving policy change and influencing citizen behavior. Here we propose elevating Citizen Social Science (CSS) to a new level across governments as an advanced collaborative approach of accelerating climate action and policies that moves beyond conventional citizen science and participatory approaches. Moving beyond the traditional science-policy model of the democratization of science in enabling more inclusive climate policy change, we present examples of how CSS can potentially transform citizen behavior and enable citizens to become key agents in driving climate policy change. We also discuss the barriers that could impede the implementation of CSS and offer solutions to these. In doing this, we articulate the implications of increased citizen action through CSS in moving forward the broader normative and political program of transdisciplinary and co-productive climate change research and policy.</abstract>
-    <identifier type="citekey">Kythreotis-2019-Citizen</identifier>
-    <identifier type="doi">10.3389/fenvs.2019.00010</identifier>
+    <identifier type="citekey">Lehner-2019-The</identifier>
+    <identifier type="doi">10.1038/s41558-019-0639-x</identifier>
     <location>
         <url>https://aclanthology.org/G19-87001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>7</number></detail>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>926</start>
+            <end>933</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,52 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ruso-2019-Detecting">
+<mods ID="Scaff-2019-Simulating">
     <titleInfo>
-        <title>Detecting Amphibians in Agricultural Landscapes Using Environmental DNA Reveals the Importance of Wetland Condition</title>
+        <title>Simulating the convective precipitation diurnal cycle in North America’s current and future climate</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gabrielle</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Ruso</namePart>
+        <namePart type="given">Lucia</namePart>
+        <namePart type="family">Scaff</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christy</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Morrissey</namePart>
+        <namePart type="given">Andreas</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Prein</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Natacha</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Hogan</namePart>
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Claudia</namePart>
-        <namePart type="family">Sheedy</namePart>
+        <namePart type="given">Changhai</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Melanie</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Gallant</namePart>
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Rasmussen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Timothy</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Jardine</namePart>
+        <namePart type="given">Kyoko</namePart>
+        <namePart type="family">Ikeda</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -58,28 +54,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Toxicology and Chemistry, Volume 38, Issue 12</title>
+            <title>Climate Dynamics, Volume 55, Issue 1-2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Amphibians are declining worldwide, in part because of large-scale degradation of habitat from agriculture and pervasive pathogens. Yet a common North American amphibian, the wood frog (Lithobates sylvaticus), ranges widely and persists in agricultural landscapes. Conventional survey techniques rely on visual encounters and dip-netting efforts, but detectability limits the ability to test for the effects of environmental variables on amphibian habitat suitability. We used environmental DNA to determine the presence of wood frogs and an amphibian pathogen (ranavirus) in Prairie Pothole wetlands and investigated the effects of 32 water quality, wetland habitat, and landscape-level variables on frog presence at sites representing different degrees of agricultural intensity. Several wetland variables influenced wood frog presence, the most influential being those associated with wetland productivity (i.e., nutrients), vegetation buffer width, and proportion of the surrounding landscape that is comprised of other water bodies. Wood frog presence was positively associated with higher dissolved phosphorus (\textgreater0.4 mg/L), moderate dissolved nitrogen (0.1-0.2 mg/L), lower chlorophyll a (łeq15 μg/L), wider vegetation buffers (\geq10 m), and more water on the landscape (\geq0.25). These results highlight the effects of environmental factors at multiple scales on the presence of amphibians in this highly modified landscape-namely the importance of maintaining wetland water quality, vegetation buffers, and surrounding habitat heterogeneity. Environ Toxicol Chem 2019;38:2750-2763. \copyright 2019 SETAC.</abstract>
-    <identifier type="citekey">Ruso-2019-Detecting</identifier>
-    <identifier type="doi">10.1002/etc.4598</identifier>
+    <identifier type="citekey">Scaff-2019-Simulating</identifier>
+    <identifier type="doi">10.1007/s00382-019-04754-9</identifier>
     <location>
         <url>https://aclanthology.org/G19-155001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>38</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>55</number></detail>
+        <detail type="issue"><number>1-2</number></detail>
         <extent unit="page">
-            <start>2750</start>
-            <end>2763</end>
+            <start>369</start>
+            <end>382</end>
         </extent>
     </part>
 </mods>

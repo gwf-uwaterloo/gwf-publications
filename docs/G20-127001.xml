@@ -1,28 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rezanezhad-2020-Editorial:">
+<mods ID="Robinne-2020-Wildfire">
     <titleInfo>
-        <title>Editorial: Wetland Biogeochemistry: Response to Environmental Change</title>
+        <title>Wildfire impacts on hydrologic ecosystem services in North American high-latitude forests: A scoping review</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
+        <namePart type="given">François-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Colin</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">McCarter</namePart>
+        <namePart type="given">Dennis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Hallema</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bernd</namePart>
-        <namePart type="family">Lennartz</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bladon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Buttle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,23 +42,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Environmental Science, Volume 8</title>
+            <title>Journal of Hydrology, Volume 581</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rezanezhad-2020-Editorial:</identifier>
-    <identifier type="doi">10.3389/fenvs.2020.00055</identifier>
+    <abstract>Abstract High-latitude forests of North America are characterized by their natural dependence on large and severe wildfires. However, these wildfires also pose a range of social, economic, and environmental risks, with growing concern regarding persistent effects on stream flow volume, seasonal timing of flow, water quality, aquatic ecosystem health, and downstream community drinking water treatment. Here, we present the outcomes of a comprehensive scoping review of post-fire hydrologic studies in high-latitude forests of North America (Canada and Alaska). Our objectives were to (1) create an inventory of studies on post-fire hydrologic effects on surface water; (2) analyze those studies in terms of watershed characteristics and the type and duration of hydrologic effects; (3) identify and evaluate the link between upstream hydrologic effects with hydrologic ecosystem services; and (4) propose a research agenda addressing the link between wildfire science and hydrologic ecosystem services. We screened 2935 peer-reviewed articles and selected 82 studies to include based on their relevance according to a systematic, multi-step selection process. Next, we classified the papers into five themes: (a) runoff volume and flow regimes, (b) erosion and sediment transport, (c) water chemistry, (d) hydromorphology, and (e) aquatic food webs. For each study, we documented location, fire regime, watershed characteristics, and ecosystem services. The annual number of published studies on post-fire hydrology in high-latitude forests and, in particular, those addressing hydrologic ecosystem services, has increased steadily in recent years. Descriptions of wildfire characteristics, watershed characteristics, and effects on hydrologic ecosystem services were highly variable across studies, hindering cross-study comparisons. Moreover, there were limited efforts to extend study results to implications for forest or water management decisions regarding ecosystem services from source watersheds. Most studies focused on fire impacts on aquatic habitats and water chemistry while services of direct concern to communities, such as drinking water, were rarely addressed. We contend that study standardization, further use of geospatial technologies, and more studies directly addressing ecosystem services will help mitigate the increasing risks to water resources in northern forests.</abstract>
+    <identifier type="citekey">Robinne-2020-Wildfire</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2019.124360</identifier>
     <location>
         <url>https://aclanthology.org/G20-127001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>8</number></detail>
+        <detail type="volume"><number>581</number></detail>
+        <detail type="page"><number>124360</number></detail>
     </part>
 </mods>
 </modsCollection>

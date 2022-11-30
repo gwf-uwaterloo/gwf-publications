@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Grant-2019-Differences">
+<mods ID="Green-2019-Extended">
     <titleInfo>
-        <title>Differences in preferential flow with antecedent moisture conditions and soil texture: Implications for subsurface P transport</title>
+        <title>Extended BACOLI</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kirsten</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Grant</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Green</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Genevieve</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Ali</namePart>
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,27 +27,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 33, Issue 15</title>
+            <title>ACM Transactions on Mathematical Software, Volume 45, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Association for Computing Machinery (ACM)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Grant-2019-Differences</identifier>
-    <identifier type="doi">10.1002/hyp.13454</identifier>
+    <identifier type="citekey">Green-2019-Extended</identifier>
+    <identifier type="doi">10.1145/3301320</identifier>
     <location>
         <url>https://aclanthology.org/G19-62001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="issue"><number>15</number></detail>
+        <detail type="volume"><number>45</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>2068</start>
-            <end>2079</end>
+            <start>1</start>
+            <end>19</end>
         </extent>
     </part>
 </mods>

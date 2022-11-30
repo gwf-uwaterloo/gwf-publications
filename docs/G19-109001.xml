@@ -1,50 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mahoney-2019-Optofluidic">
+<mods ID="Mairena-2019-Peripheral">
     <titleInfo>
-        <title>Optofluidic Dissolved Oxygen Sensing With Sensitivity Enhancement Through Multiple Reflections</title>
+        <title>Peripheral Notifications in Large Displays</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="given">James</namePart>
-        <namePart type="family">Mahoney</namePart>
+        <namePart type="given">Aristides</namePart>
+        <namePart type="family">Mairena</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Huan-Hsuan</namePart>
-        <namePart type="given">Leo</namePart>
-        <namePart type="family">Hsu</namePart>
+        <namePart type="given">Carl</namePart>
+        <namePart type="family">Gutwin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Du</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bo</namePart>
-        <namePart type="family">Xiong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiyin</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Andy</namePart>
+        <namePart type="family">Cockburn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -56,29 +32,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>IEEE Sensors Journal, Volume 19, Issue 22</title>
+            <title>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The development of compact and low-cost dissolved oxygen (DO) sensors is essential for the continuous in situ monitoring of environmental water quality and wastewater treatment processes. The optical detection of dynamic and reversible quenching of fluorescent dyes by oxygen has been used for DO sensing. In this paper, we have optimized a multilayer optofluidic device based on the measurement of fluorescence quenching in a Ruthenium-based oxygen sensitive dye by employing total internal reflection (TIR) of the excitation light to achieve sensitivity enhancement for the detection of 0-20-ppm DO in water. The incident angles of light and sensitive layer thickness are optimized experimentally in order to increase the path length of light in the sensitive layer of the device through multiple reflections. A model is developed to demonstrate how light propagates through different layers of the device at varying angles of excitation and to describe the mechanism of fluorescence generation for each of the types of TIR observed. The design principles identified in this paper may be applied to the development and optimization of new multilayered optofluidic sensors by employing TIR for sensitivity enhancement.</abstract>
-    <identifier type="citekey">Mahoney-2019-Optofluidic</identifier>
-    <identifier type="doi">10.1109/jsen.2019.2932414</identifier>
+    <abstract>Visual notifications are integral to interactive computing systems. With large displays, however, much of the content is in the user’s visual periphery, where human capacity to notice visual effects is diminished. One design strategy for enhancing noticeability is to combine visual features, such as motion and colour. Yet little is known about how feature combinations affect noticeability across the visual field, or about how peripheral noticeability changes when a user’s primary task involves the same visual features as the notification. We addressed these questions by conducting two studies. Results of the first study showed that noticeability of feature combinations were approximately equal to the better of the individual features. Results of the second study suggest that there can be interference between the features of primary tasks and the visual features in the notifications. Our findings contribute to a better understanding of how visual features operate when used as peripheral notifications.</abstract>
+    <identifier type="citekey">Mairena-2019-Peripheral</identifier>
+    <identifier type="doi">10.1145/3290605.3300870</identifier>
     <location>
         <url>https://aclanthology.org/G19-109001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>19</number></detail>
-        <detail type="issue"><number>22</number></detail>
-        <extent unit="page">
-            <start>10452</start>
-            <end>10460</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

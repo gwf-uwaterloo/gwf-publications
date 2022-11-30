@@ -1,37 +1,48 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Islam-2019-Quantifying">
+<mods ID="Kahsay-2019-A">
     <titleInfo>
-        <title>Quantifying projected changes in runoff variability and flow regimes of the Fraser River Basin, British Columbia</title>
+        <title>A hybrid partial and general equilibrium modeling approach to assess the hydro-economic impacts of large dams – The case of the Grand Ethiopian Renaissance Dam in the Eastern Nile River basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Siraj</namePart>
-        <namePart type="given">Ul</namePart>
-        <namePart type="family">Islam</namePart>
+        <namePart type="given">Tewodros</namePart>
+        <namePart type="given">Negash</namePart>
+        <namePart type="family">Kahsay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Charles</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Curry</namePart>
+        <namePart type="given">Diane</namePart>
+        <namePart type="family">Arjoon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Stephen</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Déry</namePart>
+        <namePart type="given">Onno</namePart>
+        <namePart type="family">Kuik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Brouwer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amaury</namePart>
+        <namePart type="family">Tilmant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pieter</namePart>
+        <namePart type="family">van der Zaag</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -43,28 +54,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 2</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 117</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. In response to ongoing and future-projected global warming, mid-latitude, nival river basins are expected to transition from a snowmelt-dominated flow regime to a nival–pluvial one with an earlier spring freshet of reduced magnitude. There is, however, a rich variation in responses that depends on factors such as the topographic complexity of the basin and the strength of maritime influences. We illustrate the potential effects of a strong maritime influence by studying future changes in cold season flow variability in the Fraser River Basin (FRB) of British Columbia, a large extratropical watershed extending from the Rocky Mountains to the Pacific Coast. We use a process-based hydrological model driven by an ensemble of 21 statistically downscaled simulations from the Coupled Model Intercomparison Project Phase 5 (CMIP5), following the Representative Concentration Pathway 8.5 (RCP 8.5). Warming under RCP 8.5 leads to reduced winter snowfall, shortening the average snow accumulation season by about one-third. Despite this, large increases in cold season rainfall lead to unprecedented cold season peak flows and increased overall runoff variability in the VIC simulations. Increased cold season rainfall is shown to be the dominant climatic driver in the Coast Mountains, contributing 60 % to mean cold season runoff changes in the 2080s. Cold season runoff at the outlet of the basin increases by 70 % by the 2080s, and its interannual variability more than doubles when compared to the 1990s, suggesting substantial challenges for operational flow forecasting in the region. Furthermore, almost half of the basin (45 %) transitions from a snow-dominated runoff regime in the 1990s to a primarily rain-dominated regime in the 2080s, according to a snowmelt pulse detection algorithm. While these projections are consistent with the anticipated transition from a nival to a nival–pluvial hydrologic regime, the marked increase in FRB cold season runoff is likely linked to more frequent landfalling atmospheric rivers in the region projected in the CMIP5 models, providing insights for other maritime-influenced extratropical basins.</abstract>
-    <identifier type="citekey">Islam-2019-Quantifying</identifier>
-    <identifier type="doi">10.5194/hess-23-811-2019</identifier>
+    <abstract>A novel integrated hydro-economic modeling framework that links a bottom-up partial equilibrium (engineering) model with a top-down (economic) general equilibrium model is developed for assessing the regional economic impacts of water resources management and infrastructure development decisions in a transboundary river basin. The engineering model is employed first to solve the water allocation problem for a river system in a partial equilibrium setting. The resulting system-wide changes in optimal water allocation are subsequently fed into the general equilibrium model to provide an economy-wide perspective. This integrated hydro-economic modeling framework is illustrated using the Eastern Nile River basin as a case study. The engineering-based stochastic dual dynamic programming (SDDP) model of the Eastern Nile basin is coupled with the computable general equilibrium (CGE) model GTAP-W to assess the economy-wide impacts of the Grand Ethiopian Renaissance Dam (GERD) on the Eastern Nile economies.</abstract>
+    <identifier type="citekey">Kahsay-2019-A</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2019.03.007</identifier>
     <location>
         <url>https://aclanthology.org/G19-80001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>117</number></detail>
         <extent unit="page">
-            <start>811</start>
-            <end>828</end>
+            <start>76</start>
+            <end>88</end>
         </extent>
     </part>
 </mods>

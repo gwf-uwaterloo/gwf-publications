@@ -1,15 +1,18 @@
 ﻿%0 Journal Article
-%T Investigating Context Adaptation Bugs in Code Clones
-%A Mondal, Manishankar
-%A Roy, Banani
-%A Roy, Chanchal K.
-%A Schneider, Kevin A.
-%J 2019 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+%T Changes in streamflow and water temperature affect fish habitat in the Athabasca River basin in the context of climate change
+%A Morales-Marín, L. A.
+%A Rokaya, P.
+%A Sanyal, P. R.
+%A Sereda, J.
+%A Lindenschmidt, K. E.
+%J Ecological Modelling, Volume 407
 %D 2019
-%I IEEE
-%F Mondal-2019-Investigating
-%X The identical or nearly similar code fragments in a code-base are called code clones. There is a common belief that code cloning (copy/pasting code fragments) can introduce bugs in a software system if the copied code fragments are not properly adapted to their contexts (i.e., surrounding code). However, none of the existing studies have investigated whether such bugs are really present in code clones. We denote these bugs as Context Adaptation Bugs, or simply Context-Bugs, in our paper and investigate the extent to which they can be present in code clones. We define and automatically analyze two clone evolutionary patterns that indicate fixing of Context-Bugs. According to our analysis on thousands of revisions of six open-source subject systems written in Java, C, and C#, code cloning often introduces Context-Bugs in software systems. Around 50% of the clone related bug-fixes can occur for fixing Context-Bugs. Cloning (copy/pasting) a newly created code fragment (i.e., a code fragment that was not added in a former revision) is more likely to introduce Context-Bugs compared to cloning a preexisting fragment (i.e., a code fragment that was added in a former revision). Moreover, cloning across different files appears to have a significantly higher tendency of introducing Context-Bugs compared to cloning within the same file. Finally, Type 3 clones (gapped clones) have the highest tendency of containing Context-Bugs among the three major clone-types. Our findings can be important for early detection as well as removal of Context-Bugs in code clones.
-%R 10.1109/icsme.2019.00026
+%V 407
+%I Elsevier BV
+%F Morales-Marín-2019-Changes
+%X \bullet A physically-based semi-distributed hydrological model and a 1D stream water temperature model forced by climate change scenarios is presented here to analyze the effects of stream flow and water temperature changes on fish habitat in the Athabasca River catchment. \bullet Streamflow decreases in most of the catchment will reduce flow velocities and water depths causing current Athabasca Rainbow Trout habitat to be suboptimal. \bullet Increases in water temperature will result in habitat contraction concentrating Athabasca Rainbow Trout in the upper headwaters of the catchment. \bullet Athabasca Rainbow Trout habitat can potentially be reduced as the frequency of occurrence of life threatening and lethal water temperatures tend to increase, particularly in summer. Changes to natural flow and air temperature in the context of climate change can have impacts on physiology, distribution and survival of fish. Of particular interest is the Athabasca River basin, a highly biologically productive basin that includes one of the largest boreal freshwater inland river deltas in the world and serves as habitat for many fish species. Earlier melt events, higher winter and spring flows and lower summer flows are expected as a consequence of climate change in this basin. Here, we model changes in river flow and water temperature under changing climate scenarios through the integration of a physically-based semi-distributed hydrological model and a 1D stream water temperature model forced by climate change scenarios. The modeled changes in streamflow and water temperature are used to predict changes in habitat suitability for the Athabasca Rainbow Trout (ART) ( Oncorhynchus mykiss ), a unique ecotype of trout considered as a ‘species at risk’. The results indicate that future flow decreases in most of the basin can lead to reduced flow velocities and water depths making current ART habitat suboptimal. Also, warming low-land habitats and increasing water temperatures will increase metabolic rates and stress fish forcing them to migrate upstream to cooler waters confining their habitat range.
+%R 10.1016/j.ecolmodel.2019.108718
 %U https://aclanthology.org/G19-126001
-%U https://doi.org/10.1109/icsme.2019.00026
+%U https://doi.org/10.1016/j.ecolmodel.2019.108718
+%P 108718
 

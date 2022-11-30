@@ -1,18 +1,56 @@
 ﻿%0 Journal Article
-%T Lake Ice-Water Classification of RADARSAT-2 Images by Integrating IRGS Segmentation with Pixel-Based Random Forest Labeling
-%A Hoekstra, Marie
-%A Jiang, Mingzhe
-%A Clausi, David A.
-%A Duguay, Claude
-%J Remote Sensing, Volume 12, Issue 9
+%T Scientists’ Warning to Humanity: Rapid degradation of the world’s large lakes
+%A Jenny, Jean-Philippe
+%A Anneville, Orlane
+%A Arnaud, Fabien
+%A Baulaz, Yoann
+%A Bouffard, Damien
+%A Domaizon, Isabelle
+%A Bocaniov, Serghei A.
+%A Chèvre, Nathalie
+%A Dittrich, Maria
+%A Dorioz, Jean-Marcel
+%A Dunlop, Erin S.
+%A Dur, Gaël
+%A Guillard, Jean
+%A Guinaldo, Thibault
+%A Jacquet, Stéphan
+%A Jamoneau, Aurélien
+%A Jawed, Zobia
+%A Jeppesen, Erik
+%A Krantzberg, Gail
+%A Lenters, John
+%A Leoni, Barbara
+%A Meybeck, Michel
+%A Nava, Veronica
+%A Nõges, Tiina
+%A Nõges, Peeter
+%A Patelli, Martina
+%A Pebbles, Victoria
+%A Perga, Marie-Elodie
+%A Rasconi, Serena
+%A Ruetz, Carl R.
+%A Rudstam, Lars
+%A Salmaso, Nico
+%A Sapna, Sharma
+%A Straile, Dietmar
+%A Tammeorg, Olga
+%A Twiss, Michael R.
+%A Uzarski, Donald G.
+%A Ventelä, Anne-Mari
+%A Vincent, Warwick F.
+%A Wilhelm, Steven W.
+%A Wängberg, Sten-Åke
+%A Weyhenmeyer, Gesa A.
+%J Journal of Great Lakes Research, Volume 46, Issue 4
 %D 2020
-%V 12
-%N 9
-%I MDPI AG
-%F Hoekstra-2020-Lake
-%X Changes to ice cover on lakes throughout the northern landscape has been established as an indicator of climate change and variability, expected to have implications for both human and environmental systems. Monitoring lake ice cover is also required to enable more reliable weather forecasting across lake-rich northern latitudes. Currently, the Canadian Ice Service (CIS) monitors lakes using synthetic aperture radar (SAR) and optical imagery through visual interpretation, with total lake ice cover reported weekly as a fraction out of ten. An automated method of classification would allow for more detailed records to be delivered operationally. In this research, we present an automatic ice-mapping approach which integrates unsupervised segmentation from the Iterative Region Growing using Semantics (IRGS) algorithm with supervised random forest (RF) labeling. IRGS first locally segments homogeneous regions in an image, then merges similar regions into classes across the entire scene. Recently, these output regions were manually labeled by the user to generate ice maps, or were labeled using a Support Vector Machine (SVM) classifier. Here, three labeling methods (Manual, SVM, and RF) are applied after IRGS segmentation to perform ice-water classification on 36 RADARSAT-2 scenes of Great Bear Lake (Canada). SVM and RF classifiers are also tested without integration with IRGS. An accuracy assessment has been performed on the results, comparing outcomes with author-generated reference data, as well as the reported ice fraction from CIS. The IRGS-RF average classification accuracy for this dataset is 95.8%, demonstrating the potential of this automated method to provide detailed and reliable lake ice cover information operationally.
-%R 10.3390/rs12091425
+%V 46
+%N 4
+%I Elsevier BV
+%F Jenny-2020-Scientists’
+%X Abstract Large lakes of the world are habitats for diverse species, including endemic taxa, and are valuable resources that provide humanity with many ecosystem services. They are also sentinels of global and local change, and recent studies in limnology and paleolimnology have demonstrated disturbing evidence of their collective degradation in terms of depletion of resources (water and food), rapid warming and loss of ice, destruction of habitats and ecosystems, loss of species, and accelerating pollution. Large lakes are particularly exposed to anthropogenic and climatic stressors. The Second Warning to Humanity provides a framework to assess the dangers now threatening the world’s large lake ecosystems and to evaluate pathways of sustainable development that are more respectful of their ongoing provision of services. Here we review current and emerging threats to the large lakes of the world, including iconic examples of lake management failures and successes, from which we identify priorities and approaches for future conservation efforts. The review underscores the extent of lake resource degradation, which is a result of cumulative perturbation through time by long-term human impacts combined with other emerging stressors. Decades of degradation of large lakes have resulted in major challenges for restoration and management and a legacy of ecological and economic costs for future generations. Large lakes will require more intense conservation efforts in a warmer, increasingly populated world to achieve sustainable, high-quality waters. This Warning to Humanity is also an opportunity to highlight the value of a long-term lake observatory network to monitor and report on environmental changes in large lake ecosystems.
+%R 10.1016/j.jglr.2020.05.006
 %U https://aclanthology.org/G20-91001
-%U https://doi.org/10.3390/rs12091425
-%P 1425
+%U https://doi.org/10.1016/j.jglr.2020.05.006
+%P 686-702
 

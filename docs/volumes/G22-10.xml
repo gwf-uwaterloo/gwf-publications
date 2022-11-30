@@ -1,70 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bhattacharjee-Roy-2022-Supporting-Readability">
+<mods ID="Espenant-2022-StreamTable:">
     <titleInfo>
-        <title>Supporting Readability by Comprehending the Hierarchical Abstraction of a Software Project</title>
+        <title>StreamTable: An Area Proportional Visualization for Tables with Flowing Streams</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Avijit</namePart>
-        <namePart type="family">Bhattacharjee</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="family">Schneider</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2022</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>15th Innovations in Software Engineering Conference</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Bhattacharjee-Roy-2022-Supporting-Readability</identifier>
-    <identifier type="doi">10.1145/3511430.3511441</identifier>
-    <location>
-        <url>https://aclanthology.org/G22-10001</url>
-    </location>
-    <part>
-        <date>2022</date>
-    </part>
-</mods>
-<mods ID="Cynthia-2022-Feature">
-    <titleInfo>
-        <title>Feature Transformation for Improved Software Bug Detection Models</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Shamse</namePart>
-        <namePart type="given">Tasnim</namePart>
-        <namePart type="family">Cynthia</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Jared</namePart>
+        <namePart type="family">Espenant</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -83,110 +25,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>15th Innovations in Software Engineering Conference</title>
+            <title>WALCOM: Algorithms and Computation</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
+            <publisher>Springer International Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cynthia-2022-Feature</identifier>
-    <identifier type="doi">10.1145/3511430.3511444</identifier>
+    <identifier type="citekey">Espenant-2022-StreamTable:</identifier>
+    <identifier type="doi">10.1007/978-3-030-96731-4_9</identifier>
     <location>
-        <url>https://aclanthology.org/G22-10002</url>
+        <url>https://aclanthology.org/G22-10001</url>
     </location>
     <part>
         <date>2022</date>
-    </part>
-</mods>
-<mods ID="Mondal-2022-Reproducibility">
-    <titleInfo>
-        <title>Reproducibility Challenges and Their Impacts on Technical Q&amp;amp;A Websites: The Practitioners’ Perspectives</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Saikat</namePart>
-        <namePart type="family">Mondal</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2022</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>15th Innovations in Software Engineering Conference</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Mondal-2022-Reproducibility</identifier>
-    <identifier type="doi">10.1145/3511430.3511439</identifier>
-    <location>
-        <url>https://aclanthology.org/G22-10003</url>
-    </location>
-    <part>
-        <date>2022</date>
-    </part>
-</mods>
-<mods ID="Oishie-2022-Commit-Checker:">
-    <titleInfo>
-        <title>Commit-Checker: A human-centric approach for adopting bug inducing commit detection using machine learning models</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Naz</namePart>
-        <namePart type="given">Zarreen</namePart>
-        <namePart type="given">Zarreen</namePart>
-        <namePart type="family">Oishie</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2022</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>15th Innovations in Software Engineering Conference</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Oishie-2022-Commit-Checker:</identifier>
-    <identifier type="doi">10.1145/3511430.3511463</identifier>
-    <location>
-        <url>https://aclanthology.org/G22-10004</url>
-    </location>
-    <part>
-        <date>2022</date>
+        <extent unit="page">
+            <start>97</start>
+            <end>108</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

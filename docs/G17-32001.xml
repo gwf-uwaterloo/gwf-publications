@@ -1,42 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Shafii-2017-A">
+<mods ID="Sheikholeslami-2017-Progressive">
     <titleInfo>
-        <title>A diagnostic approach to constraining flow partitioning in hydrologic models using a multiobjective optimization framework</title>
+        <title>Progressive Latin Hypercube Sampling: An efficient approach for robust sampling-based analysis of environmental models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahyar</namePart>
-        <namePart type="family">Shafii</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nandita</namePart>
-        <namePart type="family">Basu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Craig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,28 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 53, Issue 4</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 93</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\copyright American Geophysical Union: Shafii, M., Basu, N., Craig, J. R., Schiff, S. L., &amp; Van Cappellen, P. (2017). A diagnostic approach to constraining flow partitioning in hydrologic models using a multiobjective optimization framework. Water Resources Research, 53(4), 3279–3301. https://doi.org/10.1002/2016WR019736</abstract>
-    <identifier type="citekey">Shafii-2017-A</identifier>
-    <identifier type="doi">10.1002/2016wr019736</identifier>
+    <abstract>Efficient sampling strategies that scale with the size of the problem, computational budget, and users needs are essential for various sampling-based analyses, such as sensitivity and uncertainty analysis. In this study, we propose a new strategy, called Progressive Latin Hypercube Sampling (PLHS), which sequentially generates sample points while progressively preserving the distributional properties of interest (Latin hypercube properties, space-filling, etc.), as the sample size grows. Unlike Latin hypercube sampling, PLHS generates a series of smaller sub-sets (slices) such that (1) the first slice is Latin hypercube, (2) the progressive union of slices remains Latin hypercube and achieves maximum stratification in any one-dimensional projection, and as such (3) the entire sample set is Latin hypercube. The performance of PLHS is compared with benchmark sampling strategies across multiple case studies for Monte Carlo simulation, sensitivity and uncertainty analysis. Our results indicate that PLHS leads to improved efficiency, convergence, and robustness of sampling-based analyses. A new sequential sampling strategy called PLHS is proposed for sampling-based analysis of simulation models.PLHS is evaluated across multiple case studies for Monte Carlo simulation, sensitivity and uncertainty analysis.PLHS provides better performance compared with the other sampling strategies in terms of convergence rate and robustness.PLHS can be used to monitor the performance of the associated sampling-based analysis and to avoid over- or under-sampling.</abstract>
+    <identifier type="citekey">Sheikholeslami-2017-Progressive</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2017.03.010</identifier>
     <location>
         <url>https://aclanthology.org/G17-32001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>53</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>93</number></detail>
         <extent unit="page">
-            <start>3279</start>
-            <end>3301</end>
+            <start>109</start>
+            <end>126</end>
         </extent>
     </part>
 </mods>

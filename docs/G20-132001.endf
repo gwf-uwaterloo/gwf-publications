@@ -1,26 +1,17 @@
 ﻿%0 Journal Article
-%T L-Band response to freeze/thaw in a boreal forest stand from ground- and tower-based radiometer observations
-%A Roy, Alexandre
-%A Toose, Peter
-%A Mavrovic, Alex
-%A Pappas, Christoforos
-%A Royer, Alain
-%A Derksen, Chris
-%A Berg, Aaron
-%A Rowlandson, Tracy
-%A El-Amine, Mariam
-%A Barr, Alan
-%A Black, Andrew
-%A Langlois, Alexandre
-%A Sonnentag, Oliver
-%J Remote Sensing of Environment, Volume 237
+%T Retrieval of ice/water observations from synthetic aperture radar imagery for use in lake ice data assimilation
+%A Scott, K. Andrea
+%A Xu, Linlin
+%A Pour, Homa Kheyrollah
+%J Journal of Great Lakes Research, Volume 46, Issue 6
 %D 2020
-%V 237
+%V 46
+%N 6
 %I Elsevier BV
-%F Roy-2020-L-Band
-%X Abstract The extent, timing and duration of seasonal freeze/thaw (FT) state exerts dominant control on boreal forest carbon, water and energy cycle processes. Recent and on-going L-Band (\approx1.4 GHz) spaceborne missions have the potential to provide enhanced information on FT state over large geographic regions with rapid revisit time. However, the low spatial resolution of these spaceborne observations (\approx45 km) makes it difficult to isolate the primary contributions (soil, vegetation, snow) to the FT signal in boreal forest. To better quantify these controls, two L-Band radiometers were deployed (September 2016 to July 2017) at a black spruce (Picea mariana) dominated boreal forest site; one unit above and one unit on the ground surface below the canopy to disentangle the microwave contributions of overstory canopy, and the ground surface on the FT brightness temperature (TB) signal. Bi-weekly multi-angular measurements from both units were combined in order to estimate effective scattering albedo (ω) and the microwave vegetative optical depth (τ), using the τ-ω microwave vegetation radiative transfer model. Soil moisture probes were inserted in the trunk of two black spruce and one larch (Larix laricina) trunks located in the footprint of the above-canopy radiometer to measure tree trunk relative dielectric constant (RDCtree). Results showed a strong relationship between RDCtree and tree skin temperature (Ttree) under freezing temperature conditions, which led to a gradual decrease of τ in winter. During the spring thawing period in April and May, τ remained relatively stable. In contrast, it increased substantially in June, most likely in relation to the growing season onset. Overall, τ was related to the seasonal RDCtree cycle (r = 0.76). Regarding ω, a value of 0.086 (\pm0.029) was obtained, but no dependency on Ttree or RDCtree was observed. Despite the observed impact of FT on vegetation L-Band signals, results from continuous TB observations spanning from 14 September 2016 to 25 May 2017, indicated that the main contribution to the observed L-Band TB freeze-up signal in the fall originated from the ground surface. The above-canopy unit showed some sensitivity to overstory canopy FT, yet the sensitivity was lower compared to the signal induced by the ground FT. In April and May, L-Band radiometer FT retrieval agreed closely to the melt onset detection using RDCtree but it was likely related to the coincident presence of liquid water in the snow. Our findings have important applications to L-Band spaceborne FT algorithm development and validation across the boreal forest. More specifically, our findings allow better quantification of the potential effect of frozen ground on various biogeophysical and biogeochemical processes in boreal forests.
-%R 10.1016/j.rse.2019.111542
+%F Scott-2020-Retrieval
+%X High-resolution lake ice/water observations retrieved from satellite imagery through efficient, automated methods can provide critical information to lake ice forecasting systems. Synthetic aperture radar (SAR) data is well-suited to this purpose due to its high spatial resolution (approximately 50 m). With recent increases in the volume of SAR data available, the development of automated retrieval methods for these data is a priority for operational centres. However, automated retrieval of ice/water data from SAR imagery is difficult, due to ambiguity in ice and open water signatures, both in terms of image tone and in terms of parameterized texture features extracted from these images. Convolutional neural networks (CNNs) can learn features from imagery in an automated manner, and have been found effective in previous studies on sea ice concentration estimation from SAR. In this study the use of CNNs to retrieve ice/water observations from dual-polarized SAR imagery of two of the Laurentian Great Lakes, Lake Erie and Lake Ontario, is investigated. For data assimilation, it is crucial that the retrieved observations are of high quality. To this end, quality control measures based on the uncertainty of the CNN output to eliminate incorrect retrievals are discussed and demonstrated. The quality control measures are found to be effective in both dual-polarized and single-polarized retrievals. The ability of the CNN to downscale the coarse resolution training labels is demonstrated qualitatively.
+%R 10.1016/j.jglr.2020.08.018
 %U https://aclanthology.org/G20-132001
-%U https://doi.org/10.1016/j.rse.2019.111542
-%P 111542
+%U https://doi.org/10.1016/j.jglr.2020.08.018
+%P 1521-1532
 

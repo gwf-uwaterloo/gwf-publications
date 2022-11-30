@@ -1,34 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Jensen-2022-Microbial">
+<mods ID="Wallace-2022-Scale‐dependent">
     <titleInfo>
-        <title>Microbial Community Compositional Stability in Agricultural Soils During Freeze-Thaw and Fertilizer Stress</title>
+        <title>Scale‐dependent responses of understory vegetation to the physical structure of undisturbed tundra shrub patches</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Grant</namePart>
-        <namePart type="family">Jensen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Konrad</namePart>
-        <namePart type="family">Krogstad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Laura</namePart>
+        <namePart type="given">Cory</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Hug</namePart>
+        <namePart type="family">Wallace</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,24 +27,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Environmental Science, Volume 10</title>
+            <title>Ecosphere, Volume 13, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Microbial activity persists in cold region agricultural soils during the fall, winter, and spring (i.e., non-growing season) and frozen condition, with peak activity during thaw events. Climate change is expected to change the frequency of freeze-thaw cycles (FTC) and extreme temperature events (i.e, altered timing, extreme heat/cold events) in temperate cold regions, which may hasten microbial consumption of fall-amended fertilizers, decreasing potency come the growing season. We conducted a high-resolution temporal examination of the impacts of freeze-thaw and nutrient stress on microbial communities in agricultural soils across both soil depth and time. Four soil columns were incubated under a climate model of a non-growing season including precipitation, temperature, and thermal gradient with depth over 60 days. Two columns were amended with fertilizer, and two incubated as unamended soil. The impacts of repeated FTC and nutrient stress on bacterial, archaeal, and fungal soil community members were determined, providing a deeply sampled longitudinal view of soil microbial response to non-growing season conditions. Geochemical changes from flow-through leachate and amplicon sequencing of 16S and ITS rRNA genes were used to assess community response. Despite nitrification observed in fertilized columns, there were no significant microbial diversity, core community, or nitrogen cycling population trends in response to nutrient stress. FTC impacts were observable as an increase in alpha diversity during FTC. Community compositions shifted across a longer time frame than individual FTC, with bulk changes to the community in each phase of the experiment. Our results demonstrate microbial community composition remains relatively stable for archaea, bacteria, and fungi through a non-growing season, independent of nutrient availability. This observation contrasts canonical thinking that FTC have significant and prolonged effects on microbial communities. In contrast to permafrost and other soils experiencing rare FTC, in temperate agricultural soils regularly experiencing such perturbations, the response to freeze-thaw and fertilizer stress may be muted by a more resilient community or be controlled at the level of gene expression rather than population turn-over. These results clarify the impacts of winter FTC on fertilizer consumption, with implications for agricultural best practices and modeling of biogeochemical cycling in agroecosystems.</abstract>
-    <identifier type="citekey">Jensen-2022-Microbial</identifier>
-    <identifier type="doi">10.3389/fenvs.2022.908568</identifier>
+    <abstract>Much of the Arctic is experiencing rapid change in the productivity and recruitment of tall, deciduous shrubs. It is well established that shrub expansion can alter tundra ecosystem composition and function; however, less is known about the degree to which variability in the physical structure of shrub patches might mediate these changes. There is also limited information as to how different physical attributes of shrub patches may covary and how they differ with topography. Here, we address these knowledge gaps by measuring the physical structure, abiotic conditions, and understory plant community composition at sampling plots within undisturbed green alder patches at a taiga–tundra ecotone site in the Northwest Territories, Canada. We found surprisingly few associations between most structural variables and abiotic conditions at the plot scale, with the notable exceptions of canopy complexity and snow depth. Importantly, neither patch structure nor abiotic conditions were associated with the vegetation community at the plot scale when among-patch variation was accounted for. However, among-patch variation in plant community composition was significant and represented a gradient in the richness of tundra specialists and Sphagnum moss abundance. This gradient was strongly associated with mean patch snow depth, which was likely controlled at least in part by mean patch canopy complexity. Overall, natural variability in green alder patch structure had less of an association with abiotic conditions than expected, suggesting future changes in physical structure at undisturbed sites may have limited environmental impact at the plot scale. However, at the patch scale, increases in snow depth, likely related to canopy complexity, were negatively associated with tundra specialist richness, potentially due to phenological limitations associated with shortened growing seasons. In summary, our data suggest emergent properties exist at the patch scale that are not apparent at the plot scale such that plot-scale measurements do not represent variation in understory community composition across the landscape. The results presented here will inform future work addressing spatial variability in shrub impacts on ecosystem function and increase our understanding of understory community variation within alder patch habitats at the taiga–tundra ecotone.</abstract>
+    <identifier type="citekey">Wallace-2022-Scale‐dependent</identifier>
+    <identifier type="doi">10.1002/ecs2.4218</identifier>
     <location>
         <url>https://aclanthology.org/G22-73001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>10</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,28 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moon-2020-&lt;scp&gt;DNA&lt;/scp&gt;">
+<mods ID="Ouellet-2020-Validation">
     <titleInfo>
-        <title>\textlessscp\textgreaterDNA\textless/scp\textgreater ‐Enabled Heavy Metal Detection in Water</title>
+        <title>Validation of the micro-EROD assay with H4IIE cells for assessing sediment contamination with dioxin-like chemicals</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Woohyun</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Moon</namePart>
+        <namePart type="given">Jacob</namePart>
+        <namePart type="family">Ouellet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Po‐Jung</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Carolin</namePart>
+        <namePart type="family">Gembé</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Sebastian</namePart>
+        <namePart type="family">Buchinger</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Georg</namePart>
+        <namePart type="family">Reifferscheid</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Henner</namePart>
+        <namePart type="family">Hollert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Markus</namePart>
+        <namePart type="family">Brinkmann</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,26 +53,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Encyclopedia of Analytical Chemistry</title>
+            <title>Environmental Pollution, Volume 265</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Moon-2020-&lt;scp&gt;DNA&lt;/scp&gt;</identifier>
-    <identifier type="doi">10.1002/9780470027318.a9747</identifier>
+    <abstract>In vitro bioassays have been used as a bioanalytical means of detecting dioxin-like compounds (DLCs) in environmental matrices and have been suggested as a tool for quantifying DLCs in sediments. The present study evaluated the relationship between bioanalytical results from the micro-7-ethoxyresorufin-O-deethylase (EROD) bioassay and chemical analytical results in 25 sediment samples collected from rivers across Germany. Sediments were collected, polychlorinated dibenzo-p-dioxins and dibenzofurans (PCDD/Fs) and dioxin-like polychlorinated biphenyls (DL-PCBs) were extracted from the sediments, biological toxicity equivalent quotients (BEQs) were determined by micro-EROD assay and toxicity equivalent quotients (TEQs) were calculated from chemical analysis. Correlations between BEQs and TEQs were evaluated, and linear regression modeling was performed, excluding 6 samples as validation data, to derive equations for predicting TEQs from BEQs. Validation data was tested to evaluate predictive capabilities of the models. Correlations were observed between BEQ and TEQ for PCDD/Fs (r=0.987), PCBs (r=0.623), measured sum of PCDD/F and PCBs (r = 0.975) and calculated sum of PCDD/F and PCBs (r = 0.971). The modeling equations provided low variances as evaluated by mean absolute error (MAE) (łeq10.3 pg/g) and root mean square error (RMSE) (łeq15.8 pg/g) indicating that expected TEQs could be reasonably well calculated from BEQs. Predicted TEQs from validation data fell within the 95% probability intervals of the test data and had low variances (MAEłeq6.5 pg/g) and (RMSEłeq10.7 pg/g). Our results indicate that the micro-EROD bioassay can be used as a screening tool for DLCs in sediment and has the capability to be used as an alternate method to chemical analysis for quantifying dioxin-like potential of sediments.</abstract>
+    <identifier type="citekey">Ouellet-2020-Validation</identifier>
+    <identifier type="doi">10.1016/j.envpol.2020.114984</identifier>
     <location>
         <url>https://aclanthology.org/G20-116001</url>
     </location>
     <part>
         <date>2020</date>
-        <extent unit="page">
-            <start>1</start>
-            <end>22</end>
-        </extent>
+        <detail type="volume"><number>265</number></detail>
+        <detail type="page"><number>114984</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,33 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Malik-2020-Reconstruction">
+<mods ID="Marsh-2020-A">
     <titleInfo>
-        <title>Reconstruction of past backyard skating seasons in the Original Six NHL cities from citizen science data</title>
+        <title>A Finite Volume Blowing Snow Model for Use With Variable Resolution Meshes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Karim</namePart>
-        <namePart type="family">Malik</namePart>
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Marsh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Robert</namePart>
-        <namePart type="family">McLeman</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Colin</namePart>
-        <namePart type="family">Robertson</namePart>
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Haydn</namePart>
-        <namePart type="family">Lawrence</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +43,70 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>The Canadian Geographer / Le Géographe canadien, Volume 64, Issue 4</title>
+            <title>Water Resources Research, Volume 56, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Malik-2020-Reconstruction</identifier>
-    <identifier type="doi">10.1111/cag.12640</identifier>
+    <identifier type="citekey">Marsh-2020-A</identifier>
+    <identifier type="doi">10.1029/2019wr025307</identifier>
     <location>
         <url>https://aclanthology.org/G20-107001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>64</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>564</start>
-            <end>575</end>
-        </extent>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>2</number></detail>
+    </part>
+</mods>
+<mods ID="Papalexiou-2020-Random">
+    <titleInfo>
+        <title>Random Fields Simplified: Preserving Marginal Distributions, Correlations, and Intermittency, With Applications From Rainfall to Humidity</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francesco</namePart>
+        <namePart type="family">Serinaldi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 56, Issue 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Papalexiou-2020-Random</identifier>
+    <identifier type="doi">10.1029/2019wr026331</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-107002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>2</number></detail>
     </part>
 </mods>
 </modsCollection>

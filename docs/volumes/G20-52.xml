@@ -1,27 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="BenAlaya-2020-An">
+<mods ID="Biagi-2020-The">
     <titleInfo>
-        <title>An Evaluation of Block-Maximum-Based Estimation of Very Long Return Period Precipitation Extremes with a Large Ensemble Climate Simulation</title>
+        <title>The role of snow processes and hillslopes on runoff generation in present and future climates in a recently constructed watershed in the Athabasca oil sands region</title>
     </titleInfo>
     <name type="personal">
+        <namePart type="given">Kelly</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Ben Alaya</namePart>
+        <namePart type="family">Biagi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="family">Zwiers</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">X</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,27 +27,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Climate, Volume 33, Issue 16</title>
+            <title>Hydrological Processes, Volume 34, Issue 17</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ben Alaya-2020-An</identifier>
-    <identifier type="doi">10.1175/jcli-d-19-0011.1</identifier>
+    <identifier type="citekey">Biagi-2020-The</identifier>
+    <identifier type="doi">10.1002/hyp.13836</identifier>
     <location>
         <url>https://aclanthology.org/G20-52001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="issue"><number>16</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>17</number></detail>
         <extent unit="page">
-            <start>6957</start>
-            <end>6970</end>
+            <start>3635</start>
+            <end>3655</end>
         </extent>
     </part>
 </mods>

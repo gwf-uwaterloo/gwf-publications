@@ -1,48 +1,121 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Adams-2022-Rates-timing">
+<mods ID="Pomeroy-2022-The">
     <titleInfo>
-        <title>Rates and timing of chlorophyll-a increases and related environmental variables in global temperate and cold-temperate lakes</title>
+        <title>The cold regions hydrological modelling platform for hydrological diagnosis and prediction based on process understanding</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hannah</namePart>
-        <namePart type="family">Adams</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jane</namePart>
-        <namePart type="family">Ye</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Brown</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bhaleka</namePart>
+        <namePart type="given">X</namePart>
+        <namePart type="family">Fang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">D</namePart>
-        <namePart type="family">Persaud</namePart>
+        <namePart type="family">Pradhananga</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Stephanie</namePart>
-        <namePart type="family">Slowinski</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Armstrong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Homa</namePart>
-        <namePart type="family">Kheyrollah Pour</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Harder</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="family">Costa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Krogh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Aubry-Wake</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Annand</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Lawford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Z</namePart>
+        <namePart type="family">He</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Kompanizare</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Lopez Moreno</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,29 +127,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 14, Issue 11</title>
+            <title>Journal of Hydrology, Volume 615</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Lakes are key ecosystems within the global biogeosphere. However, the environmental controls on the biological productivity of lakes – including surface temperature, ice phenology, nutrient loads, and mixing regime – are increasingly altered by climate warming and land-use changes. To better characterize global trends in lake productivity, we assembled a dataset on chlorophyll-a concentrations as well as associated water quality parameters and surface solar radiation for temperate and cold-temperate lakes experiencing seasonal ice cover. We developed a method to identify periods of rapid net increase of in situ chlorophyll-a concentrations from time series data and applied it to data collected between 1964 and 2019 across 343 lakes located north of 40∘. The data show that the spring chlorophyll-a increase periods have been occurring earlier in the year, potentially extending the growing season and increasing the annual productivity of northern lakes. The dataset on chlorophyll-a increase rates and timing can be used to analyze trends and patterns in lake productivity across the northern hemisphere or at smaller, regional scales. We illustrate some trends extracted from the dataset and encourage other researchers to use the open dataset for their own research questions. The PCI dataset and additional data files can be openly accessed at the Federated Research Data Repository at https://doi.org/10.20383/102.0488 (Adams et al., 2021).</abstract>
-    <identifier type="citekey">Adams-2022-Rates-timing</identifier>
-    <identifier type="doi">10.5194/essd-14-5139-2022</identifier>
+    <abstract>\bullet Snow, glaciers, wetlands, frozen ground and permafrost needed in hydrological models. \bullet Water quality export by coupling biochemical transformations to cold regions processes. \bullet Hydrological sensitivity to land use depends on cold regions processes. \bullet Strong cold regions hydrological sensitivity to climate warming. Cold regions involve hydrological processes that are not often addressed appropriately in hydrological models. The Cold Regions Hydrological Modelling platform (CRHM) was initially developed in 1998 to assemble and explore the hydrological understanding developed from a series of research basins spanning Canada and international cold regions. Hydrological processes and basin response in cold regions are simulated in a flexible, modular, object-oriented, multiphysics platform. The CRHM platform allows for multiple representations of forcing data interpolation and extrapolation, hydrological model spatial and physical process structures, and parameter values. It is well suited for model falsification, algorithm intercomparison and benchmarking, and has been deployed for basin hydrology diagnosis, prediction, land use change and water quality analysis, climate impact analysis and flood forecasting around the world. This paper describes CRHM’s capabilities, and the insights derived by applying the model in concert with process hydrology research and using the combined information and understanding from research basins to predict hydrological variables, diagnose hydrological change and determine the appropriateness of model structure and parameterisations.</abstract>
+    <identifier type="citekey">Pomeroy-2022-The</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.128711</identifier>
     <location>
         <url>https://aclanthology.org/G22-100001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>14</number></detail>
-        <detail type="issue"><number>11</number></detail>
-        <extent unit="page">
-            <start>5139</start>
-            <end>5156</end>
-        </extent>
+        <detail type="volume"><number>615</number></detail>
+        <detail type="page"><number>128711</number></detail>
     </part>
 </mods>
 </modsCollection>

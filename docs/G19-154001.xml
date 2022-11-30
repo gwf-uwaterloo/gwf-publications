@@ -1,20 +1,97 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rupasinghe-2019-Identification">
+<mods ID="Rutter-2019-Effect">
     <titleInfo>
-        <title>Identification of most spectrally distinguishable phenological stage of invasive Phramites australis in Lake Erie wetlands (Canada) for accurate mapping using multispectral satellite imagery</title>
+        <title>Effect of snow microstructure variability on Ku-band radar snow water equivalent retrievals</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Prabha</namePart>
-        <namePart type="given">Amali</namePart>
-        <namePart type="family">Rupasinghe</namePart>
+        <namePart type="given">Nick</namePart>
+        <namePart type="family">Rutter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Patricia</namePart>
-        <namePart type="family">Chow-Fraser</namePart>
+        <namePart type="given">Melody</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Sandells</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Derksen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Joshua</namePart>
+        <namePart type="family">King</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Toose</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Leanne</namePart>
+        <namePart type="family">Wake</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tom</namePart>
+        <namePart type="family">Watts</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Essery</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Royer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Larsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="family">Sturm</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,27 +103,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Wetlands Ecology and Management, Volume 27, Issue 4</title>
+            <title>The Cryosphere, Volume 13, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rupasinghe-2019-Identification</identifier>
-    <identifier type="doi">10.1007/s11273-019-09675-2</identifier>
+    <abstract>Abstract. Spatial variability in snowpack properties negatively impacts our capacity to make direct measurements of snow water equivalent (SWE) using satellites. A comprehensive data set of snow microstructure (94 profiles at 36 sites) and snow layer thickness (9000 vertical profiles across nine trenches) collected over two winters at Trail Valley Creek, NWT, Canada, was applied in synthetic radiative transfer experiments. This allowed for robust assessment of the impact of estimation accuracy of unknown snow microstructural characteristics on the viability of SWE retrievals. Depth hoar layer thickness varied over the shortest horizontal distances, controlled by subnivean vegetation and topography, while variability in total snowpack thickness approximated that of wind slab layers. Mean horizontal correlation lengths of layer thickness were less than a metre for all layers. Depth hoar was consistently ∼30 % of total depth, and with increasing total depth the proportion of wind slab increased at the expense of the decreasing surface snow layer. Distinct differences were evident between distributions of layer properties; a single median value represented density and specific surface area (SSA) of each layer well. Spatial variability in microstructure of depth hoar layers dominated SWE retrieval errors. A depth hoar SSA estimate of around 7 % under the median value was needed to accurately retrieve SWE. In shallow snowpacks &amp;lt;0.6 m, depth hoar SSA estimates of \pm5 %–10 % around the optimal retrieval SSA allowed SWE retrievals within a tolerance of \pm30 mm. Where snowpacks were deeper than ∼30 cm, accurate values of representative SSA for depth hoar became critical as retrieval errors were exceeded if the median depth hoar SSA was applied.</abstract>
+    <identifier type="citekey">Rutter-2019-Effect</identifier>
+    <identifier type="doi">10.5194/tc-13-3045-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-154001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>27</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>11</number></detail>
         <extent unit="page">
-            <start>513</start>
-            <end>538</end>
+            <start>3045</start>
+            <end>3059</end>
         </extent>
     </part>
 </mods>

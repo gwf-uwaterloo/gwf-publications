@@ -1,17 +1,25 @@
 ﻿%0 Journal Article
-%T What should we do when a model crashes? Recommendations for global sensitivity analysis of Earth and environmental systems models
-%A Sheikholeslami, Razi
-%A Razavi, Saman
-%A Haghnegahdar, Amin
-%J Geoscientific Model Development, Volume 12, Issue 10
+%T Model-data fusion of hydrologic simulations and GRACE terrestrial water storage observations to estimate changes in water table depth
+%A Stampoulis, Dimitrios
+%A Reager, John T.
+%A David, Cédric H.
+%A Andreadis, Konstantinos M.
+%A Famiglietti, James S.
+%A Farr, Tom G.
+%A Trangsrud, Amy R.
+%A Basilio, Ralph R.
+%A Sabo, John L.
+%A Osterman, Gregory B.
+%A Lundgren, Paul R.
+%A Liu, Zhen
+%J Advances in Water Resources, Volume 128
 %D 2019
-%V 12
-%N 10
-%I Copernicus GmbH
-%F Sheikholeslami-2019-What
-%X Abstract. Complex, software-intensive, technically advanced, and computationally demanding models, presumably with ever-growing realism and fidelity, have been widely used to simulate and predict the dynamics of the Earth and environmental systems. The parameter-induced simulation crash (failure) problem is typical across most of these models despite considerable efforts that modellers have directed at model development and implementation over the last few decades. A simulation failure mainly occurs due to the violation of numerical stability conditions, non-robust numerical implementations, or errors in programming. However, the existing sampling-based analysis techniques such as global sensitivity analysis (GSA) methods, which require running these models under many configurations of parameter values, are ill equipped to effectively deal with model failures. To tackle this problem, we propose a new approach that allows users to cope with failed designs (samples) when performing GSA without rerunning the entire experiment. This approach deems model crashes as missing data and uses strategies such as median substitution, single nearest-neighbor, or response surface modeling to fill in for model crashes. We test the proposed approach on a 10-parameter HBV-SASK (Hydrologiska Byråns Vattenbalansavdelning modified by the second author for educational purposes) rainfall–runoff model and a 111-parameter Modélisation Environmentale–Surface et Hydrologie (MESH) land surface–hydrology model. Our results show that response surface modeling is a superior strategy, out of the data-filling strategies tested, and can comply with the dimensionality of the model, sample size, and the ratio of the number of failures to the sample size. Further, we conduct a “failure analysis” and discuss some possible causes of the MESH model failure that can be used for future model improvement.
-%R 10.5194/gmd-12-4275-2019
+%V 128
+%I Elsevier BV
+%F Stampoulis-2019-Model-data
+%X Abstract Despite numerous advances in continental-scale hydrologic modeling and improvements in global Land Surface Models, an accurate representation of regional water table depth (WTD) remains a challenge. Data assimilation of observations from the Gravity Recovery and Climate Experiment (GRACE) mission leads to improvements in the accuracy of hydrologic models, ultimately resulting in more reliable estimates of lumped water storage. However, the usually shallow groundwater compartment of many models presents a problem with GRACE assimilation techniques, as these satellite observations also represent changes in deeper soils and aquifers. To improve the accuracy of modeled groundwater estimates and allow the representation of WTD at finer spatial scales, we implemented a simple, yet novel approach to integrate GRACE data, by augmenting the Variable Infiltration Capacity (VIC) hydrologic model. First, the subsurface model structural representation was modified by incorporating an additional (fourth) soil layer of varying depth (up to 1000 m) in VIC as the bottom ‘groundwater’ layer. This addition allows the model to reproduce water storage variability not only in shallow soils but also in deeper groundwater, in order to allow integration of the full GRACE-observed variability. Second, a Direct Insertion scheme was developed that integrates the high temporal (daily) and spatial (∼6.94 km) resolution model outputs to match the GRACE resolution, performs the integration, and then disaggregates the updated model state after the assimilation step. Simulations were performed with and without Direct Insertion over the three largest river basins in California and including the Central Valley, in order to test the augmented model’s ability to capture seasonal and inter-annual trends in the water table. This is the first-ever fusion of GRACE total water storage change observations with hydrologic simulations aiming at the determination of water table depth dynamics, at spatial scales potentially useful for local water management.
+%R 10.1016/j.advwatres.2019.04.004
 %U https://aclanthology.org/G19-161001
-%U https://doi.org/10.5194/gmd-12-4275-2019
-%P 4275-4296
+%U https://doi.org/10.1016/j.advwatres.2019.04.004
+%P 13-27
 

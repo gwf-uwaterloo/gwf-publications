@@ -1,48 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wu-2020-LVMapper:">
+<mods ID="Wu-2020-Hydrophobicity">
     <titleInfo>
-        <title>LVMapper: A Large-Variance Clone Detector Using Sequencing Alignment Approach</title>
+        <title>Hydrophobicity of peat soils: Characterization of organic compound changes associated with heat-induced water repellency</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ming</namePart>
+        <namePart type="given">Yichen</namePart>
         <namePart type="family">Wu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pengcheng</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Nan</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kangqi</namePart>
-        <namePart type="family">Yin</namePart>
+        <namePart type="given">Greg</namePart>
+        <namePart type="family">Slater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Haoyu</namePart>
-        <namePart type="family">Cheng</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yun</namePart>
-        <namePart type="family">Xu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Charles-François</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,27 +47,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>IEEE Access, Volume 8</title>
+            <title>Science of The Total Environment, Volume 714</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Wu-2020-LVMapper:</identifier>
-    <identifier type="doi">10.1109/access.2020.2971545</identifier>
+    <identifier type="citekey">Wu-2020-Hydrophobicity</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2019.136444</identifier>
     <location>
         <url>https://aclanthology.org/G20-147001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>8</number></detail>
-        <extent unit="page">
-            <start>27986</start>
-            <end>27997</end>
-        </extent>
+        <detail type="volume"><number>714</number></detail>
+        <detail type="page"><number>136444</number></detail>
     </part>
 </mods>
 </modsCollection>

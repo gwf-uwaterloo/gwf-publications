@@ -1,43 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lilhare-2019-Intercomparison">
+<mods ID="Lindenschmidt-2019-CE-QUAL-W2">
     <titleInfo>
-        <title>Intercomparison of Multiple Hydroclimatic Datasets across the Lower Nelson River Basin, Manitoba, Canada</title>
+        <title>CE-QUAL-W2 model of dam outflow elevation impact on temperature, dissolved oxygen and nutrients in a reservoir</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Rajtantra</namePart>
-        <namePart type="family">Lilhare</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Stephen</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Déry</namePart>
+        <namePart type="given">Meghan</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carr</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Scott</namePart>
-        <namePart type="family">Pokorny</namePart>
+        <namePart type="given">Amir</namePart>
+        <namePart type="family">Sadeghian</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tricia</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Stadnyk</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kristina</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Koenig</namePart>
+        <namePart type="given">Luis</namePart>
+        <namePart type="family">Morales-Marin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -49,29 +40,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmosphere-Ocean, Volume 57, Issue 4</title>
+            <title>Scientific Data, Volume 6, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>ABSTRACTThis study evaluates the 1981–2010 spatiotemporal differences in six available climate datasets (daily total precipitation and mean air temperature) over the Lower Nelson River Basin (LNRB)...</abstract>
-    <identifier type="citekey">Lilhare-2019-Intercomparison</identifier>
-    <identifier type="doi">10.1080/07055900.2019.1638226</identifier>
+    <abstract>Abstract Dams are typically designed to serve as flood protection, provide water for irrigation, human and animal consumption, and harness hydropower. Despite these benefits, dam operations can have adverse effects on in-reservoir and downstream water temperature regimes, biogeochemical cycling and aquatic ecosystems. We present a water quality dataset of water withdrawal scenarios generated after implementing the 2D hydrodynamic and water quality model, CE-QUAL-W2. The scenarios explore how six water extraction scenarios, starting at 5 m above the reservoir bottom at the dam and increasing upward at 10 m intervals to 55 m, influence water quality in Lake Diefenbaker reservoir, Saskatchewan, Canada. The model simulates daily water temperature, dissolved oxygen, total phosphorus, phosphate as phosphorus, labile phosphorus, total nitrogen, nitrate as nitrogen, labile nitrogen, and ammonium at 87 horizontal segments and at 60 water depths during the 2011–2013 period. This dataset intends to facilitate a broader investigation of in-reservoir nutrient dynamics under dam operations, and to extend the understanding of reservoir nutrient dynamics globally.</abstract>
+    <identifier type="citekey">Lindenschmidt-2019-CE-QUAL-W2</identifier>
+    <identifier type="doi">10.1038/s41597-019-0316-y</identifier>
     <location>
         <url>https://aclanthology.org/G19-95001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>57</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>262</start>
-            <end>278</end>
-        </extent>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

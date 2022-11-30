@@ -1,33 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ford-2019-Risk">
+<mods ID="Gharari-2019-Improving">
     <titleInfo>
-        <title>Risk Perception and Human Health Risk in Rural Communities Consuming Unregulated Well Water in Saskatchewan, Canada</title>
+        <title>Improving the Representation of Subsurface Water Movement in Land Models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lorelei</namePart>
-        <namePart type="family">Ford</namePart>
+        <namePart type="given">Shervan</namePart>
+        <namePart type="family">Gharari</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Cheryl</namePart>
-        <namePart type="family">Waldner</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Javier</namePart>
-        <namePart type="family">Sanchez</namePart>
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lalita</namePart>
-        <namePart type="family">Bharadwaj</namePart>
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,27 +56,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Risk Analysis, Volume 39, Issue 11</title>
+            <title>Journal of Hydrometeorology, Volume 20, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ford-2019-Risk</identifier>
-    <identifier type="doi">10.1111/risa.13335</identifier>
+    <identifier type="citekey">Gharari-2019-Improving</identifier>
+    <identifier type="doi">10.1175/jhm-d-19-0108.1</identifier>
     <location>
         <url>https://aclanthology.org/G19-59001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>39</number></detail>
-        <detail type="issue"><number>11</number></detail>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>12</number></detail>
         <extent unit="page">
-            <start>2559</start>
-            <end>2575</end>
+            <start>2401</start>
+            <end>2418</end>
         </extent>
     </part>
 </mods>

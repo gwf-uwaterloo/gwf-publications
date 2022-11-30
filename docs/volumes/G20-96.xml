@@ -1,61 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kreuzburg-2020-Carbon">
+<mods ID="Lee-2020-Inactivation">
     <titleInfo>
-        <title>Carbon release and transformation from coastal peat deposits controlled by submarine groundwater discharge: a column experiment study</title>
+        <title>Inactivation of bacterial planktonic cells and biofilms by Cu(II)-activated peroxymonosulfate in the presence of chloride ion</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matthias</namePart>
-        <namePart type="family">Kreuzburg</namePart>
+        <namePart type="given">Hye-Jin</namePart>
+        <namePart type="family">Lee</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
+        <namePart type="given">Hyung-Eun</namePart>
+        <namePart type="family">Kim</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tatjana</namePart>
-        <namePart type="family">Milojevic</namePart>
+        <namePart type="given">Min</namePart>
+        <namePart type="given">Sik</namePart>
+        <namePart type="family">Kim</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Maren</namePart>
-        <namePart type="family">Voss</namePart>
+        <namePart type="given">Charles-François</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lennart</namePart>
-        <namePart type="family">Gosch</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Susanne</namePart>
-        <namePart type="family">Liebner</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gregor</namePart>
-        <namePart type="family">Rehder</namePart>
+        <namePart type="given">Changha</namePart>
+        <namePart type="family">Lee</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -67,28 +47,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Limnology and Oceanography, Volume 65, Issue 5</title>
+            <title>Chemical Engineering Journal, Volume 380</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kreuzburg-2020-Carbon</identifier>
-    <identifier type="doi">10.1002/lno.11438</identifier>
+    <identifier type="citekey">Lee-2020-Inactivation</identifier>
+    <identifier type="doi">10.1016/j.cej.2019.122468</identifier>
     <location>
         <url>https://aclanthology.org/G20-96001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>65</number></detail>
-        <detail type="issue"><number>5</number></detail>
-        <extent unit="page">
-            <start>1116</start>
-            <end>1135</end>
-        </extent>
+        <detail type="volume"><number>380</number></detail>
+        <detail type="page"><number>122468</number></detail>
     </part>
 </mods>
 </modsCollection>

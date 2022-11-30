@@ -1,76 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Monte-2018-The">
+<mods ID="Zolkos-2018-Mineral">
     <titleInfo>
-        <title>The spectral and radiometric calibration of the ENMAP onboard calibration assembly (OBCA) (Conference Presentation)</title>
+        <title>Mineral Weathering and the Permafrost Carbon‐Climate Feedback</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christian</namePart>
-        <namePart type="family">Monte</namePart>
+        <namePart type="given">Scott</namePart>
+        <namePart type="family">Zolkos</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Max</namePart>
-        <namePart type="family">Reiniger</namePart>
+        <namePart type="given">Suzanne</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Tank</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christoph</namePart>
-        <namePart type="family">Baltruschat</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ingmar</namePart>
-        <namePart type="family">Müller</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="family">Wachter</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ludger</namePart>
-        <namePart type="family">Wilkens</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Felix</namePart>
-        <namePart type="family">Theml</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gavin</namePart>
-        <namePart type="family">Staton</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dieter</namePart>
-        <namePart type="given">Richard</namePart>
-        <namePart type="family">Taubert</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jörg</namePart>
-        <namePart type="family">Hollandt</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Kokelj</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -82,22 +34,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Sensors, Systems, and Next-Generation Satellites XXII</title>
+            <title>Geophysical Research Letters, Volume 45, Issue 18</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>SPIE</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Monte-2018-The</identifier>
-    <identifier type="doi">10.1117/12.2325750</identifier>
+    <identifier type="citekey">Zolkos-2018-Mineral</identifier>
+    <identifier type="doi">10.1029/2018gl078748</identifier>
     <location>
         <url>https://aclanthology.org/G18-137001</url>
     </location>
     <part>
         <date>2018</date>
+        <detail type="volume"><number>45</number></detail>
+        <detail type="issue"><number>18</number></detail>
+        <extent unit="page">
+            <start>9623</start>
+            <end>9632</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

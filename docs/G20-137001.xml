@@ -1,33 +1,59 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sigmund-2020-Deep">
+<mods ID="Tang-2020-SCDNA:">
     <titleInfo>
-        <title>Deep Learning Neural Network Approach for Predicting the Sorption of Ionizable and Polar Organic Pollutants to a Wide Range of Carbonaceous Materials</title>
+        <title>SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gabriel</namePart>
-        <namePart type="family">Sigmund</namePart>
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mehdi</namePart>
-        <namePart type="family">Gharasoo</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thorsten</namePart>
-        <namePart type="family">Hüffer</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Newman</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thilo</namePart>
-        <namePart type="family">Hofmann</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Vionnet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +65,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Science &amp;amp; Technology, Volume 54, Issue 7</title>
+            <title>Earth System Science Data, Volume 12, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Most contaminants of emerging concern are polar and/or ionizable organic compounds, whose removal from engineered and environmental systems is difficult. Carbonaceous sorbents include activated carbon, biochar, fullerenes, and carbon nanotubes, with applications such as drinking water filtration, wastewater treatment, and contaminant remediation. Tools for predicting sorption of many emerging contaminants to these sorbents are lacking because existing models were developed for neutral compounds. A method to select the appropriate sorbent for a given contaminant based on the ability to predict sorption is required by researchers and practitioners alike. Here, we present a widely applicable deep learning neural network approach that excellently predicted the conventionally used Freundlich isotherm fitting parameters log KF and n (R2 \textgreater 0.98 for log KF, and R2 \textgreater 0.91 for n). The neural network models are based on parameters generally available for carbonaceous sorbents and/or parameters freely available from online databases. A freely accessible graphical user interface is provided.</abstract>
-    <identifier type="citekey">Sigmund-2020-Deep</identifier>
-    <identifier type="doi">10.1021/acs.est.9b06287</identifier>
+    <abstract>Abstract. Station-based serially complete datasets (SCDs) of precipitation and temperature observations are important for hydrometeorological studies. Motivated by the lack of serially complete station observations for North America, this study seeks to develop an SCD from 1979 to 2018 from station data. The new SCD for North America (SCDNA) includes daily precipitation, minimum temperature (Tmin⁡), and maximum temperature (Tmax⁡) data for 27 276 stations. Raw meteorological station data were obtained from the Global Historical Climate Network Daily (GHCN-D), the Global Surface Summary of the Day (GSOD), Environment and Climate Change Canada (ECCC), and a compiled station database in Mexico. Stations with at least 8-year-long records were selected, which underwent location correction and were subjected to strict quality control. Outputs from three reanalysis products (ERA5, JRA-55, and MERRA-2) provided auxiliary information to estimate station records. Infilling during the observation period and reconstruction beyond the observation period were accomplished by combining estimates from 16 strategies (variants of quantile mapping, spatial interpolation, and machine learning). A sensitivity experiment was conducted by assuming that 30 % of observations from stations were missing – this enabled independent validation and provided a reference for reconstruction. Quantile mapping and mean value corrections were applied to the final estimates. The median Kling–Gupta efficiency (KGE′) values of the final SCDNA for all stations are 0.90, 0.98, and 0.99 for precipitation, Tmin⁡, and Tmax⁡, respectively. The SCDNA is closer to station observations than the four benchmark gridded products and can be used in applications that require either quality-controlled meteorological station observations or reconstructed long-term estimates for analysis and modeling. The dataset is available at https://doi.org/10.5281/zenodo.3735533 (Tang et al., 2020).</abstract>
+    <identifier type="citekey">Tang-2020-SCDNA:</identifier>
+    <identifier type="doi">10.5194/essd-12-2381-2020</identifier>
     <location>
         <url>https://aclanthology.org/G20-137001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>54</number></detail>
-        <detail type="issue"><number>7</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>4583</start>
-            <end>4591</end>
+            <start>2381</start>
+            <end>2409</end>
         </extent>
     </part>
 </mods>

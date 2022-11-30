@@ -1,50 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hanes-2019-Fire-regime">
+<mods ID="Harrington-2019-Application">
     <titleInfo>
-        <title>Fire-regime changes in Canada over the last half century</title>
+        <title>Application of distributed temperature sensing for mountain permafrost mapping</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Chelene</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Hanes</namePart>
+        <namePart type="given">Jordan</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Harrington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xianli</namePart>
-        <namePart type="family">Wang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Piyush</namePart>
-        <namePart type="family">Jain</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Marc-André</namePart>
-        <namePart type="family">Parisien</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Little</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Flannigan</namePart>
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -56,27 +26,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Canadian Journal of Forest Research, Volume 49, Issue 3</title>
+            <title>Permafrost and Periglacial Processes, Volume 30, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Canadian Science Publishing</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hanes-2019-Fire-regime</identifier>
-    <identifier type="doi">10.1139/cjfr-2018-0293</identifier>
+    <identifier type="citekey">Harrington-2019-Application</identifier>
+    <identifier type="doi">10.1002/ppp.1997</identifier>
     <location>
         <url>https://aclanthology.org/G19-69001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>49</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>30</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>256</start>
-            <end>269</end>
+            <start>113</start>
+            <end>120</end>
         </extent>
     </part>
 </mods>

@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rokaya-2019-Correlation">
+<mods ID="Rokaya-2019-Promoting">
     <titleInfo>
-        <title>Correlation among parameters and boundary conditions in river ice models</title>
+        <title>Promoting Sustainable Ice-Jam Flood Management along the Peace River and Peace-Athabasca Delta</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Prabin</namePart>
         <namePart type="family">Rokaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,28 +32,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Modeling Earth Systems and Environment, Volume 6, Issue 1</title>
+            <title>Journal of Water Resources Planning and Management, Volume 145, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Society of Civil Engineers (ASCE)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rokaya-2019-Correlation</identifier>
-    <identifier type="doi">10.1007/s40808-019-00696-7</identifier>
+    <abstract>AbstractThe regulation of rivers has always been a controversial issue, with potential benefits but also environmental impacts. In western Canada, the construction of W.A.C. Bennett Dam in the head...</abstract>
+    <identifier type="citekey">Rokaya-2019-Promoting</identifier>
+    <identifier type="doi">10.1061/(asce)wr.1943-5452.0001021</identifier>
     <location>
         <url>https://aclanthology.org/G19-151001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>6</number></detail>
+        <detail type="volume"><number>145</number></detail>
         <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>499</start>
-            <end>512</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,29 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Brimelow-2017-The">
+<mods ID="Brouwer-2017-The">
     <titleInfo>
-        <title>The changing hail threat over North America in response to anthropogenic climate change</title>
+        <title>The economic value of river restoration</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Julian</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Brimelow</namePart>
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Brouwer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Burrows</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Hanesiak</namePart>
+        <namePart type="given">Oleg</namePart>
+        <namePart type="family">Sheremet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,27 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Nature Climate Change, Volume 7, Issue 7</title>
+            <title>Water Resources and Economics, Volume 17</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Brimelow-2017-The</identifier>
-    <identifier type="doi">10.1038/nclimate3321</identifier>
+    <abstract>This study was part of the European Framework 7 funded project ‘Restoring Rivers for Effective Catchment Management’ (REFORM).</abstract>
+    <identifier type="citekey">Brouwer-2017-The</identifier>
+    <identifier type="doi">10.1016/j.wre.2017.02.005</identifier>
     <location>
         <url>https://aclanthology.org/G17-6001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>7</number></detail>
-        <detail type="issue"><number>7</number></detail>
+        <detail type="volume"><number>17</number></detail>
         <extent unit="page">
-            <start>516</start>
-            <end>522</end>
+            <start>1</start>
+            <end>8</end>
         </extent>
     </part>
 </mods>

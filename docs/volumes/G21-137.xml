@@ -1,33 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Xiong-2021-Dual-Modality">
+<mods ID="Huang-2021-Estimating">
     <titleInfo>
-        <title>Dual-Modality Imaging Microfluidic Cytometer for Onsite Detection of Phytoplankton</title>
+        <title>Estimating concurrent climate extremes: A conditional approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Bo</namePart>
-        <namePart type="family">Xiong</namePart>
+        <namePart type="given">Whitney</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tianqi</namePart>
-        <namePart type="family">Hong</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Monahan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Herbert</namePart>
-        <namePart type="family">Schellhorn</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiyin</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Francis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,25 +35,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Photonics, Volume 8, Issue 10</title>
+            <title>Weather and Climate Extremes, Volume 33</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Xiong-2021-Dual-Modality</identifier>
-    <identifier type="doi">10.3390/photonics8100435</identifier>
+    <identifier type="citekey">Huang-2021-Estimating</identifier>
+    <identifier type="doi">10.1016/j.wace.2021.100332</identifier>
     <location>
         <url>https://aclanthology.org/G21-137001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>10</number></detail>
-        <detail type="page"><number>435</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="page"><number>100332</number></detail>
     </part>
 </mods>
 </modsCollection>

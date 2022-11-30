@@ -1,35 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cholette-2020-Impacts">
+<mods ID="Costa-2020-Preferential">
     <titleInfo>
-        <title>Impacts of Predicting the Liquid Fraction of Mixed-Phase Particles on the Simulation of an Extreme Freezing Rain Event: The 1998 North American Ice Storm</title>
+        <title>Preferential elution of ionic solutes in melting snowpacks: Improving process understanding through field observations and modeling in the Rocky Mountains</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mélissa</namePart>
-        <namePart type="family">Cholette</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Julie</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Thériault</namePart>
+        <namePart type="given">Graham</namePart>
+        <namePart type="family">A Sexstone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Milbrandt</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">W Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hugh</namePart>
-        <namePart type="family">Morrison</namePart>
+        <namePart type="given">Donald</namePart>
+        <namePart type="family">H Campbell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="family">W Clow</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alisa</namePart>
+        <namePart type="family">Mast</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,28 +53,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Monthly Weather Review, Volume 148, Issue 9</title>
+            <title>Science of The Total Environment, Volume 710</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cholette-2020-Impacts</identifier>
-    <identifier type="doi">10.1175/mwr-d-20-0026.1</identifier>
+    <identifier type="citekey">Costa-2020-Preferential</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2019.136273</identifier>
     <location>
         <url>https://aclanthology.org/G20-64001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>148</number></detail>
-        <detail type="issue"><number>9</number></detail>
-        <extent unit="page">
-            <start>3799</start>
-            <end>3823</end>
-        </extent>
+        <detail type="volume"><number>710</number></detail>
+        <detail type="page"><number>136273</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,12 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Vinciguerra-2020-A">
+<mods ID="Langs-2020-A">
     <titleInfo>
-        <title>A New Tool for Developing the Community-Engaged Scholar: Review of The Craft of Community-Engaged Teaching and Learning</title>
+        <title>A \textlessscp\textgreater δ \textlesssup\textgreater18\textless/sup\textgreater O \textless/scp\textgreater and \textlessscp\textgreater δ \textlesssup\textgreater2\textless/sup\textgreater H \textless/scp\textgreater stable water isotope analysis of subalpine forest water sources under seasonal and hydrological stress in the Canadian Rocky Mountains</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Anthony</namePart>
-        <namePart type="family">Vinciguerra</namePart>
+        <namePart type="given">Lindsey</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Langs</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -18,24 +35,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>International Journal of Research on Service-Learning and Community Engagement, Volume 8, Issue 1</title>
+            <title>Hydrological Processes, Volume 34, Issue 26</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>International Association for Research on Service-Learning and Community Engagement</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Vinciguerra-2020-A</identifier>
-    <identifier type="doi">10.37333/001c.18722</identifier>
+    <identifier type="citekey">Langs-2020-A</identifier>
+    <identifier type="doi">10.1002/hyp.13986</identifier>
     <location>
         <url>https://aclanthology.org/G20-29001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>26</number></detail>
+        <extent unit="page">
+            <start>5642</start>
+            <end>5658</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

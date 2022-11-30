@@ -1,33 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Li-2019-Sedimentary">
+<mods ID="Lindenschmidt-2019-Radar">
     <titleInfo>
-        <title>Sedimentary DNA reveals over 150 years of ecosystem change by human activities in Lake Chao, China</title>
+        <title>Radar Scatter Decomposition to Differentiate between Running Ice Accumulations and Intact Ice Covers along Rivers</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Feilong</namePart>
+        <namePart type="given">Karl–Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhaoqin</namePart>
         <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xiaowei</namePart>
-        <namePart type="family">Zhang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yuwei</namePart>
-        <namePart type="family">Xie</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jizhong</namePart>
-        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,25 +25,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environment International, Volume 133</title>
+            <title>Remote Sensing, Volume 11, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Understanding the extent and directionality of the impact of human activities on ecosystems is directly related to their management and protection. However, the lack of historical data limits our understanding of ecosystem changes with long-term exposure to human activities. Recently, lake sedimentary DNA (sedDNA) has become a powerful tool for revealing changes in ecosystems at the century and millennium scales. Here, we used sedDNA to reveal the dynamic of the microbial community (including bacteria and micro-eukaryotes) in Lake Chao over the past 150 years, and further explored the effects of long-term nutrient and heavy metal loads on these communities. Our data show that nutrient and heavy metal loads in Lake Chao have increased by ca. 2 to 4-fold since the 1960s. In response, the community structure, diversity, and ecological network of bacteria and micro-eukaryotes changed significantly during the 1960s, the 1980s and the 2010s. Importantly, community structure was more sensitive to human activities than diversity. We also found that the relative abundance of some taxa associated with nitrification and algal blooms (e.g., taxa in Nitrospira sp., Peridinales) has increased ca. 100-fold since the 1960s. Nutrient could better explain the variation in the bacterial community (ca. twice as much as heavy metal), while heavy metal explained micro-eukaryotes better (ca. 3 or 5-fold as much as nutrient). In particular, based on parsimonious models from distance-based linear model (distLM), we further identified that Pb is the key factor affecting the bacterial and micro-eukaryotes community in Lake Chao in addition to nutrient. Our study reveals the impacts of long-term human activities on lake ecosystems from multiple perspectives of nutrient and heavy metal loads, community structure, diversity and ecological network, these findings will contribute to the management and conservation of lakes in the future.</abstract>
-    <identifier type="citekey">Li-2019-Sedimentary</identifier>
-    <identifier type="doi">10.1016/j.envint.2019.105214</identifier>
+    <abstract>For ice-jam flood forecasting it is important to differentiate between intact ice covers and ice runs. Ice runs consist of long accumulations of rubble ice that stem from broken up ice covers or ice-jams that have released. A water wave generally travels ahead of the ice run at a faster celerity, arriving at the potentially high flood–risk area much sooner than the ice accumulation. Hence, a rapid detection of the ice run is necessary to lengthen response times for flood mitigation. Intact ice covers are stationary and hence are not an immediate threat to a downstream flood situation, allowing more time for flood preparedness. However, once ice accumulations are moving and potentially pose imminent impacts to flooding, flood response may have to switch from a mitigation to an evacuation mode of the flood management plan. Ice runs are generally observed, often by chance, through ground observations or airborne surveys. In this technical note, we introduce a novel method of differentiating ice runs from intact ice covers using imagery acquired from space-borne radar backscatter signals. The signals are decomposed into different scatter components—surface scattering, volume scattering and double-bounce—the ratios of one to another allow differentiation between intact and running ice. The method is demonstrated for the breakup season of spring 2018 along the Athabasca River, when an ice run shoved into an intact ice cover which led to some flooding in Fort McMurray, Alberta, Canada.</abstract>
+    <identifier type="citekey">Lindenschmidt-2019-Radar</identifier>
+    <identifier type="doi">10.3390/rs11030307</identifier>
     <location>
         <url>https://aclanthology.org/G19-94001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>133</number></detail>
-        <detail type="page"><number>105214</number></detail>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <detail type="page"><number>307</number></detail>
     </part>
 </mods>
 </modsCollection>

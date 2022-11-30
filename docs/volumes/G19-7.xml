@@ -1,27 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Patrick-2019-Reclaiming">
+<mods ID="Hayashi-2019-Alpine">
     <titleInfo>
-        <title>Reclaiming Indigenous Planning as a Pathway to Local Water Security</title>
+        <title>Alpine Hydrogeology: The Critical Role of Groundwater in Sourcing the Headwaters of the World</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Robert</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Patrick</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kellie</namePart>
-        <namePart type="family">Grant</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lalita</namePart>
-        <namePart type="family">Bharadwaj</namePart>
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,25 +18,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 11, Issue 5</title>
+            <title>Groundwater, Volume 58, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Patrick-2019-Reclaiming</identifier>
-    <identifier type="doi">10.3390/w11050936</identifier>
+    <identifier type="citekey">Hayashi-2019-Alpine</identifier>
+    <identifier type="doi">10.1111/gwat.12965</identifier>
     <location>
         <url>https://aclanthology.org/G19-7001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>5</number></detail>
-        <detail type="page"><number>936</number></detail>
+        <detail type="volume"><number>58</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>498</start>
+            <end>510</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

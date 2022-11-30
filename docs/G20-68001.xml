@@ -1,26 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Das-2020-Ice-Jam">
+<mods ID="Deane-2020-Seismic">
     <titleInfo>
-        <title>Ice-Jam Flood Risk Assessment and Hazard Mapping under Future Climate</title>
+        <title>Seismic Lines in Treed Boreal Peatlands as Analogs for Wildfire Fuel Modification Treatments</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Apurba</namePart>
-        <namePart type="family">Das</namePart>
+        <namePart type="given">Patrick</namePart>
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="family">Deane</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Prabin</namePart>
-        <namePart type="family">Rokaya</namePart>
+        <namePart type="given">Sophie</namePart>
+        <namePart type="given">Louise</namePart>
+        <namePart type="family">Wilkinson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">Adrian</namePart>
+        <namePart type="family">Moore</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +43,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Water Resources Planning and Management, Volume 146, Issue 6</title>
+            <title>Fire, Volume 3, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Society of Civil Engineers (ASCE)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>AbstractIn cold-region environments, ice-jam floods (IJFs) can result in high water levels in rivers to overtop levees, leading to devastating floods. Since climatic conditions play an important ro...</abstract>
-    <identifier type="citekey">Das-2020-Ice-Jam</identifier>
-    <identifier type="doi">10.1061/(asce)wr.1943-5452.0001178</identifier>
+    <abstract>Across the Boreal, there is an expansive wildland–society interface (WSI), where communities, infrastructure, and industry border natural ecosystems, exposing them to the impacts of natural disturbances, such as wildfire. Treed peatlands have previously received little attention with regard to wildfire management; however, their role in fire spread, and the contribution of peat smouldering to dangerous air pollution, have recently been highlighted. To help develop effective wildfire management techniques in treed peatlands, we use seismic line disturbance as an analog for peatland fuel modification treatments. To delineate below-ground hydrocarbon resources using seismic waves, seismic lines are created by removing above-ground (canopy) fuels using heavy machinery, forming linear disturbances through some treed peatlands. We found significant differences in moisture content and peat bulk density with depth between seismic line and undisturbed plots, where smouldering combustion potential was lower in seismic lines. Sphagnum mosses dominated seismic lines and canopy fuel load was reduced for up to 55 years compared to undisturbed peatlands. Sphagnum mosses had significantly lower smouldering potential than feather mosses (that dominate mature, undisturbed peatlands) in a laboratory drying experiment, suggesting that fuel modification treatments following a strategy based on seismic line analogs would be effective at reducing smouldering potential at the WSI, especially under increasing fire weather.</abstract>
+    <identifier type="citekey">Deane-2020-Seismic</identifier>
+    <identifier type="doi">10.3390/fire3020021</identifier>
     <location>
         <url>https://aclanthology.org/G20-68001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>146</number></detail>
-        <detail type="issue"><number>6</number></detail>
+        <detail type="volume"><number>3</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <detail type="page"><number>21</number></detail>
     </part>
 </mods>
 </modsCollection>

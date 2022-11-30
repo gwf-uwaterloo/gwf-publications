@@ -1,61 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Fowler-2020-Many">
+<mods ID="Ghiasi-2020-Application">
     <titleInfo>
-        <title>Many Commonly Used Rainfall‐Runoff Models Lack Long, Slow Dynamics: Implications for Runoff Projections</title>
+        <title>Application of GNSS Interferometric Reflectometry for the Estimation of Lake Ice Thickness</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Keirnan</namePart>
-        <namePart type="family">Fowler</namePart>
+        <namePart type="given">Yusof</namePart>
+        <namePart type="family">Ghiasi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Wouter</namePart>
-        <namePart type="family">Knoben</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Murray</namePart>
-        <namePart type="family">Peel</namePart>
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tim</namePart>
-        <namePart type="family">Peterson</namePart>
+        <namePart type="given">Joost</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">van der Sanden</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dongryeol</namePart>
-        <namePart type="family">Ryu</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Margarita</namePart>
-        <namePart type="family">Saft</namePart>
+        <namePart type="given">Hugo</namePart>
+        <namePart type="family">Drouin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ki‐Weon</namePart>
-        <namePart type="family">Seo</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Western</namePart>
+        <namePart type="given">Christian</namePart>
+        <namePart type="family">Prévost</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -67,25 +62,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 56, Issue 5</title>
+            <title>Remote Sensing, Volume 12, Issue 17</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Evidence suggests that catchment state variables such as groundwater can exhibit multiyear trends. This means that their state may reflect not only recent climatic conditions but also climatic conditions in past years or even decades. Here we demonstrate that five commonly used conceptual “bucket” rainfall‐runoff models are unable to replicate multiyear trends exhibited by natural systems during the “Millennium Drought” in south‐east Australia. This causes an inability to extrapolate to different climatic conditions, leading to poor performance in split sample tests. Simulations are examined from five models applied in 38 catchments, then compared with groundwater data from 19 bores and Gravity Recovery and Climate Experiment data for two geographic regions. Whereas the groundwater and Gravity Recovery and Climate Experiment data decrease from high to low values gradually over the duration of the 13‐year drought, the model storages go from high to low values in a typical seasonal cycle. This is particularly the case in the drier, flatter catchments. Once the drought begins, there is little room for decline in the simulated storage, because the model “buckets” are already “emptying” on a seasonal basis. Since the effects of sustained dry conditions cannot accumulate within these models, we argue that they should not be used for runoff projections in a drying climate. Further research is required to (a) improve conceptual rainfall‐runoff models, (b) better understand circumstances in which multiyear trends in state variables occur, and (c) investigate links between these multiyear trends and changes in rainfall‐runoff relationships in the context of a changing climate.</abstract>
-    <identifier type="citekey">Fowler-2020-Many</identifier>
-    <identifier type="doi">10.1029/2019wr025286</identifier>
+    <abstract>Lake ice thickness is a sensitive indicator of climate change largely through its dependency on near-surface air temperature and on-ice snow mass (depth and density). Monitoring of the seasonal variations and trends in ice thickness is also important for the operation of winter ice roads that northern communities rely on for the movement of goods as well as for cultural and leisure activities (e.g., snowmobiling). Therefore, consistent measurements of ice thickness over lakes is important; however, field measurements tend to be sparse in both space and time in many northern countries. Here, we present an application of L-band frequency Global Navigation Satellite System (GNSS) Interferometric Reflectometry (GNSS-IR) for the estimation of lake ice thickness. The proof of concept is demonstrated through the analysis of Signal-to-Noise Ratio (SNR) time series extracted from Global Positioning System (GPS) constellation L1 band raw data acquired between 8 and 22 March (2017 and 2019) at 14 lake ice sites located in the Northwest Territories, Canada. Dominant frequencies are extracted using Least Squares Harmonic Estimation (LS-HE) for the retrieval of ice thickness. Estimates compare favorably with in-situ measurements (mean absolute error = 0.05 m, mean bias error = −0.01 m, and root mean square error = 0.07 m). These results point to the potential of GPS/GNSS-IR as a complementary tool to traditional field measurements for obtaining consistent ice thickness estimates at many lake locations, given the relatively low cost of GNSS antennas/receivers.</abstract>
+    <identifier type="citekey">Ghiasi-2020-Application</identifier>
+    <identifier type="doi">10.3390/rs12172721</identifier>
     <location>
         <url>https://aclanthology.org/G20-78001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>56</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>17</number></detail>
+        <detail type="page"><number>2721</number></detail>
     </part>
 </mods>
 </modsCollection>

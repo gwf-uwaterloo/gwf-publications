@@ -1,19 +1,21 @@
 ﻿%0 Journal Article
-%T Advances in the simulation of nutrient dynamics in cold climate agricultural basins: Developing new nitrogen and phosphorus modules for the Cold Regions Hydrological Modelling Platform
-%A Costa, Diogo
-%A Pomeroy, John W.
-%A Brown, Tom
-%A Baulch, Helen
-%A Elliott, Jane
-%A Macrae, Merrin
-%J Journal of Hydrology, Volume 603
+%T EMDNA: an Ensemble Meteorological Dataset for North America
+%A Tang, Guoqiang
+%A Clark, Martyn P.
+%A Papalexiou, Simon Michael
+%A Newman, Andrew J.
+%A Wood, Andrew W.
+%A Brunet, Dominique
+%A Whitfield, Paul H.
+%J Earth System Science Data, Volume 13, Issue 7
 %D 2021
-%V 603
-%I Elsevier BV
-%F Costa-2021-Advances
-%X \bullet Application of popular catchment nutrient models is problematic in cold regions. \bullet New nutrient modules have been developed for the Cold Regions Hydrological Model. \bullet The model was applied to a sub-basin of the increasingly eutrophic Lake Winnipeg, Canada. \bullet Simulated SWE, discharge, NO3, NH4, SRP and partP were compared against observations. \bullet Typical ∼9 day-freshet accounted for 16–31% of the total annual nutrient load. Excess nutrients in aquatic ecosystems is a major water quality problem globally. Worsening eutrophication issues are notable in cold temperate areas, with pervasive problems in many agriculturally dominated catchments. Predicting nutrient export to rivers and lakes is particularly difficult in cold agricultural environments because of challenges in modelling snow, soil, frozen ground, climate, and anthropogenic controls. Previous research has shown that the use of many popular small basin nutrient models can be problematic in cold regions due to poor representation of cold region hydrology. In this study, the Cold Regions Hydrological Modelling Platform (CRHM), a modular modelling system, which has been widely deployed across Canada and cold regions worldwide, was used to address this problem. CRHM was extended to simulate biogeochemical and transport processes for nitrogen and phosphorus through a complex of new process-based modules that represent physicochemical processes in snow, soil and freshwater. Agricultural practices such as tillage and fertilizer application, which strongly impact the availability and release of soil nutrients, can be explicitly represented in the model. A test case in an agricultural basin draining towards Lake Winnipeg shows that the model can capture the extreme hydrology and nutrient load variability of small agricultural basins at hourly time steps. It was demonstrated that fine temporal resolutions are an essential modelling requisite to capture strong concentration changes in agricultural tributaries in cold agricultural environments. Within these ephemeral and intermittent streams, on average, 30%, 31%, 20%, and 16% of the total annual load of nitrate (NO 3 ), ammonium (NH 4 ), soluble reactive phosphorus (SRP), and particulate phosphorous (partP)NO 3 , NH 4 , SRP and partP occurred during the episodic snowmelt freshet ( ∼ 9 days, accounting for 21% of the annual flow), but shows extreme temporal variation. The new nutrient modules are critical tools for predicting nutrient export from small agricultural drainage basins in cold climates via better representation of key hydrological processes, and a temporal resolution more suited to capture dynamics of ephemeral and intermittent streams.
-%R 10.1016/j.jhydrol.2021.126901
+%V 13
+%N 7
+%I Copernicus GmbH
+%F Tang-2021-EMDNA:
+%X Abstract. Probabilistic methods are useful to estimate the uncertainty in spatial meteorological fields (e.g., the uncertainty in spatial patterns of precipitation and temperature across large domains). In ensemble probabilistic methods, “equally plausible” ensemble members are used to approximate the probability distribution, hence the uncertainty, of a spatially distributed meteorological variable conditioned to the available information. The ensemble members can be used to evaluate the impact of uncertainties in spatial meteorological fields for a myriad of applications. This study develops the Ensemble Meteorological Dataset for North America (EMDNA). EMDNA has 100 ensemble members with daily precipitation amount, mean daily temperature, and daily temperature range at 0.1∘ spatial resolution (approx. 10 km grids) from 1979 to 2018, derived from a fusion of station observations and reanalysis model outputs. The station data used in EMDNA are from a serially complete dataset for North America (SCDNA) that fills gaps in precipitation and temperature measurements using multiple strategies. Outputs from three reanalysis products are regridded, corrected, and merged using Bayesian model averaging. Optimal interpolation (OI) is used to merge station- and reanalysis-based estimates. EMDNA estimates are generated using spatiotemporally correlated random fields to sample from the OI estimates. Evaluation results show that (1) the merged reanalysis estimates outperform raw reanalysis estimates, particularly in high latitudes and mountainous regions; (2) the OI estimates are more accurate than the reanalysis and station-based regression estimates, with the most notable improvements for precipitation evident in sparsely gauged regions; and (3) EMDNA estimates exhibit good performance according to the diagrams and metrics used for probabilistic evaluation. We discuss the limitations of the current framework and highlight that further research is needed to improve ensemble meteorological datasets. Overall, EMDNA is expected to be useful for hydrological and meteorological applications in North America. The entire dataset and a teaser dataset (a small subset of EMDNA for easy download and preview) are available at https://doi.org/10.20383/101.0275 (Tang et al., 2020a).
+%R 10.5194/essd-13-3337-2021
 %U https://aclanthology.org/G21-71001
-%U https://doi.org/10.1016/j.jhydrol.2021.126901
-%P 126901
+%U https://doi.org/10.5194/essd-13-3337-2021
+%P 3337-3362
 

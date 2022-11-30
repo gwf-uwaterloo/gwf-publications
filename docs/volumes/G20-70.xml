@@ -1,77 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Day-2020-Fire">
+<mods ID="Dixon-2020-Reproductive">
     <titleInfo>
-        <title>Fire characteristics and environmental conditions shape plant communities via regeneration strategy</title>
+        <title>Reproductive status of walleye (Sander vitreus) and lake whitefish (Coregonus clupeaformis) in two large, shallow Canadian subarctic lakes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nicola</namePart>
+        <namePart type="given">Heather</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Day</namePart>
+        <namePart type="family">Dixon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Alison</namePart>
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Harrison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrea</namePart>
         <namePart type="given">L</namePart>
-        <namePart type="family">White</namePart>
+        <namePart type="family">Lister</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jill</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Johnstone</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Geneviève</namePart>
-        <namePart type="given">É.</namePart>
-        <namePart type="family">Degré‐Timmons</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Steven</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Cumming</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michelle</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Mack</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Merritt</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Turetsky</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xanthe</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Walker</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">Deborah</namePart>
         <namePart type="given">L</namePart>
-        <namePart type="family">Baltzer</namePart>
+        <namePart type="family">MacLatchy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -83,27 +42,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecography, Volume 43, Issue 10</title>
+            <title>Environmental Biology of Fishes, Volume 103, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Day-2020-Fire</identifier>
-    <identifier type="doi">10.1111/ecog.05211</identifier>
+    <identifier type="citekey">Dixon-2020-Reproductive</identifier>
+    <identifier type="doi">10.1007/s10641-020-01010-6</identifier>
     <location>
         <url>https://aclanthology.org/G20-70001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>43</number></detail>
-        <detail type="issue"><number>10</number></detail>
+        <detail type="volume"><number>103</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>1464</start>
-            <end>1474</end>
+            <start>1119</start>
+            <end>1136</end>
         </extent>
     </part>
 </mods>

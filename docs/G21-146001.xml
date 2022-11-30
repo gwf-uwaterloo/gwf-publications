@@ -1,33 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sabokruhie-2021-Proof-of-Concept">
+<mods ID="Ghoreishi-2021-Peering">
     <titleInfo>
-        <title>Proof-of-Concept of a Quasi-2D Water-Quality Modelling Approach to Simulate Transverse Mixing in Rivers</title>
+        <title>Peering into agricultural rebound phenomenon using a global sensitivity analysis approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Pouya</namePart>
-        <namePart type="family">Sabokruhie</namePart>
+        <namePart type="given">Mohammad</namePart>
+        <namePart type="family">Ghoreishi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="family">Akomeah</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tammy</namePart>
-        <namePart type="family">Rosner</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Elshorbagy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kenneth</namePart>
+        <namePart type="family">Belcher</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,26 +46,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 13, Issue 21</title>
+            <title>Journal of Hydrology, Volume 602</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>A quasi-two-dimensional (quasi-2D) modelling approach is introduced to mimic transverse mixing of an inflow into a river from one of its banks, either an industrial outfall or a tributary. The concentrations of determinands in the inflow vary greatly from those in the river, leading to very long mixing lengths in the river downstream of the inflow location. Ideally, a two-dimensional (2D) model would be used on a small scale to capture the mixing of the two flow streams. However, for large-scale applications of several hundreds of kilometres of river length, such an approach demands too many computational resources and too much computational time, especially if the application will at some point require ensemble input from climate-change scenario data. However, a one-dimensional (1D) model with variables varying in the longitudinal flow direction but averaged across the cross-sections is too simple of an approach to capture the lateral mixing between different flow streams within the river. Hence, a quasi-2D method is proposed in which a simplified 1D solver is still applied but the discretisation of the model setup can be carried out in such a way as to enable a 2D representation of the model domain. The quasi-2D model setup also allows secondary channels and side lakes in floodplains to be incorporated into the discretisation. To show proof-of-concept, the approach has been tested on a stretch of the lower Athabasca River in Canada flowing through the oil sands region between Fort McMurray and Fort MacKay. A dye tracer and suspended sediments are the constituents modelled in this test case.</abstract>
-    <identifier type="citekey">Sabokruhie-2021-Proof-of-Concept</identifier>
-    <identifier type="doi">10.3390/w13213071</identifier>
+    <abstract>\bullet Time-varying GSA offers a good understanding of the coupled human-natural systems. \bullet Economy is the most influential factor in the rebound phenomenon of the BRB. \bullet Social interaction had a high total-effect on the rebound phenomenon of the BRB. \bullet Raising farmers’ awareness by formal channels could avoid the rebound phenomenon. \bullet Switching to crops needing less water could prevent the rebound phenomenon. Modernizing traditional irrigation systems has long been recognized as a means to reduce water losses. However, empirical evidence shows that this practice may not necessarily reduce water use in the long run; in fact, in many cases, the converse is true—a concept known as the rebound phenomenon. This phenomenon is at the heart of a fundamental research gap in the explicit evaluation of co-evolutionary dynamics and interactions among socio-economic and hydrologic factors in agricultural systems. This gap calls for the application of systems-based methods to evaluate such dynamics. To address this gap, we use a previously developed Agent-Based Agricultural Water Demand (ABAD) model, applied to the Bow River Basin (BRB) in Canada. We perform a time-varying variance-based global sensitivity analysis (GSA) on the ABAD model to examine the individual effect of factors, as well as their joint effect, that may give rise to the rebound phenomenon in the BRB. Our results show that economic factors dominantly control possible rebounds. Although social interaction among farmers is found to be less influential than the irrigation expansion factor, its interaction effect with other factors becomes more important, indicating the highly interactive nature of the underlying socio-hydrological system. Based on the insights gained via GSA, we discuss several strategies, including community participation and water restrictions, that can be adopted to avoid the rebound phenomenon in irrigation systems. This study demonstrates that a time-varying variance-based GSA can provide a better understanding of the co-evolutionary dynamics of the socio-hydrological systems and can pave the way for better management of water resources.</abstract>
+    <identifier type="citekey">Ghoreishi-2021-Peering</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2021.126739</identifier>
     <location>
         <url>https://aclanthology.org/G21-146001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>21</number></detail>
-        <detail type="page"><number>3071</number></detail>
+        <detail type="volume"><number>602</number></detail>
+        <detail type="page"><number>126739</number></detail>
     </part>
 </mods>
 </modsCollection>

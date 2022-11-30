@@ -1,20 +1,16 @@
 ﻿%0 Journal Article
-%T A Vector‐Based River Routing Model for Earth System Models: Parallelization and Global Applications
-%A Mizukami, Naoki
-%A Clark, Martyn P.
-%A Gharari, Shervan
-%A Kluzek, Erik
-%A Pan, Ming
-%A Lin, Peirong
-%A Beck, Hylke E.
-%A Yamazaki, Dai
-%J Journal of Advances in Modeling Earth Systems, Volume 13, Issue 6
+%T Numerical daemons of hydrological models are summoned byextreme precipitation
+%A La Follette, Peter T.
+%A Teuling, Adriaan J.
+%A Addor, Nans
+%A Clark, Martyn
+%A Jansen, Koen
+%A Melsen, Lieke A.
 %D 2021
-%V 13
-%N 6
-%I American Geophysical Union (AGU)
-%F Mizukami-2021-A
-%R 10.1029/2020ms002434
+%I Copernicus GmbH
+%F LaFollette-2021-Numerical
+%X Abstract. Hydrological models are usually systems of nonlinear differential equations for which no analytical solutions exist and thus rely on approximate numerical solutions. While some studies have investigated the relationship between numerical method choice and model error, the extent to which extreme precipitation like that observed during hurricanes Harvey and Katrina impacts numerical error of hydrological models is still unknown. This knowledge is relevant in light of climate change, where many regions will likely experience more intense precipitation events. In this experiment, a large number of hydrographs is generated with the modular modeling framework FUSE, using eight numerical techniques across a variety of forcing datasets. Multiple model structures, parameter sets, and initial conditions are incorporated for generality. The computational expense and numerical error associated with each hydrograph were recorded. It was found that numerical error (root mean square error) usually increases with precipitation intensity and decreases with event duration. Some numerical methods constrain errors much more effectively than others, sometimes by many orders of magnitude. Of the tested numerical methods, a second-order adaptive explicit method is found to be the most efficient because it has both low numerical error and low computational cost. A basic literature review indicates that many popular modeling codes use numerical techniques that were suggested by this experiment to be sub-optimal. We conclude that relatively large numerical errors might be common in current models, and because these will likely become larger as the climate changes, we advocate for the use of low cost, low error numerical methods.
+%R 10.5194/hess-2021-28
 %U https://aclanthology.org/G21-62001
-%U https://doi.org/10.1029/2020ms002434
+%U https://doi.org/10.5194/hess-2021-28
 

@@ -1,29 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huang-2021-Estimating">
+<mods ID="Thompson-2021-Estimating">
     <titleInfo>
-        <title>Estimating concurrent climate extremes: A conditional approach</title>
+        <title>Estimating wind slab thickness in a Tundra snowpack using Ku-band scatterometer observations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Whitney</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Monahan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Kelly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,24 +25,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Climate Extremes, Volume 33</title>
+            <title>Remote Sensing Letters, Volume 12, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Huang-2021-Estimating</identifier>
-    <identifier type="doi">10.1016/j.wace.2021.100332</identifier>
+    <identifier type="citekey">Thompson-2021-Estimating</identifier>
+    <identifier type="doi">10.1080/2150704x.2021.1961174</identifier>
     <location>
         <url>https://aclanthology.org/G21-132001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="page"><number>100332</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>1123</start>
+            <end>1135</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

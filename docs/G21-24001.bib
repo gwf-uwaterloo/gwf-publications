@@ -1,14 +1,13 @@
-@article{Kumar Mondal-2021-Large,
-    title = "Large Scale Image Registration Utilizing Data-Tunneling in the MapReduce Cluster",
-    author = "Kumar Mondal, Amit  and
-      Roy, Banani  and
+@article{Mondal-2021-FLeCCS:,
+    title = "FLeCCS: A Technique for Suggesting Fragment-Level Similar Co-change Candidates",
+    author = "Mondal, Manishankar  and
       Roy, Chanchal K.  and
+      Roy, Banani  and
       Schneider, Kevin A.",
-    journal = "Lecture Notes on Data Engineering and Communications Technologies",
+    journal = "2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)",
     year = "2021",
-    publisher = "Springer Singapore",
+    publisher = "IEEE",
     url = "https://aclanthology.org/G21-24001",
-    doi = "10.1007/978-981-16-6636-0_14",
-    pages = "167--180",
-    abstract = "Applications of image registration tasks are computation-intensive, memory-intensive, and communication-intensive. Robust efforts are required on error recovery and re-usability of both the data and the operations, along with performance optimization. Considering these, we explore various programming models aiming to minimize the folding operations (such as join and reduce) which are the primary candidates of data shuffling, concurrency bugs and expensive communication in a distributed cluster. Particularly, we analyze modular MapReduce execution of an image registration pipeline (IRP) with the external and internal data (data-tunneling) flow mechanism and compare them with the compact model. Experimental analyzes with the ComputeCanada cluster and a crop field data-sets containing 1000 images show that these design options are valuable for large-scale IRPs executed with a MapReduce cluster. Additionally, we present an effectiveness measurement metric to analyze the impact of a design model for the Big IRP, accumulating the error-recovery and re-usability metrics along with the data size and execution time. Our explored design models and their performance analysis can serve as a benchmark for the researchers and application developers who deploy large-scale image registration and other image processing tasks.",
+    doi = "10.1109/icpc52881.2021.00024",
+    abstract = "When a programmer changes a particular code fragment, the other similar code fragments in the code-base may also need to be changed together (i.e., co-changed) consistently to ensure that the software system remains consistent. Existing studies and tools apply clone detectors to identify these similar co-change candidates for a target code fragment. However, clone detectors suffer from a confounding configuration choice problem and it affects their accuracy in retrieving co-change candidates.In our research, we propose and empirically evaluate a lightweight co-change suggestion technique that can automatically suggest fragment level similar co-change candidates for a target code fragment using WA-DiSC (Weighted Average Dice-S{\o}rensen Co-efficient) through a context-sensitive mining of the entire code-base. We apply our technique, FLeCCS (Fragment Level Co-change Candidate Suggester), on six subject systems written in three different programming languages (Java, C, and C{\#}) and compare its performance with the existing state-of-the-art techniques. According to our experiment, our technique outperforms not only the existing code clone based techniques but also the association rule mining based techniques in detecting co-change candidates with a significantly higher accuracy (precision and recall). We also find that File Proximity Ranking performs significantly better than Similarity Extent Ranking when ranking the co-change candidates suggested by our proposed technique.",
 }

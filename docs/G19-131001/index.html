@@ -1,71 +1,734 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>CloneCognition: machine learning based code clone validation tool - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="CloneCognition: machine learning based code clone validation tool" name=citation_title><meta content="Golam Mostaeen" name=citation_author><meta content="Jeffrey Svajlenko" name=citation_author><meta content="Banani Roy" name=citation_author><meta content="Chanchal K. Roy" name=citation_author><meta content="Kevin A. Schneider" name=citation_author><meta content="Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering" name=citation_journal_title><meta content="2019" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf" name=citation_pdf_url><meta content="10.1145/3338906.3341182" name=citation_doi><meta property="og:title" content="CloneCognition: machine learning based code clone validation tool"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G19-131001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G19-131001"><meta property="og:description" content="Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy, Kevin A. Schneider. Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 2019."><link rel=canonical href=https://aclanthology.org/G19-131001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Large loss of CO2 in winter observed across the northern permafrost region - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Large loss of CO2 in winter observed across the northern permafrost region" name=citation_title><meta content="Susan M. Natali" name=citation_author><meta content="Jennifer D. Watts" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Stefano Potter" name=citation_author><meta content="Sarah M. Ludwig" name=citation_author><meta content="Anne-Katrin Selbmann" name=citation_author><meta content="Patrick F. Sullivan" name=citation_author><meta content="Benjamin W. Abbott" name=citation_author><meta content="Kyle A. Arndt" name=citation_author><meta content="Leah Birch" name=citation_author><meta content="Mats P. Björkman" name=citation_author><meta content="A. Anthony Bloom" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Torben R. Christensen" name=citation_author><meta content="Casper T. Christiansen" name=citation_author><meta content="Roisin Commane" name=citation_author><meta content="Elisabeth J. Cooper" name=citation_author><meta content="Patrick Crill" name=citation_author><meta content="Claudia Czimczik" name=citation_author><meta content="Sergey Davydov" name=citation_author><meta content="Jinyang Du" name=citation_author><meta content="Jocelyn E. Egan" name=citation_author><meta content="Bo Elberling" name=citation_author><meta content="Eugenie S. Euskirchen" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Hélène Genet" name=citation_author><meta content="Mathias Göckede" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Paul Grogan" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Elchin E. Jafarov" name=citation_author><meta content="Julie D. Jastrow" name=citation_author><meta content="Aram A. M. Kalhori" name=citation_author><meta content="Yongwon Kim" name=citation_author><meta content="John S. Kimball" name=citation_author><meta content="Lars Kutzbach" name=citation_author><meta content="Mark J. Lara" name=citation_author><meta content="Klaus S. Larsen" name=citation_author><meta content="Bang-Yong Lee" name=citation_author><meta content="Zhihua Liu" name=citation_author><meta content="Michael M. Loranty" name=citation_author><meta content="Magnus Lund" name=citation_author><meta content="Massimo Lupascu" name=citation_author><meta content="Nima Madani" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Roser Matamala" name=citation_author><meta content="Jack McFarland" name=citation_author><meta content="A. David McGuire" name=citation_author><meta content="Anders Michelsen" name=citation_author><meta content="Christina Minions" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="David Olefeldt" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Norbert Pirk" name=citation_author><meta content="Ben Poulter" name=citation_author><meta content="William Quinton" name=citation_author><meta content="Fereidoun Rezanezhad" name=citation_author><meta content="David Risk" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Kevin Schaefer" name=citation_author><meta content="Niels M. Schmidt" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Philipp R. Semenchuk" name=citation_author><meta content="Gaius Shaver" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Gregory Starr" name=citation_author><meta content="Claire C. Treat" name=citation_author><meta content="Mark P. Waldrop" name=citation_author><meta content="Yihui Wang" name=citation_author><meta content="Jeffrey Welker" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Xiaofeng Xu" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Qianlai Zhuang" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Nature Climate Change, Volume 9, Issue 11" name=citation_journal_title><meta content="9" name=citation_volume><meta content="11" name=citation_issue><meta content="2019" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf" name=citation_pdf_url><meta content="852" name=citation_firstpage><meta content="857" name=citation_lastpage><meta content="10.1038/s41558-019-0592-8" name=citation_doi><meta property="og:title" content="Large loss of CO2 in winter observed across the northern permafrost region"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G19-131001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G19-131001"><meta property="og:description" content="Susan M. Natali, Jennifer D. Watts, Brendan M. Rogers, Stefano Potter, Sarah M. Ludwig, Anne-Katrin Selbmann, Patrick F. Sullivan, Benjamin W. Abbott, Kyle A. Arndt, Leah Birch, Mats P. Björkman, A. Anthony Bloom, Gerardo Celis, Torben R. Christensen, Casper T. Christiansen, Roisin Commane, Elisabeth J. Cooper, Patrick Crill, Claudia Czimczik, Sergey Davydov, Jinyang Du, Jocelyn E. Egan, Bo Elberling, Eugenie S. Euskirchen, Thomas Friborg, Hélène Genet, Mathias Göckede, Jordan P. Goodrich, Paul Grogan, Manuel Helbig, Elchin E. Jafarov, Julie D. Jastrow, Aram A. M. Kalhori, Yongwon Kim, John S. Kimball, Lars Kutzbach, Mark J. Lara, Klaus S. Larsen, Bang-Yong Lee, Zhihua Liu, Michael M. Loranty, Magnus Lund, Massimo Lupascu, Nima Madani, Avni Malhotra, Roser Matamala, Jack McFarland, A. David McGuire, Anders Michelsen, Christina Minions, Walter C. Oechel, David Olefeldt, Frans-Jan W. Parmentier, Norbert Pirk, Ben Poulter, William Quinton, Fereidoun Rezanezhad, David Risk, Torsten Sachs, Kevin Schaefer, Niels M. Schmidt, Edward A. G. Schuur, Philipp R. Semenchuk, Gaius Shaver, Oliver Sonnentag, Gregory Starr, Claire C. Treat, Mark P. Waldrop, Yihui Wang, Jeffrey Welker, Christian Wille, Xiaofeng Xu, Zhen Zhang, Qianlai Zhuang, Donatella Zona. Nature Climate Change, Volume 9, Issue 11. 2019."><link rel=canonical href=https://aclanthology.org/G19-131001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
 <span class="d-none d-md-inline pl-md-2">GWF Publications</span></a>
 <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf>CloneCognition: machine learning based code clone validation tool</a></h2><p class=lead><a href=/gwf-publications/people/G/Golam-Mostaeen/>Golam Mostaeen</a>,
-<a href=/gwf-publications/people/J/Jeffrey-Svajlenko/>Jeffrey Svajlenko</a>,
-<a href=/gwf-publications/people/B/Banani-Roy/>Banani Roy</a>,
-<a href=/gwf-publications/people/C/Chanchal-K-Roy/>Chanchal K. Roy</a>,
-<a href=/gwf-publications/people/K/Kevin-A-Schneider/>Kevin A. Schneider</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool 'CloneCognition' (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy, and Kevin A. Schneider. 2019. <a href=https://aclanthology.org/G19-131001>CloneCognition: machine learning based code clone validation tool</a>. <i>Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i>.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf>Large loss of CO2 in winter observed across the northern permafrost region</a></h2><p class=lead><a href=/gwf-publications/people/S/Susan-M-Natali/>Susan M. Natali</a>,
+<a href=/gwf-publications/people/J/Jennifer-D-Watts/>Jennifer D. Watts</a>,
+<a href=/gwf-publications/people/B/Brendan-M-Rogers/>Brendan M. Rogers</a>,
+<a href=/gwf-publications/people/S/Stefano-Potter/>Stefano Potter</a>,
+<a href=/gwf-publications/people/S/Sarah-M-Ludwig/>Sarah M. Ludwig</a>,
+<a href=/gwf-publications/people/A/Anne-Katrin-Selbmann/>Anne-Katrin Selbmann</a>,
+<a href=/gwf-publications/people/P/Patrick-F-Sullivan/>Patrick F. Sullivan</a>,
+<a href=/gwf-publications/people/B/Benjamin-W-Abbott/>Benjamin W. Abbott</a>,
+<a href=/gwf-publications/people/K/Kyle-A-Arndt/>Kyle A. Arndt</a>,
+<a href=/gwf-publications/people/L/Leah-Birch/>Leah Birch</a>,
+<a href=/gwf-publications/people/M/Mats-P-Bjo%CC%88rkman/>Mats P. Björkman</a>,
+<a href=/gwf-publications/people/A/A-Anthony-Bloom/>A. Anthony Bloom</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/>Gerardo Celis</a>,
+<a href=/gwf-publications/people/T/Torben-R-Christensen/>Torben R. Christensen</a>,
+<a href=/gwf-publications/people/C/Casper-T-Christiansen/>Casper T. Christiansen</a>,
+<a href=/gwf-publications/people/R/Roisin-Commane/>Roisin Commane</a>,
+<a href=/gwf-publications/people/E/Elisabeth-J-Cooper/>Elisabeth J. Cooper</a>,
+<a href=/gwf-publications/people/P/Patrick-Crill/>Patrick Crill</a>,
+<a href=/gwf-publications/people/C/Claudia-Czimczik/>Claudia Czimczik</a>,
+<a href=/gwf-publications/people/S/Sergey-Davydov/>Sergey Davydov</a>,
+<a href=/gwf-publications/people/J/Jinyang-Du/>Jinyang Du</a>,
+<a href=/gwf-publications/people/J/Jocelyn-E-Egan/>Jocelyn E. Egan</a>,
+<a href=/gwf-publications/people/B/Bo-Elberling/>Bo Elberling</a>,
+<a href=/gwf-publications/people/E/Eugenie-S-Euskirchen/>Eugenie S. Euskirchen</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/>Thomas Friborg</a>,
+<a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/>Hélène Genet</a>,
+<a href=/gwf-publications/people/M/Mathias-G%C3%B6ckede/>Mathias Göckede</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/P/Paul-Grogan/>Paul Grogan</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/>Manuel Helbig</a>,
+<a href=/gwf-publications/people/E/Elchin-E-Jafarov/>Elchin E. Jafarov</a>,
+<a href=/gwf-publications/people/J/Julie-D-Jastrow/>Julie D. Jastrow</a>,
+<a href=/gwf-publications/people/A/Aram-A-M-Kalhori/>Aram A. M. Kalhori</a>,
+<a href=/gwf-publications/people/Y/Yongwon-Kim/>Yongwon Kim</a>,
+<a href=/gwf-publications/people/J/John-S-Kimball/>John S. Kimball</a>,
+<a href=/gwf-publications/people/L/Lars-Kutzbach/>Lars Kutzbach</a>,
+<a href=/gwf-publications/people/M/Mark-J-Lara/>Mark J. Lara</a>,
+<a href=/gwf-publications/people/K/Klaus-S-Larsen/>Klaus S. Larsen</a>,
+<a href=/gwf-publications/people/B/Bang-Yong-Lee/>Bang-Yong Lee</a>,
+<a href=/gwf-publications/people/Z/Zhihua-Liu/>Zhihua Liu</a>,
+<a href=/gwf-publications/people/M/Michael-M-Loranty/>Michael M. Loranty</a>,
+<a href=/gwf-publications/people/M/Magnus-Lund/>Magnus Lund</a>,
+<a href=/gwf-publications/people/M/Massimo-Lupascu/>Massimo Lupascu</a>,
+<a href=/gwf-publications/people/N/Nima-Madani/>Nima Madani</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/>Avni Malhotra</a>,
+<a href=/gwf-publications/people/R/Roser-Matamala/>Roser Matamala</a>,
+<a href=/gwf-publications/people/J/Jack-McFarland/>Jack McFarland</a>,
+<a href=/gwf-publications/people/A/A-David-McGuire/>A. David McGuire</a>,
+<a href=/gwf-publications/people/A/Anders-Michelsen/>Anders Michelsen</a>,
+<a href=/gwf-publications/people/C/Christina-Minions/>Christina Minions</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/D/David-Olefeldt/>David Olefeldt</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/N/Norbert-Pirk/>Norbert Pirk</a>,
+<a href=/gwf-publications/people/B/Ben-Poulter/>Ben Poulter</a>,
+<a href=/gwf-publications/people/W/William-Quinton/>William Quinton</a>,
+<a href=/gwf-publications/people/F/Fereidoun-Rezanezhad/>Fereidoun Rezanezhad</a>,
+<a href=/gwf-publications/people/D/David-Risk/>David Risk</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/>Torsten Sachs</a>,
+<a href=/gwf-publications/people/K/Kevin-Schaefer/>Kevin Schaefer</a>,
+<a href=/gwf-publications/people/N/Niels-M-Schmidt/>Niels M. Schmidt</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/P/Philipp-R-Semenchuk/>Philipp R. Semenchuk</a>,
+<a href=/gwf-publications/people/G/Gaius-Shaver/>Gaius Shaver</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/G/Gregory-Starr/>Gregory Starr</a>,
+<a href=/gwf-publications/people/C/Claire-C-Treat/>Claire C. Treat</a>,
+<a href=/gwf-publications/people/M/Mark-P-Waldrop/>Mark P. Waldrop</a>,
+<a href=/gwf-publications/people/Y/Yihui-Wang/>Yihui Wang</a>,
+<a href=/gwf-publications/people/J/Jeffrey-Welker/>Jeffrey Welker</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/>Christian Wille</a>,
+<a href=/gwf-publications/people/X/Xiaofeng-Xu/>Xiaofeng Xu</a>,
+<a href=/gwf-publications/people/Z/Zhen-Zhang/>Zhen Zhang</a>,
+<a href=/gwf-publications/people/Q/Qianlai-Zhuang/>Qianlai Zhuang</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Recent warming in the Arctic, which has been amplified during the winter1-3, greatly enhances microbial decomposition of soil organic matter and subsequent release of carbon dioxide (CO2)4. However, the amount of CO2 released in winter is highly uncertain and has not been well represented by ecosystem models or by empirically-based estimates5,6. Here we synthesize regional in situ observations of CO2 flux from arctic and boreal soils to assess current and future winter carbon losses from the northern permafrost domain. We estimate a contemporary loss of 1662 Tg C yr-1 from the permafrost region during the winter season (October through April). This loss is greater than the average growing season carbon uptake for this region estimated from process models (-1032 Tg C yr-1). Extending model predictions to warmer conditions in 2100 indicates that winter CO2 emissions will increase 17% under a moderate mitigation scenario-Representative Concentration Pathway (RCP) 4.5-and 41% under business-as-usual emissions scenario-RCP 8.5. Our results provide a new baseline for winter CO2 emissions from northern terrestrial regions and indicate that enhanced soil CO2 loss due to winter warming may offset growing season carbon uptake under future climatic conditions.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Susan M. Natali, Jennifer D. Watts, Brendan M. Rogers, Stefano Potter, Sarah M. Ludwig, Anne-Katrin Selbmann, Patrick F. Sullivan, Benjamin W. Abbott, Kyle A. Arndt, Leah Birch, Mats P. Björkman, A. Anthony Bloom, Gerardo Celis, Torben R. Christensen, Casper T. Christiansen, Roisin Commane, Elisabeth J. Cooper, Patrick Crill, Claudia Czimczik, et al.. 2019. <a href=https://aclanthology.org/G19-131001>Large loss of CO2 in winter observed across the northern permafrost region</a>. <i>Nature Climate Change, Volume 9, Issue 11</i>, 9(11):852–857.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf title="Open PDF of 'CloneCognition: machine learning based code clone validation tool'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G19-131001.pdf title="Open PDF of 'Large loss of CO2 in winter observed across the northern permafrost region'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
 <a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
-<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=CloneCognition%3A+machine+learning+based+code+clone+validation+tool" title="Search for 'CloneCognition: machine learning based code clone validation tool' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Mostaeen-2019-CloneCognition:,
-    title = &#34;CloneCognition: machine learning based code clone validation tool&#34;,
-    author = &#34;Mostaeen, Golam  and
-      Svajlenko, Jeffrey  and
-      Roy, Banani  and
-      Roy, Chanchal K.  and
-      Schneider, Kevin A.&#34;,
-    journal = &#34;Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering&#34;,
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Large+loss+of+CO2+in+winter+observed+across+the+northern+permafrost+region" title="Search for 'Large loss of CO2 in winter observed across the northern permafrost region' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Natali-2019-Large,
+    title = &#34;Large loss of CO2 in winter observed across the northern permafrost region&#34;,
+    author = {Natali, Susan M.  and
+      Watts, Jennifer D.  and
+      Rogers, Brendan M.  and
+      Potter, Stefano  and
+      Ludwig, Sarah M.  and
+      Selbmann, Anne-Katrin  and
+      Sullivan, Patrick F.  and
+      Abbott, Benjamin W.  and
+      Arndt, Kyle A.  and
+      Birch, Leah  and
+      Björkman, Mats P.  and
+      Bloom, A. Anthony  and
+      Celis, Gerardo  and
+      Christensen, Torben R.  and
+      Christiansen, Casper T.  and
+      Commane, Roisin  and
+      Cooper, Elisabeth J.  and
+      Crill, Patrick  and
+      Czimczik, Claudia  and
+      Davydov, Sergey  and
+      Du, Jinyang  and
+      Egan, Jocelyn E.  and
+      Elberling, Bo  and
+      Euskirchen, Eugenie S.  and
+      Friborg, Thomas  and
+      Genet, H{\&#39;e}l{\`e}ne  and
+      G{\&#34;o}ckede, Mathias  and
+      Goodrich, Jordan P.  and
+      Grogan, Paul  and
+      Helbig, Manuel  and
+      Jafarov, Elchin E.  and
+      Jastrow, Julie D.  and
+      Kalhori, Aram A. M.  and
+      Kim, Yongwon  and
+      Kimball, John S.  and
+      Kutzbach, Lars  and
+      Lara, Mark J.  and
+      Larsen, Klaus S.  and
+      Lee, Bang-Yong  and
+      Liu, Zhihua  and
+      Loranty, Michael M.  and
+      Lund, Magnus  and
+      Lupascu, Massimo  and
+      Madani, Nima  and
+      Malhotra, Avni  and
+      Matamala, Roser  and
+      McFarland, Jack  and
+      McGuire, A. David  and
+      Michelsen, Anders  and
+      Minions, Christina  and
+      Oechel, Walter C.  and
+      Olefeldt, David  and
+      Parmentier, Frans-Jan W.  and
+      Pirk, Norbert  and
+      Poulter, Ben  and
+      Quinton, William  and
+      Rezanezhad, Fereidoun  and
+      Risk, David  and
+      Sachs, Torsten  and
+      Schaefer, Kevin  and
+      Schmidt, Niels M.  and
+      Schuur, Edward A. G.  and
+      Semenchuk, Philipp R.  and
+      Shaver, Gaius  and
+      Sonnentag, Oliver  and
+      Starr, Gregory  and
+      Treat, Claire C.  and
+      Waldrop, Mark P.  and
+      Wang, Yihui  and
+      Welker, Jeffrey  and
+      Wille, Christian  and
+      Xu, Xiaofeng  and
+      Zhang, Zhen  and
+      Zhuang, Qianlai  and
+      Zona, Donatella},
+    journal = &#34;Nature Climate Change, Volume 9, Issue 11&#34;,
+    volume = &#34;9&#34;,
+    number = &#34;11&#34;,
     year = &#34;2019&#34;,
-    publisher = &#34;ACM&#34;,
+    publisher = &#34;Springer Science and Business Media LLC&#34;,
     url = &#34;https://aclanthology.org/G19-131001&#34;,
-    doi = &#34;10.1145/3338906.3341182&#34;,
-    abstract = &#34;A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool &#39;CloneCognition&#39; (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4{\%}. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.&#34;,
+    doi = &#34;10.1038/s41558-019-0592-8&#34;,
+    pages = &#34;852--857&#34;,
+    abstract = &#34;Recent warming in the Arctic, which has been amplified during the winter1-3, greatly enhances microbial decomposition of soil organic matter and subsequent release of carbon dioxide (CO2)4. However, the amount of CO2 released in winter is highly uncertain and has not been well represented by ecosystem models or by empirically-based estimates5,6. Here we synthesize regional in situ observations of CO2 flux from arctic and boreal soils to assess current and future winter carbon losses from the northern permafrost domain. We estimate a contemporary loss of 1662 Tg C yr-1 from the permafrost region during the winter season (October through April). This loss is greater than the average growing season carbon uptake for this region estimated from process models (-1032 Tg C yr-1). Extending model predictions to warmer conditions in 2100 indicates that winter CO2 emissions will increase 17{\%} under a moderate mitigation scenario-Representative Concentration Pathway (RCP) 4.5-and 41{\%} under business-as-usual emissions scenario-RCP 8.5. Our results provide a new baseline for winter CO2 emissions from northern terrestrial regions and indicate that enhanced soil CO2 loss due to winter warming may offset growing season carbon uptake under future climatic conditions.&#34;,
 }
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G19-131001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
 &lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
-&lt;mods ID=&#34;Mostaeen-2019-CloneCognition:&#34;&gt;
+&lt;mods ID=&#34;Natali-2019-Large&#34;&gt;
     &lt;titleInfo&gt;
-        &lt;title&gt;CloneCognition: machine learning based code clone validation tool&lt;/title&gt;
+        &lt;title&gt;Large loss of CO2 in winter observed across the northern permafrost region&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Golam&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Mostaeen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Susan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Natali&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jeffrey&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Svajlenko&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jennifer&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Watts&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Banani&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Roy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Brendan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rogers&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Chanchal&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Roy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Stefano&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Potter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sarah&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ludwig&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anne-Katrin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Selbmann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Patrick&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sullivan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benjamin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Abbott&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arndt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Leah&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Birch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Björkman&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anthony&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bloom&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gerardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Celis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torben&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Christensen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Casper&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Christiansen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Roisin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Commane&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elisabeth&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cooper&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Patrick&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Crill&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Claudia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Czimczik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sergey&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Davydov&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jinyang&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Du&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jocelyn&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Egan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Elberling&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Friborg&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hélène&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Genet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Göckede&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jordan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goodrich&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Grogan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Manuel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Helbig&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elchin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jafarov&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Julie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jastrow&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Aram&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kalhori&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yongwon&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kim&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kimball&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lars&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kutzbach&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mark&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lara&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Klaus&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Larsen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bang-Yong&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lee&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zhihua&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Liu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Loranty&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Magnus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lund&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Massimo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lupascu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nima&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Madani&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Avni&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Malhotra&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Roser&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Matamala&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jack&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McFarland&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McGuire&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anders&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Michelsen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Minions&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Olefeldt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frans-Jan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Parmentier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Norbert&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pirk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ben&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Poulter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Quinton&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Fereidoun&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rezanezhad&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Risk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sachs&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Kevin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schaefer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Niels&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schmidt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Edward&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Schneider&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schuur&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Philipp&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Semenchuk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gaius&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shaver&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oliver&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sonnentag&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gregory&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Starr&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Claire&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Treat&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mark&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Waldrop&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yihui&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jeffrey&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Welker&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wille&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xiaofeng&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Xu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zhen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Qianlai&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhuang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Donatella&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zona&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -77,44 +740,123 @@
     &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
     &lt;relatedItem type=&#34;host&#34;&gt;
         &lt;titleInfo&gt;
-            &lt;title&gt;Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering&lt;/title&gt;
+            &lt;title&gt;Nature Climate Change, Volume 9, Issue 11&lt;/title&gt;
         &lt;/titleInfo&gt;
         &lt;originInfo&gt;
             &lt;issuance&gt;continuing&lt;/issuance&gt;
-            &lt;publisher&gt;ACM&lt;/publisher&gt;
+            &lt;publisher&gt;Springer Science and Business Media LLC&lt;/publisher&gt;
         &lt;/originInfo&gt;
         &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
         &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
     &lt;/relatedItem&gt;
-    &lt;abstract&gt;A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool ’CloneCognition’ (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.&lt;/abstract&gt;
-    &lt;identifier type=&#34;citekey&#34;&gt;Mostaeen-2019-CloneCognition:&lt;/identifier&gt;
-    &lt;identifier type=&#34;doi&#34;&gt;10.1145/3338906.3341182&lt;/identifier&gt;
+    &lt;abstract&gt;Recent warming in the Arctic, which has been amplified during the winter1-3, greatly enhances microbial decomposition of soil organic matter and subsequent release of carbon dioxide (CO2)4. However, the amount of CO2 released in winter is highly uncertain and has not been well represented by ecosystem models or by empirically-based estimates5,6. Here we synthesize regional in situ observations of CO2 flux from arctic and boreal soils to assess current and future winter carbon losses from the northern permafrost domain. We estimate a contemporary loss of 1662 Tg C yr-1 from the permafrost region during the winter season (October through April). This loss is greater than the average growing season carbon uptake for this region estimated from process models (-1032 Tg C yr-1). Extending model predictions to warmer conditions in 2100 indicates that winter CO2 emissions will increase 17% under a moderate mitigation scenario-Representative Concentration Pathway (RCP) 4.5-and 41% under business-as-usual emissions scenario-RCP 8.5. Our results provide a new baseline for winter CO2 emissions from northern terrestrial regions and indicate that enhanced soil CO2 loss due to winter warming may offset growing season carbon uptake under future climatic conditions.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Natali-2019-Large&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1038/s41558-019-0592-8&lt;/identifier&gt;
     &lt;location&gt;
         &lt;url&gt;https://aclanthology.org/G19-131001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2019&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;9&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;11&lt;/number&gt;&lt;/detail&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;852&lt;/start&gt;
+            &lt;end&gt;857&lt;/end&gt;
+        &lt;/extent&gt;
     &lt;/part&gt;
 &lt;/mods&gt;
 &lt;/modsCollection&gt;
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G19-131001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
-%T CloneCognition: machine learning based code clone validation tool
-%A Mostaeen, Golam
-%A Svajlenko, Jeffrey
-%A Roy, Banani
-%A Roy, Chanchal K.
-%A Schneider, Kevin A.
-%J Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+%T Large loss of CO2 in winter observed across the northern permafrost region
+%A Natali, Susan M.
+%A Watts, Jennifer D.
+%A Rogers, Brendan M.
+%A Potter, Stefano
+%A Ludwig, Sarah M.
+%A Selbmann, Anne-Katrin
+%A Sullivan, Patrick F.
+%A Abbott, Benjamin W.
+%A Arndt, Kyle A.
+%A Birch, Leah
+%A Björkman, Mats P.
+%A Bloom, A. Anthony
+%A Celis, Gerardo
+%A Christensen, Torben R.
+%A Christiansen, Casper T.
+%A Commane, Roisin
+%A Cooper, Elisabeth J.
+%A Crill, Patrick
+%A Czimczik, Claudia
+%A Davydov, Sergey
+%A Du, Jinyang
+%A Egan, Jocelyn E.
+%A Elberling, Bo
+%A Euskirchen, Eugenie S.
+%A Friborg, Thomas
+%A Genet, Hélène
+%A Göckede, Mathias
+%A Goodrich, Jordan P.
+%A Grogan, Paul
+%A Helbig, Manuel
+%A Jafarov, Elchin E.
+%A Jastrow, Julie D.
+%A Kalhori, Aram A. M.
+%A Kim, Yongwon
+%A Kimball, John S.
+%A Kutzbach, Lars
+%A Lara, Mark J.
+%A Larsen, Klaus S.
+%A Lee, Bang-Yong
+%A Liu, Zhihua
+%A Loranty, Michael M.
+%A Lund, Magnus
+%A Lupascu, Massimo
+%A Madani, Nima
+%A Malhotra, Avni
+%A Matamala, Roser
+%A McFarland, Jack
+%A McGuire, A. David
+%A Michelsen, Anders
+%A Minions, Christina
+%A Oechel, Walter C.
+%A Olefeldt, David
+%A Parmentier, Frans-Jan W.
+%A Pirk, Norbert
+%A Poulter, Ben
+%A Quinton, William
+%A Rezanezhad, Fereidoun
+%A Risk, David
+%A Sachs, Torsten
+%A Schaefer, Kevin
+%A Schmidt, Niels M.
+%A Schuur, Edward A. G.
+%A Semenchuk, Philipp R.
+%A Shaver, Gaius
+%A Sonnentag, Oliver
+%A Starr, Gregory
+%A Treat, Claire C.
+%A Waldrop, Mark P.
+%A Wang, Yihui
+%A Welker, Jeffrey
+%A Wille, Christian
+%A Xu, Xiaofeng
+%A Zhang, Zhen
+%A Zhuang, Qianlai
+%A Zona, Donatella
+%J Nature Climate Change, Volume 9, Issue 11
 %D 2019
-%I ACM
-%F Mostaeen-2019-CloneCognition:
-%X A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool ’CloneCognition’ (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.
-%R 10.1145/3338906.3341182
+%V 9
+%N 11
+%I Springer Science and Business Media LLC
+%F Natali-2019-Large
+%X Recent warming in the Arctic, which has been amplified during the winter1-3, greatly enhances microbial decomposition of soil organic matter and subsequent release of carbon dioxide (CO2)4. However, the amount of CO2 released in winter is highly uncertain and has not been well represented by ecosystem models or by empirically-based estimates5,6. Here we synthesize regional in situ observations of CO2 flux from arctic and boreal soils to assess current and future winter carbon losses from the northern permafrost domain. We estimate a contemporary loss of 1662 Tg C yr-1 from the permafrost region during the winter season (October through April). This loss is greater than the average growing season carbon uptake for this region estimated from process models (-1032 Tg C yr-1). Extending model predictions to warmer conditions in 2100 indicates that winter CO2 emissions will increase 17% under a moderate mitigation scenario-Representative Concentration Pathway (RCP) 4.5-and 41% under business-as-usual emissions scenario-RCP 8.5. Our results provide a new baseline for winter CO2 emissions from northern terrestrial regions and indicate that enhanced soil CO2 loss due to winter warming may offset growing season carbon uptake under future climatic conditions.
+%R 10.1038/s41558-019-0592-8
 %U https://aclanthology.org/G19-131001
-%U https://doi.org/10.1145/3338906.3341182
+%U https://doi.org/10.1038/s41558-019-0592-8
+%P 852-857
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G19-131001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[CloneCognition: machine learning based code clone validation tool](https://aclanthology.org/G19-131001) (Mostaeen et al., GWF 2019)</p><ul class=mt-2><li><a href=https://aclanthology.org/G19-131001>CloneCognition: machine learning based code clone validation tool</a> (Mostaeen et al., GWF 2019)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Golam Mostaeen, Jeffrey Svajlenko, Banani Roy, Chanchal K. Roy, and Kevin A. Schneider. 2019. <a href=https://aclanthology.org/G19-131001>CloneCognition: machine learning based code clone validation tool</a>. <i>Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering</i>.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Large loss of CO2 in winter observed across the northern permafrost region](https://aclanthology.org/G19-131001) (Natali et al., GWF 2019)</p><ul class=mt-2><li><a href=https://aclanthology.org/G19-131001>Large loss of CO2 in winter observed across the northern permafrost region</a> (Natali et al., GWF 2019)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Susan M. Natali, Jennifer D. Watts, Brendan M. Rogers, Stefano Potter, Sarah M. Ludwig, Anne-Katrin Selbmann, Patrick F. Sullivan, Benjamin W. Abbott, Kyle A. Arndt, Leah Birch, Mats P. Björkman, A. Anthony Bloom, Gerardo Celis, Torben R. Christensen, Casper T. Christiansen, Roisin Commane, Elisabeth J. Cooper, Patrick Crill, Claudia Czimczik, et al.. 2019. <a href=https://aclanthology.org/G19-131001>Large loss of CO2 in winter observed across the northern permafrost region</a>. <i>Nature Climate Change, Volume 9, Issue 11</i>, 9(11):852–857.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

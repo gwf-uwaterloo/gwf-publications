@@ -1,62 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Li-2020-SAGA:">
+<mods ID="Lloyd-Smith-2020-Intertemporal">
     <titleInfo>
-        <title>SAGA: Efficient and Large-Scale Detection of Near-Miss Clones with GPU Acceleration</title>
+        <title>Intertemporal Substitution in Travel Cost Models with Seasonal Time Constraints</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Guanhua</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Patrick</namePart>
+        <namePart type="family">Lloyd-Smith</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yijian</namePart>
-        <namePart type="family">Wu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">Joshua</namePart>
         <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="family">Abbott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jun</namePart>
-        <namePart type="family">Sun</namePart>
+        <namePart type="given">Wiktor</namePart>
+        <namePart type="family">Adamowicz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xin</namePart>
-        <namePart type="family">Peng</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nanjie</namePart>
-        <namePart type="family">Zhan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bin</namePart>
-        <namePart type="family">Hu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jingyi</namePart>
-        <namePart type="family">Ma</namePart>
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Willard</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -68,23 +40,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)</title>
+            <title>Land Economics, Volume 96, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IEEE</publisher>
+            <publisher>University of Wisconsin Press</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Clone detection on large code repository is necessary for many big code analysis tasks. The goal is to provide rich information on identical and similar code across projects. Detecting near-miss code clones on big code is challenging since it requires intensive computing and memory resources as the scale of the source code increases. In this work, we propose SAGA, an efficient suffix-array based code clone detection tool designed with sophisticated GPU optimization. SAGA not only detects Type-l and Type-2 clones but also does so for cross-project large repositories and for the most computationally expensive Type-3 clones. Meanwhile, it also works at segment granularity, which is even more challenging. It detects code clones in 100 million lines of code within 11 minutes (with recall and precision comparable to state-of-the-art approaches), which is more than 10 times faster than state-of-the-art tools. It is the only tool that efficiently detects Type-3 near-miss clones at segment granularity in large code repository (e.g., within 11 hours on 1 billion lines of code). We conduct a preliminary case study on 85,202 GitHub Java projects with 1 billion lines of code and exhibit the distribution of clones across projects. We find about 1.23 million Type-3 clone groups, containing 28 million lines of code at arbitrary segment granularity, which are only detectable with SAGA. We believe SAGA is useful in many software engineering applications such as code provenance analysis, code completion, change impact analysis, and many more.</abstract>
-    <identifier type="citekey">Li-2020-SAGA:</identifier>
-    <identifier type="doi">10.1109/saner48275.2020.9054832</identifier>
+    <abstract>Travel cost models using the wage rate to value time make the implicit assumption that the value of time is equalized throughout the year. We develop a seasonal travel cost model that allows the value of time to vary by season. We estimate the model using data from a survey of recreational anglers in the Gulf of Mexico. We find that people’s value of time is 55% larger on average in the summer compared to other times of year and find substantial differences in derived welfare estimates if a time-constant value of time measure is used instead.</abstract>
+    <identifier type="citekey">Lloyd-Smith-2020-Intertemporal</identifier>
+    <identifier type="doi">10.3368/le.96.3.399</identifier>
     <location>
         <url>https://aclanthology.org/G20-100001</url>
     </location>
     <part>
         <date>2020</date>
+        <detail type="volume"><number>96</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>399</start>
+            <end>417</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

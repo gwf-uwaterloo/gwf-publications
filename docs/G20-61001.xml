@@ -1,33 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Budhathoki-2020-A">
+<mods ID="Codling-2020-Metals">
     <titleInfo>
-        <title>A multi-objective calibration approach using in-situ soil moisture data for improved hydrological simulation of the Prairies</title>
+        <title>Metals and PFAS in stormwater and surface runoff in a semi-arid Canadian city subject to large variations in temperature among seasons</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sujata</namePart>
-        <namePart type="family">Budhathoki</namePart>
+        <namePart type="given">Garry</namePart>
+        <namePart type="family">Codling</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Prabin</namePart>
-        <namePart type="family">Rokaya</namePart>
+        <namePart type="given">Hongda</namePart>
+        <namePart type="family">Yuan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jones</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bruce</namePart>
-        <namePart type="family">Davison</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Giesy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Markus</namePart>
+        <namePart type="family">Hecker</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +48,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 65, Issue 4</title>
+            <title>Environmental Science and Pollution Research, Volume 27, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Traditionally, hydrological models are only calibrated to reproduce streamflow regime without considering other hydrological state variables, such as soil moisture and evapotranspiration. Limited s...</abstract>
-    <identifier type="citekey">Budhathoki-2020-A</identifier>
-    <identifier type="doi">10.1080/02626667.2020.1715982</identifier>
+    <identifier type="citekey">Codling-2020-Metals</identifier>
+    <identifier type="doi">10.1007/s11356-020-08070-2</identifier>
     <location>
         <url>https://aclanthology.org/G20-61001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>65</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>15</number></detail>
         <extent unit="page">
-            <start>638</start>
-            <end>649</end>
+            <start>18232</start>
+            <end>18241</end>
         </extent>
     </part>
 </mods>

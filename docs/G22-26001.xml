@@ -1,26 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Budhathoki-2022-Impacts">
+<mods ID="Grace-2022-Numerical">
     <titleInfo>
-        <title>Impacts of future climate on the hydrology of a transboundary river basin in northeastern North America</title>
+        <title>Numerical simulations of the three-dimensionalization of a shear flow in radiatively forced cold water below the density maximum</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sujata</namePart>
-        <namePart type="family">Budhathoki</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Grace</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Prabin</namePart>
-        <namePart type="family">Rokaya</namePart>
+        <namePart type="given">Marek</namePart>
+        <namePart type="family">Stastna</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Lamb</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +42,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 605</title>
+            <title>Physical Review Fluids, Volume 7, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Physical Society (APS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Model benchmarking was performed using four different meteorological forcing data. \bullet Calculation of water balance revealed the dominant hydrological processes. \bullet Hydrological conditions under future climatic conditions were assessed. \bullet Uncertainty in future flow projections were quantified. Climate change introduces substantial uncertainty in water resources planning and management. This is particularly the case for the river systems in the high latitudes of the Northern Hemisphere that are more vulnerable to global change. The situation becomes more challenging when there is a limited hydrological understanding of the basin. In this study, we assessed the impacts of future climate on the hydrology of the Saint John River Basin (SJRB), which is an important transboundary coastal river basin in northeastern North America. We also additionally performed model benchmarking for the SJRB using four different meteorological forcing datasets. Using the best performing forcing data and model parameters, we studied the water balance of the basin. Our results show that meteorological forcing data play a pivotal role in model performance and therefore can introduce a large degree of uncertainty in hydrological modelling. The analysis of the water balance highlights that runoff and evapotranspiration account for about 99% of the total basin precipitation, with each constituting approximately 50%. The simulation of future flows projects higher winter discharges, but summer flows are estimated to decrease in the 2041–2070 and 2071–2100 periods compared to the baseline period (1991–2020). However, the evaluation of model errors indicates higher confidence in the result that future winter flows will increase, but lower confidence in the results that future summer flows will decrease.</abstract>
-    <identifier type="citekey">Budhathoki-2022-Impacts</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.127317</identifier>
+    <abstract>In cold water (temperatures between water’s freezing point and the temperature of maximum density), near-surface heating (from the sun) generates dense water which in turn induces vertical currents. If there is a near-surface current, the resulting convective instabilities efficiently move momentum from the current to regions lower in the water column. Then, there is an induced momentum flux across the plume boundary leading to a complicated series of three-dimensional interactions resulting in turbulence. How might this process be affected by factors such as water clarity and current speed?</abstract>
+    <identifier type="citekey">Grace-2022-Numerical</identifier>
+    <identifier type="doi">10.1103/physrevfluids.7.023501</identifier>
     <location>
         <url>https://aclanthology.org/G22-26001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>605</number></detail>
-        <detail type="page"><number>127317</number></detail>
+        <detail type="volume"><number>7</number></detail>
+        <detail type="issue"><number>2</number></detail>
     </part>
 </mods>
 </modsCollection>

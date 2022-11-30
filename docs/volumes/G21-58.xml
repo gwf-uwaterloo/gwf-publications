@@ -1,30 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Laguë-2021-Radiative">
+<mods ID="Das-2021-Exploring">
     <titleInfo>
-        <title>Radiative feedbacks on land surface change and associated tropical precipitation shifts</title>
+        <title>Exploring the Potential of Zoning Regulation for Reducing Ice-Jam Flood Risk Using a Stochastic Modelling Framework</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marysa</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Laguë</namePart>
+        <namePart type="given">Apurba</namePart>
+        <namePart type="family">Das</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Abigail</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Swann</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Boos</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -36,26 +25,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Climate</title>
+            <title>Water, Volume 13, Issue 16</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Laguë-2021-Radiative</identifier>
-    <identifier type="doi">10.1175/jcli-d-20-0883.1</identifier>
+    <identifier type="citekey">Das-2021-Exploring</identifier>
+    <identifier type="doi">10.3390/w13162202</identifier>
     <location>
         <url>https://aclanthology.org/G21-58001</url>
     </location>
     <part>
         <date>2021</date>
-        <extent unit="page">
-            <start>1</start>
-            <end>63</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>16</number></detail>
+        <detail type="page"><number>2202</number></detail>
     </part>
 </mods>
 </modsCollection>

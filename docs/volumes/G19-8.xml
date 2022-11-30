@@ -1,47 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Thapa-2019-“Garbage">
+<mods ID="Johnson-2019-Biomic">
     <titleInfo>
-        <title>“Garbage in, Garbage Out” Does Not Hold True for Indigenous Community Flood Extent Modeling in the Prairie Pothole Region</title>
+        <title>Biomic river restoration: A new focus for river management</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Anuja</namePart>
-        <namePart type="family">Thapa</namePart>
+        <namePart type="given">Matthew</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Johnson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lori</namePart>
-        <namePart type="family">Bradford</namePart>
+        <namePart type="given">Colin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Thorne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Graham</namePart>
-        <namePart type="family">Strickert</namePart>
+        <namePart type="given">Janine</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Castro</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xiaolei</namePart>
-        <namePart type="family">Yu</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="given">Mathias</namePart>
+        <namePart type="family">Kondolf</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Anthony</namePart>
-        <namePart type="family">Johnston</namePart>
+        <namePart type="given">Celeste</namePart>
+        <namePart type="given">Searles</namePart>
+        <namePart type="family">Mazzacano</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kelsey</namePart>
-        <namePart type="family">Watson-Daniels</namePart>
+        <namePart type="given">Stewart</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Rood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cherie</namePart>
+        <namePart type="family">Westbrook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -53,25 +66,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 11, Issue 12</title>
+            <title>River Research and Applications, Volume 36, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Thapa-2019-“Garbage</identifier>
-    <identifier type="doi">10.3390/w11122486</identifier>
+    <identifier type="citekey">Johnson-2019-Biomic</identifier>
+    <identifier type="doi">10.1002/rra.3529</identifier>
     <location>
         <url>https://aclanthology.org/G19-8001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>12</number></detail>
-        <detail type="page"><number>2486</number></detail>
+        <detail type="volume"><number>36</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>3</start>
+            <end>12</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

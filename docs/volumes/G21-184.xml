@@ -1,33 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bridhikitti-2021-Best">
+<mods ID="Humaira-2021-FlowDyn:">
     <titleInfo>
-        <title>Best management practices for mitigating agricultural nutrient pollution in the Mun River Basin, Thailand</title>
+        <title>FlowDyn: A Dynamic Web-based Streamflow Prediction Pipeline</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Arika</namePart>
-        <namePart type="family">Bridhikitti</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Humaira</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thayukorn</namePart>
-        <namePart type="family">Prabamroong</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">Sadeghi</namePart>
+        <namePart type="family">Tabas</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Liu</namePart>
-        <namePart type="family">Gaohuan</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Samadi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yu</namePart>
-        <namePart type="family">Guo-An</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Hubig</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,27 +41,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Soil and Water Research, Volume 16, Issue No. 2</title>
+            <title>2021 IEEE International Conference on Big Data (Big Data)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Czech Academy of Agricultural Sciences</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bridhikitti-2021-Best</identifier>
-    <identifier type="doi">10.17221/101/2020-swr</identifier>
+    <identifier type="citekey">Humaira-2021-FlowDyn:</identifier>
+    <identifier type="doi">10.1109/bigdata52589.2021.9672019</identifier>
     <location>
         <url>https://aclanthology.org/G21-184001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>16</number></detail>
-        <extent unit="page">
-            <start>121</start>
-            <end>128</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

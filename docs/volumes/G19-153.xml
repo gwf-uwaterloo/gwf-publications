@@ -1,26 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rokaya-2019-Promoting">
+<mods ID="Ruso-2019-Detecting">
     <titleInfo>
-        <title>Promoting Sustainable Ice-Jam Flood Management along the Peace River and Peace-Athabasca Delta</title>
+        <title>Detecting Amphibians in Agricultural Landscapes Using Environmental DNA Reveals the Importance of Wetland Condition</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Prabin</namePart>
-        <namePart type="family">Rokaya</namePart>
+        <namePart type="given">Gabrielle</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Ruso</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Christy</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Morrissey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Natacha</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Hogan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claudia</namePart>
+        <namePart type="family">Sheedy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Melanie</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Gallant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jardine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,24 +58,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Water Resources Planning and Management, Volume 145, Issue 1</title>
+            <title>Environmental Toxicology and Chemistry, Volume 38, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Society of Civil Engineers (ASCE)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rokaya-2019-Promoting</identifier>
-    <identifier type="doi">10.1061/(asce)wr.1943-5452.0001021</identifier>
+    <identifier type="citekey">Ruso-2019-Detecting</identifier>
+    <identifier type="doi">10.1002/etc.4598</identifier>
     <location>
         <url>https://aclanthology.org/G19-153001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>145</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>38</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>2750</start>
+            <end>2763</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,48 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hussain-2017-Evaluation">
+<mods ID="Li-2017-Validation">
     <titleInfo>
-        <title>Evaluation of gridded precipitation data in the Hindu Kush–Karakoram–Himalaya mountainous area</title>
+        <title>Validation of the SMAP freeze/thaw product using categorical triple collocation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Shakir</namePart>
-        <namePart type="family">Hussain</namePart>
+        <namePart type="given">Xinlu</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xianfang</namePart>
-        <namePart type="family">Song</namePart>
+        <namePart type="given">Kaighin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">McColl</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Guoyu</namePart>
-        <namePart type="family">Ren</namePart>
+        <namePart type="given">Haobo</namePart>
+        <namePart type="family">Lyu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Iqtidar</namePart>
-        <namePart type="family">Hussain</namePart>
+        <namePart type="given">Xiaolan</namePart>
+        <namePart type="family">Xu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dongmei</namePart>
-        <namePart type="family">Han</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Derksen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Zaman</namePart>
+        <namePart type="given">Hui</namePart>
+        <namePart type="family">Lu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dara</namePart>
+        <namePart type="family">Entekhabi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,29 +61,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 62, Issue 14</title>
+            <title>2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The accurate measurement of precipitation is crucial for hydrological studies. This is especially true for the Hindu Kush–Karakoram–Himalaya (HKKH) mountain region, which is characterized by high s...</abstract>
-    <identifier type="citekey">Hussain-2017-Evaluation</identifier>
-    <identifier type="doi">10.1080/02626667.2017.1384548</identifier>
+    <abstract>Landscape freeze/thaw (FT) state is a key variable in Earth’s carbon cycle. NASA’s Soil Moisture Active Passive (SMAP) satellite mission, launched in January 2015, provides global retrievals of FT state every two to three days. Validating SMAP FT observations with in-situ observations is difficult due to the substantial scale mismatch between a point estimate and a satellite footprint, inducing “representativeness errors” in the in-situ observations. Triple collocation (TC) is a validation technique that addresses this problem by combining estimates from in-situ, model and spaceborne estimates to obtain error estimates for all three products, without assuming that any product is error-free. Unfortunately, it fails when applied to binary or categorical variables, such as landscape FT state. In this study, we use a new variant of TC — categorical triple collocation (CTC) — that can be applied to binary variables, to validate the SMAP FT product across northern land regions (\textgreater45N).</abstract>
+    <identifier type="citekey">Li-2017-Validation</identifier>
+    <identifier type="doi">10.1109/igarss.2017.8127277</identifier>
     <location>
         <url>https://aclanthology.org/G17-43001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>62</number></detail>
-        <detail type="issue"><number>14</number></detail>
-        <extent unit="page">
-            <start>2393</start>
-            <end>2405</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

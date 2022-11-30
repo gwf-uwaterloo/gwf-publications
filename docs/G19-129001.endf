@@ -1,16 +1,16 @@
 ﻿%0 Journal Article
-%T Flood Risk Management in Canada’s Prairie Provinces: an Analysis of Decision-Maker Priorities and Policy Preferences
-%A Morrison, Alasdair
-%A Noble, Bram F.
-%A Westbrook, Cherie J.
-%J Environmental Management, Volume 64, Issue 5
+%T CloneCognition: machine learning based code clone validation tool
+%A Mostaeen, Golam
+%A Svajlenko, Jeffrey
+%A Roy, Banani
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J Proceedings of the 2019 27th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering
 %D 2019
-%V 64
-%N 5
-%I Springer Science and Business Media LLC
-%F Morrison-2019-Flood
-%R 10.1007/s00267-019-01208-0
+%I ACM
+%F Mostaeen-2019-CloneCognition:
+%X A code clone is a pair of similar code fragments, within or between software systems. To detect each possible clone pair from a software system while handling the complex code structures, the clone detection tools undergo a lot of generalization of the original source codes. The generalization often results in returning code fragments that are only coincidentally similar and not considered clones by users, and hence requires manual validation of the reported possible clones by users which is often both time-consuming and challenging. In this paper, we propose a machine learning based tool ’CloneCognition’ (Open Source Codes: https://github.com/pseudoPixels/CloneCognition ; Video Demonstration: https://www.youtube.com/watch?v=KYQjmdr8rsw) to automate the laborious manual validation process. The tool runs on top of any code clone detection tools to facilitate the clone validation process. The tool shows promising clone classification performance with an accuracy of up to 87.4%. The tool also exhibits significant improvement in the results when compared with state-of-the-art techniques for code clone validation.
+%R 10.1145/3338906.3341182
 %U https://aclanthology.org/G19-129001
-%U https://doi.org/10.1007/s00267-019-01208-0
-%P 608-625
+%U https://doi.org/10.1145/3338906.3341182
 

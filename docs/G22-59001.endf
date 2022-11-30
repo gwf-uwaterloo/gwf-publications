@@ -1,17 +1,18 @@
 ﻿%0 Journal Article
-%T Changes in the risk of extreme temperatures in megacities worldwide
-%A Rajulapati, Chandra Rupa
-%A Abdelmoaty, Hebatallah Mohamed
-%A Nerantzaki, Sofia D.
+%T A new very simply explicitly invertible approximation for the standard normal cumulative distribution function
+%A Lipoth, Jessica
+%A Tereda, Yoseph
 %A Papalexiou, Simon Michael
-%J Climate Risk Management, Volume 36
+%A Spiteri, Raymond J.
+%J AIMS Mathematics, Volume 7, Issue 7
 %D 2022
-%V 36
-%I Elsevier BV
-%F Rajulapati-2022-Changes
-%X Globally, extreme temperatures have severe impacts on the economy, human health, food and water security, and ecosystems. Mortality rates have been increased due to heatwaves in several regions. Specifically, megacities have high impacts with the increasing temperature and ever-expanding urban areas; it is important to understand extreme temperature changes in terms of duration, magnitude, and frequency for future risk management and disaster mitigation. Here we framed a novel Semi-Parametric quantile mapping method to bias-correct the CMIP6 minimum and maximum temperature projections for 199 megacities worldwide. The changes in maximum and minimum temperature are quantified in terms of climate indices (ETCCDI and HDWI) for the four Shared Socioeconomic Pathways (SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5). Cities in northern Asia and northern North America (Kazan, Samara, Heihe, Montréal, Edmonton, and Moscow) are warming at a higher rate compared to the other regions. There is an increasing and decreasing trend for the warm and cold extremes respectively. Heatwaves increase exponentially in the future with the increase in warming, that is, from SSP1-2.6 to SSP5-8.5. Among the CMIP6 models, a huge variability is observed, and this further increases as the warming increases. All climate indices have steep slopes for the far future (2066–2100) compared to the near future (2031–2065). Yet the variability among CMIP6 models in near future is high compared to the far future for cold indices.
-%R 10.1016/j.crm.2022.100433
+%V 7
+%N 7
+%I American Institute of Mathematical Sciences (AIMS)
+%F Lipoth-2022-A
+%X &lt;abstract&gt;&lt;p&gt;This paper proposes a new very simply explicitly invertible function to approximate the standard normal cumulative distribution function (CDF). The new function was fit to the standard normal CDF using both MATLAB’s Global Optimization Toolbox and the BARON software package. The results of three separate fits are presented in this paper. Each fit was performed across the range $ 0 \textbackslashleq z \textbackslashleq 7 $ and achieved a maximum absolute error (MAE) superior to the best MAE reported for previously published very simply explicitly invertible approximations of the standard normal CDF. The best MAE reported from this study is 2.73e–05, which is nearly a factor of five better than the best MAE reported for other published very simply explicitly invertible approximations.&lt;/p&gt;&lt;/abstract&gt;
+%R 10.3934/math.2022648
 %U https://aclanthology.org/G22-59001
-%U https://doi.org/10.1016/j.crm.2022.100433
-%P 100433
+%U https://doi.org/10.3934/math.2022648
+%P 11635-11646
 

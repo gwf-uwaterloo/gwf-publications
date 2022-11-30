@@ -1,36 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rasouli-2019-A">
+<mods ID="Shatilla-Carey-2019-Assessing-inter-annual">
     <titleInfo>
-        <title>A long-term hydrometeorological dataset (1993–2014) of a northern mountain basin: Wolf Creek Research Basin, Yukon Territory, Canada</title>
+        <title>Assessing inter-annual and seasonal patterns of DOC and DOM quality across a complex alpine watershed underlain by discontinuous permafrost in Yukon, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kabir</namePart>
-        <namePart type="family">Rasouli</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
+        <namePart type="given">Nadine</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="given">Richard</namePart>
-        <namePart type="family">Janowicz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Tyler</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Williams</namePart>
+        <namePart type="family">Shatilla</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,7 +27,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 11, Issue 1</title>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -59,35 +36,37 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Rasouli-2019-A</identifier>
-    <identifier type="doi">10.5194/essd-11-89-2019</identifier>
+    <identifier type="citekey">Shatilla-Carey-2019-Assessing-inter-annual</identifier>
+    <identifier type="doi">10.5194/hess-23-3571-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-11001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>89</start>
-            <end>100</end>
+            <start>3571</start>
+            <end>3591</end>
         </extent>
     </part>
 </mods>
-<mods ID="He-2019-Lake">
+<mods ID="Almonte-2019-Precipitation">
     <titleInfo>
-        <title>Lake O’Hara alpine hydrological observatory: hydrological and meteorological dataset, 2004–2017</title>
+        <title>Precipitation transition regions over the southern Canadian Cordillera during January–April 2010 and under a pseudo-global-warming assumption</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jesse</namePart>
-        <namePart type="family">He</namePart>
+        <namePart type="given">Juris</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Almonte</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Masaki</namePart>
-        <namePart type="family">Hayashi</namePart>
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -99,7 +78,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 11, Issue 1</title>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -108,18 +87,161 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">He-2019-Lake</identifier>
-    <identifier type="doi">10.5194/essd-11-111-2019</identifier>
+    <identifier type="citekey">Almonte-2019-Precipitation</identifier>
+    <identifier type="doi">10.5194/hess-23-3665-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-11002</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>111</start>
-            <end>117</end>
+            <start>3665</start>
+            <end>3682</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Wolfe-2019-A">
+    <titleInfo>
+        <title>A watershed classification approach that looks beyond hydrology: application to a semi-arid, agricultural region in Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jared</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Spence</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Whitfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Wolfe-2019-A</identifier>
+    <identifier type="doi">10.5194/hess-23-3945-2019</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-11003</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>3945</start>
+            <end>3967</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Yassin-Razavi-2019-Representation-and">
+    <titleInfo>
+        <title>Representation and improved parameterization of reservoir operation in hydrological and land-surface models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="family">Elshamy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">Davison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gonzalo</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Yassin-Razavi-2019-Representation-and</identifier>
+    <identifier type="doi">10.5194/hess-23-3735-2019</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-11004</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>3735</start>
+            <end>3764</end>
         </extent>
     </part>
 </mods>

@@ -1,20 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huang-Rudolph-2022-A-hybrid">
+<mods ID="Jensen-2022-Microbial">
     <titleInfo>
-        <title>A hybrid analytical-numerical technique for solving soil temperature during the freezing process</title>
+        <title>Microbial Community Compositional Stability in Agricultural Soils During Freeze-Thaw and Fertilizer Stress</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Xiang</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Jensen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Rudolph</namePart>
+        <namePart type="given">Konrad</namePart>
+        <namePart type="family">Krogstad</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fereidoun</namePart>
+        <namePart type="family">Rezanezhad</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Laura</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Hug</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,24 +40,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Advances in Water Resources, Volume 162</title>
+            <title>Frontiers in Environmental Science, Volume 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Frontiers Media SA</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Huang-Rudolph-2022-A-hybrid</identifier>
-    <identifier type="doi">10.1016/j.advwatres.2022.104163</identifier>
+    <identifier type="citekey">Jensen-2022-Microbial</identifier>
+    <identifier type="doi">10.3389/fenvs.2022.908568</identifier>
     <location>
         <url>https://aclanthology.org/G22-72001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>162</number></detail>
-        <detail type="page"><number>104163</number></detail>
+        <detail type="volume"><number>10</number></detail>
     </part>
 </mods>
 </modsCollection>

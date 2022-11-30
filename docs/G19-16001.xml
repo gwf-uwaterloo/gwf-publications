@@ -1,35 +1,65 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ahasanuzzaman-2019-CAPS:">
+<mods ID="Ahmed-2019-Fire-retardant">
     <titleInfo>
-        <title>CAPS: a supervised technique for classifying Stack Overflow posts concerning API issues</title>
+        <title>Fire-retardant, self-extinguishing triboelectric nanogenerators</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Md</namePart>
-        <namePart type="family">Ahasanuzzaman</namePart>
+        <namePart type="given">Abdelsalam</namePart>
+        <namePart type="family">Ahmed</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Muhammad</namePart>
-        <namePart type="family">Asaduzzaman</namePart>
+        <namePart type="given">Maher</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">El-Kady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Islam</namePart>
+        <namePart type="family">Hassan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="given">Ayman</namePart>
+        <namePart type="family">Negm</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amir</namePart>
+        <namePart type="given">Masoud</namePart>
+        <namePart type="family">Pourrahimi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mit</namePart>
+        <namePart type="family">Muni</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ponnambalam</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Kaner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,27 +71,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Empirical Software Engineering, Volume 25, Issue 2</title>
+            <title>Nano Energy, Volume 59</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ahasanuzzaman-2019-CAPS:</identifier>
-    <identifier type="doi">10.1007/s10664-019-09743-4</identifier>
+    <abstract>Abstract The development of highly sensitive sensors and power generators that could function efficiently in extreme temperatures and contact with fire can be lifesaving but challenging to accomplish. Herein, we report, for the first time, a fire-retardant and self-extinguishing triboelectric nanogenerator (FRTENG), which can be utilized as a motion sensor and/or power generator in occupations such as oil drilling, firefighting or working in extreme temperature environments with flammable and combustible materials. The device takes advantage of the excellent thermal properties of carbon derived from resorcinol-formaldehyde aerogel whose electrical, mechanical and triboelectric properties have been improved via the introduction of Polyacrylonitrile nanofibers and graphene oxide nanosheets. This FRTENG is not flammable even after 90 s of trying, whereas conventional triboelectric materials were entirely consumed by fire under the same conditions. The developed device shows exceptional charge transfer characteristics, leading to a potential difference up to 80 V and a current density up to 25 μA/m2. When integrated into firefighter’s shoes, the FRTENG is able to discern the movements of a firefighter in hazardous situations, while providing the high thermal stability missing in conventional TENGs. The fire-retardant and self-extinguishing characteristics offered by the FRTENG makes it a path-breaking device for lifesaving wearable applications.</abstract>
+    <identifier type="citekey">Ahmed-2019-Fire-retardant</identifier>
+    <identifier type="doi">10.1016/j.nanoen.2019.02.026</identifier>
     <location>
         <url>https://aclanthology.org/G19-16001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>25</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>59</number></detail>
         <extent unit="page">
-            <start>1493</start>
-            <end>1532</end>
+            <start>336</start>
+            <end>345</end>
         </extent>
     </part>
 </mods>

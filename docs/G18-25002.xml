@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Hernández-Henríquez-2018-The">
+    <titleInfo>
+        <title>The Cariboo Alpine Mesonet: sub-hourly hydrometeorological observations of British Columbia’s Cariboo Mountains and surrounding area since 2006</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Marco</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Hernández-Henríquez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aseem</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Sharma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mark</namePart>
+        <namePart type="family">Taylor</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hadleigh</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephen</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth System Science Data, Volume 10, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. This article presents the development of a sub-hourly database of hydrometeorological conditions collected in British Columbia’s (BC’s) Cariboo Mountains and surrounding area extending from 2006 to present. The Cariboo Alpine Mesonet (CAMnet) forms a network of 11 active hydrometeorological stations positioned at strategic locations across mid- to high elevations of the Cariboo Mountains. This mountain region spans 44 150 km2, forming the northern extension of the Columbia Mountains. Deep fjord lakes along with old-growth western redcedar and hemlock forests reside in the lower valleys, montane forests of Engelmann spruce, lodgepole pine and subalpine fir permeate the mid-elevations, while alpine tundra, glaciers and several large ice fields cover the higher elevations. The automatic weather stations typically measure air and soil temperature, relative humidity, atmospheric pressure, wind speed and direction, rainfall and snow depth at 15 min intervals. Additional measurements at some stations include shortwave and longwave radiation, near-surface air, skin, snow, or water temperature, and soil moisture, among others. Details on deployment sites, the instrumentation used and its precision, the collection and quality control process are provided. Instructions on how to access the database at Zenodo, an online public data repository, are also furnished (https://doi.org/10.5281/zenodo.1195043). Information on some of the challenges and opportunities encountered in maintaining continuous and homogeneous time series of hydrometeorological variables and remote field sites is provided. The paper also summarizes ongoing plans to expand CAMnet to better monitor atmospheric conditions in BC’s mountainous terrain, efforts to push data online in (near-)real time, availability of ancillary data and lessons learned thus far in developing this mesoscale network of hydrometeorological stations in the data-sparse Cariboo Mountains.</abstract>
+    <identifier type="citekey">Hernández-Henríquez-2018-The</identifier>
+    <identifier type="doi">10.5194/essd-10-1655-2018</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-25002</url>
+    </location>
+    <part>
+        <date>2018</date>
+        <detail type="volume"><number>10</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>1655</start>
+            <end>1672</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

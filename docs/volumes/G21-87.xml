@@ -1,685 +1,110 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Irvin-2021-Gap-filling">
+<mods ID="Greuel-2021-Predicting">
     <titleInfo>
-        <title>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</title>
+        <title>Predicting patterns of terrestrial lichen biomass recovery following boreal wildfires</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jeremy</namePart>
-        <namePart type="family">Irvin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sharon</namePart>
-        <namePart type="family">Zhou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gavin</namePart>
-        <namePart type="family">McNicol</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fred</namePart>
-        <namePart type="family">Lu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Vincent</namePart>
-        <namePart type="family">Liu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Etienne</namePart>
-        <namePart type="family">Fluet-Chouinard</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zutao</namePart>
-        <namePart type="family">Ouyang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sara</namePart>
-        <namePart type="given">Helen</namePart>
-        <namePart type="family">Knox</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Antje</namePart>
-        <namePart type="family">Lucas-Moffat</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Carlo</namePart>
-        <namePart type="family">Trotta</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dario</namePart>
-        <namePart type="family">Papale</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Domenico</namePart>
-        <namePart type="family">Vitale</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ivan</namePart>
-        <namePart type="family">Mammarella</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pavel</namePart>
-        <namePart type="family">Alekseychik</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mika</namePart>
-        <namePart type="family">Aurela</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anand</namePart>
-        <namePart type="family">Avati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dennis</namePart>
-        <namePart type="family">Baldocchi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sheel</namePart>
-        <namePart type="family">Bansal</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gil</namePart>
-        <namePart type="family">Bohrer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">I</namePart>
-        <namePart type="family">Campbell</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jiquan</namePart>
-        <namePart type="family">Chen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Housen</namePart>
-        <namePart type="family">Chu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Higo</namePart>
+        <namePart type="given">Ruth</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Dalmagro</namePart>
+        <namePart type="family">Greuel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kyle</namePart>
+        <namePart type="given">Geneviève</namePart>
+        <namePart type="given">É.</namePart>
+        <namePart type="family">Degré‐Timmons</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jill</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Johnstone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Eliot</namePart>
+        <namePart type="given">J</namePart>
         <namePart type="given">B</namePart>
-        <namePart type="family">Delwiche</namePart>
+        <namePart type="family">McIntire</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ankur</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Desai</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Eugenie</namePart>
-        <namePart type="family">Euskirchen</namePart>
+        <namePart type="given">Nicola</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Day</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">Sarah</namePart>
-        <namePart type="family">Feron</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mathias</namePart>
-        <namePart type="family">Goeckede</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martin</namePart>
-        <namePart type="family">Heimann</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Manuel</namePart>
-        <namePart type="family">Helbig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Carole</namePart>
-        <namePart type="family">Helfter</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kyle</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Hemes</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Takashi</namePart>
-        <namePart type="family">Hirano</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hiroki</namePart>
-        <namePart type="family">Iwata</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gerald</namePart>
-        <namePart type="family">Jurasinski</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Aram</namePart>
-        <namePart type="family">Kalhori</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Kondrich</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Derrick</namePart>
-        <namePart type="given">YF</namePart>
-        <namePart type="family">Lai</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Annalea</namePart>
-        <namePart type="family">Lohila</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Avni</namePart>
-        <namePart type="family">Malhotra</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lutz</namePart>
-        <namePart type="family">Merbold</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bhaskar</namePart>
-        <namePart type="family">Mitra</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Ng</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mats</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Nilsson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Asko</namePart>
-        <namePart type="family">Noormets</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Matthias</namePart>
-        <namePart type="family">Peichl</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="given">Camilo</namePart>
-        <namePart type="family">Rey-Sanchez</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
+        <namePart type="given">Philip</namePart>
         <namePart type="given">D</namePart>
-        <namePart type="family">Richardson</namePart>
+        <namePart type="family">McLoughlin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="given">RK</namePart>
-        <namePart type="family">Runkle</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Karina</namePart>
-        <namePart type="given">VR</namePart>
-        <namePart type="family">Schäfer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ellen</namePart>
-        <namePart type="family">Stuart-Haëntjens</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Cove</namePart>
-        <namePart type="family">Sturtevant</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Masahito</namePart>
-        <namePart type="family">Ueyama</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alex</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Valach</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Rodrigo</namePart>
-        <namePart type="family">Vargas</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">George</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Vourlitis</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Ward</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Guan</namePart>
-        <namePart type="given">Xhuan</namePart>
-        <namePart type="family">Wong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Donatella</namePart>
-        <namePart type="family">Zona</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ma.</namePart>
-        <namePart type="given">Carmelita</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Alberto</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Billesbach</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gerardo</namePart>
-        <namePart type="family">Celis</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Han</namePart>
-        <namePart type="family">Dolman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Thomas</namePart>
-        <namePart type="family">Friborg</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kathrin</namePart>
-        <namePart type="family">Fuchs</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sébastien</namePart>
-        <namePart type="family">Gogo</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mangaliso</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Gondwe</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jordan</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Goodrich</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pia</namePart>
-        <namePart type="family">Gottschalk</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lukas</namePart>
-        <namePart type="family">Hörtnagl</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Adrien</namePart>
-        <namePart type="family">Jacotot</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Franziska</namePart>
-        <namePart type="family">Koebsch</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kuno</namePart>
-        <namePart type="family">Kasak</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Regine</namePart>
-        <namePart type="family">Maier</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Timothy</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Morin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Eiko</namePart>
-        <namePart type="family">Nemitz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Walter</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Oechel</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Patricia</namePart>
-        <namePart type="given">Y</namePart>
-        <namePart type="family">Oikawa</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Keisuke</namePart>
-        <namePart type="family">Ono</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Torsten</namePart>
-        <namePart type="family">Sachs</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Ayaka</namePart>
-        <namePart type="family">Sakabe</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Edward</namePart>
+        <namePart type="given">Fiona</namePart>
+        <namePart type="given">K</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Schuur</namePart>
+        <namePart type="family">Schmiegelow</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Robert</namePart>
-        <namePart type="family">Shortt</namePart>
+        <namePart type="given">Merritt</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Turetsky</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ryan</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Sullivan</namePart>
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Truchon‐Savard</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Daphne</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Szutu</namePart>
+        <namePart type="given">Mario</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Telgen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Eeva-Stiina</namePart>
-        <namePart type="family">Tuittila</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrej</namePart>
-        <namePart type="family">Varlagin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Joeseph</namePart>
+        <namePart type="given">Steven</namePart>
         <namePart type="given">G</namePart>
-        <namePart type="family">Verfaillie</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Christian</namePart>
-        <namePart type="family">Wille</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lisamarie</namePart>
-        <namePart type="family">Windham-Myers</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="family">Poulter</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Robert</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Jackson</namePart>
+        <namePart type="family">Cumming</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -691,24 +116,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Agricultural and Forest Meteorology, Volume 308-309</title>
+            <title>Ecosphere, Volume 12, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Irvin-2021-Gap-filling</identifier>
-    <identifier type="doi">10.1016/j.agrformet.2021.108528</identifier>
+    <identifier type="citekey">Greuel-2021-Predicting</identifier>
+    <identifier type="doi">10.1002/ecs2.3481</identifier>
     <location>
         <url>https://aclanthology.org/G21-87001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>308</number></detail>
-        <detail type="page"><number>108528</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>4</number></detail>
     </part>
 </mods>
 </modsCollection>

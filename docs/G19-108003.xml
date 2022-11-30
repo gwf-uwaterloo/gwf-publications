@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Razavi-2019-A">
+    <titleInfo>
+        <title>A multi-method Generalized Global Sensitivity Matrix approach to accounting for the dynamical nature of earth and environmental systems models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hoshin</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Gupta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Modelling &amp;amp; Software, Volume 114</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Many applications of global sensitivity analysis (GSA) do not adequately account for the dynamical nature of earth and environmental systems models. Gupta and Razavi (2018) highlight this fact and develop a sensitivity analysis framework from first principles, based on the sensitivity information contained in trajectories of partial derivatives of the dynamical model responses with respect to controlling factors. Here, we extend and generalize that framework to accommodate any GSA philosophy, including derivative-based approaches (such as Morris and DELSA), direct-response-based approaches (such as the variance-based Sobol’, distribution-based PAWN, and higher-moment-based methods), and unifying variogram-based approaches (such as VARS). The framework is implemented within the VARS-TOOL software toolbox and demonstrated using the HBV-SASK model applied to the Oldman Watershed, Canada. This enables a comprehensive multi-variate investigation of the influence of parameters and forcings on different modeled state variables and responses, without the need for observational data regarding those responses.</abstract>
+    <identifier type="citekey">Razavi-2019-A</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2018.12.002</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-108003</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>114</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>11</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

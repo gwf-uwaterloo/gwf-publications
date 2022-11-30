@@ -1,42 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hrach-2021-The">
+<mods ID="Brahney-2021-Glacier">
     <titleInfo>
-        <title>The Impact of Variable Horizon Shade on the Growing Season Energy Budget of a Subalpine Headwater Wetland</title>
+        <title>Glacier recession alters stream water quality characteristics facilitating bloom formation in the benthic diatom Didymosphenia geminata</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dylan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Brahney</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">M</namePart>
-        <namePart type="family">Hrach</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Bothwell</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Capito</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brandon</namePart>
-        <namePart type="family">Van Huizen</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Gray</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adam</namePart>
-        <namePart type="family">Green</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Null</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Myroslava</namePart>
-        <namePart type="family">Khomik</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Menounos</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Curtis</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,25 +64,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmosphere, Volume 12, Issue 11</title>
+            <title>Science of The Total Environment, Volume 764</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hrach-2021-The</identifier>
-    <identifier type="doi">10.3390/atmos12111473</identifier>
+    <identifier type="citekey">Brahney-2021-Glacier</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2020.142856</identifier>
     <location>
         <url>https://aclanthology.org/G21-167001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>11</number></detail>
-        <detail type="page"><number>1473</number></detail>
+        <detail type="volume"><number>764</number></detail>
+        <detail type="page"><number>142856</number></detail>
     </part>
 </mods>
 </modsCollection>

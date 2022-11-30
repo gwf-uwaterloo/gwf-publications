@@ -1,20 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Baltzer-2020-No">
+<mods ID="BenAlaya-2020-An">
     <titleInfo>
-        <title>No beating around the bush: the impact of projected high‐latitude vegetation transitions on soil and ecosystem respiration</title>
+        <title>An Evaluation of Block-Maximum-Based Estimation of Very Long Return Period Precipitation Extremes with a Large Ensemble Climate Simulation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Baltzer</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ben Alaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">X</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,27 +33,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>New Phytologist, Volume 227, Issue 6</title>
+            <title>Journal of Climate, Volume 33, Issue 16</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Baltzer-2020-No</identifier>
-    <identifier type="doi">10.1111/nph.16704</identifier>
+    <identifier type="citekey">Ben Alaya-2020-An</identifier>
+    <identifier type="doi">10.1175/jcli-d-19-0011.1</identifier>
     <location>
         <url>https://aclanthology.org/G20-49001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>227</number></detail>
-        <detail type="issue"><number>6</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>16</number></detail>
         <extent unit="page">
-            <start>1591</start>
-            <end>1593</end>
+            <start>6957</start>
+            <end>6970</end>
         </extent>
     </part>
 </mods>

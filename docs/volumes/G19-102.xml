@@ -1,35 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Liu-2019-Turnover">
+<mods ID="Liu-2019-Monitoring">
     <titleInfo>
-        <title>Turnover and legacy of sediment-associated PAH in a baseflow-dominated river</title>
+        <title>Monitoring Groundwater Change in California’s Central Valley Using Sentinel-1 and GRACE Observations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yan</namePart>
+        <namePart type="given">Zhen</namePart>
         <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christiane</namePart>
-        <namePart type="family">Zarfl</namePart>
+        <namePart type="given">Pang-Wei</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nandita</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Basu</namePart>
+        <namePart type="given">Elias</namePart>
+        <namePart type="family">Massoud</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Olaf</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Cirpka</namePart>
+        <namePart type="given">Tom</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Farr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="family">Lundgren</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,27 +55,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 671</title>
+            <title>Geosciences, Volume 9, Issue 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Liu-2019-Turnover</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2019.03.236</identifier>
+    <identifier type="citekey">Liu-2019-Monitoring</identifier>
+    <identifier type="doi">10.3390/geosciences9100436</identifier>
     <location>
         <url>https://aclanthology.org/G19-102001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>671</number></detail>
-        <extent unit="page">
-            <start>754</start>
-            <end>764</end>
-        </extent>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>436</number></detail>
     </part>
 </mods>
 </modsCollection>

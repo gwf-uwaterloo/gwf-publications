@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ghoreishi-2021-Understanding">
+<mods ID="Tropea-2021-Assessing">
     <titleInfo>
-        <title>Understanding human adaptation to drought: agent-based agricultural water demand modeling in the Bow River Basin, Canada</title>
+        <title>Assessing past and future hazardous freezing rain and wet snow events in Manitoba, Canada using a pseudo-global warming approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mohammad</namePart>
-        <namePart type="family">Ghoreishi</namePart>
+        <namePart type="given">Brock</namePart>
+        <namePart type="family">Tropea</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Elshorbagy</namePart>
+        <namePart type="given">Ronald</namePart>
+        <namePart type="family">Stewart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,29 +25,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 66, Issue 3</title>
+            <title>Atmospheric Research, Volume 259</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The farmers in the Bow River Basin (BRB), Canada, have adopted water conservation strategies to reduce water needs. This reduction, however, encouraged irrigation expansion, which may rebound agric...</abstract>
-    <identifier type="citekey">Ghoreishi-2021-Understanding</identifier>
-    <identifier type="doi">10.1080/02626667.2021.1873344</identifier>
+    <abstract>Freezing precipitation, in the form of freezing rain, freezing drizzle, and/or wet snow, can damage transportation networks, infrastructure, and vegetation. Ten events with freezing precipitation (including freezing rain and wet snow) over the province of Manitoba, Canada were examined using surface observational datasets, reanalysis products and 4-km resolution Weather Research and Forecasting (WRF) products that were both a retrospective control (CTRL) simulation as well as a pseudo-global warming (PGW) simulation. All events tracked to the south and/or east of Manitoba and most (8 of 10) events were associated with a consistent large scale pattern of extratropical cyclone with 500 hPa trough, low surface pressure center nearby, and an atmospheric river. Local factors, such as the 400 m elevated terrain of Riding Mountain, influenced 2 events mainly by altering surface temperature to be favorable for freezing precipitation. These events in the PGW simulation occurred 40–120 km farther north on average, with freezing rain generally being enhanced and wet snow generally being reduced, although wet snow was introduced into events which originally only had freezing rain. This study further showed that power lines aligned west to east, perpendicular to the strongest winds, are most susceptible to the consequences of icing and accretion within the current climate as well as the thermodynamically forced future one. \bullet Freezing rain, wet snow and their mixtures lead to major impacts in Manitoba, Canada. \bullet Ten historic freezing precipitation events over this area are examined in detail. \bullet Freezing precipitation is dramatically altered by the area’s low topographic features. \bullet Pseudo-global warming is assumed to examine future freezing precipitation. \bullet With this warming, freezing precipitation types and their locations are altered.</abstract>
+    <identifier type="citekey">Tropea-2021-Assessing</identifier>
+    <identifier type="doi">10.1016/j.atmosres.2021.105656</identifier>
     <location>
         <url>https://aclanthology.org/G21-140001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>66</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>389</start>
-            <end>407</end>
-        </extent>
+        <detail type="volume"><number>259</number></detail>
+        <detail type="page"><number>105656</number></detail>
     </part>
 </mods>
 </modsCollection>

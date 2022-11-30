@@ -1,19 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ovando-2019-A">
+<mods ID="Pavlovskii-2019-Estimation">
     <titleInfo>
-        <title>A review of economic approaches modeling the complex interactions between forest management and watershed services</title>
+        <title>Estimation of depression-focussed groundwater recharge using chloride mass balance: problems and solutions across scales</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Paola</namePart>
-        <namePart type="family">Ovando</namePart>
+        <namePart type="given">Igor</namePart>
+        <namePart type="family">Pavlovskii</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Edwin</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Cey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,26 +33,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Forest Policy and Economics, Volume 100</title>
+            <title>Hydrogeology Journal, Volume 27, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ovando-2019-A</identifier>
-    <identifier type="doi">10.1016/j.forpol.2018.12.007</identifier>
+    <identifier type="citekey">Pavlovskii-2019-Estimation</identifier>
+    <identifier type="doi">10.1007/s10040-019-01993-2</identifier>
     <location>
         <url>https://aclanthology.org/G19-138001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>100</number></detail>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>6</number></detail>
         <extent unit="page">
-            <start>164</start>
-            <end>176</end>
+            <start>2263</start>
+            <end>2278</end>
         </extent>
     </part>
 </mods>

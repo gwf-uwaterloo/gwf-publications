@@ -1,52 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Salk-2021-Warming">
+<mods ID="Chegoonian-2021-Support">
     <titleInfo>
-        <title>Warming combined with experimental eutrophication intensifies lake phytoplankton blooms</title>
+        <title>Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kateri</namePart>
+        <namePart type="given">Amir</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Chegoonian</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kiana</namePart>
+        <namePart type="family">Zolfaghari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">Salk</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Venkiteswaran</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Raoul‐Marie</namePart>
-        <namePart type="family">Couture</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Scott</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Higgins</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Paterson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -58,29 +42,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Limnology and Oceanography, Volume 67, Issue 1</title>
+            <title>2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Phytoplankton blooms are a global water quality issue, and successful management depends on understanding their responses to multiple and interacting drivers, including nutrient loading and climate change. Here, we examine a long-term dataset from Lake 227, a site subject to a fertilization experiment (1969–present) with changing nitrogen:phosphorus (N:P) ratios. We applied a process-oriented model, MyLake, and updated the model structure with nutrient uptake kinetics that incorporated shifting N:P and competition among phytoplankton functional groups. We also tested different temperature and P-loading scenarios to examine the interacting effects of climate change and nutrient loading on phytoplankton blooms. The model successfully reproduced lake physics over 48 yr and the timing, overall magnitude, and shifting community structure (diazotrophs vs. non-diazotrophs) of phytoplankton blooms. Intra- and interannual variability was captured more accurately for the P-only fertilization period than for the high N:P and low N:P fertilization periods, highlighting the difficulty of modeling complex blooms even in well-studied systems. A model scenario was also run which removed climate-driven temperature trends, allowing us to disentangle concurrent drivers of blooms. Results showed that increases in water temperature in the spring led to earlier and larger phytoplankton blooms under climate change than under the effects of nutrient fertilization alone. These findings suggest that successful lake management efforts should incorporate the effects of climate change in addition to nutrient reductions, including intensifying and/or expanding monitoring periods and incorporating climate change into uncertainty estimates around future conditions.</abstract>
-    <identifier type="citekey">Salk-2021-Warming</identifier>
-    <identifier type="doi">10.1002/lno.11982</identifier>
+    <abstract>Chlorophyll-a concentration (chla) is a useful indicator of harmful algal blooms in early warning systems that use remote sensing data as input. However, its retrieval is challenging in small waterbodies due to the lack of high spatial-resolution water-color sensors and the substantial optical interference of other water constituents. Here, we demonstrate the potential of support vector machines and Sentinel-2 images to retrieve chla in a shallow eutrophic lake (Buffalo Pound Lake, Saskatchewan, Canada). Following validation against in-situ chla measurements over three open water seasons (2017–2019), our proposed method based on Support Vector Regression (SVR) outperforms the most common semi-empirical models, i.e., locally-tuned indices (normalized difference chlorophyll index, 2band, and 3band), as well as the state-of-the-art global empirical model (Mixture Density Network). The superiority of SVR is shown in terms of overall and stratified accuracy, as well as spatial validity. We argue that for small waterbodies where numerous matched pairs of in-situ chla and reflectance are not available, SVR might retrieve chla more accurately than locally-tuned indices and global empirical models.</abstract>
+    <identifier type="citekey">Chegoonian-2021-Support</identifier>
+    <identifier type="doi">10.1109/igarss47720.2021.9554110</identifier>
     <location>
         <url>https://aclanthology.org/G21-46001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>67</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>147</start>
-            <end>158</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

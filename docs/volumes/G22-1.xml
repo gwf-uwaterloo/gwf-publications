@@ -1,32 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kompanizare-2022-Assessment">
+<mods ID="DeHaan-2022-Vegetation‐related">
     <titleInfo>
-        <title>Assessment of effective LAI and water use efficiency using Eddy Covariance data</title>
+        <title>Vegetation‐related influences on carbon and water dynamics of two temperate forage crops</title>
     </titleInfo>
-    <name type="personal">
-        <namePart type="given">Mazda</namePart>
-        <namePart type="family">Kompanizare</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
     <name type="personal">
         <namePart type="given">Kevin</namePart>
         <namePart type="family">De Haan</namePart>
@@ -41,6 +18,50 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Kessel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Adam</namePart>
+        <namePart type="family">Green</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mazda</namePart>
+        <namePart type="family">Kompanizare</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Warren</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Merrin</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Macrae</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2022</dateIssued>
     </originInfo>
@@ -48,24 +69,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 802</title>
+            <title>Agronomy Journal, Volume 114, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kompanizare-2022-Assessment</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2021.149628</identifier>
+    <identifier type="citekey">De Haan-2022-Vegetation‐related</identifier>
+    <identifier type="doi">10.1002/agj2.21056</identifier>
     <location>
         <url>https://aclanthology.org/G22-1001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>802</number></detail>
-        <detail type="page"><number>149628</number></detail>
+        <detail type="volume"><number>114</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>1782</start>
+            <end>1799</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

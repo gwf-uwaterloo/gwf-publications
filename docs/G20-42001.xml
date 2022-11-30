@@ -1,42 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Alam-2020-Fully">
+<mods ID="Asong-2020-High-resolution">
     <titleInfo>
-        <title>Fully Integrated, Simple, and Low-Cost Electrochemical Sensor Array for in Situ Water Quality Monitoring</title>
+        <title>High-resolution meteorological forcing data for hydrological modelling and climate change impact analysis in the Mackenzie River Basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Arif</namePart>
-        <namePart type="given">U</namePart>
-        <namePart type="family">Alam</namePart>
+        <namePart type="given">Zilefac</namePart>
+        <namePart type="given">Elvis</namePart>
+        <namePart type="family">Asong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dennis</namePart>
-        <namePart type="family">Clyne</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">Ezzat</namePart>
+        <namePart type="family">Elshamy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hao</namePart>
-        <namePart type="family">Jin</namePart>
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Princz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Nan-Xing</namePart>
-        <namePart type="family">Hu</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Jamal</namePart>
-        <namePart type="family">Deen</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">Willard</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alex</namePart>
+        <namePart type="family">Cannon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,28 +64,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>ACS Sensors, Volume 5, Issue 2</title>
+            <title>Earth System Science Data, Volume 12, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Rapid, accurate and inexpensive monitoring of water quality parameters is indispensable for continued water safety, especially in resource-limited areas. Most conventional sensing systems either can only monitor one parameter at a time or lack user-friendly on-site monitoring capabilities. A fully integrated electrochemical sensor array is an excellent solution to this barrier. Electrochemical sensing methods involve transduction of water quality parameters where chemical interactions are converted to electrical signals. The challenge remains in designing low-cost, easy-to-use, and highly sensitive sensor array that can continuously monitor major water quality parameters such as pH, free chlorine, temperature along with emerging pharmaceutical contaminants, and heavy metal without the use of expensive laboratory-based techniques and trained personnel. Here, we overcame this challenge through realizing a fully integrated electrochemical sensing system that offers simultaneous monitoring of pH (57.5 mV/pH), free chlorine (186 nA/ppm), and temperature (16.9 mV/°C) and on-demand monitoring of acetaminophen and 17β-estradiol (\textless10 nM) and heavy metal (\textless10 ppb), bridging the technological gap between signal transduction, processing, wireless transmission, and smartphone interfacing. This was achieved by merging nanomaterials and carbon nanotube-based sensors fabricated on microscopic glass slides controlled by a custom-designed readout circuit, a potentiostat, and an Android app. The sensing system can be easily modified and programmed to integrate other sensors, a capability that can be exploited to monitor a range of water quality parameters. We demonstrate the integrated system for monitoring tap, swimming pool, and lake water. This system opens the possibility for a wide range of low-cost and ubiquitous environmental monitoring applications.</abstract>
-    <identifier type="citekey">Alam-2020-Fully</identifier>
-    <identifier type="doi">10.1021/acssensors.9b02095</identifier>
+    <abstract>Abstract. Cold region hydrology is very sensitive to the impacts of climate warming. Impacts of warming over recent decades in western Canada include glacier retreat, permafrost thaw, and changing patterns of precipitation, with an increased proportion of winter precipitation falling as rainfall and shorter durations of snow cover, as well as consequent changes in flow regimes. Future warming is expected to continue along these lines. Physically realistic and sophisticated hydrological models driven by reliable climate forcing can provide the capability to assess hydrological responses to climate change. However, the provision of reliable forcing data remains problematic, particularly in data-sparse regions. Hydrological processes in cold regions involve complex phase changes and so are very sensitive to small biases in the driving meteorology, particularly in temperature and precipitation, including precipitation phase. Cold regions often have sparse surface observations, particularly at high elevations that generate a large amount of runoff. This paper aims to provide an improved set of forcing data for large-scale hydrological models for climate change impact assessment. The best available gridded data in Canada are from the high-resolution forecasts of the Global Environmental Multiscale (GEM) atmospheric model and outputs of the Canadian Precipitation Analysis (CaPA), but these datasets have a short historical record. The EU WATCH ERA-Interim reanalysis (WFDEI) has a longer historical record but has often been found to be biased relative to observations over Canada. The aim of this study, therefore, is to blend the strengths of both datasets (GEM-CaPA and WFDEI) to produce a less-biased long-record product (WFDEI-GEM-CaPA) for hydrological modelling and climate change impact assessment over the Mackenzie River Basin. First, a multivariate generalization of the quantile mapping technique was implemented to bias-correct WFDEI against GEM-CaPA at 3 h \times0.125∘ resolution during the 2005–2016 overlap period, followed by a hindcast of WFDEI-GEM-CaPA from 1979. The derived WFDEI-GEM-CaPA data are validated against station observations as a preliminary step to assess their added value. This product is then used to bias-correct climate projections from the Canadian Centre for Climate Modelling and Analysis Canadian Regional Climate Model (CanRCM4) between 1950 and 2100 under RCP8.5, and an analysis of the datasets shows that the biases in the original WFDEI product have been removed and the climate change signals in CanRCM4 are preserved. The resulting bias-corrected datasets are a consistent set of historical and climate projection data suitable for large-scale modelling and future climate scenario analysis. The final historical product (WFDEI-GEM-CaPA, 1979–2016) is freely available at the Federated Research Data Repository at https://doi.org/10.20383/101.0111 (Asong et al., 2018), while the original and corrected CanRCM4 data are available at https://doi.org/10.20383/101.0162 (Asong et al., 2019).</abstract>
+    <identifier type="citekey">Asong-2020-High-resolution</identifier>
+    <identifier type="doi">10.5194/essd-12-629-2020</identifier>
     <location>
         <url>https://aclanthology.org/G20-42001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>5</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>412</start>
-            <end>422</end>
+            <start>629</start>
+            <end>645</end>
         </extent>
     </part>
 </mods>

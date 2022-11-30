@@ -1,21 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Harrison-2020-Seeing">
+<mods ID="Hoekstra-2020-Lake">
     <titleInfo>
-        <title>Seeing beneath disputes: A transdisciplinary framework for diagnosing complex conservation conflicts</title>
+        <title>Lake Ice-Water Classification of RADARSAT-2 Images by Integrating IRGS Segmentation with Pixel-Based Random Forest Labeling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hannah</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Harrison</namePart>
+        <namePart type="given">Marie</namePart>
+        <namePart type="family">Hoekstra</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
+        <namePart type="given">Mingzhe</namePart>
+        <namePart type="family">Jiang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Loring</namePart>
+        <namePart type="family">Clausi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,24 +40,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Biological Conservation, Volume 248</title>
+            <title>Remote Sensing, Volume 12, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Harrison-2020-Seeing</identifier>
-    <identifier type="doi">10.1016/j.biocon.2020.108670</identifier>
+    <identifier type="citekey">Hoekstra-2020-Lake</identifier>
+    <identifier type="doi">10.3390/rs12091425</identifier>
     <location>
         <url>https://aclanthology.org/G20-88001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>248</number></detail>
-        <detail type="page"><number>108670</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <detail type="page"><number>1425</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,49 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chun-2017-A">
+<mods ID="Costa-2017-A">
     <titleInfo>
-        <title>A novel stochastic method for reconstructing daily precipitation times-series using tree-ring data from the western Canadian Boreal Forest</title>
+        <title>A modelling framework to simulate field-scale nitrate response and transport during snowmelt: The WINTRA model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Chun</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Mamet</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="family">Roste</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Metsaranta</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="family">Barr</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Johnstone</namePart>
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">H</namePart>
+        <namePart type="given">Howard</namePart>
         <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cherie</namePart>
+        <namePart type="family">Westbrook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -55,26 +60,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Dendrochronologia, Volume 44</title>
+            <title>Hydrological Processes, Volume 31, Issue 24</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Chun-2017-A</identifier>
-    <identifier type="doi">10.1016/j.dendro.2017.01.003</identifier>
+    <identifier type="citekey">Costa-2017-A</identifier>
+    <identifier type="doi">10.1002/hyp.11346</identifier>
     <location>
         <url>https://aclanthology.org/G17-9001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>44</number></detail>
+        <detail type="volume"><number>31</number></detail>
+        <detail type="issue"><number>24</number></detail>
         <extent unit="page">
-            <start>9</start>
-            <end>18</end>
+            <start>4250</start>
+            <end>4268</end>
         </extent>
     </part>
 </mods>

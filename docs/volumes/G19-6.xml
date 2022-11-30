@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Neapetung-2019-“Spirit">
+<mods ID="Thapa-2019-“Garbage">
     <titleInfo>
-        <title>“Spirit, Safety, and a Stand-off ”: The Research-Creation Process and Its Roles in Relationality and Reconciliation among Researcher and Indigenous Co-Learners in Saskatchewan, Canada</title>
+        <title>“Garbage in, Garbage Out” Does Not Hold True for Indigenous Community Flood Extent Modeling in the Prairie Pothole Region</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Myron</namePart>
-        <namePart type="family">Neapetung</namePart>
+        <namePart type="given">Anuja</namePart>
+        <namePart type="family">Thapa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,8 +19,29 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lalita</namePart>
-        <namePart type="family">Bharadwaj</namePart>
+        <namePart type="given">Graham</namePart>
+        <namePart type="family">Strickert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaolei</namePart>
+        <namePart type="family">Yu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anthony</namePart>
+        <namePart type="family">Johnston</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kelsey</namePart>
+        <namePart type="family">Watson-Daniels</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,28 +53,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Engaged Scholar Journal: Community-Engaged Research, Teaching, and Learning, Volume 5, Issue 2</title>
+            <title>Water, Volume 11, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Engaged Scholar Journal</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Neapetung-2019-“Spirit</identifier>
-    <identifier type="doi">10.15402/esj.v5i2.68334</identifier>
+    <identifier type="citekey">Thapa-2019-“Garbage</identifier>
+    <identifier type="doi">10.3390/w11122486</identifier>
     <location>
         <url>https://aclanthology.org/G19-6001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>5</number></detail>
-        <detail type="issue"><number>2</number></detail>
-        <extent unit="page">
-            <start>37</start>
-            <end>60</end>
-        </extent>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <detail type="page"><number>2486</number></detail>
     </part>
 </mods>
 </modsCollection>

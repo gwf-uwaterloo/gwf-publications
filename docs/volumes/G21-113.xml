@@ -1,43 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Alam-2021-Fruit">
+<mods ID="VargasGodoy-2021-The">
     <titleInfo>
-        <title>Fruit Quality Monitoring with Smart Packaging</title>
+        <title>The Global Water Cycle Budget: A Chronological Review</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Arif</namePart>
-        <namePart type="given">U</namePart>
-        <namePart type="family">Alam</namePart>
+        <namePart type="given">Mijael</namePart>
+        <namePart type="given">Rodrigo</namePart>
+        <namePart type="family">Vargas Godoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pranali</namePart>
-        <namePart type="family">Rathi</namePart>
+        <namePart type="given">Yannis</namePart>
+        <namePart type="family">Markonis</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Heba</namePart>
-        <namePart type="family">Beshai</namePart>
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Hanel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gursimran</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Sarabha</namePart>
+        <namePart type="given">Jan</namePart>
+        <namePart type="family">Kyselý</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Jamal</namePart>
-        <namePart type="family">Deen</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -49,25 +48,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Sensors, Volume 21, Issue 4</title>
+            <title>Surveys in Geophysics, Volume 42, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Alam-2021-Fruit</identifier>
-    <identifier type="doi">10.3390/s21041509</identifier>
+    <identifier type="citekey">Vargas Godoy-2021-The</identifier>
+    <identifier type="doi">10.1007/s10712-021-09652-6</identifier>
     <location>
         <url>https://aclanthology.org/G21-113001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>21</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <detail type="page"><number>1509</number></detail>
+        <detail type="volume"><number>42</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <extent unit="page">
+            <start>1075</start>
+            <end>1107</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,13 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Satar-AlDavdi-2022-Investigation">
+<mods ID="Murfitt-2022-Investigating">
     <titleInfo>
-        <title>Investigation of the effect of sucrose substitution with Stevia on the structure, physicochemical and sensory properties of ice cream</title>
+        <title>Investigating the Effect of Lake Ice Properties on Multifrequency Backscatter Using the Snow Microwave Radiative Transfer Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Khanda</namePart>
-        <namePart type="given">Sirwan</namePart>
-        <namePart type="family">Satar-AlDavdi</namePart>
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ghislain</namePart>
+        <namePart type="family">Picard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grant</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Gunn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,27 +41,148 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Halabja University Journal, Volume 7, Issue 2</title>
+            <title>IEEE Transactions on Geoscience and Remote Sensing, Volume 60</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>University of Halabja</publisher>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Satar-AlDavdi-2022-Investigation</identifier>
-    <identifier type="doi">10.32410/huj-10417</identifier>
+    <identifier type="citekey">Murfitt-2022-Investigating</identifier>
+    <identifier type="doi">10.1109/tgrs.2022.3197109</identifier>
     <location>
         <url>https://aclanthology.org/G22-68001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>7</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>60</number></detail>
         <extent unit="page">
-            <start>198</start>
-            <end>208</end>
+            <start>1</start>
+            <end>23</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Zolfaghari-2022-Impact">
+    <titleInfo>
+        <title>Impact of Spectral Resolution on Quantifying Cyanobacteria in Lakes and Reservoirs: A Machine-Learning Assessment</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kiana</namePart>
+        <namePart type="family">Zolfaghari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nima</namePart>
+        <namePart type="family">Pahlevan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Caren</namePart>
+        <namePart type="family">Binding</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniela</namePart>
+        <namePart type="family">Gurlin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stefan</namePart>
+        <namePart type="given">G.H.</namePart>
+        <namePart type="family">Simis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Antonio</namePart>
+        <namePart type="given">Ruiz</namePart>
+        <namePart type="family">Verdu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lin</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Crawford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Vanderwoude</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Reagan</namePart>
+        <namePart type="family">Errera</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Arthur</namePart>
+        <namePart type="family">Zastepa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Transactions on Geoscience and Remote Sensing, Volume 60</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Zolfaghari-2022-Impact</identifier>
+    <identifier type="doi">10.1109/tgrs.2021.3114635</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-68002</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>60</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>20</end>
         </extent>
     </part>
 </mods>

@@ -1,33 +1,70 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Akomeah-2022-Evidence-based">
+<mods ID="Kang-2022-Controls">
     <titleInfo>
-        <title>Evidence-based identification of integrated water quality systems</title>
+        <title>Controls of lithium isotope spatial variability across the Yukon River: Implications for weathering processes in a warming subarctic basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="family">Akomeah</namePart>
+        <namePart type="given">Myunghak</namePart>
+        <namePart type="family">Kang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Elliott</namePart>
+        <namePart type="family">Skierszkan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Luis</namePart>
-        <namePart type="family">Morales-Marin</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="family">Brennan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Elmira</namePart>
-        <namePart type="family">Hassanzadeh</namePart>
+        <namePart type="given">Diego</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Fernandez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhaoping</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Isabelle</namePart>
+        <namePart type="family">Girard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="family">Gammon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ghislain</namePart>
+        <namePart type="family">de Laplante</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Clément</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Bataille</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,25 +76,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Environmental Planning and Management</title>
+            <title>Geochimica et Cosmochimica Acta, Volume 323</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Akomeah-2022-Evidence-based</identifier>
-    <identifier type="doi">10.1080/09640568.2022.2028609</identifier>
+    <abstract>With ongoing global warming and permafrost thawing, weathering processes will change on the Yukon River, with risks for water quality and ecosystem sustainability. Here, we explore the relationship between weathering processes and permafrost cover using elemental concentration and strontium and lithium isotopic data in the dissolved load of 102 samples collected during the summer across most major tributaries of the Yukon River. The Yukon River basin is dominated by silicate weathering with a high contribution from young volcanic rock units. In glaciated mountainous zones, we observe higher carbonate weathering contribution, low Li/Na ratios and low δ 7 Li values (\textless15‰). In these areas, the high denudation rate and high supply of fresh minerals associated with alpine glaciers favor congruent silicate weathering, and sulfide oxidation accelerates carbonate weathering. In floodplains covered by continuous permafrost, we observe a high carbonate weathering contribution, relatively high Li/Na ratios, and low δ 7 Li values (∼18‰). We argue that the minimal water–rock interactions in this setting inhibit silicate weathering and favor congruent weathering of easily weatherable minerals (i.e., carbonates). Conversely, in areas with discontinuous or sporadic permafrost, we observe a dominance of silicate weathering, with higher and more variable Li/Na ratios and high δ 7 Li values (11–33‰). In this setting, longer water–rock interactions combined with the high supply of fresh minerals from mountain zones favor more incongruent weathering. The unique history of Pleistocene glaciations on the Yukon River basin also influences weathering processes. Many areas of the basin were never glaciated during the Pleistocene, and rivers draining those regions have higher δ 7 Li values suggesting more incongruent weathering associated with deeper flow paths and longer water residence time in the regolith. Our work underlines that water–rock interactions, including active layer weathering and groundwater inputs, are highly dependent on climate conditions and glacial processes across the Yukon River basin, with key implications for future water quality in this warming basin.</abstract>
+    <identifier type="citekey">Kang-2022-Controls</identifier>
+    <identifier type="doi">10.1016/j.gca.2022.02.016</identifier>
     <location>
         <url>https://aclanthology.org/G22-25001</url>
     </location>
     <part>
         <date>2022</date>
+        <detail type="volume"><number>323</number></detail>
         <extent unit="page">
             <start>1</start>
-            <end>22</end>
+            <end>19</end>
         </extent>
     </part>
 </mods>

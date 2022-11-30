@@ -1,40 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Alijani-2021-Sensitivity">
+<mods ID="Ma-2021-Selection">
     <titleInfo>
-        <title>Sensitivity of C-Band SAR Polarimetric Variables to the Directionality of Surface Roughness Parameters</title>
+        <title>Selection of a self-cleaving ribozyme activated in a chemically and thermally denaturing environment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Zohreh</namePart>
-        <namePart type="family">Alijani</namePart>
+        <namePart type="given">Lingzi</namePart>
+        <namePart type="family">Ma</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Lindsay</namePart>
+        <namePart type="given">Zhicheng</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Melanie</namePart>
-        <namePart type="family">Chabot</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Tracy</namePart>
-        <namePart type="family">Rowlandson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Berg</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,25 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 13, Issue 11</title>
+            <title>Chemical Communications, Volume 57, Issue 62</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Royal Society of Chemistry (RSC)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Alijani-2021-Sensitivity</identifier>
-    <identifier type="doi">10.3390/rs13112210</identifier>
+    <identifier type="citekey">Ma-2021-Selection</identifier>
+    <identifier type="doi">10.1039/d1cc03102c</identifier>
     <location>
         <url>https://aclanthology.org/G21-124001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>11</number></detail>
-        <detail type="page"><number>2210</number></detail>
+        <detail type="volume"><number>57</number></detail>
+        <detail type="issue"><number>62</number></detail>
+        <extent unit="page">
+            <start>7641</start>
+            <end>7644</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

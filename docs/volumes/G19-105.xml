@@ -1,26 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Logar-2019-Do">
+<mods ID="Lv-2019-Detecting">
     <titleInfo>
-        <title>Do the societal benefits of river restoration outweigh their costs? A cost-benefit analysis</title>
+        <title>Detecting intercepted snow on mountain needleleaf forest canopies using satellite remote sensing</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ivana</namePart>
-        <namePart type="family">Logar</namePart>
+        <namePart type="given">Zhibang</namePart>
+        <namePart type="family">Lv</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Amael</namePart>
-        <namePart type="family">Paillex</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,7 +26,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Environmental Management, Volume 232</title>
+            <title>Remote Sensing of Environment, Volume 231</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -41,18 +35,15 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Logar-2019-Do</identifier>
-    <identifier type="doi">10.1016/j.jenvman.2018.11.098</identifier>
+    <identifier type="citekey">Lv-2019-Detecting</identifier>
+    <identifier type="doi">10.1016/j.rse.2019.111222</identifier>
     <location>
         <url>https://aclanthology.org/G19-105001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>232</number></detail>
-        <extent unit="page">
-            <start>1075</start>
-            <end>1085</end>
-        </extent>
+        <detail type="volume"><number>231</number></detail>
+        <detail type="page"><number>111222</number></detail>
     </part>
 </mods>
 </modsCollection>

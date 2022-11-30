@@ -1,66 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Melsen-2019-Subjective">
+<mods ID="Mihalicz-2019-Seasonal">
     <titleInfo>
-        <title>Subjective modeling decisions can significantly impact the simulation of flood and drought events</title>
+        <title>Seasonal effects of a hydropeaking dam on a downstream benthic macroinvertebrate community</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lieke</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Melsen</namePart>
+        <namePart type="given">Jordan</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Mihalicz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adriaan</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Teuling</namePart>
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jardine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Paul</namePart>
-        <namePart type="given">J.J.F.</namePart>
-        <namePart type="family">Torfs</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Massimiliano</namePart>
-        <namePart type="family">Zappa</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Naoki</namePart>
-        <namePart type="family">Mizukami</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pablo</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Mendoza</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Remko</namePart>
-        <namePart type="family">Uijlenhoet</namePart>
+        <namePart type="given">Iain</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Phillips</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -72,27 +43,87 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 568</title>
+            <title>River Research and Applications</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Melsen-2019-Subjective</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2018.11.046</identifier>
+    <identifier type="citekey">Mihalicz-2019-Seasonal</identifier>
+    <identifier type="doi">10.1002/rra.3434</identifier>
     <location>
         <url>https://aclanthology.org/G19-117001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>568</number></detail>
-        <extent unit="page">
-            <start>1093</start>
-            <end>1104</end>
-        </extent>
+    </part>
+</mods>
+<mods ID="Rokaya-2019-Modelling">
+    <titleInfo>
+        <title>Modelling the effects of climate and flow regulation on ice‐affected backwater staging in a large northern river</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Peters</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
+        <namePart type="family">Bonsal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl‐Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>River Research and Applications</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Rokaya-2019-Modelling</identifier>
+    <identifier type="doi">10.1002/rra.3436</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-117002</url>
+    </location>
+    <part>
+        <date>2019</date>
     </part>
 </mods>
 </modsCollection>

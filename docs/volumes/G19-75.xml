@@ -1,34 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hu-2019-Phosphorothioate">
+<mods ID="Ingram-2019-Postfire">
     <titleInfo>
-        <title>Phosphorothioate DNA Mediated Sequence-Insensitive Etching and Ripening of Silver Nanoparticles</title>
+        <title>Postfire Soil Carbon Accumulation Does Not Recover Boreal Peatland Combustion Loss in Some Hydrogeological Settings</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Shengqiang</namePart>
-        <namePart type="family">Hu</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Ingram</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Po-Jung</namePart>
-        <namePart type="given">Jimmy</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Moore</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jianxiu</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wilkinson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,23 +50,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Frontiers in Chemistry, Volume 7</title>
+            <title>Journal of Geophysical Research: Biogeosciences, Volume 124, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Frontiers Media SA</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hu-2019-Phosphorothioate</identifier>
-    <identifier type="doi">10.3389/fchem.2019.00198</identifier>
+    <identifier type="citekey">Ingram-2019-Postfire</identifier>
+    <identifier type="doi">10.1029/2018jg004716</identifier>
     <location>
         <url>https://aclanthology.org/G19-75001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>7</number></detail>
+        <detail type="volume"><number>124</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>775</start>
+            <end>788</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

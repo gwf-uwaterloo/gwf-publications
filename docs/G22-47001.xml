@@ -1,41 +1,62 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Merchant-2022-Applying">
+<mods ID="Meloche-2022-Characterizing">
     <titleInfo>
-        <title>Applying Machine Learning and Time-Series Analysis on Sentinel-1A SAR/InSAR for Characterizing Arctic Tundra Hydro-Ecological Conditions</title>
+        <title>Characterizing tundra snow sub-pixel variability to improve brightness temperature estimation in satellite SWE retrievals</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">Allan</namePart>
-        <namePart type="family">Merchant</namePart>
+        <namePart type="given">Julien</namePart>
+        <namePart type="family">Meloche</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mayah</namePart>
-        <namePart type="family">Obadia</namePart>
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Langlois</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Brisco</namePart>
+        <namePart type="given">Nick</namePart>
+        <namePart type="family">Rutter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ben</namePart>
-        <namePart type="family">DeVries</namePart>
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Royer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Berg</namePart>
+        <namePart type="given">Josh</namePart>
+        <namePart type="family">King</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Branden</namePart>
+        <namePart type="family">Walker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Evan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wilcox</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -47,26 +68,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 14, Issue 5</title>
+            <title>The Cryosphere, Volume 16, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Synthetic aperture radar (SAR) is a widely used tool for Earth observation activities. It is particularly effective during times of persistent cloud cover, low light conditions, or where in situ measurements are challenging. The intensity measured by a polarimetric SAR has proven effective for characterizing Arctic tundra landscapes due to the unique backscattering signatures associated with different cover types. However, recently, there has been increased interest in exploiting novel interferometric SAR (InSAR) techniques that rely on both the amplitude and absolute phase of a pair of acquisitions to produce coherence measurements, although the simultaneous use of both intensity and interferometric coherence in Arctic tundra image classification has not been widely tested. In this study, a time series of dual-polarimetric (VV, VH) Sentinel-1 SAR/InSAR data collected over one growing season, in addition to a digital elevation model (DEM), was used to characterize an Arctic tundra study site spanning a hydrologically dynamic coastal delta, open tundra, and high topographic relief from mountainous terrain. SAR intensity and coherence patterns based on repeat-pass interferometry were analyzed in terms of ecological structure (i.e., graminoid, or woody) and hydrology (i.e., wet, or dry) using machine learning methods. Six hydro-ecological cover types were delineated using time-series statistical descriptors (i.e., mean, standard deviation, etc.) as model inputs. Model evaluations indicated SAR intensity to have better predictive power than coherence, especially for wet landcover classes due to temporal decorrelation. However, accuracies improved when both intensity and coherence were used, highlighting the complementarity of these two measures. Combining time-series SAR/InSAR data with terrain derivatives resulted in the highest per-class F1 score values, ranging from 0.682 to 0.955. The developed methodology is independent of atmospheric conditions (i.e., cloud cover or sunlight) as it does not rely on optical information, and thus can be regularly updated over forthcoming seasons or annually to support ecosystem monitoring.</abstract>
-    <identifier type="citekey">Merchant-2022-Applying</identifier>
-    <identifier type="doi">10.3390/rs14051123</identifier>
+    <abstract>Abstract. Topography and vegetation play a major role in sub-pixel variability of Arctic snowpack properties but are not considered in current passive microwave (PMW) satellite SWE retrievals. Simulation of sub-pixel variability of snow properties is also problematic when downscaling snow and climate models. In this study, we simplified observed variability of snowpack properties (depth, density, microstructure) in a two-layer model with mean values and distributions of two multi-year tundra dataset so they could be incorporated in SWE retrieval schemes. Spatial variation of snow depth was parameterized by a log-normal distribution with mean (μsd) values and coefficients of variation (CVsd). Snow depth variability (CVsd) was found to increase as a function of the area measured by a remotely piloted aircraft system (RPAS). Distributions of snow specific surface area (SSA) and density were found for the wind slab (WS) and depth hoar (DH) layers. The mean depth hoar fraction (DHF) was found to be higher in Trail Valley Creek (TVC) than in Cambridge Bay (CB), where TVC is at a lower latitude with a subarctic shrub tundra compared to CB, which is a graminoid tundra. DHFs were fitted with a Gaussian process and predicted from snow depth. Simulations of brightness temperatures using the Snow Microwave Radiative Transfer (SMRT) model incorporating snow depth and DHF variation were evaluated with measurements from the Special Sensor Microwave/Imager and Sounder (SSMIS) sensor. Variation in snow depth (CVsd) is proposed as an effective parameter to account for sub-pixel variability in PMW emission, improving simulation by 8 K. SMRT simulations using a CVsd of 0.9 best matched CVsd observations from spatial datasets for areas &amp;gt; 3 km2, which is comparable to the 3.125 km pixel size of the Equal-Area Scalable Earth (EASE)-Grid 2.0 enhanced resolution at 37 GHz.</abstract>
+    <identifier type="citekey">Meloche-2022-Characterizing</identifier>
+    <identifier type="doi">10.5194/tc-16-87-2022</identifier>
     <location>
         <url>https://aclanthology.org/G22-47001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>14</number></detail>
-        <detail type="issue"><number>5</number></detail>
-        <detail type="page"><number>1123</number></detail>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>87</start>
+            <end>101</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

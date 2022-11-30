@@ -1,12 +1,50 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hayashi-2019-Alpine">
+<mods ID="Piovano-2019-Spatially-distributed">
     <titleInfo>
-        <title>Alpine Hydrogeology: The Critical Role of Groundwater in Sourcing the Headwaters of the World</title>
+        <title>Spatially-distributed tracer-aided runoff modelling and dynamics ofstorage and water ages in a permafrost-influenced catchment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Masaki</namePart>
-        <namePart type="family">Hayashi</namePart>
+        <namePart type="given">Thea</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Piovano</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Doerthe</namePart>
+        <namePart type="family">Tetzlaff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nadine</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Shatilla</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Soulsby</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -18,28 +56,881 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Groundwater, Volume 58, Issue 4</title>
+            <title/>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hayashi-2019-Alpine</identifier>
-    <identifier type="doi">10.1111/gwat.12965</identifier>
+    <identifier type="citekey">Piovano-2019-Spatially-distributed</identifier>
+    <identifier type="doi">10.5194/hess-2019-59</identifier>
     <location>
         <url>https://aclanthology.org/G19-9001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>58</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>498</start>
-            <end>510</end>
-        </extent>
+    </part>
+</mods>
+<mods ID="Hallema-2019-Wildland">
+    <titleInfo>
+        <title>Wildland fire impacts on water yield across the contiguous United States</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Dennis</namePart>
+        <namePart type="family">Hallema</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ge</namePart>
+        <namePart type="family">Sun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Caldwell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francois-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bladon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Steve</namePart>
+        <namePart type="family">Norman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yongqiang</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Erika</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Cohen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Steve</namePart>
+        <namePart type="family">McNulty</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Hallema-2019-Wildland</identifier>
+    <identifier type="doi">10.2737/srs-gtr-238</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9002</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Kehoe-2019-Successful">
+    <titleInfo>
+        <title>Successful forecasting of harmful cyanobacteria blooms with high frequency lake data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Kehoe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Ingalls</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Venkiteswaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Kehoe-2019-Successful</identifier>
+    <identifier type="doi">10.1101/674325</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9003</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Larsen-2019-Extreme">
+    <titleInfo>
+        <title>Extreme rainfall drives early onset cyanobacterial bloom</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Megan</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Larsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sherry</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Schiff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dana</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Simon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sébastien</namePart>
+        <namePart type="family">Sauvé</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Venkiteswaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Larsen-2019-Extreme</identifier>
+    <identifier type="doi">10.1101/570275</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9004</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Li-2019-High-Resolution">
+    <titleInfo>
+        <title>High-Resolution Regional Climate Modeling and Projection over Western Canada using a Weather Research Forecasting Model with a Pseudo-Global Warming Approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhe</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Liang</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sopan</namePart>
+        <namePart type="family">Kurkute</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lucia</namePart>
+        <namePart type="family">Scaff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xicai</namePart>
+        <namePart type="family">Pan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Li-2019-High-Resolution</identifier>
+    <identifier type="doi">10.5194/hess-2019-201</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9005</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Rasouli-2019-Are">
+    <titleInfo>
+        <title>Are the effects of vegetation and soil changes as important as climatechange impacts on hydrological processes?</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kabir</namePart>
+        <namePart type="family">Rasouli</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Rasouli-2019-Are</identifier>
+    <identifier type="doi">10.5194/hess-2019-214</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9006</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Yassin-2019-Hydrologic-Land">
+    <titleInfo>
+        <title>Hydrologic-Land Surface Modelling of a Complex System under PrecipitationUncertainty: A Case Study of the Saskatchewan River Basin, Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Yassin-2019-Hydrologic-Land</identifier>
+    <identifier type="doi">10.5194/hess-2019-207</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9007</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Shatilla-2019-Assessing">
+    <titleInfo>
+        <title>Assessing inter-annual and seasonal patterns of DOC and DOM quality across a complex alpine watershed underlain by discontinuous permafrost in Yukon, Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nadine</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Shatilla</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sean</namePart>
+        <namePart type="family">Carey</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Shatilla-2019-Assessing</identifier>
+    <identifier type="doi">10.5194/hess-2019-81</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9008</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Sheikholeslami-2019-What">
+    <titleInfo>
+        <title>What do we do with model simulation crashes? Recommendations for global sensitivity analysis of earth and environmental systems models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Haghnegahdar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Sheikholeslami-2019-What</identifier>
+    <identifier type="doi">10.5194/gmd-2019-17</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9009</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Stewart-2019-A">
+    <titleInfo>
+        <title>A Review and Synthesis of Future Earth System Change in theInterior of Western Canada: Part I – Climate and Meteorology</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kit</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Szeto</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Bonsal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hanesiak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bohdan</namePart>
+        <namePart type="family">Kochtubajda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">DeBeer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Benita</namePart>
+        <namePart type="given">Y</namePart>
+        <namePart type="family">Tam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhuo</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bruneau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sébastien</namePart>
+        <namePart type="family">Marinier</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dominic</namePart>
+        <namePart type="family">Matte</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Stewart-2019-A</identifier>
+    <identifier type="doi">10.5194/hess-2019-51</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9010</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Whitman-2019-Soil">
+    <titleInfo>
+        <title>Soil Bacterial and Fungal Response to Wildfires in the Canadian Boreal Forest Across a Burn Severity Gradient</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Thea</namePart>
+        <namePart type="family">Whitman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ellen</namePart>
+        <namePart type="family">Whitman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jamie</namePart>
+        <namePart type="family">Woolet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Flannigan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dan</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marc-Andre</namePart>
+        <namePart type="family">Parisien</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Whitman-2019-Soil</identifier>
+    <identifier type="doi">10.1101/512798</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9011</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Wolfe-2019-Watershed">
+    <titleInfo>
+        <title>Watershed classification for the Canadian prairie</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jared</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Spence</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Whitfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Wolfe-2019-Watershed</identifier>
+    <identifier type="doi">10.5194/hess-2018-625</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9012</url>
+    </location>
+    <part>
+        <date>2019</date>
+    </part>
+</mods>
+<mods ID="Yassin-2019-Representation">
+    <titleInfo>
+        <title>Representation of Water Management in Hydrological and LandSurface Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="family">Elshamy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">Davison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gonzalo</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Yassin-2019-Representation</identifier>
+    <identifier type="doi">10.5194/hess-2019-7</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-9013</url>
+    </location>
+    <part>
+        <date>2019</date>
     </part>
 </mods>
 </modsCollection>

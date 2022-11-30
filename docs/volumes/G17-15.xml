@@ -1,33 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Haghnegahdar-2017-Multicriteria">
+<mods ID="Harder-2017-Local‐Scale">
     <titleInfo>
-        <title>Multicriteria sensitivity analysis as a diagnostic tool for understanding model behaviour and characterizing model uncertainty</title>
+        <title>Local‐Scale Advection of Sensible and Latent Heat During Snowmelt</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Haghnegahdar</namePart>
+        <namePart type="given">Phillip</namePart>
+        <namePart type="family">Harder</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fuad</namePart>
-        <namePart type="family">Yassin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Warren</namePart>
+        <namePart type="family">Helgason</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,27 +33,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 31, Issue 25</title>
+            <title>Geophysical Research Letters, Volume 44, Issue 19</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Haghnegahdar-2017-Multicriteria</identifier>
-    <identifier type="doi">10.1002/hyp.11358</identifier>
+    <identifier type="citekey">Harder-2017-Local‐Scale</identifier>
+    <identifier type="doi">10.1002/2017gl074394</identifier>
     <location>
         <url>https://aclanthology.org/G17-15001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>31</number></detail>
-        <detail type="issue"><number>25</number></detail>
+        <detail type="volume"><number>44</number></detail>
+        <detail type="issue"><number>19</number></detail>
         <extent unit="page">
-            <start>4462</start>
-            <end>4476</end>
+            <start>9769</start>
+            <end>9777</end>
         </extent>
     </part>
 </mods>

@@ -1,25 +1,18 @@
 ﻿%0 Journal Article
-%T Evaluation of Clumping Effects on the Estimation of Global Terrestrial Evapotranspiration
-%A Chen, Bin
-%A Lu, Xuehe
-%A Wang, Shaoqiang
-%A Chen, Jing M.
-%A Liu, Yang
-%A Fang, Hongliang
-%A Liu, Zhenhai
-%A Jiang, Fei
-%A Arain, Muhammad Altaf
-%A Chen, Jinghua
-%A Wang, Xiaobo
-%J Remote Sensing, Volume 13, Issue 20
+%T WDPM: the Wetland DEM Ponding Model
+%A Shook, Kevin
+%A Spiteri, Raymond
+%A Pomeroy, John
+%A Liu, Tonghe
+%A Sharomi, Oluwaseun
+%J Journal of Open Source Software, Volume 6, Issue 64
 %D 2021
-%V 13
-%N 20
-%I MDPI AG
-%F Chen-2021-Evaluation
-%X In terrestrial ecosystems, leaves are aggregated into different spatial structures and their spatial distribution is non-random. Clumping index (CI) is a key canopy structural parameter, characterizing the extent to which leaf deviates from the random distribution. To assess leaf clumping effects on global terrestrial ET, we used a global leaf area index (LAI) map and the latest version of global CI product derived from MODIS BRDF data as well as the Boreal Ecosystem Productivity Simulator (BEPS) to estimate global terrestrial ET. The results show that global terrestrial ET in 2015 was 511.9 \pm 70.1 mm yr−1 for Case I, where the true LAI and CI are used. Compared to this baseline case, (1) global terrestrial ET is overestimated by 4.7% for Case II where true LAI is used ignoring clumping; (2) global terrestrial ET is underestimated by 13.0% for Case III where effective LAI is used ignoring clumping. Among all plant functional types (PFTs), evergreen needleleaf forests were most affected by foliage clumping for ET estimation in Case II, because they are most clumped with the lowest CI. Deciduous broadleaf forests are affected by leaf clumping most in Case III because they have both high LAI and low CI compared to other PFTs. The leaf clumping effects on ET estimation in both Case II and Case III is robust to the errors in major input parameters. Thus, it is necessary to consider clumping effects in the simulation of global terrestrial ET, which has considerable implications for global water cycle research.
-%R 10.3390/rs13204075
+%V 6
+%N 64
+%I The Open Journal
+%F Shook-2021-WDPM:
+%R 10.21105/joss.02276
 %U https://aclanthology.org/G21-152001
-%U https://doi.org/10.3390/rs13204075
-%P 4075
+%U https://doi.org/10.21105/joss.02276
+%P 2276
 

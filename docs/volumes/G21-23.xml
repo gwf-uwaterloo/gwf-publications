@@ -1,63 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Odunayo-2021-Rescuing">
+<mods ID="Mondal-2021-ID-correspondence:">
     <titleInfo>
-        <title>Rescuing historical climate observations to support hydrological research</title>
+        <title>ID-correspondence: a measure for detecting evolutionary coupling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ogundepo</namePart>
-        <namePart type="family">Odunayo</namePart>
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Naveela</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Sookoo</namePart>
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gautam</namePart>
-        <namePart type="family">Bathla</namePart>
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Anthony</namePart>
-        <namePart type="family">Cavallin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bhaleka</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Persaud</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kathy</namePart>
-        <namePart type="family">Szigeti</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jimmy</namePart>
-        <namePart type="family">Lin</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -69,22 +41,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Proceedings of the 21st ACM Symposium on Document Engineering</title>
+            <title>Empirical Software Engineering, Volume 26, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Odunayo-2021-Rescuing</identifier>
-    <identifier type="doi">10.1145/3469096.3474929</identifier>
+    <identifier type="citekey">Mondal-2021-ID-correspondence:</identifier>
+    <identifier type="doi">10.1007/s10664-020-09921-9</identifier>
     <location>
         <url>https://aclanthology.org/G21-23001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>26</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

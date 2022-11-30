@@ -1,36 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Asong-2017-Evaluation">
+<mods ID="Brimelow-2017-The">
     <titleInfo>
-        <title>Evaluation of Integrated Multisatellite Retrievals for GPM (IMERG) over Southern Canada against Ground Precipitation Observations: A Preliminary Assessment</title>
+        <title>The changing hail threat over North America in response to anthropogenic climate change</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Z</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Asong</namePart>
+        <namePart type="given">Julian</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Brimelow</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">William</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Burrows</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">H</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wong</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hanesiak</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,28 +35,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 18, Issue 4</title>
+            <title>Nature Climate Change, Volume 7, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract The Global Precipitation Measurement (GPM) mission offers new opportunities for modeling a range of physical/hydrological processes at higher resolutions, especially for remote river systems where the hydrometeorological monitoring network is sparse and weather radar is not readily available. In this study, the recently released Integrated Multisatellite Retrievals for GPM [version 03 (V03) IMERG Final Run] product with high spatiotemporal resolution of 0.1° and 30 min is evaluated against ground-based reference measurements (at the 6-hourly, daily, and monthly time scales) over different terrestrial ecozones of southern Canada within a 23-month period from 12 March 2014 to 31 January 2016. While IMERG and ground-based observations show similar regional variations of mean daily precipitation, IMERG tends to overestimate higher monthly precipitation amounts over the Pacific Maritime ecozone. Results from using continuous as well as categorical skill metrics reveal that IMERG shows more satisfactory agreement at the daily and the 6-hourly time scales for the months of June–September, unlike November–March. In terms of precipitation extremes (defined by the 75th percentile threshold for reference data), apart from a tendency toward overdetection of heavy precipitation events, IMERG captured well the distribution of heavy precipitation amounts and observed wet/dry spell length distributions over most ecozones. However, low skill was found over large portions of the Montane Cordillera ecozone and a few stations in the Prairie ecozone. This early study highlights a potential applicability of V03 IMERG Final Run as a reliable source of precipitation estimates in diverse water resources and hydrometeorological applications for different regions in southern Canada.</abstract>
-    <identifier type="citekey">Asong-2017-Evaluation</identifier>
-    <identifier type="doi">10.1175/jhm-d-16-0187.1</identifier>
+    <identifier type="citekey">Brimelow-2017-The</identifier>
+    <identifier type="doi">10.1038/nclimate3321</identifier>
     <location>
         <url>https://aclanthology.org/G17-5001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>18</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>7</number></detail>
+        <detail type="issue"><number>7</number></detail>
         <extent unit="page">
-            <start>1033</start>
-            <end>1050</end>
+            <start>516</start>
+            <end>522</end>
         </extent>
     </part>
 </mods>

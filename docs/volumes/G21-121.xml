@@ -1,26 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Saran-2021-Phosphorothioate">
+<mods ID="Lee-2021-Simultaneous">
     <titleInfo>
-        <title>Phosphorothioate nucleic acids for probing metal binding, biosensing and nanotechnology</title>
+        <title>Simultaneous Dechlorination and Advanced Oxidation Using Electrically Conductive Carbon Nanotube Membranes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Runjhun</namePart>
-        <namePart type="family">Saran</namePart>
+        <namePart type="given">Hye-Jin</namePart>
+        <namePart type="family">Lee</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zhicheng</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Nan</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ganzoury</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yichen</namePart>
+        <namePart type="family">Wu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Charles-François</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,24 +47,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Coordination Chemistry Reviews, Volume 428</title>
+            <title>ACS Applied Materials &amp;amp; Interfaces, Volume 13, Issue 29</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Saran-2021-Phosphorothioate</identifier>
-    <identifier type="doi">10.1016/j.ccr.2020.213624</identifier>
+    <identifier type="citekey">Lee-2021-Simultaneous</identifier>
+    <identifier type="doi">10.1021/acsami.1c06137</identifier>
     <location>
         <url>https://aclanthology.org/G21-121001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>428</number></detail>
-        <detail type="page"><number>213624</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>29</number></detail>
+        <extent unit="page">
+            <start>34084</start>
+            <end>34092</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

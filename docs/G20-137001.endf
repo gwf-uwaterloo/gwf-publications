@@ -1,18 +1,21 @@
 ﻿%0 Journal Article
-%T Deep Learning Neural Network Approach for Predicting the Sorption of Ionizable and Polar Organic Pollutants to a Wide Range of Carbonaceous Materials
-%A Sigmund, Gabriel
-%A Gharasoo, Mehdi
-%A Hüffer, Thorsten
-%A Hofmann, Thilo
-%J Environmental Science &amp; Technology, Volume 54, Issue 7
+%T SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018
+%A Tang, Guoqiang
+%A Clark, Martyn P.
+%A Newman, Andrew J.
+%A Wood, Andrew W.
+%A Papalexiou, Simon Michael
+%A Vionnet, Vincent
+%A Whitfield, Paul H.
+%J Earth System Science Data, Volume 12, Issue 4
 %D 2020
-%V 54
-%N 7
-%I American Chemical Society (ACS)
-%F Sigmund-2020-Deep
-%X Most contaminants of emerging concern are polar and/or ionizable organic compounds, whose removal from engineered and environmental systems is difficult. Carbonaceous sorbents include activated carbon, biochar, fullerenes, and carbon nanotubes, with applications such as drinking water filtration, wastewater treatment, and contaminant remediation. Tools for predicting sorption of many emerging contaminants to these sorbents are lacking because existing models were developed for neutral compounds. A method to select the appropriate sorbent for a given contaminant based on the ability to predict sorption is required by researchers and practitioners alike. Here, we present a widely applicable deep learning neural network approach that excellently predicted the conventionally used Freundlich isotherm fitting parameters log KF and n (R2 \textgreater 0.98 for log KF, and R2 \textgreater 0.91 for n). The neural network models are based on parameters generally available for carbonaceous sorbents and/or parameters freely available from online databases. A freely accessible graphical user interface is provided.
-%R 10.1021/acs.est.9b06287
+%V 12
+%N 4
+%I Copernicus GmbH
+%F Tang-2020-SCDNA:
+%X Abstract. Station-based serially complete datasets (SCDs) of precipitation and temperature observations are important for hydrometeorological studies. Motivated by the lack of serially complete station observations for North America, this study seeks to develop an SCD from 1979 to 2018 from station data. The new SCD for North America (SCDNA) includes daily precipitation, minimum temperature (Tmin⁡), and maximum temperature (Tmax⁡) data for 27 276 stations. Raw meteorological station data were obtained from the Global Historical Climate Network Daily (GHCN-D), the Global Surface Summary of the Day (GSOD), Environment and Climate Change Canada (ECCC), and a compiled station database in Mexico. Stations with at least 8-year-long records were selected, which underwent location correction and were subjected to strict quality control. Outputs from three reanalysis products (ERA5, JRA-55, and MERRA-2) provided auxiliary information to estimate station records. Infilling during the observation period and reconstruction beyond the observation period were accomplished by combining estimates from 16 strategies (variants of quantile mapping, spatial interpolation, and machine learning). A sensitivity experiment was conducted by assuming that 30 % of observations from stations were missing – this enabled independent validation and provided a reference for reconstruction. Quantile mapping and mean value corrections were applied to the final estimates. The median Kling–Gupta efficiency (KGE′) values of the final SCDNA for all stations are 0.90, 0.98, and 0.99 for precipitation, Tmin⁡, and Tmax⁡, respectively. The SCDNA is closer to station observations than the four benchmark gridded products and can be used in applications that require either quality-controlled meteorological station observations or reconstructed long-term estimates for analysis and modeling. The dataset is available at https://doi.org/10.5281/zenodo.3735533 (Tang et al., 2020).
+%R 10.5194/essd-12-2381-2020
 %U https://aclanthology.org/G20-137001
-%U https://doi.org/10.1021/acs.est.9b06287
-%P 4583-4591
+%U https://doi.org/10.5194/essd-12-2381-2020
+%P 2381-2409
 

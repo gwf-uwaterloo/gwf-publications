@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Arlos-2018-Modeling">
+<mods ID="Arlos-2018-Multi-year">
     <titleInfo>
-        <title>Modeling the exposure of wild fish to endocrine active chemicals: Potential linkages of total estrogenicity to field-observed intersex</title>
+        <title>Multi-year prediction of estrogenicity in municipal wastewater effluents</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Maricor</namePart>
@@ -36,17 +36,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Keegan</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Hicks</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Meghan</namePart>
-        <namePart type="given">L.M.</namePart>
-        <namePart type="family">Fuzzen</namePart>
+        <namePart type="given">Patricija</namePart>
+        <namePart type="family">Marjan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -74,7 +65,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Research, Volume 139</title>
+            <title>Science of The Total Environment, Volume 610-611</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -83,17 +74,95 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Arlos-2018-Modeling</identifier>
-    <identifier type="doi">10.1016/j.watres.2018.04.005</identifier>
+    <identifier type="citekey">Arlos-2018-Multi-year</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2017.08.171</identifier>
     <location>
         <url>https://aclanthology.org/G18-10001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>139</number></detail>
+        <detail type="volume"><number>610</number></detail>
         <extent unit="page">
-            <start>187</start>
-            <end>197</end>
+            <start>1103</start>
+            <end>1112</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Robinne-2018-A">
+    <titleInfo>
+        <title>A spatial evaluation of global wildfire-water risks to human and natural systems</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">François-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bladon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Carol</namePart>
+        <namePart type="family">Miller</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marc-André</namePart>
+        <namePart type="family">Parisien</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jérôme</namePart>
+        <namePart type="family">Mathieu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Flannigan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Science of The Total Environment, Volume 610-611</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Robinne-2018-A</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2017.08.112</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-10002</url>
+    </location>
+    <part>
+        <date>2018</date>
+        <detail type="volume"><number>610</number></detail>
+        <extent unit="page">
+            <start>1193</start>
+            <end>1206</end>
         </extent>
     </part>
 </mods>

@@ -1,40 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Feigl-2022-Learning">
+<mods ID="Pradhananga-2022-Diagnosing">
     <titleInfo>
-        <title>Learning from mistakes—Assessing the performance and uncertainty in process‐based models</title>
+        <title>Diagnosing changes in glacier hydrology from physical principles using a hydrological model with snow redistribution, sublimation, firnification and energy balance ablation algorithms</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Moritz</namePart>
-        <namePart type="family">Feigl</namePart>
+        <namePart type="given">Dhiraj</namePart>
+        <namePart type="family">Pradhananga</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="family">Roesky</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mathew</namePart>
-        <namePart type="family">Herrnegger</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Karsten</namePart>
-        <namePart type="family">Schulz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Masaki</namePart>
-        <namePart type="family">Hayashi</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,24 +26,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 36, Issue 2</title>
+            <title>Journal of Hydrology, Volume 608</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Feigl-2022-Learning</identifier>
-    <identifier type="doi">10.1002/hyp.14515</identifier>
+    <identifier type="citekey">Pradhananga-2022-Diagnosing</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.127545</identifier>
     <location>
         <url>https://aclanthology.org/G22-93001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>36</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>608</number></detail>
+        <detail type="page"><number>127545</number></detail>
     </part>
 </mods>
 </modsCollection>

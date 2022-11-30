@@ -1,19 +1,82 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Munir-2021-Thermal">
+<mods ID="Hugonnet-2021-Accelerated">
     <titleInfo>
-        <title>Thermal Characteristics of a Beaver Dam Analogues Equipped Spring-Fed Creek in the Canadian Rockies</title>
+        <title>Accelerated global glacier mass loss in the early twenty-first century</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Tariq</namePart>
-        <namePart type="family">Munir</namePart>
+        <namePart type="given">Romain</namePart>
+        <namePart type="family">Hugonnet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Cherie</namePart>
-        <namePart type="family">Westbrook</namePart>
+        <namePart type="given">Robert</namePart>
+        <namePart type="family">McNabb</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Etienne</namePart>
+        <namePart type="family">Berthier</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Menounos</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="family">Nuth</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Luc</namePart>
+        <namePart type="family">Girod</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Farinotti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matthias</namePart>
+        <namePart type="family">Huss</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ines</namePart>
+        <namePart type="family">Dussaillant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fanny</namePart>
+        <namePart type="family">Brun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andreas</namePart>
+        <namePart type="family">Kääb</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,25 +88,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water, Volume 13, Issue 7</title>
+            <title>Nature, Volume 592, Issue 7856</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Munir-2021-Thermal</identifier>
-    <identifier type="doi">10.3390/w13070990</identifier>
+    <identifier type="citekey">Hugonnet-2021-Accelerated</identifier>
+    <identifier type="doi">10.1038/s41586-021-03436-z</identifier>
     <location>
         <url>https://aclanthology.org/G21-171001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <detail type="page"><number>990</number></detail>
+        <detail type="volume"><number>592</number></detail>
+        <detail type="issue"><number>7856</number></detail>
+        <extent unit="page">
+            <start>726</start>
+            <end>731</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

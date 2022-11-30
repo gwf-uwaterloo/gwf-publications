@@ -1,12 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kumar-2021-ArchiNet:">
+<mods ID="Khodabandehloo-2021-A">
     <titleInfo>
-        <title>ArchiNet: A Concept-token based Approach for Determining Architectural Change Categories</title>
+        <title>A Testing Approach While Re-engineering Legacy Systems: An Industrial Case Study</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amit</namePart>
-        <namePart type="family">Kumar</namePart>
+        <namePart type="given">Hamid</namePart>
+        <namePart type="family">Khodabandehloo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -18,17 +46,18 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Proceedings of the 33rd International Conference on Software Engineering and Knowledge Engineering</title>
+            <title>2021 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>KSI Research Inc.</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kumar-2021-ArchiNet:</identifier>
-    <identifier type="doi">10.18293/seke2021-060</identifier>
+    <abstract>Many organizations use legacy systems as these systems contain their valuable business rules. However, these legacy systems answer the past requirements but are difficult to maintain and evolve due to old technology use. In this situation, stockholders decide to renovate the system with a minimum amount of cost and risk. Although the renovation process is a more affordable choice over redevelopment, it comes with its risks such as performance loss and failure to obtain quality goals. A proper test process can minimize risks incorporated with the renovation process. This work introduces a testing model tailored for the migration and re-engineering process and employs test automation, which results in early bug detection. Moreover, the automated tests ensure functional sameness between the old and the new system. This process enhances reliability, accuracy, and speed of testing.</abstract>
+    <identifier type="citekey">Khodabandehloo-2021-A</identifier>
+    <identifier type="doi">10.1109/saner50967.2021.00073</identifier>
     <location>
         <url>https://aclanthology.org/G21-18001</url>
     </location>

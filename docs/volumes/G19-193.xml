@@ -1,35 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zhao-2019-Surface">
+<mods ID="Zong-2019-The">
     <titleInfo>
-        <title>Surface modification of polyamide meshes and nonwoven fabrics by plasma etching and a PDA/cellulose coating for oil/water separation</title>
+        <title>The Arsenic-Binding Aptamer Cannot Bind Arsenic: Critical Evaluation of Aptamer Selection and Binding</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Pei</namePart>
-        <namePart type="family">Zhao</namePart>
+        <namePart type="given">Chenghua</namePart>
+        <namePart type="family">Zong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ning</namePart>
-        <namePart type="family">Qin</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Carolyn</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Ren</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">Z</namePart>
-        <namePart type="family">Wen</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,26 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Applied Surface Science, Volume 481</title>
+            <title>Analytical Chemistry, Volume 91, Issue 16</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Zhao-2019-Surface</identifier>
-    <identifier type="doi">10.1016/j.apsusc.2019.03.152</identifier>
+    <identifier type="citekey">Zong-2019-The</identifier>
+    <identifier type="doi">10.1021/acs.analchem.9b02789</identifier>
     <location>
         <url>https://aclanthology.org/G19-193001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>481</number></detail>
+        <detail type="volume"><number>91</number></detail>
+        <detail type="issue"><number>16</number></detail>
         <extent unit="page">
-            <start>883</start>
-            <end>891</end>
+            <start>10887</start>
+            <end>10893</end>
         </extent>
     </part>
 </mods>

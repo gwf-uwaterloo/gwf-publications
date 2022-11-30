@@ -1,53 +1,69 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Molot-2021-Phosphorus-only">
+<mods ID="Wang-2021-Environmental">
     <titleInfo>
-        <title>Phosphorus-only fertilization rapidly initiates large nitrogen-fixing cyanobacteria blooms in two oligotrophic lakes</title>
+        <title>Environmental DNA of preservative ethanol performed better than water samples in detecting macroinvertebrate diversity using metabarcoding</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lewis</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Molot</namePart>
+        <namePart type="given">Yu</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Scott</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Higgins</namePart>
+        <namePart type="given">Kai</namePart>
+        <namePart type="family">Chen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
+        <namePart type="given">Jin</namePart>
+        <namePart type="family">Gao</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Venkiteswaran</namePart>
+        <namePart type="given">Meng</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Paterson</namePart>
+        <namePart type="given">Jie</namePart>
+        <namePart type="family">Dong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Helen</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Baulch</namePart>
+        <namePart type="given">Yuwei</namePart>
+        <namePart type="family">Xie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Giesy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaowei</namePart>
+        <namePart type="family">Jin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Beixin</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -59,25 +75,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Research Letters, Volume 16, Issue 6</title>
+            <title>Diversity and Distributions, Volume 27, Issue 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IOP Publishing</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Molot-2021-Phosphorus-only</identifier>
-    <identifier type="doi">10.1088/1748-9326/ac0564</identifier>
+    <identifier type="citekey">Wang-2021-Environmental</identifier>
+    <identifier type="doi">10.1111/ddi.13284</identifier>
     <location>
         <url>https://aclanthology.org/G21-45001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>16</number></detail>
-        <detail type="issue"><number>6</number></detail>
-        <detail type="page"><number>064078</number></detail>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <extent unit="page">
+            <start>1989</start>
+            <end>2002</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

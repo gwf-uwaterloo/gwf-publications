@@ -1,22 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Rahman-2020-LDAP:">
+<mods ID="Huang-2020-Target">
     <titleInfo>
-        <title>LDAP: Lightweight Dynamic Auto-Reconfigurable Protocol in an IoT-Enabled WSN for Wide-Area Remote Monitoring</title>
+        <title>Target Self‐Enhanced Selectivity in Metal‐Specific DNAzymes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gazi</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Rahman</namePart>
+        <namePart type="given">Po‐Jung</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Khan</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Wahid</namePart>
+        <namePart type="given">Donatien</namePart>
+        <namePart type="family">Rochambeau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hanadi</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Sleiman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -28,26 +41,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 12, Issue 19</title>
+            <title>Angewandte Chemie International Edition, Volume 59, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>IoT (Internet of Things)-based remote monitoring and controlling applications are increasing in dimensions and domains day by day. Sensor-based remote monitoring using a Wireless Sensor Network (WSN) becomes challenging for applications when both temporal and spatial data from widely spread sources are acquired in real time. In applications such as environmental, agricultural, and water quality monitoring, the data sources are geographically distributed, and have little or no cellular connectivity. These applications require long-distance wireless or satellite connections for IoT connectivity. Present WSNs are better suited for densely populated applications and require a large number of sensor nodes and base stations for wider coverage but at the cost of added complexity in routing and network organization. As a result, real time data acquisition using an IoT connected WSN is a challenge in terms of coverage, network lifetime, and wireless connectivity. This paper proposes a lightweight, dynamic, and auto-reconfigurable communication protocol (LDAP) for Wide-Area Remote Monitoring (WARM) applications. It has a mobile data sink for wider WSN coverage, and auto-reconfiguration capability to cope with the dynamic network topology required for device mobility. The WSN coverage and lifetime are further improved by using a Long-Range (LoRa) wireless interface. We evaluated the performance of the proposed LDAP in the field in terms of the data delivery rate, Received Signal Strength (RSS), and Signal to Noise Ratio (SNR). All experiments were conducted in a field trial for a water quality monitoring application as a case study. We have used both static and mobile data sinks with static sensor nodes in an IoT-connected environment. The experimental results show a significant reduction (up to 80%) of the number of data sinks while using the proposed LDAP. We also evaluated the energy consumption to determine the lifetime of the WSN using the LDAP algorithm.</abstract>
-    <identifier type="citekey">Rahman-2020-LDAP:</identifier>
-    <identifier type="doi">10.3390/rs12193131</identifier>
+    <abstract>The more the merrier: Better selectivity for Zn2+ ions is shown for DNAzymes that bind more metal ions. This selectivity is exemplified by using a series of in vitro selected DNAzymes that contain a single metal ligand modification at the cleavage junction.</abstract>
+    <identifier type="citekey">Huang-2020-Target</identifier>
+    <identifier type="doi">10.1002/anie.201915675</identifier>
     <location>
         <url>https://aclanthology.org/G20-16001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>19</number></detail>
-        <detail type="page"><number>3131</number></detail>
+        <detail type="volume"><number>59</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>3573</start>
+            <end>3577</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

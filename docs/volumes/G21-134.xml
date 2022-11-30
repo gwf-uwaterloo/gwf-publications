@@ -1,29 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sobie-2021-Climate">
+<mods ID="Wiebe-2021-Impacts">
     <titleInfo>
-        <title>Climate Model Projections for Canada: A Comparison of CMIP5 and CMIP6</title>
+        <title>Impacts of Event-Based Recharge on the Vulnerability of Public Supply Wells</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Sobie</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wiebe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">C</namePart>
+        <namePart type="given">David</namePart>
         <namePart type="given">L</namePart>
-        <namePart type="family">Curry</namePart>
+        <namePart type="family">Rudolph</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ehsan</namePart>
+        <namePart type="family">Pasha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jacqueline</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Brook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Christie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Menkveld</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,28 +57,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmosphere-Ocean, Volume 59, Issue 4-5</title>
+            <title>Sustainability, Volume 13, Issue 14</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sobie-2021-Climate</identifier>
-    <identifier type="doi">10.1080/07055900.2021.2011103</identifier>
+    <identifier type="citekey">Wiebe-2021-Impacts</identifier>
+    <identifier type="doi">10.3390/su13147695</identifier>
     <location>
         <url>https://aclanthology.org/G21-134001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>59</number></detail>
-        <detail type="issue"><number>4-5</number></detail>
-        <extent unit="page">
-            <start>269</start>
-            <end>284</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>14</number></detail>
+        <detail type="page"><number>7695</number></detail>
     </part>
 </mods>
 </modsCollection>

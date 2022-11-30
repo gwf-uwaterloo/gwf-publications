@@ -1,73 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Clark-2021-The">
+<mods ID="Nath-2021-Automatically">
     <titleInfo>
-        <title>The numerical implementation of land models: Problem formulation and laugh tests</title>
+        <title>Automatically Generating Release Notes with Content Classification Models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
+        <namePart type="given">Sristy</namePart>
+        <namePart type="given">Sumana</namePart>
+        <namePart type="family">Nath</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Reza</namePart>
-        <namePart type="family">Zolfaghari</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Green</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="family">Trim</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Wouter</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Knoben</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Bennett</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bart</namePart>
-        <namePart type="family">Nijssen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="family">Ireson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Raymond</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Spiteri</namePart>
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -79,152 +26,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology</title>
+            <title>International Journal of Software Engineering and Knowledge Engineering, Volume 31, Issue 11n12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>World Scientific Pub Co Pte Ltd</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Clark-2021-The</identifier>
-    <identifier type="doi">10.1175/jhm-d-20-0175.1</identifier>
+    <identifier type="citekey">Nath-2021-Automatically</identifier>
+    <identifier type="doi">10.1142/s0218194021400192</identifier>
     <location>
         <url>https://aclanthology.org/G21-25001</url>
     </location>
     <part>
         <date>2021</date>
-    </part>
-</mods>
-<mods ID="Tang-2021-The">
-    <titleInfo>
-        <title>The use of serially complete station data to improve the temporal continuity of gridded precipitation and temperature estimates</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Guoqiang</namePart>
-        <namePart type="family">Tang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2021</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Journal of Hydrometeorology</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Tang-2021-The</identifier>
-    <identifier type="doi">10.1175/jhm-d-20-0313.1</identifier>
-    <location>
-        <url>https://aclanthology.org/G21-25002</url>
-    </location>
-    <part>
-        <date>2021</date>
-    </part>
-</mods>
-<mods ID="Sun-2021-Hydrological">
-    <titleInfo>
-        <title>Hydrological evaluation of high-resolution precipitation estimates from the WRF model in the Third Pole river basins</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">He</namePart>
-        <namePart type="family">Sun</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fengge</namePart>
-        <namePart type="family">Su</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhihua</namePart>
-        <namePart type="family">He</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Tinghai</namePart>
-        <namePart type="family">Ou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Deliang</namePart>
-        <namePart type="family">Chen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2021</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Journal of Hydrometeorology</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Sun-2021-Hydrological</identifier>
-    <identifier type="doi">10.1175/jhm-d-20-0272.1</identifier>
-    <location>
-        <url>https://aclanthology.org/G21-25003</url>
-    </location>
-    <part>
-        <date>2021</date>
+        <detail type="volume"><number>31</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>1721</start>
+            <end>1740</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

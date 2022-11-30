@@ -1,26 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mairena-2019-Peripheral">
+<mods ID="Markelov-2019-Coupling">
     <titleInfo>
-        <title>Peripheral Notifications in Large Displays</title>
+        <title>Coupling Water Column and Sediment Biogeochemical Dynamics: Modeling Internal Phosphorus Loading, Climate Change Responses, and Mitigation Measures in Lake Vansjø, Norway</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Aristides</namePart>
-        <namePart type="family">Mairena</namePart>
+        <namePart type="given">Igor</namePart>
+        <namePart type="family">Markelov</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Carl</namePart>
-        <namePart type="family">Gutwin</namePart>
+        <namePart type="given">Raoul‐Marie</namePart>
+        <namePart type="family">Couture</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andy</namePart>
-        <namePart type="family">Cockburn</namePart>
+        <namePart type="given">Rachele</namePart>
+        <namePart type="family">Fischer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sigrid</namePart>
+        <namePart type="family">Haande</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Van Cappellen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,22 +46,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
+            <title>Journal of Geophysical Research: Biogeosciences, Volume 124, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mairena-2019-Peripheral</identifier>
-    <identifier type="doi">10.1145/3290605.3300870</identifier>
+    <identifier type="citekey">Markelov-2019-Coupling</identifier>
+    <identifier type="doi">10.1029/2019jg005254</identifier>
     <location>
         <url>https://aclanthology.org/G19-111001</url>
     </location>
     <part>
         <date>2019</date>
+        <detail type="volume"><number>124</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>3847</start>
+            <end>3866</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,33 +1,62 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kurkute-2020-Assessment">
+<mods ID="Li-2020-SAGA:">
     <titleInfo>
-        <title>Assessment and projection of the water budget over western Canada using convection-permitting weather research and forecasting simulations</title>
+        <title>SAGA: Efficient and Large-Scale Detection of Near-Miss Clones with GPU Acceleration</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sopan</namePart>
-        <namePart type="family">Kurkute</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
+        <namePart type="given">Guanhua</namePart>
         <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Yijian</namePart>
+        <namePart type="family">Wu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Huo</namePart>
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jun</namePart>
+        <namePart type="family">Sun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xin</namePart>
+        <namePart type="family">Peng</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nanjie</namePart>
+        <namePart type="family">Zhan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bin</namePart>
+        <namePart type="family">Hu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jingyi</namePart>
+        <namePart type="family">Ma</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,29 +68,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 24, Issue 7</title>
+            <title>2020 IEEE 27th International Conference on Software Analysis, Evolution and Reengineering (SANER)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. Water resources in cold regions in western Canada face severe risks posed by anthropogenic global warming as evapotranspiration increases and precipitation regimes shift. Although understanding the water cycle is key for addressing climate change issues, it is difficult to obtain high spatial- and temporal-resolution observations of hydroclimatic processes, especially in remote regions. Climate models are useful tools for dissecting and diagnosing these processes, especially the convection-permitting (CP) high-resolution regional climate simulation, which provides advantages over lower-resolution models by explicitly representing convection. In addition to better representing convective systems, higher spatial resolution also better represents topography, mountain meteorology, and highly heterogeneous geophysical features. However, there is little work with convection-permitting regional climate models conducted over western Canada. Focusing on the Mackenzie River and Saskatchewan River basins, this study investigated the surface water budget and atmospheric moisture balance in historical and representative concentration pathway (RCP8.5) projections using 4 km CP Weather Research and Forecasting (WRF). We compared the high-resolution 4 km CP WRF and three common reanalysis datasets, namely the North American Regional Reanalysis (NARR), the Japanese 55-year Reanalysis (JRA-55), and European Centre for Medium-Range Weather Forecasts reanalysis interim dataset (ERA-Interim). High-resolution WRF outperforms the reanalyses in balancing the surface water budget in both river basins with much lower residual terms. For the pseudo-global-warming scenario at the end of the 21st century with representative concentration pathway (RCP8.5) radiative forcing, both the Mackenzie River and Saskatchewan River basins show increases in the amplitude for precipitation and evapotranspiration and a decrease in runoff. The Saskatchewan River basin (SRB) shows a moderate increase in precipitation in the west and a small decrease in the east. Combined with a significant increase in evapotranspiration in a warmer climate, the Saskatchewan River basin would have a larger deficit of water resources than in the current climate based on the pseudo-global-warming (PGW) simulation. The high-resolution simulation also shows that the difference of atmospheric water vapour balance in the two river basins is due to flow orientation and topography differences at the western boundaries of the two basins. The sensitivity of water vapour balance to fine-scale topography and atmospheric processes shown in this study demonstrates that high-resolution dynamical downscaling is important for large-scale water balance and hydrological cycles.</abstract>
-    <identifier type="citekey">Kurkute-2020-Assessment</identifier>
-    <identifier type="doi">10.5194/hess-24-3677-2020</identifier>
+    <abstract>Clone detection on large code repository is necessary for many big code analysis tasks. The goal is to provide rich information on identical and similar code across projects. Detecting near-miss code clones on big code is challenging since it requires intensive computing and memory resources as the scale of the source code increases. In this work, we propose SAGA, an efficient suffix-array based code clone detection tool designed with sophisticated GPU optimization. SAGA not only detects Type-l and Type-2 clones but also does so for cross-project large repositories and for the most computationally expensive Type-3 clones. Meanwhile, it also works at segment granularity, which is even more challenging. It detects code clones in 100 million lines of code within 11 minutes (with recall and precision comparable to state-of-the-art approaches), which is more than 10 times faster than state-of-the-art tools. It is the only tool that efficiently detects Type-3 near-miss clones at segment granularity in large code repository (e.g., within 11 hours on 1 billion lines of code). We conduct a preliminary case study on 85,202 GitHub Java projects with 1 billion lines of code and exhibit the distribution of clones across projects. We find about 1.23 million Type-3 clone groups, containing 28 million lines of code at arbitrary segment granularity, which are only detectable with SAGA. We believe SAGA is useful in many software engineering applications such as code provenance analysis, code completion, change impact analysis, and many more.</abstract>
+    <identifier type="citekey">Li-2020-SAGA:</identifier>
+    <identifier type="doi">10.1109/saner48275.2020.9054832</identifier>
     <location>
         <url>https://aclanthology.org/G20-97001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>24</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <extent unit="page">
-            <start>3677</start>
-            <end>3697</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

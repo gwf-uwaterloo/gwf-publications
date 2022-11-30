@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gharari-2020-Flexible">
+    <titleInfo>
+        <title>Flexible vector-based spatial configurations in land models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Shervan</namePart>
+        <namePart type="family">Gharari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wouter</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Land models are increasingly used in terrestrial hydrology due to their process-oriented representation of water and energy fluxes. Land models can be set up at a range of spatial configurations, often ranging from grid sizes of 0.02 to 2 degrees (approximately 2 to 200 km) and applied at sub-daily temporal resolutions for simulation of energy fluxes. A priori specification of the grid size of the land models typically is derived from forcing resolutions, modeling objectives, available geo-spatial data and computational resources. Typically, the choice of model configuration and grid size is based on modeling convenience and is rarely examined for adequate physical representation in the context of modeling. The variability of the inputs and parameters, forcings, soil types, and vegetation covers, are masked or aggregated based on the a priori chosen grid size. In this study, we propose an alternative to directly set up a land model based on the concept of Group Response Unit (GRU). Each GRU is a unique combination of land cover, soil type, and other desired geographical features that has hydrological significance, such as elevation zone, slope, and aspect. Computational units are defined as GRUs that are forced at a specific forcing resolution; therefore, each computational unit has a unique combination of specific geo-spatial data and forcings. We set up the Variable Infiltration Capacity (VIC) model, based on the GRU concept (VIC-GRU). Utilizing this model setup and its advantages we try to answer the following questions: (1) how well a model configuration simulates an output variable, such as streamflow, for range of computational units, (2) how well a model configuration with fewer computational units, coarser forcing resolution and less geo-spatial information, reproduces a model set up with more computational units, finer forcing resolution and more geo-spatial information, and finally (3) how uncertain the model structure and parameters are for the land model. Our results, although case dependent, show that the models may similarly reproduce output with a lower number of computational units in the context of modeling (streamflow for example). Our results also show that a model configuration with a lower number of computational units may reproduce the simulations from a model configuration with more computational units. Similarly, this can assist faster parameter identification and model diagnostic suites, such as sensitivity and uncertainty, on a less computationally expensive model setup. Finally, we encourage the land model community to adopt flexible approaches that will provide a better understanding of accuracy-performance tradeoff in land models.</abstract>
+    <identifier type="citekey">Gharari-2020-Flexible</identifier>
+    <identifier type="doi">10.5194/hess-2020-111</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-3007</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

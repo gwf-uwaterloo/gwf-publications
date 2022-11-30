@@ -1,29 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cober-2018-Nutrient">
+<mods ID="Colli-2018-Using">
     <titleInfo>
-        <title>Nutrient Release from Living and Terminated Cover Crops Under Variable Freeze–Thaw Cycles</title>
+        <title>Using Snowfall Intensity to Improve the Correction of Wind-Induced Undercatch in Solid Precipitation Measurements</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Cober</namePart>
+        <namePart type="given">Matteo</namePart>
+        <namePart type="family">Colli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
+        <namePart type="given">Mattia</namePart>
+        <namePart type="family">Stagnaro</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Laura</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Van Eerd</namePart>
+        <namePart type="given">Luca</namePart>
+        <namePart type="family">Lanza</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Rasmussen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,28 +47,636 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Agronomy Journal, Volume 110, Issue 3</title>
+            <title/>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cober-2018-Nutrient</identifier>
-    <identifier type="doi">10.2134/agronj2017.08.0449</identifier>
+    <identifier type="citekey">Colli-2018-Using</identifier>
+    <identifier type="doi">10.5194/hess-2018-447</identifier>
     <location>
         <url>https://aclanthology.org/G18-32001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>110</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>1036</start>
-            <end>1045</end>
-        </extent>
+    </part>
+</mods>
+<mods ID="Granath-2018-Environmental">
+    <titleInfo>
+        <title>Environmental and taxonomic controls of carbon and oxygen stable isotope composition in &amp;amp;lt;i&amp;amp;gt;Sphagnum&amp;amp;lt;/i&amp;amp;gt; across broad climatic and geographic ranges</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Gustaf</namePart>
+        <namePart type="family">Granath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Håkan</namePart>
+        <namePart type="family">Rydin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fia</namePart>
+        <namePart type="family">Bengtsson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="family">Boncek</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Luca</namePart>
+        <namePart type="family">Bragazza</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhao-Jun</namePart>
+        <namePart type="family">Bu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Caporn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ellen</namePart>
+        <namePart type="family">Dorrepaal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Olga</namePart>
+        <namePart type="family">Galanina</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mariusz</namePart>
+        <namePart type="family">Gałka</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anna</namePart>
+        <namePart type="family">Ganeva</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Gillikin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Irina</namePart>
+        <namePart type="family">Goia</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nadezhda</namePart>
+        <namePart type="family">Goncharova</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michal</namePart>
+        <namePart type="family">Hájek</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Akira</namePart>
+        <namePart type="family">Haraguchi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lorna</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Harris</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Elyn</namePart>
+        <namePart type="family">Humphreys</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Jiroušek</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Katarzyna</namePart>
+        <namePart type="family">Kajukało</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Edgar</namePart>
+        <namePart type="family">Karofeld</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Natalia</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Koronatova</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Natalia</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Kosykh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mariusz</namePart>
+        <namePart type="family">Lamentowicz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Elena</namePart>
+        <namePart type="family">Lapshina</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juul</namePart>
+        <namePart type="family">Limpens</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Maiju</namePart>
+        <namePart type="family">Linkosalmi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jin-Ze</namePart>
+        <namePart type="family">Ma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marguerite</namePart>
+        <namePart type="family">Mauritz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tariq</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Munir</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Susan</namePart>
+        <namePart type="family">Natali</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rayna</namePart>
+        <namePart type="family">Natcheva</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Maria​</namePart>
+        <namePart type="family">Noskova</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Payne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kyle</namePart>
+        <namePart type="family">Pilkington</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sean</namePart>
+        <namePart type="family">Robinson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bjorn</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Robroek</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Line</namePart>
+        <namePart type="family">Rochefort</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="family">Singer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hans</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Stenøien</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Eeva-Stiina</namePart>
+        <namePart type="family">Tuittila</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kai</namePart>
+        <namePart type="family">Vellak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anouk</namePart>
+        <namePart type="family">Verheyden</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Rice</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Granath-2018-Environmental</identifier>
+    <identifier type="doi">10.5194/bg-2018-120</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-32002</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+<mods ID="Li-2018-Combined">
+    <titleInfo>
+        <title>Combined Impacts of ENSO and MJO on the 2015 Growing Season Drought over the Canadian Prairies</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
+        <namePart type="family">Bonsal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alan</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Manson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lucia</namePart>
+        <namePart type="family">Scaff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Li-2018-Combined</identifier>
+    <identifier type="doi">10.5194/hess-2018-56</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-32003</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+<mods ID="Pavlovskii-2018-Effects">
+    <titleInfo>
+        <title>Effects of midwinter snowmelt on runoff generation andgroundwater recharge in the Canadian prairies</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Igor</namePart>
+        <namePart type="family">Pavlovskii</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Itenfisu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Pavlovskii-2018-Effects</identifier>
+    <identifier type="doi">10.5194/hess-2018-423</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-32004</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+<mods ID="Asong-Wheater-2018-Historical-drought">
+    <titleInfo>
+        <title>Historical drought patterns over Canada and their relation to teleconnections</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zilefac</namePart>
+        <namePart type="given">Elvis</namePart>
+        <namePart type="family">Asong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
+        <namePart type="family">Bonsal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sopan</namePart>
+        <namePart type="family">Kurkute</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Asong-Wheater-2018-Historical-drought</identifier>
+    <identifier type="doi">10.5194/hess-2018-122</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-32005</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+<mods ID="Hernández-Henríquez-Sharma-2018-The-Cariboo">
+    <titleInfo>
+        <title>The Cariboo Alpine Mesonet: Sub-hourly hydrometeorological observations of British Columbia’s Cariboo Mountains and surrounding area since 2006</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Marco</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Hernández-Henríquez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aseem</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Sharma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mark</namePart>
+        <namePart type="family">Taylor</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hadleigh</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephen</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Hernández-Henríquez-Sharma-2018-The-Cariboo</identifier>
+    <identifier type="doi">10.5194/essd-2018-45</identifier>
+    <location>
+        <url>https://aclanthology.org/G18-32006</url>
+    </location>
+    <part>
+        <date>2018</date>
     </part>
 </mods>
 </modsCollection>

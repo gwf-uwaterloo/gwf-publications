@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="McIntosh-2021-Deep">
+<mods ID="Famiglietti-2021-The">
     <titleInfo>
-        <title>Deep Meteoric Water Circulation in Earth’s Crust</title>
+        <title>The hidden crisis beneath our feet</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">McIntosh</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,25 +26,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geophysical Research Letters, Volume 48, Issue 5</title>
+            <title>Science, Volume 372, Issue 6540</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>American Association for the Advancement of Science (AAAS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Deep meteoric waters comprise a key component of the hydrologic cycle, transferring water, energy, and life between the earth’s surface and deeper crustal environments, yet little is known about th...</abstract>
-    <identifier type="citekey">McIntosh-2021-Deep</identifier>
-    <identifier type="doi">10.1029/2020gl090461</identifier>
+    <abstract>Disappearing groundwater requires action to prevent widespread water scarcity</abstract>
+    <identifier type="citekey">Famiglietti-2021-The</identifier>
+    <identifier type="doi">10.1126/science.abh2867</identifier>
     <location>
         <url>https://aclanthology.org/G21-105001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>48</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>372</number></detail>
+        <detail type="issue"><number>6540</number></detail>
+        <extent unit="page">
+            <start>344</start>
+            <end>345</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

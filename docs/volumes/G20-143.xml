@@ -1,33 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Welber-2020-Experiments">
+<mods ID="Wiebe-2020-On">
     <titleInfo>
-        <title>Experiments on restoring alluvial cover in straight and meandering rivers using gravel augmentation</title>
+        <title>On the sensitivity of modelled groundwater recharge estimates to rain gauge network scale</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matilde</namePart>
-        <namePart type="family">Welber</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wiebe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Elli</namePart>
-        <namePart type="family">Papangelakis</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Ashmore</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bruce</namePart>
-        <namePart type="family">MacVicar</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Rudolph</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +27,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>River Research and Applications, Volume 36, Issue 8</title>
+            <title>Journal of Hydrology, Volume 585</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Welber-2020-Experiments</identifier>
-    <identifier type="doi">10.1002/rra.3699</identifier>
+    <identifier type="citekey">Wiebe-2020-On</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2020.124741</identifier>
     <location>
         <url>https://aclanthology.org/G20-143001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>36</number></detail>
-        <detail type="issue"><number>8</number></detail>
-        <extent unit="page">
-            <start>1543</start>
-            <end>1558</end>
-        </extent>
+        <detail type="volume"><number>585</number></detail>
+        <detail type="page"><number>124741</number></detail>
     </part>
 </mods>
 </modsCollection>

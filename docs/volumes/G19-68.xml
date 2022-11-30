@@ -1,34 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Guo-2019-Sink">
+<mods ID="Harder-2019-A">
     <titleInfo>
-        <title>Sink electrical discharge machining of hydrophobic surfaces</title>
+        <title>A simple model for local-scale sensible and latent heat advection contributions to snowmelt</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Changcheng</namePart>
-        <namePart type="family">Guo</namePart>
+        <namePart type="given">Phillip</namePart>
+        <namePart type="family">Harder</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Koshy</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Felipe</namePart>
-        <namePart type="family">Coelho</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
+        <namePart type="given">Warren</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Helgason</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,27 +34,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>CIRP Annals, Volume 68, Issue 1</title>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Guo-2019-Sink</identifier>
-    <identifier type="doi">10.1016/j.cirp.2019.04.101</identifier>
+    <identifier type="citekey">Harder-2019-A</identifier>
+    <identifier type="doi">10.5194/hess-23-1-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-68001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>68</number></detail>
+        <detail type="volume"><number>23</number></detail>
         <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>185</start>
-            <end>188</end>
+            <start>1</start>
+            <end>17</end>
         </extent>
     </part>
 </mods>

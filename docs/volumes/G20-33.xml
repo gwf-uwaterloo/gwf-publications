@@ -1,29 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Langs-2020-A">
+<mods ID="Piovano-2020-Contrasting">
     <titleInfo>
-        <title>A \textlessscp\textgreater δ \textlesssup\textgreater18\textless/sup\textgreater O \textless/scp\textgreater and \textlessscp\textgreater δ \textlesssup\textgreater2\textless/sup\textgreater H \textless/scp\textgreater stable water isotope analysis of subalpine forest water sources under seasonal and hydrological stress in the Canadian Rocky Mountains</title>
+        <title>Contrasting storage-flux-age interactions revealed by catchment inter-comparison using a tracer-aided runoff model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lindsey</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Langs</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Piovano</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Tetzlaff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="family">Maneta</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Buttle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="family">Laudon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">McNamara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Soulsby</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,28 +69,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 34, Issue 26</title>
+            <title>Journal of Hydrology, Volume 590</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Langs-2020-A</identifier>
-    <identifier type="doi">10.1002/hyp.13986</identifier>
+    <identifier type="citekey">Piovano-2020-Contrasting</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2020.125226</identifier>
     <location>
         <url>https://aclanthology.org/G20-33001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="issue"><number>26</number></detail>
-        <extent unit="page">
-            <start>5642</start>
-            <end>5658</end>
-        </extent>
+        <detail type="volume"><number>590</number></detail>
+        <detail type="page"><number>125226</number></detail>
     </part>
 </mods>
 </modsCollection>

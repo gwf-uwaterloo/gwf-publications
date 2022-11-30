@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Brouwer-2017-The">
+<mods ID="Chu-2017-RADARSAT-2-based">
     <titleInfo>
-        <title>The economic value of river restoration</title>
+        <title>RADARSAT-2-based digital elevation models derived from InSAR for high latitudes of northern Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">Thuan</namePart>
+        <namePart type="family">Chu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oleg</namePart>
-        <namePart type="family">Sheremet</namePart>
+        <namePart type="given">Apurba</namePart>
+        <namePart type="family">Das</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,27 +32,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources and Economics, Volume 17</title>
+            <title>Journal of Applied Remote Sensing, Volume 11, Issue 03</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>SPIE-Intl Soc Optical Eng</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Brouwer-2017-The</identifier>
-    <identifier type="doi">10.1016/j.wre.2017.02.005</identifier>
+    <identifier type="citekey">Chu-2017-RADARSAT-2-based</identifier>
+    <identifier type="doi">10.1117/1.jrs.11.035013</identifier>
     <location>
         <url>https://aclanthology.org/G17-7001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>17</number></detail>
-        <extent unit="page">
-            <start>1</start>
-            <end>8</end>
-        </extent>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>03</number></detail>
+        <detail type="page"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

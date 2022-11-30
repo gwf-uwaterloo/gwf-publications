@@ -1,30 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Laguë-2021-Radiative">
+<mods ID="Das-2021-Exploring">
     <titleInfo>
-        <title>Radiative feedbacks on land surface change and associated tropical precipitation shifts</title>
+        <title>Exploring the Potential of Zoning Regulation for Reducing Ice-Jam Flood Risk Using a Stochastic Modelling Framework</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marysa</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Laguë</namePart>
+        <namePart type="given">Apurba</namePart>
+        <namePart type="family">Das</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Abigail</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Swann</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Boos</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -36,27 +25,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Climate</title>
+            <title>Water, Volume 13, Issue 16</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Changes in land surface albedo and land surface evaporation modulate the atmospheric energy budget by changing temperatures, water vapor, clouds, snow and ice cover, and the partitioning of surface energy fluxes. Here idealized perturbations to land surface properties are imposed in a global model to understand how such forcings drive shifts in zonal mean atmospheric energy transport and zonal mean tropical precipitation. For a uniform decrease in global land albedo, the albedo forcing and a positive water vapor feedback contribute roughly equally to increased energy absorption at the top of the atmosphere (TOA), while radiative changes due to the temperature and cloud cover response provide a negative feedback and energy loss at TOA. Decreasing land albedo causes a northwards shift in the zonal mean intertropical convergence zone (ITCZ). The combined effects on ITCZ location of all atmospheric feedbacks roughly cancel for the albedo forcing; the total ITCZ shift is comparable to that predicted for the albedo forcing alone. For an imposed increase in evaporative resistance that reduces land evaporation, low cloud cover decreases in the northern mid-latitudes and more energy is absorbed at TOA there; longwave loss due to warming provides a negative feedback on the TOA energy balance and ITCZ shift. Imposed changes in land albedo and evaporative resistance modulate fundamentally different aspects of the surface energy budget. However, the pattern of TOA radiation changes due to the water vapor and air temperature responses are highly correlated for these two forcings because both forcings lead to near-surface warming.</abstract>
-    <identifier type="citekey">Laguë-2021-Radiative</identifier>
-    <identifier type="doi">10.1175/jcli-d-20-0883.1</identifier>
+    <abstract>Ice-jam floods pose a serious threat to many riverside communities in cold regions. Ice-jam-related flooding can cause loss of human life, millions of dollars in property damage, and adverse impacts on ecology. An effective flood management strategy is necessary to reduce the overall risk in flood-prone areas. Most of these strategies require a detailed risk-based management study to assess their effectiveness in reducing flood risk. Zoning regulation is a sustainable measure to reduce overall flood risk for a flood-prone area. Zoning regulation is a specified area in a floodplain where certain restrictions apply to different land uses (e.g., development or business). A stochastic framework was introduced to evaluate the effectiveness of a potential zoning regulation. A stochastic framework encompasses the impacts of all the possible expected floods instead of a more traditional approach where a single design flood is incorporated. The downtown area of Fort McMurray along the Athabasca River was selected to explore the impact of zoning regulation on reducing expected annual damages (EAD) from ice-jam flooding. The results show that a hypothetical zoning regulation for a certain area in the town of Fort McMurray (TFM) can be effective in substantially reducing the level of EAD. A global sensitivity analysis was also applied to understand the impacts of model inputs on ice-jam flood risk using a regional sensitivity method. The results show that model boundary conditions such as river discharge, the inflowing volume of ice and ice-jam toe locations are highly sensitive to ice-jam flood risk.</abstract>
+    <identifier type="citekey">Das-2021-Exploring</identifier>
+    <identifier type="doi">10.3390/w13162202</identifier>
     <location>
         <url>https://aclanthology.org/G21-58001</url>
     </location>
     <part>
         <date>2021</date>
-        <extent unit="page">
-            <start>1</start>
-            <end>63</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>16</number></detail>
+        <detail type="page"><number>2202</number></detail>
     </part>
 </mods>
 </modsCollection>

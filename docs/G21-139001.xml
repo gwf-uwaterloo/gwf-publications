@@ -1,26 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Eamen-2021-Integrated">
+<mods ID="Sobie-2021-Climate">
     <titleInfo>
-        <title>Integrated modelling to assess the impacts of water stress in a transboundary river basin: Bridging local-scale water resource operations to a river basin economy</title>
+        <title>Climate Model Projections for Canada: A Comparison of CMIP5 and CMIP6</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Leila</namePart>
-        <namePart type="family">Eamen</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Sobie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Curry</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +35,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 800</title>
+            <title>Atmosphere-Ocean, Volume 59, Issue 4-5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>In this study, we develop a hydro-economic modelling framework for river-basin scales by integrating a water resources system model and an economic model. This framework allows for the representation of both local-scale features, such as reservoirs, diversions, and water licenses and priorities, and regional- and provincial-scale features, such as cross-sectoral and inter-regional connectedness and trade flows. This framework is able to: (a) represent nonlinearities and interactions that cannot be represented by either of typical water resources or economic models; (b) analyze the sensitivity of macro-scale economy to different local water management decisions (called ’decision levers’ herein); and (c) identify water allocation strategies that are economically sound across sectors and regions. This integrated model is applied to the multi-jurisdictional Saskatchewan River Basin in Western Canada. Our findings reveal that an economically optimal water allocation strategy can mitigate the economic losses of water stress up to 80% compared to the existing water allocation strategy. We draw lessons from our analysis and discuss how integrated inter-regional hydro-economic modelling can benefit vulnerability assessment and robust decision making.</abstract>
-    <identifier type="citekey">Eamen-2021-Integrated</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2021.149543</identifier>
+    <identifier type="citekey">Sobie-2021-Climate</identifier>
+    <identifier type="doi">10.1080/07055900.2021.2011103</identifier>
     <location>
         <url>https://aclanthology.org/G21-139001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>800</number></detail>
-        <detail type="page"><number>149543</number></detail>
+        <detail type="volume"><number>59</number></detail>
+        <detail type="issue"><number>4-5</number></detail>
+        <extent unit="page">
+            <start>269</start>
+            <end>284</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

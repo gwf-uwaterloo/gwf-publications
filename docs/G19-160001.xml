@@ -1,21 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sharma-2019-Variability">
+<mods ID="Sheikholeslami-2019-Global">
     <titleInfo>
-        <title>Variability and trends of landfalling atmospheric rivers along the Pacific Coast of northwestern North America</title>
+        <title>Global sensitivity analysis for high-dimensional problems: How to objectively group factors and measure robustness and convergence while reducing computational cost</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Aseem</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Sharma</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Stephen</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Déry</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hoshin</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Gupta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">William</namePart>
+        <namePart type="family">Becker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Haghnegahdar</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,27 +47,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>International Journal of Climatology, Volume 40, Issue 1</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 111</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sharma-2019-Variability</identifier>
-    <identifier type="doi">10.1002/joc.6227</identifier>
+    <abstract>Abstract Dynamical earth and environmental systems models are typically computationally intensive and highly parameterized with many uncertain parameters. Together, these characteristics severely limit the applicability of Global Sensitivity Analysis (GSA) to high-dimensional models because very large numbers of model runs are typically required to achieve convergence and provide a robust assessment. Paradoxically, only 30 percent of GSA applications in the environmental modelling literature have investigated models with more than 20 parameters, suggesting that GSA is under-utilized on problems for which it should prove most useful. We develop a novel grouping strategy, based on bootstrap-based clustering, that enables efficient application of GSA to high-dimensional models. We also provide a new measure of robustness that assesses GSA stability and convergence. For two models, having 50 and 111 parameters, we show that grouping-enabled GSA provides results that are highly robust to sampling variability, while converging with a much smaller number of model runs.</abstract>
+    <identifier type="citekey">Sheikholeslami-2019-Global</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2018.09.002</identifier>
     <location>
         <url>https://aclanthology.org/G19-160001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>40</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>111</number></detail>
         <extent unit="page">
-            <start>544</start>
-            <end>558</end>
+            <start>282</start>
+            <end>299</end>
         </extent>
     </part>
 </mods>

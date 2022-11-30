@@ -1,40 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Parmentier-2019-Is">
+<mods ID="Pelto-2019-Multi-year">
     <titleInfo>
-        <title>Is the Northern Permafrost Zone a Source or a Sink for Carbon?</title>
+        <title>Multi-year evaluation of airborne geodetic surveys to estimate seasonal mass balance, Columbia and Rocky Mountains, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Frans-Jan</namePart>
-        <namePart type="family">Parmentier</namePart>
+        <namePart type="given">Ben</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Pelto</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Menounos</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marguerite</namePart>
-        <namePart type="family">Mauritz</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anna-Maria</namePart>
-        <namePart type="family">Virkkala</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Edward</namePart>
-        <namePart type="family">Schuur</namePart>
+        <namePart type="given">Shawn</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Marshall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,23 +34,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Eos, Volume 100</title>
+            <title>The Cryosphere, Volume 13, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Parmentier-2019-Is</identifier>
-    <identifier type="doi">10.1029/2019eo130507</identifier>
+    <identifier type="citekey">Pelto-2019-Multi-year</identifier>
+    <identifier type="doi">10.5194/tc-13-1709-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-139001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>100</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>1709</start>
+            <end>1727</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

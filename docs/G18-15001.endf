@@ -1,17 +1,18 @@
 ﻿%0 Journal Article
-%T Probable Maximum Precipitation: Its Estimation and Uncertainty Quantification Using Bivariate Extreme Value Analysis
-%A Ben Alaya, M. A.
-%A Zwiers, F.
-%A Zhang, X.
-%J Journal of Hydrometeorology, Volume 19, Issue 4
+%T Contributions of Geophysical and C-Band SAR Data for Estimation of Field Scale Soil Moisture
+%A Berg, Aaron
+%A Krafczek, Mitchell
+%A Clewley, Daniel
+%A Whitcomb, Jane
+%A Akbar, Ruzbeh
+%A Moghaddam, Mahta
+%A McNarin, Heather
+%J IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium
 %D 2018
-%V 19
-%N 4
-%I American Meteorological Society
-%F BenAlaya-2018-Probable
-%X Abstract Probable maximum precipitation (PMP) is the key parameter used to estimate the probable maximum flood (PMF), both of which are important for dam safety and civil engineering purposes. The usual operational procedure for obtaining PMP values, which is based on a moisture maximization approach, produces a single PMP value without an estimate of its uncertainty. We therefore propose a probabilistic framework based on a bivariate extreme value distribution to aid in the interpretation of these PMP values. This 1) allows us to evaluate estimates from the operational procedure relative to an estimate of a plausible distribution of PMP values, 2) enables an evaluation of the uncertainty of these values, and 3) provides clarification of the impact of the assumption that a PMP event occurs under conditions of maximum moisture availability. Results based on a 50-yr Canadian Centre for Climate Modelling and Analysis Regional Climate Model (CanRCM4) simulation over North America reveal that operational PMP estimates are highly uncertain and suggest that the assumption that PMP events have maximum moisture availability may not be valid. Specifically, in the climate simulated by CanRCM4, the operational approach applied to 50-yr data records produces a value that is similar to the value that is obtained in our approach when assuming complete dependence between extreme precipitation efficiency and extreme precipitable water. In contrast, our results suggest weaker than complete dependence. Estimates from the operational approach are 15% larger on average over North America than those obtained when accounting for the dependence between precipitation efficiency and precipitable water extremes realistically. A difference of this magnitude may have serious implications in engineering design.
-%R 10.1175/jhm-d-17-0110.1
+%I IEEE
+%F Berg-2018-Contributions
+%X In this study we evaluate a Random Forest (RF) model for characterizing the spatial variability of soil moisture based on model derived from in situ soil moisture samples, geophysical data and RADAR observations. The RF model is run with and without C-band SAR backscatter to understand the importance of the inclusion of SAR data for mapping of soil moisture at field scale. The inclusion of SAR data in the RF resulted in a modest improvement however the geophysical parameters (e.g. soil types and terrain properties) were of greater importance.
+%R 10.1109/igarss.2018.8517551
 %U https://aclanthology.org/G18-15001
-%U https://doi.org/10.1175/jhm-d-17-0110.1
-%P 679-694
+%U https://doi.org/10.1109/igarss.2018.8517551
 

@@ -1,21 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bodo-2021-Radial">
+<mods ID="Sabokruhie-2021-Proof-of-Concept">
     <titleInfo>
-        <title>Radial variations in xylem sap flux in a temperate red pine plantation forest</title>
+        <title>Proof-of-Concept of a Quasi-2D Water-Quality Modelling Approach to Simulate Transverse Mixing in Rivers</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Alanna</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Bodo</namePart>
+        <namePart type="given">Pouya</namePart>
+        <namePart type="family">Sabokruhie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Altaf</namePart>
-        <namePart type="family">Arain</namePart>
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Akomeah</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tammy</namePart>
+        <namePart type="family">Rosner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,25 +39,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Processes, Volume 10, Issue 1</title>
+            <title>Water, Volume 13, Issue 21</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Scaling sap flux measurements to whole-tree water use or stand-level transpiration is often done using measurements conducted at a single point in the sapwood of the tree and has the potential to cause significant errors. Previous studies have shown that much of this uncertainty is related to (i) measurement of sapwood area and (ii) variations in sap flow at different depths within the tree sapwood.This study measured sap flux density at three depth intervals in the sapwood of 88-year-old red pine (Pinus resinosa) trees to more accurately estimate water-use at the tree- and stand-level in a plantation forest near Lake Erie in Southern Ontario, Canada. Results showed that most of the water transport (65%) occurred in the outermost sapwood, while only 26% and 9% of water was transported in the middle and innermost depths of sapwood, respectively.These results suggest that failing to consider radial variations in sap flux density within trees can lead to an overestimation of transpiration by as much as 81%, which may cause large uncertainties in water budgets at the ecosystem and catchment scale. This study will help to improve our understanding of water use dynamics and reduce uncertainties in sap flow measurements in the temperate pine forest ecosystems in the Great Lakes region and help in protecting these forests in the face of climate change.</abstract>
-    <identifier type="citekey">Bodo-2021-Radial</identifier>
-    <identifier type="doi">10.1186/s13717-021-00295-4</identifier>
+    <abstract>A quasi-two-dimensional (quasi-2D) modelling approach is introduced to mimic transverse mixing of an inflow into a river from one of its banks, either an industrial outfall or a tributary. The concentrations of determinands in the inflow vary greatly from those in the river, leading to very long mixing lengths in the river downstream of the inflow location. Ideally, a two-dimensional (2D) model would be used on a small scale to capture the mixing of the two flow streams. However, for large-scale applications of several hundreds of kilometres of river length, such an approach demands too many computational resources and too much computational time, especially if the application will at some point require ensemble input from climate-change scenario data. However, a one-dimensional (1D) model with variables varying in the longitudinal flow direction but averaged across the cross-sections is too simple of an approach to capture the lateral mixing between different flow streams within the river. Hence, a quasi-2D method is proposed in which a simplified 1D solver is still applied but the discretisation of the model setup can be carried out in such a way as to enable a 2D representation of the model domain. The quasi-2D model setup also allows secondary channels and side lakes in floodplains to be incorporated into the discretisation. To show proof-of-concept, the approach has been tested on a stretch of the lower Athabasca River in Canada flowing through the oil sands region between Fort McMurray and Fort MacKay. A dye tracer and suspended sediments are the constituents modelled in this test case.</abstract>
+    <identifier type="citekey">Sabokruhie-2021-Proof-of-Concept</identifier>
+    <identifier type="doi">10.3390/w13213071</identifier>
     <location>
         <url>https://aclanthology.org/G21-151001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>10</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>21</number></detail>
+        <detail type="page"><number>3071</number></detail>
     </part>
 </mods>
 </modsCollection>

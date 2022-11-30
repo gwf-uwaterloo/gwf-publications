@@ -1,18 +1,16 @@
 ﻿%0 Journal Article
-%T On the use of leaf water to determine plant water source: A proof of concept
-%A Benettin, Paolo
-%A Nehemy, Magali F.
-%A Cernusak, Lucas A.
-%A Kahmen, Ansgar
-%A McDonnell, Jeffrey J.
-%J Hydrological Processes, Volume 35, Issue 3
+%T Large Scale Image Registration Utilizing Data-Tunneling in the MapReduce Cluster
+%A Kumar Mondal, Amit
+%A Roy, Banani
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J Lecture Notes on Data Engineering and Communications Technologies
 %D 2021
-%V 35
-%N 3
-%I Wiley
-%F Benettin-2021-On
-%X Source water apportionment studies using the dual isotopes of oxygen and hydrogen have revolutionized our understanding of ecohydrology. But despite these developments—mostly over the past decade—many technical problems still exist in terms of linking xylem water to its soil water and groundwater sources. This is mainly due to sampling issues and possible fractionation of xylem water. Here we explore whether or not leaf water alone can be used to quantify the blend of rainfall event inputs from which the leaf water originates. Leaf water has historically been avoided in plant water uptake studies due to the extreme fractionation processes at the leaf surface. In our proof of concept work we embrace those processes and use the well-known Craig and Gordon model to map leaf water back to its individual precipitation event water sources. We also employ a Bayesian uncertainty estimation approach to quantify source apportionment uncertainties. We show this using a controlled, vegetated lysimeter experiment where we were able to use leaf water to correctly identify the mean seasonal rainfall that was taken up by the plant, with an uncertainty typically within \pm1‰ for δ18O. While not appropriate for all source water studies, this work shows that leaf water isotope composition may provide a new, relatively un-intrusive method for addressing questions about the plant water source.
-%R 10.1002/hyp.14073
+%I Springer Singapore
+%F KumarMondal-2021-Large
+%X Applications of image registration tasks are computation-intensive, memory-intensive, and communication-intensive. Robust efforts are required on error recovery and re-usability of both the data and the operations, along with performance optimization. Considering these, we explore various programming models aiming to minimize the folding operations (such as join and reduce) which are the primary candidates of data shuffling, concurrency bugs and expensive communication in a distributed cluster. Particularly, we analyze modular MapReduce execution of an image registration pipeline (IRP) with the external and internal data (data-tunneling) flow mechanism and compare them with the compact model. Experimental analyzes with the ComputeCanada cluster and a crop field data-sets containing 1000 images show that these design options are valuable for large-scale IRPs executed with a MapReduce cluster. Additionally, we present an effectiveness measurement metric to analyze the impact of a design model for the Big IRP, accumulating the error-recovery and re-usability metrics along with the data size and execution time. Our explored design models and their performance analysis can serve as a benchmark for the researchers and application developers who deploy large-scale image registration and other image processing tasks.
+%R 10.1007/978-981-16-6636-0_14
 %U https://aclanthology.org/G21-27001
-%U https://doi.org/10.1002/hyp.14073
+%U https://doi.org/10.1007/978-981-16-6636-0_14
+%P 167-180
 

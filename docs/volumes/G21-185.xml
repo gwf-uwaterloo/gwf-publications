@@ -1,29 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Averin-2021-Encouraging">
+<mods ID="Glass-2021-Identifying">
     <titleInfo>
-        <title>Encouraging Citizen Adoption of E-Governance – A Way to Reduce Corruption</title>
+        <title>Identifying groundwater discharge zones in the Central Mackenzie Valley using remotely sensed optical and thermal imagery</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">A</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Averin</namePart>
+        <namePart type="given">Brittney</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Glass</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">I</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Pogodina</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Rudolph</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">V</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Manokhin</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Wicke</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,22 +41,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Proceedings of International Scientific and Practical Conference “Russia 2020 - a new reality: economy and society” (ISPCR 2020)</title>
+            <title>Canadian Journal of Earth Sciences, Volume 58, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Atlantis Press</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Averin-2021-Encouraging</identifier>
-    <identifier type="doi">10.2991/aebmr.k.210222.003</identifier>
+    <identifier type="citekey">Glass-2021-Identifying</identifier>
+    <identifier type="doi">10.1139/cjes-2019-0169</identifier>
     <location>
         <url>https://aclanthology.org/G21-185001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>58</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>105</start>
+            <end>121</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

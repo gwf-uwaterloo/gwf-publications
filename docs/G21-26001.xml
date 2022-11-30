@@ -1,55 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Amin-2021-No">
+<mods ID="Odunayo-2021-Rescuing">
     <titleInfo>
-        <title>No evidence of isotopic fractionation in olive trees (\textlessi\textgreaterOlea europaea\textless/i\textgreater): a stable isotope tracing experiment</title>
+        <title>Rescuing historical climate observations to support hydrological research</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Anam</namePart>
-        <namePart type="family">Amin</namePart>
+        <namePart type="given">Ogundepo</namePart>
+        <namePart type="family">Odunayo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Giulia</namePart>
-        <namePart type="family">Zuecco</namePart>
+        <namePart type="given">Naveela</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Sookoo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chiara</namePart>
-        <namePart type="family">Marchina</namePart>
+        <namePart type="given">Gautam</namePart>
+        <namePart type="family">Bathla</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Engel</namePart>
+        <namePart type="given">Anthony</namePart>
+        <namePart type="family">Cavallin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Daniele</namePart>
-        <namePart type="family">Penna</namePart>
+        <namePart type="given">Bhaleka</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Persaud</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jeffrey</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">McDonnell</namePart>
+        <namePart type="given">Kathy</namePart>
+        <namePart type="family">Szigeti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marco</namePart>
-        <namePart type="family">Borga</namePart>
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Van Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -61,29 +69,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 66, Issue 16</title>
+            <title>Proceedings of the 21st ACM Symposium on Document Engineering</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Plant transpiration is the dominant water flux in the global terrestrial water balance and a key process in the hydrological sciences. Stable isotopes have contributed greatly to this understanding...</abstract>
-    <identifier type="citekey">Amin-2021-No</identifier>
-    <identifier type="doi">10.1080/02626667.2021.1987440</identifier>
+    <abstract>The acceleration of climate change and its impact highlight the need for long-term reliable climate data at high spatiotemporal resolution to answer key science questions in cold regions hydrology. Prior to the digital age, climate records were archived on paper. For example, from the 1950s to the 1990s, solar radiation data from recording stations worldwide were published in booklets by the former Union of Soviet Socialist Republics (USSR) Hydrometeorological Service. As a result, the data are not easily accessible by most researchers. The overarching aim of this research is to develop techniques to convert paper-based climate records into a machine-readable format to support environmental research in cold regions. This study compares the performance of a proprietary optical character recognition (OCR) service with an open-source OCR tool for digitizing hydrometeorological data. We built a digitization pipeline combining different image preprocessing techniques, semantic segmentation, and an open-source OCR engine for extracting data and metadata recorded in the scanned documents. Each page contains blocks of text with station names and tables containing the climate data. The process begins with image preprocessing to reduce noise and to improve quality before the page content is segmented to detect tables and finally run through an OCR engine for text extraction. We outline the digitization process and report on initial results, including different segmentation approaches, preprocessing image algorithms, and OCR techniques to ensure accurate extraction and organization of relevant metadata from thousands of scanned climate records. We evaluated the performance of Tesseract OCR and ABBYY FineReader on text extraction. We find that although ABBY FineReader has better accuracy on the sample data, our custom extraction pipeline using Tesseract is efficient and scalable because it is flexible and allows for more customization.</abstract>
+    <identifier type="citekey">Odunayo-2021-Rescuing</identifier>
+    <identifier type="doi">10.1145/3469096.3474929</identifier>
     <location>
         <url>https://aclanthology.org/G21-26001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>66</number></detail>
-        <detail type="issue"><number>16</number></detail>
-        <extent unit="page">
-            <start>2415</start>
-            <end>2430</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

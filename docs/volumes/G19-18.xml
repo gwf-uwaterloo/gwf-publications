@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ahmed-2019-Integrated">
+<mods ID="Ahmed-2019-All">
     <titleInfo>
-        <title>Integrated Triboelectric Nanogenerators in the Era of the Internet of Things</title>
+        <title>All printable snow-based triboelectric nanogenerator</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Abdelsalam</namePart>
@@ -19,24 +19,40 @@
         </role>
     </name>
     <name type="personal">
+        <namePart type="given">Islam</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Mosa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Esraa</namePart>
+        <namePart type="family">Elsanadidy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gayatri</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Phadke</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Maher</namePart>
         <namePart type="given">F</namePart>
-        <namePart type="family">El‐Kady</namePart>
+        <namePart type="family">El-Kady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ali</namePart>
-        <namePart type="family">Radhi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chang</namePart>
-        <namePart type="given">Kyu</namePart>
-        <namePart type="family">Jeong</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Rusling</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -45,27 +61,6 @@
         <namePart type="given">Ponnambalam</namePart>
         <namePart type="given">Ravi</namePart>
         <namePart type="family">Selvaganapathy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jean</namePart>
-        <namePart type="family">Zu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Shenqiang</namePart>
-        <namePart type="family">Ren</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qing</namePart>
-        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -85,25 +80,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Advanced Science, Volume 6, Issue 24</title>
+            <title>Nano Energy, Volume 60</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ahmed-2019-Integrated</identifier>
-    <identifier type="doi">10.1002/advs.201802230</identifier>
+    <identifier type="citekey">Ahmed-2019-All</identifier>
+    <identifier type="doi">10.1016/j.nanoen.2019.03.032</identifier>
     <location>
         <url>https://aclanthology.org/G19-18001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>6</number></detail>
-        <detail type="issue"><number>24</number></detail>
-        <detail type="page"><number>1802230</number></detail>
+        <detail type="volume"><number>60</number></detail>
+        <extent unit="page">
+            <start>17</start>
+            <end>25</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

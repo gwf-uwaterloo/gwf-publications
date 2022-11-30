@@ -1,55 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Du-2019-China’s">
+<mods ID="Duguay-2019-Advancement">
     <titleInfo>
-        <title>China’s Agricultural Irrigation and Water Conservancy Projects: A Policy Synthesis and Discussion of Emerging Issues</title>
+        <title>Advancement in Bedfast Lake ICE Mapping From Sentinel-1 Sar Data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lijuan</namePart>
-        <namePart type="family">Du</namePart>
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Li</namePart>
-        <namePart type="family">Xu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Changshun</namePart>
-        <namePart type="family">Liu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jefferson</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bo</namePart>
-        <namePart type="family">Lei</namePart>
+        <namePart type="given">Junqian</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -61,26 +25,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Sustainability, Volume 11, Issue 24</title>
+            <title>IGARSS 2019 - 2019 IEEE International Geoscience and Remote Sensing Symposium</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The United Nations (UN) has identified 17 Sustainable Development Goals (SDGs) to tackle major barriers to sustainable development by 2030. Achieving these goals will rely on the contribution of all nations and require balancing trade-offs among different sectors. Water and food insecurity have long been the two major challenges facing China. To address these challenges and achieve the SDGs, China needs to safeguard its agricultural irrigation and water conservancy projects. Although China is making efforts to transition its agricultural development to a sustainable trajectory by promoting water-saving irrigation, a number of issues are emerging, both with policy reforms and technological innovations. Through synthesizing the historical development of agriculture and its relationship with policy and political regimes, this paper identifies four major issues that are challenging the sustainability transformation of China’s agricultural irrigation system and water conservancy projects: (1) problems with financial policy coordination between central and local governments; (2) the lack of incentives for farmers to construct and maintain irrigation infrastructure; (3) conflicts between decentralized operation of land and benefits from shared irrigation infrastructure; and (4) deterioration of small-scale irrigation infrastructure calls for action. In addressing these challenges, policy changes are required: government financial accountability at all levels needs to be clarified; subsidies need to be raised for the construction and management of small-scale irrigation and water conservancy projects; local non-profit organizations need to be established to enhance co-management between farmers and government.</abstract>
-    <identifier type="citekey">Du-2019-China’s</identifier>
-    <identifier type="doi">10.3390/su11247027</identifier>
+    <abstract>Algorithms for the generation of a bedfast/floating lake ice product from Sentinel-1A/B synthetic aperture radar (SAR) data were implemented, cross-compared, and validated for various permafrost regions (Alaska, Canada and Russia). The algorithms consisted of: 1) thresholding; 2) Iteration Region Growing with Semantics (IRGS); and 3) K-means. The thresholding algorithm (92.4%) was found to perform slightly better on average than the IRGS algorithm (90.1%), and to outperform K-means (85.3%). The thresholding algorithm was therefore selected for implementation of a processing chain to generate a novel bedfast/floating lake ice product. Using a time series of Sentinel-1 SAR data, the new map product shows the day of year (DOY) when the ice becomes bedfast or remains afloat for individual lake sections.</abstract>
+    <identifier type="citekey">Duguay-2019-Advancement</identifier>
+    <identifier type="doi">10.1109/igarss.2019.8900650</identifier>
     <location>
         <url>https://aclanthology.org/G19-53001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>24</number></detail>
-        <detail type="page"><number>7027</number></detail>
     </part>
 </mods>
 </modsCollection>

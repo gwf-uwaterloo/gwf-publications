@@ -1,26 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bhattacharjee-Roy-2022-Supporting-Readability">
+<mods ID="Espenant-2022-StreamTable:">
     <titleInfo>
-        <title>Supporting Readability by Comprehending the Hierarchical Abstraction of a Software Project</title>
+        <title>StreamTable: An Area Proportional Visualization for Tables with Flowing Streams</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Avijit</namePart>
-        <namePart type="family">Bhattacharjee</namePart>
+        <namePart type="given">Jared</namePart>
+        <namePart type="family">Espenant</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="given">Debajyoti</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,22 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>15th Innovations in Software Engineering Conference</title>
+            <title>WALCOM: Algorithms and Computation</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>ACM</publisher>
+            <publisher>Springer International Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bhattacharjee-Roy-2022-Supporting-Readability</identifier>
-    <identifier type="doi">10.1145/3511430.3511441</identifier>
+    <abstract>AbstractLet M be a two-dimensional table with each cell weighted by a nonzero positive number. A StreamTable visualization of M represents the columns as non-overlapping vertical streams and the rows as horizontal stripes such that the intersection between a stream and a stripe is a rectangle with area equal to the weight of the corresponding cell. To avoid large wiggle of the streams, it is desirable to keep the consecutive cells in a stream to be adjacent. Let B be the smallest axis-aligned bounding box containing the StreamTable. Then the difference between the area of B and the sum of the weights is referred to as the excess area. We attempt to optimize various StreamTable aesthetics (e.g., minimizing excess area, or maximizing cell adjacencies in streams). If the row permutation is fixed and the row heights are given, then we give an O(rc)-time algorithm to optimizes these aesthetics, where r and c are the number of rows and columns, respectively. If the row permutation is fixed but the row heights can be chosen, then we discuss a technique to compute an aesthetic (but not necessarily optimal) StreamTable by solving a quadratically-constrained quadratic program, followed by iterative improvements. If the row heights are restricted to be integers, then we prove the problem to be NP-hard. If the row permutations can be chosen, then we show that it is NP-hard to find a row permutation that optimizes the area or adjacency aesthetics. KeywordsGeometric AlgorithmsTable CartogramStreamgraphs</abstract>
+    <identifier type="citekey">Espenant-2022-StreamTable:</identifier>
+    <identifier type="doi">10.1007/978-3-030-96731-4_9</identifier>
     <location>
         <url>https://aclanthology.org/G22-10001</url>
     </location>
     <part>
         <date>2022</date>
+        <extent unit="page">
+            <start>97</start>
+            <end>108</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

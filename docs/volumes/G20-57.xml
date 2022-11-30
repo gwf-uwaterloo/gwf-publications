@@ -1,27 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bondaruk-2020-Assessing">
+<mods ID="Budhathoki-2020-A">
     <titleInfo>
-        <title>Assessing the state of the art in Discrete Global Grid Systems: OGC criteria and present functionality</title>
+        <title>A multi-objective calibration approach using in-situ soil moisture data for improved hydrological simulation of the Prairies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ben</namePart>
-        <namePart type="family">Bondaruk</namePart>
+        <namePart type="given">Sujata</namePart>
+        <namePart type="family">Budhathoki</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Steven</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Roberts</namePart>
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Colin</namePart>
-        <namePart type="family">Robertson</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">Davison</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,27 +39,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geomatica, Volume 74, Issue 1</title>
+            <title>Hydrological Sciences Journal, Volume 65, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Canadian Science Publishing</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Bondaruk-2020-Assessing</identifier>
-    <identifier type="doi">10.1139/geomat-2019-0015</identifier>
+    <identifier type="citekey">Budhathoki-2020-A</identifier>
+    <identifier type="doi">10.1080/02626667.2020.1715982</identifier>
     <location>
         <url>https://aclanthology.org/G20-57001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>74</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>65</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>9</start>
-            <end>30</end>
+            <start>638</start>
+            <end>649</end>
         </extent>
     </part>
 </mods>

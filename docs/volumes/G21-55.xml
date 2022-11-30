@@ -1,19 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Das-2021-Modelling">
+<mods ID="Brunner-2021-Flood">
     <titleInfo>
-        <title>Modelling climatic impacts on ice-jam floods: a review of current models, modelling capabilities, challenges, and future prospects</title>
+        <title>Flood spatial coherence, triggers, and performance in hydrological simulations: large-sample evaluation of four streamflow-calibrated models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Apurba</namePart>
-        <namePart type="family">Das</namePart>
+        <namePart type="given">Manuela</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Brunner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Lieke</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Melsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oldrich</namePart>
+        <namePart type="family">Rakovec</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Naoki</namePart>
+        <namePart type="family">Mizukami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wouter</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,27 +66,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Reviews, Volume 29, Issue 3</title>
+            <title>Hydrology and Earth System Sciences, Volume 25, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Canadian Science Publishing</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Das-2021-Modelling</identifier>
-    <identifier type="doi">10.1139/er-2020-0108</identifier>
+    <identifier type="citekey">Brunner-2021-Flood</identifier>
+    <identifier type="doi">10.5194/hess-25-105-2021</identifier>
     <location>
         <url>https://aclanthology.org/G21-55001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>29</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>25</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>378</start>
-            <end>390</end>
+            <start>105</start>
+            <end>119</end>
         </extent>
     </part>
 </mods>

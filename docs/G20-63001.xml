@@ -1,41 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Carr-2020-Impacts">
+<mods ID="Costa-2020-Modelling">
     <titleInfo>
-        <title>Impacts of Varying Dam Outflow Elevations on Water Temperature, Dissolved Oxygen, and Nutrient Distributions in a Large Prairie Reservoir</title>
+        <title>Modelling nutrient dynamics in cold agricultural catchments: A review</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Meghan</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carr</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">Sadeghian</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karsten</namePart>
-        <namePart type="family">Rinke</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Luis</namePart>
-        <namePart type="family">Morales-Marin</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -47,29 +46,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Engineering Science, Volume 37, Issue 1</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 124</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Mary Ann Liebert Inc</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Dam operations are known to have significant impacts on reservoir hydrodynamics and solute transport processes. The Gardiner Dam, one of the structures that forms the Lake Diefenbaker reservoir located in the Canadian Prairies, is managed for hydropower generation and agricultural irrigation and is known to have widely altering temperature regimes and nutrient circulations. This study applies the hydrodynamic and nutrient CE-QUAL-W2 model to explore how various withdrawal depths (5, 15, 25, 35, 45, and 55 m) influence the concentrations and distribution of nutrients, temperature, and dissolved oxygen (DO) within the Lake Diefenbaker reservoir. As expected, the highest dissolved nutrient (phosphate, PO43–P and nitrate, NO3–N ) concentrations were associated with hypoxic depth horizons in both studied years. During summer high flow period spillway operations impact the distribution of nutrients, water temperatures, and DO as increased epilimnion flow velocities route the incoming water through the surface of the reservoir and reduce mixing and surface warming. This reduces reservoir concentrations but can lead to increased outflow nitrogen (N) and phosphorus (P) concentrations. Lower withdrawal elevations pull warmer surface water deeper within the reservoir and decrease reservoir DO during summer stratification. During fall turnover low outflow elevations increase water column mixing and draws warmer water deeper, leading to slightly higher temperatures and nutrient concentrations than shallow withdrawal elevations. The 15 m depth (540 m above sea level) outflow generally provided the best compromise for overall reservoir and outflow nutrient reduction.</abstract>
-    <identifier type="citekey">Carr-2020-Impacts</identifier>
-    <identifier type="doi">10.1089/ees.2019.0146</identifier>
+    <abstract>Abstract The hydrology of cold regions has been studied for decades with substantial progress in process understanding and prediction. Simultaneously, work on nutrient yields from agricultural land in cold regions has shown much slower progress. Advancement of nutrient modelling is constrained by well-documented issues of spatial heterogeneity, climate dependency, data limitations and over-parameterization of models, as well as challenges specific to cold regions due to the complex (and often unknown) behaviour of hydro-biogeochemical processes at temperatures close to and below freezing where a phase change occurs. This review is a critical discussion of these issues by taking a close look at the conceptual models and methods behind used catchment nutrient models. The impact of differences in model structure and the methods used for the prediction of hydrological processes, erosion and biogeochemical cycles are examined. The appropriateness of scale, scope, and complexity of models are discussed to propose future research directions.</abstract>
+    <identifier type="citekey">Costa-2020-Modelling</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2019.104586</identifier>
     <location>
         <url>https://aclanthology.org/G20-63001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>37</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>78</start>
-            <end>97</end>
-        </extent>
+        <detail type="volume"><number>124</number></detail>
+        <detail type="page"><number>104586</number></detail>
     </part>
 </mods>
 </modsCollection>

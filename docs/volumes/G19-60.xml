@@ -1,27 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Foroutan-2019-Automatic">
+<mods ID="Grant-2019-Differences">
     <titleInfo>
-        <title>Automatic mapping and geomorphometry extraction technique for crevasses in geodetic mass-balance calculations at Haig Glacier, Canadian Rockies</title>
+        <title>Differences in preferential flow with antecedent moisture conditions and soil texture: Implications for subsurface P transport</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marzieh</namePart>
-        <namePart type="family">Foroutan</namePart>
+        <namePart type="given">Kirsten</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Grant</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Shawn</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Marshall</namePart>
+        <namePart type="given">Merrin</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Macrae</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="family">Menounos</namePart>
+        <namePart type="given">Genevieve</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ali</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,27 +35,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Glaciology, Volume 65, Issue 254</title>
+            <title>Hydrological Processes, Volume 33, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Cambridge University Press (CUP)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Foroutan-2019-Automatic</identifier>
-    <identifier type="doi">10.1017/jog.2019.71</identifier>
+    <identifier type="citekey">Grant-2019-Differences</identifier>
+    <identifier type="doi">10.1002/hyp.13454</identifier>
     <location>
         <url>https://aclanthology.org/G19-60001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>65</number></detail>
-        <detail type="issue"><number>254</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>15</number></detail>
         <extent unit="page">
-            <start>971</start>
-            <end>982</end>
+            <start>2068</start>
+            <end>2079</end>
         </extent>
     </part>
 </mods>

@@ -1,77 +1,59 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ireson-2022-Using">
+<mods ID="Spence-2022-Assessing">
     <titleInfo>
-        <title>Using observed soil moisture to constrain the uncertainty of simulated hydrological fluxes</title>
+        <title>Assessing hydrological sensitivity of grassland basins in the Canadian Prairies to climate using a basin classification-based virtual modelling approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Ireson</namePart>
+        <namePart type="given">Christopher</namePart>
+        <namePart type="family">Spence</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ines</namePart>
-        <namePart type="family">Sanchez‐Rodriguez</namePart>
+        <namePart type="given">Zhihua</namePart>
+        <namePart type="family">He</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sujan</namePart>
-        <namePart type="family">Basnet</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Haley</namePart>
-        <namePart type="family">Brauner</namePart>
+        <namePart type="given">Balew</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mekonnen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Talia</namePart>
-        <namePart type="family">Bobenic</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rosa</namePart>
-        <namePart type="family">Brannen</namePart>
+        <namePart type="given">Colin</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mennatullah</namePart>
-        <namePart type="family">Elrashidy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Morgan</namePart>
-        <namePart type="family">Braaten</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Seth</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Amankwah</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alan</namePart>
-        <namePart type="family">Barr</namePart>
+        <namePart type="given">Jared</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Wolfe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -83,25 +65,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 36, Issue 1</title>
+            <title>Hydrology and Earth System Sciences, Volume 26, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Using data from five long-term field sites measuring soil moisture, we show the limitations of using soil moisture observations alone to constrain modelled hydrological fluxes. We test a land surface model, Modélisation Environnementale communautaire-Surface Hydrology/Canadian Land Surface Scheme, with two configurations: one where the soil hydraulic properties are determined using a pedotransfer function (the texture-based calibration) and one where they are assigned directly (the hydraulic properties-based calibration). The hydraulic properties-based calibration outperforms the texture-based calibration in terms of reproducing changes in soil moisture storage within a 1.6 m deep profile at each site, but both perform reasonably well, especially in the summer months. When the models are constrained using observations of changes in soil moisture, the predicted hydrological fluxes are subject to very large uncertainties associated with equifinality. The uncertainty is larger for the hydraulic properties-based calibration, even though the performance was better. We argue that since the pedotransfer functions constrain the model parameters in the texture-based calibrations in an unrealistic way, the texture-based calibration underestimates the uncertainty in the fluxes. We recommend that reproducing observed cumulative changes in soil moisture storage should be considered a necessary but insufficient criterion of model success. Additional sources of information are needed to reduce uncertainties, and these could include improved estimation of the soil hydraulic properties and direct observations of fluxes, particularly evapotranspiration.</abstract>
-    <identifier type="citekey">Ireson-2022-Using</identifier>
-    <identifier type="doi">10.1002/hyp.14465</identifier>
+    <abstract>Abstract. Significant challenges from changes in climate and land use face sustainable water use in the Canadian Prairies ecozone. The region has experienced significant warming since the mid-20th century, and continued warming of an additional 2 ∘C by 2050 is expected. This paper aims to enhance understanding of climate controls on Prairie basin hydrology through numerical model experiments. It approaches this by developing a basin-classification-based virtual modelling framework for a portion of the Prairie region and applying the modelling framework to investigate the hydrological sensitivity of one Prairie basin class (High Elevation Grasslands) to changes in climate. High Elevation Grasslands dominate much of central and southern Alberta and parts of south-western Saskatchewan, with outliers in eastern Saskatchewan and western Manitoba. The experiments revealed that High Elevation Grassland snowpacks are highly sensitive to changes in climate but that this varies geographically. Spring maximum snow water equivalent in grasslands decreases 8 % ∘C−1 of warming. Climate scenario simulations indicated that a 2 ∘C increase in temperature requires at least an increase of 20 % in mean annual precipitation for there to be enough additional snowfall to compensate for enhanced melt losses. The sensitivity in runoff is less linear and varies substantially across the study domain: simulations using 6 ∘C of warming, and a 30 % increase in mean annual precipitation yields simulated decreases in annual runoff of 40 % in climates of the western Prairie but 55 % increases in climates of eastern portions. These results can be used to identify those areas of the region that are most sensitive to climate change and highlight focus areas for monitoring and adaptation. The results also demonstrate how a basin classification-based virtual modelling framework can be applied to evaluate regional-scale impacts of climate change with relatively high spatial resolution in a robust, effective and efficient manner.</abstract>
+    <identifier type="citekey">Spence-2022-Assessing</identifier>
+    <identifier type="doi">10.5194/hess-26-1801-2022</identifier>
     <location>
         <url>https://aclanthology.org/G22-88001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>36</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>26</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>1801</start>
+            <end>1819</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

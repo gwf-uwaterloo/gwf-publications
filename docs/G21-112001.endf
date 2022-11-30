@@ -1,18 +1,16 @@
 ﻿%0 Journal Article
-%T A reusable, reagent-less free chlorine sensor using gold thin film electrode
-%A Alam, Arif Ul
-%A Clyne, Dennis
-%A Lush, Will
-%A Deen, M. Jamal
-%J The Analyst, Volume 146, Issue 8
+%T Advancing Space‐Time Simulation of Random Fields: From Storms to Cyclones and Beyond
+%A Papalexiou, Simon Michael
+%A Serinaldi, Francesco
+%A Porcu, Emilio
+%J Water Resources Research, Volume 57, Issue 8
 %D 2021
-%V 146
+%V 57
 %N 8
-%I Royal Society of Chemistry (RSC)
-%F Alam-2021-A
-%X Free chlorine is widely used as a disinfectant in the water industry.
-%R 10.1039/d1an00038a
+%I American Geophysical Union (AGU)
+%F Papalexiou-2021-Advancing
+%X Realistic stochastic simulation of hydro-environmental fluxes in space and time, such as rainfall, is challenging yet of paramount importance to inform environmental risk analysis and decision making under uncertainty. Here, we advance random fields simulation by introducing the concepts of general velocity fields and general anisotropy transformations. This expands the capabilities of the so-called Complete Stochastic Modeling Solution (CoSMoS) framework enabling the simulation of random fields (RF’s) preserving: (a) any non-Gaussian marginal distribution, (b) any spatiotemporal correlation structure (STCS), (c) general advection expressed by velocity fields with locally varying speed and direction, and (d) locally varying anisotropy. We also introduce new copula-based STCS’s and provide conditions guaranteeing their positive definiteness. To illustrate the potential of CoSMoS, we simulate RF’s with complex patterns and motion mimicking rainfall storms moving across an area, spiraling fields resembling weather cyclones, fields converging to (or diverging from) a point, and colliding air masses. The proposed methodology is implemented in the freely available CoSMoS R package.
+%R 10.1029/2020wr029466
 %U https://aclanthology.org/G21-112001
-%U https://doi.org/10.1039/d1an00038a
-%P 2626-2631
+%U https://doi.org/10.1029/2020wr029466
 

@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Stott-2017-Is">
+<mods ID="VanMeter-2017-Time">
     <titleInfo>
-        <title>Is the choice of statistical paradigm critical in extreme event attribution studies?</title>
+        <title>Time lags in watershed-scale nutrient transport: an exploration of dominant controls</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Stott</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
+        <namePart type="given">K</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Karoly</namePart>
+        <namePart type="family">Van Meter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,29 +27,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climatic Change, Volume 144, Issue 2</title>
+            <title>Environmental Research Letters, Volume 12, Issue 8</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>IOP Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The science of event attribution meets a mounting demand for reliable and timely information about the links between climate change and individual extreme events. Studies have estimated the contribution of human-induced climate change to the magnitude of an event as well as its likelihood, and many types of event have been investigated including heatwaves, floods, and droughts. Despite this progress, such approaches have been criticised for being unreliable and for being overly conservative. We argue that such criticisms are misplaced. Rather, a false dichotomy has arisen between “conventional” approaches and new alternative framings. We have three points to make about the choice of statistical paradigm for event attribution studies. First, different approaches to event attribution may choose to occupy different places on the conditioning spectrum. Providing this choice of conditioning is communicated clearly, the value of such choices depends ultimately on their utility to the user concerned. Second, event attribution is an estimation problem for which either frequentist or Bayesian paradigms can be used. Third, for hypothesis testing, the choice of null hypothesis is context specific. Thus, the null hypothesis of human influence is not inherently a preferable alternative to the usual null hypothesis of no human influence.</abstract>
-    <identifier type="citekey">Stott-2017-Is</identifier>
-    <identifier type="doi">10.1007/s10584-017-2049-2</identifier>
+    <abstract>Unprecedented decreases in atmospheric nitrogen (N) deposition together with increases in agricultural N-use efficiency have led to decreases in net anthropogenic N inputs in many eastern US and Canadian watersheds as well as in Europe. Despite such decreases, N concentrations in streams and rivers continue to increase, and problems of coastal eutrophication remain acute. Such a mismatch between N inputs and outputs can arise due to legacy N accumulation and subsequent lag times between implementation of conservation measures and improvements in water quality. In the present study, we quantified such lag times by pairing long-term N input trajectories with stream nitrate concentration data for 16 nested subwatersheds in a 6800 km2, Southern Ontario watershed. Our results show significant nonlinearity between N inputs and outputs, with a strong hysteresis effect indicative of decadal-scale lag times. The mean annual lag time was found to be 24.5 years, with lags varying seasonally, likely due to differences in N-delivery pathways. Lag times were found to be negatively correlated with both tile drainage and watershed slope, with tile drainage being a dominant control in fall and watershed slope being significant during the spring snowmelt period. Quantification of such lags will be crucial to policy-makers as they struggle to set appropriate goals for water quality improvement in human-impacted watersheds.</abstract>
+    <identifier type="citekey">Van Meter-2017-Time</identifier>
+    <identifier type="doi">10.1088/1748-9326/aa7bf4</identifier>
     <location>
         <url>https://aclanthology.org/G17-36001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>144</number></detail>
-        <detail type="issue"><number>2</number></detail>
-        <extent unit="page">
-            <start>143</start>
-            <end>150</end>
-        </extent>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <detail type="page"><number>084017</number></detail>
     </part>
 </mods>
 </modsCollection>

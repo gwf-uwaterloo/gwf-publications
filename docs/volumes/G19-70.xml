@@ -1,28 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Harder-2019-A">
+<mods ID="Hassanzadeh-2019-A">
     <titleInfo>
-        <title>A simple model for local-scale sensible and latent heat advection contributions to snowmelt</title>
+        <title>A framework for engaging stakeholders in water quality modeling and management: Application to the Qu’Appelle River Basin, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Phillip</namePart>
-        <namePart type="family">Harder</namePart>
+        <namePart type="given">Elmira</namePart>
+        <namePart type="family">Hassanzadeh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Graham</namePart>
+        <namePart type="family">Strickert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Warren</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Helgason</namePart>
+        <namePart type="given">Luis</namePart>
+        <namePart type="family">Morales-Marin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bram</namePart>
+        <namePart type="family">Noble</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Etienne</namePart>
+        <namePart type="family">Shupena-Soulodre</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,27 +60,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 1</title>
+            <title>Journal of Environmental Management, Volume 231</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Harder-2019-A</identifier>
-    <identifier type="doi">10.5194/hess-23-1-2019</identifier>
+    <identifier type="citekey">Hassanzadeh-2019-A</identifier>
+    <identifier type="doi">10.1016/j.jenvman.2018.11.016</identifier>
     <location>
         <url>https://aclanthology.org/G19-70001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>231</number></detail>
         <extent unit="page">
-            <start>1</start>
-            <end>17</end>
+            <start>1117</start>
+            <end>1126</end>
         </extent>
     </part>
 </mods>

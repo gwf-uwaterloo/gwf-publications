@@ -1,15 +1,15 @@
 ﻿%0 Journal Article
-%T Mapping erosion and deposition in an agricultural landscape: Optimization of UAV image acquisition schemes for SfM-MVS
-%A Meinen, Benjamin U.
-%A Robinson, Derek T.
-%J Remote Sensing of Environment, Volume 239
+%T Investigating Near-Miss Micro-Clones in Evolving Software
+%A Mondal, Manishankar
+%A Roy, Banani
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J Proceedings of the 28th International Conference on Program Comprehension
 %D 2020
-%V 239
-%I Elsevier BV
-%F Meinen-2020-Mapping
-%X Abstract Structure-from-motion (SfM) and multi-view stereo (MVS) algorithms coupled with the use of unmanned aerial vehicles (UAVs) have become a popular tool in the geosciences for modelling complex landscapes on-demand allowing for high-resolution topographic change-detection studies to be conducted at minimal cost. To identify the effects of UAV image orientation on the accuracy of SfM-MVS 3D surface models, we tested four different UAV image acquisition schemes that incorporated both nadir and oblique imagery of an agricultural field. The coupling of nadir and oblique imaging angles led to the highest surface model accuracy in the absence of ground control points (GCPs; vertical RMSE: 0.047 m, horizontal RMSE: 0.019 m), while with a normative distribution of GCPs the nadir-only image sets had similar accuracy metrics (vertical RMSE 0.028 m, horizontal RMSE 0.017 m) to surface models generated with nadir and oblique imaging angles (vertical RMSE 0.028 m, horizontal RMSE 0.013 m). Homologous keypoint matching between nadir and oblique imagery was poor when the survey conditions were bright and the surface texture of the field was homogeneous, leading to broad-scale vertical noise in the generated surface models. Results indicate that a nadir-only image set accompanied with a dense deployment of GCPs is the most ideal for SfM-MVS agricultural 3D surface reconstructions. The diachronic analysis of surface models generated from nadir-only image sets were able to detect surface-change \textgreater0.040 m in depth (i.e., rill and gully erosion, depositional zones) and were comparable to results obtained from a terrestrial laser scanner. Stable GCPs should be used where possible to ensure precise co-registration between subsequent UAV surveys.
-%R 10.1016/j.rse.2020.111666
+%I ACM
+%F Mondal-2020-Investigating
+%X Code clones are the same or nearly similar code fragments in a software system’s code-base. While the existing studies have extensively studied regular code clones in software systems, micro-clones have been mostly ignored. Although an existing study investigated consistent changes in exact micro-clones, near-miss micro-clones have never been investigated. In our study, we investigate the importance of near-miss micro-clones in software evolution and maintenance by automatically detecting and analyzing the consistent updates that they experienced during the whole period of evolution of our subject systems. We compare the consistent co-change tendency of near-miss micro-clones with that of exact micro-clones and regular code clones. According to our investigation on thousands of revisions of six open-source subject systems written in two different programming languages, near-miss micro-clones have a significantly higher tendency of experiencing consistent updates compared to exact micro-clones and regular (both exact and near-miss) code clones. Consistent updates in near-miss micro-clones have a high tendency of being related with bug-fixes. Moreover, the percentage of commit operations where near-miss micro-clones experience consistent updates is considerably higher than that of regular clones and exact micro-clones. We finally observe that near-miss micro-clones staying in close proximity to each other have a high tendency of experiencing consistent updates. Our research implies that near-miss micro-clones should be considered equally important as of regular clones and exact micro-clones when making clone management decisions.
+%R 10.1145/3387904.3389262
 %U https://aclanthology.org/G20-112001
-%U https://doi.org/10.1016/j.rse.2020.111666
-%P 111666
+%U https://doi.org/10.1145/3387904.3389262
 

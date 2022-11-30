@@ -1,50 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mahoney-2019-Optofluidic">
+<mods ID="Mairena-2019-Peripheral">
     <titleInfo>
-        <title>Optofluidic Dissolved Oxygen Sensing With Sensitivity Enhancement Through Multiple Reflections</title>
+        <title>Peripheral Notifications in Large Displays</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Eric</namePart>
-        <namePart type="given">James</namePart>
-        <namePart type="family">Mahoney</namePart>
+        <namePart type="given">Aristides</namePart>
+        <namePart type="family">Mairena</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Huan-Hsuan</namePart>
-        <namePart type="given">Leo</namePart>
-        <namePart type="family">Hsu</namePart>
+        <namePart type="given">Carl</namePart>
+        <namePart type="family">Gutwin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Du</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bo</namePart>
-        <namePart type="family">Xiong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiyin</namePart>
-        <namePart type="family">Fang</namePart>
+        <namePart type="given">Andy</namePart>
+        <namePart type="family">Cockburn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -56,28 +32,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>IEEE Sensors Journal, Volume 19, Issue 22</title>
+            <title>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mahoney-2019-Optofluidic</identifier>
-    <identifier type="doi">10.1109/jsen.2019.2932414</identifier>
+    <identifier type="citekey">Mairena-2019-Peripheral</identifier>
+    <identifier type="doi">10.1145/3290605.3300870</identifier>
     <location>
         <url>https://aclanthology.org/G19-109001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>19</number></detail>
-        <detail type="issue"><number>22</number></detail>
-        <extent unit="page">
-            <start>10452</start>
-            <end>10460</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

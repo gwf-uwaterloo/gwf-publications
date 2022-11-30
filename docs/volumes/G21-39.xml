@@ -1,44 +1,79 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ruso-2021-Effects">
+<mods ID="Ankley-2021-Using">
     <titleInfo>
-        <title>Effects of Agricultural Stressors on Growth and an Immune Status Indicator in Wood Frog ( \textlessi\textgreaterLithobates sylvaticus\textless/i\textgreater ) Tadpoles and Metamorphs</title>
+        <title>Using zooplankton metabarcoding to assess the efficacy of different techniques to clean-up an oil-spill in a boreal lake</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Gabrielle</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Ruso</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Natacha</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Hogan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Claudia</namePart>
-        <namePart type="family">Sheedy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Melanie</namePart>
+        <namePart type="given">Phillip</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Gallant</namePart>
+        <namePart type="family">Ankley</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Timothy</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Jardine</namePart>
+        <namePart type="given">Yuwei</namePart>
+        <namePart type="family">Xie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tyler</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Black</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Abigail</namePart>
+        <namePart type="family">DeBofsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">McKenzie</namePart>
+        <namePart type="family">Perry</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Paterson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mark</namePart>
+        <namePart type="family">Hanson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Scott</namePart>
+        <namePart type="family">Higgins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Giesy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Vince</namePart>
+        <namePart type="family">Palace</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,28 +85,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Toxicology and Chemistry, Volume 40, Issue 8</title>
+            <title>Aquatic Toxicology, Volume 236</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ruso-2021-Effects</identifier>
-    <identifier type="doi">10.1002/etc.5107</identifier>
+    <identifier type="citekey">Ankley-2021-Using</identifier>
+    <identifier type="doi">10.1016/j.aquatox.2021.105847</identifier>
     <location>
         <url>https://aclanthology.org/G21-39001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>40</number></detail>
-        <detail type="issue"><number>8</number></detail>
-        <extent unit="page">
-            <start>2269</start>
-            <end>2281</end>
-        </extent>
+        <detail type="volume"><number>236</number></detail>
+        <detail type="page"><number>105847</number></detail>
     </part>
 </mods>
 </modsCollection>

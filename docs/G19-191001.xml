@@ -1,26 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zhang-2019-A">
+<mods ID="Zhao-2019-Surface">
     <titleInfo>
-        <title>A Systematic Study on Transit Time and Its Impact on Accuracy of Concentration Measured by Microfluidic Devices</title>
+        <title>Surface modification of polyamide meshes and nonwoven fabrics by plasma etching and a PDA/cellulose coating for oil/water separation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yushan</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Pei</namePart>
+        <namePart type="family">Zhao</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tianyi</namePart>
-        <namePart type="family">Guo</namePart>
+        <namePart type="given">Ning</namePart>
+        <namePart type="family">Qin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Changqing</namePart>
-        <namePart type="family">Xu</namePart>
+        <namePart type="given">Carolyn</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Ren</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">Z</namePart>
+        <namePart type="family">Wen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,26 +41,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Sensors, Volume 20, Issue 1</title>
+            <title>Applied Surface Science, Volume 481</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Gating or threshold selection is very important in analyzing data from a microflow cytometer, which is especially critical in analyzing weak signals from particles/cells with small sizes. It has been reported that using the amplitude gating alone may result in false positive events in analyzing data with a poor signal-to-noise ratio. Transit time (τ) can be set as a gating threshold along with side-scattered light or fluorescent light signals in the detection of particles/cells using a microflow cytometer. In this study, transit time of microspheres was studied systematically when the microspheres passed through a laser beam in a microflow cytometer and side-scattered light was detected. A clear linear relationship between the inverse of the average transit time and total flow rate was found. Transit time was used as another gate (other than the amplitude of side-scattering signals) to distinguish real scattering signals from noise. It was shown that the relative difference of the measured microsphere concentration can be reduced significantly from the range of 3.43%–8.77% to the range of 8.42%–111.76% by employing both amplitude and transit time as gates in analysis of collected scattering data. By using optimized transit time and amplitude gate thresholds, a good correlation with the traditional hemocytometer-based particle counting was achieved (R2 &amp;gt; 0.94). The obtained results suggest that the transit time could be used as another gate together with the amplitude gate to improve measurement accuracy of particle/cell concentration for microfluidic devices.</abstract>
-    <identifier type="citekey">Zhang-2019-A</identifier>
-    <identifier type="doi">10.3390/s20010014</identifier>
+    <abstract>Abstract This work investigated a two-step surface modification of polyamide meshes and nonwoven fabrics for oil/water separation and looked into the durability of such modified polyamide. The two-step modification included 1) pre-etching the polyamide surface using plasma treatment and 2) coating the pre-etched surface by eco-friendly polydopamine (PDA)/cellulose. The pre-etching increased the surface roughness, which further improved the underwater superoleophobicity of the coating. Therefore, the modified polyamide was able to separate various oil/water mixtures and showed a higher intrusion pressure than the original sample and the samples which were only etched or only coated. The grooves on the surface that resulted from the pre-etching prevented the coating from peeling off. In durability tests, after 6 repeated uses, the modified nonwoven sample lost its underwater oleophobicity due to severe oil fouling, coming to a complete failure in oil/water separation. After 19 cycles, the modified mesh was still able to separate a certain amount of oil/water but showed reduced intrusion pressure because of slight oil contamination. Filters with different structures, like meshes with one layer of pores and nonwoven fabrics with complex three dimensional pores, had different oil fouling levels that affected oil/water separation. The recoverability of filters from oil contamination should be considered for practical applications.</abstract>
+    <identifier type="citekey">Zhao-2019-Surface</identifier>
+    <identifier type="doi">10.1016/j.apsusc.2019.03.152</identifier>
     <location>
         <url>https://aclanthology.org/G19-191001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>20</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <detail type="page"><number>14</number></detail>
+        <detail type="volume"><number>481</number></detail>
+        <extent unit="page">
+            <start>883</start>
+            <end>891</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

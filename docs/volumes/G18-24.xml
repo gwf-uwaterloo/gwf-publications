@@ -1,35 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Brouwer-2018-Economic">
+<mods ID="Campos-Ruiz-2018-Temporal">
     <titleInfo>
-        <title>Economic valuation of groundwater protection using a groundwater quality ladder based on chemical threshold levels</title>
+        <title>Temporal Patterns of Wildfire Activity in Areas of Contrasting Human Influence in the Canadian Boreal Forest</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">Rodrigo</namePart>
+        <namePart type="family">Campos-Ruiz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Carlos</namePart>
-        <namePart type="given">Miraldo</namePart>
-        <namePart type="family">Ordens</namePart>
+        <namePart type="given">Marc-André</namePart>
+        <namePart type="family">Parisien</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rute</namePart>
-        <namePart type="family">Pinto</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Teresa</namePart>
-        <namePart type="family">Condesso de Melo</namePart>
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Flannigan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,27 +32,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Indicators, Volume 88</title>
+            <title>Forests, Volume 9, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Brouwer-2018-Economic</identifier>
-    <identifier type="doi">10.1016/j.ecolind.2018.01.041</identifier>
+    <identifier type="citekey">Campos-Ruiz-2018-Temporal</identifier>
+    <identifier type="doi">10.3390/f9040159</identifier>
     <location>
         <url>https://aclanthology.org/G18-24001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>88</number></detail>
-        <extent unit="page">
-            <start>292</start>
-            <end>304</end>
-        </extent>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>159</number></detail>
     </part>
 </mods>
 </modsCollection>

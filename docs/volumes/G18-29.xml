@@ -1,37 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chasmer-2018-Remote">
+<mods ID="Chen-2018-Perfluorobutanesulfonate">
     <titleInfo>
-        <title>Remote sensing of ecosystem trajectories as a proxy indicator for watershed water balance</title>
+        <title>Perfluorobutanesulfonate Exposure Causes Durable and Transgenerational Dysbiosis of Gut Microbiota in Marine Medaka</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Chasmer</namePart>
+        <namePart type="given">Lianguo</namePart>
+        <namePart type="family">Chen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Devito</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
+        <namePart type="given">James</namePart>
         <namePart type="given">C</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Hopkinson</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Lam</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">R</namePart>
+        <namePart type="given">Chenyan</namePart>
+        <namePart type="family">Hu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mirabelle</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Tsui</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qi</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Giesy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Lam</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -43,25 +67,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecohydrology, Volume 11, Issue 7</title>
+            <title>Environmental Science &amp;amp; Technology Letters, Volume 5, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Chasmer-2018-Remote</identifier>
-    <identifier type="doi">10.1002/eco.1987</identifier>
+    <identifier type="citekey">Chen-2018-Perfluorobutanesulfonate</identifier>
+    <identifier type="doi">10.1021/acs.estlett.8b00597</identifier>
     <location>
         <url>https://aclanthology.org/G18-29001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <detail type="page"><number>e1987</number></detail>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>731</start>
+            <end>738</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

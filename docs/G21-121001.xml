@@ -1,26 +1,41 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Saran-2021-Phosphorothioate">
+<mods ID="Lee-2021-Simultaneous">
     <titleInfo>
-        <title>Phosphorothioate nucleic acids for probing metal binding, biosensing and nanotechnology</title>
+        <title>Simultaneous Dechlorination and Advanced Oxidation Using Electrically Conductive Carbon Nanotube Membranes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Runjhun</namePart>
-        <namePart type="family">Saran</namePart>
+        <namePart type="given">Hye-Jin</namePart>
+        <namePart type="family">Lee</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zhicheng</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Nan</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Ganzoury</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yichen</namePart>
+        <namePart type="family">Wu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Charles-François</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +47,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Coordination Chemistry Reviews, Volume 428</title>
+            <title>ACS Applied Materials &amp;amp; Interfaces, Volume 13, Issue 29</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Fundamentals of phosphorothioate nucleic acids reviewed from synthesis to metal binding. \bullet Applications of phosphorothioate nucleic acids in developing biosensors and chemical biology reviewed. \bullet Applications of phosphorothioate DNA in assembly and the directed growth of nanomaterials reviewed. Phosphorothioate (PS) modification replaces one of the non-bridging oxygen atoms by sulfur in the phosphate backbone of nucleic acids. While PS DNAs have been traditionally used as nuclease-resistant antisense agents and PS RNA as probe of metal binding in ribozymes, multiple new applications have emerged in recent years. In this review, we start by briefly introducing the structure and synthesis of PS nucleic acids followed by their fundamental chemical and biochemical properties. Further, their recently emerged surface science applications are discussed, such as attachment of DNA to various surfaces and nanomaterials containing thiophilic metals such as gold, silver and cadmium, and templating the growth of these materials. Their role in conferring structural effects in the presence of certain metal ions and in fishing out novel aptamers are also discussed. Covalent chemistry can be performed on the sulfur atom for further grafting functional groups to the backbone of DNA. For PS RNA, we discuss their role as probes for metal binding in ribozymes and DNAzymes, which leads to applications in detection of thiophilic metal ions. Since each PS modification site produces a chiral phosphorus center, the synthesis and purification of diastereomers and their applications are emphasized throughout this review. In the end, a few future research directions are discussed.</abstract>
-    <identifier type="citekey">Saran-2021-Phosphorothioate</identifier>
-    <identifier type="doi">10.1016/j.ccr.2020.213624</identifier>
+    <abstract>Electrically conductive membranes have shown significant promise in combining conventional separations with in situ contaminant oxidation, but little has been done to consider chlorine removal. This study demonstrates the simultaneous chlorine removal and oxidation of organic compounds during filtration using an electrochemically assisted electrically conductive carbon nanotube (CNT) membrane. As much as 80% of chlorine was removed in the feed by CNT membranes at the initial phase of continuous filtration. The efficacy of these CNT membranes toward chlorine removal was dependent on the mass of CNTs within the membranes and the applied pressure to the membranes, indicating the central role of available CNT active sites and sufficient reaction time. Furthermore, the removal mechanism of chlorine by CNTs was revealed by studying the degradation of benzoic acid and cyclic voltammetry on the membrane surface. Reactive oxidants were generated by the reductive decomposition of chlorine through the catalytic interaction with CNTs. Subsequently, electrical potentials were applied to the CNT membrane surfaces during the filtration of chlorinated feed waters. The simultaneous decomposition of chlorine and oxidation of benzoic acid were significantly enhanced by applying a cathodic current to CNT membranes enabling continuous dechlorination. The cathodic current applied to CNT membranes is believed to regenerate CNT membranes by providing electrons for the reductive decomposition of chlorine. In situ chemical-free dechlorination coupled with membrane filtration offers great opportunity to reducing the environmental impact of desalination, while maximizing the lifetime of reverse osmosis membranes and demonstrating greener approaches available to industrial water treatment.</abstract>
+    <identifier type="citekey">Lee-2021-Simultaneous</identifier>
+    <identifier type="doi">10.1021/acsami.1c06137</identifier>
     <location>
         <url>https://aclanthology.org/G21-121001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>428</number></detail>
-        <detail type="page"><number>213624</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>29</number></detail>
+        <extent unit="page">
+            <start>34084</start>
+            <end>34092</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

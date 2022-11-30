@@ -1,21 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Almonte-2019-Precipitation">
+<mods ID="Pavlovskii-2019-Quantifying">
     <titleInfo>
-        <title>Precipitation transition regions over the southern Canadian Cordillera during January–April 2010 and under a pseudo-global-warming assumption</title>
+        <title>Quantifying terrain controls on runoff retention and routing in the Northern Prairies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Juris</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Almonte</namePart>
+        <namePart type="given">Igor</namePart>
+        <namePart type="family">Pavlovskii</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ronald</namePart>
+        <namePart type="given">Saskia</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Noorduijn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jessica</namePart>
         <namePart type="given">E</namePart>
-        <namePart type="family">Stewart</namePart>
+        <namePart type="family">Liggett</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeanette</namePart>
+        <namePart type="family">Klassen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Masaki</namePart>
+        <namePart type="family">Hayashi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,28 +48,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
+            <title>Hydrological Processes, Volume 34, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. The occurrence of various types of winter precipitation is an important issue over the southern Canadian Cordillera. This issue is examined from January to April of 2010 by exploiting the high-resolution Weather Research and Forecasting (WRF) model Version 3.4.1 dataset that was used to simulate both a historical reanalysis-driven (control – CTRL) and a pseudo-global-warming (PGW) experiment (Liu et al., 2016). Transition regions, consisting of both liquid and solid precipitation or liquid precipitation below 0 ∘C, occurred on 93 % and 94 % of the days in the present and PGW future, respectively. This led to accumulated precipitation within the transition region increasing by 27 % and was associated with a rise in its average elevation by 374 m over the Coast Mountains and Insular Mountains and by 240 m over the Rocky Mountains and consequently to an eastward shift towards the higher terrain of the Rocky Mountains. Transition regions comprised of only rain and snow were most common under both the CTRL and PGW simulations, although all seven transition region categories occurred. Transition region changes would enhance some of the factors leading to avalanches and would also impact ski resort operations.</abstract>
-    <identifier type="citekey">Almonte-2019-Precipitation</identifier>
-    <identifier type="doi">10.5194/hess-23-3665-2019</identifier>
+    <abstract>The role of hummocky terrain in governing runoff routing and focussing groundwater recharge in the Northern Prairies of North America is widely recognised. However, most hydrological studies in the region have not effectively utilised information on the surficial geology and associated landforms in large‐scale hydrological characterization. The present study uses an automated digital elevation model (DEM) analysis of a 6500‐km² area in the Northern Prairies to quantify hydrologically relevant terrain parameters for the common types of terrains in the prairies with different surficial deposits widespread in the prairies, namely, moraines and glaciolacustrine deposits. Runoff retention (and storage) capacity within depressions varies greatly between different surficial deposits and is comparable in magnitude with a typical amount of seasonal snowmelt runoff generation. The terrain constraint on potential runoff retention varies from a few millimetres in areas classified as moraine to tens of millimetres in areas classified as stagnant ice moraine deposits. Fluted moraine and glaciolacustrine deposits have intermediate storage capacity values. The study also identified the probability density function describing a number of immediate upstream neighbours for each depression in a fill‐and‐spill network. A relationship between depression parameters and surficial deposits, as well as identified depression network structure, allows parametrisation of hydrologic models outside of the high‐resolution DEM coverage, which can still account for terrain variation in the Prairies.</abstract>
+    <identifier type="citekey">Pavlovskii-2019-Quantifying</identifier>
+    <identifier type="doi">10.1002/hyp.13599</identifier>
     <location>
         <url>https://aclanthology.org/G19-12002</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>3665</start>
-            <end>3682</end>
+            <start>473</start>
+            <end>484</end>
         </extent>
     </part>
 </mods>

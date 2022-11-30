@@ -1,35 +1,79 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sheikholeslami-2021-VISCOUS:">
+<mods ID="Scaff-2021-Dryline">
     <titleInfo>
-        <title>VISCOUS: A Variance‐Based Sensitivity Analysis Using Copulas for Efficient Identification of Dominant Hydrological Processes</title>
+        <title>Dryline characteristics in North America’s historical and future climates</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Lucia</namePart>
+        <namePart type="family">Scaff</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Shervan</namePart>
-        <namePart type="family">Gharari</namePart>
+        <namePart type="given">Andreas</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Prein</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="given">J</namePart>
         <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sebastian</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Krogh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Neil</namePart>
+        <namePart type="family">Taylor</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Changhai</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Rasmussen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kyoko</namePart>
+        <namePart type="family">Ikeda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,25 +85,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 57, Issue 7</title>
+            <title>Climate Dynamics, Volume 57, Issue 7-8</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Global sensitivity analysis (GSA) has long been recognized as an indispensable tool for model analysis. GSA has been extensively used for model simplification, identifiability analysis, and diagnostic tests. Nevertheless, computationally efficient methodologies are needed for GSA, not only to reduce the computational overhead, but also to improve the quality and robustness of the results. This is especially the case for process-based hydrologic models, as their simulation time typically exceeds the computational resources available for a comprehensive GSA. To overcome this computational barrier, we propose a data-driven method called VISCOUS, variance-based sensitivity analysis using copulas. VISCOUS uses Gaussian mixture copulas to approximate the joint probability density function of a given set of input-output pairs for estimating the variance-based sensitivity indices. Our method identifies dominant hydrologic factors by recycling existing input-output data, and thus can deal with arbitrary sample sets drawn from the input-output space. We used two hydrologic models of increasing complexity (HBV and VIC) to assess the performance of VISCOUS. Our results confirm that VISCOUS and the conventional variance-based method can detect similar important and unimportant factors. Furthermore, the VISCOUS method can substantially reduce the computational cost required for sensitivity analysis. Our proposed method is particularly useful for process-based models with many uncertain parameters, large domain size, and high spatial and temporal resolution.</abstract>
-    <identifier type="citekey">Sheikholeslami-2021-VISCOUS:</identifier>
-    <identifier type="doi">10.1029/2020wr028435</identifier>
+    <identifier type="citekey">Scaff-2021-Dryline</identifier>
+    <identifier type="doi">10.1007/s00382-021-05800-1</identifier>
     <location>
         <url>https://aclanthology.org/G21-65001</url>
     </location>
     <part>
         <date>2021</date>
         <detail type="volume"><number>57</number></detail>
-        <detail type="issue"><number>7</number></detail>
+        <detail type="issue"><number>7-8</number></detail>
+        <extent unit="page">
+            <start>2171</start>
+            <end>2188</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

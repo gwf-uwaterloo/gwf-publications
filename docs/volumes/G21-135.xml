@@ -1,19 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Tropea-2021-Assessing">
+<mods ID="Sniderhan-2021-Non-uniform">
     <titleInfo>
-        <title>Assessing past and future hazardous freezing rain and wet snow events in Manitoba, Canada using a pseudo-global warming approach</title>
+        <title>Non-uniform growth dynamics of a dominant boreal tree species (\textlessi\textgreaterPicea mariana\textless/i\textgreater) in the face of rapid climate change</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Brock</namePart>
-        <namePart type="family">Tropea</namePart>
+        <namePart type="given">Anastasia</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Sniderhan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ronald</namePart>
-        <namePart type="family">Stewart</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Mamet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,24 +35,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmospheric Research, Volume 259</title>
+            <title>Canadian Journal of Forest Research, Volume 51, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Tropea-2021-Assessing</identifier>
-    <identifier type="doi">10.1016/j.atmosres.2021.105656</identifier>
+    <identifier type="citekey">Sniderhan-2021-Non-uniform</identifier>
+    <identifier type="doi">10.1139/cjfr-2020-0188</identifier>
     <location>
         <url>https://aclanthology.org/G21-135001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>259</number></detail>
-        <detail type="page"><number>105656</number></detail>
+        <detail type="volume"><number>51</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>565</start>
+            <end>572</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

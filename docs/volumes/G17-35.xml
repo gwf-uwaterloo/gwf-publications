@@ -1,70 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sillmann-2017-Understanding">
+<mods ID="Stott-2017-Is">
     <titleInfo>
-        <title>Understanding, modeling and predicting weather and climate extremes: Challenges and opportunities</title>
+        <title>Is the choice of statistical paradigm critical in extreme event attribution studies?</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jana</namePart>
-        <namePart type="family">Sillmann</namePart>
+        <namePart type="given">Peter</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Stott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thordis</namePart>
-        <namePart type="family">Thorarinsdottir</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Noel</namePart>
-        <namePart type="family">Keenlyside</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nathalie</namePart>
-        <namePart type="family">Schaller</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Lisa</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Alexander</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Gabriele</namePart>
-        <namePart type="family">Hegerl</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sonia</namePart>
-        <namePart type="given">I</namePart>
-        <namePart type="family">Seneviratne</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Robert</namePart>
-        <namePart type="family">Vautard</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xuebin</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Karoly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -84,26 +35,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Climate Extremes, Volume 18</title>
+            <title>Climatic Change, Volume 144, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sillmann-2017-Understanding</identifier>
-    <identifier type="doi">10.1016/j.wace.2017.10.003</identifier>
+    <identifier type="citekey">Stott-2017-Is</identifier>
+    <identifier type="doi">10.1007/s10584-017-2049-2</identifier>
     <location>
         <url>https://aclanthology.org/G17-35001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>18</number></detail>
+        <detail type="volume"><number>144</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>65</start>
-            <end>74</end>
+            <start>143</start>
+            <end>150</end>
         </extent>
     </part>
 </mods>

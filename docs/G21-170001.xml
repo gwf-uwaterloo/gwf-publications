@@ -1,28 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Leroux-2021-Improvement">
+<mods ID="Hrach-2021-The">
     <titleInfo>
-        <title>Improvement of Snow Gauge Collection Efficiency through a Knowledge of Solid Precipitation Fall Speed</title>
+        <title>The Impact of Variable Horizon Shade on the Growing Season Energy Budget of a Subalpine Headwater Wetland</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nicolas</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Leroux</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Julie</namePart>
+        <namePart type="given">Dylan</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Thériault</namePart>
+        <namePart type="family">Hrach</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Rasmussen</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brandon</namePart>
+        <namePart type="family">Van Huizen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Adam</namePart>
+        <namePart type="family">Green</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Myroslava</namePart>
+        <namePart type="family">Khomik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,29 +48,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 22, Issue 4</title>
+            <title>Atmosphere, Volume 12, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract The collection efficiency of a typical precipitation gauge-shield configuration decreases with increasing wind speed, with a high scatter for a given wind speed. The high scatter in the collection efficiency for a given wind speed arises in part from the variability in the characteristics of falling snow and atmospheric turbulence. This study uses weighing gauge data collected at the Marshall Field Site near Boulder, Colorado, during the WMO Solid Precipitation Intercomparison Experiment (SPICE). Particle diameter and fall speed data from a laser disdrometer were used to show that the scatter in the collection efficiency can be reduced by considering the fall speed of solid precipitation particles. The collection efficiency was divided into two classes depending on the measured mean-event particle fall speed during precipitation events. Slower-falling particles were associated with a lower collection efficiency. A new transfer function (i.e., the relationship between collection efficiency and other meteorological variables, such as wind speed or air temperature) that includes the fall speed of the hydrometeors was developed. The root-mean-square error of the adjusted precipitation with the new transfer function with respect to a weighing gauge placed in a double fence intercomparison reference was lower than using previously developed transfer functions that only consider wind speed and air temperature. This shows that the measured fall speed of solid precipitation with a laser disdrometer accounts for a large amount of the observed scatter in weighing gauge collection efficiency.</abstract>
-    <identifier type="citekey">Leroux-2021-Improvement</identifier>
-    <identifier type="doi">10.1175/jhm-d-20-0147.1</identifier>
+    <abstract>Surface energy budgets are important to the ecohydrology of complex terrain, where land surfaces cycle in and out of shadows creating distinct microclimates. Shading in such environments can help regulate downstream flow over the course of a growing season, but our knowledge on how shadows impact the energy budget and consequently ecohydrology in montane ecosystems is very limited. We investigated the influence of horizon shade on the surface energy fluxes of a subalpine headwater wetland in the Canadian Rocky Mountains during the growing season. During the study, surface insolation decreased by 60% (32% due to evolving horizon shade and 28% from seasonality). The influence of shade on the energy budget varied between two distinct periods: (1) Stable Shade, when horizon shade was constant and reduced sunlight by 2 h per day; and (2) Dynamic Shade, when shade increased and reduced sunlight by 0.18 h more each day, equivalent to a 13% reduction in incoming shortwave radiation and 16% in net radiation. Latent heat flux, the dominant energy flux at our site, varied temporally because of changes in incoming radiation, atmospheric demand, soil moisture and shade. Horizon shade controlled soil moisture at our site by prolonging snowmelt and reducing evapotranspiration in the late growing season, resulting in increased water storage capacity compared to other mountain wetlands. With the mounting risk of climate-change-driven severe spring flooding and late season droughts downstream of mountain headwaters, shaded subalpine wetlands provide important ecohydrological and mitigation services that are worthy of further study and mapping. This will help us better understand and protect mountain and prairie water resources.</abstract>
+    <identifier type="citekey">Hrach-2021-The</identifier>
+    <identifier type="doi">10.3390/atmos12111473</identifier>
     <location>
         <url>https://aclanthology.org/G21-170001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>22</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>997</start>
-            <end>1006</end>
-        </extent>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <detail type="page"><number>1473</number></detail>
     </part>
 </mods>
 </modsCollection>

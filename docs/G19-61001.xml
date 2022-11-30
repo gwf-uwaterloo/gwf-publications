@@ -1,50 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Gharari-2019-Improving">
+<mods ID="Grant-2019-Nutrient">
     <titleInfo>
-        <title>Improving the Representation of Subsurface Water Movement in Land Models</title>
+        <title>Nutrient Leaching in Soil Affected by Fertilizer Application and Frozen Ground</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Shervan</namePart>
-        <namePart type="family">Gharari</namePart>
+        <namePart type="given">Kirsten</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Grant</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
+        <namePart type="given">Merrin</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Macrae</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Naoki</namePart>
-        <namePart type="family">Mizukami</namePart>
+        <namePart type="given">Fereidoun</namePart>
+        <namePart type="family">Rezanezhad</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jefferson</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Alain</namePart>
-        <namePart type="family">Pietroniro</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="given">Vito</namePart>
+        <namePart type="family">Lam</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -56,28 +42,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 20, Issue 12</title>
+            <title>Vadose Zone Journal, Volume 18, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Land models are increasingly used and preferred in terrestrial hydrological prediction applications. One reason for selecting land models over simpler models is that their physically based backbone enables wider application under different conditions. This study evaluates the temporal variability in streamflow simulations in land models. Specifically, we evaluate how the subsurface structure and model parameters control the partitioning of water into different flow paths and the temporal variability in streamflow. Moreover, we use a suite of model diagnostics, typically not used in the land modeling community to clarify model weaknesses and identify a path toward model improvement. Our analyses show that the typical land model structure, and their functions for moisture movement between soil layers (an approximation of Richards equation), has a distinctive signature where flashy runoff is superimposed on slow recessions. This hampers the application of land models in simulating flashier basins and headwater catchments where floods are generated. We demonstrate the added value of the preferential flow in the model simulation by including macropores in both a toy model and the Variable Infiltration Capacity model. We argue that including preferential flow in land models is essential to enable their use for multiple applications across a myriad of temporal and spatial scales.</abstract>
-    <identifier type="citekey">Gharari-2019-Improving</identifier>
-    <identifier type="doi">10.1175/jhm-d-19-0108.1</identifier>
+    <identifier type="citekey">Grant-2019-Nutrient</identifier>
+    <identifier type="doi">10.2136/vzj2018.08.0150</identifier>
     <location>
         <url>https://aclanthology.org/G19-61001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>20</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>18</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>2401</start>
-            <end>2418</end>
+            <start>1</start>
+            <end>13</end>
         </extent>
     </part>
 </mods>

@@ -1,36 +1,82 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Dixon-2020-Reproductive">
+<mods ID="Emery-2020-Underlying">
     <titleInfo>
-        <title>Reproductive status of walleye (Sander vitreus) and lake whitefish (Coregonus clupeaformis) in two large, shallow Canadian subarctic lakes</title>
+        <title>Underlying Fundamentals of Kalman Filtering for River Network Modeling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Heather</namePart>
+        <namePart type="given">Charlotte</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Emery</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cédric</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Dixon</namePart>
+        <namePart type="family">Turmon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Grant</namePart>
-        <namePart type="family">Harrison</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Reager</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andrea</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Lister</namePart>
+        <namePart type="given">Jonathan</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hobbs</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Deborah</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">MacLatchy</namePart>
+        <namePart type="given">Ming</namePart>
+        <namePart type="family">Pan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Edward</namePart>
+        <namePart type="family">Beighley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="family">Rodell</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,27 +88,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Biology of Fishes, Volume 103, Issue 9</title>
+            <title>Journal of Hydrometeorology, Volume 21, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Dixon-2020-Reproductive</identifier>
-    <identifier type="doi">10.1007/s10641-020-01010-6</identifier>
+    <abstract>Abstract The grand challenge of producing hydrometeorological estimates every time and everywhere has motivated the fusion of sparse observations with dense numerical models, with a particular interest on discharge in river modeling. Ensemble methods are largely preferred as they enable the estimation of error properties, but at the expense of computational load and generally with underestimations. These imperfect stochastic estimates motivate the use of correction methods, that is, error localization and inflation, although the physical justifications for their optimality are limited. The purpose of this study is to use one of the simplest forms of data assimilation when applied to river modeling and reveal the underlying mechanisms impacting its performance. Our framework based on assimilating daily averaged in situ discharge measurements to correct daily averaged runoff was tested over a 4-yr case study of two rivers in Texas. Results show that under optimal conditions of inflation and localization, discharge simulations are consistently improved such that the mean values of Nash–Sutcliffe efficiency are enhanced from −11.32 to 0.55 at observed gauges and from −12.24 to −1.10 at validation gauges. Yet, parameters controlling the inflation and the localization have a large impact on the performance. Further investigations of these sensitivities showed that optimal inflation occurs when compensating exactly for discrepancies in the magnitude of errors while optimal localization matches the distance traveled during one assimilation window. These results may be applicable to more advanced data assimilation methods as well as for larger applications motivated by upcoming river-observing satellite missions, such as NASA’s Surface Water and Ocean Topography mission.</abstract>
+    <identifier type="citekey">Emery-2020-Underlying</identifier>
+    <identifier type="doi">10.1175/jhm-d-19-0084.1</identifier>
     <location>
         <url>https://aclanthology.org/G20-73001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>103</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>1119</start>
-            <end>1136</end>
+            <start>453</start>
+            <end>474</end>
         </extent>
     </part>
 </mods>

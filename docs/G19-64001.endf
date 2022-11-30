@@ -1,16 +1,24 @@
 ﻿%0 Journal Article
-%T Extended BACOLI
-%A Green, Kevin R.
-%A Spiteri, Raymond J.
-%J ACM Transactions on Mathematical Software, Volume 45, Issue 1
+%T Introductory overview of identifiability analysis: A guide to evaluating whether you have the right type of data for your modeling purpose
+%A Guillaume, Joseph H.A.
+%A Jakeman, John D.
+%A Marsili-Libelli, Stefano
+%A Asher, Michael
+%A Brunner, Philip
+%A Croke, Barry
+%A Hill, Mary C.
+%A Jakeman, Anthony J.
+%A Keesman, Karel J.
+%A Razavi, Saman
+%A Stigter, Johannes D.
+%J Environmental Modelling &amp; Software, Volume 119
 %D 2019
-%V 45
-%N 1
-%I Association for Computing Machinery (ACM)
-%F Green-2019-Extended
-%X BACOLI is a Fortran software package for solving one-dimensional parabolic partial differential equations (PDEs) with separated boundary conditions by B-spline adaptive collocation methods. A distinguishing feature of BACOLI is its ability to estimate and control error and correspondingly adapt meshes in both space and time. Many models of scientific interest, however, can be formulated as multiscale parabolic PDE systems, that is, models that couple a system of parabolic PDEs describing dynamics on a global scale with a system of ordinary differential equations describing dynamics on a local scale. This article describes the Fortran software eBACOLI, the extension of BACOLI to solve such multiscale models. The performance of the extended software is demonstrated to be statistically equivalent to the original for purely parabolic PDE systems. Results from eBACOLI are given for various multiscale models from the extended problem class considered.
-%R 10.1145/3301320
+%V 119
+%I Elsevier BV
+%F Guillaume-2019-Introductory
+%X Identifiability is a fundamental concept in parameter estimation, and therefore key to the large majority of environmental modeling applications. Parameter identifiability analysis assesses whether it is theoretically possible to estimate unique parameter values from data, given the quantities measured, conditions present in the forcing data, model structure (and objective function), and properties of errors in the model and observations. In other words, it tackles the problem of whether the right type of data is available to estimate the desired parameter values. Identifiability analysis is therefore an essential technique that should be adopted more routinely in practice, alongside complementary methods such as uncertainty analysis and evaluation of model performance. This article provides an introductory overview to the topic. We recommend that any modeling study should document whether a model is non-identifiable, the source of potential non-identifiability, and how this affects intended project outcomes.
+%R 10.1016/j.envsoft.2019.07.007
 %U https://aclanthology.org/G19-64001
-%U https://doi.org/10.1145/3301320
-%P 1-19
+%U https://doi.org/10.1016/j.envsoft.2019.07.007
+%P 418-432
 

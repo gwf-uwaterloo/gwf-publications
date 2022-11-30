@@ -1,21 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Meinen-2020-Mapping">
+<mods ID="Mondal-2020-Investigating">
     <titleInfo>
-        <title>Mapping erosion and deposition in an agricultural landscape: Optimization of UAV image acquisition schemes for SfM-MVS</title>
+        <title>Investigating Near-Miss Micro-Clones in Evolving Software</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Benjamin</namePart>
-        <namePart type="given">U</namePart>
-        <namePart type="family">Meinen</namePart>
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Derek</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Robinson</namePart>
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,24 +41,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing of Environment, Volume 239</title>
+            <title>Proceedings of the 28th International Conference on Program Comprehension</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Meinen-2020-Mapping</identifier>
-    <identifier type="doi">10.1016/j.rse.2020.111666</identifier>
+    <identifier type="citekey">Mondal-2020-Investigating</identifier>
+    <identifier type="doi">10.1145/3387904.3389262</identifier>
     <location>
         <url>https://aclanthology.org/G20-112001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>239</number></detail>
-        <detail type="page"><number>111666</number></detail>
     </part>
 </mods>
 </modsCollection>

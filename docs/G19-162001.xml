@@ -1,41 +1,118 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sheikholeslami-2019-Global">
+<mods ID="Stewart-2019-Summary">
     <titleInfo>
-        <title>Global sensitivity analysis for high-dimensional problems: How to objectively group factors and measure robustness and convergence while reducing computational cost</title>
+        <title>Summary and synthesis of Changing Cold Regions Network (CCRN) research in the interior of western Canada – Part 1: Projected climate and meteorology</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">Kit</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Szeto</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hoshin</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Gupta</namePart>
+        <namePart type="given">Barrie</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Bonsal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="family">Becker</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hanesiak</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Haghnegahdar</namePart>
+        <namePart type="given">Bohdan</namePart>
+        <namePart type="family">Kochtubajda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">DeBeer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Benita</namePart>
+        <namePart type="given">Y</namePart>
+        <namePart type="family">Tam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhuo</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bruneau</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Patrick</namePart>
+        <namePart type="family">Duplessis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sébastien</namePart>
+        <namePart type="family">Marinier</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dominic</namePart>
+        <namePart type="family">Matte</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -47,27 +124,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 111</title>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 8</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Dynamical earth and environmental systems models are typically computationally intensive and highly parameterized with many uncertain parameters. Together, these characteristics severely limit the applicability of Global Sensitivity Analysis (GSA) to high-dimensional models because very large numbers of model runs are typically required to achieve convergence and provide a robust assessment. Paradoxically, only 30 percent of GSA applications in the environmental modelling literature have investigated models with more than 20 parameters, suggesting that GSA is under-utilized on problems for which it should prove most useful. We develop a novel grouping strategy, based on bootstrap-based clustering, that enables efficient application of GSA to high-dimensional models. We also provide a new measure of robustness that assesses GSA stability and convergence. For two models, having 50 and 111 parameters, we show that grouping-enabled GSA provides results that are highly robust to sampling variability, while converging with a much smaller number of model runs.</abstract>
-    <identifier type="citekey">Sheikholeslami-2019-Global</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2018.09.002</identifier>
+    <abstract>Abstract. The interior of western Canada, up to and including the Arctic, has experienced rapid change in its climate, hydrology, cryosphere, and ecosystems, and this is expected to continue. Although there is general consensus that warming will occur in the future, many critical issues remain. In this first of two articles, attention is placed on atmospheric-related issues that range from large scales down to individual precipitation events. Each of these is considered in terms of expected change organized by season and utilizing mainly “business-as-usual” climate scenario information. Large-scale atmospheric circulations affecting this region are projected to shift differently in each season, with conditions that are conducive to the development of hydroclimate extremes in the domain becoming substantially more intense and frequent after the mid-century. When coupled with warming temperatures, changes in the large-scale atmospheric drivers lead to enhancements of numerous water-related and temperature-related extremes. These include winter snowstorms, freezing rain, drought, forest fires, as well as atmospheric forcing of spring floods, although not necessarily summer convection. Collective insights of these atmospheric findings are summarized in a consistent, connected physical framework.</abstract>
+    <identifier type="citekey">Stewart-2019-Summary</identifier>
+    <identifier type="doi">10.5194/hess-23-3437-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-162001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>111</number></detail>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>8</number></detail>
         <extent unit="page">
-            <start>282</start>
-            <end>299</end>
+            <start>3437</start>
+            <end>3455</end>
         </extent>
     </part>
 </mods>

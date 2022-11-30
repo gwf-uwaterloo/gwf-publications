@@ -1,21 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Biagi-2020-The">
+<mods ID="Budhathoki-2020-Improved">
     <titleInfo>
-        <title>The role of snow processes and hillslopes on runoff generation in present and future climates in a recently constructed watershed in the Athabasca oil sands region</title>
+        <title>Improved modelling of a Prairie catchment using a progressive two-stage calibration strategy with in situ soil moisture and streamflow data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kelly</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Biagi</namePart>
+        <namePart type="given">Sujata</namePart>
+        <namePart type="family">Budhathoki</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
+        <namePart type="given">Prabin</namePart>
+        <namePart type="family">Rokaya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,28 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 34, Issue 17</title>
+            <title>Hydrology Research, Volume 51, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>IWA Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Mine reclamation in the Athabasca oil sands region Canada, is required by law where companies must reconstruct disturbed landscapes into functioning ecosystems such as forests, wetlands and lakes that existed in the Boreal landscape prior to mining. Winter is a major hydrological factor in this region as snow covers the landscape for 5 to 6 months and is ~25% of the annual precipitation, yet few studies have explored the influence of winter processes on the hydrology of constructed watersheds. One year (2017-2018) of intensive snow hydrology measurements are supplemented with six years (2013-2018) of meteorological measurements from the constructed Sandhill Fen Watershed to: 1) understand snow accumulation and redistribution, snowmelt timing, rate and partitioning, 2) apply a physically-based model for simulating winter processes on hillslopes and 3) evaluate the impact of soil prescriptions and climate change projections on winter processes in reclaimed systems. The 2017-2018 snow season was between November and April and SWE ranged between 40-140 mm. Snow distribution was primarily influenced by topography with little influence of snow trapping from developing vegetation. Snow accumulation was most variable on hillslopes and redistribution was driven by slope position, with SWE greatest at the base of slopes and decreased towards crests. Snowmelt on hillslopes was controlled by slope aspect, as snow declined rapidly on west and south-facing slopes, compared to east and north-facing slopes. Unlike results previously reported on constructed uplands, snowmelt runoff from uplands was much less (~30%), highlighting the influence of different construction materials. Model simulations indicate that antecedent soil moisture and soil temperature have a large influence on partitioning snowmelt over a range of observed conditions. Under a warmer and wetter climate, average annual peak SWE and snow season duration could decline up to 52 % and up to 61 days, respectively while snowmelt runoff ceases completely under the warmest scenarios. Results suggest considerable future variability in snowmelt runoff from hillslopes, yet soil properties can be used to enhance vertical or lateral flows.</abstract>
-    <identifier type="citekey">Biagi-2020-The</identifier>
-    <identifier type="doi">10.1002/hyp.13836</identifier>
+    <abstract>Abstract Dynamic contributing areas, various fill-and-spill mechanisms and cold-region processes make the hydrological modelling of the Prairies very challenging. Several models (from simple conceptual to advanced process-based) are available, but the focus has been largely in reproducing streamflow. Few studies have assimilated soil moisture and other hydrological fluxes for improved simulation, but the emphasis has been predominately on simulating contributing areas. However, previous research has shown that the contributing areas are dynamic, and can vary from one year to the next, depending on hydro-meteorological conditions. Therefore, the areas deemed non-contributing can also occasionally contribute to streamflow. In this study, we introduce a progressive two-stage calibration strategy to constrain soil moisture in non-contributing areas. We demonstrate that constraining soil moisture in non-contributing areas can result in improved hydrological simulations and more realistic process representations. The Nash–Sutcliffe efficiency (NSE) values for simulated soil moisture in contributing areas increased by 68% at 20 cm and 25% at 50 cm soil depths during validation when non-contributing areas were constrained. This further led to increases in NSE values in streamflow simulation during calibration (6%) and validation (12%). Our findings suggest that soil moisture in non-contributing areas should be properly constrained for improved modelling of Prairie catchments.</abstract>
+    <identifier type="citekey">Budhathoki-2020-Improved</identifier>
+    <identifier type="doi">10.2166/nh.2020.109</identifier>
     <location>
         <url>https://aclanthology.org/G20-56001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="issue"><number>17</number></detail>
+        <detail type="volume"><number>51</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>3635</start>
-            <end>3655</end>
+            <start>505</start>
+            <end>520</end>
         </extent>
     </part>
 </mods>

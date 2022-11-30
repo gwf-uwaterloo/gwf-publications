@@ -1,19 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="KumarMondal-2021-Large">
+<mods ID="Mondal-2021-FLeCCS:">
     <titleInfo>
-        <title>Large Scale Image Registration Utilizing Data-Tunneling in the MapReduce Cluster</title>
+        <title>FLeCCS: A Technique for Suggesting Fragment-Level Similar Co-change Candidates</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amit</namePart>
-        <namePart type="family">Kumar Mondal</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -21,6 +14,13 @@
     <name type="personal">
         <namePart type="given">Chanchal</namePart>
         <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
         <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -41,26 +41,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Lecture Notes on Data Engineering and Communications Technologies</title>
+            <title>2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Singapore</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kumar Mondal-2021-Large</identifier>
-    <identifier type="doi">10.1007/978-981-16-6636-0_14</identifier>
+    <identifier type="citekey">Mondal-2021-FLeCCS:</identifier>
+    <identifier type="doi">10.1109/icpc52881.2021.00024</identifier>
     <location>
         <url>https://aclanthology.org/G21-24001</url>
     </location>
     <part>
         <date>2021</date>
-        <extent unit="page">
-            <start>167</start>
-            <end>180</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

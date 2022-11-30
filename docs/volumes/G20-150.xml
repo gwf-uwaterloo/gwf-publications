@@ -1,20 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Xiao-2020-Influence">
+<mods ID="Xiao-2020-Development">
     <titleInfo>
-        <title>Influence of wastewater microbial community on the performance of miniaturized microbial fuel cell biosensor</title>
+        <title>Development of a xurographically fabricated miniaturized low-cost, high-performance microbial fuel cell and its application for sensing biological oxygen demand</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Nan</namePart>
         <namePart type="family">Xiao</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,6 +26,14 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2020</dateIssued>
     </originInfo>
@@ -41,7 +41,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Bioresource Technology, Volume 302</title>
+            <title>Sensors and Actuators B: Chemical, Volume 304</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -50,15 +50,15 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Xiao-2020-Influence</identifier>
-    <identifier type="doi">10.1016/j.biortech.2020.122777</identifier>
+    <identifier type="citekey">Xiao-2020-Development</identifier>
+    <identifier type="doi">10.1016/j.snb.2019.127432</identifier>
     <location>
         <url>https://aclanthology.org/G20-150001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>302</number></detail>
-        <detail type="page"><number>122777</number></detail>
+        <detail type="volume"><number>304</number></detail>
+        <detail type="page"><number>127432</number></detail>
     </part>
 </mods>
 </modsCollection>

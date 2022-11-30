@@ -1,63 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wilcox-2019-Tundra">
+<mods ID="Wilkinson-2019-Threshold">
     <titleInfo>
-        <title>Tundra shrub expansion may amplify permafrost thaw by advancing snowmelt timing</title>
+        <title>Threshold peat burn severity breaks evaporation‐limiting feedback</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Evan</namePart>
+        <namePart type="given">Sophie</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Wilkinson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gregory</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Wilcox</namePart>
+        <namePart type="family">Verkaik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Dawn</namePart>
-        <namePart type="family">Keim</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Moore</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tyler</namePart>
-        <namePart type="family">de Jong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Branden</namePart>
-        <namePart type="family">Walker</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anastasia</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Sniderhan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Mann</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philip</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">James</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -69,28 +43,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Arctic Science, Volume 5, Issue 4</title>
+            <title>Ecohydrology, Volume 13, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Canadian Science Publishing</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Wilcox-2019-Tundra</identifier>
-    <identifier type="doi">10.1139/as-2018-0028</identifier>
+    <identifier type="citekey">Wilkinson-2019-Threshold</identifier>
+    <identifier type="doi">10.1002/eco.2168</identifier>
     <location>
         <url>https://aclanthology.org/G19-183001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>5</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>202</start>
-            <end>217</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

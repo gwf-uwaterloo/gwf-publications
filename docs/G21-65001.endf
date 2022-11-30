@@ -1,17 +1,23 @@
 ﻿%0 Journal Article
-%T VISCOUS: A Variance‐Based Sensitivity Analysis Using Copulas for Efficient Identification of Dominant Hydrological Processes
-%A Sheikholeslami, Razi
-%A Gharari, Shervan
-%A Papalexiou, Simon Michael
-%A Clark, Martyn P.
-%J Water Resources Research, Volume 57, Issue 7
+%T Dryline characteristics in North America’s historical and future climates
+%A Scaff, Lucia
+%A Prein, Andreas F.
+%A Li, Yanping
+%A Clark, Adam J.
+%A Krogh, Sebastian A.
+%A Taylor, Neil
+%A Liu, Changhai
+%A Rasmussen, Roy M.
+%A Ikeda, Kyoko
+%A Li, Zhenhua
+%J Climate Dynamics, Volume 57, Issue 7-8
 %D 2021
 %V 57
-%N 7
-%I American Geophysical Union (AGU)
-%F Sheikholeslami-2021-VISCOUS:
-%X Global sensitivity analysis (GSA) has long been recognized as an indispensable tool for model analysis. GSA has been extensively used for model simplification, identifiability analysis, and diagnostic tests. Nevertheless, computationally efficient methodologies are needed for GSA, not only to reduce the computational overhead, but also to improve the quality and robustness of the results. This is especially the case for process-based hydrologic models, as their simulation time typically exceeds the computational resources available for a comprehensive GSA. To overcome this computational barrier, we propose a data-driven method called VISCOUS, variance-based sensitivity analysis using copulas. VISCOUS uses Gaussian mixture copulas to approximate the joint probability density function of a given set of input-output pairs for estimating the variance-based sensitivity indices. Our method identifies dominant hydrologic factors by recycling existing input-output data, and thus can deal with arbitrary sample sets drawn from the input-output space. We used two hydrologic models of increasing complexity (HBV and VIC) to assess the performance of VISCOUS. Our results confirm that VISCOUS and the conventional variance-based method can detect similar important and unimportant factors. Furthermore, the VISCOUS method can substantially reduce the computational cost required for sensitivity analysis. Our proposed method is particularly useful for process-based models with many uncertain parameters, large domain size, and high spatial and temporal resolution.
-%R 10.1029/2020wr028435
+%N 7-8
+%I Springer Science and Business Media LLC
+%F Scaff-2021-Dryline
+%R 10.1007/s00382-021-05800-1
 %U https://aclanthology.org/G21-65001
-%U https://doi.org/10.1029/2020wr028435
+%U https://doi.org/10.1007/s00382-021-05800-1
+%P 2171-2188
 

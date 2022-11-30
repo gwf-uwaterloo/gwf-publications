@@ -1,27 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Liaw-2021-Explaining">
+<mods ID="Savage-2021-Application">
     <titleInfo>
-        <title>Explaining the Shortcomings of Log‐Transforming the Dependent Variable in Regression Models and Recommending a Better Alternative: Evidence From Soil CO \textlesssub\textgreater2\textless/sub\textgreater Emission Studies</title>
+        <title>Application of artificial substrate samplers to assess enrichment of metals of concern by river floodwaters to lakes across the Peace-Athabasca Delta</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kao‐Lee</namePart>
-        <namePart type="family">Liaw</namePart>
+        <namePart type="given">Cory</namePart>
+        <namePart type="given">A.M.</namePart>
+        <namePart type="family">Savage</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Myroslava</namePart>
-        <namePart type="family">Khomik</namePart>
+        <namePart type="given">Tanner</namePart>
+        <namePart type="family">Owca</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Altaf</namePart>
-        <namePart type="family">Arain</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Kay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jelle</namePart>
+        <namePart type="family">Faber</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,25 +57,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Geophysical Research: Biogeosciences, Volume 126, Issue 5</title>
+            <title>Journal of Hydrology: Regional Studies, Volume 38</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Log-transforming the dependent variable of a regression model, though convenient and frequently used, is accompanied by an under-prediction problem. We found that this underprediction can reach up to 20%, which is significant in studies that aim to estimate annual budgets. The fundamental reason for this problem is simply that the log-function is concave, and it has nothing to do with whether the dependent variable has a log-normal distribution or not. Using field-observed data of soil CO2 emission, soil temperature and soil moisture in a saturated-specification of a regression model for predicting emissions, we revealed that the under-predictions of the log-transformed approach were pervasive and systematically biased. The key determinant of the problem’s severity was the coefficient of variation in the dependent variable that differed among different combinations of the values of the explanatory factors. By applying a parsimonious (Gaussian-Gamma) specification of the regression model to data from four different ecosystems, we found that this under-prediction problem was serious to various extents, and that for a relatively weak explanatory factor, the log-transformed approach is prone to yield a physically nonsensical estimated coefficient. Finally, we showed and concluded that the problem can be avoided by switching to the nonlinear approach, which does not require the assumption of homoscedasticity for the error term in computing the standard errors of the estimated coefficients.</abstract>
-    <identifier type="citekey">Liaw-2021-Explaining</identifier>
-    <identifier type="doi">10.1029/2021jg006238</identifier>
+    <abstract>Peace-Athabasca Delta (PAD), northeastern Alberta. Potential for downstream delivery of contaminants via Athabasca River floodwaters to lakes of the PAD has raised local to international concern. Here, we quantify enrichment of eight metals (Be, Cd, Cr, Cu, Ni, Pb, V, Zn) in aquatic biota, relative to sediment-based pre-industrial baselines, via analysis of biofilm-sediment mixtures accrued on artificial substrate samplers deployed during summers of 2017 and 2018 in \textgreater 40 lakes. Widespread flooding in the southern portion of the delta in spring 2018 allows for assessment of metal enrichment by Athabasca River floodwaters. River floodwaters are not implicated as a pathway of metal enrichment to biofilm-sediment mixtures in PAD lakes from upstream sources. MANOVA tests revealed no significant difference in residual concentrations of all eight metals in lakes that did not flood versus lakes that flooded during one or both study years. Also, no enrichment was detected for concentrations of biologically inert metals (Be, Cr, Pb) and those related to oil-sands development (Ni, V). Enrichment of Cd, Cu, and Zn at non-flooded lakes, however, suggests uptake of biologically active metals complicates comparisons of organic-rich biofilm-sediment mixtures to sediment-derived baselines for these metals. Results demonstrate that this novel approach could be adopted for lake monitoring within the federal Action Plan. \bullet Oil sands monitoring of lakes in the Peace-Athabasca Delta needs pre-disturbance data. \bullet Study compares [metals] in biofilm-sediment to [metals] in pre-1920 lake sediment. \bullet Athabasca River floodwaters not implicated as pathway for metal enrichment. \bullet Monitoring framework contributes to Wood Buffalo National Park Action Plan.</abstract>
+    <identifier type="citekey">Savage-2021-Application</identifier>
+    <identifier type="doi">10.1016/j.ejrh.2021.100954</identifier>
     <location>
         <url>https://aclanthology.org/G21-94002</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>126</number></detail>
-        <detail type="issue"><number>5</number></detail>
+        <detail type="volume"><number>38</number></detail>
+        <detail type="page"><number>100954</number></detail>
     </part>
 </mods>
 </modsCollection>

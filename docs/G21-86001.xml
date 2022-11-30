@@ -1,20 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huang-2021-Coupled">
+<mods ID="Gibson-2021-Mapping">
     <titleInfo>
-        <title>Coupled model for water, vapour, heat, stress and strain fields in variably saturated freezing soils</title>
+        <title>Mapping and understanding the vulnerability of northern peatlands to permafrost thaw at scales relevant to community adaptation planning</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Xiang</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Gibson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">David</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Cottenie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">T</namePart>
+        <namePart type="family">Gingras-Hill</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Kokelj</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
         <namePart type="given">L</namePart>
-        <namePart type="family">Rudolph</namePart>
+        <namePart type="family">Baltzer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">L</namePart>
+        <namePart type="family">Chasmer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Turetsky</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,25 +63,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Advances in Water Resources, Volume 154</title>
+            <title>Environmental Research Letters, Volume 16, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>IOP Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Coupled modelling of water flow, heat transfer, water-ice phase change and ice lens formation in deformable, variably saturated freezing soils. \bullet Moisture, vapour, temperature and stress-strain fields significantly interact with each other and should be fully accounted for within the modeling platform. \bullet The large increases in effective stress ahead of the freezing front causes substantial compaction in the unfrozen zone. Although many frost heave and freezing soil models have been developed in the past decades, saturated conditions are commonly assumed and/or the behavior of pore ice rather than ice lenses are conventionally predicted. This study presents a fully coupled thermal-hydraulic-mechanical (THM) model for variably saturated freezing soil, which examines a number of processes. These include heat conduction and convection, phase change, water (moisture) movement through cryosuction, and the development of independent ice lenses. Instead of directly solving for the pore pressure distributions, the void ratio is considered as a dependent variable related to the degree of water saturation. Both the stress-deformation and ice lens segregation are inextricably linked to the evolution of the void ratio as well. The coupled mechanism and performance of the model is first verified by comparison with laboratory freezing experiment observations obtained from literature and then is further evaluated by a series of parametric analyses. The results show that the calculated profiles of temperature, water content and frost heave are in good agreement with literature experimental data, demonstrating that the proposed THM coupling model appropriately represents the mechanisms of heat-moisture-deformation in variably saturated freezing soil. In addition, the sensitivity analysis illustrates that in the test cases considered, thermally-induced cryosuction due to phase change is the main driving force for water migrating towards the freezing front. Also, ahead of the freezing front, a significant increase in effective stress developed due to the elevated negative pore pressure and expansion of ice lenses causing substantial consolidation and reduction in porosity in the unfrozen zone. As the freezing front penetrated with time, the temperature, moisture, vapour and stress-strain fields interact with each other. The distribution of water vapour was mainly controlled by the temperature gradient and location of the freezing front. Both the initial degree of saturation and hydraulic conductivity affected the distribution of pore pressure and displacements. Higher compression moduli and lower overburden load led to greater frost heave but exerted little influence on the temperature field. Finally, the two-sided freezing scenario for soils underlain by permafrost made the middle ice-poor zone highly compacted with ice lenses accumulating near both freezing boundaries.</abstract>
-    <identifier type="citekey">Huang-2021-Coupled</identifier>
-    <identifier type="doi">10.1016/j.advwatres.2021.103945</identifier>
+    <abstract>Abstract Developing spatially explicit permafrost datasets and climate assessments at scales relevant to northern communities is increasingly important as land users and decision makers incorporate changing permafrost conditions in community and adaptation planning. This need is particularly strong within the discontinuous permafrost zone of the Northwest Territories (NWT) Canada where permafrost peatlands are undergoing rapid thaw due to a warming climate. Current data products for predicting landscapes at risk of thaw are generally built at circumpolar scales and do not lend themselves well to fine-scale regional interpretations. Here, we present a new permafrost vulnerability dataset that assesses the degree of permafrost thaw within peatlands across a 750 km latitudinal gradient in the NWT. This updated dataset provides spatially explicit estimates of where peatland thermokarst potential exists, thus making it much more suitable for local, regional or community usage. Within southern peatland complexes, we show that permafrost thaw affects up to 70% of the peatland area and that thaw is strongly mediated by both latitude and elevation, with widespread thaw occuring particularly at low elevations. At the northern end of our latitudinal gradient, peatland permafrost remains climate-protected with relatively little thaw. Collectively these results demonstrate the importance of scale in permafrost analyses and mapping if research is to support northern communities and decision makers in a changing climate. This study offers a more scale-appropriate approach to support community adaptative planning under scenarios of continued warming and widespread permafrost thaw.</abstract>
+    <identifier type="citekey">Gibson-2021-Mapping</identifier>
+    <identifier type="doi">10.1088/1748-9326/abe74b</identifier>
     <location>
         <url>https://aclanthology.org/G21-86001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>154</number></detail>
-        <detail type="page"><number>103945</number></detail>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <detail type="page"><number>055022</number></detail>
     </part>
 </mods>
 </modsCollection>

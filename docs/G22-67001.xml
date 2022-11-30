@@ -1,27 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cheng-2022-Evaluation">
+<mods ID="Zhao-2022-Critical">
     <titleInfo>
-        <title>Evaluation of baseflow separation methods with real and synthetic streamflow data from a watershed</title>
+        <title>Critical evaluation of aptamer binding for biosensor designs</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Siyu</namePart>
-        <namePart type="family">Cheng</namePart>
+        <namePart type="given">Yichen</namePart>
+        <namePart type="family">Zhao</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xin</namePart>
-        <namePart type="family">Tong</namePart>
+        <namePart type="given">Kayvan</namePart>
+        <namePart type="family">Yavari</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Walter</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Illman</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,7 +32,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 613</title>
+            <title>TrAC Trends in Analytical Chemistry, Volume 146</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -42,16 +41,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Performance of graphical &amp; digital filter baseflow separation methods are compared. \bullet Methods are compared using real data with a subjective concept of hydrologic plausibility. \bullet Synthetic data from an integrated hydrologic model used for more rigorous assessments. \bullet Estimated baseflow hydrographs reveal seasonal variability. \bullet Filtered UKIH approach works best for most study locations but depends spatially. Baseflow originating primarily from groundwater is a critical streamflow component, although its accurate estimation is fraught with significant difficulties. This study estimates baseflow through existing graphical and digital filter methods, using actual streamflow data from a gauging station at the Alder Creek Watershed (ACW) and synthetic streamflow data at ten study locations within the same watershed simulated with HydroGeoSphere (HGS) (Aquanty Inc., 2018). There are four widely used graphical (Institute for Hydrology, 1980; Sloto and Crouse, 1996; Aksoy et al., 2008) and six digital filtering (Lyne and Hollick, 1979; Chapman and Maxwell, 1996; Furey and Gupta, 2001; Eckhardt, 2005; Tularam and Ilahee, 2008; Aksoy et al., 2009) baseflow separation approaches compared in this study. To determine the most optimal approach, baseflow estimates from real data are assessed based on the subjective concept of hydrologic plausibility, while baseflow estimates obtained from a HGS streamflow record with graphical and digital filtering methods are compared to those computed directly by HGS. Overall, results from this study indicate that baseflow hydrographs reveal a seasonal pattern at the ACW. During wintertime, streamflow is composed almost entirely of baseflow, whereas during summertime, baseflow only consists approximately 20% to 60% of streamflow. After comparing baseflow estimates with those computed by HGS, the most optimal approaches at the ten study locations are assessed. Results show that the best approach at six study locations is the FUKIH (Aksoy et al., 2009) approach, while at three locations, the Chapman and Maxwell (1996) approach and for one location, the Eckhardt (2005) approach performed the best. In conclusion, it is inferred that the most optimal approach within the ACW varies spatially.</abstract>
-    <identifier type="citekey">Cheng-2022-Evaluation</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2022.128279</identifier>
+    <abstract>Over the last three decades, numerous aptamer-based biosensors have been reported. The basis of these sensors is the selective binding of target analytes by aptamers. In the last few years, a number of papers have been published questioning the binding ability of some popular aptamers such as those documented for As(III), ampicillin, chloramphenicol, isocarbophos, phorate and dopamine. In this article, these papers are reviewed, and the binding assays are described, which may provide possible reasons for obtaining false positive aptamers. Additionally, relevant aptamer selection methods and typical characterization steps are described. It is found that for small molecular targets, using an immobilized library might result in better aptamers. Furthermore, the importance of carefully designed controls to ensure the quality of binding assays is discussed, especially in the case of mutated nonbinding aptamers. Only then, with fully validated aptamers, can subsequent biosensor design bring about meaningful results. \bullet The first critical review of the literature on aptamers that were proven to be non-binding sequences. \bullet Five different aptamers for various small molecules reviewed. \bullet Possible reasons for the generation of such non-binding aptamer sequences proposed and methods to avoid them described.</abstract>
+    <identifier type="citekey">Zhao-2022-Critical</identifier>
+    <identifier type="doi">10.1016/j.trac.2021.116480</identifier>
     <location>
         <url>https://aclanthology.org/G22-67001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>613</number></detail>
-        <detail type="page"><number>128279</number></detail>
+        <detail type="volume"><number>146</number></detail>
+        <detail type="page"><number>116480</number></detail>
     </part>
 </mods>
 </modsCollection>

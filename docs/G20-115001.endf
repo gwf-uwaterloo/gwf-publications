@@ -1,16 +1,17 @@
 ﻿%0 Journal Article
-%T A survey on clone refactoring and tracking
-%A Mondal, Manishankar
+%T A universal cross language software similarity detector for open source software categorization
+%A Nafi, Kawser Wazed
+%A Roy, Banani
 %A Roy, Chanchal K.
 %A Schneider, Kevin A.
-%J Journal of Systems and Software, Volume 159
+%J Journal of Systems and Software, Volume 162
 %D 2020
-%V 159
+%V 162
 %I Elsevier BV
-%F Mondal-2020-A
-%X Abstract Code clones, identical or nearly similar code fragments in a software system’s code-base, have mixed impacts on software evolution and maintenance. Focusing on the issues of clones researchers suggest managing them through refactoring, and tracking. In this paper we present a survey on the state-of-the-art of clone refactoring and tracking techniques, and identify future research possibilities in these areas. We define the quality assessment features for the clone refactoring and tracking tools, and make a comparison among these tools considering these features. To the best of our knowledge, our survey is the first comprehensive study on clone refactoring and tracking. According to our survey on clone refactoring we realize that automatic refactoring cannot eradicate the necessity of manual effort regarding finding refactoring opportunities, and post refactoring testing of system behaviour. Post refactoring testing can require a significant amount of time and effort from the quality assurance engineers. There is a marked lack of research on the effect of clone refactoring on system performance. Future investigations in this direction will add much value to clone refactoring research. We also feel the necessity of future research towards real-time detection, and tracking of code clones in a big-data environment.
-%R 10.1016/j.jss.2019.110429
+%F Nafi-2020-A
+%X Abstract While there are novel approaches for detecting and categorizing similar software applications, previous research focused on detecting similarity in applications written in the same programming language and not on detecting similarity in applications written in different programming languages. Cross-language software similarity detection is inherently more challenging due to variations in language, application structures, support libraries used, and naming conventions. In this paper we propose a novel model, CroLSim, to detect similar software applications across different programming languages. We define a semantic relationship among cross-language libraries and API methods (both local and third party) using functional descriptions and a word-vector learning model. Our experiments show that CroLSim can successfully detect cross-language similar software applications, which outperforms all existing approaches (mean average precision rate of 0.65, confidence rate of 3.6, and 75% highly rated successful queries). Furthermore, we applied CroLSim to a source code repository to see whether our model can recommend cross-language source code fragments if queried directly with source code. From our experiments we found that CroLSim can recommend cross-language functional similar source code when source code is directly used as a query (average precision=0.28, recall=0.85, and F-Measure=0.40).
+%R 10.1016/j.jss.2019.110491
 %U https://aclanthology.org/G20-115001
-%U https://doi.org/10.1016/j.jss.2019.110429
-%P 110429
+%U https://doi.org/10.1016/j.jss.2019.110491
+%P 110491
 

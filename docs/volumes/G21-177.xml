@@ -1,40 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Tan-2021-Moisture">
+<mods ID="Shea-2021-The">
     <titleInfo>
-        <title>Moisture budget analysis of extreme precipitation associated with different types of atmospheric rivers over western North America</title>
+        <title>The Role of Basin Geometry in Mountain Snowpack Responses to Climate Change</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yaheng</namePart>
-        <namePart type="family">Tan</namePart>
+        <namePart type="given">Joseph</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Shea</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Song</namePart>
-        <namePart type="family">Yang</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Whitfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Xing</namePart>
+        <namePart type="family">Fang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ziqian</namePart>
-        <namePart type="family">Wang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Qiaohong</namePart>
-        <namePart type="family">Sun</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,28 +42,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climate Dynamics, Volume 58, Issue 3-4</title>
+            <title>Frontiers in Water, Volume 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Frontiers Media SA</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Tan-2021-Moisture</identifier>
-    <identifier type="doi">10.1007/s00382-021-05933-3</identifier>
+    <identifier type="citekey">Shea-2021-The</identifier>
+    <identifier type="doi">10.3389/frwa.2021.604275</identifier>
     <location>
         <url>https://aclanthology.org/G21-177001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>58</number></detail>
-        <detail type="issue"><number>3-4</number></detail>
-        <extent unit="page">
-            <start>793</start>
-            <end>809</end>
-        </extent>
+        <detail type="volume"><number>3</number></detail>
     </part>
 </mods>
 </modsCollection>

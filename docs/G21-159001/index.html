@@ -1,78 +1,737 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada" name=citation_title><meta content="Jessica I. Zugic" name=citation_author><meta content="Michael F. J. Pisaric" name=citation_author><meta content="Shawn M. McKenzie" name=citation_author><meta content="William C. Parker" name=citation_author><meta content="Ken A. Elliott" name=citation_author><meta content="M. Altaf Arain" name=citation_author><meta content="Frontiers in Forests and Global Change, Volume 4" name=citation_journal_title><meta content="4" name=citation_volume><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf" name=citation_pdf_url><meta content="10.3389/ffgc.2021.725890" name=citation_doi><meta property="og:title" content="The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-159001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-159001"><meta property="og:description" content="Jessica I. Zugic, Michael F. J. Pisaric, Shawn M. McKenzie, William C. Parker, Ken A. Elliott, M. Altaf Arain. Frontiers in Forests and Global Change, Volume 4. 2021."><link rel=canonical href=https://aclanthology.org/G21-159001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data" name=citation_title><meta content="Gilberto Pastorello" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Eleonora Canfora" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Danielle Christianson" name=citation_author><meta content="You-Wei Cheah" name=citation_author><meta content="Cristina Poindexter" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Abdelrahman Elbashandy" name=citation_author><meta content="Marty Humphrey" name=citation_author><meta content="Peter Isaac" name=citation_author><meta content="Diego Polidori" name=citation_author><meta content="Markus Reichstein" name=citation_author><meta content="Alessio Ribeca" name=citation_author><meta content="Catharine van Ingen" name=citation_author><meta content="Nicolas Vuichard" name=citation_author><meta content="Leiming Zhang" name=citation_author><meta content="Brian Amiro" name=citation_author><meta content="Christof Ammann" name=citation_author><meta content="M. Altaf Arain" name=citation_author><meta content="Jonas Ardö" name=citation_author><meta content="Timothy Arkebauer" name=citation_author><meta content="Stefan K. Arndt" name=citation_author><meta content="Nicola Arriga" name=citation_author><meta content="Marc Aubinet" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Alan Barr" name=citation_author><meta content="Eric Beamesderfer" name=citation_author><meta content="Luca Belelli Marchesini" name=citation_author><meta content="Onil Bergeron" name=citation_author><meta content="Jason Beringer" name=citation_author><meta content="Christian Bernhofer" name=citation_author><meta content="Daniel Berveiller" name=citation_author><meta content="Dave Billesbach" name=citation_author><meta content="Thomas Andrew Black" name=citation_author><meta content="Peter D. Blanken" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Paul V. Bolstad" name=citation_author><meta content="Damien Bonal" name=citation_author><meta content="Jean-Marc Bonnefond" name=citation_author><meta content="David R. Bowling" name=citation_author><meta content="Rosvel Bracho" name=citation_author><meta content="Jason Brodeur" name=citation_author><meta content="Christian Brümmer" name=citation_author><meta content="Nina Buchmann" name=citation_author><meta content="Benoit Burban" name=citation_author><meta content="Sean P. Burns" name=citation_author><meta content="Pauline Buysse" name=citation_author><meta content="Peter Cale" name=citation_author><meta content="Mauro Cavagna" name=citation_author><meta content="Pierre Cellier" name=citation_author><meta content="Shiping Chen" name=citation_author><meta content="Isaac Chini" name=citation_author><meta content="Torben R. Christensen" name=citation_author><meta content="James Cleverly" name=citation_author><meta content="Alessio Collalti" name=citation_author><meta content="Claudia Consalvo" name=citation_author><meta content="Bruce D. Cook" name=citation_author><meta content="David Cook" name=citation_author><meta content="Carole Coursolle" name=citation_author><meta content="Edoardo Cremonese" name=citation_author><meta content="Peter S. Curtis" name=citation_author><meta content="Ettore D’Andrea" name=citation_author><meta content="Humberto da Rocha" name=citation_author><meta content="Xiaoqin Dai" name=citation_author><meta content="Kenneth J. Davis" name=citation_author><meta content="Bruno De Cinti" name=citation_author><meta content="Agnes de Grandcourt" name=citation_author><meta content="Anne De Ligne" name=citation_author><meta content="Raimundo C. De Oliveira" name=citation_author><meta content="Nicolas Delpierre" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Carlos Marcelo Di Bella" name=citation_author><meta content="Paul di Tommasi" name=citation_author><meta content="Han Dolman" name=citation_author><meta content="Francisco Domingo" name=citation_author><meta content="Gang Dong" name=citation_author><meta content="Sabina Dore" name=citation_author><meta content="Pierpaolo Duce" name=citation_author><meta content="Eric Dufrêne" name=citation_author><meta content="Allison Dunn" name=citation_author><meta content="Jiří Dušek" name=citation_author><meta content="Derek Eamus" name=citation_author><meta content="Uwe Eichelmann" name=citation_author><meta content="Hatim Abdalla M. ElKhidir" name=citation_author><meta content="Werner Eugster" name=citation_author><meta content="Cacilia M. Ewenz" name=citation_author><meta content="Brent Ewers" name=citation_author><meta content="Daniela Famulari" name=citation_author><meta content="Silvano Fares" name=citation_author><meta content="Iris Feigenwinter" name=citation_author><meta content="Andrew Feitz" name=citation_author><meta content="Rasmus Fensholt" name=citation_author><meta content="Gianluca Filippa" name=citation_author><meta content="Marc Fischer" name=citation_author><meta content="John Frank" name=citation_author><meta content="Marta Galvagno" name=citation_author><meta content="Mana Gharun" name=citation_author><meta content="Damiano Gianelle" name=citation_author><meta content="Bert Gielen" name=citation_author><meta content="Beniamino Gioli" name=citation_author><meta content="Anatoly Gitelson" name=citation_author><meta content="Ignacio Goded" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Allen H. Goldstein" name=citation_author><meta content="Christopher M. Gough" name=citation_author><meta content="Michael L. Goulden" name=citation_author><meta content="Alexander Graf" name=citation_author><meta content="Anne Griebel" name=citation_author><meta content="Carsten Gruening" name=citation_author><meta content="Thomas Grünwald" name=citation_author><meta content="Albin Hammerle" name=citation_author><meta content="Shijie Han" name=citation_author><meta content="Xingguo Han" name=citation_author><meta content="Birger Ulf Hansen" name=citation_author><meta content="Chad Hanson" name=citation_author><meta content="Juha Hatakka" name=citation_author><meta content="Yongtao He" name=citation_author><meta content="Markus Hehn" name=citation_author><meta content="Bernard Heinesch" name=citation_author><meta content="Nina Hinko-Najera" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Lindsay Hutley" name=citation_author><meta content="Andreas Ibrom" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Marcin Jackowicz-Korczynski" name=citation_author><meta content="Dalibor Janouš" name=citation_author><meta content="Wilma Jans" name=citation_author><meta content="Rachhpal Jassal" name=citation_author><meta content="Shicheng Jiang" name=citation_author><meta content="Tomomichi Kato" name=citation_author><meta content="Myroslava Khomik" name=citation_author><meta content="Janina Klatt" name=citation_author><meta content="Alexander Knohl" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Georgia Koerber" name=citation_author><meta content="Olaf Kolle" name=citation_author><meta content="Yoshiko Kosugi" name=citation_author><meta content="Ayumi Kotani" name=citation_author><meta content="Andrew Kowalski" name=citation_author><meta content="Bart Kruijt" name=citation_author><meta content="Julia Kurbatova" name=citation_author><meta content="Werner L. Kutsch" name=citation_author><meta content="Hyojung Kwon" name=citation_author><meta content="Samuli Launiainen" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="Bev Law" name=citation_author><meta content="Ray Leuning" name=citation_author><meta content="Yingnian Li" name=citation_author><meta content="Michael Liddell" name=citation_author><meta content="Jean-Marc Limousin" name=citation_author><meta content="Marryanna Lion" name=citation_author><meta content="Adam J. Liska" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ana López-Ballesteros" name=citation_author><meta content="Efrén López-Blanco" name=citation_author><meta content="Benjamin Loubet" name=citation_author><meta content="Denis Loustau" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Johannes Lüers" name=citation_author><meta content="Siyan Ma" name=citation_author><meta content="Craig Macfarlane" name=citation_author><meta content="Vincenzo Magliulo" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Giovanni Manca" name=citation_author><meta content="Barbara Marcolla" name=citation_author><meta content="Hank A. Margolis" name=citation_author><meta content="Serena Marras" name=citation_author><meta content="William Massman" name=citation_author><meta content="Mikhail Mastepanov" name=citation_author><meta content="Roser Matamala" name=citation_author><meta content="Jaclyn Hatala Matthes" name=citation_author><meta content="Francesco Mazzenga" name=citation_author><meta content="Harry McCaughey" name=citation_author><meta content="Ian McHugh" name=citation_author><meta content="Andrew M. S. McMillan" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Wayne Meyer" name=citation_author><meta content="Tilden Meyers" name=citation_author><meta content="Scott D. Miller" name=citation_author><meta content="Stefano Minerbi" name=citation_author><meta content="Uta Moderow" name=citation_author><meta content="Russell K. Monson" name=citation_author><meta content="Leonardo Montagnani" name=citation_author><meta content="Caitlin E. Moore" name=citation_author><meta content="Eddy Moors" name=citation_author><meta content="Virginie Moreaux" name=citation_author><meta content="Christine Moureaux" name=citation_author><meta content="J. William Munger" name=citation_author><meta content="Taro Nakai" name=citation_author><meta content="Johan Neirynck" name=citation_author><meta content="Zoran Nesic" name=citation_author><meta content="Giacomo Nicolini" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthew Northwood" name=citation_author><meta content="Marcelo Nosetto" name=citation_author><meta content="Yann Nouvellon" name=citation_author><meta content="Kimberly Novick" name=citation_author><meta content="Walter Oechel" name=citation_author><meta content="Jørgen Eivind Olesen" name=citation_author><meta content="Jean-Marc Ourcival" name=citation_author><meta content="Shirley A. Papuga" name=citation_author><meta content="Frans-Jan Parmentier" name=citation_author><meta content="Eugenie Paul-Limoges" name=citation_author><meta content="Marian Pavelka" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Elise Pendall" name=citation_author><meta content="Richard P. Phillips" name=citation_author><meta content="Kim Pilegaard" name=citation_author><meta content="Norbert Pirk" name=citation_author><meta content="Gabriela Posse" name=citation_author><meta content="Thomas Powell" name=citation_author><meta content="Heiko Prasse" name=citation_author><meta content="Suzanne M. Prober" name=citation_author><meta content="Serge Rambal" name=citation_author><meta content="Üllar Rannik" name=citation_author><meta content="Naama Raz-Yaseef" name=citation_author><meta content="Corinna Rebmann" name=citation_author><meta content="David Reed" name=citation_author><meta content="Victor Resco de Dios" name=citation_author><meta content="Natalia Restrepo-Coupe" name=citation_author><meta content="Borja R. Reverter" name=citation_author><meta content="Marilyn Roland" name=citation_author><meta content="Simone Sabbatini" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Scott R. Saleska" name=citation_author><meta content="Enrique P. Sánchez-Cañete" name=citation_author><meta content="Zulia M. Sanchez-Mejia" name=citation_author><meta content="Hans Peter Schmid" name=citation_author><meta content="Marius Schmidt" name=citation_author><meta content="Karl Schneider" name=citation_author><meta content="Frederik Schrader" name=citation_author><meta content="Ivan Schroder" name=citation_author><meta content="Russell L. Scott" name=citation_author><meta content="Pavel Sedlák" name=citation_author><meta content="Penélope Serrano-Ortíz" name=citation_author><meta content="Changliang Shao" name=citation_author><meta content="Peili Shi" name=citation_author><meta content="Ivan Shironya" name=citation_author><meta content="Lukas Siebicke" name=citation_author><meta content="Ladislav Šigut" name=citation_author><meta content="Richard Silberstein" name=citation_author><meta content="Costantino Sirca" name=citation_author><meta content="Donatella Spano" name=citation_author><meta content="Rainer Steinbrecher" name=citation_author><meta content="Robert M. Stevens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Andy Suyker" name=citation_author><meta content="Torbern Tagesson" name=citation_author><meta content="Satoru Takanashi" name=citation_author><meta content="Yanhong Tang" name=citation_author><meta content="Nigel Tapper" name=citation_author><meta content="Jonathan Thom" name=citation_author><meta content="Michele Tomassucci" name=citation_author><meta content="Juha-Pekka Tuovinen" name=citation_author><meta content="Shawn Urbanski" name=citation_author><meta content="Riccardo Valentini" name=citation_author><meta content="Michiel van der Molen" name=citation_author><meta content="Eva van Gorsel" name=citation_author><meta content="Ko van Huissteden" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joseph Verfaillie" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Caroline Vincke" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="Natalia Vygodskaya" name=citation_author><meta content="Jeffrey P. Walker" name=citation_author><meta content="Elizabeth Walter-Shea" name=citation_author><meta content="Huimin Wang" name=citation_author><meta content="Robin Weber" name=citation_author><meta content="Sebastian Westermann" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Steven Wofsy" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Sebastian Wolf" name=citation_author><meta content="William Woodgate" name=citation_author><meta content="Yuelin Li" name=citation_author><meta content="Roberto Zampedri" name=citation_author><meta content="Junhui Zhang" name=citation_author><meta content="Guoyi Zhou" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Deb Agarwal" name=citation_author><meta content="Sebastien Biraud" name=citation_author><meta content="Margaret Torn" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Scientific Data, Volume 8, Issue 1" name=citation_journal_title><meta content="8" name=citation_volume><meta content="1" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf" name=citation_pdf_url><meta content="10.1038/s41597-021-00851-9" name=citation_doi><meta property="og:title" content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-159001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-159001"><meta property="og:description" content="Gilberto Pastorello, Carlo Trotta, Eleonora Canfora, Housen Chu, Danielle Christianson, You-Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian Amiro, Christof Ammann, M. Altaf Arain, Jonas Ardö, Timothy Arkebauer, Stefan K. Arndt, Nicola Arriga, Marc Aubinet, Mika Aurela, Dennis Baldocchi, Alan Barr, Eric Beamesderfer, Luca Belelli Marchesini, Onil Bergeron, Jason Beringer, Christian Bernhofer, Daniel Berveiller, Dave Billesbach, Thomas Andrew Black, Peter D. Blanken, Gil Bohrer, Julia Boike, Paul V. Bolstad, Damien Bonal, Jean-Marc Bonnefond, David R. Bowling, Rosvel Bracho, Jason Brodeur, Christian Brümmer, Nina Buchmann, Benoit Burban, Sean P. Burns, Pauline Buysse, Peter Cale, Mauro Cavagna, Pierre Cellier, Shiping Chen, Isaac Chini, Torben R. Christensen, James Cleverly, Alessio Collalti, Claudia Consalvo, Bruce D. Cook, David Cook, Carole Coursolle, Edoardo Cremonese, Peter S. Curtis, Ettore D’Andrea, Humberto da Rocha, Xiaoqin Dai, Kenneth J. Davis, Bruno De Cinti, Agnes de Grandcourt, Anne De Ligne, Raimundo C. De Oliveira, Nicolas Delpierre, Ankur R. Desai, Carlos Marcelo Di Bella, Paul di Tommasi, Han Dolman, Francisco Domingo, Gang Dong, Sabina Dore, Pierpaolo Duce, Eric Dufrêne, Allison Dunn, Jiří Dušek, Derek Eamus, Uwe Eichelmann, Hatim Abdalla M. ElKhidir, Werner Eugster, Cacilia M. Ewenz, Brent Ewers, Daniela Famulari, Silvano Fares, Iris Feigenwinter, Andrew Feitz, Rasmus Fensholt, Gianluca Filippa, Marc Fischer, John Frank, Marta Galvagno, Mana Gharun, Damiano Gianelle, Bert Gielen, Beniamino Gioli, Anatoly Gitelson, Ignacio Goded, Mathias Goeckede, Allen H. Goldstein, Christopher M. Gough, Michael L. Goulden, Alexander Graf, Anne Griebel, Carsten Gruening, Thomas Grünwald, Albin Hammerle, Shijie Han, Xingguo Han, Birger Ulf Hansen, Chad Hanson, Juha Hatakka, Yongtao He, Markus Hehn, Bernard Heinesch, Nina Hinko-Najera, Lukas Hörtnagl, Lindsay Hutley, Andreas Ibrom, Hiroki Ikawa, Marcin Jackowicz-Korczynski, Dalibor Janouš, Wilma Jans, Rachhpal Jassal, Shicheng Jiang, Tomomichi Kato, Myroslava Khomik, Janina Klatt, Alexander Knohl, Sara Knox, Hideki Kobayashi, Georgia Koerber, Olaf Kolle, Yoshiko Kosugi, Ayumi Kotani, Andrew Kowalski, Bart Kruijt, Julia Kurbatova, Werner L. Kutsch, Hyojung Kwon, Samuli Launiainen, Tuomas Laurila, Bev Law, Ray Leuning, Yingnian Li, Michael Liddell, Jean-Marc Limousin, Marryanna Lion, Adam J. Liska, Annalea Lohila, Ana López-Ballesteros, Efrén López-Blanco, Benjamin Loubet, Denis Loustau, Antje Lucas-Moffat, Johannes Lüers, Siyan Ma, Craig Macfarlane, Vincenzo Magliulo, Regine Maier, Ivan Mammarella, Giovanni Manca, Barbara Marcolla, Hank A. Margolis, Serena Marras, William Massman, Mikhail Mastepanov, Roser Matamala, Jaclyn Hatala Matthes, Francesco Mazzenga, Harry McCaughey, Ian McHugh, Andrew M. S. McMillan, Lutz Merbold, Wayne Meyer, Tilden Meyers, Scott D. Miller, Stefano Minerbi, Uta Moderow, Russell K. Monson, Leonardo Montagnani, Caitlin E. Moore, Eddy Moors, Virginie Moreaux, Christine Moureaux, J. William Munger, Taro Nakai, Johan Neirynck, Zoran Nesic, Giacomo Nicolini, Asko Noormets, Matthew Northwood, Marcelo Nosetto, Yann Nouvellon, Kimberly Novick, Walter Oechel, Jørgen Eivind Olesen, Jean-Marc Ourcival, Shirley A. Papuga, Frans-Jan Parmentier, Eugenie Paul-Limoges, Marian Pavelka, Matthias Peichl, Elise Pendall, Richard P. Phillips, Kim Pilegaard, Norbert Pirk, Gabriela Posse, Thomas Powell, Heiko Prasse, Suzanne M. Prober, Serge Rambal, Üllar Rannik, Naama Raz-Yaseef, Corinna Rebmann, David Reed, Victor Resco de Dios, Natalia Restrepo-Coupe, Borja R. Reverter, Marilyn Roland, Simone Sabbatini, Torsten Sachs, Scott R. Saleska, Enrique P. Sánchez-Cañete, Zulia M. Sanchez-Mejia, Hans Peter Schmid, Marius Schmidt, Karl Schneider, Frederik Schrader, Ivan Schroder, Russell L. Scott, Pavel Sedlák, Penélope Serrano-Ortíz, Changliang Shao, Peili Shi, Ivan Shironya, Lukas Siebicke, Ladislav Šigut, Richard Silberstein, Costantino Sirca, Donatella Spano, Rainer Steinbrecher, Robert M. Stevens, Cove Sturtevant, Andy Suyker, Torbern Tagesson, Satoru Takanashi, Yanhong Tang, Nigel Tapper, Jonathan Thom, Michele Tomassucci, Juha-Pekka Tuovinen, Shawn Urbanski, Riccardo Valentini, Michiel van der Molen, Eva van Gorsel, Ko van Huissteden, Andrej Varlagin, Joseph Verfaillie, Timo Vesala, Caroline Vincke, Domenico Vitale, Natalia Vygodskaya, Jeffrey P. Walker, Elizabeth Walter-Shea, Huimin Wang, Robin Weber, Sebastian Westermann, Christian Wille, Steven Wofsy, Georg Wohlfahrt, Sebastian Wolf, William Woodgate, Yuelin Li, Roberto Zampedri, Junhui Zhang, Guoyi Zhou, Donatella Zona, Deb Agarwal, Sebastien Biraud, Margaret Torn, Dario Papale. Scientific Data, Volume 8, Issue 1. 2021."><link rel=canonical href=https://aclanthology.org/G21-159001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
 <span class="d-none d-md-inline pl-md-2">GWF Publications</span></a>
 <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf>The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada</a></h2><p class=lead><a href=/gwf-publications/people/J/Jessica-I-Zugic/>Jessica I. Zugic</a>,
-<a href=/gwf-publications/people/M/Michael-F-J-Pisaric/>Michael F. J. Pisaric</a>,
-<a href=/gwf-publications/people/S/Shawn-M-McKenzie/>Shawn M. McKenzie</a>,
-<a href=/gwf-publications/people/W/William-C-Parker/>William C. Parker</a>,
-<a href=/gwf-publications/people/K/Ken-A-Elliott/>Ken A. Elliott</a>,
-<a href=/gwf-publications/people/M/M-Altaf-Arain/>M. Altaf Arain</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>As atmospheric carbon dioxide concentrations continue to rise and global temperatures increase, there is growing concern about the sustainability, health, and carbon sequestration potential of forest ecosystems. Variable retention harvesting (VRH) has been suggested to be a potential method to increase forest biodiversity, growth, and carbon (C) sequestration. A field trial was established in an 88-year-old red pine ( Pinus resinosa Ait.) plantation in southern Ontario, Canada, using a completely randomized design to examine the response of tree productivity and other forest values to five harvesting treatments: 33% aggregate retention (33A), 55% aggregate retention (55A), 33% dispersed retention (33D), and 55% dispersed retention (55D) in comparison to an unharvested control (CN). In this study, we explored the impacts of VRH on aboveground stem radial growth and annual C increment. Standard dendrochronological methods and allometric equations were used to quantify tree- and stand-level treatment effects during a five-year pre-harvest (2009–2013) and post-harvest (2014–2018) period. Tree-level growth and C increment were increased by the dispersed retention pattern regardless of retention level. At the stand level, the total C increment was highest at greater retention levels and did not vary with retention pattern. These results suggest that the choice of retention level and pattern can have a large influence on management objectives as they relate to timber production, climate change adaptation, and/or climate change mitigation.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jessica I. Zugic, Michael F. J. Pisaric, Shawn M. McKenzie, William C. Parker, Ken A. Elliott, and M. Altaf Arain. 2021. <a href=https://aclanthology.org/G21-159001>The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada</a>. <i>Frontiers in Forests and Global Change, Volume 4</i>, 4.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a></h2><p class=lead><a href=/gwf-publications/people/G/Gilberto-Pastorello/>Gilberto Pastorello</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/>Carlo Trotta</a>,
+<a href=/gwf-publications/people/E/Eleonora-Canfora/>Eleonora Canfora</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/>Housen Chu</a>,
+<a href=/gwf-publications/people/D/Danielle-Christianson/>Danielle Christianson</a>,
+<a href=/gwf-publications/people/Y/You-Wei-Cheah/>You-Wei Cheah</a>,
+<a href=/gwf-publications/people/C/Cristina-Poindexter/>Cristina Poindexter</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/>Jiquan Chen</a>,
+<a href=/gwf-publications/people/A/Abdelrahman-Elbashandy/>Abdelrahman Elbashandy</a>,
+<a href=/gwf-publications/people/M/Marty-Humphrey/>Marty Humphrey</a>,
+<a href=/gwf-publications/people/P/Peter-Isaac/>Peter Isaac</a>,
+<a href=/gwf-publications/people/D/Diego-Polidori/>Diego Polidori</a>,
+<a href=/gwf-publications/people/M/Markus-Reichstein/>Markus Reichstein</a>,
+<a href=/gwf-publications/people/A/Alessio-Ribeca/>Alessio Ribeca</a>,
+<a href=/gwf-publications/people/C/Catharine-van-Ingen/>Catharine van Ingen</a>,
+<a href=/gwf-publications/people/N/Nicolas-Vuichard/>Nicolas Vuichard</a>,
+<a href=/gwf-publications/people/L/Leiming-Zhang/>Leiming Zhang</a>,
+<a href=/gwf-publications/people/B/Brian-Amiro/>Brian Amiro</a>,
+<a href=/gwf-publications/people/C/Christof-Ammann/>Christof Ammann</a>,
+<a href=/gwf-publications/people/M/M-Altaf-Arain/>M. Altaf Arain</a>,
+<a href=/gwf-publications/people/J/Jonas-Ard%C3%B6/>Jonas Ardö</a>,
+<a href=/gwf-publications/people/T/Timothy-Arkebauer/>Timothy Arkebauer</a>,
+<a href=/gwf-publications/people/S/Stefan-K-Arndt/>Stefan K. Arndt</a>,
+<a href=/gwf-publications/people/N/Nicola-Arriga/>Nicola Arriga</a>,
+<a href=/gwf-publications/people/M/Marc-Aubinet/>Marc Aubinet</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/>Mika Aurela</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/A/Alan-Barr/>Alan Barr</a>,
+<a href=/gwf-publications/people/E/Eric-Beamesderfer/>Eric Beamesderfer</a>,
+<a href=/gwf-publications/people/L/Luca-Belelli-Marchesini/>Luca Belelli Marchesini</a>,
+<a href=/gwf-publications/people/O/Onil-Bergeron/>Onil Bergeron</a>,
+<a href=/gwf-publications/people/J/Jason-Beringer/>Jason Beringer</a>,
+<a href=/gwf-publications/people/C/Christian-Bernhofer/>Christian Bernhofer</a>,
+<a href=/gwf-publications/people/D/Daniel-Berveiller/>Daniel Berveiller</a>,
+<a href=/gwf-publications/people/D/Dave-Billesbach/>Dave Billesbach</a>,
+<a href=/gwf-publications/people/T/Thomas-Andrew-Black/>Thomas Andrew Black</a>,
+<a href=/gwf-publications/people/P/Peter-D-Blanken/>Peter D. Blanken</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/>Gil Bohrer</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/>Julia Boike</a>,
+<a href=/gwf-publications/people/P/Paul-V-Bolstad/>Paul V. Bolstad</a>,
+<a href=/gwf-publications/people/D/Damien-Bonal/>Damien Bonal</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Bonnefond/>Jean-Marc Bonnefond</a>,
+<a href=/gwf-publications/people/D/David-R-Bowling/>David R. Bowling</a>,
+<a href=/gwf-publications/people/R/Rosvel-Bracho/>Rosvel Bracho</a>,
+<a href=/gwf-publications/people/J/Jason-Brodeur/>Jason Brodeur</a>,
+<a href=/gwf-publications/people/C/Christian-Br%C3%BCmmer/>Christian Brümmer</a>,
+<a href=/gwf-publications/people/N/Nina-Buchmann/>Nina Buchmann</a>,
+<a href=/gwf-publications/people/B/Benoit-Burban/>Benoit Burban</a>,
+<a href=/gwf-publications/people/S/Sean-P-Burns/>Sean P. Burns</a>,
+<a href=/gwf-publications/people/P/Pauline-Buysse/>Pauline Buysse</a>,
+<a href=/gwf-publications/people/P/Peter-Cale/>Peter Cale</a>,
+<a href=/gwf-publications/people/M/Mauro-Cavagna/>Mauro Cavagna</a>,
+<a href=/gwf-publications/people/P/Pierre-Cellier/>Pierre Cellier</a>,
+<a href=/gwf-publications/people/S/Shiping-Chen/>Shiping Chen</a>,
+<a href=/gwf-publications/people/I/Isaac-Chini/>Isaac Chini</a>,
+<a href=/gwf-publications/people/T/Torben-R-Christensen/>Torben R. Christensen</a>,
+<a href=/gwf-publications/people/J/James-Cleverly/>James Cleverly</a>,
+<a href=/gwf-publications/people/A/Alessio-Collalti/>Alessio Collalti</a>,
+<a href=/gwf-publications/people/C/Claudia-Consalvo/>Claudia Consalvo</a>,
+<a href=/gwf-publications/people/B/Bruce-D-Cook/>Bruce D. Cook</a>,
+<a href=/gwf-publications/people/D/David-Cook/>David Cook</a>,
+<a href=/gwf-publications/people/C/Carole-Coursolle/>Carole Coursolle</a>,
+<a href=/gwf-publications/people/E/Edoardo-Cremonese/>Edoardo Cremonese</a>,
+<a href=/gwf-publications/people/P/Peter-S-Curtis/>Peter S. Curtis</a>,
+<a href=/gwf-publications/people/E/Ettore-DAndrea/>Ettore D’Andrea</a>,
+<a href=/gwf-publications/people/H/Humberto-da-Rocha/>Humberto da Rocha</a>,
+<a href=/gwf-publications/people/X/Xiaoqin-Dai/>Xiaoqin Dai</a>,
+<a href=/gwf-publications/people/K/Kenneth-J-Davis/>Kenneth J. Davis</a>,
+<a href=/gwf-publications/people/B/Bruno-De-Cinti/>Bruno De Cinti</a>,
+<a href=/gwf-publications/people/A/Agnes-de-Grandcourt/>Agnes de Grandcourt</a>,
+<a href=/gwf-publications/people/A/Anne-De-Ligne/>Anne De Ligne</a>,
+<a href=/gwf-publications/people/R/Raimundo-C-De-Oliveira/>Raimundo C. De Oliveira</a>,
+<a href=/gwf-publications/people/N/Nicolas-Delpierre/>Nicolas Delpierre</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/C/Carlos-Marcelo-Di-Bella/>Carlos Marcelo Di Bella</a>,
+<a href=/gwf-publications/people/P/Paul-di-Tommasi/>Paul di Tommasi</a>,
+<a href=/gwf-publications/people/H/Han-Dolman/>Han Dolman</a>,
+<a href=/gwf-publications/people/F/Francisco-Domingo/>Francisco Domingo</a>,
+<a href=/gwf-publications/people/G/Gang-Dong/>Gang Dong</a>,
+<a href=/gwf-publications/people/S/Sabina-Dore/>Sabina Dore</a>,
+<a href=/gwf-publications/people/P/Pierpaolo-Duce/>Pierpaolo Duce</a>,
+<a href=/gwf-publications/people/E/Eric-Dufr%C3%AAne/>Eric Dufrêne</a>,
+<a href=/gwf-publications/people/A/Allison-Dunn/>Allison Dunn</a>,
+<a href=/gwf-publications/people/J/Ji%C5%99%C3%AD-Du%C5%A1ek/>Jiří Dušek</a>,
+<a href=/gwf-publications/people/D/Derek-Eamus/>Derek Eamus</a>,
+<a href=/gwf-publications/people/U/Uwe-Eichelmann/>Uwe Eichelmann</a>,
+<a href=/gwf-publications/people/H/Hatim-Abdalla-M-ElKhidir/>Hatim Abdalla M. ElKhidir</a>,
+<a href=/gwf-publications/people/W/Werner-Eugster/>Werner Eugster</a>,
+<a href=/gwf-publications/people/C/Cacilia-M-Ewenz/>Cacilia M. Ewenz</a>,
+<a href=/gwf-publications/people/B/Brent-Ewers/>Brent Ewers</a>,
+<a href=/gwf-publications/people/D/Daniela-Famulari/>Daniela Famulari</a>,
+<a href=/gwf-publications/people/S/Silvano-Fares/>Silvano Fares</a>,
+<a href=/gwf-publications/people/I/Iris-Feigenwinter/>Iris Feigenwinter</a>,
+<a href=/gwf-publications/people/A/Andrew-Feitz/>Andrew Feitz</a>,
+<a href=/gwf-publications/people/R/Rasmus-Fensholt/>Rasmus Fensholt</a>,
+<a href=/gwf-publications/people/G/Gianluca-Filippa/>Gianluca Filippa</a>,
+<a href=/gwf-publications/people/M/Marc-Fischer/>Marc Fischer</a>,
+<a href=/gwf-publications/people/J/John-Frank/>John Frank</a>,
+<a href=/gwf-publications/people/M/Marta-Galvagno/>Marta Galvagno</a>,
+<a href=/gwf-publications/people/M/Mana-Gharun/>Mana Gharun</a>,
+<a href=/gwf-publications/people/D/Damiano-Gianelle/>Damiano Gianelle</a>,
+<a href=/gwf-publications/people/B/Bert-Gielen/>Bert Gielen</a>,
+<a href=/gwf-publications/people/B/Beniamino-Gioli/>Beniamino Gioli</a>,
+<a href=/gwf-publications/people/A/Anatoly-Gitelson/>Anatoly Gitelson</a>,
+<a href=/gwf-publications/people/I/Ignacio-Goded/>Ignacio Goded</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/A/Allen-H-Goldstein/>Allen H. Goldstein</a>,
+<a href=/gwf-publications/people/C/Christopher-M-Gough/>Christopher M. Gough</a>,
+<a href=/gwf-publications/people/M/Michael-L-Goulden/>Michael L. Goulden</a>,
+<a href=/gwf-publications/people/A/Alexander-Graf/>Alexander Graf</a>,
+<a href=/gwf-publications/people/A/Anne-Griebel/>Anne Griebel</a>,
+<a href=/gwf-publications/people/C/Carsten-Gruening/>Carsten Gruening</a>,
+<a href=/gwf-publications/people/T/Thomas-Gr%C3%BCnwald/>Thomas Grünwald</a>,
+<a href=/gwf-publications/people/A/Albin-Hammerle/>Albin Hammerle</a>,
+<a href=/gwf-publications/people/S/Shijie-Han/>Shijie Han</a>,
+<a href=/gwf-publications/people/X/Xingguo-Han/>Xingguo Han</a>,
+<a href=/gwf-publications/people/B/Birger-Ulf-Hansen/>Birger Ulf Hansen</a>,
+<a href=/gwf-publications/people/C/Chad-Hanson/>Chad Hanson</a>,
+<a href=/gwf-publications/people/J/Juha-Hatakka/>Juha Hatakka</a>,
+<a href=/gwf-publications/people/Y/Yongtao-He/>Yongtao He</a>,
+<a href=/gwf-publications/people/M/Markus-Hehn/>Markus Hehn</a>,
+<a href=/gwf-publications/people/B/Bernard-Heinesch/>Bernard Heinesch</a>,
+<a href=/gwf-publications/people/N/Nina-Hinko-Najera/>Nina Hinko-Najera</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/L/Lindsay-Hutley/>Lindsay Hutley</a>,
+<a href=/gwf-publications/people/A/Andreas-Ibrom/>Andreas Ibrom</a>,
+<a href=/gwf-publications/people/H/Hiroki-Ikawa/>Hiroki Ikawa</a>,
+<a href=/gwf-publications/people/M/Marcin-Jackowicz-Korczynski/>Marcin Jackowicz-Korczynski</a>,
+<a href=/gwf-publications/people/D/Dalibor-Janou%C5%A1/>Dalibor Janouš</a>,
+<a href=/gwf-publications/people/W/Wilma-Jans/>Wilma Jans</a>,
+<a href=/gwf-publications/people/R/Rachhpal-Jassal/>Rachhpal Jassal</a>,
+<a href=/gwf-publications/people/S/Shicheng-Jiang/>Shicheng Jiang</a>,
+<a href=/gwf-publications/people/T/Tomomichi-Kato/>Tomomichi Kato</a>,
+<a href=/gwf-publications/people/M/Myroslava-Khomik/>Myroslava Khomik</a>,
+<a href=/gwf-publications/people/J/Janina-Klatt/>Janina Klatt</a>,
+<a href=/gwf-publications/people/A/Alexander-Knohl/>Alexander Knohl</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/>Sara Knox</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/G/Georgia-Koerber/>Georgia Koerber</a>,
+<a href=/gwf-publications/people/O/Olaf-Kolle/>Olaf Kolle</a>,
+<a href=/gwf-publications/people/Y/Yoshiko-Kosugi/>Yoshiko Kosugi</a>,
+<a href=/gwf-publications/people/A/Ayumi-Kotani/>Ayumi Kotani</a>,
+<a href=/gwf-publications/people/A/Andrew-Kowalski/>Andrew Kowalski</a>,
+<a href=/gwf-publications/people/B/Bart-Kruijt/>Bart Kruijt</a>,
+<a href=/gwf-publications/people/J/Julia-Kurbatova/>Julia Kurbatova</a>,
+<a href=/gwf-publications/people/W/Werner-L-Kutsch/>Werner L. Kutsch</a>,
+<a href=/gwf-publications/people/H/Hyojung-Kwon/>Hyojung Kwon</a>,
+<a href=/gwf-publications/people/S/Samuli-Launiainen/>Samuli Launiainen</a>,
+<a href=/gwf-publications/people/T/Tuomas-Laurila/>Tuomas Laurila</a>,
+<a href=/gwf-publications/people/B/Bev-Law/>Bev Law</a>,
+<a href=/gwf-publications/people/R/Ray-Leuning/>Ray Leuning</a>,
+<a href=/gwf-publications/people/Y/Yingnian-Li/>Yingnian Li</a>,
+<a href=/gwf-publications/people/M/Michael-Liddell/>Michael Liddell</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Limousin/>Jean-Marc Limousin</a>,
+<a href=/gwf-publications/people/M/Marryanna-Lion/>Marryanna Lion</a>,
+<a href=/gwf-publications/people/A/Adam-J-Liska/>Adam J. Liska</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Ana-L%C3%B3pez-Ballesteros/>Ana López-Ballesteros</a>,
+<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pez-Blanco/>Efrén López-Blanco</a>,
+<a href=/gwf-publications/people/B/Benjamin-Loubet/>Benjamin Loubet</a>,
+<a href=/gwf-publications/people/D/Denis-Loustau/>Denis Loustau</a>,
+<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/>Antje Lucas-Moffat</a>,
+<a href=/gwf-publications/people/J/Johannes-L%C3%BCers/>Johannes Lüers</a>,
+<a href=/gwf-publications/people/S/Siyan-Ma/>Siyan Ma</a>,
+<a href=/gwf-publications/people/C/Craig-Macfarlane/>Craig Macfarlane</a>,
+<a href=/gwf-publications/people/V/Vincenzo-Magliulo/>Vincenzo Magliulo</a>,
+<a href=/gwf-publications/people/R/Regine-Maier/>Regine Maier</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/G/Giovanni-Manca/>Giovanni Manca</a>,
+<a href=/gwf-publications/people/B/Barbara-Marcolla/>Barbara Marcolla</a>,
+<a href=/gwf-publications/people/H/Hank-A-Margolis/>Hank A. Margolis</a>,
+<a href=/gwf-publications/people/S/Serena-Marras/>Serena Marras</a>,
+<a href=/gwf-publications/people/W/William-Massman/>William Massman</a>,
+<a href=/gwf-publications/people/M/Mikhail-Mastepanov/>Mikhail Mastepanov</a>,
+<a href=/gwf-publications/people/R/Roser-Matamala/>Roser Matamala</a>,
+<a href=/gwf-publications/people/J/Jaclyn-Hatala-Matthes/>Jaclyn Hatala Matthes</a>,
+<a href=/gwf-publications/people/F/Francesco-Mazzenga/>Francesco Mazzenga</a>,
+<a href=/gwf-publications/people/H/Harry-McCaughey/>Harry McCaughey</a>,
+<a href=/gwf-publications/people/I/Ian-McHugh/>Ian McHugh</a>,
+<a href=/gwf-publications/people/A/Andrew-M-S-McMillan/>Andrew M. S. McMillan</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/>Lutz Merbold</a>,
+<a href=/gwf-publications/people/W/Wayne-Meyer/>Wayne Meyer</a>,
+<a href=/gwf-publications/people/T/Tilden-Meyers/>Tilden Meyers</a>,
+<a href=/gwf-publications/people/S/Scott-D-Miller/>Scott D. Miller</a>,
+<a href=/gwf-publications/people/S/Stefano-Minerbi/>Stefano Minerbi</a>,
+<a href=/gwf-publications/people/U/Uta-Moderow/>Uta Moderow</a>,
+<a href=/gwf-publications/people/R/Russell-K-Monson/>Russell K. Monson</a>,
+<a href=/gwf-publications/people/L/Leonardo-Montagnani/>Leonardo Montagnani</a>,
+<a href=/gwf-publications/people/C/Caitlin-E-Moore/>Caitlin E. Moore</a>,
+<a href=/gwf-publications/people/E/Eddy-Moors/>Eddy Moors</a>,
+<a href=/gwf-publications/people/V/Virginie-Moreaux/>Virginie Moreaux</a>,
+<a href=/gwf-publications/people/C/Christine-Moureaux/>Christine Moureaux</a>,
+<a href=/gwf-publications/people/J/J-William-Munger/>J. William Munger</a>,
+<a href=/gwf-publications/people/T/Taro-Nakai/>Taro Nakai</a>,
+<a href=/gwf-publications/people/J/Johan-Neirynck/>Johan Neirynck</a>,
+<a href=/gwf-publications/people/Z/Zoran-Nesic/>Zoran Nesic</a>,
+<a href=/gwf-publications/people/G/Giacomo-Nicolini/>Giacomo Nicolini</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/>Asko Noormets</a>,
+<a href=/gwf-publications/people/M/Matthew-Northwood/>Matthew Northwood</a>,
+<a href=/gwf-publications/people/M/Marcelo-Nosetto/>Marcelo Nosetto</a>,
+<a href=/gwf-publications/people/Y/Yann-Nouvellon/>Yann Nouvellon</a>,
+<a href=/gwf-publications/people/K/Kimberly-Novick/>Kimberly Novick</a>,
+<a href=/gwf-publications/people/W/Walter-Oechel/>Walter Oechel</a>,
+<a href=/gwf-publications/people/J/J%C3%B8rgen-Eivind-Olesen/>Jørgen Eivind Olesen</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Ourcival/>Jean-Marc Ourcival</a>,
+<a href=/gwf-publications/people/S/Shirley-A-Papuga/>Shirley A. Papuga</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-Parmentier/>Frans-Jan Parmentier</a>,
+<a href=/gwf-publications/people/E/Eugenie-Paul-Limoges/>Eugenie Paul-Limoges</a>,
+<a href=/gwf-publications/people/M/Marian-Pavelka/>Marian Pavelka</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/>Matthias Peichl</a>,
+<a href=/gwf-publications/people/E/Elise-Pendall/>Elise Pendall</a>,
+<a href=/gwf-publications/people/R/Richard-P-Phillips/>Richard P. Phillips</a>,
+<a href=/gwf-publications/people/K/Kim-Pilegaard/>Kim Pilegaard</a>,
+<a href=/gwf-publications/people/N/Norbert-Pirk/>Norbert Pirk</a>,
+<a href=/gwf-publications/people/G/Gabriela-Posse/>Gabriela Posse</a>,
+<a href=/gwf-publications/people/T/Thomas-Powell/>Thomas Powell</a>,
+<a href=/gwf-publications/people/H/Heiko-Prasse/>Heiko Prasse</a>,
+<a href=/gwf-publications/people/S/Suzanne-M-Prober/>Suzanne M. Prober</a>,
+<a href=/gwf-publications/people/S/Serge-Rambal/>Serge Rambal</a>,
+<a href=/gwf-publications/people/%C3%9C/%C3%9Cllar-Rannik/>Üllar Rannik</a>,
+<a href=/gwf-publications/people/N/Naama-Raz-Yaseef/>Naama Raz-Yaseef</a>,
+<a href=/gwf-publications/people/C/Corinna-Rebmann/>Corinna Rebmann</a>,
+<a href=/gwf-publications/people/D/David-Reed/>David Reed</a>,
+<a href=/gwf-publications/people/V/Victor-Resco-de-Dios/>Victor Resco de Dios</a>,
+<a href=/gwf-publications/people/N/Natalia-Restrepo-Coupe/>Natalia Restrepo-Coupe</a>,
+<a href=/gwf-publications/people/B/Borja-R-Reverter/>Borja R. Reverter</a>,
+<a href=/gwf-publications/people/M/Marilyn-Roland/>Marilyn Roland</a>,
+<a href=/gwf-publications/people/S/Simone-Sabbatini/>Simone Sabbatini</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/>Torsten Sachs</a>,
+<a href=/gwf-publications/people/S/Scott-R-Saleska/>Scott R. Saleska</a>,
+<a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchez-Ca%C3%B1ete/>Enrique P. Sánchez-Cañete</a>,
+<a href=/gwf-publications/people/Z/Zulia-M-Sanchez-Mejia/>Zulia M. Sanchez-Mejia</a>,
+<a href=/gwf-publications/people/H/Hans-Peter-Schmid/>Hans Peter Schmid</a>,
+<a href=/gwf-publications/people/M/Marius-Schmidt/>Marius Schmidt</a>,
+<a href=/gwf-publications/people/K/Karl-Schneider/>Karl Schneider</a>,
+<a href=/gwf-publications/people/F/Frederik-Schrader/>Frederik Schrader</a>,
+<a href=/gwf-publications/people/I/Ivan-Schroder/>Ivan Schroder</a>,
+<a href=/gwf-publications/people/R/Russell-L-Scott/>Russell L. Scott</a>,
+<a href=/gwf-publications/people/P/Pavel-Sedl%C3%A1k/>Pavel Sedlák</a>,
+<a href=/gwf-publications/people/P/Pen%C3%A9lope-Serrano-Ort%C3%ADz/>Penélope Serrano-Ortíz</a>,
+<a href=/gwf-publications/people/C/Changliang-Shao/>Changliang Shao</a>,
+<a href=/gwf-publications/people/P/Peili-Shi/>Peili Shi</a>,
+<a href=/gwf-publications/people/I/Ivan-Shironya/>Ivan Shironya</a>,
+<a href=/gwf-publications/people/L/Lukas-Siebicke/>Lukas Siebicke</a>,
+<a href=/gwf-publications/people/L/Ladislav-%C5%A0igut/>Ladislav Šigut</a>,
+<a href=/gwf-publications/people/R/Richard-Silberstein/>Richard Silberstein</a>,
+<a href=/gwf-publications/people/C/Costantino-Sirca/>Costantino Sirca</a>,
+<a href=/gwf-publications/people/D/Donatella-Spano/>Donatella Spano</a>,
+<a href=/gwf-publications/people/R/Rainer-Steinbrecher/>Rainer Steinbrecher</a>,
+<a href=/gwf-publications/people/R/Robert-M-Stevens/>Robert M. Stevens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/A/Andy-Suyker/>Andy Suyker</a>,
+<a href=/gwf-publications/people/T/Torbern-Tagesson/>Torbern Tagesson</a>,
+<a href=/gwf-publications/people/S/Satoru-Takanashi/>Satoru Takanashi</a>,
+<a href=/gwf-publications/people/Y/Yanhong-Tang/>Yanhong Tang</a>,
+<a href=/gwf-publications/people/N/Nigel-Tapper/>Nigel Tapper</a>,
+<a href=/gwf-publications/people/J/Jonathan-Thom/>Jonathan Thom</a>,
+<a href=/gwf-publications/people/M/Michele-Tomassucci/>Michele Tomassucci</a>,
+<a href=/gwf-publications/people/J/Juha-Pekka-Tuovinen/>Juha-Pekka Tuovinen</a>,
+<a href=/gwf-publications/people/S/Shawn-Urbanski/>Shawn Urbanski</a>,
+<a href=/gwf-publications/people/R/Riccardo-Valentini/>Riccardo Valentini</a>,
+<a href=/gwf-publications/people/M/Michiel-van-der-Molen/>Michiel van der Molen</a>,
+<a href=/gwf-publications/people/E/Eva-van-Gorsel/>Eva van Gorsel</a>,
+<a href=/gwf-publications/people/K/Ko-van-Huissteden/>Ko van Huissteden</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/J/Joseph-Verfaillie/>Joseph Verfaillie</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/>Timo Vesala</a>,
+<a href=/gwf-publications/people/C/Caroline-Vincke/>Caroline Vincke</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/>Domenico Vitale</a>,
+<a href=/gwf-publications/people/N/Natalia-Vygodskaya/>Natalia Vygodskaya</a>,
+<a href=/gwf-publications/people/J/Jeffrey-P-Walker/>Jeffrey P. Walker</a>,
+<a href=/gwf-publications/people/E/Elizabeth-Walter-Shea/>Elizabeth Walter-Shea</a>,
+<a href=/gwf-publications/people/H/Huimin-Wang/>Huimin Wang</a>,
+<a href=/gwf-publications/people/R/Robin-Weber/>Robin Weber</a>,
+<a href=/gwf-publications/people/S/Sebastian-Westermann/>Sebastian Westermann</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/>Christian Wille</a>,
+<a href=/gwf-publications/people/S/Steven-Wofsy/>Steven Wofsy</a>,
+<a href=/gwf-publications/people/G/Georg-Wohlfahrt/>Georg Wohlfahrt</a>,
+<a href=/gwf-publications/people/S/Sebastian-Wolf/>Sebastian Wolf</a>,
+<a href=/gwf-publications/people/W/William-Woodgate/>William Woodgate</a>,
+<a href=/gwf-publications/people/Y/Yuelin-Li/>Yuelin Li</a>,
+<a href=/gwf-publications/people/R/Roberto-Zampedri/>Roberto Zampedri</a>,
+<a href=/gwf-publications/people/J/Junhui-Zhang/>Junhui Zhang</a>,
+<a href=/gwf-publications/people/G/Guoyi-Zhou/>Guoyi Zhou</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a>,
+<a href=/gwf-publications/people/D/Deb-Agarwal/>Deb Agarwal</a>,
+<a href=/gwf-publications/people/S/Sebastien-Biraud/>Sebastien Biraud</a>,
+<a href=/gwf-publications/people/M/Margaret-Torn/>Margaret Torn</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/>Dario Papale</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Gilberto Pastorello, Carlo Trotta, Eleonora Canfora, Housen Chu, Danielle Christianson, You-Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian Amiro, Christof Ammann, et al.. 2021. <a href=https://aclanthology.org/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a>. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf title="Open PDF of 'The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf title="Open PDF of 'Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
 <a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
-<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=The+Impact+of+Variable+Retention+Harvesting+on+Growth+and+Carbon+Sequestration+of+a+Red+Pine+%28Pinus+resinosa+Ait.%29+Plantation+Forest+in+Southern+Ontario%2C+Canada" title="Search for 'The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Zugic-2021-The,
-    title = &#34;The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada&#34;,
-    author = &#34;Zugic, Jessica I.  and
-      Pisaric, Michael F. J.  and
-      McKenzie, Shawn M.  and
-      Parker, William C.  and
-      Elliott, Ken A.  and
-      Arain, M. Altaf&#34;,
-    journal = &#34;Frontiers in Forests and Global Change, Volume 4&#34;,
-    volume = &#34;4&#34;,
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Author+Correction%3A+The+FLUXNET2015+dataset+and+the+ONEFlux+processing+pipeline+for+eddy+covariance+data" title="Search for 'Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Pastorello-2021-Author,
+    title = &#34;Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data&#34;,
+    author = {Pastorello, Gilberto  and
+      Trotta, Carlo  and
+      Canfora, Eleonora  and
+      Chu, Housen  and
+      Christianson, Danielle  and
+      Cheah, You-Wei  and
+      Poindexter, Cristina  and
+      Chen, Jiquan  and
+      Elbashandy, Abdelrahman  and
+      Humphrey, Marty  and
+      Isaac, Peter  and
+      Polidori, Diego  and
+      Reichstein, Markus  and
+      Ribeca, Alessio  and
+      van Ingen, Catharine  and
+      Vuichard, Nicolas  and
+      Zhang, Leiming  and
+      Amiro, Brian  and
+      Ammann, Christof  and
+      Arain, M. Altaf  and
+      Ard{\&#34;o}, Jonas  and
+      Arkebauer, Timothy  and
+      Arndt, Stefan K.  and
+      Arriga, Nicola  and
+      Aubinet, Marc  and
+      Aurela, Mika  and
+      Baldocchi, Dennis  and
+      Barr, Alan  and
+      Beamesderfer, Eric  and
+      Marchesini, Luca Belelli  and
+      Bergeron, Onil  and
+      Beringer, Jason  and
+      Bernhofer, Christian  and
+      Berveiller, Daniel  and
+      Billesbach, Dave  and
+      Black, Thomas Andrew  and
+      Blanken, Peter D.  and
+      Bohrer, Gil  and
+      Boike, Julia  and
+      Bolstad, Paul V.  and
+      Bonal, Damien  and
+      Bonnefond, Jean-Marc  and
+      Bowling, David R.  and
+      Bracho, Rosvel  and
+      Brodeur, Jason  and
+      Br{\&#34;u}mmer, Christian  and
+      Buchmann, Nina  and
+      Burban, Benoit  and
+      Burns, Sean P.  and
+      Buysse, Pauline  and
+      Cale, Peter  and
+      Cavagna, Mauro  and
+      Cellier, Pierre  and
+      Chen, Shiping  and
+      Chini, Isaac  and
+      Christensen, Torben R.  and
+      Cleverly, James  and
+      Collalti, Alessio  and
+      Consalvo, Claudia  and
+      Cook, Bruce D.  and
+      Cook, David  and
+      Coursolle, Carole  and
+      Cremonese, Edoardo  and
+      Curtis, Peter S.  and
+      D{&#39;}Andrea, Ettore  and
+      da Rocha, Humberto  and
+      Dai, Xiaoqin  and
+      Davis, Kenneth J.  and
+      De Cinti, Bruno  and
+      de Grandcourt, Agnes  and
+      De Ligne, Anne  and
+      De Oliveira, Raimundo C.  and
+      Delpierre, Nicolas  and
+      Desai, Ankur R.  and
+      Di Bella, Carlos Marcelo  and
+      di Tommasi, Paul  and
+      Dolman, Han  and
+      Domingo, Francisco  and
+      Dong, Gang  and
+      Dore, Sabina  and
+      Duce, Pierpaolo  and
+      Dufr{\^e}ne, Eric  and
+      Dunn, Allison  and
+      Du{\v{s}}ek, Ji{\v{r}}{\&#39;\i}  and
+      Eamus, Derek  and
+      Eichelmann, Uwe  and
+      ElKhidir, Hatim Abdalla M.  and
+      Eugster, Werner  and
+      Ewenz, Cacilia M.  and
+      Ewers, Brent  and
+      Famulari, Daniela  and
+      Fares, Silvano  and
+      Feigenwinter, Iris  and
+      Feitz, Andrew  and
+      Fensholt, Rasmus  and
+      Filippa, Gianluca  and
+      Fischer, Marc  and
+      Frank, John  and
+      Galvagno, Marta  and
+      Gharun, Mana  and
+      Gianelle, Damiano  and
+      Gielen, Bert  and
+      Gioli, Beniamino  and
+      Gitelson, Anatoly  and
+      Goded, Ignacio  and
+      Goeckede, Mathias  and
+      Goldstein, Allen H.  and
+      Gough, Christopher M.  and
+      Goulden, Michael L.  and
+      Graf, Alexander  and
+      Griebel, Anne  and
+      Gruening, Carsten  and
+      Gr{\&#34;u}nwald, Thomas  and
+      Hammerle, Albin  and
+      Han, Shijie  and
+      Han, Xingguo  and
+      Hansen, Birger Ulf  and
+      Hanson, Chad  and
+      Hatakka, Juha  and
+      He, Yongtao  and
+      Hehn, Markus  and
+      Heinesch, Bernard  and
+      Hinko-Najera, Nina  and
+      H{\&#34;o}rtnagl, Lukas  and
+      Hutley, Lindsay  and
+      Ibrom, Andreas  and
+      Ikawa, Hiroki  and
+      Jackowicz-Korczynski, Marcin  and
+      Janou{\v{s}}, Dalibor  and
+      Jans, Wilma  and
+      Jassal, Rachhpal  and
+      Jiang, Shicheng  and
+      Kato, Tomomichi  and
+      Khomik, Myroslava  and
+      Klatt, Janina  and
+      Knohl, Alexander  and
+      Knox, Sara  and
+      Kobayashi, Hideki  and
+      Koerber, Georgia  and
+      Kolle, Olaf  and
+      Kosugi, Yoshiko  and
+      Kotani, Ayumi  and
+      Kowalski, Andrew  and
+      Kruijt, Bart  and
+      Kurbatova, Julia  and
+      Kutsch, Werner L.  and
+      Kwon, Hyojung  and
+      Launiainen, Samuli  and
+      Laurila, Tuomas  and
+      Law, Bev  and
+      Leuning, Ray  and
+      Li, Yingnian  and
+      Liddell, Michael  and
+      Limousin, Jean-Marc  and
+      Lion, Marryanna  and
+      Liska, Adam J.  and
+      Lohila, Annalea  and
+      L{\&#39;o}pez-Ballesteros, Ana  and
+      L{\&#39;o}pez-Blanco, Efr{\&#39;e}n  and
+      Loubet, Benjamin  and
+      Loustau, Denis  and
+      Lucas-Moffat, Antje  and
+      L{\&#34;u}ers, Johannes  and
+      Ma, Siyan  and
+      Macfarlane, Craig  and
+      Magliulo, Vincenzo  and
+      Maier, Regine  and
+      Mammarella, Ivan  and
+      Manca, Giovanni  and
+      Marcolla, Barbara  and
+      Margolis, Hank A.  and
+      Marras, Serena  and
+      Massman, William  and
+      Mastepanov, Mikhail  and
+      Matamala, Roser  and
+      Matthes, Jaclyn Hatala  and
+      Mazzenga, Francesco  and
+      McCaughey, Harry  and
+      McHugh, Ian  and
+      McMillan, Andrew M. S.  and
+      Merbold, Lutz  and
+      Meyer, Wayne  and
+      Meyers, Tilden  and
+      Miller, Scott D.  and
+      Minerbi, Stefano  and
+      Moderow, Uta  and
+      Monson, Russell K.  and
+      Montagnani, Leonardo  and
+      Moore, Caitlin E.  and
+      Moors, Eddy  and
+      Moreaux, Virginie  and
+      Moureaux, Christine  and
+      Munger, J. William  and
+      Nakai, Taro  and
+      Neirynck, Johan  and
+      Nesic, Zoran  and
+      Nicolini, Giacomo  and
+      Noormets, Asko  and
+      Northwood, Matthew  and
+      Nosetto, Marcelo  and
+      Nouvellon, Yann  and
+      Novick, Kimberly  and
+      Oechel, Walter  and
+      Olesen, J{\o}rgen Eivind  and
+      Ourcival, Jean-Marc  and
+      Papuga, Shirley A.  and
+      Parmentier, Frans-Jan  and
+      Paul-Limoges, Eugenie  and
+      Pavelka, Marian  and
+      Peichl, Matthias  and
+      Pendall, Elise  and
+      Phillips, Richard P.  and
+      Pilegaard, Kim  and
+      Pirk, Norbert  and
+      Posse, Gabriela  and
+      Powell, Thomas  and
+      Prasse, Heiko  and
+      Prober, Suzanne M.  and
+      Rambal, Serge  and
+      Rannik, {\&#34;U}llar  and
+      Raz-Yaseef, Naama  and
+      Rebmann, Corinna  and
+      Reed, David  and
+      de Dios, Victor Resco  and
+      Restrepo-Coupe, Natalia  and
+      Reverter, Borja R.  and
+      Roland, Marilyn  and
+      Sabbatini, Simone  and
+      Sachs, Torsten  and
+      Saleska, Scott R.  and
+      S{\&#39;a}nchez-Ca{\~n}ete, Enrique P.  and
+      Sanchez-Mejia, Zulia M.  and
+      Schmid, Hans Peter  and
+      Schmidt, Marius  and
+      Schneider, Karl  and
+      Schrader, Frederik  and
+      Schroder, Ivan  and
+      Scott, Russell L.  and
+      Sedl{\&#39;a}k, Pavel  and
+      Serrano-Ort{\&#39;\i}z, Pen{\&#39;e}lope  and
+      Shao, Changliang  and
+      Shi, Peili  and
+      Shironya, Ivan  and
+      Siebicke, Lukas  and
+      {\v{S}}igut, Ladislav  and
+      Silberstein, Richard  and
+      Sirca, Costantino  and
+      Spano, Donatella  and
+      Steinbrecher, Rainer  and
+      Stevens, Robert M.  and
+      Sturtevant, Cove  and
+      Suyker, Andy  and
+      Tagesson, Torbern  and
+      Takanashi, Satoru  and
+      Tang, Yanhong  and
+      Tapper, Nigel  and
+      Thom, Jonathan  and
+      Tomassucci, Michele  and
+      Tuovinen, Juha-Pekka  and
+      Urbanski, Shawn  and
+      Valentini, Riccardo  and
+      van der Molen, Michiel  and
+      van Gorsel, Eva  and
+      van Huissteden, Ko  and
+      Varlagin, Andrej  and
+      Verfaillie, Joseph  and
+      Vesala, Timo  and
+      Vincke, Caroline  and
+      Vitale, Domenico  and
+      Vygodskaya, Natalia  and
+      Walker, Jeffrey P.  and
+      Walter-Shea, Elizabeth  and
+      Wang, Huimin  and
+      Weber, Robin  and
+      Westermann, Sebastian  and
+      Wille, Christian  and
+      Wofsy, Steven  and
+      Wohlfahrt, Georg  and
+      Wolf, Sebastian  and
+      Woodgate, William  and
+      Li, Yuelin  and
+      Zampedri, Roberto  and
+      Zhang, Junhui  and
+      Zhou, Guoyi  and
+      Zona, Donatella  and
+      Agarwal, Deb  and
+      Biraud, Sebastien  and
+      Torn, Margaret  and
+      Papale, Dario},
+    journal = &#34;Scientific Data, Volume 8, Issue 1&#34;,
+    volume = &#34;8&#34;,
+    number = &#34;1&#34;,
     year = &#34;2021&#34;,
-    publisher = &#34;Frontiers Media SA&#34;,
+    publisher = &#34;Springer Science and Business Media LLC&#34;,
     url = &#34;https://aclanthology.org/G21-159001&#34;,
-    doi = &#34;10.3389/ffgc.2021.725890&#34;,
-    abstract = &#34;As atmospheric carbon dioxide concentrations continue to rise and global temperatures increase, there is growing concern about the sustainability, health, and carbon sequestration potential of forest ecosystems. Variable retention harvesting (VRH) has been suggested to be a potential method to increase forest biodiversity, growth, and carbon (C) sequestration. A field trial was established in an 88-year-old red pine ( Pinus resinosa Ait.) plantation in southern Ontario, Canada, using a completely randomized design to examine the response of tree productivity and other forest values to five harvesting treatments: 33{\%} aggregate retention (33A), 55{\%} aggregate retention (55A), 33{\%} dispersed retention (33D), and 55{\%} dispersed retention (55D) in comparison to an unharvested control (CN). In this study, we explored the impacts of VRH on aboveground stem radial growth and annual C increment. Standard dendrochronological methods and allometric equations were used to quantify tree- and stand-level treatment effects during a five-year pre-harvest (2009{--}2013) and post-harvest (2014{--}2018) period. Tree-level growth and C increment were increased by the dispersed retention pattern regardless of retention level. At the stand level, the total C increment was highest at greater retention levels and did not vary with retention pattern. These results suggest that the choice of retention level and pattern can have a large influence on management objectives as they relate to timber production, climate change adaptation, and/or climate change mitigation.&#34;,
+    doi = &#34;10.1038/s41597-021-00851-9&#34;,
+    abstract = &#34;A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.&#34;,
 }
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-159001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
 &lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
-&lt;mods ID=&#34;Zugic-2021-The&#34;&gt;
+&lt;mods ID=&#34;Pastorello-2021-Author&#34;&gt;
     &lt;titleInfo&gt;
-        &lt;title&gt;The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada&lt;/title&gt;
+        &lt;title&gt;Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jessica&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Zugic&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gilberto&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pastorello&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Pisaric&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carlo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Trotta&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Shawn&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;McKenzie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eleonora&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Canfora&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Parker&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Housen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chu&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Ken&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Elliott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Danielle&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Christianson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;You-Wei&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cheah&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Cristina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Poindexter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jiquan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Abdelrahman&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Elbashandy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marty&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Humphrey&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Isaac&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Diego&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Polidori&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Markus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Reichstein&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alessio&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ribeca&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Catharine&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;van Ingen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicolas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vuichard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Leiming&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Brian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Amiro&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christof&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ammann&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -85,6 +744,1933 @@
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jonas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ardö&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timothy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arkebauer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Stefan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arndt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicola&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arriga&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aubinet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mika&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aurela&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Baldocchi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Barr&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Beamesderfer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Luca&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Belelli&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Marchesini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Onil&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bergeron&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jason&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Beringer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bernhofer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Berveiller&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dave&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Billesbach&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Black&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Blanken&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gil&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bohrer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Julia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Boike&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;V&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bolstad&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Damien&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bonal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jean-Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bonnefond&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bowling&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rosvel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bracho&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jason&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Brodeur&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Brümmer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Buchmann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benoit&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Burban&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sean&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Burns&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pauline&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Buysse&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cale&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mauro&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cavagna&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pierre&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cellier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shiping&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Isaac&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torben&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Christensen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;James&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cleverly&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alessio&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Collalti&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Claudia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Consalvo&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bruce&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cook&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cook&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carole&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Coursolle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Edoardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cremonese&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Curtis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ettore&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;D’Andrea&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Humberto&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;da Rocha&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xiaoqin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kenneth&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Davis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bruno&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;De Cinti&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Agnes&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;de Grandcourt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;De Ligne&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Raimundo&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;De Oliveira&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicolas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Delpierre&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ankur&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Desai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carlos&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marcelo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Di Bella&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;di Tommasi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Han&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dolman&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Francisco&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Domingo&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gang&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dong&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sabina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dore&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pierpaolo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Duce&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dufrêne&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Allison&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dunn&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jiří&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dušek&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Derek&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Eamus&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Uwe&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Eichelmann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hatim&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Abdalla&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;ElKhidir&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Werner&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Eugster&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Cacilia&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ewenz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Brent&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ewers&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daniela&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Famulari&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Silvano&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fares&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Iris&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Feigenwinter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Feitz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rasmus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fensholt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gianluca&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Filippa&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fischer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Frank&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marta&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Galvagno&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mana&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gharun&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Damiano&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gianelle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bert&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gielen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Beniamino&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gioli&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anatoly&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gitelson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ignacio&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goded&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Allen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goldstein&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gough&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goulden&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alexander&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Graf&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Griebel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gruening&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Grünwald&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Albin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hammerle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shijie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Han&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xingguo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Han&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Birger&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ulf&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hansen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Chad&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hanson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juha&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hatakka&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yongtao&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;He&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Markus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hehn&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bernard&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Heinesch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hinko-Najera&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lukas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hörtnagl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lindsay&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hutley&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andreas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ibrom&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hiroki&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ikawa&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marcin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jackowicz-Korczynski&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dalibor&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Janouš&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wilma&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jans&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rachhpal&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jassal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shicheng&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jiang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tomomichi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kato&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Myroslava&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Khomik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Janina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Klatt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alexander&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Knohl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sara&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Knox&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hideki&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kobayashi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Georgia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Koerber&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Olaf&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kolle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yoshiko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kosugi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ayumi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kotani&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kowalski&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bart&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kruijt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Julia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kurbatova&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Werner&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kutsch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hyojung&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kwon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Samuli&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Launiainen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tuomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Laurila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bev&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Law&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ray&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Leuning&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yingnian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Li&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Liddell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jean-Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Limousin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marryanna&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lion&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Adam&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Liska&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Annalea&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lohila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ana&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;López-Ballesteros&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Efrén&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;López-Blanco&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benjamin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Loubet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Denis&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Loustau&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Antje&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lucas-Moffat&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Johannes&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lüers&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Siyan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ma&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Craig&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Macfarlane&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vincenzo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Magliulo&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Regine&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Maier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mammarella&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Giovanni&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Manca&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Barbara&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Marcolla&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hank&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Margolis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Serena&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Marras&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Massman&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mikhail&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mastepanov&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Roser&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Matamala&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jaclyn&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hatala&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Matthes&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Francesco&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mazzenga&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Harry&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McCaughey&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McHugh&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McMillan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lutz&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Merbold&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wayne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Meyer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tilden&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Meyers&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Miller&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Stefano&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Minerbi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Uta&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Moderow&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Russell&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Monson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Leonardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Montagnani&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Caitlin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Moore&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eddy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Moors&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Virginie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Moreaux&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christine&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Moureaux&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Munger&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Taro&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nakai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Johan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Neirynck&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zoran&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nesic&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Giacomo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nicolini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Asko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Noormets&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Northwood&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marcelo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nosetto&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yann&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nouvellon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kimberly&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Novick&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jørgen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eivind&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Olesen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jean-Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ourcival&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shirley&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Papuga&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frans-Jan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Parmentier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Paul-Limoges&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pavelka&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Peichl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elise&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pendall&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Richard&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Phillips&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kim&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pilegaard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Norbert&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pirk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gabriela&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Posse&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Powell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Heiko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Prasse&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Suzanne&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Prober&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Serge&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rambal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Üllar&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rannik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Naama&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Raz-Yaseef&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Corinna&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rebmann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Reed&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Victor&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Resco&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;de Dios&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Natalia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Restrepo-Coupe&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Borja&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Reverter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marilyn&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Roland&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Simone&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sabbatini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sachs&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Saleska&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Enrique&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sánchez-Cañete&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zulia&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sanchez-Mejia&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hans&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schmid&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marius&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schmidt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Karl&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schneider&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frederik&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schrader&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schroder&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Russell&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pavel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sedlák&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Penélope&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Serrano-Ortíz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Changliang&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shao&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peili&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shironya&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lukas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Siebicke&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ladislav&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Šigut&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Richard&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Silberstein&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Costantino&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sirca&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Donatella&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Spano&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rainer&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Steinbrecher&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Stevens&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Cove&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sturtevant&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Suyker&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torbern&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tagesson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Satoru&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Takanashi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yanhong&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nigel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tapper&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jonathan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Thom&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michele&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tomassucci&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juha-Pekka&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tuovinen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shawn&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Urbanski&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Riccardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Valentini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michiel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;van der Molen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eva&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;van Gorsel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;van Huissteden&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrej&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Varlagin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Joseph&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Verfaillie&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vesala&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Caroline&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vincke&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Domenico&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vitale&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Natalia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vygodskaya&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jeffrey&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Walker&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elizabeth&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Walter-Shea&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Huimin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Weber&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sebastian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Westermann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wille&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Steven&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wofsy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Georg&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wohlfahrt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sebastian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wolf&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Woodgate&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yuelin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Li&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Roberto&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zampedri&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Junhui&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guoyi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhou&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Donatella&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zona&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Deb&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Agarwal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sebastien&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Biraud&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Margaret&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Torn&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dario&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Papale&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
     &lt;originInfo&gt;
         &lt;dateIssued&gt;2021&lt;/dateIssued&gt;
     &lt;/originInfo&gt;
@@ -92,47 +2678,332 @@
     &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
     &lt;relatedItem type=&#34;host&#34;&gt;
         &lt;titleInfo&gt;
-            &lt;title&gt;Frontiers in Forests and Global Change, Volume 4&lt;/title&gt;
+            &lt;title&gt;Scientific Data, Volume 8, Issue 1&lt;/title&gt;
         &lt;/titleInfo&gt;
         &lt;originInfo&gt;
             &lt;issuance&gt;continuing&lt;/issuance&gt;
-            &lt;publisher&gt;Frontiers Media SA&lt;/publisher&gt;
+            &lt;publisher&gt;Springer Science and Business Media LLC&lt;/publisher&gt;
         &lt;/originInfo&gt;
         &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
         &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
     &lt;/relatedItem&gt;
-    &lt;abstract&gt;As atmospheric carbon dioxide concentrations continue to rise and global temperatures increase, there is growing concern about the sustainability, health, and carbon sequestration potential of forest ecosystems. Variable retention harvesting (VRH) has been suggested to be a potential method to increase forest biodiversity, growth, and carbon (C) sequestration. A field trial was established in an 88-year-old red pine ( Pinus resinosa Ait.) plantation in southern Ontario, Canada, using a completely randomized design to examine the response of tree productivity and other forest values to five harvesting treatments: 33% aggregate retention (33A), 55% aggregate retention (55A), 33% dispersed retention (33D), and 55% dispersed retention (55D) in comparison to an unharvested control (CN). In this study, we explored the impacts of VRH on aboveground stem radial growth and annual C increment. Standard dendrochronological methods and allometric equations were used to quantify tree- and stand-level treatment effects during a five-year pre-harvest (2009–2013) and post-harvest (2014–2018) period. Tree-level growth and C increment were increased by the dispersed retention pattern regardless of retention level. At the stand level, the total C increment was highest at greater retention levels and did not vary with retention pattern. These results suggest that the choice of retention level and pattern can have a large influence on management objectives as they relate to timber production, climate change adaptation, and/or climate change mitigation.&lt;/abstract&gt;
-    &lt;identifier type=&#34;citekey&#34;&gt;Zugic-2021-The&lt;/identifier&gt;
-    &lt;identifier type=&#34;doi&#34;&gt;10.3389/ffgc.2021.725890&lt;/identifier&gt;
+    &lt;abstract&gt;A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Pastorello-2021-Author&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1038/s41597-021-00851-9&lt;/identifier&gt;
     &lt;location&gt;
         &lt;url&gt;https://aclanthology.org/G21-159001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2021&lt;/date&gt;
-        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;4&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;8&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;1&lt;/number&gt;&lt;/detail&gt;
     &lt;/part&gt;
 &lt;/mods&gt;
 &lt;/modsCollection&gt;
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-159001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
-%T The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada
-%A Zugic, Jessica I.
-%A Pisaric, Michael F. J.
-%A McKenzie, Shawn M.
-%A Parker, William C.
-%A Elliott, Ken A.
+%T Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data
+%A Pastorello, Gilberto
+%A Trotta, Carlo
+%A Canfora, Eleonora
+%A Chu, Housen
+%A Christianson, Danielle
+%A Cheah, You-Wei
+%A Poindexter, Cristina
+%A Chen, Jiquan
+%A Elbashandy, Abdelrahman
+%A Humphrey, Marty
+%A Isaac, Peter
+%A Polidori, Diego
+%A Reichstein, Markus
+%A Ribeca, Alessio
+%A van Ingen, Catharine
+%A Vuichard, Nicolas
+%A Zhang, Leiming
+%A Amiro, Brian
+%A Ammann, Christof
 %A Arain, M. Altaf
-%J Frontiers in Forests and Global Change, Volume 4
+%A Ardö, Jonas
+%A Arkebauer, Timothy
+%A Arndt, Stefan K.
+%A Arriga, Nicola
+%A Aubinet, Marc
+%A Aurela, Mika
+%A Baldocchi, Dennis
+%A Barr, Alan
+%A Beamesderfer, Eric
+%A Marchesini, Luca Belelli
+%A Bergeron, Onil
+%A Beringer, Jason
+%A Bernhofer, Christian
+%A Berveiller, Daniel
+%A Billesbach, Dave
+%A Black, Thomas Andrew
+%A Blanken, Peter D.
+%A Bohrer, Gil
+%A Boike, Julia
+%A Bolstad, Paul V.
+%A Bonal, Damien
+%A Bonnefond, Jean-Marc
+%A Bowling, David R.
+%A Bracho, Rosvel
+%A Brodeur, Jason
+%A Brümmer, Christian
+%A Buchmann, Nina
+%A Burban, Benoit
+%A Burns, Sean P.
+%A Buysse, Pauline
+%A Cale, Peter
+%A Cavagna, Mauro
+%A Cellier, Pierre
+%A Chen, Shiping
+%A Chini, Isaac
+%A Christensen, Torben R.
+%A Cleverly, James
+%A Collalti, Alessio
+%A Consalvo, Claudia
+%A Cook, Bruce D.
+%A Cook, David
+%A Coursolle, Carole
+%A Cremonese, Edoardo
+%A Curtis, Peter S.
+%A D’Andrea, Ettore
+%A da Rocha, Humberto
+%A Dai, Xiaoqin
+%A Davis, Kenneth J.
+%A De Cinti, Bruno
+%A de Grandcourt, Agnes
+%A De Ligne, Anne
+%A De Oliveira, Raimundo C.
+%A Delpierre, Nicolas
+%A Desai, Ankur R.
+%A Di Bella, Carlos Marcelo
+%A di Tommasi, Paul
+%A Dolman, Han
+%A Domingo, Francisco
+%A Dong, Gang
+%A Dore, Sabina
+%A Duce, Pierpaolo
+%A Dufrêne, Eric
+%A Dunn, Allison
+%A Dušek, Jiří
+%A Eamus, Derek
+%A Eichelmann, Uwe
+%A ElKhidir, Hatim Abdalla M.
+%A Eugster, Werner
+%A Ewenz, Cacilia M.
+%A Ewers, Brent
+%A Famulari, Daniela
+%A Fares, Silvano
+%A Feigenwinter, Iris
+%A Feitz, Andrew
+%A Fensholt, Rasmus
+%A Filippa, Gianluca
+%A Fischer, Marc
+%A Frank, John
+%A Galvagno, Marta
+%A Gharun, Mana
+%A Gianelle, Damiano
+%A Gielen, Bert
+%A Gioli, Beniamino
+%A Gitelson, Anatoly
+%A Goded, Ignacio
+%A Goeckede, Mathias
+%A Goldstein, Allen H.
+%A Gough, Christopher M.
+%A Goulden, Michael L.
+%A Graf, Alexander
+%A Griebel, Anne
+%A Gruening, Carsten
+%A Grünwald, Thomas
+%A Hammerle, Albin
+%A Han, Shijie
+%A Han, Xingguo
+%A Hansen, Birger Ulf
+%A Hanson, Chad
+%A Hatakka, Juha
+%A He, Yongtao
+%A Hehn, Markus
+%A Heinesch, Bernard
+%A Hinko-Najera, Nina
+%A Hörtnagl, Lukas
+%A Hutley, Lindsay
+%A Ibrom, Andreas
+%A Ikawa, Hiroki
+%A Jackowicz-Korczynski, Marcin
+%A Janouš, Dalibor
+%A Jans, Wilma
+%A Jassal, Rachhpal
+%A Jiang, Shicheng
+%A Kato, Tomomichi
+%A Khomik, Myroslava
+%A Klatt, Janina
+%A Knohl, Alexander
+%A Knox, Sara
+%A Kobayashi, Hideki
+%A Koerber, Georgia
+%A Kolle, Olaf
+%A Kosugi, Yoshiko
+%A Kotani, Ayumi
+%A Kowalski, Andrew
+%A Kruijt, Bart
+%A Kurbatova, Julia
+%A Kutsch, Werner L.
+%A Kwon, Hyojung
+%A Launiainen, Samuli
+%A Laurila, Tuomas
+%A Law, Bev
+%A Leuning, Ray
+%A Li, Yingnian
+%A Liddell, Michael
+%A Limousin, Jean-Marc
+%A Lion, Marryanna
+%A Liska, Adam J.
+%A Lohila, Annalea
+%A López-Ballesteros, Ana
+%A López-Blanco, Efrén
+%A Loubet, Benjamin
+%A Loustau, Denis
+%A Lucas-Moffat, Antje
+%A Lüers, Johannes
+%A Ma, Siyan
+%A Macfarlane, Craig
+%A Magliulo, Vincenzo
+%A Maier, Regine
+%A Mammarella, Ivan
+%A Manca, Giovanni
+%A Marcolla, Barbara
+%A Margolis, Hank A.
+%A Marras, Serena
+%A Massman, William
+%A Mastepanov, Mikhail
+%A Matamala, Roser
+%A Matthes, Jaclyn Hatala
+%A Mazzenga, Francesco
+%A McCaughey, Harry
+%A McHugh, Ian
+%A McMillan, Andrew M. S.
+%A Merbold, Lutz
+%A Meyer, Wayne
+%A Meyers, Tilden
+%A Miller, Scott D.
+%A Minerbi, Stefano
+%A Moderow, Uta
+%A Monson, Russell K.
+%A Montagnani, Leonardo
+%A Moore, Caitlin E.
+%A Moors, Eddy
+%A Moreaux, Virginie
+%A Moureaux, Christine
+%A Munger, J. William
+%A Nakai, Taro
+%A Neirynck, Johan
+%A Nesic, Zoran
+%A Nicolini, Giacomo
+%A Noormets, Asko
+%A Northwood, Matthew
+%A Nosetto, Marcelo
+%A Nouvellon, Yann
+%A Novick, Kimberly
+%A Oechel, Walter
+%A Olesen, Jørgen Eivind
+%A Ourcival, Jean-Marc
+%A Papuga, Shirley A.
+%A Parmentier, Frans-Jan
+%A Paul-Limoges, Eugenie
+%A Pavelka, Marian
+%A Peichl, Matthias
+%A Pendall, Elise
+%A Phillips, Richard P.
+%A Pilegaard, Kim
+%A Pirk, Norbert
+%A Posse, Gabriela
+%A Powell, Thomas
+%A Prasse, Heiko
+%A Prober, Suzanne M.
+%A Rambal, Serge
+%A Rannik, Üllar
+%A Raz-Yaseef, Naama
+%A Rebmann, Corinna
+%A Reed, David
+%A de Dios, Victor Resco
+%A Restrepo-Coupe, Natalia
+%A Reverter, Borja R.
+%A Roland, Marilyn
+%A Sabbatini, Simone
+%A Sachs, Torsten
+%A Saleska, Scott R.
+%A Sánchez-Cañete, Enrique P.
+%A Sanchez-Mejia, Zulia M.
+%A Schmid, Hans Peter
+%A Schmidt, Marius
+%A Schneider, Karl
+%A Schrader, Frederik
+%A Schroder, Ivan
+%A Scott, Russell L.
+%A Sedlák, Pavel
+%A Serrano-Ortíz, Penélope
+%A Shao, Changliang
+%A Shi, Peili
+%A Shironya, Ivan
+%A Siebicke, Lukas
+%A Šigut, Ladislav
+%A Silberstein, Richard
+%A Sirca, Costantino
+%A Spano, Donatella
+%A Steinbrecher, Rainer
+%A Stevens, Robert M.
+%A Sturtevant, Cove
+%A Suyker, Andy
+%A Tagesson, Torbern
+%A Takanashi, Satoru
+%A Tang, Yanhong
+%A Tapper, Nigel
+%A Thom, Jonathan
+%A Tomassucci, Michele
+%A Tuovinen, Juha-Pekka
+%A Urbanski, Shawn
+%A Valentini, Riccardo
+%A van der Molen, Michiel
+%A van Gorsel, Eva
+%A van Huissteden, Ko
+%A Varlagin, Andrej
+%A Verfaillie, Joseph
+%A Vesala, Timo
+%A Vincke, Caroline
+%A Vitale, Domenico
+%A Vygodskaya, Natalia
+%A Walker, Jeffrey P.
+%A Walter-Shea, Elizabeth
+%A Wang, Huimin
+%A Weber, Robin
+%A Westermann, Sebastian
+%A Wille, Christian
+%A Wofsy, Steven
+%A Wohlfahrt, Georg
+%A Wolf, Sebastian
+%A Woodgate, William
+%A Li, Yuelin
+%A Zampedri, Roberto
+%A Zhang, Junhui
+%A Zhou, Guoyi
+%A Zona, Donatella
+%A Agarwal, Deb
+%A Biraud, Sebastien
+%A Torn, Margaret
+%A Papale, Dario
+%J Scientific Data, Volume 8, Issue 1
 %D 2021
-%V 4
-%I Frontiers Media SA
-%F Zugic-2021-The
-%X As atmospheric carbon dioxide concentrations continue to rise and global temperatures increase, there is growing concern about the sustainability, health, and carbon sequestration potential of forest ecosystems. Variable retention harvesting (VRH) has been suggested to be a potential method to increase forest biodiversity, growth, and carbon (C) sequestration. A field trial was established in an 88-year-old red pine ( Pinus resinosa Ait.) plantation in southern Ontario, Canada, using a completely randomized design to examine the response of tree productivity and other forest values to five harvesting treatments: 33% aggregate retention (33A), 55% aggregate retention (55A), 33% dispersed retention (33D), and 55% dispersed retention (55D) in comparison to an unharvested control (CN). In this study, we explored the impacts of VRH on aboveground stem radial growth and annual C increment. Standard dendrochronological methods and allometric equations were used to quantify tree- and stand-level treatment effects during a five-year pre-harvest (2009–2013) and post-harvest (2014–2018) period. Tree-level growth and C increment were increased by the dispersed retention pattern regardless of retention level. At the stand level, the total C increment was highest at greater retention levels and did not vary with retention pattern. These results suggest that the choice of retention level and pattern can have a large influence on management objectives as they relate to timber production, climate change adaptation, and/or climate change mitigation.
-%R 10.3389/ffgc.2021.725890
+%V 8
+%N 1
+%I Springer Science and Business Media LLC
+%F Pastorello-2021-Author
+%X A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.
+%R 10.1038/s41597-021-00851-9
 %U https://aclanthology.org/G21-159001
-%U https://doi.org/10.3389/ffgc.2021.725890
+%U https://doi.org/10.1038/s41597-021-00851-9
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-159001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada](https://aclanthology.org/G21-159001) (Zugic et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-159001>The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada</a> (Zugic et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Jessica I. Zugic, Michael F. J. Pisaric, Shawn M. McKenzie, William C. Parker, Ken A. Elliott, and M. Altaf Arain. 2021. <a href=https://aclanthology.org/G21-159001>The Impact of Variable Retention Harvesting on Growth and Carbon Sequestration of a Red Pine (Pinus resinosa Ait.) Plantation Forest in Southern Ontario, Canada</a>. <i>Frontiers in Forests and Global Change, Volume 4</i>, 4.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data](https://aclanthology.org/G21-159001) (Pastorello et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a> (Pastorello et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Gilberto Pastorello, Carlo Trotta, Eleonora Canfora, Housen Chu, Danielle Christianson, You-Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian Amiro, Christof Ammann, et al.. 2021. <a href=https://aclanthology.org/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a>. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

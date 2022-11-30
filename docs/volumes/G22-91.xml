@@ -1,12 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Pradhananga-2022-Diagnosing">
+<mods ID="Thériault-2022-Storms">
     <titleInfo>
-        <title>Diagnosing changes in glacier hydrology from physical principles using a hydrological model with snow redistribution, sublimation, firnification and energy balance ablation algorithms</title>
+        <title>Storms and Precipitation Across the continental Divide Experiment (SPADE)</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dhiraj</namePart>
-        <namePart type="family">Pradhananga</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicolas</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leroux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ronald</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Stewart</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">André</namePart>
+        <namePart type="family">Bertoncini</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephen</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,6 +51,49 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Hadleigh</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hilary</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zen</namePart>
+        <namePart type="family">Mariani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aurélie</namePart>
+        <namePart type="family">Desroches-Lapointe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Selina</namePart>
+        <namePart type="family">Mitchell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juris</namePart>
+        <namePart type="family">Almonte</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2022</dateIssued>
     </originInfo>
@@ -26,24 +101,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 608</title>
+            <title>Bulletin of the American Meteorological Society, Volume 103, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Pradhananga-2022-Diagnosing</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2022.127545</identifier>
+    <identifier type="citekey">Thériault-2022-Storms</identifier>
+    <identifier type="doi">10.1175/bams-d-21-0146.1</identifier>
     <location>
         <url>https://aclanthology.org/G22-91001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>608</number></detail>
-        <detail type="page"><number>127545</number></detail>
+        <detail type="volume"><number>103</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>E2628</start>
+            <end>E2649</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

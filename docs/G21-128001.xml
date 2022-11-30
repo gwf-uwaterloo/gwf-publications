@@ -1,19 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Thompson-2021-Considerations">
+<mods ID="Moon-2021-Probing">
     <titleInfo>
-        <title>Considerations for Ku-Band Radar Retrieval of Snow Water Equivalent at Mid-Latitude Ontario Agricultural Sites</title>
+        <title>Probing Metal-Dependent Phosphate Binding for the Catalysis of the 17E DNAzyme</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Thompson</namePart>
+        <namePart type="given">Woohyun</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Moon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="family">Kelly</namePart>
+        <namePart type="given">Po-Jung</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Huang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,28 +34,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Canadian Journal of Remote Sensing, Volume 47, Issue 1</title>
+            <title>Biochemistry, Volume 60, Issue 24</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Mid-latitude snow is understudied compared to snow in the northern high latitudes despite its importance as a source of freshwater to this economically significant region. The mid-latitudes provide...</abstract>
-    <identifier type="citekey">Thompson-2021-Considerations</identifier>
-    <identifier type="doi">10.1080/07038992.2021.1898938</identifier>
+    <abstract>The RNA-cleaving 17E DNAzyme exhibits different levels of cleavage activity in the presence of various divalent metal ions, with Pb2+ giving the fastest cleavage. In this study, the metal-phosphate interaction is probed to understand the trend of activity with different metal ions. For the first-row transition metals, the lowest activity shown by Ni2+ correlates with the inhibition by the inorganic phosphate and its water ligand exchange rate, suggesting inner-sphere metal coordination. Cleavage activity with the two stereoisomers of the phosphorothioate-modified substrates, Rp and Sp, indicated that Mg2+, Mn2+, Fe2+, and Co2+ had the highest Sp:Rp activity ratio of \textgreater900. Comparatively, the activity was much less affected using the thiophilic metals, including Pb2+, suggesting inner-sphere coordination. The pH-rate profiles showed that Pb2+ was different than the rest of the metal ions in having a smaller slope and a similar fitted apparent pKa and the pKa of metal-bound water. Combining previous reports and our current results, we propose that Pb2+ most likely plays the role of a general acid while the other metal ions are Lewis acid catalysts interacting with the scissile phosphate.</abstract>
+    <identifier type="citekey">Moon-2021-Probing</identifier>
+    <identifier type="doi">10.1021/acs.biochem.1c00091</identifier>
     <location>
         <url>https://aclanthology.org/G21-128001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>47</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>60</number></detail>
+        <detail type="issue"><number>24</number></detail>
         <extent unit="page">
-            <start>119</start>
-            <end>142</end>
+            <start>1909</start>
+            <end>1918</end>
         </extent>
     </part>
 </mods>

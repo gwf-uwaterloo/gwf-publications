@@ -1,28 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Nazarbakhsh-2019-Controls">
+<mods ID="Newman-2019-Methodological">
     <titleInfo>
-        <title>Controls on evapotranspiration from jack pine forests in the Boreal Plains Ecozone</title>
+        <title>Methodological Intercomparisons of Station-Based Gridded Meteorological Products: Utility, Limitations, and Paths Forward</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahtab</namePart>
-        <namePart type="family">Nazarbakhsh</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">Andrew</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Ireson</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Newman</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Alan</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Barr</namePart>
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ryan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Longman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Thomas</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Giambelluca</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,27 +43,141 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 34, Issue 4</title>
+            <title>Journal of Hydrometeorology, Volume 20, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Nazarbakhsh-2019-Controls</identifier>
-    <identifier type="doi">10.1002/hyp.13674</identifier>
+    <identifier type="citekey">Newman-2019-Methodological</identifier>
+    <identifier type="doi">10.1175/jhm-d-18-0114.1</identifier>
     <location>
         <url>https://aclanthology.org/G19-134001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>927</start>
-            <end>940</end>
+            <start>531</start>
+            <end>547</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Oaida-2019-A">
+    <titleInfo>
+        <title>A High-Resolution Data Assimilation Framework for Snow Water Equivalent Estimation across the Western United States and Validation with the Airborne Snow Observatory</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Catalina</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Oaida</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Reager</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cédric</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Steve</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Levoe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Thomas</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Painter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kat</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Bormann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amy</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Trangsrud</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Manuela</namePart>
+        <namePart type="family">Girotto</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology, Volume 20, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Oaida-2019-A</identifier>
+    <identifier type="doi">10.1175/jhm-d-18-0009.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-134002</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>357</start>
+            <end>378</end>
         </extent>
     </part>
 </mods>

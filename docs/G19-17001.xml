@@ -1,20 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ahmed-2019-Fire-retardant">
+<mods ID="Ahmed-2019-Integrated">
     <titleInfo>
-        <title>Fire-retardant, self-extinguishing triboelectric nanogenerators</title>
+        <title>Integrated Triboelectric Nanogenerators in the Era of the Internet of Things</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Abdelsalam</namePart>
         <namePart type="family">Ahmed</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Maher</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">El-Kady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,23 +19,24 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ayman</namePart>
-        <namePart type="family">Negm</namePart>
+        <namePart type="given">Maher</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">El‐Kady</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="given">Masoud</namePart>
-        <namePart type="family">Pourrahimi</namePart>
+        <namePart type="given">Ali</namePart>
+        <namePart type="family">Radhi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mit</namePart>
-        <namePart type="family">Muni</namePart>
+        <namePart type="given">Chang</namePart>
+        <namePart type="given">Kyu</namePart>
+        <namePart type="family">Jeong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -52,6 +45,27 @@
         <namePart type="given">Ponnambalam</namePart>
         <namePart type="given">Ravi</namePart>
         <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jean</namePart>
+        <namePart type="family">Zu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shenqiang</namePart>
+        <namePart type="family">Ren</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Qing</namePart>
+        <namePart type="family">Wang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -71,28 +85,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Nano Energy, Volume 59</title>
+            <title>Advanced Science, Volume 6, Issue 24</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract The development of highly sensitive sensors and power generators that could function efficiently in extreme temperatures and contact with fire can be lifesaving but challenging to accomplish. Herein, we report, for the first time, a fire-retardant and self-extinguishing triboelectric nanogenerator (FRTENG), which can be utilized as a motion sensor and/or power generator in occupations such as oil drilling, firefighting or working in extreme temperature environments with flammable and combustible materials. The device takes advantage of the excellent thermal properties of carbon derived from resorcinol-formaldehyde aerogel whose electrical, mechanical and triboelectric properties have been improved via the introduction of Polyacrylonitrile nanofibers and graphene oxide nanosheets. This FRTENG is not flammable even after 90 s of trying, whereas conventional triboelectric materials were entirely consumed by fire under the same conditions. The developed device shows exceptional charge transfer characteristics, leading to a potential difference up to 80 V and a current density up to 25 μA/m2. When integrated into firefighter’s shoes, the FRTENG is able to discern the movements of a firefighter in hazardous situations, while providing the high thermal stability missing in conventional TENGs. The fire-retardant and self-extinguishing characteristics offered by the FRTENG makes it a path-breaking device for lifesaving wearable applications.</abstract>
-    <identifier type="citekey">Ahmed-2019-Fire-retardant</identifier>
-    <identifier type="doi">10.1016/j.nanoen.2019.02.026</identifier>
+    <abstract>Since their debut in 2012, triboelectric nanogenerators (TENGs) have attained high performance in terms of both energy density and instantaneous conversion, reaching up to 500 W m-2 and 85%, respectively, synchronous with multiple energy sources and hybridized designs. Here, a comprehensive review of the design guidelines of TENGs, their performance, and their designs in the context of Internet of Things (IoT) applications is presented. The development stages of TENGs in large-scale self-powered systems and technological applications enabled by harvesting energy from water waves or wind energy sources are also reviewed. This self-powered capability is essential considering that IoT applications should be capable of operation anywhere and anytime, supported by a network of energy harvesting systems in arbitrary environments. In addition, this review paper investigates the development of self-charging power units (SCPUs), which can be realized by pairing TENGs with energy storage devices, such as batteries and capacitors. Consequently, different designs of power management circuits, supercapacitors, and batteries that can be integrated with TENG devices are also reviewed. Finally, the significant factors that need to be addressed when designing and optimizing TENG-based systems for energy harvesting and self-powered sensing applications are discussed.</abstract>
+    <identifier type="citekey">Ahmed-2019-Integrated</identifier>
+    <identifier type="doi">10.1002/advs.201802230</identifier>
     <location>
         <url>https://aclanthology.org/G19-17001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>59</number></detail>
-        <extent unit="page">
-            <start>336</start>
-            <end>345</end>
-        </extent>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>24</number></detail>
+        <detail type="page"><number>1802230</number></detail>
     </part>
 </mods>
 </modsCollection>

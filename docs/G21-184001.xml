@@ -1,33 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Bridhikitti-2021-Best">
+<mods ID="Humaira-2021-FlowDyn:">
     <titleInfo>
-        <title>Best management practices for mitigating agricultural nutrient pollution in the Mun River Basin, Thailand</title>
+        <title>FlowDyn: A Dynamic Web-based Streamflow Prediction Pipeline</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Arika</namePart>
-        <namePart type="family">Bridhikitti</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Humaira</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Thayukorn</namePart>
-        <namePart type="family">Prabamroong</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="given">Sadeghi</namePart>
+        <namePart type="family">Tabas</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Liu</namePart>
-        <namePart type="family">Gaohuan</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Samadi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yu</namePart>
-        <namePart type="family">Guo-An</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Hubig</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +41,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Soil and Water Research, Volume 16, Issue No. 2</title>
+            <title>2021 IEEE International Conference on Big Data (Big Data)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Czech Academy of Agricultural Sciences</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The Mun River in NE Thailand is one of the significant tributaries of the Lower Mekong River. Its poor river quality has been reported and agricultural activities were claimed to be major causes. This study aims to assess the best management measures appropriately responsive to the nutrient pollution in the Mun River Basin’s agricultural ecosystems. The data used for the analysis were acquired from field measurements during the 2018 wet season via satellite retrieval and secondary data collection. Linkages between land-soil datasets and hydro-water quality datasets were assessed through a canonical correlation analysis. The results suggest possible conservation measures with crop yield improvement and fertiliser cost reduction in the western basin. For the southern basin, which exhibits high sediment loading, integrated conservation measures for soil loss reduction with in-stream flow deceleration should be chosen. In the eastern basin, woody buffer strips and check dams should be prioritised. Both nutrient and sediment pollution were experienced in the middle part of the Mun River Basin and applications of low-P manure with mineral NK are recommended. Nonetheless, other soil-water conservation measures can be optionally applied to enhance the effectiveness in the watershed management.</abstract>
-    <identifier type="citekey">Bridhikitti-2021-Best</identifier>
-    <identifier type="doi">10.17221/101/2020-swr</identifier>
+    <abstract>Streamflow prediction from meteorological observations provides the basic information for the management of water resources systems. The amount and magnitude of streamflow has long term consequences on human lives and the environment. Various approaches have been proposed to simulate streamflow records, ranging from physically based models to conceptual and fully data-driven models. However, the quality of streamflow prediction can be more reliable with intelligence-based data-driven models that handle nonlinear hydrological processes. We propose FlowDyn, a dynamic web based streamflow prediction pipeline to intelligently simulate and forecast global streamflow time series data. In this research a number of data driven deep learning (DL) models including multi-layer perception (MLP), long short-term memory (LSTM) and a hybrid network of convolutional neural network and LSTM (CNN-LSTM) have been implemented as a pipeline to analyze and forecast sequential streamflow values that are embedded within a web-based application for visualization. To improve the quality of streamflow forecast a set of climate and flow influencing factors were obtained from weather stations belonging to different countries across the globe. This study has focused on the effects of input data characteristics on model performance; therefore, the amount of input data and data correlation have been considered. Datasets are gathered from different databases including CAMELS [1], [2], NCDC and GRDC. To impute the missing values and pre-process the available data, several methods have been used and a reliable dataset was generated for models in the pipeline to run prediction tasks on. The developed prediction models were validated and tested using NSE (Nash–Sutcliffe efficiency), KGE (Kling-Gupta efficiency), Normalized Mutual Information (NMI), and Root Mean Squared Error (RMSE) indices. A JavaScript (JS) based web application was provided with the pipeline for users to view flow prediction and variabilities over any station at any watershed system and region. Through the findings of this paper, we advocate the merit of applying data-driven neural models in the field of rainfall-runoff prediction and prove it with global hydrological and weather data.</abstract>
+    <identifier type="citekey">Humaira-2021-FlowDyn:</identifier>
+    <identifier type="doi">10.1109/bigdata52589.2021.9672019</identifier>
     <location>
         <url>https://aclanthology.org/G21-184001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>16</number></detail>
-        <extent unit="page">
-            <start>121</start>
-            <end>128</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

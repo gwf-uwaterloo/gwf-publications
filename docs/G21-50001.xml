@@ -1,36 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Abdelmoaty-2021-Biases">
+<mods ID="Salk-2021-Warming">
     <titleInfo>
-        <title>Biases Beyond the Mean in CMIP6 Extreme Precipitation: A Global Investigation</title>
+        <title>Warming combined with experimental eutrophication intensifies lake phytoplankton blooms</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Hebatallah</namePart>
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="family">Abdelmoaty</namePart>
+        <namePart type="given">Kateri</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Salk</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Venkiteswaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raoul‐Marie</namePart>
+        <namePart type="family">Couture</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Scott</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Higgins</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Paterson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chandra</namePart>
-        <namePart type="given">Rupa</namePart>
-        <namePart type="family">Rajulapati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">AghaKouchak</namePart>
+        <namePart type="given">Sherry</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Schiff</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,25 +58,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth’s Future, Volume 9, Issue 10</title>
+            <title>Limnology and Oceanography, Volume 67, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Climate models are crucial for assessing climate variability and change. A reliable model for future climate should reasonably simulate the historical climate. Here, we assess the performance of CMIP6 models in reproducing statistical properties of observed annual maxima of daily precipitation. We go beyond the commonly used methods and assess CMIP6 simulations on three scales by performing: (a) univariate comparison based on L-moments and relative difference measures; (b) bivariate comparison using Kernel densities of mean and L-variation, and of L-skewness and L-kurtosis, and (c) comparison of the entire distribution function using the Generalized Extreme Value () distribution coupled with a novel application of the Anderson-Darling Goodness-of-fit test. The results reveal that the statistical shape properties (related to the frequency and magnitude of extremes) of CMIP6 simulations match well with the observational datasets. The simulated mean and variation differ among the models with 70% of simulations having a difference within 10% from the observations. Biases are observed in the bivariate investigation of mean and variation. Several models perform well with the HadGEM3-GC31-MM model performing well in all three scales when compared to the ground-based Global Precipitation Climatology Centre data. Finally, the study highlights biases of CMIP6 models in simulating extreme precipitation in the Arctic, Tropics, arid and semi-arid regions.</abstract>
-    <identifier type="citekey">Abdelmoaty-2021-Biases</identifier>
-    <identifier type="doi">10.1029/2021ef002196</identifier>
+    <abstract>Phytoplankton blooms are a global water quality issue, and successful management depends on understanding their responses to multiple and interacting drivers, including nutrient loading and climate change. Here, we examine a long-term dataset from Lake 227, a site subject to a fertilization experiment (1969–present) with changing nitrogen:phosphorus (N:P) ratios. We applied a process-oriented model, MyLake, and updated the model structure with nutrient uptake kinetics that incorporated shifting N:P and competition among phytoplankton functional groups. We also tested different temperature and P-loading scenarios to examine the interacting effects of climate change and nutrient loading on phytoplankton blooms. The model successfully reproduced lake physics over 48 yr and the timing, overall magnitude, and shifting community structure (diazotrophs vs. non-diazotrophs) of phytoplankton blooms. Intra- and interannual variability was captured more accurately for the P-only fertilization period than for the high N:P and low N:P fertilization periods, highlighting the difficulty of modeling complex blooms even in well-studied systems. A model scenario was also run which removed climate-driven temperature trends, allowing us to disentangle concurrent drivers of blooms. Results showed that increases in water temperature in the spring led to earlier and larger phytoplankton blooms under climate change than under the effects of nutrient fertilization alone. These findings suggest that successful lake management efforts should incorporate the effects of climate change in addition to nutrient reductions, including intensifying and/or expanding monitoring periods and incorporating climate change into uncertainty estimates around future conditions.</abstract>
+    <identifier type="citekey">Salk-2021-Warming</identifier>
+    <identifier type="doi">10.1002/lno.11982</identifier>
     <location>
         <url>https://aclanthology.org/G21-50001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>9</number></detail>
-        <detail type="issue"><number>10</number></detail>
+        <detail type="volume"><number>67</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>147</start>
+            <end>158</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

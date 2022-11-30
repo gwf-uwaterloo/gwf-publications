@@ -1,40 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Costa-2020-Modelling">
+<mods ID="Day-2020-Identifying">
     <titleInfo>
-        <title>Modelling nutrient dynamics in cold agricultural catchments: A review</title>
+        <title>Identifying Functional Impacts of Heat-Resistant Fungi on Boreal Forest Recovery After Wildfire</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Diogo</namePart>
-        <namePart type="family">Costa</namePart>
+        <namePart type="given">Nicola</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Day</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Helen</namePart>
-        <namePart type="family">Baulch</namePart>
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Cumming</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jane</namePart>
-        <namePart type="family">Elliott</namePart>
+        <namePart type="given">Kari</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Dunfield</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Jill</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Johnstone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Michelle</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Mack</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kirsten</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Reid</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Merritt</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Turetsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xanthe</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Walker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,24 +83,139 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 124</title>
+            <title>Frontiers in Forests and Global Change, Volume 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Frontiers Media SA</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Costa-2020-Modelling</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2019.104586</identifier>
+    <identifier type="citekey">Day-2020-Identifying</identifier>
+    <identifier type="doi">10.3389/ffgc.2020.00068</identifier>
     <location>
         <url>https://aclanthology.org/G20-66001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>124</number></detail>
-        <detail type="page"><number>104586</number></detail>
+        <detail type="volume"><number>3</number></detail>
+    </part>
+</mods>
+<mods ID="Walker-2020-Patterns">
+    <titleInfo>
+        <title>Patterns of Ecosystem Structure and Wildfire Carbon Combustion Across Six Ecoregions of the North American Boreal Forest</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Xanthe</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Walker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Baltzer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Laura</namePart>
+        <namePart type="family">Bourgeau-Chavez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicola</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Day</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Catherine</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Dieleman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jill</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Johnstone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Evan</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Kane</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brendan</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Rogers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Merritt</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Turetsky</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sander</namePart>
+        <namePart type="family">Veraverbeke</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michelle</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Mack</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Frontiers in Forests and Global Change, Volume 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Frontiers Media SA</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Walker-2020-Patterns</identifier>
+    <identifier type="doi">10.3389/ffgc.2020.00087</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-66002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>3</number></detail>
     </part>
 </mods>
 </modsCollection>

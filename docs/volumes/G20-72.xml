@@ -1,56 +1,57 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="DeBofsky-2020-Differential">
+<mods ID="Elshamy-2020-On">
     <titleInfo>
-        <title>Differential responses of gut microbiota of male and female fathead minnow (Pimephales promelas) to a short-term environmentally-relevant, aqueous exposure to benzo[a]pyrene</title>
+        <title>On the configuration and initialization of a large-scale hydrological land surface model to represent permafrost</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Abigail</namePart>
-        <namePart type="family">DeBofsky</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Elshamy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Yuwei</namePart>
-        <namePart type="family">Xie</namePart>
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Princz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chelsea</namePart>
-        <namePart type="family">Grimard</namePart>
+        <namePart type="given">Gonzalo</namePart>
+        <namePart type="family">Sapriza-Azuri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Alper</namePart>
-        <namePart type="given">James</namePart>
-        <namePart type="family">Alcaraz</namePart>
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Abdelhamed</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Markus</namePart>
-        <namePart type="family">Brinkmann</namePart>
+        <namePart type="given">Al</namePart>
+        <namePart type="family">Pietroniro</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Markus</namePart>
-        <namePart type="family">Hecker</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Giesy</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -62,24 +63,78 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Chemosphere, Volume 252</title>
+            <title>Hydrology and Earth System Sciences, Volume 24, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">DeBofsky-2020-Differential</identifier>
-    <identifier type="doi">10.1016/j.chemosphere.2020.126461</identifier>
+    <identifier type="citekey">Elshamy-2020-On</identifier>
+    <identifier type="doi">10.5194/hess-24-349-2020</identifier>
     <location>
         <url>https://aclanthology.org/G20-72001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>252</number></detail>
-        <detail type="page"><number>126461</number></detail>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>349</start>
+            <end>379</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Schirmer-2020-Processes">
+    <titleInfo>
+        <title>Processes governing snow ablation in alpine terrain – detailed measurements from the Canadian Rockies</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Schirmer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 24, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Schirmer-2020-Processes</identifier>
+    <identifier type="doi">10.5194/hess-24-143-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-72002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>143</start>
+            <end>157</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,48 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Li-2021-The">
+<mods ID="Marcinek-2021-Revised">
     <titleInfo>
-        <title>The influence of tree transmissivity variations in winter on satellite snow parameter observations</title>
+        <title>Revised application of copper ion selective electrode (Cu-ISE) in marine waters: A new meta-calibration approach</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Qinghuan</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Saša</namePart>
+        <namePart type="family">Marcinek</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="family">Kelly</namePart>
+        <namePart type="given">Arnaud</namePart>
+        <namePart type="family">Chapoulie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juha</namePart>
-        <namePart type="family">Lemmetyinen</namePart>
+        <namePart type="given">Pascal</namePart>
+        <namePart type="family">Salaün</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roger</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">De Roo</namePart>
+        <namePart type="given">Scott</namePart>
+        <namePart type="family">Smith</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jinmei</namePart>
-        <namePart type="family">Pan</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yubao</namePart>
-        <namePart type="family">Qiu</namePart>
+        <namePart type="given">Dario</namePart>
+        <namePart type="family">Omanović</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,28 +46,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>International Journal of Digital Earth, Volume 14, Issue 10</title>
+            <title>Talanta, Volume 226</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Li-2021-The</identifier>
-    <identifier type="doi">10.1080/17538947.2021.1950852</identifier>
+    <identifier type="citekey">Marcinek-2021-Revised</identifier>
+    <identifier type="doi">10.1016/j.talanta.2021.122170</identifier>
     <location>
         <url>https://aclanthology.org/G21-125001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>14</number></detail>
-        <detail type="issue"><number>10</number></detail>
-        <extent unit="page">
-            <start>1337</start>
-            <end>1353</end>
-        </extent>
+        <detail type="volume"><number>226</number></detail>
+        <detail type="page"><number>122170</number></detail>
     </part>
 </mods>
 </modsCollection>

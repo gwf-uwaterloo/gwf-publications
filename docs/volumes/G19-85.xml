@@ -1,51 +1,72 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kochtubajda-2019-An">
+<mods ID="Kythreotis-2019-Citizen">
     <titleInfo>
-        <title>An Assessment of Surface and Atmospheric Conditions Associated with the Extreme 2014 Wildfire Season in Canada’s Northwest Territories</title>
+        <title>Citizen Social Science for More Integrative and Effective Climate Action: A Science-Policy Perspective</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Bohdan</namePart>
-        <namePart type="family">Kochtubajda</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Kythreotis</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ronald</namePart>
+        <namePart type="given">Chrystal</namePart>
+        <namePart type="family">Mantyka-Pringle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Theresa</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Mercer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lorraine</namePart>
         <namePart type="given">E</namePart>
-        <namePart type="family">Stewart</namePart>
+        <namePart type="family">Whitmarsh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Flannigan</namePart>
+        <namePart type="given">Adam</namePart>
+        <namePart type="family">Corner</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Barrie</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Bonsal</namePart>
+        <namePart type="given">Jouni</namePart>
+        <namePart type="family">Paavola</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Charles</namePart>
-        <namePart type="family">Cuell</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Chambers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Curtis</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Mooney</namePart>
+        <namePart type="given">Byron</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Miller</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Noel</namePart>
+        <namePart type="family">Castree</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -57,28 +78,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmosphere-Ocean, Volume 57, Issue 1</title>
+            <title>Frontiers in Environmental Science, Volume 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Frontiers Media SA</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Kochtubajda-2019-An</identifier>
-    <identifier type="doi">10.1080/07055900.2019.1576023</identifier>
+    <identifier type="citekey">Kythreotis-2019-Citizen</identifier>
+    <identifier type="doi">10.3389/fenvs.2019.00010</identifier>
     <location>
         <url>https://aclanthology.org/G19-85001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>57</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>73</start>
-            <end>90</end>
-        </extent>
+        <detail type="volume"><number>7</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,16 +1,70 @@
 ﻿%0 Journal Article
-%T Impact of Future Climate and Vegetation on the Hydrology of an Arctic Headwater Basin at the Tundra–Taiga Transition
-%A Krogh, Sebastian A.
-%A Pomeroy, John W.
-%J Journal of Hydrometeorology, Volume 20, Issue 2
+%T The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty
+%A Lawrence, David M.
+%A Fisher, Rosie A.
+%A Koven, Charles D.
+%A Oleson, Keith W.
+%A Swenson, Sean C.
+%A Bonan, Gordon
+%A Collier, Nathan
+%A Ghimire, Bardan
+%A van Kampenhout, Leo
+%A Kennedy, Daniel
+%A Kluzek, Erik
+%A Lawrence, Peter J.
+%A Li, Fang
+%A Li, Hongyi
+%A Lombardozzi, Danica
+%A Riley, William J.
+%A Sacks, William J.
+%A Shi, Mingjie
+%A Vertenstein, Mariana
+%A Wieder, William R.
+%A Xu, Chonggang
+%A Ali, Ashehad A.
+%A Badger, Andrew M.
+%A Bisht, Gautam
+%A van den Broeke, Michiel
+%A Brunke, Michael A.
+%A Burns, Sean P.
+%A Buzan, Jonathan
+%A Clark, Martyn
+%A Craig, Anthony
+%A Dahlin, Kyla
+%A Drewniak, Beth
+%A Fisher, Joshua B.
+%A Flanner, Mark
+%A Fox, Andrew M.
+%A Gentine, Pierre
+%A Hoffman, Forrest
+%A Keppel‐Aleks, Gretchen
+%A Knox, Ryan
+%A Kumar, Sanjiv
+%A Lenaerts, Jan
+%A Leung, L. Ruby
+%A Lipscomb, William H.
+%A Lu, Yaqiong
+%A Pandey, Ashutosh
+%A Pelletier, Jon D.
+%A Perket, Justin
+%A Randerson, James T.
+%A Ricciuto, Daniel M.
+%A Sanderson, Benjamin M.
+%A Slater, Andrew
+%A Subin, Zachary M.
+%A Tang, Jinyun
+%A Thomas, R. Quinn
+%A Val Martin, Maria
+%A Zeng, Xubin
+%J Journal of Advances in Modeling Earth Systems, Volume 11, Issue 12
 %D 2019
-%V 20
-%N 2
-%I American Meteorological Society
-%F Krogh-2019-Impact
-%X Abstract The rapidly warming Arctic is experiencing permafrost degradation and shrub expansion. Future climate projections show a clear increase in mean annual temperature and increasing precipitation in the Arctic; however, the impact of these changes on hydrological cycling in Arctic headwater basins is poorly understood. This study investigates the impact of climate change, as represented by simulations using a high-resolution atmospheric model under a pseudo-global-warming configuration, and projected changes in vegetation, using a spatially distributed and physically based Arctic hydrological model, on a small headwater basin at the tundra–taiga transition in northwestern Canada. Climate projections under the RCP8.5 emission scenario show a 6.1°C warming, a 38% increase in annual precipitation, and a 19 W m−2 increase in all-wave annual irradiance over the twenty-first century. Hydrological modeling results suggest a shift in hydrological processes with maximum peak snow accumulation increasing by 70%, snow-cover duration shortening by 26 days, active layer deepening by 0.25 m, evapotranspiration increasing by 18%, and sublimation decreasing by 9%. This results in an intensification of the hydrological regime by doubling discharge volume, a 130% increase in spring runoff, and earlier and larger peak streamflow. Most hydrological changes were found to be driven by climate change; however, increasing vegetation cover and density reduced blowing snow redistribution and sublimation, and increased evaporation from intercepted rainfall. This study provides the first detailed investigation of projected changes in climate and vegetation on the hydrology of an Arctic headwater basin, and so it is expected to help inform larger-scale climate impact studies in the Arctic.
-%R 10.1175/jhm-d-18-0187.1
+%V 11
+%N 12
+%I American Geophysical Union (AGU)
+%F Lawrence-2019-The
+%X The Community Land Model (CLM) is the land component of the Community Earth System Model (CESM) and is used in several global and regional modeling systems. In this paper, we introduce model developments included in CLM version 5 (CLM5), which is the default land component for CESM2. We assess an ensemble of simulations, including prescribed and prognostic vegetation state, multiple forcing data sets, and CLM4, CLM4.5, and CLM5, against a range of metrics including from the International Land Model Benchmarking (ILAMBv2) package. CLM5 includes new and updated processes and parameterizations: (1) dynamic land units, (2) updated parameterizations and structure for hydrology and snow (spatially explicit soil depth, dry surface layer, revised groundwater scheme, revised canopy interception and canopy snow processes, updated fresh snow density, simple firn model, and Model for Scale Adaptive River Transport), (3) plant hydraulics and hydraulic redistribution, (4) revised nitrogen cycling (flexible leaf stoichiometry, leaf N optimization for photosynthesis, and carbon costs for plant nitrogen uptake), (5) global crop model with six crop types and time‐evolving irrigated areas and fertilization rates, (6) updated urban building energy, (7) carbon isotopes, and (8) updated stomatal physiology. New optional features include demographically structured dynamic vegetation model (Functionally Assembled Terrestrial Ecosystem Simulator), ozone damage to plants, and fire trace gas emissions coupling to the atmosphere. Conclusive establishment of improvement or degradation of individual variables or metrics is challenged by forcing uncertainty, parametric uncertainty, and model structural complexity, but the multivariate metrics presented here suggest a general broad improvement from CLM4 to CLM5.
+%R 10.1029/2018ms001583
 %U https://aclanthology.org/G19-86001
-%U https://doi.org/10.1175/jhm-d-18-0187.1
-%P 197-215
+%U https://doi.org/10.1029/2018ms001583
+%P 4245-4287
 

@@ -1,13 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Nath-2021-Automatically">
+<mods ID="Mondal-2021-Semantic">
     <titleInfo>
-        <title>Automatically Generating Release Notes with Content Classification Models</title>
+        <title>Semantic Slicing of Architectural Change Commits</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sristy</namePart>
-        <namePart type="given">Sumana</namePart>
-        <namePart type="family">Nath</namePart>
+        <namePart type="given">Amit</namePart>
+        <namePart type="given">Kumar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,6 +35,14 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Sristy</namePart>
+        <namePart type="given">Sumana</namePart>
+        <namePart type="family">Nath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2021</dateIssued>
     </originInfo>
@@ -26,28 +50,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>International Journal of Software Engineering and Knowledge Engineering, Volume 31, Issue 11n12</title>
+            <title>Proceedings of the 15th ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>World Scientific Pub Co Pte Ltd</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Nath-2021-Automatically</identifier>
-    <identifier type="doi">10.1142/s0218194021400192</identifier>
+    <identifier type="citekey">Mondal-2021-Semantic</identifier>
+    <identifier type="doi">10.1145/3475716.3484487</identifier>
     <location>
         <url>https://aclanthology.org/G21-22001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>31</number></detail>
-        <detail type="issue"><number>11</number></detail>
-        <extent unit="page">
-            <start>1721</start>
-            <end>1740</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

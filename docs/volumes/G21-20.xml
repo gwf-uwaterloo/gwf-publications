@@ -1,35 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mondal-2021-ID-correspondence:">
+<mods ID="Gauch-2021-The">
     <titleInfo>
-        <title>ID-correspondence: a measure for detecting evolutionary coupling</title>
+        <title>The proper care and feeding of CAMELS: How limited training data affects streamflow prediction</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Manishankar</namePart>
-        <namePart type="family">Mondal</namePart>
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Gauch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Juliane</namePart>
+        <namePart type="family">Mai</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kevin</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,24 +32,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Empirical Software Engineering, Volume 26, Issue 1</title>
+            <title>Environmental Modelling &amp;amp; Software, Volume 135</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mondal-2021-ID-correspondence:</identifier>
-    <identifier type="doi">10.1007/s10664-020-09921-9</identifier>
+    <identifier type="citekey">Gauch-2021-The</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2020.104926</identifier>
     <location>
         <url>https://aclanthology.org/G21-20001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>26</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>135</number></detail>
+        <detail type="page"><number>104926</number></detail>
     </part>
 </mods>
 </modsCollection>

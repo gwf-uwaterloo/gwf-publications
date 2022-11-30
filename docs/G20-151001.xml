@@ -1,35 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Xiao-2020-Anode">
+<mods ID="Zhang-2020-Detection">
     <titleInfo>
-        <title>Anode surface modification regulates biofilm community population and the performance of micro-MFC based biochemical oxygen demand sensor</title>
+        <title>Detection of fouling on electrically conductive membranes by electrical impedance spectroscopy</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Nan</namePart>
-        <namePart type="family">Xiao</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rong</namePart>
-        <namePart type="family">Wu</namePart>
+        <namePart type="given">Mohamad</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Halali</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jinhui</namePart>
-        <namePart type="given">Jeanne</namePart>
-        <namePart type="family">Huang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">P</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
+        <namePart type="given">Charles-François</namePart>
+        <namePart type="family">de Lannoy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Chemical Engineering Science, Volume 221</title>
+            <title>Separation and Purification Technology, Volume 242</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -50,16 +42,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Plasma increased hydrophilicity, encouraging bacterial growth and diversity. \bullet CNT changed anode surface morphology, encouraging electroactive bacteria growth. \bullet Both plasma and CNT treatment do not increase the sensitivity of the biosensor. \bullet The conditions optimal for power generation may not be optimal for MFC sensors. The anode surface is known to play an important role in the microbial growth and in mediating electron transfer between electroactive bacteria and the electrodes in power generating microbial fuel cells (MFCs). However, the effect of the anode surface and its modification on MFC-based biosensor performance has not been studied previously. In this study, our results show that the surface modification influences certain aspect of the biosensor performance. Plasma treatment makes the carbon cloth electrode hydrophilic with contact angle of 82 \pm 5° from that of 139 \pm 3° without treatment which consequently increases the amount of biofilm and produces higher current generation. Carbon nanotube (CNT) treatment doesn’t increase the amount of biofilm but significantly changes its electroactive microorganism composition from 2.3% to 17.3% that improves current generation. Interestingly, the sensitivity of the MFC sensor was not improved by either of these treatments. These findings would be important for the optimized design and manufacturing of biosensing MFCs.</abstract>
-    <identifier type="citekey">Xiao-2020-Anode</identifier>
-    <identifier type="doi">10.1016/j.ces.2020.115691</identifier>
+    <abstract>Abstract Detecting the onset of membrane fouling is critical for effectively removing membrane foulants during microfiltration (MF) separation. This work investigates the use of electrical impedance spectroscopy (EIS) on the surface of electrically conductive membranes (ECMs) to measure early development of membrane surface fouling. An electrochemical cell was developed in which an ECM acted as a working electrode and a graphite electrode acted as the counter electrode. Conductive membranes were fabricated by coating single-walled/double-walled carbon nanotubes (f-SW/DWCNT) on microfiltration polyethersulfone (PES) supporting membranes. Membrane fouling was simulated by pressure depositing different amounts of latex beads onto the surface of the membrane in a dead-end filtration cell. Changes in membrane water permeability were correlated to the degree of membrane fouling. Clean membranes had water permeability of 392 \pm 28 LMH/bar. Reduction of membrane water permeability of 13.8 \pm 3.3%, 15.8 \pm 4.7%, 17.8 \pm 0.5% and 27.1 \pm 4.6% were observed for membranes covered with 0.028 mg/m2, 0.28 mg/m2, 1.40 mg/m2 and 2.80 mg/m2 on the membranes, respectively. These small differences in fouling degree were statistically resolvable in measured Nyquist plots. It was observed that the diameter of the higher frequency charge transfer region (104–106 Hz) of the Nyquist plot semicircles increased with greater fouling. These observations were hypothesized to correspond to decreasing surface conductivities of the membranes by the incorporation of insulating materials (latex beads) within the porous conductive coating. This proposed hypothesis was supported by measured EIS results modeled with a theoretical equivalent circuit. Fouled membrane surface conductivity, surface hydrophilicity, and pore size were measured by SEM, four-point probe conductivity, contact angle, and MWCO experiments, respectively, to compare conventional characterization techniques with non-destructive EIS measurements.</abstract>
+    <identifier type="citekey">Zhang-2020-Detection</identifier>
+    <identifier type="doi">10.1016/j.seppur.2020.116823</identifier>
     <location>
         <url>https://aclanthology.org/G20-151001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>221</number></detail>
-        <detail type="page"><number>115691</number></detail>
+        <detail type="volume"><number>242</number></detail>
+        <detail type="page"><number>116823</number></detail>
     </part>
 </mods>
 </modsCollection>

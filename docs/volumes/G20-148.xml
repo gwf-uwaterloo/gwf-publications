@@ -1,64 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Wu-2020-Divergent">
+<mods ID="Xiao-2020-Influence">
     <titleInfo>
-        <title>Divergent effects of climate change on future groundwater availability in key mid-latitude aquifers</title>
+        <title>Influence of wastewater microbial community on the performance of miniaturized microbial fuel cell biosensor</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Wen-Ying</namePart>
+        <namePart type="given">Nan</namePart>
+        <namePart type="family">Xiao</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rong</namePart>
         <namePart type="family">Wu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Min-Hui</namePart>
-        <namePart type="family">Lo</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yoshihide</namePart>
-        <namePart type="family">Wada</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Famiglietti</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">T</namePart>
-        <namePart type="family">Reager</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pat</namePart>
-        <namePart type="given">J.-F.</namePart>
-        <namePart type="family">Yeh</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Agnès</namePart>
-        <namePart type="family">Ducharne</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zong-Liang</namePart>
-        <namePart type="family">Yang</namePart>
+        <namePart type="given">Jinhui</namePart>
+        <namePart type="given">Jeanne</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -70,24 +41,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Nature Communications, Volume 11, Issue 1</title>
+            <title>Bioresource Technology, Volume 302</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Wu-2020-Divergent</identifier>
-    <identifier type="doi">10.1038/s41467-020-17581-y</identifier>
+    <identifier type="citekey">Xiao-2020-Influence</identifier>
+    <identifier type="doi">10.1016/j.biortech.2020.122777</identifier>
     <location>
         <url>https://aclanthology.org/G20-148001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>11</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>302</number></detail>
+        <detail type="page"><number>122777</number></detail>
     </part>
 </mods>
 </modsCollection>

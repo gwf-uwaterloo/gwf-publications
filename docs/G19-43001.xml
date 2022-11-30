@@ -1,28 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Clark-2019-The">
+<mods ID="Coogan-2019-Scientists’">
     <titleInfo>
-        <title>The initial three years of carbon dioxide exchange between the atmosphere and a reclaimed oil sand wetland</title>
+        <title>Scientists’ warning on wildfire — a Canadian perspective</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Graham</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Elyn</namePart>
-        <namePart type="family">Humphreys</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
         <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
+        <namePart type="given">C.P.</namePart>
+        <namePart type="family">Coogan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">François-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Piyush</namePart>
+        <namePart type="family">Jain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Flannigan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,27 +41,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Engineering, Volume 135</title>
+            <title>Canadian Journal of Forest Research, Volume 49, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Northern peatlands contain up to 20% of the ∼3000 Pg of global soil organic carbon. Carbon-rich peatlands cover upwards of 65% of the landscape in northern Canada where resource extraction activities disturb both the carbon pools and the future carbon sequestration capacity of the landscape. Previous estimates of the carbon losses from this disturbance predict a complete loss of the region’s peatland carbon pool. Mining industries operating in these sensitive environments have recently begun constructing closure landscapes which are intended to develop carbon cycle processes similar to undisturbed northern peatlands. This study investigates eddy covariance fluxes of carbon dioxide (CO2) at one of Canada’s first fully constructed boreal plains watersheds, the Sandhill Fen Watershed. During the first three years since inception, only the lowland region had an annual net ecosystem exchange of CO2 (NEE) indicative of increasing CO2 sink potential. The lowland region was characterized by saturated salvaged peat soils, standing water, thriving communities of Typha and Carex spp. and was a net CO2 sink of 77 g C m−2 in the third year. At the same time the upland and the midland regions characterized by moist salvaged peat soils and a mix of herbaceous, shrub and planted Picea glauca and Pinus banksiana remained net sources of CO2. Despite similar rates of gross primary production, ecosystem and plot-level respiration rates in the lowland were significantly lower than in the midland region, likely due to very low reduction potentials within the lowland’s saturated soils. With no other significant outflows of carbon, the lowland of the Sandhill Fen Watershed may be in the early stages of organic matter accumulation. Due to limited oxidation of the salvaged peat substrate in the lowland region, wetland reclamation employing these techniques may reduce the disturbance loss of the carbon pool in the boreal plains.</abstract>
-    <identifier type="citekey">Clark-2019-The</identifier>
-    <identifier type="doi">10.1016/j.ecoleng.2019.05.016</identifier>
+    <abstract>Recently, the World Scientists’ Warning to Humanity: a Second Notice was issued in response to ongoing and largely unabated environmental degradation due to anthropogenic activities. In the warning, humanity is urged to practice more environmentally sustainable alternatives to business as usual to avoid potentially catastrophic outcomes. Following the success of their warning, the Alliance of World Scientists called for discipline-specific follow-up papers. This paper is an answer to that call for the topic of wildland fire. Across much of Canada and the world, wildfires are anticipated to increase in severity and frequency in response to anthropogenic activities. The world scientists’ second warning provides the opportunity for wildland fire researchers to raise the profile of the potential impacts that anthropogenic activities are likely to have on future fire regimes and, in return, what impacts future fire regimes may have on humanity. We discuss how wildfire is related to several issues of concern raised in the world scientists’ second warning, including climate change, human population growth, biodiversity and forests, and freshwater availability. Furthermore, we touch on the potential future health impacts and challenges to wildfire suppression and management in Canada. In essence, our wildfire scientists’ warning to humanity is that we, as a society, will have to learn to live with more fire on the landscape. We provide some recommendations on how we might move forward to prepare for and adapt to future wildfire regimes in Canada. Although this paper is primarily Canadian in focus, the concepts and information herein also draw from international examples and are of relevance globally.</abstract>
+    <identifier type="citekey">Coogan-2019-Scientists’</identifier>
+    <identifier type="doi">10.1139/cjfr-2019-0094</identifier>
     <location>
         <url>https://aclanthology.org/G19-43001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>135</number></detail>
+        <detail type="volume"><number>49</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>116</start>
-            <end>126</end>
+            <start>1015</start>
+            <end>1023</end>
         </extent>
     </part>
 </mods>

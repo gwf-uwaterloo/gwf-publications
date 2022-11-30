@@ -1,51 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Golmohammadi-2020-Assessment">
+<mods ID="Zhang-2020-Joint">
     <titleInfo>
-        <title>Assessment of Impacts of Climate Change on Tile Discharge and Nitrogen Yield Using the DRAINMOD Model</title>
+        <title>Joint Modeling of Crop and Irrigation in the central United States Using the Noah‐MP Land Surface Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Golmar</namePart>
-        <namePart type="family">Golmohammadi</namePart>
+        <namePart type="given">Zhe</namePart>
+        <namePart type="family">Zhang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ramesh</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Rudra</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Barlage</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gary</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Parkin</namePart>
+        <namePart type="given">Fei</namePart>
+        <namePart type="family">Chen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Priyantha</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Kulasekera</namePart>
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="family">Macrae</namePart>
+        <namePart type="given">Warren</namePart>
+        <namePart type="family">Helgason</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pradeep</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Goel</namePart>
+        <namePart type="given">Xiaoyu</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xing</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -57,25 +67,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology, Volume 8, Issue 1</title>
+            <title>Journal of Advances in Modeling Earth Systems, Volume 12, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Golmohammadi-2020-Assessment</identifier>
-    <identifier type="doi">10.3390/hydrology8010001</identifier>
+    <identifier type="citekey">Zhang-2020-Joint</identifier>
+    <identifier type="doi">10.1029/2020ms002159</identifier>
     <location>
         <url>https://aclanthology.org/G20-2001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <detail type="page"><number>1</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>7</number></detail>
     </part>
 </mods>
 </modsCollection>

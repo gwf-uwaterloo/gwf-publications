@@ -1,43 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Laguë-2021-Terrestrial">
+<mods ID="Das-2021-Modelling">
     <titleInfo>
-        <title>Terrestrial Evaporation and Global Climate: Lessons from Northland, a Planet with a Hemispheric Continent</title>
+        <title>Modelling climatic impacts on ice-jam floods: a review of current models, modelling capabilities, challenges, and future prospects</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marysa</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Laguë</namePart>
+        <namePart type="given">Apurba</namePart>
+        <namePart type="family">Das</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Marianne</namePart>
-        <namePart type="family">Pietschnig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sarah</namePart>
-        <namePart type="family">Ragen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Timothy</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Smith</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Battisti</namePart>
+        <namePart type="given">Karl-Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -49,27 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Climate, Volume 34, Issue 6</title>
+            <title>Environmental Reviews, Volume 29, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Laguë-2021-Terrestrial</identifier>
-    <identifier type="doi">10.1175/jcli-d-20-0452.1</identifier>
+    <identifier type="citekey">Das-2021-Modelling</identifier>
+    <identifier type="doi">10.1139/er-2020-0108</identifier>
     <location>
         <url>https://aclanthology.org/G21-59001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="issue"><number>6</number></detail>
+        <detail type="volume"><number>29</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>2253</start>
-            <end>2276</end>
+            <start>378</start>
+            <end>390</end>
         </extent>
     </part>
 </mods>

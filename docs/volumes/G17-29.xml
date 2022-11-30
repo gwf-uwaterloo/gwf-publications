@@ -1,29 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Morales-Marín-2017-Estimating">
+<mods ID="Parsons-2017-Sediment">
     <titleInfo>
-        <title>Estimating Sediment Loadings in the South Saskatchewan River Catchment</title>
+        <title>Sediment phosphorus speciation and mobility under dynamic redox conditions</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Morales-Marín</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Parsons</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">H</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Fereidoun</namePart>
+        <namePart type="family">Rezanezhad</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">David</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">O’Connell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Van Cappellen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,27 +41,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Management, Volume 32, Issue 2</title>
+            <title>Biogeosciences, Volume 14, Issue 14</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Morales-Marín-2017-Estimating</identifier>
-    <identifier type="doi">10.1007/s11269-017-1838-8</identifier>
+    <identifier type="citekey">Parsons-2017-Sediment</identifier>
+    <identifier type="doi">10.5194/bg-14-3585-2017</identifier>
     <location>
         <url>https://aclanthology.org/G17-29001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>32</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>14</number></detail>
         <extent unit="page">
-            <start>769</start>
-            <end>783</end>
+            <start>3585</start>
+            <end>3602</end>
         </extent>
     </part>
 </mods>

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Costa-2019-Preferential">
+<mods ID="Costa-2019-Using">
     <titleInfo>
-        <title>Preferential meltwater flowpaths as a driver of preferential elution of chemicals from melting snowpacks</title>
+        <title>Using an inverse modelling approach with equifinality control to investigate the dominant controls on snowmelt nutrient export</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Diogo</namePart>
@@ -13,8 +13,28 @@
     </name>
     <name type="personal">
         <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
         <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Howard</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,27 +46,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 662</title>
+            <title>Hydrological Processes, Volume 33, Issue 23</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Seasonal snowcovers release nutrients accumulated over the winter during spring snowmelt and this can be an important part of the annual biogeochemical cycling of chemicals and their loading to soils and water bodies. The characteristics of this load are controlled by snowmelt dynamics and the physical and chemical properties of the snowpack, which are affected by overwinter and snowmelt metamorphism, refreezing of meltwater, and ion exclusion from snow crystals. Rain-on-snow (ROS) events can accelerate and modify the snowpack discharge process. The interplay of these processes can cause microscale flow heterogeneity and preferential flow pathways (PFP). Previous experimental work has examined PFP and ion elution processes in snowpacks, but their combined effect on the spatial and temporal characteristics of snowmelt ion elution remains uncertain. In this research, two controlled laboratory experiments were performed to investigate the role of PFP and ROS in controlling snow ion release to runoff. These involved the high frequency monitoring of flow and meltwater concentrations during snowmelt induced by radiation-convection (RC) processes and rain-on-snow (ROS). Results showed that when ROS was included, PFP was responsible for the transport of 68% and 73% of the total NO3 and PO4 load discharged during the early snowmelt phase recorded by the experiment. However, this initial load increased to 95% and 75% when ROS was removed, causing the release of more than 20% of the total snowpack NO3 and PO4 during the first 1.5% of melt. Small intensity ROS may refreeze in the snowpack, which may affect the ability of lateral flow to deliver snow ions located beyond the leading edge of PFP.</abstract>
-    <identifier type="citekey">Costa-2019-Preferential</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2019.01.091</identifier>
+    <abstract>There is great interest in modelling the export of nitrogen (N) and phosphorus (P) from agricultural fields because of ongoing challenges of eutrophication. However, the use of existing hydrochemistry models can be problematic in cold regions because models frequently employ incomplete or conceptually incorrect representations of the dominant cold regions hydrological processes and are overparameterized, often with insufficient data for validation. Here, a process‐based N model, WINTRA, which is coupled to a physically based cold regions hydrological model, was expanded to simulate P and account for overwinter soil nutrient biochemical cycling. An inverse modelling approach, using this model with consideration of parameter equifinality, was applied to an intensively monitored agricultural basin in Manitoba, Canada, to help identify the main climate, soil, and anthropogenic controls on nutrient export. Consistent with observations, the model results suggest that snow water equivalent, melt rate, snow cover depletion rate, and contributing area for run‐off generation determine the opportunity time and surface area for run‐off–soil interaction. These physical controls have not been addressed in existing models. Results also show that the time lag between the start of snowmelt and the arrival of peak nutrient concentration in run‐off increased with decreasing antecedent soil moisture content, highlighting potential implications of frozen soils on run‐off processes and hydrochemistry. The simulations showed TDP concentration peaks generally arriving earlier than NO₃ but also decreasing faster afterwards, which suggests a significant contribution of plant residue Total dissolved Phosphorus (TDP) to early snowmelt run‐off. Antecedent fall tillage and fertilizer application increased TDP concentrations in spring snowmelt run‐off but did not consistently affect NO₃ run‐off. In this case, the antecedent soil moisture content seemed to have had a dominant effect on overwinter soil N biogeochemical processes such as mineralization, which are often ignored in models. This work demonstrates both the need for better representation of cold regions processes in hydrochemical models and the model improvements that are possible if these are included.</abstract>
+    <identifier type="citekey">Costa-2019-Using</identifier>
+    <identifier type="doi">10.1002/hyp.13463</identifier>
     <location>
         <url>https://aclanthology.org/G19-45001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>662</number></detail>
+        <detail type="volume"><number>33</number></detail>
+        <detail type="issue"><number>23</number></detail>
         <extent unit="page">
-            <start>110</start>
-            <end>120</end>
+            <start>2958</start>
+            <end>2977</end>
         </extent>
     </part>
 </mods>

@@ -1,21 +1,106 @@
 ﻿%0 Journal Article
-%T Invited perspective: What lies beneath a changing Arctic?
-%A McKenzie, Jeffrey M.
-%A Kurylyk, Barret L.
-%A Walvoord, Michelle A.
-%A Bense, Victor F.
-%A Fortier, Daniel
-%A Spence, Christopher
-%A Grenier, Christophe
-%J The Cryosphere, Volume 15, Issue 1
+%T Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands
+%A Irvin, Jeremy
+%A Zhou, Sharon
+%A McNicol, Gavin
+%A Lu, Fred
+%A Liu, Vincent
+%A Fluet-Chouinard, Etienne
+%A Ouyang, Zutao
+%A Knox, Sara Helen
+%A Lucas-Moffat, Antje
+%A Trotta, Carlo
+%A Papale, Dario
+%A Vitale, Domenico
+%A Mammarella, Ivan
+%A Alekseychik, Pavel
+%A Aurela, Mika
+%A Avati, Anand
+%A Baldocchi, Dennis
+%A Bansal, Sheel
+%A Bohrer, Gil
+%A Campbell, David I.
+%A Chen, Jiquan
+%A Chu, Housen
+%A Dalmagro, Higo J.
+%A Delwiche, Kyle B.
+%A Desai, Ankur R.
+%A Euskirchen, Eugenie
+%A Feron, Sarah
+%A Goeckede, Mathias
+%A Heimann, Martin
+%A Helbig, Manuel
+%A Helfter, Carole
+%A Hemes, Kyle S.
+%A Hirano, Takashi
+%A Iwata, Hiroki
+%A Jurasinski, Gerald
+%A Kalhori, Aram
+%A Kondrich, Andrew
+%A Lai, Derrick YF
+%A Lohila, Annalea
+%A Malhotra, Avni
+%A Merbold, Lutz
+%A Mitra, Bhaskar
+%A Ng, Andrew
+%A Nilsson, Mats B.
+%A Noormets, Asko
+%A Peichl, Matthias
+%A Rey-Sanchez, A. Camilo
+%A Richardson, Andrew D.
+%A Runkle, Benjamin RK
+%A Schäfer, Karina VR
+%A Sonnentag, Oliver
+%A Stuart-Haëntjens, Ellen
+%A Sturtevant, Cove
+%A Ueyama, Masahito
+%A Valach, Alex C.
+%A Vargas, Rodrigo
+%A Vourlitis, George L.
+%A Ward, Eric J.
+%A Wong, Guan Xhuan
+%A Zona, Donatella
+%A Alberto, Ma. Carmelita R.
+%A Billesbach, David P.
+%A Celis, Gerardo
+%A Dolman, Han
+%A Friborg, Thomas
+%A Fuchs, Kathrin
+%A Gogo, Sébastien
+%A Gondwe, Mangaliso J.
+%A Goodrich, Jordan P.
+%A Gottschalk, Pia
+%A Hörtnagl, Lukas
+%A Jacotot, Adrien
+%A Koebsch, Franziska
+%A Kasak, Kuno
+%A Maier, Regine
+%A Morin, Timothy H.
+%A Nemitz, Eiko
+%A Oechel, Walter C.
+%A Oikawa, Patricia Y.
+%A Ono, Keisuke
+%A Sachs, Torsten
+%A Sakabe, Ayaka
+%A Schuur, Edward A.
+%A Shortt, Robert
+%A Sullivan, Ryan C.
+%A Szutu, Daphne J.
+%A Tuittila, Eeva-Stiina
+%A Varlagin, Andrej
+%A Verfaillie, Joeseph G.
+%A Wille, Christian
+%A Windham-Myers, Lisamarie
+%A Poulter, Benjamin
+%A Jackson, Robert B.
+%J Agricultural and Forest Meteorology, Volume 308-309
 %D 2021
-%V 15
-%N 1
-%I Copernicus GmbH
-%F McKenzie-2021-Invited
-%X Abstract. As permafrost thaws in the Arctic, new subsurface pathways open for the transport of groundwater, energy, and solutes. We identify different ways that these subsurface changes are driving observed surface consequences, including the potential for increased contaminant transport, modification to water resources, and enhanced rates of infrastructure (e.g. buildings and roads) damage. Further, as permafrost thaws it allows groundwater to transport carbon, nutrients, and other dissolved constituents from terrestrial to aquatic environments via progressively deeper subsurface flow paths. Cryohydrogeology, the study of groundwater in cold regions, should be included in northern research initiatives to account for this hidden catalyst of environmental and societal change.
-%R 10.5194/tc-15-479-2021
+%V 308
+%I Elsevier BV
+%F Irvin-2021-Gap-filling
+%X \bullet We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands \bullet New methods for generating realistic artificial gaps and uncertainties are proposed \bullet Decision tree algorithms perform slightly better than neural networks on average \bullet Soil temperature and generic seasonality are the most important predictors \bullet Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).
+%R 10.1016/j.agrformet.2021.108528
 %U https://aclanthology.org/G21-90001
-%U https://doi.org/10.5194/tc-15-479-2021
-%P 479-484
+%U https://doi.org/10.1016/j.agrformet.2021.108528
+%P 108528
 

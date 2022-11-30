@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Taheri-2022-Green">
+<mods ID="Huang-2022-Selection">
     <titleInfo>
-        <title>Green Approach Using RuO\textlesssub\textgreater2\textless/sub\textgreater/GO Nanocomposite for Low Cost and Highly Sensitive pH Sensing</title>
+        <title>Selection of Aptamers for Sensing Caffeine and Discrimination of Its Three Single Demethylated Analogues</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahtab</namePart>
-        <namePart type="family">Taheri</namePart>
+        <namePart type="given">Po-Jung</namePart>
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Huang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Jamal</namePart>
-        <namePart type="family">Deen</namePart>
+        <namePart type="given">Juewen</namePart>
+        <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,25 +26,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of The Electrochemical Society, Volume 169, Issue 4</title>
+            <title>Analytical Chemistry, Volume 94, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>The Electrochemical Society</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Taheri-2022-Green</identifier>
-    <identifier type="doi">10.1149/1945-7111/ac5f1f</identifier>
+    <identifier type="citekey">Huang-2022-Selection</identifier>
+    <identifier type="doi">10.1021/acs.analchem.1c04349</identifier>
     <location>
         <url>https://aclanthology.org/G22-64001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>169</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <detail type="page"><number>047501</number></detail>
+        <detail type="volume"><number>94</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>3142</start>
+            <end>3149</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

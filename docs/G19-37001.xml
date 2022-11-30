@@ -1,29 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Casson-2019-Hydrological">
+<mods ID="Champagne-2019-Atmospheric">
     <titleInfo>
-        <title>Hydrological and Seasonal Controls of Phosphorus in Northern Great Plains Agricultural Streams</title>
+        <title>Atmospheric circulation amplifies shift of winter streamflow in southern Ontario</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Nora</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Casson</namePart>
+        <namePart type="given">Olivier</namePart>
+        <namePart type="family">Champagne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Henry</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Wilson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stephanie</namePart>
         <namePart type="given">M</namePart>
-        <namePart type="family">Higgins</namePart>
+        <namePart type="given">Altaf</namePart>
+        <namePart type="family">Arain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paulin</namePart>
+        <namePart type="family">Coulibaly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,29 +33,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Environmental Quality, Volume 48, Issue 4</title>
+            <title>Journal of Hydrology, Volume 578</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Controls on nutrient transport in cold, low-relief agricultural regions vary dramatically among seasons. The spring snowmelt is often the dominant runoff and nutrient loading event of the year. However, climate change may increase the proportion of runoff occurring with rainfall, and there is an urgent need to understand seasonal controls on nutrient transport to understand how patterns may change in the future. In this study, we assess patterns and drivers of total P (TP) dynamics in eight streams draining agriculturally dominated watersheds, located in southern Manitoba, Canada. Data from three years of monitoring revealed highly coherent patterns of TP concentrations in streams, with pronounced peaks in the spring and midsummer across the region. This coherent pattern was in spite of considerable interannual variability in the magnitude and timing of discharge; in particular, a major storm event occurred in summer 2014, which resulted in more discharge than the preceding spring melt. Concentration-discharge model fits were generally poor or not significant, suggesting that runoff generation is not the primary driver of TP dynamics in the majority of streams. Seasonal patterns of conductivity and stream temperature suggest that mechanisms controlling TP vary by season; a spring TP concentration maximum may be related to surface runoff over frozen soils, whereas the summer TP maximum may be related to temperature-driven biogeochemical processes, which are not well represented in current conceptual or predictive models. These findings suggest that controls on stream TP concentrations are dynamic through the year, and responses to increases in dormant and nondormant season temperatures may depend on seasonally variable processes.</abstract>
-    <identifier type="citekey">Casson-2019-Hydrological</identifier>
-    <identifier type="doi">10.2134/jeq2018.07.0281</identifier>
+    <abstract>Abstract Flooding is a major concern for Canadian society as it is the costliest natural disaster type in Canada. Southern Ontario, which houses one-third of the Canadian population, is located in an area of high vulnerability for floods. The most significant floods in the region have historically occurred during the months of March and April due to snowmelt coupled with extreme rain events. However, during the last three decades, there has been a shift of flooding events to earlier months. The aim of this study was to understand the impacts of atmospheric circulation on the temporal shift of streamflow and high flow events observed in southern Ontario over 1957–2013 period. Predominant weather regimes over North America, corresponding to recurrent meteorological situations, were identified using a discretization of daily geopotential height at 500HpA level (Z500). A regime-normalized hypothetical temperature and precipitation dataset was constructed to quantify the contribution of atmospheric circulation on streamflow response. The hypothetical dataset was used as input in the Precipitation Runoff Modeling System (PRMS), a rainfall-runoff semi-distributed hydrological model, and applied to four watersheds in southern Ontario. The results showed an increase in the temporal frequency of the regime identified here as High Pressure (HP) close to eight occurrences per decade. Regime HP, characterized by a northern position of the polar vortex, is correlated with a positive phase of the NAO and is associated with warm and wet conditions over southern Ontario during winter. The temporal increase in HP contributed more than 40% of the increase in streamflow in winter and 30–45% decrease in streamflow in April. This atmospheric situation also contributed to increase the number of high flows by 25–50% in January. These results are important to improve the seasonal forecasting of high flows and to assess the uncertainty in the temporal evolution of streamflow in the Great Lakes region.</abstract>
+    <identifier type="citekey">Champagne-2019-Atmospheric</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2019.124051</identifier>
     <location>
         <url>https://aclanthology.org/G19-37001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>48</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>978</start>
-            <end>987</end>
-        </extent>
+        <detail type="volume"><number>578</number></detail>
+        <detail type="page"><number>124051</number></detail>
     </part>
 </mods>
 </modsCollection>

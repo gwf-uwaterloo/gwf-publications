@@ -1,26 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Dai-2021-Measuring">
+<mods ID="Millar-2021-Organic">
     <titleInfo>
-        <title>Measuring the economic value of urban river restoration</title>
+        <title>Organic contamination detection for isotopic analysis of water by laser spectroscopy</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dan</namePart>
-        <namePart type="family">Dai</namePart>
+        <namePart type="given">Cody</namePart>
+        <namePart type="family">Millar</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">Kim</namePart>
+        <namePart type="family">Janzen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kun</namePart>
-        <namePart type="family">Lei</namePart>
+        <namePart type="given">Magali</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Nehemy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Geoff</namePart>
+        <namePart type="family">Koehler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pedro</namePart>
+        <namePart type="family">Hervé‐Fernández</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">McDonnell</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +55,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Economics, Volume 190</title>
+            <title>Rapid Communications in Mass Spectrometry, Volume 35, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Rivers are under enormous threat worldwide and large amounts of money are invested in river restoration. Contrary to the costs, the benefits of river restoration are much harder to quantify. In this study, the benefits of restoring different sections of the Yongding River in Beijing, China, are estimated through a discrete choice experiment (DCE). Place attachment is measured by sampling residents upstream and downstream and using the river sections as labelled alternatives in the DCE. As expected, the improvement of water quality is valued highly by all river basin residents, and place attachment and spatial preference heterogeneity play a significant role in public willingness to pay (WTP) for river restoration. Although respondents are willing to give up only a small share of their disposable income, public WTP for improved river water quality is a factor 2 to 4 higher than the current household water bill. These findings provide important guidance for the recovery of the investment costs associated with river restoration projects. \bullet The benefits of urban river restoration in Beijing are estimated \bullet Residents living up and downstream of the Yongding River are interviewed \bullet Public WTP for water quality improvements is several times higher than the current water bill \bullet Spatial preferences and place attachment play a key role in public preferences \bullet The study provides important info to guide investment decisions in river restoration</abstract>
-    <identifier type="citekey">Dai-2021-Measuring</identifier>
-    <identifier type="doi">10.1016/j.ecolecon.2021.107186</identifier>
+    <abstract>Rationale Hydrogen and oxygen stable isotope ratios (δ2H, δ17O, and δ18O values) are commonly used tracers of water. These ratios can be measured by isotope ratio infrared spectroscopy (IRIS). However, IRIS approaches are prone to errors induced by organic compounds present in plant, soil, and natural water samples. A novel approach using 17O-excess values has shown promise for flagging spectrally contaminated plant samples during IRIS analysis. A systematic assessment of this flagging system is needed to prove it useful. Methods Errors induced by methanol and ethanol water mixtures on measured IRIS and isotope ratio mass spectrometry (IRMS) results were evaluated. For IRIS analyses both liquid- and vapour-mode (via direct vapour equilibration) methods are used. The δ2H, δ17O, and δ18O values were measured and compared with known reference values to determine the errors induced by methanol and ethanol contamination. In addition, the 17O-excess contamination detection approach was tested. This is a post-processing detection tool for both liquid and vapour IRIS triple-isotope analyses, utilizing calculated 17O-excess values to flag contaminated samples. Results Organic contamination induced significant errors in IRIS results, not seen in IRMS results. Methanol caused larger errors than ethanol. Results from vapour-IRIS analyses had larger errors than those from liquid-IRIS analyses. The 17O-excess approach identified methanol driven error in liquid- and vapour-mode IRIS samples at levels where isotope results became unacceptably erroneous. For ethanol contaminated samples, a mix of erroneous and correct flagging occurred with the 17O-excess method. Our results indicate that methanol is the more problematic contaminant for data corruption. The 17O-excess method was therefore useful for data quality control. Conclusions Organic contamination caused significant errors in IRIS stable isotope results. These errors were larger during vapour analyses than during liquid IRIS analyses, and larger for methanol than ethanol contamination. The 17O-excess method is highly sensitive for detecting narrowband (methanol) contamination error in vapour and liquid analysis modes in IRIS.</abstract>
+    <identifier type="citekey">Millar-2021-Organic</identifier>
+    <identifier type="doi">10.1002/rcm.9118</identifier>
     <location>
         <url>https://aclanthology.org/G21-33001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>190</number></detail>
-        <detail type="page"><number>107186</number></detail>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>15</number></detail>
     </part>
 </mods>
 </modsCollection>

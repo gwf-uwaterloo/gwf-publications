@@ -1,44 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hernández-Henríquez-2018-The">
+<mods ID="Chakroborti-2018-Optimized">
     <titleInfo>
-        <title>The Cariboo Alpine Mesonet: sub-hourly hydrometeorological observations of British Columbia’s Cariboo Mountains and surrounding area since 2006</title>
+        <title>Optimized Storing of Workflow Outputs through Mining Association Rules</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Marco</namePart>
+        <namePart type="given">Debasish</namePart>
+        <namePart type="family">Chakroborti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Hernández-Henríquez</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Aseem</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Sharma</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Mark</namePart>
-        <namePart type="family">Taylor</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hadleigh</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Thompson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stephen</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Déry</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,28 +48,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth System Science Data, Volume 10, Issue 3</title>
+            <title>2018 IEEE International Conference on Big Data (Big Data)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hernández-Henríquez-2018-The</identifier>
-    <identifier type="doi">10.5194/essd-10-1655-2018</identifier>
+    <identifier type="citekey">Chakroborti-2018-Optimized</identifier>
+    <identifier type="doi">10.1109/bigdata.2018.8622351</identifier>
     <location>
-        <url>https://aclanthology.org/G18-26002</url>
+        <url>https://aclanthology.org/G18-26001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>10</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>1655</start>
-            <end>1672</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

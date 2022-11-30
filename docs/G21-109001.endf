@@ -1,16 +1,18 @@
 ﻿%0 Journal Article
-%T Advancing Space‐Time Simulation of Random Fields: From Storms to Cyclones and Beyond
-%A Papalexiou, Simon Michael
-%A Serinaldi, Francesco
-%A Porcu, Emilio
-%J Water Resources Research, Volume 57, Issue 8
+%T Variability in Timing and Transport of Pleistocene Meltwater Recharge to Regional Aquifers
+%A Mowat, Aidan C.
+%A Francis, Daniel J.
+%A McIntosh, Jennifer C.
+%A Lindsay, Matthew B. J.
+%A Ferguson, Grant A. G.
+%J Geophysical Research Letters, Volume 48, Issue 20
 %D 2021
-%V 57
-%N 8
+%V 48
+%N 20
 %I American Geophysical Union (AGU)
-%F Papalexiou-2021-Advancing
-%X Realistic stochastic simulation of hydro-environmental fluxes in space and time, such as rainfall, is challenging yet of paramount importance to inform environmental risk analysis and decision making under uncertainty. Here, we advance random fields simulation by introducing the concepts of general velocity fields and general anisotropy transformations. This expands the capabilities of the so-called Complete Stochastic Modeling Solution (CoSMoS) framework enabling the simulation of random fields (RF’s) preserving: (a) any non-Gaussian marginal distribution, (b) any spatiotemporal correlation structure (STCS), (c) general advection expressed by velocity fields with locally varying speed and direction, and (d) locally varying anisotropy. We also introduce new copula-based STCS’s and provide conditions guaranteeing their positive definiteness. To illustrate the potential of CoSMoS, we simulate RF’s with complex patterns and motion mimicking rainfall storms moving across an area, spiraling fields resembling weather cyclones, fields converging to (or diverging from) a point, and colliding air masses. The proposed methodology is implemented in the freely available CoSMoS R package.
-%R 10.1029/2020wr029466
+%F Mowat-2021-Variability
+%X The impacts of Pleistocene glaciation on groundwater flow systems in sedimentary basins are widely recognized, but the timing and distribution of subglacial recharge events remain poorly constrained. We investigate the spatial and temporal variability of recharge events from glaciations over the last 2 million years in the Williston Basin, Canada. Integration of fluid chemistry, stable isotope data, and transport modeling indicate that meltwater arrived at depths of ∼600–1000 m in the northcentral region of the Williston Basin at two separate time periods, 75–150 and 300 ka, which we attribute to permeability differences between stacked aquifer systems. Our findings indicate that meltwater recharge extended along the northern margin of the Williston Basin as well as previously identified recharge areas to the east. Given the distance of measurements from recharge areas, evidence of recharge from the early to mid-Pleistocene appears to be preserved in the Williston Basin.
+%R 10.1029/2021gl094285
 %U https://aclanthology.org/G21-109001
-%U https://doi.org/10.1029/2020wr029466
+%U https://doi.org/10.1029/2021gl094285
 

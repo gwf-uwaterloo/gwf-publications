@@ -1,36 +1,67 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Nafi-2020-A">
+<mods ID="Owca-2020-Use">
     <titleInfo>
-        <title>A universal cross language software similarity detector for open source software categorization</title>
+        <title>Use of pre-industrial baselines to monitor anthropogenic enrichment of metals concentrations in recently deposited sediment of floodplain lakes in the Peace-Athabasca Delta (Alberta, Canada)</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kawser</namePart>
-        <namePart type="given">Wazed</namePart>
-        <namePart type="family">Nafi</namePart>
+        <namePart type="given">Tanner</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Owca</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Kay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Jelle</namePart>
+        <namePart type="family">Faber</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
+        <namePart type="given">Casey</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Remmer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nelson</namePart>
+        <namePart type="family">Zabel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Johan</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="family">Wiklund</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,25 +73,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Systems and Software, Volume 162</title>
+            <title>Environmental Monitoring and Assessment, Volume 192, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract While there are novel approaches for detecting and categorizing similar software applications, previous research focused on detecting similarity in applications written in the same programming language and not on detecting similarity in applications written in different programming languages. Cross-language software similarity detection is inherently more challenging due to variations in language, application structures, support libraries used, and naming conventions. In this paper we propose a novel model, CroLSim, to detect similar software applications across different programming languages. We define a semantic relationship among cross-language libraries and API methods (both local and third party) using functional descriptions and a word-vector learning model. Our experiments show that CroLSim can successfully detect cross-language similar software applications, which outperforms all existing approaches (mean average precision rate of 0.65, confidence rate of 3.6, and 75% highly rated successful queries). Furthermore, we applied CroLSim to a source code repository to see whether our model can recommend cross-language source code fragments if queried directly with source code. From our experiments we found that CroLSim can recommend cross-language functional similar source code when source code is directly used as a query (average precision=0.28, recall=0.85, and F-Measure=0.40).</abstract>
-    <identifier type="citekey">Nafi-2020-A</identifier>
-    <identifier type="doi">10.1016/j.jss.2019.110491</identifier>
+    <abstract>Abstract Well-designed monitoring approaches are needed to assess effects of industrial development on downstream aquatic environments and guide environmental stewardship. Here, we develop and apply a monitoring approach to detect potential enrichment of metals concentrations in surficial lake sediments of the Peace-Athabasca Delta (PAD), northern Alberta, Canada. Since the ecological integrity of the PAD is strongly tied to river floodwaters that replenish lakes in the delta, and the PAD is located downstream of the Alberta oil sands, concerns have been raised over the potential transport of industry-supplied metals to the PAD via the Athabasca River. Surface sediment samples were collected in September 2017 from 61 lakes across the delta, and again in July 2018 from 20 of the same lakes that had received river floodwaters 2 months earlier, to provide snapshots of metals concentrations (Be, Cd, Cr, Cu, Ni, Pb, V, and Zn) that have recently accumulated in these lakes. To assess for anthropogenic enrichment, surficial sediment metals concentrations were normalized to aluminum and compared to pre-industrial baseline (i.e., reference) metal-aluminum linear relations for the Athabasca and Peace sectors of the PAD developed from pre-1920 measurements in lake sediment cores. Numerical analysis demonstrates no marked enrichment of these metals concentrations above pre-1920 baselines despite strong ability (&amp;gt; 99% power) to detect enrichment of 10%. Measurements of river sediment collected by the Regional Aquatics- and Oil Sands-Monitoring Programs (RAMP/OSM) also did not exceed pre-1920 concentrations. Thus, results presented here show no evidence of substantial oil sands-derived metals enrichment of sediment supplied by the Athabasca River to lakes in the PAD and demonstrate the usefulness of these methods as a monitoring framework.</abstract>
+    <identifier type="citekey">Owca-2020-Use</identifier>
+    <identifier type="doi">10.1007/s10661-020-8067-y</identifier>
     <location>
         <url>https://aclanthology.org/G20-117001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>162</number></detail>
-        <detail type="page"><number>110491</number></detail>
+        <detail type="volume"><number>192</number></detail>
+        <detail type="issue"><number>2</number></detail>
     </part>
 </mods>
 </modsCollection>

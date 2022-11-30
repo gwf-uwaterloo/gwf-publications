@@ -16,70 +16,58 @@ import collections
 import nltk
 from nltk.corpus import stopwords
 import numpy as np
+import xml.dom.minidom as md
 
-nltk.download("stopwords")
-list_stopwords = list(stopwords.words("english"))
+similar_count = 0
+no_data_count = 0
+
 def get_doi(publication: str):
     """
     get doi from the papers title
     """
+    global similar_count
+    global no_data_count
+
     string_check = re.compile("[@_!#$%^&*()<>?/\|}{~:-]")
     paper_url = "https://api.semanticscholar.org/v1/paper/"
     search_url = "https://api.semanticscholar.org/graph/v1/paper/search?"
+    headers={'x-api-key':'LPkwK92ydta0i2EY5UB8fgnVhoLPZb72T3p3TCF1'} 
 
-    pub = re.split("[,.:]", publication)
-    pub = pub[np.argmax(np.array([len(item) for item in pub]))]
+    pub = re.split('[,."]', publication)
+    pub = pub[np.argmax(np.array([len(item) for item in pub if all(word not in item for word in ['Proceedings', 'Conference', 'Journal'])]))]
 
-    pub = re.sub("([A-Z][.][,])", "", pub)
-    pub = re.sub("([A-Z][.][A-Z][.])", "", pub).replace(".", "").replace('"', "")
-    pub = re.sub("([A-Z][.])", "", pub).replace("’", "").replace("'", "")
-    pub = re.sub("([(][0-9]{4}[)])", "", pub)
+    pub = pub.replace("'", "").replace('"', '').replace(':', '').replace('-', ' ')    
+    pub = pub.split()    
+    
+    query = "+".join(pub).lower()                    
+    payload = {'offset': 0, 'limit': 10,'query': query,}
 
-    pub = [i for item in pub.split(",") for i in item.strip().split()]
-    pub = [item for item in pub if item.lower() not in list_stopwords and len(item) > 2]
-
-    pub = [
-        item
-        for item in pub
-        if (string_check.search(item) == None) and not bool(re.search(r"\d", item))
-    ]
-
-    i = 6
-    while True:
-        try:
-            query = "+".join(pub[:i]).lower()
-            break
-        except:
-            i -= 1
-                
-    payload = {'offset': 0, 'limit': 50,'query': query}
-
-    PARAMS = urllib.parse.urlencode(payload, safe=':+')
-    r = requests.get(url=search_url, params=PARAMS)
+    PARAMS = urllib.parse.urlencode(payload, safe=':+')    
+    r = requests.get(url=search_url, params=PARAMS, headers=headers)
     if r.status_code!=200: print("r: " + str(r.content))
-
+    
     try:
         data = r.json()
-        if data["total"] > 1:
-            score = []
-            for paper in data["data"]:
-                temp = difflib.SequenceMatcher(None, paper["title"], ' '.join(pub))
-                a = temp.get_matching_blocks()
-                score.append(temp.ratio())
+        score = []
+        if data['total'] == 0: no_data_count += 1
+        for paper in data["data"]:
+            temp = difflib.SequenceMatcher(None, paper["title"], ' '.join(pub))
+            score.append(temp.ratio())
 
-            url2 = paper_url + data["data"][score.index(max(score))]["paperId"]
-            similarity_score = max(score)
-            title = data["data"][score.index(max(score))]["title"]
-        else:
-            url2 = paper_url + data["data"][0]["paperId"]
-            similarity_score = difflib.SequenceMatcher(None, data["data"][0]["title"], ' '.join(pub)).ratio() + 5
-            title = data["data"][0]["title"]
+        url2 = paper_url + data["data"][score.index(max(score))]["paperId"]
+        similarity_score = max(score)
+        title = data["data"][score.index(max(score))]["title"]
 
-        r2 = requests.get(url=url2)
+        if similarity_score<0.5:
+            similar_count += 1
+            raise
+
+        r2 = requests.get(url=url2, headers=headers)
         if r2.status_code!=200: print("r2: " + str(r2.content))
         data2 = r2.json()
         paper_doi = data2["doi"]
-    except:        
+    except:
+        # mostly papers without doi or tha paper doesn't exist
         paper_doi = None
         similarity_score = 'exception'
         title = 'exception'
@@ -132,23 +120,24 @@ def extract_doi(input_file: str, output_file: str = None):
         print(i)
 
         if i%40 == 39:
-            paper_df['doi'] = doi_list
-            paper_df['paper'] = paper_list
+            paper_df['doi'] = doi_list            
             paper_df['score'] = score
+            paper_df['paper'] = paper_list
             paper_df['title'] = title
             paper_df['query'] = query
 
-            paper_df.to_csv(output_file, index=False)
-            # pd.DataFrame({'paper':paper_list, 'doi':doi_list}).to_csv(output_file, index=False)
-            time.sleep(60*5+10)
+            paper_df.to_csv(output_file, index=False)            
+            paper_df['doi'].dropna().str.lower().drop_duplicates().to_csv('DOI_all.csv', index=False)
 
-    paper_df['doi'] = doi_list
-    paper_df['paper'] = paper_list
+    paper_df['doi'] = doi_list    
     paper_df['score'] = score
+    paper_df['paper'] = paper_list
     paper_df['title'] = title
     paper_df['query'] = query
-
     paper_df.to_csv(output_file, index=False)
+    paper_df['doi'].dropna().str.lower().drop_duplicates().to_csv('DOI_all.csv', index=False)
+
+    
 
 def fetch_paper_data(input_file: str, output_file: str = None):
     data_url =('https://api.crossref.org/works/{DOI}')
@@ -229,10 +218,16 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
 
     paper_dict = {}
     json_object = {key: item for key, item in json_object.items() if ('author' in item) and (item['title'])} # drop papers without title or author 
+    print(len(json_object))
+    count = 0
+    count1 = 0
+    count2 = 0
     for key, item in json_object.items():
         try:
             year = item['published']['date-parts'][0][0]
-            journal = item['container-title'][0]
+            count1 += 1
+            journal = item['container-title'][0] if item['container-title'] else ' '
+            count2 += 1
             volume = item['volume'] if 'volume' in item else ''
             issue = item['issue'] if 'issue' in item else ''
             pub_key = 'journal: '+journal+' volume: '+volume+' issue: '+issue
@@ -240,9 +235,11 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
             if pub_key not in paper_dict[year]: paper_dict[year][pub_key]={}
             paper_dict[year][pub_key][key] = item     
         except:
+            count += 1
             pass
-
-    for year, year_dict in paper_dict.items():
+    
+    print(count, count1, count2)
+    for year, year_dict in paper_dict.items():        
         tag_collection = et.Element("collection")
         tag_collection.set('id', "G"+str(year)[-2:])
 
@@ -258,7 +255,7 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
             tag_meta = et.Element("meta")
             tag_vol.append(tag_meta)    
             tag_subelement = et.SubElement(tag_meta, "booktitle")
-            tag_subelement.text = first_item['container-title'][0]+((', Volume '+first_item['volume']) if 'volume' in first_item else '')+((', Issue '+first_item['issue']) if 'issue' in first_item else '')
+            tag_subelement.text = (first_item['container-title'][0] if first_item['container-title'] else ' ')+((', Volume '+first_item['volume']) if 'volume' in first_item else '')+((', Issue '+first_item['issue']) if 'issue' in first_item else '')
             tag_subelement = et.SubElement(tag_meta, "publisher")
             tag_subelement.text = first_item['publisher']
             tag_subelement = et.SubElement(tag_meta, "address")
@@ -272,7 +269,7 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
                 for author in tmep_dict_item['author']: # skip papers that don't have author name or family
                     if ('given' not in author) or ('family' not in author): skip_flag = 1
                 if skip_flag: continue
-
+                
                 tag_paper = et.Element("paper")
                 tag_vol.append(tag_paper)
                 tag_paper.set('id', str(idx+1))
@@ -302,9 +299,15 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
                 tag_subelement.text = bibkey
                 bibkey_list.append(bibkey)
 
-        tree = et.ElementTree(tag_collection)    
-        with open ("G"+str(year)[-2:]+".xml", "wb") as files :
-            tree.write(files, encoding='UTF-8', xml_declaration=True)
+        tree = et.ElementTree(tag_collection)
+        file_name = "G"+str(year)[-2:]+".xml"
+        with open (file_name, "wb") as files :
+            tree.write(files, encoding='UTF-8', xml_declaration=True)        
+        
+        xml_pretty_str = md.parse(file_name)
+        xml_pretty_str = xml_pretty_str.toprettyxml(encoding='UTF-8').decode()
+        with open(file_name, "w", encoding="utf-8") as f:
+            f.write(xml_pretty_str)        
 
     dict_file = []
     for key in json_object:
@@ -316,9 +319,14 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
         documents = yaml.dump(dict_file, file, default_flow_style=None)
 
 
-if __name__ == "__main__":
-    
-    # extract_doi('GWF_all.xlsx', 'output_all.csv')
-    # fetch_paper_data('DOI_all.csv', 'result.json')
-    # get_abstracts('DOI_all.csv', 'abstract.json')
-    # create_xml_yaml_files('result.json', 'abstract.json')    
+if __name__ == "__main__":    
+    # extract_doi('GWF_all.xlsx', 'output_all.csv')             # 1st
+    # fetch_paper_data('DOI_all.csv', 'result.json')            # 2nd
+    # get_abstracts('DOI_all.csv', 'abstract.json')             # 3rd
+    create_xml_yaml_files('result.json', 'abstract.json')     # 4th
+
+
+    # paper_df = pd.read_csv('output_all_non.csv', header=0).fillna("").iloc[:,0]
+    # for paper in paper_df:
+    #     get_doi(re.split("([Dd][Oo][Ii])", paper)[0])
+    #     print(similar_count, no_data_count)

@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Dalby-2019-Bordering">
+<mods ID="McIntosh-2019-Conventional">
     <titleInfo>
-        <title>Bordering sustainability in the Anthropocene</title>
+        <title>Conventional Oil—The Forgotten Part of the Water‐Energy Nexus</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="family">Dalby</namePart>
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">McIntosh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Ferguson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -18,27 +26,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Territory, Politics, Governance, Volume 8, Issue 2</title>
+            <title>Groundwater, Volume 57, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Dalby-2019-Bordering</identifier>
-    <identifier type="doi">10.1080/21622671.2018.1559758</identifier>
+    <identifier type="citekey">McIntosh-2019-Conventional</identifier>
+    <identifier type="doi">10.1111/gwat.12917</identifier>
     <location>
         <url>https://aclanthology.org/G19-1001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>8</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>57</number></detail>
+        <detail type="issue"><number>5</number></detail>
         <extent unit="page">
-            <start>144</start>
-            <end>160</end>
+            <start>669</start>
+            <end>677</end>
         </extent>
     </part>
 </mods>

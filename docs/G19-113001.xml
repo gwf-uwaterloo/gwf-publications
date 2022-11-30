@@ -1,40 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Markelov-2019-Coupling">
+<mods ID="Markwart-2019-Selenium">
     <titleInfo>
-        <title>Coupling Water Column and Sediment Biogeochemical Dynamics: Modeling Internal Phosphorus Loading, Climate Change Responses, and Mitigation Measures in Lake Vansjø, Norway</title>
+        <title>Selenium oxyanion bioconcentration in natural freshwater periphyton</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Igor</namePart>
-        <namePart type="family">Markelov</namePart>
+        <namePart type="given">Blue</namePart>
+        <namePart type="family">Markwart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Raoul‐Marie</namePart>
-        <namePart type="family">Couture</namePart>
+        <namePart type="given">Karsten</namePart>
+        <namePart type="family">Liber</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Rachele</namePart>
-        <namePart type="family">Fischer</namePart>
+        <namePart type="given">Yuwei</namePart>
+        <namePart type="family">Xie</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sigrid</namePart>
-        <namePart type="family">Haande</namePart>
+        <namePart type="given">Katherine</namePart>
+        <namePart type="family">Raes</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
+        <namePart type="given">Markus</namePart>
+        <namePart type="family">Hecker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="family">Janz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lorne</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Doig</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,27 +61,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Geophysical Research: Biogeosciences, Volume 124, Issue 12</title>
+            <title>Ecotoxicology and Environmental Safety, Volume 180</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Markelov-2019-Coupling</identifier>
-    <identifier type="doi">10.1029/2019jg005254</identifier>
+    <abstract>Selenium (Se) enrichment has been demonstrated to vary by several orders of magnitude among species of planktonic algae. This is a substantial source of uncertainty when modelling Se biodynamics in aquatic systems. In addition, Se bioconcentration data are largely lacking for periphytic species of algae, and for multi-species periphyton biofilms, adding to the challenge of modelling Se transfer in periphyton-based food webs. To better predict Se dynamics in periphyton dominated, freshwater ecosystems, the goal of this study was to assess the relative influence of periphyton community composition on the uptake of waterborne Se oxyanions. Naturally grown freshwater periphyton communities, sampled from five different water bodies, were exposed to environmentally relevant concentrations of selenite [Se(IV)] or selenate [Se(VI)] (nominal concentrations of 5 and 25 μg Se L-1) under similar, controlled laboratory conditions for a period of 8 days. Unique periphyton assemblages were derived from the five different field sites, as confirmed by light microscopy and targeted DNA sequencing of the plastid 23S rRNA gene in algae. Selenium accumulation demonstrated a maximum of 23.6-fold difference for Se(IV) enrichment and 2.1-fold difference for Se(VI) enrichment across the periphyton/biofilm assemblages tested. The assemblage from one field site demonstrated both high accumulation of Se(IV) and iron, and was subjected to additional experimentation to elucidate the mechanism(s) of Se accumulation. Selenite accumulation (at nominal concentrations of 5 and 25 μg Se L-1 and mean pH of 7.5 across all treatment replicates) was assessed in both unaltered and heat-killed periphyton, and in periphyton from the same site grown without light to exclude phototrophic organisms. Following an exposure length of 8 days, all periphyton treatments showed similar levels of Se accumulation, indicating that much of the apparent uptake of Se(IV) was due to non-biological processes (i.e., surface adsorption). The results of this study will help reduce uncertainty in the prediction of Se dynamics and food-chain transfer in freshwater environments. Further exploration of the ecological consequences of extracellular adsorption of Se(IV) to periphyton, rather than intracellular absorption, is recommended to further refine predictions related to Se biodynamics in freshwater food webs.</abstract>
+    <identifier type="citekey">Markwart-2019-Selenium</identifier>
+    <identifier type="doi">10.1016/j.ecoenv.2019.05.004</identifier>
     <location>
         <url>https://aclanthology.org/G19-113001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>124</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>180</number></detail>
         <extent unit="page">
-            <start>3847</start>
-            <end>3866</end>
+            <start>693</start>
+            <end>704</end>
         </extent>
     </part>
 </mods>

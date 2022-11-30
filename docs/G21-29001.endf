@@ -1,19 +1,20 @@
 ﻿%0 Journal Article
-%T Organic contamination detection for isotopic analysis of water by laser spectroscopy
-%A Millar, Cody
-%A Janzen, Kim
-%A Nehemy, Magali F.
-%A Koehler, Geoff
-%A Hervé‐Fernández, Pedro
-%A McDonnell, Jeffrey J.
-%J Rapid Communications in Mass Spectrometry, Volume 35, Issue 15
+%T The numerical implementation of land models: Problem formulation and laugh tests
+%A Clark, Martyn P.
+%A Zolfaghari, Reza
+%A Green, Kevin R.
+%A Trim, Sean
+%A Knoben, Wouter J. M.
+%A Bennett, Andrew
+%A Nijssen, Bart
+%A Ireson, Andrew
+%A Spiteri, Raymond J.
+%J Journal of Hydrometeorology
 %D 2021
-%V 35
-%N 15
-%I Wiley
-%F Millar-2021-Organic
-%X Rationale Hydrogen and oxygen stable isotope ratios (δ2H, δ17O, and δ18O values) are commonly used tracers of water. These ratios can be measured by isotope ratio infrared spectroscopy (IRIS). However, IRIS approaches are prone to errors induced by organic compounds present in plant, soil, and natural water samples. A novel approach using 17O-excess values has shown promise for flagging spectrally contaminated plant samples during IRIS analysis. A systematic assessment of this flagging system is needed to prove it useful. Methods Errors induced by methanol and ethanol water mixtures on measured IRIS and isotope ratio mass spectrometry (IRMS) results were evaluated. For IRIS analyses both liquid- and vapour-mode (via direct vapour equilibration) methods are used. The δ2H, δ17O, and δ18O values were measured and compared with known reference values to determine the errors induced by methanol and ethanol contamination. In addition, the 17O-excess contamination detection approach was tested. This is a post-processing detection tool for both liquid and vapour IRIS triple-isotope analyses, utilizing calculated 17O-excess values to flag contaminated samples. Results Organic contamination induced significant errors in IRIS results, not seen in IRMS results. Methanol caused larger errors than ethanol. Results from vapour-IRIS analyses had larger errors than those from liquid-IRIS analyses. The 17O-excess approach identified methanol driven error in liquid- and vapour-mode IRIS samples at levels where isotope results became unacceptably erroneous. For ethanol contaminated samples, a mix of erroneous and correct flagging occurred with the 17O-excess method. Our results indicate that methanol is the more problematic contaminant for data corruption. The 17O-excess method was therefore useful for data quality control. Conclusions Organic contamination caused significant errors in IRIS stable isotope results. These errors were larger during vapour analyses than during liquid IRIS analyses, and larger for methanol than ethanol contamination. The 17O-excess method is highly sensitive for detecting narrowband (methanol) contamination error in vapour and liquid analysis modes in IRIS.
-%R 10.1002/rcm.9118
+%I American Meteorological Society
+%F Clark-2021-The
+%X Abstract The intent of this paper is to encourage improved numerical implementation of land models. Our contributions in this paper are two-fold. First, we present a unified framework to formulate and implement land model equations. We separate the representation of physical processes from their numerical solution, enabling the use of established robust numerical methods to solve the model equations. Second, we introduce a set of synthetic test cases (the laugh tests) to evaluate the numerical implementation of land models. The test cases include storage and transmission of water in soils, lateral sub-surface flow, coupled hydrological and thermodynamic processes in snow, and cryosuction processes in soil. We consider synthetic test cases as “laugh tests” for land models because they provide the most rudimentary test of model capabilities. The laugh tests presented in this paper are all solved with the Structure for Unifying Multiple Modeling Alternatives model (SUMMA) implemented using the SUite of Nonlinear and DIfferential/Algebraic equation Solvers (SUNDIALS). The numerical simulations from SUMMA/SUNDIALS are compared against (1) solutions to the synthetic test cases from other models documented in the peer-reviewed literature; (2) analytical solutions; and (3) observations made in laboratory experiments. In all cases, the numerical simulations are similar to the benchmarks, building confidence in the numerical model implementation. We posit that some land models may have difficulty in solving these benchmark problems. Dedicating more effort to solving synthetic test cases is critical in order to build confidence in the numerical implementation of land models.
+%R 10.1175/jhm-d-20-0175.1
 %U https://aclanthology.org/G21-29001
-%U https://doi.org/10.1002/rcm.9118
+%U https://doi.org/10.1175/jhm-d-20-0175.1
 

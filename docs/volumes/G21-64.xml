@@ -1,26 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sadeghian-2021-Effects">
+<mods ID="Laguë-2021-Terrestrial">
     <titleInfo>
-        <title>Effects of quality controlled measured and re-analysed meteorological data on the performance of water temperature simulations</title>
+        <title>Terrestrial Evaporation and Global Climate: Lessons from Northland, a Planet with a Hemispheric Continent</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">Sadeghian</namePart>
+        <namePart type="given">Marysa</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Laguë</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jeff</namePart>
-        <namePart type="family">Hudson</namePart>
+        <namePart type="given">Marianne</namePart>
+        <namePart type="family">Pietschnig</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Sarah</namePart>
+        <namePart type="family">Ragen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Smith</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Battisti</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,27 +49,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 67, Issue 1</title>
+            <title>Journal of Climate, Volume 34, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sadeghian-2021-Effects</identifier>
-    <identifier type="doi">10.1080/02626667.2021.1994975</identifier>
+    <identifier type="citekey">Laguë-2021-Terrestrial</identifier>
+    <identifier type="doi">10.1175/jcli-d-20-0452.1</identifier>
     <location>
         <url>https://aclanthology.org/G21-64001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>67</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>6</number></detail>
         <extent unit="page">
-            <start>21</start>
-            <end>39</end>
+            <start>2253</start>
+            <end>2276</end>
         </extent>
     </part>
 </mods>

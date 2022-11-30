@@ -1,44 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ingram-2019-Postfire">
+<mods ID="Islam-2019-Comparing">
     <titleInfo>
-        <title>Postfire Soil Carbon Accumulation Does Not Recover Boreal Peatland Combustion Loss in Some Hydrogeological Settings</title>
+        <title>Comparing Bug Replication in Regular and Micro Code Clones</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Ingram</namePart>
+        <namePart type="given">Judith</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Islam</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">P</namePart>
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Moore</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wilkinson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Waddington</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,28 +42,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Geophysical Research: Biogeosciences, Volume 124, Issue 4</title>
+            <title>2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ingram-2019-Postfire</identifier>
-    <identifier type="doi">10.1029/2018jg004716</identifier>
+    <abstract>Copying and pasting source code during software development is known as code cloning. Clone fragments with a minimum size of 5 LOC were usually considered in previous studies. In recent studies, clone fragments which are less than 5 LOC are referred as micro-clones. It has been established by the literature that code clones are closely related with software bugs as well as bug replication. None of the previous studies have been conducted on bug-replication of micro-clones. In this paper we investigate and compare bug-replication in between regular and micro-clones. For the purpose of our investigation, we analyze the evolutionary history of our subject systems and identify occurrences of similarity preserving co-changes (SPCOs) in both regular and micro-clones where they experienced bug-fixes. From our experiment on thousands of revisions of six diverse subject systems written in three different programming languages, C, C# and Java we find that the percentage of clone fragments that take part in bug-replication is often higher in micro-clones than in regular code clones. The percentage of bugs that get replicated in micro-clones is almost the same as the percentage in regular clones. Finally, both regular and micro-clones have similar tendencies of replicating severe bugs according to our experiment. Thus, micro-clones in a code-base should not be ignored. We should rather consider these equally important as of the regular clones when making clone management decisions.</abstract>
+    <identifier type="citekey">Islam-2019-Comparing</identifier>
+    <identifier type="doi">10.1109/icpc.2019.00022</identifier>
     <location>
         <url>https://aclanthology.org/G19-77001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>124</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>775</start>
-            <end>788</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

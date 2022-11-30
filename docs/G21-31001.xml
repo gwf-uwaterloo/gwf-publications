@@ -1,22 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sohel-2021-Tropical">
+<mods ID="Benettin-2021-On">
     <titleInfo>
-        <title>Tropical forest water source patterns revealed by stable isotopes: A preliminary analysis of 46 neighboring species</title>
+        <title>On the use of leaf water to determine plant water source: A proof of concept</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Md.</namePart>
-        <namePart type="given">Shawkat</namePart>
-        <namePart type="given">I</namePart>
-        <namePart type="family">Sohel</namePart>
+        <namePart type="given">Paolo</namePart>
+        <namePart type="family">Benettin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adriana</namePart>
-        <namePart type="given">Vega</namePart>
-        <namePart type="family">Grau</namePart>
+        <namePart type="given">Magali</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Nehemy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lucas</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Cernusak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ansgar</namePart>
+        <namePart type="family">Kahmen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -29,13 +42,6 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="family">Herbohn</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
     <originInfo>
         <dateIssued>2021</dateIssued>
     </originInfo>
@@ -43,25 +49,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Forest Ecology and Management, Volume 494</title>
+            <title>Hydrological Processes, Volume 35, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>\bullet Stable isotope tracing of plant water use can illuminate plant water sources. \bullet Xylem water isotope values showed strong sorting and niche segregation. \bullet The majority of the observed species relied on 0.0–0.2 m depth soil water. \bullet Tropical forest water uptake depth is largely driven by tree functional traits. Stable isotope tracing of plant water use can illuminate plant water sources. But to date, the number of species tested at any given site has been minimal. Here, we sample 46 tropical hardwood tree species in a 0.32 ha plot with uniform soils. Soil water was characterized at 6 depths at 0.2 m intervals down to 1 m and showed simple and predictable depth patterns of δ 2 H and δ 18 O, and simple and spatially uniform isotope composition at each depth. Nevertheless, tree xylem water δ 2 H and δ 18 O showed remarkable variation covering the full range of soil composition, suggesting strong sorting and niche segregation across the small plot. Wood density, tree size and mean basal area increment together explained approximately 55% of the variance of xylem water isotope composition through principal component analysis. A Bayesian mixing model was applied to the data and showed that sampled trees were either sourcing their water from very shallow or deep soil layers, with very little contribution from the middle portion of the soil profile. The majority of the observed species relied on 0.0–0.2 m depth soil water. This layer contributed approximately 75% of the xylem water which was significantly higher than the contributions from all other depths. The contribution from shallow soil was highest for trees with high wood density, slow-growing trees and small-sized trees. Our work suggests that stable isotope tracers may aid a better understanding of tropical forest water uptake depths and their relation to tree functional traits and potential hydrological niche segregation among co-occurring tropical species.</abstract>
-    <identifier type="citekey">Sohel-2021-Tropical</identifier>
-    <identifier type="doi">10.1016/j.foreco.2021.119355</identifier>
+    <abstract>Source water apportionment studies using the dual isotopes of oxygen and hydrogen have revolutionized our understanding of ecohydrology. But despite these developments—mostly over the past decade—many technical problems still exist in terms of linking xylem water to its soil water and groundwater sources. This is mainly due to sampling issues and possible fractionation of xylem water. Here we explore whether or not leaf water alone can be used to quantify the blend of rainfall event inputs from which the leaf water originates. Leaf water has historically been avoided in plant water uptake studies due to the extreme fractionation processes at the leaf surface. In our proof of concept work we embrace those processes and use the well-known Craig and Gordon model to map leaf water back to its individual precipitation event water sources. We also employ a Bayesian uncertainty estimation approach to quantify source apportionment uncertainties. We show this using a controlled, vegetated lysimeter experiment where we were able to use leaf water to correctly identify the mean seasonal rainfall that was taken up by the plant, with an uncertainty typically within \pm1‰ for δ18O. While not appropriate for all source water studies, this work shows that leaf water isotope composition may provide a new, relatively un-intrusive method for addressing questions about the plant water source.</abstract>
+    <identifier type="citekey">Benettin-2021-On</identifier>
+    <identifier type="doi">10.1002/hyp.14073</identifier>
     <location>
         <url>https://aclanthology.org/G21-31001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>494</number></detail>
-        <detail type="page"><number>119355</number></detail>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>3</number></detail>
     </part>
 </mods>
 </modsCollection>

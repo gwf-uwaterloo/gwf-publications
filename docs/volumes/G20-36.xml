@@ -1,36 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Olson-2020-Meteorological">
+<mods ID="Costa-2020-Predicting">
     <titleInfo>
-        <title>Meteorological drivers of interannual variation in transparency of mountain lakes</title>
+        <title>Predicting Variable Contributing Areas, Hydrological Connectivity, and Solute Transport Pathways for a Canadian Prairie Basin</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mark</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Olson</namePart>
+        <namePart type="given">Diogo</namePart>
+        <namePart type="family">Costa</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Janet</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Fischer</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Shook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Masaki</namePart>
-        <namePart type="family">Hayashi</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Spence</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Craig</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Williamson</namePart>
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Elliott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Henry</namePart>
+        <namePart type="family">Wilson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,28 +61,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Arctic, Antarctic, and Alpine Research, Volume 52, Issue 1</title>
+            <title>Water Resources Research, Volume 56, Issue 12</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Olson-2020-Meteorological</identifier>
-    <identifier type="doi">10.1080/15230430.2020.1800972</identifier>
+    <identifier type="citekey">Costa-2020-Predicting</identifier>
+    <identifier type="doi">10.1029/2020wr027984</identifier>
     <location>
         <url>https://aclanthology.org/G20-36001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>52</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>424</start>
-            <end>434</end>
-        </extent>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>12</number></detail>
     </part>
 </mods>
 </modsCollection>

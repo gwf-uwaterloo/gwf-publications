@@ -1,49 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Williamson-2017-Plot-scale">
+<mods ID="Wong-2017-Inter-comparison">
     <titleInfo>
-        <title>Plot-scale assessment of soil freeze/thaw detection and variability with impedance probes: implications for remote sensing validation networks</title>
+        <title>Inter-comparison of daily precipitation products for large-scale hydro-climatic applications over Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matthew</namePart>
-        <namePart type="family">Williamson</namePart>
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Justin</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Barrie</namePart>
         <namePart type="given">R</namePart>
-        <namePart type="family">Adams</namePart>
+        <namePart type="family">Bonsal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Berg</namePart>
+        <namePart type="given">Howard</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Derksen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Toose</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Anne</namePart>
-        <namePart type="family">Walker</namePart>
+        <namePart type="given">Zilefac</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Asong</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -55,27 +50,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology Research, Volume 49, Issue 1</title>
+            <title>Hydrology and Earth System Sciences, Volume 21, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IWA Publishing</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Williamson-2017-Plot-scale</identifier>
-    <identifier type="doi">10.2166/nh.2017.183</identifier>
+    <identifier type="citekey">Wong-2017-Inter-comparison</identifier>
+    <identifier type="doi">10.5194/hess-21-2163-2017</identifier>
     <location>
         <url>https://aclanthology.org/G17-40001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>49</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>1</start>
-            <end>16</end>
+            <start>2163</start>
+            <end>2185</end>
         </extent>
     </part>
 </mods>

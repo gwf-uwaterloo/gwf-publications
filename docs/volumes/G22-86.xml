@@ -1,20 +1,103 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Malaj-2022-Increased">
+<mods ID="Basu-2022-Managing">
     <titleInfo>
-        <title>Increased reliance on insecticide applications in \textlessscp\textgreaterC\textless/scp\textgreater anada linked to simplified agricultural landscapes</title>
+        <title>Managing nitrogen legacies to accelerate water quality improvement</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Egina</namePart>
-        <namePart type="family">Malaj</namePart>
+        <namePart type="given">Nandita</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Christy</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Morrissey</namePart>
+        <namePart type="given">Kimberly</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Van Meter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Danyka</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Byrnes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Van Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Brouwer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Jacobsen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jerker</namePart>
+        <namePart type="family">Jarsjö</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Rudolph</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Maria</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Cunha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Natalie</namePart>
+        <namePart type="family">Nelson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ruchi</namePart>
+        <namePart type="family">Bhattacharya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Georgia</namePart>
+        <namePart type="family">Destouni</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Søren</namePart>
+        <namePart type="given">Bøye</namePart>
+        <namePart type="family">Olsen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,24 +109,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Ecological Applications, Volume 32, Issue 3</title>
+            <title>Nature Geoscience, Volume 15, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Malaj-2022-Increased</identifier>
-    <identifier type="doi">10.1002/eap.2533</identifier>
+    <identifier type="citekey">Basu-2022-Managing</identifier>
+    <identifier type="doi">10.1038/s41561-021-00889-9</identifier>
     <location>
         <url>https://aclanthology.org/G22-86001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>32</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>97</start>
+            <end>105</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

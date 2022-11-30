@@ -1,19 +1,52 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Cain-2020-Field">
+<mods ID="Condon-2020-Where">
     <titleInfo>
-        <title>Field tests of an improved sediment tracer including non‐intrusive measurement of burial depth</title>
+        <title>Where Is the Bottom of a Watershed?</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Aryn</namePart>
-        <namePart type="family">Cain</namePart>
+        <namePart type="given">Laura</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Condon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bruce</namePart>
-        <namePart type="family">MacVicar</namePart>
+        <namePart type="given">Katherine</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Markovich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christa</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Kelleher</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">McDonnell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Ferguson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">McIntosh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,28 +58,131 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Earth Surface Processes and Landforms, Volume 45, Issue 14</title>
+            <title>Water Resources Research, Volume 56, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Cain-2020-Field</identifier>
-    <identifier type="doi">10.1002/esp.4980</identifier>
+    <identifier type="citekey">Condon-2020-Where</identifier>
+    <identifier type="doi">10.1029/2019wr026010</identifier>
     <location>
         <url>https://aclanthology.org/G20-62001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>45</number></detail>
-        <detail type="issue"><number>14</number></detail>
-        <extent unit="page">
-            <start>3488</start>
-            <end>3495</end>
-        </extent>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>3</number></detail>
+    </part>
+</mods>
+<mods ID="Do-2020-Correlation">
+    <titleInfo>
+        <title>Correlation Effects? A Major but Often Neglected Component in Sensitivity and Uncertainty Analysis</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nhu</namePart>
+        <namePart type="given">Cuong</namePart>
+        <namePart type="family">Do</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 56, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Do-2020-Correlation</identifier>
+    <identifier type="doi">10.1029/2019wr025436</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-62002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>3</number></detail>
+    </part>
+</mods>
+<mods ID="Liu-2020-Modeling">
+    <titleInfo>
+        <title>Modeling the Fate of Pharmaceuticals in a Fourth‐Order River Under Competing Assumptions of Transient Storage</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Y</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="family">Zarfl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">N</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">O</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Cirpka</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 56, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Liu-2020-Modeling</identifier>
+    <identifier type="doi">10.1029/2019wr026100</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-62003</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>3</number></detail>
     </part>
 </mods>
 </modsCollection>

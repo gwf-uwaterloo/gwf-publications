@@ -1,42 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Dimitrov-2022-Hydrology">
+<mods ID="Chang-2022-Application">
     <titleInfo>
-        <title>Hydrology of peat estimated from near-surface water contents</title>
+        <title>Application of L-band SAR for mapping tundra shrub biomass, leaf area index, and rainfall interception</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dimitre</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Dimitrov</namePart>
+        <namePart type="given">Qianyu</namePart>
+        <namePart type="family">Chang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Lafleur</namePart>
+        <namePart type="given">Simon</namePart>
+        <namePart type="family">Zwieback</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oliver</namePart>
-        <namePart type="family">Sonnentag</namePart>
+        <namePart type="given">Ben</namePart>
+        <namePart type="family">DeVries</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Julie</namePart>
-        <namePart type="family">Talbot</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Quinton</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,28 +39,131 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Sciences Journal, Volume 67, Issue 11</title>
+            <title>Remote Sensing of Environment, Volume 268</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Dimitrov-2022-Hydrology</identifier>
-    <identifier type="doi">10.1080/02626667.2022.2099281</identifier>
+    <identifier type="citekey">Chang-2022-Application</identifier>
+    <identifier type="doi">10.1016/j.rse.2021.112747</identifier>
     <location>
         <url>https://aclanthology.org/G22-40001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>67</number></detail>
-        <detail type="issue"><number>11</number></detail>
-        <extent unit="page">
-            <start>1702</start>
-            <end>1721</end>
-        </extent>
+        <detail type="volume"><number>268</number></detail>
+        <detail type="page"><number>112747</number></detail>
+    </part>
+</mods>
+<mods ID="Pradhan-2022-Review">
+    <titleInfo>
+        <title>Review of GPM IMERG performance: A global perspective</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rajani</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Pradhan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yannis</namePart>
+        <namePart type="family">Markonis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mijael</namePart>
+        <namePart type="given">Rodrigo</namePart>
+        <namePart type="family">Vargas Godoy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anahí</namePart>
+        <namePart type="family">Villalba-Pradas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Efthymios</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Nikolopoulos</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Akif</namePart>
+        <namePart type="family">Rahim</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francisco</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Tapiador</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Hanel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing of Environment, Volume 268</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Pradhan-2022-Review</identifier>
+    <identifier type="doi">10.1016/j.rse.2021.112754</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-40002</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>268</number></detail>
+        <detail type="page"><number>112754</number></detail>
     </part>
 </mods>
 </modsCollection>

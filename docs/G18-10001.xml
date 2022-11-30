@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Arlos-2018-Modeling">
+<mods ID="Arlos-2018-Multi-year">
     <titleInfo>
-        <title>Modeling the exposure of wild fish to endocrine active chemicals: Potential linkages of total estrogenicity to field-observed intersex</title>
+        <title>Multi-year prediction of estrogenicity in municipal wastewater effluents</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Maricor</namePart>
@@ -36,17 +36,8 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Keegan</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Hicks</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Meghan</namePart>
-        <namePart type="given">L.M.</namePart>
-        <namePart type="family">Fuzzen</namePart>
+        <namePart type="given">Patricija</namePart>
+        <namePart type="family">Marjan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -74,7 +65,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Research, Volume 139</title>
+            <title>Science of The Total Environment, Volume 610-611</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -83,18 +74,18 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Decades of studies on endocrine disruption have suggested the need to manage the release of key estrogens from municipal wastewater treatment plants (WWTP). However, the proposed thresholds are below the detection limits of most routine chemical analysis, thereby restricting the ability of watershed managers to assess the environmental exposure appropriately. In this study, we demonstrated the utility of a mechanistic model to address the data gaps on estrogen exposure. Concentrations of the prominent estrogenic contaminants in wastewaters (estrone, estradiol, and ethinylestradiol) were simulated in the Grand River in southern Ontario (Canada) for nine years, including a period when major WWTP upgrades occurred. The predicted concentrations expressed as total estrogenicity (E2 equivalent concentrations) were contrasted to a key estrogenic response (i.e., intersex) in rainbow darter (Etheostoma caeruleum), a wild sentinel fish species. A predicted total estrogenicity in the river of \geq10 ng/L E2 equivalents was associated with high intersex incidence and severity, whereas concentrations \textless0.1 ng/L E2 equivalents were associated with minimal intersex expression. Exposure to a predicted river concentration of 0.4 ng/L E2 equivalents, the environmental quality standard (EQS) proposed by the European Union for estradiol, was associated with 34% (95% CI:30-38) intersex incidence and a very low severity score of 0.6 (95% CI:0.5-0.7). This exposure is not predicted to cause adverse effects in rainbow darter. The analyses completed in this study were only based on the predicted presence of three major estrogens (E1, E2, EE2), so caution must be exercised when interpreting the results. Nevertheless, this study illustrates the use of models for exposure assessment, especially when measured data are not available.</abstract>
-    <identifier type="citekey">Arlos-2018-Modeling</identifier>
-    <identifier type="doi">10.1016/j.watres.2018.04.005</identifier>
+    <abstract>In this study, the estrogenicity of two major wastewater treatment plant (WWTP) effluents located in the central reaches of the Grand River watershed in southern Ontario was estimated using population demographics, excretion rates, and treatment plant-specific removals. Due to the lack of data on estrogen concentrations from direct measurements at WWTPs, the treatment efficiencies through the plants were estimated using the information obtained from an effects-directed analysis. The results show that this approach could effectively estimate the estrogenicity of WWTP effluents, both before and after major infrastructure upgrades were made at the Kitchener WWTP. The model was then applied to several possible future scenarios including population growth and river low flow conditions. The scenario analyses showed that post-upgrade operation of the Kitchener WWTP will not release highly estrogenic effluent under the 2041 projected population increase (36%) or summer low flows. Similarly, the Waterloo WWTP treatment operation is also expected to improve once the upgrades have been fully implemented and is expected to effectively treat estrogens even under extreme scenarios of population growth and river flows. The developed model may be employed to support decision making on wastewater management strategies designed for environmental protection, especially on reducing the endocrine effects in fish exposed to WWTP effluents.</abstract>
+    <identifier type="citekey">Arlos-2018-Multi-year</identifier>
+    <identifier type="doi">10.1016/j.scitotenv.2017.08.171</identifier>
     <location>
         <url>https://aclanthology.org/G18-10001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>139</number></detail>
+        <detail type="volume"><number>610</number></detail>
         <extent unit="page">
-            <start>187</start>
-            <end>197</end>
+            <start>1103</start>
+            <end>1112</end>
         </extent>
     </part>
 </mods>

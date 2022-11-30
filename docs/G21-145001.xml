@@ -1,27 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lee-2021-Stochastic">
+<mods ID="Ghoreishi-2021-Understanding">
     <titleInfo>
-        <title>Stochastic bias correction for RADARSAT-2 soil moisture retrieved over vegetated areas</title>
+        <title>Understanding human adaptation to drought: agent-based agricultural water demand modeling in the Bow River Basin, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ju</namePart>
-        <namePart type="given">Hyoung</namePart>
-        <namePart type="family">Lee</namePart>
+        <namePart type="given">Mohammad</namePart>
+        <namePart type="family">Ghoreishi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sujata</namePart>
-        <namePart type="family">Budhathoki</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Elshorbagy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,7 +32,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Geocarto International</title>
+            <title>Hydrological Sciences Journal, Volume 66, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -42,16 +41,19 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Lee-2021-Stochastic</identifier>
-    <identifier type="doi">10.1080/10106049.2021.2017009</identifier>
+    <abstract>The farmers in the Bow River Basin (BRB), Canada, have adopted water conservation strategies to reduce water needs. This reduction, however, encouraged irrigation expansion, which may rebound agric...</abstract>
+    <identifier type="citekey">Ghoreishi-2021-Understanding</identifier>
+    <identifier type="doi">10.1080/02626667.2021.1873344</identifier>
     <location>
         <url>https://aclanthology.org/G21-145001</url>
     </location>
     <part>
         <date>2021</date>
+        <detail type="volume"><number>66</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>1</start>
-            <end>14</end>
+            <start>389</start>
+            <end>407</end>
         </extent>
     </part>
 </mods>

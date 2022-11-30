@@ -1,36 +1,67 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Nafi-2020-A">
+<mods ID="Owca-2020-Use">
     <titleInfo>
-        <title>A universal cross language software similarity detector for open source software categorization</title>
+        <title>Use of pre-industrial baselines to monitor anthropogenic enrichment of metals concentrations in recently deposited sediment of floodplain lakes in the Peace-Athabasca Delta (Alberta, Canada)</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kawser</namePart>
-        <namePart type="given">Wazed</namePart>
-        <namePart type="family">Nafi</namePart>
+        <namePart type="given">Tanner</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Owca</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Banani</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Kay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Chanchal</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Roy</namePart>
+        <namePart type="given">Jelle</namePart>
+        <namePart type="family">Faber</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kevin</namePart>
+        <namePart type="given">Casey</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Remmer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nelson</namePart>
+        <namePart type="family">Zabel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Johan</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Schneider</namePart>
+        <namePart type="family">Wiklund</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,24 +73,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Systems and Software, Volume 162</title>
+            <title>Environmental Monitoring and Assessment, Volume 192, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Nafi-2020-A</identifier>
-    <identifier type="doi">10.1016/j.jss.2019.110491</identifier>
+    <identifier type="citekey">Owca-2020-Use</identifier>
+    <identifier type="doi">10.1007/s10661-020-8067-y</identifier>
     <location>
         <url>https://aclanthology.org/G20-117001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>162</number></detail>
-        <detail type="page"><number>110491</number></detail>
+        <detail type="volume"><number>192</number></detail>
+        <detail type="issue"><number>2</number></detail>
     </part>
 </mods>
 </modsCollection>

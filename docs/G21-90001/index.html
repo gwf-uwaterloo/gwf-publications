@@ -1,94 +1,892 @@
-<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Invited perspective: What lies beneath a changing Arctic? - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Invited perspective: What lies beneath a changing Arctic?" name=citation_title><meta content="Jeffrey M. McKenzie" name=citation_author><meta content="Barret L. Kurylyk" name=citation_author><meta content="Michelle A. Walvoord" name=citation_author><meta content="Victor F. Bense" name=citation_author><meta content="Daniel Fortier" name=citation_author><meta content="Christopher Spence" name=citation_author><meta content="Christophe Grenier" name=citation_author><meta content="The Cryosphere, Volume 15, Issue 1" name=citation_journal_title><meta content="15" name=citation_volume><meta content="1" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf" name=citation_pdf_url><meta content="479" name=citation_firstpage><meta content="484" name=citation_lastpage><meta content="10.5194/tc-15-479-2021" name=citation_doi><meta property="og:title" content="Invited perspective: What lies beneath a changing Arctic?"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-90001"><meta property="og:description" content="Jeffrey M. McKenzie, Barret L. Kurylyk, Michelle A. Walvoord, Victor F. Bense, Daniel Fortier, Christopher Spence, Christophe Grenier. The Cryosphere, Volume 15, Issue 1. 2021."><link rel=canonical href=https://aclanthology.org/G21-90001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands" name=citation_title><meta content="Jeremy Irvin" name=citation_author><meta content="Sharon Zhou" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Fred Lu" name=citation_author><meta content="Vincent Liu" name=citation_author><meta content="Etienne Fluet-Chouinard" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Sara Helen Knox" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Anand Avati" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Kyle B. Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Eugenie Euskirchen" name=citation_author><meta content="Sarah Feron" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Andrew Kondrich" name=citation_author><meta content="Derrick YF Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="Andrew Ng" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="A. Camilo Rey-Sanchez" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="Benjamin RK Runkle" name=citation_author><meta content="Karina VR Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Ellen Stuart-Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex C. Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Ma. Carmelita R. Alberto" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Han Dolman" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Kathrin Fuchs" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Kuno Kasak" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Timothy H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Edward A. Schuur" name=citation_author><meta content="Robert Shortt" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Daphne J. Szutu" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joeseph G Verfaillie" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Lisamarie Windham-Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Agricultural and Forest Meteorology, Volume 308-309" name=citation_journal_title><meta content="308" name=citation_volume><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf" name=citation_pdf_url><meta content="10.1016/j.agrformet.2021.108528" name=citation_doi><meta property="og:title" content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-90001"><meta property="og:description" content="Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, David I Campbell, Jiquan Chen, Housen Chu, Higo J Dalmagro, Kyle B Delwiche, Ankur R Desai, Eugenie Euskirchen, Sarah Feron, Mathias Goeckede, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S Hemes, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, Aram Kalhori, Andrew Kondrich, Derrick YF Lai, Annalea Lohila, Avni Malhotra, Lutz Merbold, Bhaskar Mitra, Andrew Ng, Mats B Nilsson, Asko Noormets, Matthias Peichl, A. Camilo Rey-Sanchez, Andrew D Richardson, Benjamin RK Runkle, Karina VR Schäfer, Oliver Sonnentag, Ellen Stuart-Haëntjens, Cove Sturtevant, Masahito Ueyama, Alex C Valach, Rodrigo Vargas, George L Vourlitis, Eric J Ward, Guan Xhuan Wong, Donatella Zona, Ma. Carmelita R Alberto, David P Billesbach, Gerardo Celis, Han Dolman, Thomas Friborg, Kathrin Fuchs, Sébastien Gogo, Mangaliso J Gondwe, Jordan P Goodrich, Pia Gottschalk, Lukas Hörtnagl, Adrien Jacotot, Franziska Koebsch, Kuno Kasak, Regine Maier, Timothy H Morin, Eiko Nemitz, Walter C Oechel, Patricia Y Oikawa, Keisuke Ono, Torsten Sachs, Ayaka Sakabe, Edward A Schuur, Robert Shortt, Ryan C Sullivan, Daphne J Szutu, Eeva-Stiina Tuittila, Andrej Varlagin, Joeseph G Verfaillie, Christian Wille, Lisamarie Windham-Myers, Benjamin Poulter, Robert B Jackson. Agricultural and Forest Meteorology, Volume 308-309. 2021."><link rel=canonical href=https://aclanthology.org/G21-90001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
 <span class="d-none d-md-inline pl-md-2">GWF Publications</span></a>
 <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf>Invited perspective: What lies beneath a changing Arctic?</a></h2><p class=lead><a href=/gwf-publications/people/J/Jeffrey-M-McKenzie/>Jeffrey M. McKenzie</a>,
-<a href=/gwf-publications/people/B/Barret-L-Kurylyk/>Barret L. Kurylyk</a>,
-<a href=/gwf-publications/people/M/Michelle-A-Walvoord/>Michelle A. Walvoord</a>,
-<a href=/gwf-publications/people/V/Victor-F-Bense/>Victor F. Bense</a>,
-<a href=/gwf-publications/people/D/Daniel-Fortier/>Daniel Fortier</a>,
-<a href=/gwf-publications/people/C/Christopher-Spence/>Christopher Spence</a>,
-<a href=/gwf-publications/people/C/Christophe-Grenier/>Christophe Grenier</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. As permafrost thaws in the Arctic, new subsurface pathways open for the transport of groundwater, energy, and solutes. We identify different ways that these subsurface changes are driving observed surface consequences, including the potential for increased contaminant transport, modification to water resources, and enhanced rates of infrastructure (e.g. buildings and roads) damage. Further, as permafrost thaws it allows groundwater to transport carbon, nutrients, and other dissolved constituents from terrestrial to aquatic environments via progressively deeper subsurface flow paths. Cryohydrogeology, the study of groundwater in cold regions, should be included in northern research initiatives to account for this hidden catalyst of environmental and societal change.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jeffrey M. McKenzie, Barret L. Kurylyk, Michelle A. Walvoord, Victor F. Bense, Daniel Fortier, Christopher Spence, and Christophe Grenier. 2021. <a href=https://aclanthology.org/G21-90001>Invited perspective: What lies beneath a changing Arctic?</a>. <i>The Cryosphere, Volume 15, Issue 1</i>, 15(1):479–484.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a></h2><p class=lead><a href=/gwf-publications/people/J/Jeremy-Irvin/>Jeremy Irvin</a>,
+<a href=/gwf-publications/people/S/Sharon-Zhou/>Sharon Zhou</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/>Gavin McNicol</a>,
+<a href=/gwf-publications/people/F/Fred-Lu/>Fred Lu</a>,
+<a href=/gwf-publications/people/V/Vincent-Liu/>Vincent Liu</a>,
+<a href=/gwf-publications/people/E/Etienne-Fluet-Chouinard/>Etienne Fluet-Chouinard</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/S/Sara-Helen-Knox/>Sara Helen Knox</a>,
+<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/>Antje Lucas-Moffat</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/>Carlo Trotta</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/>Dario Papale</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/>Domenico Vitale</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/>Mika Aurela</a>,
+<a href=/gwf-publications/people/A/Anand-Avati/>Anand Avati</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/>Sheel Bansal</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/>Gil Bohrer</a>,
+<a href=/gwf-publications/people/D/David-I-Campbell/>David I Campbell</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/>Jiquan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/>Housen Chu</a>,
+<a href=/gwf-publications/people/H/Higo-J-Dalmagro/>Higo J Dalmagro</a>,
+<a href=/gwf-publications/people/K/Kyle-B-Delwiche/>Kyle B Delwiche</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/>Ankur R Desai</a>,
+<a href=/gwf-publications/people/E/Eugenie-Euskirchen/>Eugenie Euskirchen</a>,
+<a href=/gwf-publications/people/S/Sarah-Feron/>Sarah Feron</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/M/Martin-Heimann/>Martin Heimann</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/>Manuel Helbig</a>,
+<a href=/gwf-publications/people/C/Carole-Helfter/>Carole Helfter</a>,
+<a href=/gwf-publications/people/K/Kyle-S-Hemes/>Kyle S Hemes</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/>Takashi Hirano</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/A/Aram-Kalhori/>Aram Kalhori</a>,
+<a href=/gwf-publications/people/A/Andrew-Kondrich/>Andrew Kondrich</a>,
+<a href=/gwf-publications/people/D/Derrick-YF-Lai/>Derrick YF Lai</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/>Avni Malhotra</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/>Lutz Merbold</a>,
+<a href=/gwf-publications/people/B/Bhaskar-Mitra/>Bhaskar Mitra</a>,
+<a href=/gwf-publications/people/A/Andrew-Ng/>Andrew Ng</a>,
+<a href=/gwf-publications/people/M/Mats-B-Nilsson/>Mats B Nilsson</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/>Asko Noormets</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/>Matthias Peichl</a>,
+<a href=/gwf-publications/people/A/A-Camilo-Rey-Sanchez/>A. Camilo Rey-Sanchez</a>,
+<a href=/gwf-publications/people/A/Andrew-D-Richardson/>Andrew D Richardson</a>,
+<a href=/gwf-publications/people/B/Benjamin-RK-Runkle/>Benjamin RK Runkle</a>,
+<a href=/gwf-publications/people/K/Karina-VR-Sch%C3%A4fer/>Karina VR Schäfer</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/E/Ellen-Stuart-Ha%C3%ABntjens/>Ellen Stuart-Haëntjens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/Alex-C-Valach/>Alex C Valach</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/G/George-L-Vourlitis/>George L Vourlitis</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/>Eric J Ward</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a>,
+<a href=/gwf-publications/people/M/Ma-Carmelita-R-Alberto/>Ma. Carmelita R Alberto</a>,
+<a href=/gwf-publications/people/D/David-P-Billesbach/>David P Billesbach</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/>Gerardo Celis</a>,
+<a href=/gwf-publications/people/H/Han-Dolman/>Han Dolman</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/>Thomas Friborg</a>,
+<a href=/gwf-publications/people/K/Kathrin-Fuchs/>Kathrin Fuchs</a>,
+<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/>Sébastien Gogo</a>,
+<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/>Mangaliso J Gondwe</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/>Jordan P Goodrich</a>,
+<a href=/gwf-publications/people/P/Pia-Gottschalk/>Pia Gottschalk</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/A/Adrien-Jacotot/>Adrien Jacotot</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/K/Kuno-Kasak/>Kuno Kasak</a>,
+<a href=/gwf-publications/people/R/Regine-Maier/>Regine Maier</a>,
+<a href=/gwf-publications/people/T/Timothy-H-Morin/>Timothy H Morin</a>,
+<a href=/gwf-publications/people/E/Eiko-Nemitz/>Eiko Nemitz</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/>Walter C Oechel</a>,
+<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/>Patricia Y Oikawa</a>,
+<a href=/gwf-publications/people/K/Keisuke-Ono/>Keisuke Ono</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/E/Edward-A-Schuur/>Edward A Schuur</a>,
+<a href=/gwf-publications/people/R/Robert-Shortt/>Robert Shortt</a>,
+<a href=/gwf-publications/people/R/Ryan-C-Sullivan/>Ryan C Sullivan</a>,
+<a href=/gwf-publications/people/D/Daphne-J-Szutu/>Daphne J Szutu</a>,
+<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/>Eeva-Stiina Tuittila</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/J/Joeseph-G-Verfaillie/>Joeseph G Verfaillie</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/>Christian Wille</a>,
+<a href=/gwf-publications/people/L/Lisamarie-Windham-Myers/>Lisamarie Windham-Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/>Robert B Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>• We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands • New methods for generating realistic artificial gaps and uncertainties are proposed • Decision tree algorithms perform slightly better than neural networks on average • Soil temperature and generic seasonality are the most important predictors • Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, et al.. 2021. <a href=https://aclanthology.org/G21-90001>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a>. <i>Agricultural and Forest Meteorology, Volume 308-309</i>, 308:108528.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf title="Open PDF of 'Invited perspective: What lies beneath a changing Arctic?'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001.pdf title="Open PDF of 'Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
 <a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
-<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Invited+perspective%3A+What+lies+beneath+a+changing+Arctic%3F" title="Search for 'Invited perspective: What lies beneath a changing Arctic?' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{McKenzie-2021-Invited,
-    title = &#34;Invited perspective: What lies beneath a changing Arctic?&#34;,
-    author = &#34;McKenzie, Jeffrey M.  and
-      Kurylyk, Barret L.  and
-      Walvoord, Michelle A.  and
-      Bense, Victor F.  and
-      Fortier, Daniel  and
-      Spence, Christopher  and
-      Grenier, Christophe&#34;,
-    journal = &#34;The Cryosphere, Volume 15, Issue 1&#34;,
-    volume = &#34;15&#34;,
-    number = &#34;1&#34;,
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Gap-filling+eddy+covariance+methane+fluxes%3A+Comparison+of+machine+learning+model+predictions+and+uncertainties+at+FLUXNET-CH4+wetlands" title="Search for 'Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Irvin-2021-Gap-filling,
+    title = &#34;Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands&#34;,
+    author = {Irvin, Jeremy  and
+      Zhou, Sharon  and
+      McNicol, Gavin  and
+      Lu, Fred  and
+      Liu, Vincent  and
+      Fluet-Chouinard, Etienne  and
+      Ouyang, Zutao  and
+      Knox, Sara Helen  and
+      Lucas-Moffat, Antje  and
+      Trotta, Carlo  and
+      Papale, Dario  and
+      Vitale, Domenico  and
+      Mammarella, Ivan  and
+      Alekseychik, Pavel  and
+      Aurela, Mika  and
+      Avati, Anand  and
+      Baldocchi, Dennis  and
+      Bansal, Sheel  and
+      Bohrer, Gil  and
+      Campbell, David I  and
+      Chen, Jiquan  and
+      Chu, Housen  and
+      Dalmagro, Higo J  and
+      Delwiche, Kyle B  and
+      Desai, Ankur R  and
+      Euskirchen, Eugenie  and
+      Feron, Sarah  and
+      Goeckede, Mathias  and
+      Heimann, Martin  and
+      Helbig, Manuel  and
+      Helfter, Carole  and
+      Hemes, Kyle S  and
+      Hirano, Takashi  and
+      Iwata, Hiroki  and
+      Jurasinski, Gerald  and
+      Kalhori, Aram  and
+      Kondrich, Andrew  and
+      Lai, Derrick YF  and
+      Lohila, Annalea  and
+      Malhotra, Avni  and
+      Merbold, Lutz  and
+      Mitra, Bhaskar  and
+      Ng, Andrew  and
+      Nilsson, Mats B  and
+      Noormets, Asko  and
+      Peichl, Matthias  and
+      Rey-Sanchez, A. Camilo  and
+      Richardson, Andrew D  and
+      Runkle, Benjamin RK  and
+      Sch{\&#34;a}fer, Karina VR  and
+      Sonnentag, Oliver  and
+      Stuart-Ha{\&#34;e}ntjens, Ellen  and
+      Sturtevant, Cove  and
+      Ueyama, Masahito  and
+      Valach, Alex C  and
+      Vargas, Rodrigo  and
+      Vourlitis, George L  and
+      Ward, Eric J  and
+      Wong, Guan Xhuan  and
+      Zona, Donatella  and
+      Alberto, Ma. Carmelita R  and
+      Billesbach, David P  and
+      Celis, Gerardo  and
+      Dolman, Han  and
+      Friborg, Thomas  and
+      Fuchs, Kathrin  and
+      Gogo, S{\&#39;e}bastien  and
+      Gondwe, Mangaliso J  and
+      Goodrich, Jordan P  and
+      Gottschalk, Pia  and
+      H{\&#34;o}rtnagl, Lukas  and
+      Jacotot, Adrien  and
+      Koebsch, Franziska  and
+      Kasak, Kuno  and
+      Maier, Regine  and
+      Morin, Timothy H  and
+      Nemitz, Eiko  and
+      Oechel, Walter C  and
+      Oikawa, Patricia Y  and
+      Ono, Keisuke  and
+      Sachs, Torsten  and
+      Sakabe, Ayaka  and
+      Schuur, Edward A  and
+      Shortt, Robert  and
+      Sullivan, Ryan C  and
+      Szutu, Daphne J  and
+      Tuittila, Eeva-Stiina  and
+      Varlagin, Andrej  and
+      Verfaillie, Joeseph G  and
+      Wille, Christian  and
+      Windham-Myers, Lisamarie  and
+      Poulter, Benjamin  and
+      Jackson, Robert B},
+    journal = &#34;Agricultural and Forest Meteorology, Volume 308-309&#34;,
+    volume = &#34;308&#34;,
     year = &#34;2021&#34;,
-    publisher = &#34;Copernicus GmbH&#34;,
+    publisher = &#34;Elsevier BV&#34;,
     url = &#34;https://aclanthology.org/G21-90001&#34;,
-    doi = &#34;10.5194/tc-15-479-2021&#34;,
-    pages = &#34;479--484&#34;,
-    abstract = &#34;Abstract. As permafrost thaws in the Arctic, new subsurface pathways open for the transport of groundwater, energy, and solutes. We identify different ways that these subsurface changes are driving observed surface consequences, including the potential for increased contaminant transport, modification to water resources, and enhanced rates of infrastructure (e.g. buildings and roads) damage. Further, as permafrost thaws it allows groundwater to transport carbon, nutrients, and other dissolved constituents from terrestrial to aquatic environments via progressively deeper subsurface flow paths. Cryohydrogeology, the study of groundwater in cold regions, should be included in northern research initiatives to account for this hidden catalyst of environmental and societal change.&#34;,
+    doi = &#34;10.1016/j.agrformet.2021.108528&#34;,
+    pages = &#34;108528&#34;,
+    abstract = &#34;{\mbox{$\bullet$}} We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands {\mbox{$\bullet$}} New methods for generating realistic artificial gaps and uncertainties are proposed {\mbox{$\bullet$}} Decision tree algorithms perform slightly better than neural networks on average {\mbox{$\bullet$}} Soil temperature and generic seasonality are the most important predictors {\mbox{$\bullet$}} Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).&#34;,
 }
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-90001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
 &lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
-&lt;mods ID=&#34;McKenzie-2021-Invited&#34;&gt;
+&lt;mods ID=&#34;Irvin-2021-Gap-filling&#34;&gt;
     &lt;titleInfo&gt;
-        &lt;title&gt;Invited perspective: What lies beneath a changing Arctic?&lt;/title&gt;
+        &lt;title&gt;Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jeffrey&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;McKenzie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jeremy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Irvin&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Barret&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Kurylyk&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sharon&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhou&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Michelle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gavin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McNicol&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Fred&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vincent&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Liu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Etienne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fluet-Chouinard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zutao&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ouyang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sara&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Helen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Knox&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Antje&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lucas-Moffat&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carlo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Trotta&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dario&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Papale&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Domenico&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vitale&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mammarella&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pavel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Alekseychik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mika&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aurela&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anand&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Avati&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Baldocchi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sheel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bansal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gil&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bohrer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Campbell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jiquan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Housen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Higo&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dalmagro&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Delwiche&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ankur&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Desai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sarah&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Feron&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Martin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Heimann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Manuel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Helbig&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carole&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Helfter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hemes&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Takashi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hirano&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hiroki&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Iwata&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gerald&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jurasinski&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Aram&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kalhori&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kondrich&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Derrick&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;YF&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Annalea&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lohila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Avni&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Malhotra&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lutz&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Merbold&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bhaskar&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mitra&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ng&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Asko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Noormets&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Peichl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Walvoord&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Camilo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rey-Sanchez&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Victor&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Bense&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Richardson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Fortier&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benjamin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;RK&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Runkle&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Spence&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Karina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;VR&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schäfer&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Christophe&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Grenier&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oliver&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sonnentag&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ellen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Stuart-Haëntjens&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Cove&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sturtevant&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Masahito&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ueyama&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alex&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Valach&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rodrigo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vargas&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;George&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vourlitis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ward&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xhuan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wong&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Donatella&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zona&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ma.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carmelita&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Alberto&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Billesbach&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gerardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Celis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Han&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dolman&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Friborg&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kathrin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fuchs&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sébastien&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gogo&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mangaliso&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gondwe&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jordan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goodrich&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gottschalk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lukas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hörtnagl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Adrien&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jacotot&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Franziska&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Koebsch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kuno&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kasak&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Regine&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Maier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timothy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Morin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eiko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nemitz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Patricia&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Y&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Oikawa&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Keisuke&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ono&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sachs&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ayaka&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sakabe&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Edward&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schuur&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shortt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ryan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sullivan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daphne&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Szutu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva-Stiina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrej&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Varlagin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Joeseph&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Verfaillie&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wille&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lisamarie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Windham-Myers&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benjamin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Poulter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jackson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -100,55 +898,136 @@
     &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
     &lt;relatedItem type=&#34;host&#34;&gt;
         &lt;titleInfo&gt;
-            &lt;title&gt;The Cryosphere, Volume 15, Issue 1&lt;/title&gt;
+            &lt;title&gt;Agricultural and Forest Meteorology, Volume 308-309&lt;/title&gt;
         &lt;/titleInfo&gt;
         &lt;originInfo&gt;
             &lt;issuance&gt;continuing&lt;/issuance&gt;
-            &lt;publisher&gt;Copernicus GmbH&lt;/publisher&gt;
+            &lt;publisher&gt;Elsevier BV&lt;/publisher&gt;
         &lt;/originInfo&gt;
         &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
         &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
     &lt;/relatedItem&gt;
-    &lt;abstract&gt;Abstract. As permafrost thaws in the Arctic, new subsurface pathways open for the transport of groundwater, energy, and solutes. We identify different ways that these subsurface changes are driving observed surface consequences, including the potential for increased contaminant transport, modification to water resources, and enhanced rates of infrastructure (e.g. buildings and roads) damage. Further, as permafrost thaws it allows groundwater to transport carbon, nutrients, and other dissolved constituents from terrestrial to aquatic environments via progressively deeper subsurface flow paths. Cryohydrogeology, the study of groundwater in cold regions, should be included in northern research initiatives to account for this hidden catalyst of environmental and societal change.&lt;/abstract&gt;
-    &lt;identifier type=&#34;citekey&#34;&gt;McKenzie-2021-Invited&lt;/identifier&gt;
-    &lt;identifier type=&#34;doi&#34;&gt;10.5194/tc-15-479-2021&lt;/identifier&gt;
+    &lt;abstract&gt;\bullet We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands \bullet New methods for generating realistic artificial gaps and uncertainties are proposed \bullet Decision tree algorithms perform slightly better than neural networks on average \bullet Soil temperature and generic seasonality are the most important predictors \bullet Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Irvin-2021-Gap-filling&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1016/j.agrformet.2021.108528&lt;/identifier&gt;
     &lt;location&gt;
         &lt;url&gt;https://aclanthology.org/G21-90001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2021&lt;/date&gt;
-        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;15&lt;/number&gt;&lt;/detail&gt;
-        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;1&lt;/number&gt;&lt;/detail&gt;
-        &lt;extent unit=&#34;page&#34;&gt;
-            &lt;start&gt;479&lt;/start&gt;
-            &lt;end&gt;484&lt;/end&gt;
-        &lt;/extent&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;308&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;page&#34;&gt;&lt;number&gt;108528&lt;/number&gt;&lt;/detail&gt;
     &lt;/part&gt;
 &lt;/mods&gt;
 &lt;/modsCollection&gt;
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-90001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
-%T Invited perspective: What lies beneath a changing Arctic?
-%A McKenzie, Jeffrey M.
-%A Kurylyk, Barret L.
-%A Walvoord, Michelle A.
-%A Bense, Victor F.
-%A Fortier, Daniel
-%A Spence, Christopher
-%A Grenier, Christophe
-%J The Cryosphere, Volume 15, Issue 1
+%T Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands
+%A Irvin, Jeremy
+%A Zhou, Sharon
+%A McNicol, Gavin
+%A Lu, Fred
+%A Liu, Vincent
+%A Fluet-Chouinard, Etienne
+%A Ouyang, Zutao
+%A Knox, Sara Helen
+%A Lucas-Moffat, Antje
+%A Trotta, Carlo
+%A Papale, Dario
+%A Vitale, Domenico
+%A Mammarella, Ivan
+%A Alekseychik, Pavel
+%A Aurela, Mika
+%A Avati, Anand
+%A Baldocchi, Dennis
+%A Bansal, Sheel
+%A Bohrer, Gil
+%A Campbell, David I.
+%A Chen, Jiquan
+%A Chu, Housen
+%A Dalmagro, Higo J.
+%A Delwiche, Kyle B.
+%A Desai, Ankur R.
+%A Euskirchen, Eugenie
+%A Feron, Sarah
+%A Goeckede, Mathias
+%A Heimann, Martin
+%A Helbig, Manuel
+%A Helfter, Carole
+%A Hemes, Kyle S.
+%A Hirano, Takashi
+%A Iwata, Hiroki
+%A Jurasinski, Gerald
+%A Kalhori, Aram
+%A Kondrich, Andrew
+%A Lai, Derrick YF
+%A Lohila, Annalea
+%A Malhotra, Avni
+%A Merbold, Lutz
+%A Mitra, Bhaskar
+%A Ng, Andrew
+%A Nilsson, Mats B.
+%A Noormets, Asko
+%A Peichl, Matthias
+%A Rey-Sanchez, A. Camilo
+%A Richardson, Andrew D.
+%A Runkle, Benjamin RK
+%A Schäfer, Karina VR
+%A Sonnentag, Oliver
+%A Stuart-Haëntjens, Ellen
+%A Sturtevant, Cove
+%A Ueyama, Masahito
+%A Valach, Alex C.
+%A Vargas, Rodrigo
+%A Vourlitis, George L.
+%A Ward, Eric J.
+%A Wong, Guan Xhuan
+%A Zona, Donatella
+%A Alberto, Ma. Carmelita R.
+%A Billesbach, David P.
+%A Celis, Gerardo
+%A Dolman, Han
+%A Friborg, Thomas
+%A Fuchs, Kathrin
+%A Gogo, Sébastien
+%A Gondwe, Mangaliso J.
+%A Goodrich, Jordan P.
+%A Gottschalk, Pia
+%A Hörtnagl, Lukas
+%A Jacotot, Adrien
+%A Koebsch, Franziska
+%A Kasak, Kuno
+%A Maier, Regine
+%A Morin, Timothy H.
+%A Nemitz, Eiko
+%A Oechel, Walter C.
+%A Oikawa, Patricia Y.
+%A Ono, Keisuke
+%A Sachs, Torsten
+%A Sakabe, Ayaka
+%A Schuur, Edward A.
+%A Shortt, Robert
+%A Sullivan, Ryan C.
+%A Szutu, Daphne J.
+%A Tuittila, Eeva-Stiina
+%A Varlagin, Andrej
+%A Verfaillie, Joeseph G.
+%A Wille, Christian
+%A Windham-Myers, Lisamarie
+%A Poulter, Benjamin
+%A Jackson, Robert B.
+%J Agricultural and Forest Meteorology, Volume 308-309
 %D 2021
-%V 15
-%N 1
-%I Copernicus GmbH
-%F McKenzie-2021-Invited
-%X Abstract. As permafrost thaws in the Arctic, new subsurface pathways open for the transport of groundwater, energy, and solutes. We identify different ways that these subsurface changes are driving observed surface consequences, including the potential for increased contaminant transport, modification to water resources, and enhanced rates of infrastructure (e.g. buildings and roads) damage. Further, as permafrost thaws it allows groundwater to transport carbon, nutrients, and other dissolved constituents from terrestrial to aquatic environments via progressively deeper subsurface flow paths. Cryohydrogeology, the study of groundwater in cold regions, should be included in northern research initiatives to account for this hidden catalyst of environmental and societal change.
-%R 10.5194/tc-15-479-2021
+%V 308
+%I Elsevier BV
+%F Irvin-2021-Gap-filling
+%X \bullet We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands \bullet New methods for generating realistic artificial gaps and uncertainties are proposed \bullet Decision tree algorithms perform slightly better than neural networks on average \bullet Soil temperature and generic seasonality are the most important predictors \bullet Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).
+%R 10.1016/j.agrformet.2021.108528
 %U https://aclanthology.org/G21-90001
-%U https://doi.org/10.5194/tc-15-479-2021
-%P 479-484
+%U https://doi.org/10.1016/j.agrformet.2021.108528
+%P 108528
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-90001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Invited perspective: What lies beneath a changing Arctic?](https://aclanthology.org/G21-90001) (McKenzie et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-90001>Invited perspective: What lies beneath a changing Arctic?</a> (McKenzie et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Jeffrey M. McKenzie, Barret L. Kurylyk, Michelle A. Walvoord, Victor F. Bense, Daniel Fortier, Christopher Spence, and Christophe Grenier. 2021. <a href=https://aclanthology.org/G21-90001>Invited perspective: What lies beneath a changing Arctic?</a>. <i>The Cryosphere, Volume 15, Issue 1</i>, 15(1):479–484.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands](https://aclanthology.org/G21-90001) (Irvin et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-90001>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a> (Irvin et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet-Chouinard, Zutao Ouyang, Sara Helen Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, et al.. 2021. <a href=https://aclanthology.org/G21-90001>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a>. <i>Agricultural and Forest Meteorology, Volume 308-309</i>, 308:108528.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

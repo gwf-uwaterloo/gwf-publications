@@ -1,44 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="VanHuizen-2019-Seasonal">
+<mods ID="VanMeter-2019-Response">
     <titleInfo>
-        <title>Seasonal ground ice impacts on spring ecohydrological conditions in a western boreal plains peatland</title>
+        <title>Response to Comment on “Legacy nitrogen may prevent achievement of water quality goals in the Gulf of Mexico”</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Brandon</namePart>
-        <namePart type="family">Van Huizen</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Van Meter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Richard</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Van Cappellen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jonathan</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Price</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">William</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Quinton</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -50,29 +34,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 34, Issue 3</title>
+            <title>Science, Volume 365, Issue 6455</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Association for the Advancement of Science (AAAS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Peatlands in the Western Boreal Plains act as important water sources in the landscape. Their persistence, despite potential evapotranspiration (PET) often exceeding annual precipitation, is attributed to various water storage mechanisms. One storage element that has been understudied is seasonal ground ice (SGI). This study characterized spring SGI conditions and explored its impacts on available energy, actual evapotranspiration, water table, and near surface soil moisture in a western boreal plains peatland. The majority of SGI melt took place over May 2017. Microtopography had limited impact on melt rates due to wet conditions. SGI melt released 139mm in ice water equivalent (IWE) within the top 30cm of the peat, and weak significant relationships with water table and surface moisture suggest that SGI could be important for maintaining vegetation transpiration during dry springs. Melting SGI decreased available energy causing small reductions in PET (\textless10mm over the melt period) and appeared to reduce actual evapotranspiration variability but not mean rates, likely due to slow melt rates. This suggests that melting SGI supplies water, allowing evapotranspiration to occur at near potential rates, but reduces the overall rate at which evapotranspiration could occur (PET). The role of SGI may help peatlands in headwater catchments act as a conveyor of water to downstream landscapes during the spring while acting as a supply of water for the peatland. Future work should investigate SGI influences on evapotranspiration under differing peatland types, wet and dry spring conditions, and if the spatial variability of SGI melt leads to spatial variability in evapotranspiration.</abstract>
-    <identifier type="citekey">Van Huizen-2019-Seasonal</identifier>
-    <identifier type="doi">10.1002/hyp.13626</identifier>
+    <abstract>Ballard et al . argue that our prediction of a 30-year or longer recovery time for Gulf of Mexico water quality is highly uncertain, and that much shorter time lags are equally likely. We demonstrate that their argument, based on the use of a two-component regression model, does not sufficiently consider fundamental watershed processes or multiple lines of evidence suggesting the existence of decadal-scale lags.</abstract>
+    <identifier type="citekey">Van Meter-2019-Response</identifier>
+    <identifier type="doi">10.1126/science.aav3851</identifier>
     <location>
         <url>https://aclanthology.org/G19-170001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>765</start>
-            <end>779</end>
-        </extent>
+        <detail type="volume"><number>365</number></detail>
+        <detail type="issue"><number>6455</number></detail>
     </part>
 </mods>
 </modsCollection>

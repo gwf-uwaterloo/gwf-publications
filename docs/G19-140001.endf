@@ -1,16 +1,52 @@
 ﻿%0 Journal Article
-%T Estimation of depression-focussed groundwater recharge using chloride mass balance: problems and solutions across scales
-%A Pavlovskii, Igor
-%A Hayashi, Masaki
-%A Cey, Edwin E.
-%J Hydrogeology Journal, Volume 27, Issue 6
+%T Monthly gridded data product of northern wetland methane emissions based on upscaling eddy covariance observations
+%A Peltola, Olli
+%A Vesala, Timo
+%A Gao, Yao
+%A Räty, Olle
+%A Alekseychik, Pavel
+%A Aurela, Mika
+%A Chojnicki, Bogdan
+%A Desai, Ankur R.
+%A Dolman, Albertus J.
+%A Euskirchen, Eugenie S.
+%A Friborg, Thomas
+%A Göckede, Mathias
+%A Helbig, Manuel
+%A Humphreys, Elyn
+%A Jackson, Robert B.
+%A Jocher, Georg
+%A Joos, Fortunat
+%A Klatt, Janina
+%A Knox, Sara H.
+%A Kowalska, Natalia
+%A Kutzbach, Lars
+%A Lienert, Sebastian
+%A Lohila, Annalea
+%A Mammarella, Ivan
+%A Nadeau, Daniel F.
+%A Nilsson, Mats B.
+%A Oechel, Walter C.
+%A Peichl, Matthias
+%A Pypker, Thomas
+%A Quinton, William
+%A Rinne, Janne
+%A Sachs, Torsten
+%A Samson, Mateusz
+%A Schmid, Hans Peter
+%A Sonnentag, Oliver
+%A Wille, Christian
+%A Zona, Donatella
+%A Aalto, Tuula
+%J Earth System Science Data, Volume 11, Issue 3
 %D 2019
-%V 27
-%N 6
-%I Springer Science and Business Media LLC
-%F Pavlovskii-2019-Estimation
-%R 10.1007/s10040-019-01993-2
+%V 11
+%N 3
+%I Copernicus GmbH
+%F Peltola-2019-Monthly
+%X Abstract. Natural wetlands constitute the largest and most uncertain source of methane (CH4) to the atmosphere and a large fraction of them are found in the northern latitudes. These emissions are typically estimated using process (“bottom-up”) or inversion (“top-down”) models. However, estimates from these two types of models are not independent of each other since the top-down estimates usually rely on the a priori estimation of these emissions obtained with process models. Hence, independent spatially explicit validation data are needed. Here we utilize a random forest (RF) machine-learning technique to upscale CH4 eddy covariance flux measurements from 25 sites to estimate CH4 wetland emissions from the northern latitudes (north of 45∘ N). Eddy covariance data from 2005 to 2016 are used for model development. The model is then used to predict emissions during 2013 and 2014. The predictive performance of the RF model is evaluated using a leave-one-site-out cross-validation scheme. The performance (Nash–Sutcliffe model efficiency =0.47) is comparable to previous studies upscaling net ecosystem exchange of carbon dioxide and studies comparing process model output against site-level CH4 emission data. The global distribution of wetlands is one major source of uncertainty for upscaling CH4. Thus, three wetland distribution maps are utilized in the upscaling. Depending on the wetland distribution map, the annual emissions for the northern wetlands yield 32 (22.3–41.2, 95 % confidence interval calculated from a RF model ensemble), 31 (21.4–39.9) or 38 (25.9–49.5) Tg(CH4) yr−1. To further evaluate the uncertainties of the upscaled CH4 flux data products we also compared them against output from two process models (LPX-Bern and WetCHARTs), and methodological issues related to CH4 flux upscaling are discussed. The monthly upscaled CH4 flux data products are available at https://doi.org/10.5281/zenodo.2560163 (Peltola et al., 2019).
+%R 10.5194/essd-11-1263-2019
 %U https://aclanthology.org/G19-140001
-%U https://doi.org/10.1007/s10040-019-01993-2
-%P 2263-2278
+%U https://doi.org/10.5194/essd-11-1263-2019
+%P 1263-1289
 

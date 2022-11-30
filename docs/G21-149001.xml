@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Eric-2021-Spatially">
+<mods ID="Zahmatkesh-2021-Understanding">
     <titleInfo>
-        <title>Spatially explicit modeling of wetland conservation costs in Canadian agricultural landscapes</title>
+        <title>Understanding Uncertainty in Probabilistic Floodplain Mapping in the Time of Climate Change</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Asare</namePart>
-        <namePart type="family">Eric</namePart>
+        <namePart type="given">Zahra</namePart>
+        <namePart type="family">Zahmatkesh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Lloyd‐Smith</namePart>
-        <namePart type="family">Patrick</namePart>
+        <namePart type="given">Shasha</namePart>
+        <namePart type="family">Han</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Belcher</namePart>
-        <namePart type="family">Kenneth</namePart>
+        <namePart type="given">Paulin</namePart>
+        <namePart type="family">Coulibaly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,29 +32,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Canadian Journal of Agricultural Economics/Revue canadienne d’agroeconomie, Volume 70, Issue 1</title>
+            <title>Water, Volume 13, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>en</abstract>
-    <identifier type="citekey">Eric-2021-Spatially</identifier>
-    <identifier type="doi">10.1111/cjag.12301</identifier>
+    <abstract>An integrated framework was employed to develop probabilistic floodplain maps, taking into account hydrologic and hydraulic uncertainties under climate change impacts. To develop the maps, several scenarios representing the individual and compounding effects of the models’ input and parameters uncertainty were defined. Hydrologic model calibration and validation were performed using a Dynamically Dimensioned Search algorithm. A generalized likelihood uncertainty estimation method was used for quantifying uncertainty. To draw on the potential benefits of the proposed methodology, a flash-flood-prone urban watershed in the Greater Toronto Area, Canada, was selected. The developed floodplain maps were updated considering climate change impacts on the input uncertainty with rainfall Intensity–Duration–Frequency (IDF) projections of RCP8.5. The results indicated that the hydrologic model input poses the most uncertainty to floodplain delineation. Incorporating climate change impacts resulted in the expansion of the potential flood area and an increase in water depth. Comparison between stationary and non-stationary IDFs showed that the flood probability is higher when a non-stationary approach is used. The large inevitable uncertainty associated with floodplain mapping and increased future flood risk under climate change imply a great need for enhanced flood modeling techniques and tools. The probabilistic floodplain maps are beneficial for implementing risk management strategies and land-use planning.</abstract>
+    <identifier type="citekey">Zahmatkesh-2021-Understanding</identifier>
+    <identifier type="doi">10.3390/w13091248</identifier>
     <location>
         <url>https://aclanthology.org/G21-149001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>70</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>5</start>
-            <end>19</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <detail type="page"><number>1248</number></detail>
     </part>
 </mods>
 </modsCollection>

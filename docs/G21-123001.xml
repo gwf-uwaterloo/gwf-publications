@@ -1,28 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moon-2021-Probing">
+<mods ID="Qu-2021-A">
     <titleInfo>
-        <title>Probing Metal-Dependent Phosphate Binding for the Catalysis of the 17E DNAzyme</title>
+        <title>A Microflow Cytometry-Based Agglutination Immunoassay for Point-of-Care Quantitative Detection of SARS-CoV-2 IgM and IgG</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Woohyun</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Moon</namePart>
+        <namePart type="given">Jianxi</namePart>
+        <namePart type="family">Qu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Po-Jung</namePart>
-        <namePart type="given">Jimmy</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Mathieu</namePart>
+        <namePart type="family">Chenier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Yushan</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chang-qing</namePart>
+        <namePart type="family">Xu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,29 +39,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Biochemistry, Volume 60, Issue 24</title>
+            <title>Micromachines, Volume 12, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The RNA-cleaving 17E DNAzyme exhibits different levels of cleavage activity in the presence of various divalent metal ions, with Pb2+ giving the fastest cleavage. In this study, the metal-phosphate interaction is probed to understand the trend of activity with different metal ions. For the first-row transition metals, the lowest activity shown by Ni2+ correlates with the inhibition by the inorganic phosphate and its water ligand exchange rate, suggesting inner-sphere metal coordination. Cleavage activity with the two stereoisomers of the phosphorothioate-modified substrates, Rp and Sp, indicated that Mg2+, Mn2+, Fe2+, and Co2+ had the highest Sp:Rp activity ratio of \textgreater900. Comparatively, the activity was much less affected using the thiophilic metals, including Pb2+, suggesting inner-sphere coordination. The pH-rate profiles showed that Pb2+ was different than the rest of the metal ions in having a smaller slope and a similar fitted apparent pKa and the pKa of metal-bound water. Combining previous reports and our current results, we propose that Pb2+ most likely plays the role of a general acid while the other metal ions are Lewis acid catalysts interacting with the scissile phosphate.</abstract>
-    <identifier type="citekey">Moon-2021-Probing</identifier>
-    <identifier type="doi">10.1021/acs.biochem.1c00091</identifier>
+    <abstract>A rapid, sensitive and simple microflow cytometry-based agglutination immunoassay (MCIA) was developed for point-of-care (POC) quantitative detection of SARS-CoV-2 IgM and IgG antibodies. The antibody concentration was determined by using the transit time of beads aggregates. A linear relationship was established between the average transit time and the concentration of SARS-CoV-2 IgM and IgG, respectively. The limit of detection (LOD) of SARS-CoV-2 IgM and IgG by the MCIA measurement are 0.06 mg/L and 0.10 mg/L, respectively. The 10 μL sample consumption, 30 min assay time and the compact setup make this technique suitable for POC quantitative detection of SARS-CoV-2 antibodies.</abstract>
+    <identifier type="citekey">Qu-2021-A</identifier>
+    <identifier type="doi">10.3390/mi12040433</identifier>
     <location>
         <url>https://aclanthology.org/G21-123001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>60</number></detail>
-        <detail type="issue"><number>24</number></detail>
-        <extent unit="page">
-            <start>1909</start>
-            <end>1918</end>
-        </extent>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>433</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,50 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mekis-2020-Near-0">
+<mods ID="Mondal-2020-A">
     <titleInfo>
-        <title>Near-0 °C surface temperature and precipitation type patterns across Canada</title>
+        <title>A survey on clone refactoring and tracking</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Eva</namePart>
-        <namePart type="family">Mekis</namePart>
+        <namePart type="given">Manishankar</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ronald</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Stewart</namePart>
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Julie</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Theriault</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Bohdan</namePart>
-        <namePart type="family">Kochtubajda</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Barrie</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Bonsal</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhuo</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -56,28 +34,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 24, Issue 4</title>
+            <title>Journal of Systems and Software, Volume 159</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mekis-2020-Near-0</identifier>
-    <identifier type="doi">10.5194/hess-24-1741-2020</identifier>
+    <identifier type="citekey">Mondal-2020-A</identifier>
+    <identifier type="doi">10.1016/j.jss.2019.110429</identifier>
     <location>
         <url>https://aclanthology.org/G20-113001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>24</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>1741</start>
-            <end>1761</end>
-        </extent>
+        <detail type="volume"><number>159</number></detail>
+        <detail type="page"><number>110429</number></detail>
     </part>
 </mods>
 </modsCollection>

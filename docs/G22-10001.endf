@@ -1,13 +1,14 @@
 ﻿%0 Journal Article
-%T Supporting Readability by Comprehending the Hierarchical Abstraction of a Software Project
-%A Bhattacharjee, Avijit
-%A Roy, Banani
-%A Schneider, Kevin
-%J 15th Innovations in Software Engineering Conference
+%T StreamTable: An Area Proportional Visualization for Tables with Flowing Streams
+%A Espenant, Jared
+%A Mondal, Debajyoti
+%J WALCOM: Algorithms and Computation
 %D 2022
-%I ACM
-%F Bhattacharjee-Roy-2022-Supporting-Readability
-%R 10.1145/3511430.3511441
+%I Springer International Publishing
+%F Espenant-2022-StreamTable:
+%X AbstractLet M be a two-dimensional table with each cell weighted by a nonzero positive number. A StreamTable visualization of M represents the columns as non-overlapping vertical streams and the rows as horizontal stripes such that the intersection between a stream and a stripe is a rectangle with area equal to the weight of the corresponding cell. To avoid large wiggle of the streams, it is desirable to keep the consecutive cells in a stream to be adjacent. Let B be the smallest axis-aligned bounding box containing the StreamTable. Then the difference between the area of B and the sum of the weights is referred to as the excess area. We attempt to optimize various StreamTable aesthetics (e.g., minimizing excess area, or maximizing cell adjacencies in streams). If the row permutation is fixed and the row heights are given, then we give an O(rc)-time algorithm to optimizes these aesthetics, where r and c are the number of rows and columns, respectively. If the row permutation is fixed but the row heights can be chosen, then we discuss a technique to compute an aesthetic (but not necessarily optimal) StreamTable by solving a quadratically-constrained quadratic program, followed by iterative improvements. If the row heights are restricted to be integers, then we prove the problem to be NP-hard. If the row permutations can be chosen, then we show that it is NP-hard to find a row permutation that optimizes the area or adjacency aesthetics. KeywordsGeometric AlgorithmsTable CartogramStreamgraphs
+%R 10.1007/978-3-030-96731-4_9
 %U https://aclanthology.org/G22-10001
-%U https://doi.org/10.1145/3511430.3511441
+%U https://doi.org/10.1007/978-3-030-96731-4_9
+%P 97-108
 

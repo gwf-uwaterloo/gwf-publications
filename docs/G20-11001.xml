@@ -1,28 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Harder-2020-Improving">
+<mods ID="Ferguson-2020-Rethinking">
     <titleInfo>
-        <title>Improving sub-canopy snow depth mapping with unmanned aerial vehicles: lidar versus structure-from-motion techniques</title>
+        <title>Rethinking groundwater age</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Phillip</namePart>
-        <namePart type="family">Harder</namePart>
+        <namePart type="given">Grant</namePart>
+        <namePart type="family">Ferguson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Mark</namePart>
+        <namePart type="given">O</namePart>
+        <namePart type="family">Cuthbert</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Warren</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Helgason</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Befus</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tom</namePart>
+        <namePart type="family">Gleeson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jennifer</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">McIntosh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,28 +48,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>The Cryosphere, Volume 14, Issue 6</title>
+            <title>Nature Geoscience, Volume 13, Issue 9</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. Vegetation has a tremendous influence on snow processes and snowpack dynamics, yet remote sensing techniques to resolve the spatial variability of sub-canopy snow depth are not always available and are difficult from space-based platforms. Unmanned aerial vehicles (UAVs) have had recent widespread application to capture high-resolution information on snow processes and are herein applied to the sub-canopy snow depth challenge. Previous demonstrations of snow depth mapping with UAV structure from motion (SfM) and airborne lidar have focussed on non-vegetated surfaces or reported large errors in the presence of vegetation. In contrast, UAV-lidar systems have high-density point clouds and measure returns from a wide range of scan angles, increasing the likelihood of successfully sensing the sub-canopy snow depth. The effectiveness of UAV lidar and UAV SfM in mapping snow depth in both open and forested terrain was tested in a 2019 field campaign at the Canadian Rockies Hydrological Observatory, Alberta, and at Canadian prairie sites near Saskatoon, Saskatchewan, Canada. Only UAV lidar could successfully measure the sub-canopy snow surface with reliable sub-canopy point coverage and consistent error metrics (root mean square error (RMSE) &amp;lt;0.17 m and bias −0.03 to −0.13 m). Relative to UAV lidar, UAV SfM did not consistently sense the sub-canopy snow surface, the interpolation needed to account for point cloud gaps introduced interpolation artefacts, and error metrics demonstrated relatively large variability (RMSE&amp;lt;0.33 m and bias 0.08 to −0.14 m). With the demonstration of sub-canopy snow depth mapping capabilities, a number of early applications are presented to showcase the ability of UAV lidar to effectively quantify the many multiscale snow processes defining snowpack dynamics in mountain and prairie environments.</abstract>
-    <identifier type="citekey">Harder-2020-Improving</identifier>
-    <identifier type="doi">10.5194/tc-14-1919-2020</identifier>
+    <abstract>It is commonly thought that old groundwater cannot be pumped sustainably, and that recently recharged groundwater is inherently sustainable. We argue that both old and young groundwaters can be used in physically sustainable or unsustainable ways.</abstract>
+    <identifier type="citekey">Ferguson-2020-Rethinking</identifier>
+    <identifier type="doi">10.1038/s41561-020-0629-7</identifier>
     <location>
         <url>https://aclanthology.org/G20-11001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>14</number></detail>
-        <detail type="issue"><number>6</number></detail>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>9</number></detail>
         <extent unit="page">
-            <start>1919</start>
-            <end>1935</end>
+            <start>592</start>
+            <end>594</end>
         </extent>
     </part>
 </mods>

@@ -1,19 +1,15 @@
 ﻿%0 Journal Article
-%T A diagnostic approach to constraining flow partitioning in hydrologic models using a multiobjective optimization framework
-%A Shafii, Mahyar
-%A Basu, Nandita
-%A Craig, James R.
-%A Schiff, Sherry L.
-%A Van Cappellen, Philippe
-%J Water Resources Research, Volume 53, Issue 4
+%T Progressive Latin Hypercube Sampling: An efficient approach for robust sampling-based analysis of environmental models
+%A Sheikholeslami, Razi
+%A Razavi, Saman
+%J Environmental Modelling &amp; Software, Volume 93
 %D 2017
-%V 53
-%N 4
-%I American Geophysical Union (AGU)
-%F Shafii-2017-A
-%X \copyright American Geophysical Union: Shafii, M., Basu, N., Craig, J. R., Schiff, S. L., & Van Cappellen, P. (2017). A diagnostic approach to constraining flow partitioning in hydrologic models using a multiobjective optimization framework. Water Resources Research, 53(4), 3279–3301. https://doi.org/10.1002/2016WR019736
-%R 10.1002/2016wr019736
+%V 93
+%I Elsevier BV
+%F Sheikholeslami-2017-Progressive
+%X Efficient sampling strategies that scale with the size of the problem, computational budget, and users needs are essential for various sampling-based analyses, such as sensitivity and uncertainty analysis. In this study, we propose a new strategy, called Progressive Latin Hypercube Sampling (PLHS), which sequentially generates sample points while progressively preserving the distributional properties of interest (Latin hypercube properties, space-filling, etc.), as the sample size grows. Unlike Latin hypercube sampling, PLHS generates a series of smaller sub-sets (slices) such that (1) the first slice is Latin hypercube, (2) the progressive union of slices remains Latin hypercube and achieves maximum stratification in any one-dimensional projection, and as such (3) the entire sample set is Latin hypercube. The performance of PLHS is compared with benchmark sampling strategies across multiple case studies for Monte Carlo simulation, sensitivity and uncertainty analysis. Our results indicate that PLHS leads to improved efficiency, convergence, and robustness of sampling-based analyses. A new sequential sampling strategy called PLHS is proposed for sampling-based analysis of simulation models.PLHS is evaluated across multiple case studies for Monte Carlo simulation, sensitivity and uncertainty analysis.PLHS provides better performance compared with the other sampling strategies in terms of convergence rate and robustness.PLHS can be used to monitor the performance of the associated sampling-based analysis and to avoid over- or under-sampling.
+%R 10.1016/j.envsoft.2017.03.010
 %U https://aclanthology.org/G17-32001
-%U https://doi.org/10.1002/2016wr019736
-%P 3279-3301
+%U https://doi.org/10.1016/j.envsoft.2017.03.010
+%P 109-126
 

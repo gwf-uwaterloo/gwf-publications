@@ -1,0 +1,15 @@
+﻿%0 Journal Article
+%T A multi-method Generalized Global Sensitivity Matrix approach to accounting for the dynamical nature of earth and environmental systems models
+%A Razavi, Saman
+%A Gupta, Hoshin V.
+%J Environmental Modelling &amp; Software, Volume 114
+%D 2019
+%V 114
+%I Elsevier BV
+%F Razavi-2019-A
+%X Abstract Many applications of global sensitivity analysis (GSA) do not adequately account for the dynamical nature of earth and environmental systems models. Gupta and Razavi (2018) highlight this fact and develop a sensitivity analysis framework from first principles, based on the sensitivity information contained in trajectories of partial derivatives of the dynamical model responses with respect to controlling factors. Here, we extend and generalize that framework to accommodate any GSA philosophy, including derivative-based approaches (such as Morris and DELSA), direct-response-based approaches (such as the variance-based Sobol’, distribution-based PAWN, and higher-moment-based methods), and unifying variogram-based approaches (such as VARS). The framework is implemented within the VARS-TOOL software toolbox and demonstrated using the HBV-SASK model applied to the Oldman Watershed, Canada. This enables a comprehensive multi-variate investigation of the influence of parameters and forcings on different modeled state variables and responses, without the need for observational data regarding those responses.
+%R 10.1016/j.envsoft.2018.12.002
+%U https://aclanthology.org/G19-108003
+%U https://doi.org/10.1016/j.envsoft.2018.12.002
+%P 1-11
+

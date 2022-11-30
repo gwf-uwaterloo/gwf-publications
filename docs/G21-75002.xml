@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Wong-2021-A">
+    <titleInfo>
+        <title>A streamflow-oriented ranking-based methodological framework to combine multiple precipitation datasets across large river basins</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jefferson</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wong</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fuad</namePart>
+        <namePart type="family">Yassin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 603</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet A methodological framework to combine multiple precipitation products is proposed. \bullet Hybrid datasets based on hydrological evaluation improve hydrological modelling. \bullet Considering seasonal characteristics of the river basin enhance model performance. Hydrologic-Land Surface Models (H-LSMs) are subject to input uncertainties arising from climate forcing data, especially precipitation. For better streamflow simulations and predictions, the generation of a hybrid dataset by combining existing precipitation products has attracted considerable interest in recent years. To assess the accuracy of the hybrid dataset, in-situ precipitation-gauge stations are used as a reference point. However, the robustness of the hybrid dataset in representing spatial details can be problematic when the evaluation uses only a sparse network of in-situ observations at regional or basin scales. This study aims to develop a methodological framework to generate hybrid precipitation datasets based on the model performance of streamflow simulations that are spatially representative across large river basins. The framework is illustrated using a Canadian H-LSM known as MESH (Modélisation Environmentale communautaire – Surface Hydrology) in the Saskatchewan River basin, Canada, for the period 2002–2010. Five regional and global precipitation products (Global Meteorological Forcing Dataset at Princeton University (Princeton); the WATCH Forcing Data methodology applied to the ERA-Interim (WFDEI) augmented by Climatic Research Unit (WFDEI [CRU]) and Global Precipitation Climatology Centre (WFDEI [GPCC]); North American Regional Reanalysis (NARR); and Canadian Precipitation Analysis (CaPA)) were included as candidates in this study. Results indicate that the generation of a hybrid dataset based on hydrological evaluation was useful for improving H-LSM modelling skills. Hybrid datasets showed a similar or better model performance compared to that of the best basin-wide precipitation product in the headwaters and gradually performed better downstream and at the basin outlet. When multiple products are combined model performance can be further enhanced by considering seasonality with respect to the hydrological regime of the river basin. This study demonstrates the usefulness of hybrid datasets in a large-scale river basin with low climate station network density.</abstract>
+    <identifier type="citekey">Wong-2021-A</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2021.127174</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-75002</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>603</number></detail>
+        <detail type="page"><number>127174</number></detail>
+    </part>
+</mods>
+</modsCollection>

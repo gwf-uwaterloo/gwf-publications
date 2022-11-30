@@ -1,15 +1,20 @@
 ﻿%0 Journal Article
-%T Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies
-%A Chegoonian, Amir M.
-%A Zolfaghari, Kiana
-%A Baulch, Helen M.
-%A Duguay, Claude R.
-%J 2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS
+%T Responses of juvenile fathead minnow (Pimephales promelas) gut microbiome to a chronic dietary exposure of benzo[a]pyrene
+%A DeBofsky, Abigail
+%A Xie, Yuwei
+%A Challis, Jonathan K.
+%A Jain, Niteesh
+%A Brinkmann, Markus
+%A Jones, Paul D.
+%A Giesy, John P.
+%J Environmental Pollution, Volume 278
 %D 2021
-%I IEEE
-%F Chegoonian-2021-Support
-%X Chlorophyll-a concentration (chla) is a useful indicator of harmful algal blooms in early warning systems that use remote sensing data as input. However, its retrieval is challenging in small waterbodies due to the lack of high spatial-resolution water-color sensors and the substantial optical interference of other water constituents. Here, we demonstrate the potential of support vector machines and Sentinel-2 images to retrieve chla in a shallow eutrophic lake (Buffalo Pound Lake, Saskatchewan, Canada). Following validation against in-situ chla measurements over three open water seasons (2017–2019), our proposed method based on Support Vector Regression (SVR) outperforms the most common semi-empirical models, i.e., locally-tuned indices (normalized difference chlorophyll index, 2band, and 3band), as well as the state-of-the-art global empirical model (Mixture Density Network). The superiority of SVR is shown in terms of overall and stratified accuracy, as well as spatial validity. We argue that for small waterbodies where numerous matched pairs of in-situ chla and reflectance are not available, SVR might retrieve chla more accurately than locally-tuned indices and global empirical models.
-%R 10.1109/igarss47720.2021.9554110
+%V 278
+%I Elsevier BV
+%F DeBofsky-2021-Responses
+%X The microbiome has been described as an additional host “organ” with well-established beneficial roles. However, the effects of exposures to chemicals on both structure and function of the gut microbiome of fishes are understudied. To determine effects of benzo[ a ]pyrene (BaP), a model persistent organic pollutant, on structural shifts of gut microbiome in juvenile fathead minnows ( Pimephales promelas ), fish were exposed ad libitum in the diet to concentrations of 1, 10, 100, or 1000 μg BaP g −1 food, in addition to a vehicle control, for two weeks. To determine the link between exposure to BaP and changes in the microbial community, concentrations of metabolites of BaP were measured in fish bile and 16S rRNA amplicon sequencing was used to evaluate the microbiome. Exposure to BaP only reduced alpha-diversity at the greatest exposure concentrations. However, it did alter community composition assessed as differential abundance of taxa and reduced network complexity of the microbial community in all exposure groups. Results presented here illustrate that environmentally-relevant concentrations of BaP can alter the diversity of the gut microbiome and community network connectivity. Highlights \bullet Dominant phyla of gut microbiome are consistent with those of other freshwater fishes. \bullet BaP metabolites and exposure doses were consistent with those found in contaminated sites. \bullet Dietary BaP exposure has significant, dose-dependent effects on the fish gut microbiome. \bullet Dietary BaP exposure altered association networks of gut microbiome. Environmentally-relevant concentrations of BaP can alter the diversity of the gut microbiome and community network connectivity via dietary exposure route.
+%R 10.1016/j.envpol.2021.116821
 %U https://aclanthology.org/G21-42001
-%U https://doi.org/10.1109/igarss47720.2021.9554110
+%U https://doi.org/10.1016/j.envpol.2021.116821
+%P 116821
 

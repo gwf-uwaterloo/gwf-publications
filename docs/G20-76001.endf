@@ -1,24 +1,16 @@
 ﻿%0 Journal Article
-%T Underlying Fundamentals of Kalman Filtering for River Network Modeling
-%A Emery, Charlotte M.
-%A David, Cédric H.
-%A Andreadis, Konstantinos M.
-%A Turmon, Michael J.
-%A Reager, John T.
-%A Hobbs, Jonathan M.
-%A Pan, Ming
-%A Famiglietti, James S.
-%A Beighley, Edward
-%A Rodell, Matthew
-%J Journal of Hydrometeorology, Volume 21, Issue 3
+%T A multiregional input–output optimization model to assess impacts of water supply disruptions under climate change on the Great Lakes economy
+%A Garcia-Hernandez, Jorge A.
+%A Brouwer, Roy
+%J Economic Systems Research, Volume 33, Issue 4
 %D 2020
-%V 21
-%N 3
-%I American Meteorological Society
-%F Emery-2020-Underlying
-%X Abstract The grand challenge of producing hydrometeorological estimates every time and everywhere has motivated the fusion of sparse observations with dense numerical models, with a particular interest on discharge in river modeling. Ensemble methods are largely preferred as they enable the estimation of error properties, but at the expense of computational load and generally with underestimations. These imperfect stochastic estimates motivate the use of correction methods, that is, error localization and inflation, although the physical justifications for their optimality are limited. The purpose of this study is to use one of the simplest forms of data assimilation when applied to river modeling and reveal the underlying mechanisms impacting its performance. Our framework based on assimilating daily averaged in situ discharge measurements to correct daily averaged runoff was tested over a 4-yr case study of two rivers in Texas. Results show that under optimal conditions of inflation and localization, discharge simulations are consistently improved such that the mean values of Nash–Sutcliffe efficiency are enhanced from −11.32 to 0.55 at observed gauges and from −12.24 to −1.10 at validation gauges. Yet, parameters controlling the inflation and the localization have a large impact on the performance. Further investigations of these sensitivities showed that optimal inflation occurs when compensating exactly for discrepancies in the magnitude of errors while optimal localization matches the distance traveled during one assimilation window. These results may be applicable to more advanced data assimilation methods as well as for larger applications motivated by upcoming river-observing satellite missions, such as NASA’s Surface Water and Ocean Topography mission.
-%R 10.1175/jhm-d-19-0084.1
+%V 33
+%N 4
+%I Informa UK Limited
+%F Garcia-Hernandez-2020-A
+%X This paper presents a water-restricted multi-regional input–output model to evaluate the economic impacts of water supply reductions in the Canadian Great Lakes Basin (GLB), one of the largest fres...
+%R 10.1080/09535314.2020.1805414
 %U https://aclanthology.org/G20-76001
-%U https://doi.org/10.1175/jhm-d-19-0084.1
-%P 453-474
+%U https://doi.org/10.1080/09535314.2020.1805414
+%P 509-535
 

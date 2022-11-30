@@ -1,54 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Costa-2017-A">
+<mods ID="DeBeer-2017-Influence">
     <titleInfo>
-        <title>A modelling framework to simulate field-scale nitrate response and transport during snowmelt: The WINTRA model</title>
+        <title>Influence of snowpack and melt energy heterogeneity on snow cover depletion and snowmelt runoff simulation in a cold mountain environment</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Diogo</namePart>
-        <namePart type="family">Costa</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="family">Roste</namePart>
+        <namePart type="given">Chris</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">DeBeer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
         <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
         <namePart type="family">Pomeroy</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Helen</namePart>
-        <namePart type="family">Baulch</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jane</namePart>
-        <namePart type="family">Elliott</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="family">Wheater</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Cherie</namePart>
-        <namePart type="family">Westbrook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -60,27 +27,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 31, Issue 24</title>
+            <title>Journal of Hydrology, Volume 553</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Costa-2017-A</identifier>
-    <identifier type="doi">10.1002/hyp.11346</identifier>
+    <identifier type="citekey">DeBeer-2017-Influence</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2017.07.051</identifier>
     <location>
         <url>https://aclanthology.org/G17-10001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>31</number></detail>
-        <detail type="issue"><number>24</number></detail>
+        <detail type="volume"><number>553</number></detail>
         <extent unit="page">
-            <start>4250</start>
-            <end>4268</end>
+            <start>199</start>
+            <end>213</end>
         </extent>
     </part>
 </mods>

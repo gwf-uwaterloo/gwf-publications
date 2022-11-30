@@ -1,104 +1,24 @@
-@article{Irvin-2021-Gap-filling,
-    title = "Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands",
-    author = {Irvin, Jeremy  and
-      Zhou, Sharon  and
-      McNicol, Gavin  and
-      Lu, Fred  and
-      Liu, Vincent  and
-      Fluet-Chouinard, Etienne  and
-      Ouyang, Zutao  and
-      Knox, Sara Helen  and
-      Lucas-Moffat, Antje  and
-      Trotta, Carlo  and
-      Papale, Dario  and
-      Vitale, Domenico  and
-      Mammarella, Ivan  and
-      Alekseychik, Pavel  and
-      Aurela, Mika  and
-      Avati, Anand  and
-      Baldocchi, Dennis  and
-      Bansal, Sheel  and
-      Bohrer, Gil  and
-      Campbell, David I  and
-      Chen, Jiquan  and
-      Chu, Housen  and
-      Dalmagro, Higo J  and
-      Delwiche, Kyle B  and
-      Desai, Ankur R  and
-      Euskirchen, Eugenie  and
-      Feron, Sarah  and
-      Goeckede, Mathias  and
-      Heimann, Martin  and
-      Helbig, Manuel  and
-      Helfter, Carole  and
-      Hemes, Kyle S  and
-      Hirano, Takashi  and
-      Iwata, Hiroki  and
-      Jurasinski, Gerald  and
-      Kalhori, Aram  and
-      Kondrich, Andrew  and
-      Lai, Derrick YF  and
-      Lohila, Annalea  and
-      Malhotra, Avni  and
-      Merbold, Lutz  and
-      Mitra, Bhaskar  and
-      Ng, Andrew  and
-      Nilsson, Mats B  and
-      Noormets, Asko  and
-      Peichl, Matthias  and
-      Rey-Sanchez, A. Camilo  and
-      Richardson, Andrew D  and
-      Runkle, Benjamin RK  and
-      Sch{\"a}fer, Karina VR  and
-      Sonnentag, Oliver  and
-      Stuart-Ha{\"e}ntjens, Ellen  and
-      Sturtevant, Cove  and
-      Ueyama, Masahito  and
-      Valach, Alex C  and
-      Vargas, Rodrigo  and
-      Vourlitis, George L  and
-      Ward, Eric J  and
-      Wong, Guan Xhuan  and
-      Zona, Donatella  and
-      Alberto, Ma. Carmelita R  and
-      Billesbach, David P  and
-      Celis, Gerardo  and
-      Dolman, Han  and
-      Friborg, Thomas  and
-      Fuchs, Kathrin  and
-      Gogo, S{\'e}bastien  and
-      Gondwe, Mangaliso J  and
-      Goodrich, Jordan P  and
-      Gottschalk, Pia  and
-      H{\"o}rtnagl, Lukas  and
-      Jacotot, Adrien  and
-      Koebsch, Franziska  and
-      Kasak, Kuno  and
-      Maier, Regine  and
-      Morin, Timothy H  and
-      Nemitz, Eiko  and
-      Oechel, Walter C  and
-      Oikawa, Patricia Y  and
-      Ono, Keisuke  and
-      Sachs, Torsten  and
-      Sakabe, Ayaka  and
-      Schuur, Edward A  and
-      Shortt, Robert  and
-      Sullivan, Ryan C  and
-      Szutu, Daphne J  and
-      Tuittila, Eeva-Stiina  and
-      Varlagin, Andrej  and
-      Verfaillie, Joeseph G  and
-      Wille, Christian  and
-      Windham-Myers, Lisamarie  and
-      Poulter, Benjamin  and
-      Jackson, Robert B},
-    journal = "Agricultural and Forest Meteorology, Volume 308-309",
-    volume = "308",
+@article{Greuel-2021-Predicting,
+    title = "Predicting patterns of terrestrial lichen biomass recovery following boreal wildfires",
+    author = "Greuel, Ruth J.  and
+      Degr{\'e}‐Timmons, Genevi{\`e}ve {\'E}.  and
+      Baltzer, Jennifer L.  and
+      Johnstone, Jill F.  and
+      McIntire, Eliot J. B.  and
+      Day, Nicola J.  and
+      Hart, Sarah J.  and
+      McLoughlin, Philip D.  and
+      Schmiegelow, Fiona K. A.  and
+      Turetsky, Merritt R.  and
+      Truchon‐Savard, Alexandre  and
+      Telgen, Mario D.  and
+      Cumming, Steven G.",
+    journal = "Ecosphere, Volume 12, Issue 4",
+    volume = "12",
+    number = "4",
     year = "2021",
-    publisher = "Elsevier BV",
+    publisher = "Wiley",
     url = "https://aclanthology.org/G21-87001",
-    doi = "10.1016/j.agrformet.2021.108528",
-    pages = "108528",
-    abstract = "{\mbox{$\bullet$}} We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands {\mbox{$\bullet$}} New methods for generating realistic artificial gaps and uncertainties are proposed {\mbox{$\bullet$}} Decision tree algorithms perform slightly better than neural networks on average {\mbox{$\bullet$}} Soil temperature and generic seasonality are the most important predictors {\mbox{$\bullet$}} Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).",
+    doi = "10.1002/ecs2.3481",
+    abstract = "Increased fire activity due to climate change may impact the successional dynamics of boreal forests, with important consequences for caribou habitat. Early successional forests have been shown to support lower quantities of caribou forage lichens, but geographic variation in, and controls on, the rates of lichen recovery has been largely unexplored. In this study, we sampled across a broad region in northwestern Canada to compare lichen biomass accumulation in ecoprovinces, including the Saskatchewan Boreal Shield, the Northwest Territories Taiga Shield, and Northwest Territories Taiga Plains, divided into North and South. We focused on the most valuable Cladonia species for boreal and barren-ground caribou: Cladonia mitis and C. arbuscula, C. rangiferina and C. stygia, and C. stellaris and C. uncialis. We developed new allometric equations to estimate lichen biomass from field measurements of lichen cover and height; allometries were consistent among ecoprovinces, suggesting generalizability. We then used estimates of lichen biomass to quantify patterns of lichen recovery in different stand types, ecoprovinces, and with time following stand-replacing fire. We used a hurdle model to account both for the heterogeneous nature of lichen presence (zero inflation) and for the range of abundance in stands where lichen was present. The first component of the hurdle model, a generalized linear model, identified stand age, stand type, and ecoprovince as significant predictors of lichen presence. With a logistic growth model, a measure of lichen recovery (time to 50{\%} asymptotic value) varied from 28 to 73 yr, dependent on stand type and ecoprovince. The combined predictions of the hurdle model suggest the most rapid recovery of lichen biomass across our study region occurred in jack pine in the Boreal Shield (30 yr), while stands located in the Taiga Plains (North and South) required a longer recovery period (approximately 75 yr). These results provide a basis for estimating future caribou habitat that encompasses some of the large variation in fire effects on lichen abundance and vegetation types across the range of boreal and barren-ground caribou in North America.",
 }

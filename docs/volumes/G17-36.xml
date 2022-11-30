@@ -1,29 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Stott-2017-Is">
+<mods ID="VanMeter-2017-Time">
     <titleInfo>
-        <title>Is the choice of statistical paradigm critical in extreme event attribution studies?</title>
+        <title>Time lags in watershed-scale nutrient transport: an exploration of dominant controls</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Stott</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">David</namePart>
+        <namePart type="given">K</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Karoly</namePart>
+        <namePart type="family">Van Meter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,28 +27,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climatic Change, Volume 144, Issue 2</title>
+            <title>Environmental Research Letters, Volume 12, Issue 8</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>IOP Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Stott-2017-Is</identifier>
-    <identifier type="doi">10.1007/s10584-017-2049-2</identifier>
+    <identifier type="citekey">Van Meter-2017-Time</identifier>
+    <identifier type="doi">10.1088/1748-9326/aa7bf4</identifier>
     <location>
         <url>https://aclanthology.org/G17-36001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>144</number></detail>
-        <detail type="issue"><number>2</number></detail>
-        <extent unit="page">
-            <start>143</start>
-            <end>150</end>
-        </extent>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <detail type="page"><number>084017</number></detail>
     </part>
 </mods>
 </modsCollection>

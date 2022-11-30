@@ -1,26 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Hamedmohseni-2020-Simplified">
+<mods ID="Harrison-2020-Seeing">
     <titleInfo>
-        <title>Simplified Emanation Graphs: A Sparse Plane Spanner with Steiner Points</title>
+        <title>Seeing beneath disputes: A transdisciplinary framework for diagnosing complex conservation conflicts</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Bardia</namePart>
-        <namePart type="family">Hamedmohseni</namePart>
+        <namePart type="given">Hannah</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Harrison</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zahed</namePart>
-        <namePart type="family">Rahmati</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Debajyoti</namePart>
-        <namePart type="family">Mondal</namePart>
+        <namePart type="given">Philip</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Loring</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,26 +27,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>SOFSEM 2020: Theory and Practice of Computer Science</title>
+            <title>Biological Conservation, Volume 248</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer International Publishing</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Hamedmohseni-2020-Simplified</identifier>
-    <identifier type="doi">10.1007/978-3-030-38919-2_50</identifier>
+    <identifier type="citekey">Harrison-2020-Seeing</identifier>
+    <identifier type="doi">10.1016/j.biocon.2020.108670</identifier>
     <location>
         <url>https://aclanthology.org/G20-85001</url>
     </location>
     <part>
         <date>2020</date>
-        <extent unit="page">
-            <start>607</start>
-            <end>616</end>
-        </extent>
+        <detail type="volume"><number>248</number></detail>
+        <detail type="page"><number>108670</number></detail>
     </part>
 </mods>
 </modsCollection>

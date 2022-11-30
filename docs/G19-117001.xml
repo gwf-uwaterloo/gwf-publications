@@ -1,66 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Melsen-2019-Subjective">
+<mods ID="Mihalicz-2019-Seasonal">
     <titleInfo>
-        <title>Subjective modeling decisions can significantly impact the simulation of flood and drought events</title>
+        <title>Seasonal effects of a hydropeaking dam on a downstream benthic macroinvertebrate community</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Lieke</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Melsen</namePart>
+        <namePart type="given">Jordan</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Mihalicz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Adriaan</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Teuling</namePart>
+        <namePart type="given">Timothy</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Jardine</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Paul</namePart>
-        <namePart type="given">J.J.F.</namePart>
-        <namePart type="family">Torfs</namePart>
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Massimiliano</namePart>
-        <namePart type="family">Zappa</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Naoki</namePart>
-        <namePart type="family">Mizukami</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Pablo</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Mendoza</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Remko</namePart>
-        <namePart type="family">Uijlenhoet</namePart>
+        <namePart type="given">Iain</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Phillips</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -72,28 +43,23 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 568</title>
+            <title>River Research and Applications</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>It is generally acknowledged in the environmental sciences that the choice of a computational model impacts the research results. In this study of a flood and drought event in the Swiss Thur basin, we show that modeling decisions during the model configuration, beyond the model choice, also impact the model results. In our carefully designed experiment we investigated four modeling decisions in ten nested basins: the spatial resolution of the model, the spatial representation of the forcing data, the calibration period, and the performance metric. The flood characteristics were mainly affected by the performance metric, whereas the drought characteristics were mainly affected by the calibration period. The results could be related to the processes that triggered the particular events studied. The impact of the modeling decisions on the simulations did, however, vary among the investigated sub-basins. In spite of the limitations of this study, our findings have important implications for the understanding and quantification of uncertainty in any hydrological or even environmental model. Modeling decisions during model configuration introduce subjectivity from the modeler. Multiple working hypotheses during model configuration can provide insights on the impact of such subjective modeling decisions.</abstract>
-    <identifier type="citekey">Melsen-2019-Subjective</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2018.11.046</identifier>
+    <abstract>As more hydroelectric dams regulate rivers to meet growing energy demands, there is ongoing concern about downstream effects, including impacts on downstream benthic macroinvertebrate (BMI) communities. Hydropeaking is a common hydroelectric practice where short‐term variation in power production leads to large and often rapid fluctuations in discharge and water level. There are key knowledge gaps on the ecosystem impacts of hydropeaking in large rivers, the seasonality of these impacts, and whether dams can be managed to lessen impacts. We assessed how patterns of hydropeaking affect abundance, taxonomic richness, and relative tolerance of BMIs in the Saskatchewan River (Saskatchewan, Canada). Reaches immediately (\textless2 km) downstream of the dam generally had high densities of BMIs and comparable taxonomic diversity relative to upstream locations but were characterized by lower ratios of sensitive (e.g., Ephemeroptera, Plecoptera, and Trichoptera) to tolerant (e.g., Chironomidae) taxa. The magnitude of effect varied with seasonal changes in discharge. Understanding the effects of river regulation on BMI biodiversity and river health has implications for mitigating the impacts of hydropeaking dams on downstream ecosystems. Although we demonstrated that a hydropeaking dam may contribute to a significantly different downstream BMI assemblage, we emphasize that seasonality is a key consideration. The greatest differences between upstream and downstream locations occurred in spring, suggesting standard methods of late summer and fall sampling may underestimate ecosystem‐scale impacts.</abstract>
+    <identifier type="citekey">Mihalicz-2019-Seasonal</identifier>
+    <identifier type="doi">10.1002/rra.3434</identifier>
     <location>
         <url>https://aclanthology.org/G19-117001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>568</number></detail>
-        <extent unit="page">
-            <start>1093</start>
-            <end>1104</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

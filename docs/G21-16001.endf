@@ -1,17 +1,17 @@
 ﻿%0 Journal Article
-%T Performance improvements to modern hydrological models via lookup table optimizations
-%A Marsh, Christopher B.
-%A Green, Kevin R.
-%A Wang, B.
-%A Spiteri, Raymond J.
-%J Environmental Modelling &amp; Software, Volume 139
+%T Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations
+%A Lin, Jimmy
+%A Ma, Xueguang
+%A Lin, Sheng-Chieh
+%A Yang, Jheng-Hong
+%A Pradeep, Ronak
+%A Nogueira, Rodrigo
+%J Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval
 %D 2021
-%V 139
-%I Elsevier BV
-%F Marsh-2021-Performance
-%X Distributed hydrological models predict the spatial variability in processes that govern observed mass and energy fluxes. A challenge associated with the use of these models is the computational burden associated with representing the Earth’s (sub)surface via millions of computational elements. This burden is exacerbated as more complex process representations are included because their parameterizations involve computationally intensive mathematical functions. Lookup tables (LUTs) approximate a mathematical function by interpolating precomputed values of the function. Highly accurate approximations are possible for substantially reduced computational costs. In this work, a general methodology using the C++ LUT library FunC is applied to identify and replace computationally intensive mathematical function evaluations in the Canadian Hydrological Model (CHM). The use of LUTs introduces a pointwise relative error below 10 − 8 and provides a reduction in run time of almost 20%. This work shows how LUTs can be implemented with relatively little pain and yield significant computational savings for distributed hydrological models. \bullet The Canadian Hydrological Model (CHM) is profiled and expensive mathematical functions identified. \bullet FunC was used to replace the expensive mathematical functions in CHM with lookup tables. \bullet The run-time performance of CHM was improved by approximately 20% on two realistic simulations. \bullet A general methodology for using FunC to replace expensive mathematical functions with lookup tables is given.
-%R 10.1016/j.envsoft.2021.105018
+%I ACM
+%F Lin-2021-Pyserini:
+%X Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations. It aims to provide effective, reproducible, and easy-to-use first-stage retrieval in a multi-stage ranking architecture. Our toolkit is self-contained as a standard Python package and comes with queries, relevance judgments, pre-built indexes, and evaluation scripts for many commonly used IR test collections. We aim to support, out of the box, the entire research lifecycle of efforts aimed at improving ranking with modern neural approaches. In particular, Pyserini supports sparse retrieval (e.g., BM25 scoring using bag-of-words representations), dense retrieval (e.g., nearest-neighbor search on transformer-encoded representations), as well as hybrid retrieval that integrates both approaches. This paper provides an overview of toolkit features and presents empirical results that illustrate its effectiveness on two popular ranking tasks. Around this toolkit, our group has built a culture of reproducibility through shared norms and tools that enable rigorous automated testing.
+%R 10.1145/3404835.3463238
 %U https://aclanthology.org/G21-16001
-%U https://doi.org/10.1016/j.envsoft.2021.105018
-%P 105018
+%U https://doi.org/10.1145/3404835.3463238
 

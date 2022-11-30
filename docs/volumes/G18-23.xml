@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Brouwer-2018-A">
+<mods ID="Brouwer-2018-Economic">
     <titleInfo>
-        <title>A global meta-analysis of groundwater quality valuation studies</title>
+        <title>Economic valuation of groundwater protection using a groundwater quality ladder based on chemical threshold levels</title>
     </titleInfo>
     <name type="personal">
         <namePart type="given">Roy</namePart>
@@ -12,8 +12,24 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Noémie</namePart>
-        <namePart type="family">Neverre</namePart>
+        <namePart type="given">Carlos</namePart>
+        <namePart type="given">Miraldo</namePart>
+        <namePart type="family">Ordens</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rute</namePart>
+        <namePart type="family">Pinto</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">Teresa</namePart>
+        <namePart type="family">Condesso de Melo</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,27 +41,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>European Review of Agricultural Economics, Volume 47, Issue 3</title>
+            <title>Ecological Indicators, Volume 88</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Oxford University Press (OUP)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Brouwer-2018-A</identifier>
-    <identifier type="doi">10.1093/erae/jby043</identifier>
+    <identifier type="citekey">Brouwer-2018-Economic</identifier>
+    <identifier type="doi">10.1016/j.ecolind.2018.01.041</identifier>
     <location>
         <url>https://aclanthology.org/G18-23001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>47</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>88</number></detail>
         <extent unit="page">
-            <start>893</start>
-            <end>932</end>
+            <start>292</start>
+            <end>304</end>
         </extent>
     </part>
 </mods>

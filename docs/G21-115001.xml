@@ -1,26 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zong-2021-Critical">
+<mods ID="Alam-2021-A">
     <titleInfo>
-        <title>Critical review of bio/nano sensors for arsenic detection</title>
+        <title>A reusable, reagent-less free chlorine sensor using gold thin film electrode</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Chenghua</namePart>
-        <namePart type="family">Zong</namePart>
+        <namePart type="given">Arif</namePart>
+        <namePart type="given">Ul</namePart>
+        <namePart type="family">Alam</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xiaoting</namePart>
-        <namePart type="family">Jin</namePart>
+        <namePart type="given">Dennis</namePart>
+        <namePart type="family">Clyne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Will</namePart>
+        <namePart type="family">Lush</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">Jamal</namePart>
+        <namePart type="family">Deen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +41,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Trends in Environmental Analytical Chemistry, Volume 32</title>
+            <title>The Analyst, Volume 146, Issue 8</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Royal Society of Chemistry (RSC)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Detection of arsenic is a long-standing challenge in environmental analytical chemistry. In recent years, using biomolecules and nanomaterials for sensing arsenic has been growingly reported. In this article, this field is critically reviewed based on some recent fundamental understandings including interactions between arsenic and gold, thiol, and DNA aptamers. First, taking advantage of the adsorption of As(III) on noble metal surfaces such as silver and gold, sensors were developed based on surface enhanced Raman spectroscopy, electrochemistry and colorimetry. In addition, by functionalizing metal nanoparticles with thiol containing molecules, As(III) induced aggregation of the particles based on As(III)/thiol interactions. As(V) interacts with metal oxides strongly and competitive sensors were developed by displacing pre-adsorbed DNA oligonucleotides. A DNA aptamer was selected for As(III) and many sensors were reported based on this aptamer, although careful binding measurements indicated that the sequence has no affinity towards As(III). Overall, bio/nano systems are promising for the detection of arsenic. Future work on fundamental studies, searching for more specific arsenic binding materials and aptamers, incorporation of sensors into portable devices, and more systematic test of sensors in real samples could be interesting and useful research topics.</abstract>
-    <identifier type="citekey">Zong-2021-Critical</identifier>
-    <identifier type="doi">10.1016/j.teac.2021.e00143</identifier>
+    <abstract>Free chlorine is widely used as a disinfectant in the water industry.</abstract>
+    <identifier type="citekey">Alam-2021-A</identifier>
+    <identifier type="doi">10.1039/d1an00038a</identifier>
     <location>
         <url>https://aclanthology.org/G21-115001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>32</number></detail>
-        <detail type="page"><number>e00143</number></detail>
+        <detail type="volume"><number>146</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <extent unit="page">
+            <start>2626</start>
+            <end>2631</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

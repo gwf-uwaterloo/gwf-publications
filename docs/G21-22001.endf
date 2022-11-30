@@ -1,16 +1,16 @@
 ﻿%0 Journal Article
-%T Automatically Generating Release Notes with Content Classification Models
-%A Nath, Sristy Sumana
+%T Semantic Slicing of Architectural Change Commits
+%A Mondal, Amit Kumar
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
 %A Roy, Banani
-%J International Journal of Software Engineering and Knowledge Engineering, Volume 31, Issue 11n12
+%A Nath, Sristy Sumana
+%J Proceedings of the 15th ACM / IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
 %D 2021
-%V 31
-%N 11
-%I World Scientific Pub Co Pte Ltd
-%F Nath-2021-Automatically
-%X Release notes are admitted as an essential technical document in software maintenance. They summarize the main changes, e.g. bug fixes and new features, that have happened in the software since the previous release. Manually producing release notes is a time-consuming and challenging task. For that reason, sometimes developers neglect to write release notes. For example, we collect data from GitHub with over 1900 releases, and among them, 37% of the release notes are empty. To mitigate this problem, we propose an automatic release notes generation approach by applying the text summarization techniques, i.e. TextRank. To improve the keyword extraction method of traditional TextRank, we integrate the GloVe word embedding technique with TextRank. After generating release notes automatically, we apply machine learning algorithms to classify the release note contents (or sentences). We classify the contents into six categories, e.g. bug fixes and performance improvements, to represent the release notes better for users. We use the evaluation metric, e.g. ROUGE, to evaluate the automatically generated release notes. We also compare the performance of our technique with two popular extractive algorithms, e.g. Luhn’s and latent semantic analysis (LSA). Our evaluation results show that the improved TextRank method outperforms the two algorithms.
-%R 10.1142/s0218194021400192
+%I ACM
+%F Mondal-2021-Semantic
+%X Software architectural changes involve more than one module or component and are complex to analyze compared to local code changes. Development teams aiming to review architectural aspects (design) of a change commit consider many essential scenarios such as access rules and restrictions on usage of program entities across modules. Moreover, design review is essential when proper architectural formulations are paramount for developing and deploying a system. Untangling architectural changes, recovering semantic design, and producing design notes are the crucial tasks of the design review process. To support these tasks, we construct a lightweight tool [4] that can detect and decompose semantic slices of a commit containing architectural instances. A semantic slice consists of a description of relational information of involved modules, their classes, methods and connected modules in a change instance, which is easy to understand to a reviewer. We extract various directory and naming structures (DANS) properties from the source code for developing our tool. Utilizing the DANS properties, our tool first detects architectural change instances based on our defined metric and then decomposes the slices (based on string processing). Our preliminary investigation with ten open-source projects (developed in Java and Kotlin) reveals that the DANS properties produce highly reliable precision and recall (93-100%) for detecting and generating architectural slices. Our proposed tool will serve as the preliminary approach for the semantic design recovery and design summary generation for the project releases.
+%R 10.1145/3475716.3484487
 %U https://aclanthology.org/G21-22001
-%U https://doi.org/10.1142/s0218194021400192
-%P 1721-1740
+%U https://doi.org/10.1145/3475716.3484487
 

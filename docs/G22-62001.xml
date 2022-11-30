@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Fathalla-2022-Colorimetric">
+<mods ID="Saha-2022-Facile">
     <titleInfo>
-        <title>Colorimetric Detection of Heavy Metal Ions Using Superabsorptive Hydrogels and Evaporative Concentration for Water Quality Monitoring</title>
+        <title>Facile fabrication of conductive MoS\textlesssub\textgreater2\textless/sub\textgreater thin films by sonication in hot water and evaluation of their electrocatalytic performance in the hydrogen evolution reaction</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="family">Fathalla</namePart>
+        <namePart type="given">Dipankar</namePart>
+        <namePart type="family">Saha</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Vinay</namePart>
+        <namePart type="family">Patel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,6 +26,13 @@
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
+    <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Kruse</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
     <originInfo>
         <dateIssued>2022</dateIssued>
     </originInfo>
@@ -26,27 +40,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>ACS ES&amp;amp;T Water, Volume 2, Issue 4</title>
+            <title>Nanoscale Advances, Volume 4, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>Royal Society of Chemistry (RSC)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Fathalla-2022-Colorimetric</identifier>
-    <identifier type="doi">10.1021/acsestwater.2c00070</identifier>
+    <abstract>Molybdenum disulfide (MoS 2 ) has long been used in catalysis and is a promising material for energy conversion devices.</abstract>
+    <identifier type="citekey">Saha-2022-Facile</identifier>
+    <identifier type="doi">10.1039/d1na00456e</identifier>
     <location>
         <url>https://aclanthology.org/G22-62001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>2</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>4</number></detail>
+        <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>658</start>
-            <end>666</end>
+            <start>125</start>
+            <end>137</end>
         </extent>
     </part>
 </mods>

@@ -1,29 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Whitfield-2020-Spatial">
+<mods ID="Wolfe-2020-Past">
     <titleInfo>
-        <title>Spatial patterns of temporal changes in Canadian Prairie streamflow using an alternative trend assessment approach</title>
+        <title>Past variation in Lower Peace River ice-jam flood frequency</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Paul</namePart>
-        <namePart type="given">H</namePart>
-        <namePart type="family">Whitfield</namePart>
+        <namePart type="given">Brent</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Wolfe</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">K</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Shook</namePart>
+        <namePart type="given">Roland</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Hall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">Johan</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Wiklund</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Kay</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,24 +43,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 582</title>
+            <title>Environmental Reviews, Volume 28, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Canadian Science Publishing</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Whitfield-2020-Spatial</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2020.124541</identifier>
+    <identifier type="citekey">Wolfe-2020-Past</identifier>
+    <identifier type="doi">10.1139/er-2019-0047</identifier>
     <location>
         <url>https://aclanthology.org/G20-144001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>582</number></detail>
-        <detail type="page"><number>124541</number></detail>
+        <detail type="volume"><number>28</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>209</start>
+            <end>217</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

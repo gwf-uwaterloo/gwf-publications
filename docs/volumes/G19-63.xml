@@ -1,36 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Grant-2019-Nutrient">
+<mods ID="Green-2019-Direct">
     <titleInfo>
-        <title>Nutrient Leaching in Soil Affected by Fertilizer Application and Frozen Ground</title>
+        <title>Direct Function Evaluation versus Lookup Tables: When to Use Which?</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Kirsten</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Grant</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Green</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
+        <namePart type="given">Tanner</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bohn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fereidoun</namePart>
-        <namePart type="family">Rezanezhad</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">W</namePart>
-        <namePart type="given">Vito</namePart>
-        <namePart type="family">Lam</namePart>
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,27 +35,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Vadose Zone Journal, Volume 18, Issue 1</title>
+            <title>SIAM Journal on Scientific Computing, Volume 41, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Grant-2019-Nutrient</identifier>
-    <identifier type="doi">10.2136/vzj2018.08.0150</identifier>
+    <identifier type="citekey">Green-2019-Direct</identifier>
+    <identifier type="doi">10.1137/18m1201421</identifier>
     <location>
         <url>https://aclanthology.org/G19-63001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>18</number></detail>
-        <detail type="issue"><number>1</number></detail>
+        <detail type="volume"><number>41</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>1</start>
-            <end>13</end>
+            <start>C194</start>
+            <end>C218</end>
         </extent>
     </part>
 </mods>

@@ -1,28 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="BenAlaya-2021-On">
+<mods ID="PardoLara-2021-Implications">
     <titleInfo>
-        <title>On estimating long period wind speed return levels from annual maxima</title>
+        <title>Implications of measurement metrics on soil freezing curves: A simulation of freeze–thaw hysteresis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
+        <namePart type="given">Renato</namePart>
+        <namePart type="family">Pardo Lara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Ben Alaya</namePart>
+        <namePart type="family">Berg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Jon</namePart>
+        <namePart type="family">Warland</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">X</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Gary</namePart>
+        <namePart type="family">Parkin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,25 +40,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Climate Extremes, Volume 34</title>
+            <title>Hydrological Processes, Volume 35, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The uniform risk engineering practices that are increasingly being adopted for structural design require estimates of the extreme wind loads with very low annual probabilities of exceedance, corresponding to return periods of up to 3000-years in some cases. These estimates are necessarily based on observational wind data that typically spans only a few decades. The estimates are therefore affected by both large sampling uncertainty and, potentially, non-negligible biases. Design practices that aim to meet mandated structural reliability criteria take the sampling uncertainty of long period wind speed or wind pressure estimates into account, but reliability could be compromised if estimates are also biased. In many circumstances, estimates are obtained by fitting an extreme value distribution to annual maximum wind speed observed over a few decades. A key assumption implicit in doing so is that wind speed annual maxima are max-stable. Departures from max-stability can exacerbate the uncertainty of long-period return level estimates by inducing systematic estimation bias as well. Observational records, however, are generally too short to assess max-stability. We therefore use wind speed data from a large (50-member) ensemble of CanRCM4 historical simulations over North America to assess whether wind speed annual maxima are max-stable. While results are generally reassuring at the continental scale, disquieting evidence of a lack of max-stability is often found in the central and southern parts of the continent. Results show that when annual maximum wind speeds are not max-stable, long period return level extreme wind speeds tend to be underestimated, which would compromise reliability if used to design infrastructure such as tall buildings and towers.</abstract>
-    <identifier type="citekey">Ben Alaya-2021-On</identifier>
-    <identifier type="doi">10.1016/j.wace.2021.100388</identifier>
+    <abstract>Soil freeze-thaw events have important implications for water resources, flood risk, land productivity, and climate change. A property of these phenomena is the relationship between unfrozen water content and sub-freezing temperature, known as the soil freezing characteristic curve (SFC). It is documented that this relationship exhibits hysteretic behaviour when frozen soil thaws, leading to the definition of the soil thawing characteristic curve (STC). Although explanations have been given for SFC/STC hysteresis, the effect that “scale”—particularly “measurement scale”—may have on these curves has received little attention. The most commonly used measurement scale metric is the “grain” or “support,” which is the spatial (or temporal) unit within which the measured variable is integrated—in this case, the soil volume sampled. We show (1) measurement support can influence the range and shape of the SFC and (2) hysteresis can be, at least partially, attributed to the support and location of the measurements comprising the SFC/STC. We simulated lab measured temperature, volumetric water content (VWC), and permittivity from soil samples undergoing freeze-thaw transitions using Hydrus-1D and a modified Dobson permittivity model. To assess the effect of measurement support and location on SFC/STC, we masked the simulated temperature and VWC/permittivity extent to match the instrument’s grain and location. By creating a detailed simulation of the intra- and inter-grain variability associated with the penetration of a freezing front, we demonstrate how measurement support and location can influence the temperature range over which water freezing events are captured. We show it is possible to simulate hysteresis in homogenous media with purely geometric considerations, suggesting that SFC/STC hysteresis may be more of an apparent phenomenon than mechanistically real. Lastly, we develop an understanding of how the location and support of soil temperature and VWC/permittivity measurements influence the temperature range over which water freezing events are captured.</abstract>
+    <identifier type="citekey">Pardo Lara-2021-Implications</identifier>
+    <identifier type="doi">10.1002/hyp.14269</identifier>
     <location>
         <url>https://aclanthology.org/G21-131001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="page"><number>100388</number></detail>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>7</number></detail>
     </part>
 </mods>
 </modsCollection>

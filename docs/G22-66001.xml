@@ -1,26 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zhao-2022-Critical">
+<mods ID="Patel-2022-Reagent-Free">
     <titleInfo>
-        <title>Critical evaluation of aptamer binding for biosensor designs</title>
+        <title>Reagent-Free Hydrogen Peroxide Sensing Using Carbon Nanotube Chemiresistors with Electropolymerized Crystal Violet</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Yichen</namePart>
-        <namePart type="family">Zhao</namePart>
+        <namePart type="given">Vinay</namePart>
+        <namePart type="family">Patel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kayvan</namePart>
-        <namePart type="family">Yavari</namePart>
+        <namePart type="given">Dipankar</namePart>
+        <namePart type="family">Saha</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juewen</namePart>
-        <namePart type="family">Liu</namePart>
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Kruse</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ponnambalam</namePart>
+        <namePart type="given">Ravi</namePart>
+        <namePart type="family">Selvaganapathy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,25 +40,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>TrAC Trends in Analytical Chemistry, Volume 146</title>
+            <title>ACS Applied Nano Materials, Volume 5, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Chemical Society (ACS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Over the last three decades, numerous aptamer-based biosensors have been reported. The basis of these sensors is the selective binding of target analytes by aptamers. In the last few years, a number of papers have been published questioning the binding ability of some popular aptamers such as those documented for As(III), ampicillin, chloramphenicol, isocarbophos, phorate and dopamine. In this article, these papers are reviewed, and the binding assays are described, which may provide possible reasons for obtaining false positive aptamers. Additionally, relevant aptamer selection methods and typical characterization steps are described. It is found that for small molecular targets, using an immobilized library might result in better aptamers. Furthermore, the importance of carefully designed controls to ensure the quality of binding assays is discussed, especially in the case of mutated nonbinding aptamers. Only then, with fully validated aptamers, can subsequent biosensor design bring about meaningful results. \bullet The first critical review of the literature on aptamers that were proven to be non-binding sequences. \bullet Five different aptamers for various small molecules reviewed. \bullet Possible reasons for the generation of such non-binding aptamer sequences proposed and methods to avoid them described.</abstract>
-    <identifier type="citekey">Zhao-2022-Critical</identifier>
-    <identifier type="doi">10.1016/j.trac.2021.116480</identifier>
+    <identifier type="citekey">Patel-2022-Reagent-Free</identifier>
+    <identifier type="doi">10.1021/acsanm.1c04540</identifier>
     <location>
         <url>https://aclanthology.org/G22-66001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>146</number></detail>
-        <detail type="page"><number>116480</number></detail>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>3957</start>
+            <end>3966</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

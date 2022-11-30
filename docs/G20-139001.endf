@@ -1,21 +1,16 @@
 ﻿%0 Journal Article
-%T SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018
-%A Tang, Guoqiang
-%A Clark, Martyn P.
-%A Newman, Andrew J.
-%A Wood, Andrew W.
-%A Papalexiou, Simon Michael
-%A Vionnet, Vincent
-%A Whitfield, Paul H.
-%J Earth System Science Data, Volume 12, Issue 4
+%T Mining API usage scenarios from stack overflow
+%A Uddin, Gias
+%A Khomh, Foutse
+%A Roy, Chanchal K.
+%J Information and Software Technology, Volume 122
 %D 2020
-%V 12
-%N 4
-%I Copernicus GmbH
-%F Tang-2020-SCDNA:
-%X Abstract. Station-based serially complete datasets (SCDs) of precipitation and temperature observations are important for hydrometeorological studies. Motivated by the lack of serially complete station observations for North America, this study seeks to develop an SCD from 1979 to 2018 from station data. The new SCD for North America (SCDNA) includes daily precipitation, minimum temperature (Tmin⁡), and maximum temperature (Tmax⁡) data for 27 276 stations. Raw meteorological station data were obtained from the Global Historical Climate Network Daily (GHCN-D), the Global Surface Summary of the Day (GSOD), Environment and Climate Change Canada (ECCC), and a compiled station database in Mexico. Stations with at least 8-year-long records were selected, which underwent location correction and were subjected to strict quality control. Outputs from three reanalysis products (ERA5, JRA-55, and MERRA-2) provided auxiliary information to estimate station records. Infilling during the observation period and reconstruction beyond the observation period were accomplished by combining estimates from 16 strategies (variants of quantile mapping, spatial interpolation, and machine learning). A sensitivity experiment was conducted by assuming that 30 % of observations from stations were missing – this enabled independent validation and provided a reference for reconstruction. Quantile mapping and mean value corrections were applied to the final estimates. The median Kling–Gupta efficiency (KGE′) values of the final SCDNA for all stations are 0.90, 0.98, and 0.99 for precipitation, Tmin⁡, and Tmax⁡, respectively. The SCDNA is closer to station observations than the four benchmark gridded products and can be used in applications that require either quality-controlled meteorological station observations or reconstructed long-term estimates for analysis and modeling. The dataset is available at https://doi.org/10.5281/zenodo.3735533 (Tang et al., 2020).
-%R 10.5194/essd-12-2381-2020
+%V 122
+%I Elsevier BV
+%F Uddin-2020-Mining
+%X Abstract Context APIs play a central role in software development. The seminal research of Carroll et al. [15] on minimal manual and subsequent studies by Shull et al. [79] showed that developers prefer task-based API documentation instead of traditional hierarchical official documentation (e.g., Javadoc). The Q&A format in Stack Overflow offers developers an interface to ask and answer questions related to their development tasks. Objective With a view to produce API documentation, we study automated techniques to mine API usage scenarios from Stack Overflow. Method We propose a framework to mine API usage scenarios from Stack Overflow. Each task consists of a code example, the task description, and the reactions of developers towards the code example. First, we present an algorithm to automatically link a code example in a forum post to an API mentioned in the textual contents of the forum post. Second, we generate a natural language description of the task by summarizing the discussions around the code example. Third, we automatically associate developers reactions (i.e., positive and negative opinions) towards the code example to offer information about code quality. Results We evaluate the algorithms using three benchmarks. We compared the algorithms against seven baselines. Our algorithms outperformed each baseline. We developed an online tool by automatically mining API usage scenarios from Stack Overflow. A user study of 31 software developers shows that the participants preferred the mined usage scenarios in Opiner over API official documentation. The tool is available online at: http://opiner.polymtl.ca/ . Conclusion With a view to produce API documentation, we propose a framework to automatically mine API usage scenarios from Stack Overflow, supported by three novel algorithms. We evaluated the algorithms against a total of eight state of the art baselines. We implement and deploy the framework in our proof-of-concept online tool, Opiner.
+%R 10.1016/j.infsof.2020.106277
 %U https://aclanthology.org/G20-139001
-%U https://doi.org/10.5194/essd-12-2381-2020
-%P 2381-2409
+%U https://doi.org/10.1016/j.infsof.2020.106277
+%P 106277
 

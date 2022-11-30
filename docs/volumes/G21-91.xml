@@ -1,42 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Moslemi-Aqdam-2021-Catchments">
+<mods ID="Jitnikovitch-2021-Snow">
     <titleInfo>
-        <title>Catchments affect growth rate of Northern Pike, Esox lucius, in subarctic lakes</title>
+        <title>Snow water equivalent measurement in the Arctic based on cosmic ray neutron attenuation</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mehdi</namePart>
-        <namePart type="family">Moslemi-Aqdam</namePart>
+        <namePart type="given">Anton</namePart>
+        <namePart type="family">Jitnikovitch</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">George</namePart>
-        <namePart type="family">Low</namePart>
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Marsh</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mike</namePart>
-        <namePart type="family">Low</namePart>
+        <namePart type="given">Branden</namePart>
+        <namePart type="family">Walker</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Brian</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Branfireun</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Heidi</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Swanson</namePart>
+        <namePart type="given">Darin</namePart>
+        <namePart type="family">Desilets</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,24 +39,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Aquatic Sciences, Volume 83, Issue 3</title>
+            <title>The Cryosphere, Volume 15, Issue 11</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Moslemi-Aqdam-2021-Catchments</identifier>
-    <identifier type="doi">10.1007/s00027-021-00817-4</identifier>
+    <identifier type="citekey">Jitnikovitch-2021-Snow</identifier>
+    <identifier type="doi">10.5194/tc-15-5227-2021</identifier>
     <location>
         <url>https://aclanthology.org/G21-91001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>83</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>5227</start>
+            <end>5239</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

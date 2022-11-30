@@ -1,28 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huang-2020-Target">
+<mods ID="Moon-2020-Zn">
     <titleInfo>
-        <title>Target Self‐Enhanced Selectivity in Metal‐Specific DNAzymes</title>
+        <title>Zn \textlesssup\textgreater2+\textless/sup\textgreater ‐Dependent DNAzymes: From Solution Chemistry to Analytical, Materials and Therapeutic Applications</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Po‐Jung</namePart>
-        <namePart type="given">Jimmy</namePart>
-        <namePart type="family">Huang</namePart>
+        <namePart type="given">Woohyun</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Moon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Donatien</namePart>
-        <namePart type="family">Rochambeau</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hanadi</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Sleiman</namePart>
+        <namePart type="given">Yongjie</namePart>
+        <namePart type="family">Yang</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -41,7 +33,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Angewandte Chemie International Edition, Volume 59, Issue 9</title>
+            <title>ChemBioChem, Volume 22, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -50,19 +42,19 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>The more the merrier: Better selectivity for Zn2+ ions is shown for DNAzymes that bind more metal ions. This selectivity is exemplified by using a series of in vitro selected DNAzymes that contain a single metal ligand modification at the cleavage junction.</abstract>
-    <identifier type="citekey">Huang-2020-Target</identifier>
-    <identifier type="doi">10.1002/anie.201915675</identifier>
+    <abstract>Since 1994, deoxyribozymes or DNAzymes have been in vitro selected to catalyze various types of reactions. Metal ions play a critical role in DNAzyme catalysis, and Zn2+ is a very important one among them. Zn2+ has good biocompatibility and can be used for intracellular applications. Chemically, Zn2+ is a Lewis acid and it can bind to both the phosphate backbone and the nucleobases of DNA. Zn2+ undergoes hydrolysis even at neutral pH, and the partially hydrolyzed polynuclear complexes can affect the interactions with DNA. These features have made Zn2+ a unique cofactor for DNAzyme reactions. This review summarizes Zn2+ -dependent DNAzymes with an emphasis on RNA-/DNA-cleaving reactions. A key feature is the sharp Zn2+ concentration and pH-dependent activity for many of the DNAzymes. The applications of these DNAzymes as biosensors for Zn2+ , as therapeutic agents to cleave intracellular RNA, and as chemical biology tools to manipulate DNA are discussed. Future studies can focus on the selection of new DNAzymes with improved performance and detailed biochemical characterizations to understand the role of Zn2+ , which can facilitate practical applications of Zn2+ -dependent DNAzymes.</abstract>
+    <identifier type="citekey">Moon-2020-Zn</identifier>
+    <identifier type="doi">10.1002/cbic.202000586</identifier>
     <location>
         <url>https://aclanthology.org/G20-18001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>59</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>22</number></detail>
+        <detail type="issue"><number>5</number></detail>
         <extent unit="page">
-            <start>3573</start>
-            <end>3577</end>
+            <start>779</start>
+            <end>789</end>
         </extent>
     </part>
 </mods>

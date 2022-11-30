@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Razavi-2019-VARS-TOOL:">
+<mods ID="Robinne-Gallagher-2019-A-novel">
     <titleInfo>
-        <title>VARS-TOOL: A toolbox for comprehensive, efficient, and robust sensitivity and uncertainty analysis</title>
+        <title>A novel tool for measuring the penetration of the ecosystem service concept into public policy</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">François-Nicolas</namePart>
+        <namePart type="family">Robinne</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Louise</namePart>
+        <namePart type="family">Gallagher</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hoshin</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Gupta</namePart>
+        <namePart type="given">Christian</namePart>
+        <namePart type="family">Bréthaut</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amin</namePart>
-        <namePart type="family">Haghnegahdar</namePart>
+        <namePart type="given">Martin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schlaepfer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -40,7 +40,7 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 112</title>
+            <title>Ecosystem Services, Volume 36</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
@@ -49,19 +49,16 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract VARS-TOOL is a software toolbox for sensitivity and uncertainty analysis. Developed primarily around the “Variogram Analysis of Response Surfaces” framework, VARS-TOOL adopts a multi-method approach that enables simultaneous generation of a range of sensitivity indices, including ones based on derivative, variance, and variogram concepts, from a single sample. Other special features of VARS-TOOL include (1) novel tools for time-varying and time-aggregate sensitivity analysis of dynamical systems models, (2) highly efficient sampling techniques, such as Progressive Latin Hypercube Sampling (PLHS), that maximize robustness and rapid convergence to stable sensitivity estimates, (3) factor grouping for dealing with high-dimensional problems, (4) visualization for monitoring stability and convergence, (5) model emulation for handling model crashes, and (6) an interface that allows working with any model in any programming language and operating system. As a test bed for training and research, VARS-TOOL provides a set of mathematical test functions and the (dynamical) HBV-SASK hydrologic model.</abstract>
-    <identifier type="citekey">Razavi-2019-VARS-TOOL:</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2018.10.005</identifier>
+    <abstract>\bullet Little is known about the uptake of the ES concept into policy at a global scale. \bullet GlobaLDES is an open-access database recording ES policy documents. \bullet The database is crowdsourced by learners of a free online ES course. \bullet 136 relevant documents were analyzed, 60% of them were originally not in English. \bullet Many entries refer to multiple ES at once, with an accelerating uptake since 2011. The ecosystem services (ES) concept has gained traction amongst stakeholders involved in environmental regulation, yet little is known about the extent to which the ES concept has been translated into public policy. Here, we present a new online database of policy documents related to ES: GlobaLDES ( https://tinyurl.com/GlobalDES ). The database was created in 2016 and compiled through a crowdsourced process. Learners involved in a Massive Open Online Course (MOOC) were invited to submit documents that explicitly refer to ES. We included in our analysis documents related to laws, regulations, ordonnances, tax incentives, certification, and strategic planning. By early 2018 the database contained 136 relevant entries from 46 countries. Most examples (60%) were in a language other than English. More than 50% of entries addressed multiple ES or the link between biodiversity and ES. There was also a positive temporal trend towards inclusion of multiple ecosystem services. The GlobaLDES database represents the first known snapshot of the mainstreaming of the ES concept at a global scale. Our analysis suggests an accelerating adoption of the ES concept into policy. As the number of entries improves, GlobaLDES will serve as a useful benchmarking tool for monitoring the diffusion of the ES concept into policy-making.</abstract>
+    <identifier type="citekey">Robinne-Gallagher-2019-A-novel</identifier>
+    <identifier type="doi">10.1016/j.ecoser.2019.100914</identifier>
     <location>
         <url>https://aclanthology.org/G19-148001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>112</number></detail>
-        <extent unit="page">
-            <start>95</start>
-            <end>107</end>
-        </extent>
+        <detail type="volume"><number>36</number></detail>
+        <detail type="page"><number>100914</number></detail>
     </part>
 </mods>
 </modsCollection>

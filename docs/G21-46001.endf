@@ -1,20 +1,15 @@
 ﻿%0 Journal Article
-%T Warming combined with experimental eutrophication intensifies lake phytoplankton blooms
-%A Salk, Kateri R.
-%A Venkiteswaran, Jason J.
-%A Couture, Raoul‐Marie
-%A Higgins, Scott N.
-%A Paterson, Michael J.
-%A Schiff, Sherry L.
-%J Limnology and Oceanography, Volume 67, Issue 1
+%T Support Vector Regression for Chlorophyll-A Estimation Using Sentinel-2 Images in Small Waterbodies
+%A Chegoonian, Amir M.
+%A Zolfaghari, Kiana
+%A Baulch, Helen M.
+%A Duguay, Claude R.
+%J 2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS
 %D 2021
-%V 67
-%N 1
-%I Wiley
-%F Salk-2021-Warming
-%X Phytoplankton blooms are a global water quality issue, and successful management depends on understanding their responses to multiple and interacting drivers, including nutrient loading and climate change. Here, we examine a long-term dataset from Lake 227, a site subject to a fertilization experiment (1969–present) with changing nitrogen:phosphorus (N:P) ratios. We applied a process-oriented model, MyLake, and updated the model structure with nutrient uptake kinetics that incorporated shifting N:P and competition among phytoplankton functional groups. We also tested different temperature and P-loading scenarios to examine the interacting effects of climate change and nutrient loading on phytoplankton blooms. The model successfully reproduced lake physics over 48 yr and the timing, overall magnitude, and shifting community structure (diazotrophs vs. non-diazotrophs) of phytoplankton blooms. Intra- and interannual variability was captured more accurately for the P-only fertilization period than for the high N:P and low N:P fertilization periods, highlighting the difficulty of modeling complex blooms even in well-studied systems. A model scenario was also run which removed climate-driven temperature trends, allowing us to disentangle concurrent drivers of blooms. Results showed that increases in water temperature in the spring led to earlier and larger phytoplankton blooms under climate change than under the effects of nutrient fertilization alone. These findings suggest that successful lake management efforts should incorporate the effects of climate change in addition to nutrient reductions, including intensifying and/or expanding monitoring periods and incorporating climate change into uncertainty estimates around future conditions.
-%R 10.1002/lno.11982
+%I IEEE
+%F Chegoonian-2021-Support
+%X Chlorophyll-a concentration (chla) is a useful indicator of harmful algal blooms in early warning systems that use remote sensing data as input. However, its retrieval is challenging in small waterbodies due to the lack of high spatial-resolution water-color sensors and the substantial optical interference of other water constituents. Here, we demonstrate the potential of support vector machines and Sentinel-2 images to retrieve chla in a shallow eutrophic lake (Buffalo Pound Lake, Saskatchewan, Canada). Following validation against in-situ chla measurements over three open water seasons (2017–2019), our proposed method based on Support Vector Regression (SVR) outperforms the most common semi-empirical models, i.e., locally-tuned indices (normalized difference chlorophyll index, 2band, and 3band), as well as the state-of-the-art global empirical model (Mixture Density Network). The superiority of SVR is shown in terms of overall and stratified accuracy, as well as spatial validity. We argue that for small waterbodies where numerous matched pairs of in-situ chla and reflectance are not available, SVR might retrieve chla more accurately than locally-tuned indices and global empirical models.
+%R 10.1109/igarss47720.2021.9554110
 %U https://aclanthology.org/G21-46001
-%U https://doi.org/10.1002/lno.11982
-%P 147-158
+%U https://doi.org/10.1109/igarss47720.2021.9554110
 

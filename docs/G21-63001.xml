@@ -1,51 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Newman-2021-Identifying">
+<mods ID="Laguë-2021-Radiative">
     <titleInfo>
-        <title>Identifying sensitivities in flood frequency analyses using a stochastic hydrologic modeling system</title>
+        <title>Radiative feedbacks on land surface change and associated tropical precipitation shifts</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Newman</namePart>
+        <namePart type="given">Marysa</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Laguë</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amanda</namePart>
-        <namePart type="given">G</namePart>
-        <namePart type="family">Stone</namePart>
+        <namePart type="given">Abigail</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Swann</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Manabendra</namePart>
-        <namePart type="family">Saharia</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Kathleen</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Holman</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nans</namePart>
-        <namePart type="family">Addor</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
+        <namePart type="given">William</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Boos</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -57,28 +36,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 25, Issue 10</title>
+            <title>Journal of Climate</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. This study employs a stochastic hydrologic modeling framework to evaluate the sensitivity of flood frequency analyses to different components of the hydrologic modeling chain. The major components of the stochastic hydrologic modeling chain, including model structure, model parameter estimation, initial conditions, and precipitation inputs were examined across return periods from 2 to 100 000 years at two watersheds representing different hydroclimates across the western USA. A total of 10 hydrologic model structures were configured, calibrated, and run within the Framework for Understanding Structural Errors (FUSE) modular modeling framework for each of the two watersheds. Model parameters and initial conditions were derived from long-term calibrated simulations using a 100 member historical meteorology ensemble. A stochastic event-based hydrologic modeling workflow was developed using the calibrated models in which millions of flood event simulations were performed for each basin. The analysis of variance method was then used to quantify the relative contributions of model structure, model parameters, initial conditions, and precipitation inputs to flood magnitudes for different return periods. Results demonstrate that different components of the modeling chain have different sensitivities for different return periods. Precipitation inputs contribute most to the variance of rare floods, while initial conditions are most influential for more frequent events. However, the hydrological model structure and structure–parameter interactions together play an equally important role in specific cases, depending on the basin characteristics and type of flood metric of interest. This study highlights the importance of critically assessing model underpinnings, understanding flood generation processes, and selecting appropriate hydrological models that are consistent with our understanding of flood generation processes.</abstract>
-    <identifier type="citekey">Newman-2021-Identifying</identifier>
-    <identifier type="doi">10.5194/hess-25-5603-2021</identifier>
+    <abstract>Abstract Changes in land surface albedo and land surface evaporation modulate the atmospheric energy budget by changing temperatures, water vapor, clouds, snow and ice cover, and the partitioning of surface energy fluxes. Here idealized perturbations to land surface properties are imposed in a global model to understand how such forcings drive shifts in zonal mean atmospheric energy transport and zonal mean tropical precipitation. For a uniform decrease in global land albedo, the albedo forcing and a positive water vapor feedback contribute roughly equally to increased energy absorption at the top of the atmosphere (TOA), while radiative changes due to the temperature and cloud cover response provide a negative feedback and energy loss at TOA. Decreasing land albedo causes a northwards shift in the zonal mean intertropical convergence zone (ITCZ). The combined effects on ITCZ location of all atmospheric feedbacks roughly cancel for the albedo forcing; the total ITCZ shift is comparable to that predicted for the albedo forcing alone. For an imposed increase in evaporative resistance that reduces land evaporation, low cloud cover decreases in the northern mid-latitudes and more energy is absorbed at TOA there; longwave loss due to warming provides a negative feedback on the TOA energy balance and ITCZ shift. Imposed changes in land albedo and evaporative resistance modulate fundamentally different aspects of the surface energy budget. However, the pattern of TOA radiation changes due to the water vapor and air temperature responses are highly correlated for these two forcings because both forcings lead to near-surface warming.</abstract>
+    <identifier type="citekey">Laguë-2021-Radiative</identifier>
+    <identifier type="doi">10.1175/jcli-d-20-0883.1</identifier>
     <location>
         <url>https://aclanthology.org/G21-63001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>25</number></detail>
-        <detail type="issue"><number>10</number></detail>
         <extent unit="page">
-            <start>5603</start>
-            <end>5621</end>
+            <start>1</start>
+            <end>63</end>
         </extent>
     </part>
 </mods>

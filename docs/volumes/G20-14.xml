@@ -1,19 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Saha-2020-Editors’">
+<mods ID="Rahman-2020-LDAP:">
     <titleInfo>
-        <title>Editors’ Choice—Review—Conductive Forms of MoS\textlesssub\textgreater2\textless/sub\textgreater and Their Applications in Energy Storage and Conversion</title>
+        <title>LDAP: Lightweight Dynamic Auto-Reconfigurable Protocol in an IoT-Enabled WSN for Wide-Area Remote Monitoring</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Dipankar</namePart>
-        <namePart type="family">Saha</namePart>
+        <namePart type="given">Gazi</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Rahman</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Peter</namePart>
-        <namePart type="family">Kruse</namePart>
+        <namePart type="given">Khan</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Wahid</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,25 +28,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of The Electrochemical Society, Volume 167, Issue 12</title>
+            <title>Remote Sensing, Volume 12, Issue 19</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>The Electrochemical Society</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Saha-2020-Editors’</identifier>
-    <identifier type="doi">10.1149/1945-7111/abb34b</identifier>
+    <identifier type="citekey">Rahman-2020-LDAP:</identifier>
+    <identifier type="doi">10.3390/rs12193131</identifier>
     <location>
         <url>https://aclanthology.org/G20-14001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>167</number></detail>
-        <detail type="issue"><number>12</number></detail>
-        <detail type="page"><number>126517</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>19</number></detail>
+        <detail type="page"><number>3131</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Zhang-2022-Climate">
+<mods ID="Terry-2022-Buffalo">
     <titleInfo>
-        <title>Climate change impacts on ice jam behavior in an inland delta: a new ice jam projection framework</title>
+        <title>Buffalo Pound Lake—Modelling Water Resource Management Scenarios of a Large Multi-Purpose Prairie Reservoir</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Fan</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="family">Terry</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="family">Elshamy</namePart>
+        <namePart type="given">John-Mark</namePart>
+        <namePart type="family">Davies</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,24 +32,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climatic Change, Volume 171, Issue 1-2</title>
+            <title>Water, Volume 14, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Zhang-2022-Climate</identifier>
-    <identifier type="doi">10.1007/s10584-022-03312-3</identifier>
+    <abstract>Water quality models are an emerging tool in water management to understand and inform decisions related to eutrophication. This study tested flow scenario effects on the water quality of Buffalo Pound Lake—a eutrophic reservoir supplying water for approximately 25% of Saskatchewan’s population. The model CE-QUAL-W2 was applied to assess the impact of inter-basin water diversion after the impounded lake received high inflows from local runoff. Three water diversion scenarios were tested: continuous flow, immediate release after nutrient loading increased, and a timed release initiated when water levels returned to normal operating range. Each scenario was tested at three different transfer flow rates. The transfers had a dilution effect but did not affect the timing of the nutrient peaks in the upstream portion of the lake. In the lake’s downstream section, nutrients peaked at similar concentrations as the base model, but peaks arrived earlier in the season and attenuated rapidly. Results showed greater variation among scenarios in wet years compared to dry years. Dependent on the timing and quantity of water transferred, some but not all water quality parameters are predicted to improve along with the water diversion flows over the period tested. The results suggest that it is optimal to transfer water while local watershed runoff is minimal.</abstract>
+    <identifier type="citekey">Terry-2022-Buffalo</identifier>
+    <identifier type="doi">10.3390/w14040584</identifier>
     <location>
         <url>https://aclanthology.org/G22-35001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>171</number></detail>
-        <detail type="issue"><number>1-2</number></detail>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>584</number></detail>
     </part>
 </mods>
 </modsCollection>

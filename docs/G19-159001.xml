@@ -1,59 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Shafii-2019-Can">
+<mods ID="Sheikholeslami-Razavi-2019-What-should">
     <titleInfo>
-        <title>Can Improved Flow Partitioning in Hydrologic Models Increase Biogeochemical Predictability?</title>
+        <title>What should we do when a model crashes? Recommendations for global sensitivity analysis of Earth and environmental systems models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mahyar</namePart>
-        <namePart type="family">Shafii</namePart>
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Craig</namePart>
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Merrin</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Macrae</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">English</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sherry</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Schiff</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Philippe</namePart>
-        <namePart type="family">Van Cappellen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nandita</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Basu</namePart>
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Haghnegahdar</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -65,27 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 55, Issue 4</title>
+            <title>Geoscientific Model Development, Volume 12, Issue 10</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Shafii-2019-Can</identifier>
-    <identifier type="doi">10.1029/2018wr024487</identifier>
+    <abstract>Abstract. Complex, software-intensive, technically advanced, and computationally demanding models, presumably with ever-growing realism and fidelity, have been widely used to simulate and predict the dynamics of the Earth and environmental systems. The parameter-induced simulation crash (failure) problem is typical across most of these models despite considerable efforts that modellers have directed at model development and implementation over the last few decades. A simulation failure mainly occurs due to the violation of numerical stability conditions, non-robust numerical implementations, or errors in programming. However, the existing sampling-based analysis techniques such as global sensitivity analysis (GSA) methods, which require running these models under many configurations of parameter values, are ill equipped to effectively deal with model failures. To tackle this problem, we propose a new approach that allows users to cope with failed designs (samples) when performing GSA without rerunning the entire experiment. This approach deems model crashes as missing data and uses strategies such as median substitution, single nearest-neighbor, or response surface modeling to fill in for model crashes. We test the proposed approach on a 10-parameter HBV-SASK (Hydrologiska Byråns Vattenbalansavdelning modified by the second author for educational purposes) rainfall–runoff model and a 111-parameter Modélisation Environmentale–Surface et Hydrologie (MESH) land surface–hydrology model. Our results show that response surface modeling is a superior strategy, out of the data-filling strategies tested, and can comply with the dimensionality of the model, sample size, and the ratio of the number of failures to the sample size. Further, we conduct a “failure analysis” and discuss some possible causes of the MESH model failure that can be used for future model improvement.</abstract>
+    <identifier type="citekey">Sheikholeslami-Razavi-2019-What-should</identifier>
+    <identifier type="doi">10.5194/gmd-12-4275-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-159001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>55</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>10</number></detail>
         <extent unit="page">
-            <start>2939</start>
-            <end>2960</end>
+            <start>4275</start>
+            <end>4296</end>
         </extent>
     </part>
 </mods>

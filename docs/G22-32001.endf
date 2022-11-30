@@ -1,17 +1,17 @@
 ﻿%0 Journal Article
-%T EM-Earth: The Ensemble Meteorological Dataset for Planet Earth
-%A Tang, Guoqiang
-%A Clark, Martyn P.
-%A Papalexiou, Simon Michael
-%J Bulletin of the American Meteorological Society, Volume 103, Issue 4
+%T Modelling of ice jam floods under past and future climates: A review
+%A Rokaya, Prabin
+%A Lindenschmidt, Karl-Erich
+%A Pietroniro, Alain
+%A Clark, Martyn
+%J Journal of Hydrology X, Volume 15
 %D 2022
-%V 103
-%N 4
-%I American Meteorological Society
-%F Tang-2022-EM-Earth:
-%X Abstract Gridded meteorological estimates are essential for many applications. Most existing meteorological datasets are deterministic and have limitations in representing the inherent uncertainties from both the data and methodology used to create gridded products. We develop the Ensemble Meteorological Dataset for Planet Earth (EM-Earth) for precipitation, mean daily temperature, daily temperature range, and dewpoint temperature at 0.1° spatial resolution over global land areas from 1950 to 2019. EM-Earth provides hourly/daily deterministic estimates, and daily probabilistic estimates (25 ensemble members), to meet the diverse requirements of hydrometeorological applications. To produce EM-Earth, we first developed a station-based Serially Complete Earth (SC-Earth) dataset, which removes the temporal discontinuities in raw station observations. Then, we optimally merged SC-Earth station data and ERA5 estimates to generate EM-Earth deterministic estimates and their uncertainties. The EM-Earth ensemble members are produced by sampling from parametric probability distributions using spatiotemporally correlated random fields. The EM-Earth dataset is evaluated by leave-one-out validation, using independent evaluation stations, and comparing it with many widely used datasets. The results show that EM-Earth is better in Europe, North America, and Oceania than in Africa, Asia, and South America, mainly due to differences in the available stations and differences in climate conditions. Probabilistic spatial meteorological datasets are particularly valuable in regions with large meteorological uncertainties, where almost all existing deterministic datasets face great challenges in obtaining accurate estimates.
-%R 10.1175/bams-d-21-0106.1
+%V 15
+%I Elsevier BV
+%F Rokaya-2022-Modelling
+%X \bullet The probable impacts of future climate on ice-jam floods are discussed. \bullet Practical suggestions for modelling ice-jam floods under both past and future climates are provided. \bullet Research opportunities that could lead to further improvements in ice-jam flood modelling and prediction are presented. Ice-jam floods (IJFs) are a key concern in cold-region environments, where seasonal effects of river ice formation and break-up can have substantial impacts on flooding processes. Different statistical, machine learning, and process-based models have been developed to simulate IJF events in order to improve our understanding of river ice processes, to quantify potential flood magnitudes and backwater levels, and to undertake risk analysis under a changing climate. Assessment of IJF risks under future climate is limited due to constraints related to model input data. However, given the broad economic and environmental significance of IJFs and their sensitivity to a changing climate, robust modelling frameworks that can incorporate future climatic changes, and produce reliable scenarios of future IJF risks are needed. In this review paper, we discuss the probable impacts of future climate on IJFs and provide suggestions on modelling IJFs under both past and future climates. We also make recommendations around existing approaches and highlight some data and research opportunities, that could lead to further improvements in IJF modelling and prediction.
+%R 10.1016/j.hydroa.2022.100120
 %U https://aclanthology.org/G22-32001
-%U https://doi.org/10.1175/bams-d-21-0106.1
-%P E996-E1018
+%U https://doi.org/10.1016/j.hydroa.2022.100120
+%P 100120
 

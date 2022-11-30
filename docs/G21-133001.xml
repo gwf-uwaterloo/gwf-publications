@@ -1,40 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Huo-2021-Reduction">
+<mods ID="Thompson-2021-Considerations">
     <titleInfo>
-        <title>Reduction in autumn precipitation over Southwest China by anthropogenic aerosol emissions from eastern China</title>
+        <title>Considerations for Ku-Band Radar Retrieval of Snow Water Equivalent at Mid-Latitude Ontario Agricultural Sites</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Huo</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Thompson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Zhihong</namePart>
-        <namePart type="family">Jiang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hongyun</namePart>
-        <namePart type="family">Ma</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhua</namePart>
-        <namePart type="family">Li</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yanping</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Kelly</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -46,25 +25,29 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Atmospheric Research, Volume 257</title>
+            <title>Canadian Journal of Remote Sensing, Volume 47, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Impacts of anthropogenic aerosols in China on autumn precipitation over Southwest China were investigated using version 5.1 of the Community Atmosphere Model. Simulations with and without anthropogenic aerosol emissions were compared to examine the effects of anthropogenic aerosols on surface air temperature and precipitation in East Asia. Our results show that the aerosol increase induces strong cooling over East Asia by aerosols’ direct effect on radiation and indirect effect on clouds. Substantial reductions in precipitation are found across eastern China, but the largest decrease is in Southwest China. Anthropogenic aerosols cause a considerable increase in the cloud condensation nuclei number concentration and a decline in the cloud droplet effective radius in East Asia. The reduced cloud droplet sizes suppress the formation of precipitation and increase cloud depth and liquid water path. Consequently, aerosols’ direct radiative effect as well as indirect effect on cloud depth and albedo significantly reduce the shortwave radiation for all sky between 20°and 40°N in China. More absorbing aerosols in the lower troposphere increase shortwave radiative heating, which possibly burns off low-level convective clouds and could cause significant reductions in condensational heating in the lower troposphere. The patterns of the shortwave heating increase and condensational heating reduction are generally consistent with significant reductions in the convective precipitation over China. We further investigated other factors governing precipitation and found moderate stability enhancement and moisture transport reductions in most of China, both of which partially contribute to a decrease in the convective precipitation in Southwest China. Aerosols’ direct and indirect effects reduce the amount of solar radiation reaching the surface and cool the surface and lower troposphere between 20° and 40°N, causing anomalous subsidence and reductions in the large-scale precipitation over central and eastern China. Both convective and large-scale precipitation are suppressed over Southwest China, leading to a significant decrease in total precipitation over this area. \bullet Aerosols induce strong cooling by their direct and indirect effects. \bullet The largest decrease in autumn precipitation is found over Southwest China. \bullet Absorbing aerosols increase shortwave heating, reducing low-level convective clouds. \bullet Aerosols’ cooling causes subsidence and large-scale precipitation reductions.</abstract>
-    <identifier type="citekey">Huo-2021-Reduction</identifier>
-    <identifier type="doi">10.1016/j.atmosres.2021.105627</identifier>
+    <abstract>Mid-latitude snow is understudied compared to snow in the northern high latitudes despite its importance as a source of freshwater to this economically significant region. The mid-latitudes provide...</abstract>
+    <identifier type="citekey">Thompson-2021-Considerations</identifier>
+    <identifier type="doi">10.1080/07038992.2021.1898938</identifier>
     <location>
         <url>https://aclanthology.org/G21-133001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>257</number></detail>
-        <detail type="page"><number>105627</number></detail>
+        <detail type="volume"><number>47</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>119</start>
+            <end>142</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

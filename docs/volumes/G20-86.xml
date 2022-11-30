@@ -1,56 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Han-2020-Subwatershed-based">
+<mods ID="Hasan-2020-Tracing">
     <titleInfo>
-        <title>Subwatershed-based lake and river routing products for hydrologic and land surface models applied over Canada</title>
+        <title>Tracing shapes with eyes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Ming</namePart>
-        <namePart type="family">Han</namePart>
+        <namePart type="given">Mohammad</namePart>
+        <namePart type="given">Rakib</namePart>
+        <namePart type="family">Hasan</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Juliane</namePart>
-        <namePart type="family">Mai</namePart>
+        <namePart type="given">Debajyoti</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Bryan</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Tolson</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Craig</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Étienne</namePart>
-        <namePart type="family">Gaborit</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hongli</namePart>
-        <namePart type="family">Liu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Konhee</namePart>
-        <namePart type="family">Lee</namePart>
+        <namePart type="given">Carl</namePart>
+        <namePart type="family">Gutwin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -62,28 +33,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Canadian Water Resources Journal / Revue canadienne des ressources hydriques, Volume 45, Issue 3</title>
+            <title>Proceedings of the 11th Augmented Human International Conference</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Informa UK Limited</publisher>
+            <publisher>ACM</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Han-2020-Subwatershed-based</identifier>
-    <identifier type="doi">10.1080/07011784.2020.1772116</identifier>
+    <identifier type="citekey">Hasan-2020-Tracing</identifier>
+    <identifier type="doi">10.1145/3396339.3396390</identifier>
     <location>
         <url>https://aclanthology.org/G20-86001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>45</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>237</start>
-            <end>251</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

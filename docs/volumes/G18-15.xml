@@ -1,27 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="BenAlaya-2018-Probable">
+<mods ID="Berg-2018-Contributions">
     <titleInfo>
-        <title>Probable Maximum Precipitation: Its Estimation and Uncertainty Quantification Using Bivariate Extreme Value Analysis</title>
+        <title>Contributions of Geophysical and C-Band SAR Data for Estimation of Field Scale Soil Moisture</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Ben Alaya</namePart>
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Mitchell</namePart>
+        <namePart type="family">Krafczek</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">X</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Clewley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Whitcomb</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ruzbeh</namePart>
+        <namePart type="family">Akbar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mahta</namePart>
+        <namePart type="family">Moghaddam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Heather</namePart>
+        <namePart type="family">McNarin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -33,28 +60,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrometeorology, Volume 19, Issue 4</title>
+            <title>IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ben Alaya-2018-Probable</identifier>
-    <identifier type="doi">10.1175/jhm-d-17-0110.1</identifier>
+    <identifier type="citekey">Berg-2018-Contributions</identifier>
+    <identifier type="doi">10.1109/igarss.2018.8517551</identifier>
     <location>
         <url>https://aclanthology.org/G18-15001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>19</number></detail>
-        <detail type="issue"><number>4</number></detail>
-        <extent unit="page">
-            <start>679</start>
-            <end>694</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,64 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sprenger-2018-Storage">
+<mods ID="Aksamit-2018-Scale">
     <titleInfo>
-        <title>Storage, mixing, and fluxes of water in the critical zone across northern environments inferred by stable isotopes of soil water</title>
+        <title>Scale Interactions in Turbulence for Mountain Blowing Snow</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matthias</namePart>
-        <namePart type="family">Sprenger</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="given">O</namePart>
+        <namePart type="family">Aksamit</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Doerthe</namePart>
-        <namePart type="family">Tetzlaff</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jim</namePart>
-        <namePart type="family">Buttle</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">McNamara</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hjalmar</namePart>
-        <namePart type="family">Laudon</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nadine</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Shatilla</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Soulsby</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -70,28 +27,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrological Processes, Volume 32, Issue 12</title>
+            <title>Journal of Hydrometeorology, Volume 19, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>We thank Audrey Innes for isotope analysis at University of Aberdeen for Bruntland Burn and Krycklan sites, Johannes Tiwari (SLU) for isotope sampling in Krycklan, Pernilla Lofvenius (SLU) for providing PET data for Krycklan (via SITES), and Jeff McDonnell and Kim Janzen (University of Saskatchewan) for soil water isotope analysis for the Dorset and Wolf Creek sites. The Krycklan part was funded by the KAW Branch-Point project. We acknowledge the funding from the European Research Council (ERC, project GA 335910 VeWa). We thank the Editor and three anonymous reviewers for their critical comments during the peer-review process.</abstract>
-    <identifier type="citekey">Sprenger-2018-Storage</identifier>
-    <identifier type="doi">10.1002/hyp.13135</identifier>
+    <abstract>Abstract Blowing snow particle transport responds to wind motions across many length and time scales. This coupling is nonlinear by nature and complicated in atmospheric flows where eddies of many sizes are superimposed. In mountainous terrain, wind flow descriptions are further complicated by topographically influenced or enhanced flows. To improve the current understanding and modeling of blowing snow transport in complex terrain, statistically significant timing and frequencies of wind–snow coupling were identified in high-frequency observations of surface blowing snow and near-surface turbulence from a mountain field site in the Canadian Rockies. Investigation of the mechanisms influencing near-surface, high-frequency turbulence and snow concentration fluctuations provided strong evidence for amplitude modulation from large-scale motions. The large-scale atmospheric motions modulating near-surface turbulence and snow transport were then compared to specific quadrant analysis structures recently identified as relevant for outdoor blowing snow transport. The results suggest that large atmospheric structures modulate the amplitude of high-frequency turbulence and modify turbulence statistics typically used to model blowing snow. Additionally, blowing snow was preferentially redistributed under the footprint of these same sweep motions, with both low- and high-frequency coherence increasing in their presence.</abstract>
+    <identifier type="citekey">Aksamit-2018-Scale</identifier>
+    <identifier type="doi">10.1175/jhm-d-17-0179.1</identifier>
     <location>
         <url>https://aclanthology.org/G18-6001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>32</number></detail>
-        <detail type="issue"><number>12</number></detail>
+        <detail type="volume"><number>19</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>1720</start>
-            <end>1737</end>
+            <start>305</start>
+            <end>320</end>
         </extent>
     </part>
 </mods>

@@ -1,70 +1,15 @@
 ﻿%0 Journal Article
-%T The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty
-%A Lawrence, David M.
-%A Fisher, Rosie A.
-%A Koven, Charles D.
-%A Oleson, Keith W.
-%A Swenson, Sean C.
-%A Bonan, Gordon
-%A Collier, Nathan
-%A Ghimire, Bardan
-%A van Kampenhout, Leo
-%A Kennedy, Daniel
-%A Kluzek, Erik
-%A Lawrence, Peter J.
-%A Li, Fang
-%A Li, Hongyi
-%A Lombardozzi, Danica
-%A Riley, William J.
-%A Sacks, William J.
-%A Shi, Mingjie
-%A Vertenstein, Mariana
-%A Wieder, William R.
-%A Xu, Chonggang
-%A Ali, Ashehad A.
-%A Badger, Andrew M.
-%A Bisht, Gautam
-%A van den Broeke, Michiel
-%A Brunke, Michael A.
-%A Burns, Sean P.
-%A Buzan, Jonathan
-%A Clark, Martyn
-%A Craig, Anthony
-%A Dahlin, Kyla
-%A Drewniak, Beth
-%A Fisher, Joshua B.
-%A Flanner, Mark
-%A Fox, Andrew M.
-%A Gentine, Pierre
-%A Hoffman, Forrest
-%A Keppel‐Aleks, Gretchen
-%A Knox, Ryan
-%A Kumar, Sanjiv
-%A Lenaerts, Jan
-%A Leung, L. Ruby
-%A Lipscomb, William H.
-%A Lu, Yaqiong
-%A Pandey, Ashutosh
-%A Pelletier, Jon D.
-%A Perket, Justin
-%A Randerson, James T.
-%A Ricciuto, Daniel M.
-%A Sanderson, Benjamin M.
-%A Slater, Andrew
-%A Subin, Zachary M.
-%A Tang, Jinyun
-%A Thomas, R. Quinn
-%A Val Martin, Maria
-%A Zeng, Xubin
-%J Journal of Advances in Modeling Earth Systems, Volume 11, Issue 12
+%T Simulation of Capillary Pressure Overshoot in Snow Combining Trapping of the Wetting Phase With a Nonequilibrium Richards Equation Model
+%A Leroux, Nicolas R.
+%A Pomeroy, John W.
+%J Water Resources Research, Volume 55, Issue 1
 %D 2019
-%V 11
-%N 12
+%V 55
+%N 1
 %I American Geophysical Union (AGU)
-%F Lawrence-2019-The
-%X The Community Land Model (CLM) is the land component of the Community Earth System Model (CESM) and is used in several global and regional modeling systems. In this paper, we introduce model developments included in CLM version 5 (CLM5), which is the default land component for CESM2. We assess an ensemble of simulations, including prescribed and prognostic vegetation state, multiple forcing data sets, and CLM4, CLM4.5, and CLM5, against a range of metrics including from the International Land Model Benchmarking (ILAMBv2) package. CLM5 includes new and updated processes and parameterizations: (1) dynamic land units, (2) updated parameterizations and structure for hydrology and snow (spatially explicit soil depth, dry surface layer, revised groundwater scheme, revised canopy interception and canopy snow processes, updated fresh snow density, simple firn model, and Model for Scale Adaptive River Transport), (3) plant hydraulics and hydraulic redistribution, (4) revised nitrogen cycling (flexible leaf stoichiometry, leaf N optimization for photosynthesis, and carbon costs for plant nitrogen uptake), (5) global crop model with six crop types and time‐evolving irrigated areas and fertilization rates, (6) updated urban building energy, (7) carbon isotopes, and (8) updated stomatal physiology. New optional features include demographically structured dynamic vegetation model (Functionally Assembled Terrestrial Ecosystem Simulator), ozone damage to plants, and fire trace gas emissions coupling to the atmosphere. Conclusive establishment of improvement or degradation of individual variables or metrics is challenged by forcing uncertainty, parametric uncertainty, and model structural complexity, but the multivariate metrics presented here suggest a general broad improvement from CLM4 to CLM5.
-%R 10.1029/2018ms001583
+%F Leroux-2019-Simulation
+%R 10.1029/2018wr022969
 %U https://aclanthology.org/G19-88001
-%U https://doi.org/10.1029/2018ms001583
-%P 4245-4287
+%U https://doi.org/10.1029/2018wr022969
+%P 236-248
 

@@ -1,37 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Marsh-2020-A">
+<mods ID="McCarter-2020-Pore-scale">
     <titleInfo>
-        <title>A Finite Volume Blowing Snow Model for Use With Variable Resolution Meshes</title>
+        <title>Pore-scale controls on hydrological and geochemical processes in peat: Implications on interacting processes</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Christopher</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Marsh</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">McCarter</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">John</namePart>
+        <namePart type="given">F</namePart>
+        <namePart type="family">Rezanezhad</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">W</namePart>
-        <namePart type="family">Pomeroy</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Quinton</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Raymond</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Gharedaghloo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">B</namePart>
+        <namePart type="family">Lennartz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
         <namePart type="given">J</namePart>
-        <namePart type="family">Spiteri</namePart>
+        <namePart type="family">Price</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Connon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Van Cappellen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -43,70 +70,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 56, Issue 2</title>
+            <title>Earth-Science Reviews, Volume 207</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Marsh-2020-A</identifier>
-    <identifier type="doi">10.1029/2019wr025307</identifier>
+    <identifier type="citekey">McCarter-2020-Pore-scale</identifier>
+    <identifier type="doi">10.1016/j.earscirev.2020.103227</identifier>
     <location>
         <url>https://aclanthology.org/G20-109001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>56</number></detail>
-        <detail type="issue"><number>2</number></detail>
-    </part>
-</mods>
-<mods ID="Papalexiou-2020-Random">
-    <titleInfo>
-        <title>Random Fields Simplified: Preserving Marginal Distributions, Correlations, and Intermittency, With Applications From Rainfall to Humidity</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Francesco</namePart>
-        <namePart type="family">Serinaldi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2020</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Water Resources Research, Volume 56, Issue 2</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Papalexiou-2020-Random</identifier>
-    <identifier type="doi">10.1029/2019wr026331</identifier>
-    <location>
-        <url>https://aclanthology.org/G20-109002</url>
-    </location>
-    <part>
-        <date>2020</date>
-        <detail type="volume"><number>56</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>207</number></detail>
+        <detail type="page"><number>103227</number></detail>
     </part>
 </mods>
 </modsCollection>

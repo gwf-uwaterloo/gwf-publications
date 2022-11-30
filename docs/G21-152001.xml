@@ -1,84 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chen-2021-Evaluation">
+<mods ID="Shook-2021-WDPM:">
     <titleInfo>
-        <title>Evaluation of Clumping Effects on the Estimation of Global Terrestrial Evapotranspiration</title>
+        <title>WDPM: the Wetland DEM Ponding Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Bin</namePart>
-        <namePart type="family">Chen</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Shook</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xuehe</namePart>
-        <namePart type="family">Lu</namePart>
+        <namePart type="given">Raymond</namePart>
+        <namePart type="family">Spiteri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Shaoqiang</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jing</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Chen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yang</namePart>
+        <namePart type="given">Tonghe</namePart>
         <namePart type="family">Liu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hongliang</namePart>
-        <namePart type="family">Fang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhenhai</namePart>
-        <namePart type="family">Liu</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Fei</namePart>
-        <namePart type="family">Jiang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Muhammad</namePart>
-        <namePart type="given">Altaf</namePart>
-        <namePart type="family">Arain</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jinghua</namePart>
-        <namePart type="family">Chen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Xiaobo</namePart>
-        <namePart type="family">Wang</namePart>
+        <namePart type="given">Oluwaseun</namePart>
+        <namePart type="family">Sharomi</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -90,26 +46,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 13, Issue 20</title>
+            <title>Journal of Open Source Software, Volume 6, Issue 64</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>The Open Journal</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>In terrestrial ecosystems, leaves are aggregated into different spatial structures and their spatial distribution is non-random. Clumping index (CI) is a key canopy structural parameter, characterizing the extent to which leaf deviates from the random distribution. To assess leaf clumping effects on global terrestrial ET, we used a global leaf area index (LAI) map and the latest version of global CI product derived from MODIS BRDF data as well as the Boreal Ecosystem Productivity Simulator (BEPS) to estimate global terrestrial ET. The results show that global terrestrial ET in 2015 was 511.9 \pm 70.1 mm yr−1 for Case I, where the true LAI and CI are used. Compared to this baseline case, (1) global terrestrial ET is overestimated by 4.7% for Case II where true LAI is used ignoring clumping; (2) global terrestrial ET is underestimated by 13.0% for Case III where effective LAI is used ignoring clumping. Among all plant functional types (PFTs), evergreen needleleaf forests were most affected by foliage clumping for ET estimation in Case II, because they are most clumped with the lowest CI. Deciduous broadleaf forests are affected by leaf clumping most in Case III because they have both high LAI and low CI compared to other PFTs. The leaf clumping effects on ET estimation in both Case II and Case III is robust to the errors in major input parameters. Thus, it is necessary to consider clumping effects in the simulation of global terrestrial ET, which has considerable implications for global water cycle research.</abstract>
-    <identifier type="citekey">Chen-2021-Evaluation</identifier>
-    <identifier type="doi">10.3390/rs13204075</identifier>
+    <identifier type="citekey">Shook-2021-WDPM:</identifier>
+    <identifier type="doi">10.21105/joss.02276</identifier>
     <location>
         <url>https://aclanthology.org/G21-152001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>13</number></detail>
-        <detail type="issue"><number>20</number></detail>
-        <detail type="page"><number>4075</number></detail>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>64</number></detail>
+        <detail type="page"><number>2276</number></detail>
     </part>
 </mods>
 </modsCollection>

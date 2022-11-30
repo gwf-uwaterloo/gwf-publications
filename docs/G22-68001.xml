@@ -1,13 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Satar-AlDavdi-2022-Investigation">
+<mods ID="Murfitt-2022-Investigating">
     <titleInfo>
-        <title>Investigation of the effect of sucrose substitution with Stevia on the structure, physicochemical and sensory properties of ice cream</title>
+        <title>Investigating the Effect of Lake Ice Properties on Multifrequency Backscatter Using the Snow Microwave Radiative Transfer Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Khanda</namePart>
-        <namePart type="given">Sirwan</namePart>
-        <namePart type="family">Satar-AlDavdi</namePart>
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ghislain</namePart>
+        <namePart type="family">Picard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grant</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Gunn</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -19,28 +41,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Halabja University Journal, Volume 7, Issue 2</title>
+            <title>IEEE Transactions on Geoscience and Remote Sensing, Volume 60</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>University of Halabja</publisher>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>&amp;#x0D; Abstract:&amp;#x0D; Consumption of milk and its products is considered as one of the indicators of human societies’ development. Ice cream as one of the most popular milk products around the world has many fans but due to its high amount of sucrose has negative effects on health. Stevia, a natural sweetener, was used as a sucrose substitute at 0-100% replacement levels in ice cream formulation. To investigate the treatments produced, physicochemical properties in ice cream including specific gravity, viscosity, melting time of the first drop, melting amount, overrun. The results showed that viscosity decreased by 100% by increasing the amount of stevia replacement. While overrun, Firmness, melting time of the first drop and consequently the melting stability of the samples increased with increasing the percentage of stevia used, Sensory test results showed that there was no significant difference between stevia and control samples except cold sensation and ice crystal. As a general result, stevia sweetener is a suitable substitute for sugar and samples containing 100-75% stevia were identified as desirable treatment.</abstract>
-    <identifier type="citekey">Satar-AlDavdi-2022-Investigation</identifier>
-    <identifier type="doi">10.32410/huj-10417</identifier>
+    <abstract>Recent investigations using polarimetric decomposition and numerical models have helped to improve understanding of how radar signals interact with lake ice. However, further research is needed on how radar signals are impacted by varying lake ice properties. Radiative transfer models provide one method of improving this understanding. These are the first published experiments using the Snow Microwave Radiative Transfer (SMRT) model to investigate the response of different imaging SAR frequencies (L, C, and X-band) at HH and VV polarizations using various incidence angles (20&amp;#x00B0;, 30&amp;#x00B0;, and 40&amp;#x00B0;) to changes in ice thickness, porosity, bubble radius, and ice-water interface roughness. This is also the first use of SMRT in combination with a thermodynamic lake ice model. Experiments were for a lake with tubular bubbles and one without tubular bubbles under difference scenarios. Analysis of the backscatter response to different properties indicate that increasing ice thickness and layer porosity have little impact on backscatter from lake ice. X-band backscatter shows increased response to surface ice layer bubble radius; however, this was limited for other frequencies except at shallower incidence angles (40&amp;#x00B0;). All three frequencies display the largest response to increasing RMS height at the ice-water interface, which supports surface scattering at the ice-water interface as being the dominant scattering mechanism. These results demonstrate that SMRT is a valuable tool for understanding the response of SAR data to changes in freshwater lake ice properties and could be used in the development of inversion models.</abstract>
+    <identifier type="citekey">Murfitt-2022-Investigating</identifier>
+    <identifier type="doi">10.1109/tgrs.2022.3197109</identifier>
     <location>
         <url>https://aclanthology.org/G22-68001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>7</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>60</number></detail>
         <extent unit="page">
-            <start>198</start>
-            <end>208</end>
+            <start>1</start>
+            <end>23</end>
         </extent>
     </part>
 </mods>

@@ -1,29 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Paul-2020-Spatial">
+<mods ID="Ratelle-2020-Human">
     <titleInfo>
-        <title>Spatial and stratigraphic variation of near‐surface ground ice in discontinuous permafrost of the taiga shield</title>
+        <title>Human biomonitoring of metals in sub-Arctic Dene communities of the Northwest Territories, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Jason</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Paul</namePart>
+        <namePart type="given">Mylene</namePart>
+        <namePart type="family">Ratelle</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Steven</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Kokelj</namePart>
+        <namePart type="given">Sara</namePart>
+        <namePart type="family">Packull-McCormick</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jennifer</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Baltzer</namePart>
+        <namePart type="given">Michele</namePart>
+        <namePart type="family">Bouchard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shannon</namePart>
+        <namePart type="family">Majowicz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Laird</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -35,28 +46,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Permafrost and Periglacial Processes, Volume 32, Issue 1</title>
+            <title>Environmental Research, Volume 190</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Paul-2020-Spatial</identifier>
-    <identifier type="doi">10.1002/ppp.2085</identifier>
+    <identifier type="citekey">Ratelle-2020-Human</identifier>
+    <identifier type="doi">10.1016/j.envres.2020.110008</identifier>
     <location>
         <url>https://aclanthology.org/G20-122001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>32</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>3</start>
-            <end>18</end>
-        </extent>
+        <detail type="volume"><number>190</number></detail>
+        <detail type="page"><number>110008</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,36 +1,82 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Dixon-2020-Reproductive">
+<mods ID="Emery-2020-Underlying">
     <titleInfo>
-        <title>Reproductive status of walleye (Sander vitreus) and lake whitefish (Coregonus clupeaformis) in two large, shallow Canadian subarctic lakes</title>
+        <title>Underlying Fundamentals of Kalman Filtering for River Network Modeling</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Heather</namePart>
+        <namePart type="given">Charlotte</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Emery</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cédric</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">David</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Konstantinos</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Andreadis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">Dixon</namePart>
+        <namePart type="family">Turmon</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Grant</namePart>
-        <namePart type="family">Harrison</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Reager</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andrea</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Lister</namePart>
+        <namePart type="given">Jonathan</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hobbs</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Deborah</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">MacLatchy</namePart>
+        <namePart type="given">Ming</namePart>
+        <namePart type="family">Pan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Famiglietti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Edward</namePart>
+        <namePart type="family">Beighley</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="family">Rodell</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -42,27 +88,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Biology of Fishes, Volume 103, Issue 9</title>
+            <title>Journal of Hydrometeorology, Volume 21, Issue 3</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Dixon-2020-Reproductive</identifier>
-    <identifier type="doi">10.1007/s10641-020-01010-6</identifier>
+    <identifier type="citekey">Emery-2020-Underlying</identifier>
+    <identifier type="doi">10.1175/jhm-d-19-0084.1</identifier>
     <location>
         <url>https://aclanthology.org/G20-73001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>103</number></detail>
-        <detail type="issue"><number>9</number></detail>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>3</number></detail>
         <extent unit="page">
-            <start>1119</start>
-            <end>1136</end>
+            <start>453</start>
+            <end>474</end>
         </extent>
     </part>
 </mods>

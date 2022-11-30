@@ -1,42 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Osborne-2019-Suppression">
+<mods ID="Parmentier-2019-Is">
     <titleInfo>
-        <title>Suppression of Biofouling on a Permeable Membrane for Dissolved Oxygen Sensing Using a Lubricant-Infused Coating</title>
+        <title>Is the Northern Permafrost Zone a Source or a Sink for Carbon?</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matthew</namePart>
-        <namePart type="family">Osborne</namePart>
+        <namePart type="given">Frans-Jan</namePart>
+        <namePart type="family">Parmentier</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Aditya</namePart>
-        <namePart type="family">Aryasomayajula</namePart>
+        <namePart type="given">Oliver</namePart>
+        <namePart type="family">Sonnentag</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amid</namePart>
-        <namePart type="family">Shakeri</namePart>
+        <namePart type="given">Marguerite</namePart>
+        <namePart type="family">Mauritz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Ponnambalam</namePart>
-        <namePart type="given">Ravi</namePart>
-        <namePart type="family">Selvaganapathy</namePart>
+        <namePart type="given">Anna-Maria</namePart>
+        <namePart type="family">Virkkala</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Tohid</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Didar</namePart>
+        <namePart type="given">Edward</namePart>
+        <namePart type="family">Schuur</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -48,29 +46,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>ACS Sensors, Volume 4, Issue 3</title>
+            <title>Eos, Volume 100</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Chemical Society (ACS)</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Specific ranges of dissolved oxygen (DO) concentrations must be maintained in a waterbody for it to be hospitable for aquatic animals. DO sensor designs can employ selectively permeable membranes to isolate DO from untargeted compounds or organisms in waterbodies. Hence, the DO concentration can be monitored and the health of the water can be evaluated over time. However, the presence of bacteria in natural waterbodies can lead to the formation of biofilms that can block pores and prevent analyte from permeating the membrane, resulting in inaccurate readings. In this work, we demonstrate the implementation of a fluorosilane-based omniphobic lubricant-infused (OLI) coating on a selectively permeable membrane and investigate the rate of biofilm formation for a commercially available DO sensor. Coated and unmodified membranes were incubated in an environment undergoing accelerated bacterial growth, and the change in sensitivity was evaluated after 40, 100, 250, and 500 h. Our findings show that the OLI membranes attenuate biofouling by 70% and maintain sensitivity after 3 weeks of incubation, further demonstrating that oxygen transfer through the OLI coating is achievable. Meanwhile, unmodified membranes exhibit significant biofouling that results in a 3.35 higher rate of decay in oxygen measurement sensitivity and an over 70% decrease in static contact angle. These results show that the OLI coating can be applied on commercially available membranes to prevent biofouling. Therefore, OLI coatings are a suitable candidate to suppress biofilm formation in the widespread use of selectively permeable membranes for environmental, medical, and fluid separation applications.</abstract>
-    <identifier type="citekey">Osborne-2019-Suppression</identifier>
-    <identifier type="doi">10.1021/acssensors.8b01541</identifier>
+    <abstract>Thawing permafrost could release large amounts of carbon into the atmosphere, but finding out how much requires better collection and curation of data.</abstract>
+    <identifier type="citekey">Parmentier-2019-Is</identifier>
+    <identifier type="doi">10.1029/2019eo130507</identifier>
     <location>
         <url>https://aclanthology.org/G19-137001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>4</number></detail>
-        <detail type="issue"><number>3</number></detail>
-        <extent unit="page">
-            <start>687</start>
-            <end>693</end>
-        </extent>
+        <detail type="volume"><number>100</number></detail>
     </part>
 </mods>
 </modsCollection>

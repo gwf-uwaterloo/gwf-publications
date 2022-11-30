@@ -1,33 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Pan-2019-Improving">
+<mods ID="Neapetung-2019-“Spirit">
     <titleInfo>
-        <title>Improving Precipitation Estimation Using Convolutional Neural Network</title>
+        <title>“Spirit, Safety, and a Stand-off ”: The Research-Creation Process and Its Roles in Relationality and Reconciliation among Researcher and Indigenous Co-Learners in Saskatchewan, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Baoxiang</namePart>
-        <namePart type="family">Pan</namePart>
+        <namePart type="given">Myron</namePart>
+        <namePart type="family">Neapetung</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Kuolin</namePart>
-        <namePart type="family">Hsu</namePart>
+        <namePart type="given">Lori</namePart>
+        <namePart type="family">Bradford</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amir</namePart>
-        <namePart type="family">AghaKouchak</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Soroosh</namePart>
-        <namePart type="family">Sorooshian</namePart>
+        <namePart type="given">Lalita</namePart>
+        <namePart type="family">Bharadwaj</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +32,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 55, Issue 3</title>
+            <title>Engaged Scholar Journal: Community-Engaged Research, Teaching, and Learning, Volume 5, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Engaged Scholar Journal</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Author(s): Pan, B; Hsu, K; AghaKouchak, A; Sorooshian, S | Abstract: Precipitation process is generally considered to be poorly represented in numerical weather/climate models. Statistical downscaling (SD) methods, which relate precipitation with model resolved dynamics, often provide more accurate precipitation estimates compared to model’s raw precipitation products. We introduce the convolutional neural network model to foster this aspect of SD for daily precipitation prediction. Specifically, we restrict the predictors to the variables that are directly resolved by discretizing the atmospheric dynamics equations. In this sense, our model works as an alternative to the existing precipitation-related parameterization schemes for numerical precipitation estimation. We train the model to learn precipitation-related dynamical features from the surrounding dynamical fields by optimizing a hierarchical set of spatial convolution kernels. We test the model at 14 geogrid points across the contiguous United States. Results show that provided with enough data, precipitation estimates from the convolutional neural network model outperform the reanalysis precipitation products, as well as SD products using linear regression, nearest neighbor, random forest, or fully connected deep neural network. Evaluation for the test set suggests that the improvements can be seamlessly transferred to numerical weather modeling for improving precipitation prediction. Based on the default network, we examine the impact of the network architectures on model performance. Also, we offer simple visualization and analyzing approaches to interpret the models and their results. Our study contributes to the following two aspects: First, we offer a novel approach to enhance numerical precipitation estimation; second, the proposed model provides important implications for improving precipitation-related parameterization schemes using a data-driven approach.</abstract>
-    <identifier type="citekey">Pan-2019-Improving</identifier>
-    <identifier type="doi">10.1029/2018wr024090</identifier>
+    <abstract>Provision of safe water on reserves is an ongoing problem in Canada that can be addressed by mobilizing water knowledge across diverse platforms to a variety of audiences. A participatory artistic animation video on the lived experiences of Elderswith water in Yellow Quill First Nation, Treaty Four territory, was created to mobilize knowledge beyond conventional peer-review channels. Research findings from interviews with 22 Elders were translated through a collaborative process into a video with a storytelling format that harmonized narratives, visual arts, music, and meaningful symbols. Three themes emerged which centered on the spirituality of water, the survival need for water, and standoffs in water management. The translation process, engagement and video output were evaluated using an autoethnographic approach with two members of the research team. We demonstrate how the collaborative research process and co-created video enhance community-based participatory knowledge translation and sharing. We also express how the video augments First Nations community ownership, control, access and possession (OCAP) of research information that aligns with their storytelling traditions and does so in a youth-friendly, e-compatible form. Through the evaluative process we share lessons learned about the value and effectiveness of the video as a tool for fostering partnerships, and reconciliation. The benefits and positive impacts of the video for the Yellow Quill community and for community members are discussed.</abstract>
+    <identifier type="citekey">Neapetung-2019-“Spirit</identifier>
+    <identifier type="doi">10.15402/esj.v5i2.68334</identifier>
     <location>
         <url>https://aclanthology.org/G19-4001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>55</number></detail>
-        <detail type="issue"><number>3</number></detail>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>2</number></detail>
         <extent unit="page">
-            <start>2301</start>
-            <end>2321</end>
+            <start>37</start>
+            <end>60</end>
         </extent>
     </part>
 </mods>

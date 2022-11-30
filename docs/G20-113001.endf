@@ -1,20 +1,16 @@
 ﻿%0 Journal Article
-%T Near-0 °C surface temperature and precipitation type patterns across Canada
-%A Mekis, Eva
-%A Stewart, Ronald E.
-%A Theriault, Julie M.
-%A Kochtubajda, Bohdan
-%A Bonsal, Barrie R.
-%A Liu, Zhuo
-%J Hydrology and Earth System Sciences, Volume 24, Issue 4
+%T A survey on clone refactoring and tracking
+%A Mondal, Manishankar
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J Journal of Systems and Software, Volume 159
 %D 2020
-%V 24
-%N 4
-%I Copernicus GmbH
-%F Mekis-2020-Near-0
-%X Abstract. The 0 ∘C temperature threshold is critical for many meteorological and hydrological processes driven by melting and freezing in the atmosphere, surface, and sub-surface and by the associated precipitation varying between rain, freezing rain, wet snow, and snow. This threshold is especially important in cold regions such as Canada, because it is linked with freeze–thaw, snowmelt, and permafrost. This study develops a Canada-wide perspective on near-0 ∘C conditions using hourly surface temperature and precipitation type observations from 92 climate stations for the period from 1981 to 2011. In addition, nine stations from various climatic regions are selected for further analysis. Near-0 ∘C conditions are defined as periods when the surface temperature is between −2 and 2 ∘C. Near-0 ∘C conditions occur often across all regions of the country, although the annual number of days and hours and the duration of these events varies dramatically. Various types of precipitation (e.g., rain, freezing rain, wet snow, and ice pellets) sometimes occur with these temperatures. Near-0 ∘C conditions and the reported precipitation type occurrences tend to be higher in Atlantic Canada, although high values also occur in other regions. Trends of most temperature-based and precipitation-based indicators show little or no change despite a systematic warming in annual surface temperatures over Canada. Over the annual cycle, near-0 ∘C temperatures and precipitation often exhibit a pattern: short durations occur around summer, driven by the diurnal cycle, and a tendency toward longer durations around winter, associated with storms. There is also a tendency for near-0 ∘C surface temperatures to occur more often than expected relative to other temperature windows at some stations due, at least in part, to diabatic cooling and heating that take place with melting and freezing, respectively, in the atmosphere and at the surface.
-%R 10.5194/hess-24-1741-2020
+%V 159
+%I Elsevier BV
+%F Mondal-2020-A
+%X Abstract Code clones, identical or nearly similar code fragments in a software system’s code-base, have mixed impacts on software evolution and maintenance. Focusing on the issues of clones researchers suggest managing them through refactoring, and tracking. In this paper we present a survey on the state-of-the-art of clone refactoring and tracking techniques, and identify future research possibilities in these areas. We define the quality assessment features for the clone refactoring and tracking tools, and make a comparison among these tools considering these features. To the best of our knowledge, our survey is the first comprehensive study on clone refactoring and tracking. According to our survey on clone refactoring we realize that automatic refactoring cannot eradicate the necessity of manual effort regarding finding refactoring opportunities, and post refactoring testing of system behaviour. Post refactoring testing can require a significant amount of time and effort from the quality assurance engineers. There is a marked lack of research on the effect of clone refactoring on system performance. Future investigations in this direction will add much value to clone refactoring research. We also feel the necessity of future research towards real-time detection, and tracking of code clones in a big-data environment.
+%R 10.1016/j.jss.2019.110429
 %U https://aclanthology.org/G20-113001
-%U https://doi.org/10.5194/hess-24-1741-2020
-%P 1741-1761
+%U https://doi.org/10.1016/j.jss.2019.110429
+%P 110429
 

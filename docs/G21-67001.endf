@@ -1,21 +1,20 @@
 ﻿%0 Journal Article
-%T EMDNA: an Ensemble Meteorological Dataset for North America
-%A Tang, Guoqiang
-%A Clark, Martyn P.
-%A Papalexiou, Simon Michael
+%T Identifying sensitivities in flood frequency analyses using a stochastic hydrologic modeling system
 %A Newman, Andrew J.
-%A Wood, Andrew W.
-%A Brunet, Dominique
-%A Whitfield, Paul H.
-%J Earth System Science Data, Volume 13, Issue 7
+%A Stone, Amanda G.
+%A Saharia, Manabendra
+%A Holman, Kathleen D.
+%A Addor, Nans
+%A Clark, Martyn P.
+%J Hydrology and Earth System Sciences, Volume 25, Issue 10
 %D 2021
-%V 13
-%N 7
+%V 25
+%N 10
 %I Copernicus GmbH
-%F Tang-2021-EMDNA:
-%X Abstract. Probabilistic methods are useful to estimate the uncertainty in spatial meteorological fields (e.g., the uncertainty in spatial patterns of precipitation and temperature across large domains). In ensemble probabilistic methods, “equally plausible” ensemble members are used to approximate the probability distribution, hence the uncertainty, of a spatially distributed meteorological variable conditioned to the available information. The ensemble members can be used to evaluate the impact of uncertainties in spatial meteorological fields for a myriad of applications. This study develops the Ensemble Meteorological Dataset for North America (EMDNA). EMDNA has 100 ensemble members with daily precipitation amount, mean daily temperature, and daily temperature range at 0.1∘ spatial resolution (approx. 10 km grids) from 1979 to 2018, derived from a fusion of station observations and reanalysis model outputs. The station data used in EMDNA are from a serially complete dataset for North America (SCDNA) that fills gaps in precipitation and temperature measurements using multiple strategies. Outputs from three reanalysis products are regridded, corrected, and merged using Bayesian model averaging. Optimal interpolation (OI) is used to merge station- and reanalysis-based estimates. EMDNA estimates are generated using spatiotemporally correlated random fields to sample from the OI estimates. Evaluation results show that (1) the merged reanalysis estimates outperform raw reanalysis estimates, particularly in high latitudes and mountainous regions; (2) the OI estimates are more accurate than the reanalysis and station-based regression estimates, with the most notable improvements for precipitation evident in sparsely gauged regions; and (3) EMDNA estimates exhibit good performance according to the diagrams and metrics used for probabilistic evaluation. We discuss the limitations of the current framework and highlight that further research is needed to improve ensemble meteorological datasets. Overall, EMDNA is expected to be useful for hydrological and meteorological applications in North America. The entire dataset and a teaser dataset (a small subset of EMDNA for easy download and preview) are available at https://doi.org/10.20383/101.0275 (Tang et al., 2020a).
-%R 10.5194/essd-13-3337-2021
+%F Newman-2021-Identifying
+%X Abstract. This study employs a stochastic hydrologic modeling framework to evaluate the sensitivity of flood frequency analyses to different components of the hydrologic modeling chain. The major components of the stochastic hydrologic modeling chain, including model structure, model parameter estimation, initial conditions, and precipitation inputs were examined across return periods from 2 to 100 000 years at two watersheds representing different hydroclimates across the western USA. A total of 10 hydrologic model structures were configured, calibrated, and run within the Framework for Understanding Structural Errors (FUSE) modular modeling framework for each of the two watersheds. Model parameters and initial conditions were derived from long-term calibrated simulations using a 100 member historical meteorology ensemble. A stochastic event-based hydrologic modeling workflow was developed using the calibrated models in which millions of flood event simulations were performed for each basin. The analysis of variance method was then used to quantify the relative contributions of model structure, model parameters, initial conditions, and precipitation inputs to flood magnitudes for different return periods. Results demonstrate that different components of the modeling chain have different sensitivities for different return periods. Precipitation inputs contribute most to the variance of rare floods, while initial conditions are most influential for more frequent events. However, the hydrological model structure and structure–parameter interactions together play an equally important role in specific cases, depending on the basin characteristics and type of flood metric of interest. This study highlights the importance of critically assessing model underpinnings, understanding flood generation processes, and selecting appropriate hydrological models that are consistent with our understanding of flood generation processes.
+%R 10.5194/hess-25-5603-2021
 %U https://aclanthology.org/G21-67001
-%U https://doi.org/10.5194/essd-13-3337-2021
-%P 3337-3362
+%U https://doi.org/10.5194/hess-25-5603-2021
+%P 5603-5621
 

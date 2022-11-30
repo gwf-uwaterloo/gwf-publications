@@ -1,57 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Elshamy-2020-On">
+<mods ID="Fowler-2020-Many">
     <titleInfo>
-        <title>On the configuration and initialization of a large-scale hydrological land surface model to represent permafrost</title>
+        <title>Many Commonly Used Rainfall‐Runoff Models Lack Long, Slow Dynamics: Implications for Runoff Projections</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="given">E</namePart>
-        <namePart type="family">Elshamy</namePart>
+        <namePart type="given">Keirnan</namePart>
+        <namePart type="family">Fowler</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Daniel</namePart>
-        <namePart type="family">Princz</namePart>
+        <namePart type="given">Wouter</namePart>
+        <namePart type="family">Knoben</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Gonzalo</namePart>
-        <namePart type="family">Sapriza-Azuri</namePart>
+        <namePart type="given">Murray</namePart>
+        <namePart type="family">Peel</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mohamed</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Abdelhamed</namePart>
+        <namePart type="given">Tim</namePart>
+        <namePart type="family">Peterson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Al</namePart>
-        <namePart type="family">Pietroniro</namePart>
+        <namePart type="given">Dongryeol</namePart>
+        <namePart type="family">Ryu</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Howard</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Wheater</namePart>
+        <namePart type="given">Margarita</namePart>
+        <namePart type="family">Saft</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">Ki‐Weon</namePart>
+        <namePart type="family">Seo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Western</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -63,29 +67,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 24, Issue 1</title>
+            <title>Water Resources Research, Volume 56, Issue 5</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract. Permafrost is an important feature of cold-region hydrology, particularly in river basins such as the Mackenzie River basin (MRB), and it needs to be properly represented in hydrological and land surface models (H-LSMs) built into existing Earth system models (ESMs), especially under the unprecedented climate warming trends that have been observed. Higher rates of warming have been reported in high latitudes compared to the global average, resulting in permafrost thaw with wide-ranging implications for hydrology and feedbacks to climate. The current generation of H-LSMs is being improved to simulate permafrost dynamics by allowing deep soil profiles and incorporating organic soils explicitly. Deeper soil profiles have larger hydraulic and thermal memories that require more effort to initialize. This study aims to devise a robust, yet computationally efficient, initialization and parameterization approach applicable to regions where data are scarce and simulations typically require large computational resources. The study further demonstrates an upscaling approach to inform large-scale ESM simulations based on the insights gained by modelling at small scales. We used permafrost observations from three sites along the Mackenzie River valley spanning different permafrost classes to test the validity of the approach. Results show generally good performance in reproducing present-climate permafrost properties at the three sites. The results also emphasize the sensitivity of the simulations to the soil layering scheme used, the depth to bedrock, and the organic soil properties.</abstract>
-    <identifier type="citekey">Elshamy-2020-On</identifier>
-    <identifier type="doi">10.5194/hess-24-349-2020</identifier>
+    <abstract>Evidence suggests that catchment state variables such as groundwater can exhibit multiyear trends. This means that their state may reflect not only recent climatic conditions but also climatic conditions in past years or even decades. Here we demonstrate that five commonly used conceptual “bucket” rainfall‐runoff models are unable to replicate multiyear trends exhibited by natural systems during the “Millennium Drought” in south‐east Australia. This causes an inability to extrapolate to different climatic conditions, leading to poor performance in split sample tests. Simulations are examined from five models applied in 38 catchments, then compared with groundwater data from 19 bores and Gravity Recovery and Climate Experiment data for two geographic regions. Whereas the groundwater and Gravity Recovery and Climate Experiment data decrease from high to low values gradually over the duration of the 13‐year drought, the model storages go from high to low values in a typical seasonal cycle. This is particularly the case in the drier, flatter catchments. Once the drought begins, there is little room for decline in the simulated storage, because the model “buckets” are already “emptying” on a seasonal basis. Since the effects of sustained dry conditions cannot accumulate within these models, we argue that they should not be used for runoff projections in a drying climate. Further research is required to (a) improve conceptual rainfall‐runoff models, (b) better understand circumstances in which multiyear trends in state variables occur, and (c) investigate links between these multiyear trends and changes in rainfall‐runoff relationships in the context of a changing climate.</abstract>
+    <identifier type="citekey">Fowler-2020-Many</identifier>
+    <identifier type="doi">10.1029/2019wr025286</identifier>
     <location>
         <url>https://aclanthology.org/G20-75001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>24</number></detail>
-        <detail type="issue"><number>1</number></detail>
-        <extent unit="page">
-            <start>349</start>
-            <end>379</end>
-        </extent>
+        <detail type="volume"><number>56</number></detail>
+        <detail type="issue"><number>5</number></detail>
     </part>
 </mods>
 </modsCollection>

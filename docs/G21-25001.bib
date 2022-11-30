@@ -1,18 +1,14 @@
-@article{Clark-2021-The,
-    title = "The numerical implementation of land models: Problem formulation and laugh tests",
-    author = "Clark, Martyn P.  and
-      Zolfaghari, Reza  and
-      Green, Kevin R.  and
-      Trim, Sean  and
-      Knoben, Wouter J. M.  and
-      Bennett, Andrew  and
-      Nijssen, Bart  and
-      Ireson, Andrew  and
-      Spiteri, Raymond J.",
-    journal = "Journal of Hydrometeorology",
+@article{Nath-2021-Automatically,
+    title = "Automatically Generating Release Notes with Content Classification Models",
+    author = "Nath, Sristy Sumana  and
+      Roy, Banani",
+    journal = "International Journal of Software Engineering and Knowledge Engineering, Volume 31, Issue 11n12",
+    volume = "31",
+    number = "11",
     year = "2021",
-    publisher = "American Meteorological Society",
+    publisher = "World Scientific Pub Co Pte Ltd",
     url = "https://aclanthology.org/G21-25001",
-    doi = "10.1175/jhm-d-20-0175.1",
-    abstract = "Abstract The intent of this paper is to encourage improved numerical implementation of land models. Our contributions in this paper are two-fold. First, we present a unified framework to formulate and implement land model equations. We separate the representation of physical processes from their numerical solution, enabling the use of established robust numerical methods to solve the model equations. Second, we introduce a set of synthetic test cases (the laugh tests) to evaluate the numerical implementation of land models. The test cases include storage and transmission of water in soils, lateral sub-surface flow, coupled hydrological and thermodynamic processes in snow, and cryosuction processes in soil. We consider synthetic test cases as {``}laugh tests{''} for land models because they provide the most rudimentary test of model capabilities. The laugh tests presented in this paper are all solved with the Structure for Unifying Multiple Modeling Alternatives model (SUMMA) implemented using the SUite of Nonlinear and DIfferential/Algebraic equation Solvers (SUNDIALS). The numerical simulations from SUMMA/SUNDIALS are compared against (1) solutions to the synthetic test cases from other models documented in the peer-reviewed literature; (2) analytical solutions; and (3) observations made in laboratory experiments. In all cases, the numerical simulations are similar to the benchmarks, building confidence in the numerical model implementation. We posit that some land models may have difficulty in solving these benchmark problems. Dedicating more effort to solving synthetic test cases is critical in order to build confidence in the numerical implementation of land models.",
+    doi = "10.1142/s0218194021400192",
+    pages = "1721--1740",
+    abstract = "Release notes are admitted as an essential technical document in software maintenance. They summarize the main changes, e.g. bug fixes and new features, that have happened in the software since the previous release. Manually producing release notes is a time-consuming and challenging task. For that reason, sometimes developers neglect to write release notes. For example, we collect data from GitHub with over 1900 releases, and among them, 37{\%} of the release notes are empty. To mitigate this problem, we propose an automatic release notes generation approach by applying the text summarization techniques, i.e. TextRank. To improve the keyword extraction method of traditional TextRank, we integrate the GloVe word embedding technique with TextRank. After generating release notes automatically, we apply machine learning algorithms to classify the release note contents (or sentences). We classify the contents into six categories, e.g. bug fixes and performance improvements, to represent the release notes better for users. We use the evaluation metric, e.g. ROUGE, to evaluate the automatically generated release notes. We also compare the performance of our technique with two popular extractive algorithms, e.g. Luhn{'}s and latent semantic analysis (LSA). Our evaluation results show that the improved TextRank method outperforms the two algorithms.",
 }

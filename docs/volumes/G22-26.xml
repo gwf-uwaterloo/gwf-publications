@@ -1,26 +1,36 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Budhathoki-2022-Impacts">
+<mods ID="Grace-2022-Numerical">
     <titleInfo>
-        <title>Impacts of future climate on the hydrology of a transboundary river basin in northeastern North America</title>
+        <title>Numerical simulations of the three-dimensionalization of a shear flow in radiatively forced cold water below the density maximum</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sujata</namePart>
-        <namePart type="family">Budhathoki</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Grace</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Prabin</namePart>
-        <namePart type="family">Rokaya</namePart>
+        <namePart type="given">Marek</namePart>
+        <namePart type="family">Stastna</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Lamb</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -32,71 +42,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrology, Volume 605</title>
+            <title>Physical Review Fluids, Volume 7, Issue 2</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Physical Society (APS)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Budhathoki-2022-Impacts</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.127317</identifier>
+    <identifier type="citekey">Grace-2022-Numerical</identifier>
+    <identifier type="doi">10.1103/physrevfluids.7.023501</identifier>
     <location>
         <url>https://aclanthology.org/G22-26001</url>
     </location>
     <part>
         <date>2022</date>
-        <detail type="volume"><number>605</number></detail>
-        <detail type="page"><number>127317</number></detail>
-    </part>
-</mods>
-<mods ID="Nerantzaki-2022-Assessing">
-    <titleInfo>
-        <title>Assessing extremes in hydroclimatology: A review on probabilistic methods</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Sofia</namePart>
-        <namePart type="given">D</namePart>
-        <namePart type="family">Nerantzaki</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Simon</namePart>
-        <namePart type="given">Michael</namePart>
-        <namePart type="family">Papalexiou</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2022</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Journal of Hydrology, Volume 605</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Nerantzaki-2022-Assessing</identifier>
-    <identifier type="doi">10.1016/j.jhydrol.2021.127302</identifier>
-    <location>
-        <url>https://aclanthology.org/G22-26002</url>
-    </location>
-    <part>
-        <date>2022</date>
-        <detail type="volume"><number>605</number></detail>
-        <detail type="page"><number>127302</number></detail>
+        <detail type="volume"><number>7</number></detail>
+        <detail type="issue"><number>2</number></detail>
     </part>
 </mods>
 </modsCollection>

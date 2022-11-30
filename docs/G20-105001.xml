@@ -1,19 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Lubiw-2020-On">
+<mods ID="Malik-2020-Reconstruction">
     <titleInfo>
-        <title>On compatible triangulations with a minimum number of Steiner points</title>
+        <title>Reconstruction of past backyard skating seasons in the Original Six NHL cities from citizen science data</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Anna</namePart>
-        <namePart type="family">Lubiw</namePart>
+        <namePart type="given">Karim</namePart>
+        <namePart type="family">Malik</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Debajyoti</namePart>
-        <namePart type="family">Mondal</namePart>
+        <namePart type="given">Robert</namePart>
+        <namePart type="family">McLeman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Haydn</namePart>
+        <namePart type="family">Lawrence</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -25,27 +39,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Theoretical Computer Science, Volume 835</title>
+            <title>The Canadian Geographer / Le Géographe canadien, Volume 64, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Two vertex-labelled polygons are compatible if they have the same clockwise cyclic ordering of vertices. The definition extends to polygonal regions (polygons with holes) and to triangulations—for every face, the clockwise cyclic order of vertices on the boundary must be the same. It is known that every pair of compatible n -vertex polygonal regions can be extended to compatible triangulations by adding O ( n 2 ) Steiner points. Furthermore, Ω ( n 2 ) Steiner points are sometimes necessary, even for a pair of polygons. Compatible triangulations provide piecewise linear homeomorphisms and are also a crucial first step in morphing planar graph drawings, aka “2D shape animation.” An intriguing open question, first posed by Aronov, Seidel, and Souvaine in 1993, is to decide if two compatible polygons have compatible triangulations with at most k Steiner points. In this paper we prove the problem to be NP-hard for polygons with holes. The question remains open for simple polygons.</abstract>
-    <identifier type="citekey">Lubiw-2020-On</identifier>
-    <identifier type="doi">10.1016/j.tcs.2020.06.014</identifier>
+    <identifier type="citekey">Malik-2020-Reconstruction</identifier>
+    <identifier type="doi">10.1111/cag.12640</identifier>
     <location>
         <url>https://aclanthology.org/G20-105001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>835</number></detail>
+        <detail type="volume"><number>64</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>97</start>
-            <end>107</end>
+            <start>564</start>
+            <end>575</end>
         </extent>
     </part>
 </mods>

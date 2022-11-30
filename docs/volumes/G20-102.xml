@@ -1,62 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Li-2020-Cross-Examination">
+<mods ID="Lubiw-2020-On">
     <titleInfo>
-        <title>Cross-Examination of Similarity, Difference and Deficiency of Gauge, Radar and Satellite Precipitation Measuring Uncertainties for Extreme Events Using Conventional Metrics and Multiplicative Triple Collocation</title>
+        <title>On compatible triangulations with a minimum number of Steiner points</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Zhi</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Anna</namePart>
+        <namePart type="family">Lubiw</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mengye</namePart>
-        <namePart type="family">Chen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Shang</namePart>
-        <namePart type="family">Gao</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Zhen</namePart>
-        <namePart type="family">Hong</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Guoqiang</namePart>
-        <namePart type="family">Tang</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yixin</namePart>
-        <namePart type="family">Wen</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jonathan</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Gourley</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Yang</namePart>
-        <namePart type="family">Hong</namePart>
+        <namePart type="given">Debajyoti</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -68,25 +25,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Remote Sensing, Volume 12, Issue 8</title>
+            <title>Theoretical Computer Science, Volume 835</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>MDPI AG</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Li-2020-Cross-Examination</identifier>
-    <identifier type="doi">10.3390/rs12081258</identifier>
+    <identifier type="citekey">Lubiw-2020-On</identifier>
+    <identifier type="doi">10.1016/j.tcs.2020.06.014</identifier>
     <location>
         <url>https://aclanthology.org/G20-102001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>12</number></detail>
-        <detail type="issue"><number>8</number></detail>
-        <detail type="page"><number>1258</number></detail>
+        <detail type="volume"><number>835</number></detail>
+        <extent unit="page">
+            <start>97</start>
+            <end>107</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

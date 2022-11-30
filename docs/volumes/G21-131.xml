@@ -1,28 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="BenAlaya-2021-On">
+<mods ID="PardoLara-2021-Implications">
     <titleInfo>
-        <title>On estimating long period wind speed return levels from annual maxima</title>
+        <title>Implications of measurement metrics on soil freezing curves: A simulation of freeze–thaw hysteresis</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
+        <namePart type="given">Renato</namePart>
+        <namePart type="family">Pardo Lara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
         <namePart type="given">A</namePart>
-        <namePart type="family">Ben Alaya</namePart>
+        <namePart type="family">Berg</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Jon</namePart>
+        <namePart type="family">Warland</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">X</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Gary</namePart>
+        <namePart type="family">Parkin</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,24 +40,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Weather and Climate Extremes, Volume 34</title>
+            <title>Hydrological Processes, Volume 35, Issue 7</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ben Alaya-2021-On</identifier>
-    <identifier type="doi">10.1016/j.wace.2021.100388</identifier>
+    <identifier type="citekey">Pardo Lara-2021-Implications</identifier>
+    <identifier type="doi">10.1002/hyp.14269</identifier>
     <location>
         <url>https://aclanthology.org/G21-131001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>34</number></detail>
-        <detail type="page"><number>100388</number></detail>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>7</number></detail>
     </part>
 </mods>
 </modsCollection>

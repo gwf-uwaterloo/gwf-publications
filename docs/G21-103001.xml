@@ -1,20 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Famiglietti-2021-The">
+<mods ID="Spring-2021-Special">
     <titleInfo>
-        <title>The hidden crisis beneath our feet</title>
+        <title>Special Issue “Levering Sustainable Food Systems to Address Climate Change (Pandemics and Other Shocks and Hazards): Possible Transformations”</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">James</namePart>
-        <namePart type="given">S</namePart>
-        <namePart type="family">Famiglietti</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Spring</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Grant</namePart>
-        <namePart type="family">Ferguson</namePart>
+        <namePart type="given">Erin</namePart>
+        <namePart type="family">Nelson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Irena</namePart>
+        <namePart type="family">Knezevic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Patricia</namePart>
+        <namePart type="family">Ballamingie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alison</namePart>
+        <namePart type="family">Blay-Palmer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -26,29 +46,26 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science, Volume 372, Issue 6540</title>
+            <title>Sustainability, Volume 13, Issue 15</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Association for the Advancement of Science (AAAS)</publisher>
+            <publisher>MDPI AG</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Disappearing groundwater requires action to prevent widespread water scarcity</abstract>
-    <identifier type="citekey">Famiglietti-2021-The</identifier>
-    <identifier type="doi">10.1126/science.abh2867</identifier>
+    <abstract>Since we first conceived of this Special Issue, “Levering Sustainable Food Systems to Address Climate Change—Possible Transformations”, COVID-19 has turned the world upside down [...]</abstract>
+    <identifier type="citekey">Spring-2021-Special</identifier>
+    <identifier type="doi">10.3390/su13158206</identifier>
     <location>
         <url>https://aclanthology.org/G21-103001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>372</number></detail>
-        <detail type="issue"><number>6540</number></detail>
-        <extent unit="page">
-            <start>344</start>
-            <end>345</end>
-        </extent>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>15</number></detail>
+        <detail type="page"><number>8206</number></detail>
     </part>
 </mods>
 </modsCollection>

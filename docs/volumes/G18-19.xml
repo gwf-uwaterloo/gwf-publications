@@ -1,48 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Chasmer-2018-Monitoring">
+<mods ID="Bocaniov-2018-Nutrient">
     <titleInfo>
-        <title>Monitoring ecosystem reclamation recovery using optical remote sensing: Comparison with field measurements and eddy covariance</title>
+        <title>Nutrient Loss Rates in Relation to Transport Time Scales in a Large Shallow Lake (Lake St. Clair, USA—Canada): Insights From a Three‐Dimensional Model</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">L</namePart>
-        <namePart type="family">Chasmer</namePart>
+        <namePart type="given">Serghei</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bocaniov</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">T</namePart>
-        <namePart type="family">Baker</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">J</namePart>
-        <namePart type="family">Straker</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">S</namePart>
-        <namePart type="family">Strilesky</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">R</namePart>
-        <namePart type="family">Petrone</namePart>
+        <namePart type="given">Donald</namePart>
+        <namePart type="family">Scavia</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,26 +26,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 642</title>
+            <title>Water Resources Research, Volume 54, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Chasmer-2018-Monitoring</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2018.06.039</identifier>
+    <identifier type="citekey">Bocaniov-2018-Nutrient</identifier>
+    <identifier type="doi">10.1029/2017wr021876</identifier>
     <location>
         <url>https://aclanthology.org/G18-19001</url>
     </location>
     <part>
         <date>2018</date>
-        <detail type="volume"><number>642</number></detail>
+        <detail type="volume"><number>54</number></detail>
+        <detail type="issue"><number>6</number></detail>
         <extent unit="page">
-            <start>436</start>
-            <end>446</end>
+            <start>3825</start>
+            <end>3840</end>
         </extent>
     </part>
 </mods>

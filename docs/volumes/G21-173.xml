@@ -1,21 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Ronnquist-2021-Beaver">
+<mods ID="Leroux-2021-Improvement">
     <titleInfo>
-        <title>Beaver dams: How structure, flow state, and landscape setting regulate water storage and release</title>
+        <title>Improvement of Snow Gauge Collection Efficiency through a Knowledge of Solid Precipitation Fall Speed</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Amanda</namePart>
-        <namePart type="given">L</namePart>
-        <namePart type="family">Ronnquist</namePart>
+        <namePart type="given">Nicolas</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leroux</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Cherie</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Westbrook</namePart>
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="family">Rasmussen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,24 +34,87 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Science of The Total Environment, Volume 785</title>
+            <title>Journal of Hydrometeorology, Volume 22, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>American Meteorological Society</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ronnquist-2021-Beaver</identifier>
-    <identifier type="doi">10.1016/j.scitotenv.2021.147333</identifier>
+    <identifier type="citekey">Leroux-2021-Improvement</identifier>
+    <identifier type="doi">10.1175/jhm-d-20-0147.1</identifier>
     <location>
         <url>https://aclanthology.org/G21-173001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>785</number></detail>
-        <detail type="page"><number>147333</number></detail>
+        <detail type="volume"><number>22</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>997</start>
+            <end>1006</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Thériault-2021-Improvement">
+    <titleInfo>
+        <title>Improvement of Solid Precipitation Measurements Using a Hotplate Precipitation Gauge</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicolas</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Leroux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Roy</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Rasmussen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology, Volume 22, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Thériault-2021-Improvement</identifier>
+    <identifier type="doi">10.1175/jhm-d-20-0168.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-173002</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>22</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>877</start>
+            <end>885</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

@@ -1,33 +1,78 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sheikholeslami-2017-Improved">
+<mods ID="Sillmann-2017-Understanding">
     <titleInfo>
-        <title>Improved Understanding of River Ice Processes Using Global Sensitivity Analysis Approaches</title>
+        <title>Understanding, modeling and predicting weather and climate extremes: Challenges and opportunities</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Razi</namePart>
-        <namePart type="family">Sheikholeslami</namePart>
+        <namePart type="given">Jana</namePart>
+        <namePart type="family">Sillmann</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Fuad</namePart>
-        <namePart type="family">Yassin</namePart>
+        <namePart type="given">Thordis</namePart>
+        <namePart type="family">Thorarinsdottir</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Karl-Erich</namePart>
-        <namePart type="family">Lindenschmidt</namePart>
+        <namePart type="given">Noel</namePart>
+        <namePart type="family">Keenlyside</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Saman</namePart>
-        <namePart type="family">Razavi</namePart>
+        <namePart type="given">Nathalie</namePart>
+        <namePart type="family">Schaller</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lisa</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Alexander</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gabriele</namePart>
+        <namePart type="family">Hegerl</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sonia</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Seneviratne</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Robert</namePart>
+        <namePart type="family">Vautard</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francis</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Zwiers</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,24 +84,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Hydrologic Engineering, Volume 22, Issue 11</title>
+            <title>Weather and Climate Extremes, Volume 18</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Society of Civil Engineers (ASCE)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Sheikholeslami-2017-Improved</identifier>
-    <identifier type="doi">10.1061/(asce)he.1943-5584.0001574</identifier>
+    <identifier type="citekey">Sillmann-2017-Understanding</identifier>
+    <identifier type="doi">10.1016/j.wace.2017.10.003</identifier>
     <location>
         <url>https://aclanthology.org/G17-34001</url>
     </location>
     <part>
         <date>2017</date>
-        <detail type="volume"><number>22</number></detail>
-        <detail type="issue"><number>11</number></detail>
+        <detail type="volume"><number>18</number></detail>
+        <extent unit="page">
+            <start>65</start>
+            <end>74</end>
+        </extent>
     </part>
 </mods>
 </modsCollection>

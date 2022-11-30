@@ -1,60 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Johnson-2019-Biomic">
+<mods ID="Rasouli-2019-A">
     <titleInfo>
-        <title>Biomic river restoration: A new focus for river management</title>
+        <title>A long-term hydrometeorological dataset (1993–2014) of a northern mountain basin: Wolf Creek Research Basin, Yukon Territory, Canada</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Matthew</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Johnson</namePart>
+        <namePart type="given">Kabir</namePart>
+        <namePart type="family">Rasouli</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Colin</namePart>
-        <namePart type="given">R</namePart>
-        <namePart type="family">Thorne</namePart>
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Janine</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">Castro</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Janowicz</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">G</namePart>
-        <namePart type="given">Mathias</namePart>
-        <namePart type="family">Kondolf</namePart>
+        <namePart type="given">Tyler</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Williams</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Celeste</namePart>
-        <namePart type="given">Searles</namePart>
-        <namePart type="family">Mazzacano</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Stewart</namePart>
-        <namePart type="given">B</namePart>
-        <namePart type="family">Rood</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Cherie</namePart>
-        <namePart type="family">Westbrook</namePart>
+        <namePart type="given">Sean</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Carey</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -66,27 +50,28 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>River Research and Applications, Volume 36, Issue 1</title>
+            <title>Earth System Science Data, Volume 11, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Wiley</publisher>
+            <publisher>Copernicus GmbH</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Johnson-2019-Biomic</identifier>
-    <identifier type="doi">10.1002/rra.3529</identifier>
+    <abstract>Abstract. A set of hydrometeorological data is presented in this paper, which can be used to characterize the hydrometeorology and climate of a subarctic mountain basin and has proven particularly useful for forcing hydrological models and assessing their performance in capturing hydrological processes in subarctic alpine environments. The forcing dataset includes daily precipitation, hourly air temperature, humidity, wind, solar and net radiation, soil temperature, and geographical information system data. The model performance assessment data include snow depth and snow water equivalent, streamflow, soil moisture, and water level in a groundwater well. This dataset was recorded at different elevation bands in Wolf Creek Research Basin, near Whitehorse, Yukon Territory, Canada, representing forest, shrub tundra, and alpine tundra biomes from 1993 through 2014. Measurements continue through 2018 and are planned for the future at this basin and will be updated to the data website. The database presented and described in this article is available for download at https://doi.org/10.20383/101.0113.</abstract>
+    <identifier type="citekey">Rasouli-2019-A</identifier>
+    <identifier type="doi">10.5194/essd-11-89-2019</identifier>
     <location>
         <url>https://aclanthology.org/G19-10001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>36</number></detail>
+        <detail type="volume"><number>11</number></detail>
         <detail type="issue"><number>1</number></detail>
         <extent unit="page">
-            <start>3</start>
-            <end>12</end>
+            <start>89</start>
+            <end>100</end>
         </extent>
     </part>
 </mods>

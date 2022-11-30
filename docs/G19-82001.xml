@@ -1,48 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Kahsay-2019-A">
+<mods ID="Kettridge-2019-Severe">
     <titleInfo>
-        <title>A hybrid partial and general equilibrium modeling approach to assess the hydro-economic impacts of large dams – The case of the Grand Ethiopian Renaissance Dam in the Eastern Nile River basin</title>
+        <title>Severe wildfire exposes remnant peat carbon stocks to increased post-fire drying</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Tewodros</namePart>
-        <namePart type="given">Negash</namePart>
-        <namePart type="family">Kahsay</namePart>
+        <namePart type="given">N</namePart>
+        <namePart type="family">Kettridge</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Diane</namePart>
-        <namePart type="family">Arjoon</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Lukenbach</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Onno</namePart>
-        <namePart type="family">Kuik</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Hokanson</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Roy</namePart>
-        <namePart type="family">Brouwer</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Devito</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Amaury</namePart>
-        <namePart type="family">Tilmant</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Pieter</namePart>
-        <namePart type="family">van der Zaag</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mendoza</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -54,28 +66,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Modelling &amp;amp; Software, Volume 117</title>
+            <title>Scientific Reports, Volume 9, Issue 1</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Elsevier BV</publisher>
+            <publisher>Springer Science and Business Media LLC</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>A novel integrated hydro-economic modeling framework that links a bottom-up partial equilibrium (engineering) model with a top-down (economic) general equilibrium model is developed for assessing the regional economic impacts of water resources management and infrastructure development decisions in a transboundary river basin. The engineering model is employed first to solve the water allocation problem for a river system in a partial equilibrium setting. The resulting system-wide changes in optimal water allocation are subsequently fed into the general equilibrium model to provide an economy-wide perspective. This integrated hydro-economic modeling framework is illustrated using the Eastern Nile River basin as a case study. The engineering-based stochastic dual dynamic programming (SDDP) model of the Eastern Nile basin is coupled with the computable general equilibrium (CGE) model GTAP-W to assess the economy-wide impacts of the Grand Ethiopian Renaissance Dam (GERD) on the Eastern Nile economies.</abstract>
-    <identifier type="citekey">Kahsay-2019-A</identifier>
-    <identifier type="doi">10.1016/j.envsoft.2019.03.007</identifier>
+    <abstract>The potential of high severity wildfires to increase global terrestrial carbon emissions and exacerbate future climatic warming is of international concern. Nowhere is this more prevalent than within high latitude regions where peatlands have, over millennia, accumulated legacy carbon stocks comparable to all human CO2 emissions since the beginning of the industrial revolution. Drying increases rates of peat decomposition and associated atmospheric and aquatic carbon emissions. The degree to which severe wildfires enhance drying under future climates and induce instability in peatland ecological communities and carbon stocks is unknown. Here we show that high burn severities increased post-fire evapotranspiration by 410% within a feather moss peatland by burning through the protective capping layer that restricts evaporative drying in response to low severity burns. High burn severities projected under future climates will therefore leave peatlands that dominate dry sub-humid regions across the boreal, on the edge of their climatic envelopes, more vulnerable to intense post-fire drying, inducing high rates of carbon loss to the atmosphere that amplify the direct combustion emissions.</abstract>
+    <identifier type="citekey">Kettridge-2019-Severe</identifier>
+    <identifier type="doi">10.1038/s41598-019-40033-7</identifier>
     <location>
         <url>https://aclanthology.org/G19-82001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>117</number></detail>
-        <extent unit="page">
-            <start>76</start>
-            <end>88</end>
-        </extent>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>1</number></detail>
     </part>
 </mods>
 </modsCollection>

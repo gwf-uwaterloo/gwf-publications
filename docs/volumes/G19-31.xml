@@ -1,28 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="BenAlaya-2019-Probable">
+<mods ID="Bennett-2019-Quantifying">
     <titleInfo>
-        <title>Probable maximum precipitation in a warming climate over North America in CanRCM4 and CRCM5</title>
+        <title>Quantifying Process Connectivity With Transfer Entropy in Hydrologic Models</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Ben Alaya</namePart>
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Bennett</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">F</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Bart</namePart>
+        <namePart type="family">Nijssen</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">X</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Gengxin</namePart>
+        <namePart type="family">Ou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grey</namePart>
+        <namePart type="family">Nearing</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -34,27 +46,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Climatic Change, Volume 158, Issue 3-4</title>
+            <title>Water Resources Research, Volume 55, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Ben Alaya-2019-Probable</identifier>
-    <identifier type="doi">10.1007/s10584-019-02591-7</identifier>
+    <identifier type="citekey">Bennett-2019-Quantifying</identifier>
+    <identifier type="doi">10.1029/2018wr024555</identifier>
     <location>
         <url>https://aclanthology.org/G19-31001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>158</number></detail>
-        <detail type="issue"><number>3-4</number></detail>
+        <detail type="volume"><number>55</number></detail>
+        <detail type="issue"><number>6</number></detail>
         <extent unit="page">
-            <start>611</start>
-            <end>629</end>
+            <start>4613</start>
+            <end>4629</end>
         </extent>
     </part>
 </mods>

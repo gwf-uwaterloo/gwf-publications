@@ -1,30 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="McKenzie-2020-Comparison">
+<mods ID="McLeod-2020-A">
     <titleInfo>
-        <title>Comparison of tree-ring growth and eddy covariance-based ecosystem productivities in three different-aged pine plantation forests</title>
+        <title>A quantitative analysis of drinking water advisories in Saskatchewan Indigenous and rural communities 2012–2016</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Shawn</namePart>
-        <namePart type="given">M</namePart>
-        <namePart type="family">McKenzie</namePart>
+        <namePart type="given">Lianne</namePart>
+        <namePart type="family">McLeod</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Michael</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Pisaric</namePart>
+        <namePart type="given">Lalita</namePart>
+        <namePart type="given">Anne</namePart>
+        <namePart type="family">Bharadwaj</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">M</namePart>
-        <namePart type="given">Altaf</namePart>
-        <namePart type="family">Arain</namePart>
+        <namePart type="given">Joanne</namePart>
+        <namePart type="family">Daigle</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Cheryl</namePart>
+        <namePart type="family">Waldner</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lori</namePart>
+        <namePart type="given">Elisabet</namePart>
+        <namePart type="given">Ann</namePart>
+        <namePart type="family">Bradford</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -36,27 +49,77 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Trees, Volume 35, Issue 2</title>
+            <title>Canadian Water Resources Journal / Revue canadienne des ressources hydriques, Volume 45, Issue 4</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Springer Science and Business Media LLC</publisher>
+            <publisher>Informa UK Limited</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">McKenzie-2020-Comparison</identifier>
-    <identifier type="doi">10.1007/s00468-020-02061-z</identifier>
+    <identifier type="citekey">McLeod-2020-A</identifier>
+    <identifier type="doi">10.1080/07011784.2020.1831404</identifier>
     <location>
         <url>https://aclanthology.org/G20-26001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>35</number></detail>
-        <detail type="issue"><number>2</number></detail>
+        <detail type="volume"><number>45</number></detail>
+        <detail type="issue"><number>4</number></detail>
         <extent unit="page">
-            <start>583</start>
-            <end>595</end>
+            <start>345</start>
+            <end>357</end>
+        </extent>
+    </part>
+</mods>
+<mods ID="Brown-2020-Structural">
+    <titleInfo>
+        <title>Structural calibration of an semi-distributed hydrological model of the Liard River basin</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Genevieve</namePart>
+        <namePart type="family">Brown</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Craig</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Canadian Water Resources Journal / Revue canadienne des ressources hydriques, Volume 45, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Informa UK Limited</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Brown-2020-Structural</identifier>
+    <identifier type="doi">10.1080/07011784.2020.1803143</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-26002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>45</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>287</start>
+            <end>303</end>
         </extent>
     </part>
 </mods>

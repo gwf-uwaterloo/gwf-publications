@@ -1,56 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Benettin-2021-Tracing">
+<mods ID="Zolfaghari-2021-Structural">
     <titleInfo>
-        <title>Tracing and Closing the Water Balance in a Vegetated Lysimeter</title>
+        <title>Structural analysis of integro-differential–algebraic equations</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Paolo</namePart>
-        <namePart type="family">Benettin</namePart>
+        <namePart type="given">Reza</namePart>
+        <namePart type="family">Zolfaghari</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Magali</namePart>
-        <namePart type="given">F</namePart>
-        <namePart type="family">Nehemy</namePart>
+        <namePart type="given">Jacob</namePart>
+        <namePart type="family">Taylor</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Mitra</namePart>
-        <namePart type="family">Asadollahi</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Dyan</namePart>
-        <namePart type="family">Pratt</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Michaël</namePart>
-        <namePart type="family">Bensimon</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">Raymond</namePart>
         <namePart type="given">J</namePart>
-        <namePart type="family">McDonnell</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrea</namePart>
-        <namePart type="family">Rinaldo</namePart>
+        <namePart type="family">Spiteri</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -62,24 +33,25 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Water Resources Research, Volume 57, Issue 4</title>
+            <title>Journal of Computational and Applied Mathematics, Volume 394</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Geophysical Union (AGU)</publisher>
+            <publisher>Elsevier BV</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Benettin-2021-Tracing</identifier>
-    <identifier type="doi">10.1029/2020wr029049</identifier>
+    <abstract>We describe a method for analyzing the structure of a system of nonlinear integro-differential–algebraic equations (IDAEs) that generalizes the Σ -method for the structural analysis of differential–algebraic equations. The method is based on the sparsity pattern of the IDAE and the ν -smoothing property of a Volterra integral operator. It determines which equations and how many times they need to be differentiated to determine the index, and it reveals the hidden constraints and compatibility conditions in order to prove the existence of a solution. The success of the Σ -method is indicated by the non-singularity of a certain Jacobian matrix. Although it is likely the Σ -method can be directly applied with success to many problems of practical interest, it can fail on some solvable IDAEs. Accordingly, we also present two techniques for addressing these failures.</abstract>
+    <identifier type="citekey">Zolfaghari-2021-Structural</identifier>
+    <identifier type="doi">10.1016/j.cam.2021.113568</identifier>
     <location>
         <url>https://aclanthology.org/G21-28001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>57</number></detail>
-        <detail type="issue"><number>4</number></detail>
+        <detail type="volume"><number>394</number></detail>
+        <detail type="page"><number>113568</number></detail>
     </part>
 </mods>
 </modsCollection>

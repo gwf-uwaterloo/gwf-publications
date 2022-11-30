@@ -1,21 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Leipe-2021-Rapid">
+<mods ID="Conway-2021-Icefield">
     <titleInfo>
-        <title>Rapid shrub expansion in a subarctic mountain basin revealed by repeat airborne LiDAR</title>
+        <title>Icefield Breezes: Mesoscale Diurnal Circulation in the Atmospheric Boundary Layer Over an Outlet of the Columbia Icefield, Canadian Rockies</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">C</namePart>
-        <namePart type="family">Leipe</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Conway</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Sicart</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -27,26 +43,24 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Environmental Research Communications, Volume 3, Issue 7</title>
+            <title>Journal of Geophysical Research: Atmospheres, Volume 126, Issue 6</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>IOP Publishing</publisher>
+            <publisher>American Geophysical Union (AGU)</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract As a consequence of increasing temperatures, a rapid increase in shrub vegetation has occurred throughout the circumpolar North and is expected to continue. Rates of shrub expansion are highly variable, both at the regional scale and within local study areas. This study uses repeat airborne LiDAR and field surveys to measure changes in shrub vegetation cover along with landscape-scale variations in a well-studied subarctic headwater catchment in Yukon Territory, Canada. Airborne LiDAR surveys were conducted in August 2007 and 2018, whereas vegetation surveys were conducted in summer 2019. Machine learning classification algorithms were used to predict shrub presence/absence in 2018 based on rasterized LiDAR metrics, with the best-performing model applied to the 2007 LiDAR to create binary shrub cover layers to compare between survey years. Results show a 63.3% total increase in detectable shrub cover &amp;gt;= 0.45 m in height between 2007 and 2018, with an average yearly expansion of 5.8%. These changes were compared across terrain derivatives to quantify the influence of topography on shrub expansion. Terrain comparisons show that shrubs are located in and are preferentially expanding into lower and flatter areas near stream networks, at lower slope positions and with a higher potential for topographic wetness. Overall, the findings from this research reinforce the documented increase in pan-Arctic shrub vegetation in recent years, quantify the variation in shrub expansion over terrain derivatives at the landscape scale, and demonstrate the feasibility of using LiDAR to compare changes in shrub properties over time.</abstract>
-    <identifier type="citekey">Leipe-2021-Rapid</identifier>
-    <identifier type="doi">10.1088/2515-7620/ac0e0c</identifier>
+    <identifier type="citekey">Conway-2021-Icefield</identifier>
+    <identifier type="doi">10.1029/2020jd034225</identifier>
     <location>
         <url>https://aclanthology.org/G21-169001</url>
     </location>
     <part>
         <date>2021</date>
-        <detail type="volume"><number>3</number></detail>
-        <detail type="issue"><number>7</number></detail>
-        <detail type="page"><number>071001</number></detail>
+        <detail type="volume"><number>126</number></detail>
+        <detail type="issue"><number>6</number></detail>
     </part>
 </mods>
 </modsCollection>

@@ -1,17 +1,21 @@
 ﻿%0 Journal Article
-%T A universal cross language software similarity detector for open source software categorization
-%A Nafi, Kawser Wazed
-%A Roy, Banani
-%A Roy, Chanchal K.
-%A Schneider, Kevin A.
-%J Journal of Systems and Software, Volume 162
+%T Use of pre-industrial baselines to monitor anthropogenic enrichment of metals concentrations in recently deposited sediment of floodplain lakes in the Peace-Athabasca Delta (Alberta, Canada)
+%A Owca, Tanner J.
+%A Kay, Mitchell L.
+%A Faber, Jelle
+%A Remmer, Casey R.
+%A Zabel, Nelson
+%A Wiklund, Johan A.
+%A Wolfe, Brent B.
+%A Hall, Roland I.
+%J Environmental Monitoring and Assessment, Volume 192, Issue 2
 %D 2020
-%V 162
-%I Elsevier BV
-%F Nafi-2020-A
-%X Abstract While there are novel approaches for detecting and categorizing similar software applications, previous research focused on detecting similarity in applications written in the same programming language and not on detecting similarity in applications written in different programming languages. Cross-language software similarity detection is inherently more challenging due to variations in language, application structures, support libraries used, and naming conventions. In this paper we propose a novel model, CroLSim, to detect similar software applications across different programming languages. We define a semantic relationship among cross-language libraries and API methods (both local and third party) using functional descriptions and a word-vector learning model. Our experiments show that CroLSim can successfully detect cross-language similar software applications, which outperforms all existing approaches (mean average precision rate of 0.65, confidence rate of 3.6, and 75% highly rated successful queries). Furthermore, we applied CroLSim to a source code repository to see whether our model can recommend cross-language source code fragments if queried directly with source code. From our experiments we found that CroLSim can recommend cross-language functional similar source code when source code is directly used as a query (average precision=0.28, recall=0.85, and F-Measure=0.40).
-%R 10.1016/j.jss.2019.110491
+%V 192
+%N 2
+%I Springer Science and Business Media LLC
+%F Owca-2020-Use
+%X Abstract Well-designed monitoring approaches are needed to assess effects of industrial development on downstream aquatic environments and guide environmental stewardship. Here, we develop and apply a monitoring approach to detect potential enrichment of metals concentrations in surficial lake sediments of the Peace-Athabasca Delta (PAD), northern Alberta, Canada. Since the ecological integrity of the PAD is strongly tied to river floodwaters that replenish lakes in the delta, and the PAD is located downstream of the Alberta oil sands, concerns have been raised over the potential transport of industry-supplied metals to the PAD via the Athabasca River. Surface sediment samples were collected in September 2017 from 61 lakes across the delta, and again in July 2018 from 20 of the same lakes that had received river floodwaters 2 months earlier, to provide snapshots of metals concentrations (Be, Cd, Cr, Cu, Ni, Pb, V, and Zn) that have recently accumulated in these lakes. To assess for anthropogenic enrichment, surficial sediment metals concentrations were normalized to aluminum and compared to pre-industrial baseline (i.e., reference) metal-aluminum linear relations for the Athabasca and Peace sectors of the PAD developed from pre-1920 measurements in lake sediment cores. Numerical analysis demonstrates no marked enrichment of these metals concentrations above pre-1920 baselines despite strong ability (&gt; 99% power) to detect enrichment of 10%. Measurements of river sediment collected by the Regional Aquatics- and Oil Sands-Monitoring Programs (RAMP/OSM) also did not exceed pre-1920 concentrations. Thus, results presented here show no evidence of substantial oil sands-derived metals enrichment of sediment supplied by the Athabasca River to lakes in the PAD and demonstrate the usefulness of these methods as a monitoring framework.
+%R 10.1007/s10661-020-8067-y
 %U https://aclanthology.org/G20-117001
-%U https://doi.org/10.1016/j.jss.2019.110491
-%P 110491
+%U https://doi.org/10.1007/s10661-020-8067-y
 

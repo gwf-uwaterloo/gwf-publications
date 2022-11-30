@@ -1,26 +1,23 @@
 ﻿%0 Journal Article
-%T Storms and Precipitation Across the continental Divide Experiment (SPADE)
-%A Thériault, Julie M.
-%A Leroux, Nicolas R.
-%A Stewart, Ronald E.
-%A Bertoncini, André
-%A Déry, Stephen J.
-%A Pomeroy, John W.
-%A Thompson, Hadleigh D.
-%A Smith, Hilary
-%A Mariani, Zen
-%A Desroches-Lapointe, Aurélie
-%A Mitchell, Selina
-%A Almonte, Juris
-%J Bulletin of the American Meteorological Society, Volume 103, Issue 11
+%T Using observed soil moisture to constrain the uncertainty of simulated hydrological fluxes
+%A Ireson, Andrew M.
+%A Sanchez‐Rodriguez, Ines
+%A Basnet, Sujan
+%A Brauner, Haley
+%A Bobenic, Talia
+%A Brannen, Rosa
+%A Elrashidy, Mennatullah
+%A Braaten, Morgan
+%A Amankwah, Seth K.
+%A Barr, Alan
+%J Hydrological Processes, Volume 36, Issue 1
 %D 2022
-%V 103
-%N 11
-%I American Meteorological Society
-%F Thériault-2022-Storms
-%X Abstract The Canadian Rockies are a triple-continental divide, whose high mountains are drained by major snow-fed and rain-fed rivers flowing to the Pacific, Atlantic and Arctic Oceans. The objective of the April-June 2019 Storms and Precipitation Across the continental Divide Experiment (SPADE) was to determine the atmospheric processes producing precipitation on the eastern and western sides of the Canadian Rockies during springtime, a period when upslope events of variable phase dominate precipitation on the eastern slopes. To do so, three observing sites across the divide were instrumented with advanced meteorological sensors. During the 13 observed events, the western side recorded only 25% of the eastern side’s precipitation accumulation, rainfall occurred rather than snowfall, and skies were mainly clear. Moisture sources and amounts varied markedly between events. An atmospheric river landfall in California led to moisture flowing persistently northward and producing the longest duration of precipitation on both sides of the divide. Moisture from the continental interior always produced precipitation on the eastern side but only in specific conditions on the western side. Mainly slow-falling ice crystals, sometimes rimed, formed at higher elevations on the eastern side (&gt; 3 km MSL), were lifted, and subsequently drifted westward over the divide during non-convective storms to produce rain at the surface on the western side. Overall, precipitation generally crossed the divide in the Canadian Rockies during specific spring-storm atmospheric conditions although amounts at the surface varied with elevation, condensate type, and local and large-scale flow fields.
-%R 10.1175/bams-d-21-0146.1
+%V 36
+%N 1
+%I Wiley
+%F Ireson-2022-Using
+%X Using data from five long-term field sites measuring soil moisture, we show the limitations of using soil moisture observations alone to constrain modelled hydrological fluxes. We test a land surface model, Modélisation Environnementale communautaire-Surface Hydrology/Canadian Land Surface Scheme, with two configurations: one where the soil hydraulic properties are determined using a pedotransfer function (the texture-based calibration) and one where they are assigned directly (the hydraulic properties-based calibration). The hydraulic properties-based calibration outperforms the texture-based calibration in terms of reproducing changes in soil moisture storage within a 1.6 m deep profile at each site, but both perform reasonably well, especially in the summer months. When the models are constrained using observations of changes in soil moisture, the predicted hydrological fluxes are subject to very large uncertainties associated with equifinality. The uncertainty is larger for the hydraulic properties-based calibration, even though the performance was better. We argue that since the pedotransfer functions constrain the model parameters in the texture-based calibrations in an unrealistic way, the texture-based calibration underestimates the uncertainty in the fluxes. We recommend that reproducing observed cumulative changes in soil moisture storage should be considered a necessary but insufficient criterion of model success. Additional sources of information are needed to reduce uncertainties, and these could include improved estimation of the soil hydraulic properties and direct observations of fluxes, particularly evapotranspiration.
+%R 10.1002/hyp.14465
 %U https://aclanthology.org/G22-89001
-%U https://doi.org/10.1175/bams-d-21-0146.1
-%P E2628-E2649
+%U https://doi.org/10.1002/hyp.14465
 

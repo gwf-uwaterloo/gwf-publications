@@ -1,58 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Mizukami-2019-On">
+<mods ID="Mondal-2019-Automatic">
     <titleInfo>
-        <title>On the choice of calibration metrics for “high-flow” estimation using hydrologic models</title>
+        <title>Automatic Components Separation of Obfuscated Android Applications: An Empirical Study of Design Based Features</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Naoki</namePart>
-        <namePart type="family">Mizukami</namePart>
+        <namePart type="given">Amit</namePart>
+        <namePart type="given">Kumar</namePart>
+        <namePart type="family">Mondal</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oldrich</namePart>
-        <namePart type="family">Rakovec</namePart>
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Newman</namePart>
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Martyn</namePart>
-        <namePart type="given">P</namePart>
-        <namePart type="family">Clark</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Andrew</namePart>
-        <namePart type="given">W</namePart>
-        <namePart type="family">Wood</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Hoshin</namePart>
-        <namePart type="given">V</namePart>
-        <namePart type="family">Gupta</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Rohini</namePart>
-        <namePart type="family">Kumar</namePart>
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -64,108 +41,22 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 6</title>
+            <title>2019 34th IEEE/ACM International Conference on Automated Software Engineering Workshop (ASEW)</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
+            <publisher>IEEE</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <identifier type="citekey">Mizukami-2019-On</identifier>
-    <identifier type="doi">10.5194/hess-23-2601-2019</identifier>
+    <identifier type="citekey">Mondal-2019-Automatic</identifier>
+    <identifier type="doi">10.1109/asew.2019.00022</identifier>
     <location>
         <url>https://aclanthology.org/G19-121001</url>
     </location>
     <part>
         <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>6</number></detail>
-        <extent unit="page">
-            <start>2601</start>
-            <end>2614</end>
-        </extent>
-    </part>
-</mods>
-<mods ID="Piovano-2019-Spatially">
-    <titleInfo>
-        <title>Spatially distributed tracer-aided runoff modelling and dynamics of storage and water ages in a permafrost-influenced catchment</title>
-    </titleInfo>
-    <name type="personal">
-        <namePart type="given">Thea</namePart>
-        <namePart type="given">I</namePart>
-        <namePart type="family">Piovano</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Doerthe</namePart>
-        <namePart type="family">Tetzlaff</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Sean</namePart>
-        <namePart type="given">K</namePart>
-        <namePart type="family">Carey</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Nadine</namePart>
-        <namePart type="given">J</namePart>
-        <namePart type="family">Shatilla</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Aaron</namePart>
-        <namePart type="family">Smith</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <name type="personal">
-        <namePart type="given">Chris</namePart>
-        <namePart type="family">Soulsby</namePart>
-        <role>
-            <roleTerm authority="marcrelator" type="text">author</roleTerm>
-        </role>
-    </name>
-    <originInfo>
-        <dateIssued>2019</dateIssued>
-    </originInfo>
-    <typeOfResource>text</typeOfResource>
-    <genre authority="bibutilsgt">journal article</genre>
-    <relatedItem type="host">
-        <titleInfo>
-            <title>Hydrology and Earth System Sciences, Volume 23, Issue 6</title>
-        </titleInfo>
-        <originInfo>
-            <issuance>continuing</issuance>
-            <publisher>Copernicus GmbH</publisher>
-        </originInfo>
-        <genre authority="marcgt">periodical</genre>
-        <genre authority="bibutilsgt">academic journal</genre>
-    </relatedItem>
-    <identifier type="citekey">Piovano-2019-Spatially</identifier>
-    <identifier type="doi">10.5194/hess-23-2507-2019</identifier>
-    <location>
-        <url>https://aclanthology.org/G19-121002</url>
-    </location>
-    <part>
-        <date>2019</date>
-        <detail type="volume"><number>23</number></detail>
-        <detail type="issue"><number>6</number></detail>
-        <extent unit="page">
-            <start>2507</start>
-            <end>2523</end>
-        </extent>
     </part>
 </mods>
 </modsCollection>
