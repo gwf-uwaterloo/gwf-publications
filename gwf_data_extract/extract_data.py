@@ -23,12 +23,16 @@ no_data_count = 0
 
 def get_doi(publication: str):
     """
-    get doi from the papers title
+    search for the paper's doi form the title
+    Arguments:
+        publication: title string        
+    Returns:
+        
     """
+
     global similar_count
     global no_data_count
-
-    string_check = re.compile("[@_!#$%^&*()<>?/\|}{~:-]")
+    
     paper_url = "https://api.semanticscholar.org/v1/paper/"
     search_url = "https://api.semanticscholar.org/graph/v1/paper/search?"
     headers={'x-api-key':'LPkwK92ydta0i2EY5UB8fgnVhoLPZb72T3p3TCF1'} 
@@ -75,23 +79,9 @@ def get_doi(publication: str):
 
     return paper_doi, similarity_score, title, query
 
-def _read_input_file(input_file: str):
-    """
-    Read excel file
-    """
-    assert os.path.exists(
-        input_file
-    ), f"[INFO] Input file {input_file} does not exist"
-    df = (
-        pd.read_excel(input_file, header=0).fillna("")
-        if input_file.endswith(".xlsx")
-        else pd.read_csv(input_file, header=0, encoding="iso8859_16").fillna("")
-    )
-    return df
-
 def extract_doi(input_file: str, output_file: str = None):
             
-    paper_df = pd.read_excel(input_file, header=0).fillna("")
+    paper_df = pd.read_csv(input_file, header=0).fillna("")
 
     paper_list = [None] * len(paper_df)
     doi_list = [None] * len(paper_df)
@@ -126,7 +116,7 @@ def extract_doi(input_file: str, output_file: str = None):
             paper_df['title'] = title
             paper_df['query'] = query
 
-            paper_df.to_csv(output_file, index=False)            
+            paper_df.to_csv(output_file, index=False)
             paper_df['doi'].dropna().str.lower().drop_duplicates().to_csv('DOI_all.csv', index=False)
 
     paper_df['doi'] = doi_list    
@@ -136,8 +126,6 @@ def extract_doi(input_file: str, output_file: str = None):
     paper_df['query'] = query
     paper_df.to_csv(output_file, index=False)
     paper_df['doi'].dropna().str.lower().drop_duplicates().to_csv('DOI_all.csv', index=False)
-
-    
 
 def fetch_paper_data(input_file: str, output_file: str = None):
     data_url =('https://api.crossref.org/works/{DOI}')
@@ -320,12 +308,11 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
 
 
 if __name__ == "__main__":    
-    # extract_doi('GWF_all.xlsx', 'output_all.csv')             # 1st
+    extract_doi('gwf_data_extract/source-01.csv', 'gwf_data_extract/output_all.csv')             # 1st
     # fetch_paper_data('DOI_all.csv', 'result.json')            # 2nd
     # get_abstracts('DOI_all.csv', 'abstract.json')             # 3rd
-    create_xml_yaml_files('result.json', 'abstract.json')     # 4th
-
-
+    # create_xml_yaml_files('result.json', 'abstract.json')     # 4th
+    
     # paper_df = pd.read_csv('output_all_non.csv', header=0).fillna("").iloc[:,0]
     # for paper in paper_df:
     #     get_doi(re.split("([Dd][Oo][Ii])", paper)[0])
