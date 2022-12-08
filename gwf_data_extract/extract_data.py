@@ -17,6 +17,7 @@ import nltk
 from nltk.corpus import stopwords
 import numpy as np
 import xml.dom.minidom as md
+import html
 
 similar_count = 0
 no_data_count = 0
@@ -306,13 +307,25 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
     with open(r'name_variants.yaml', 'w') as file:
         documents = yaml.dump(dict_file, file, default_flow_style=None)
 
+def handle_HTML_entities(file_name: str):
+
+    tree = et.parse(file_name)
+    for element in tree.iter():
+        text = element.text
+        if text: element.text = html.unescape(text)
+
+    with open (file_name, "wb") as files :
+        tree.write(files, encoding='UTF-8', xml_declaration=True, method='xml')
+
 
 if __name__ == "__main__":    
-    extract_doi('gwf_data_extract/source-01.csv', 'gwf_data_extract/output_all.csv')             # 1st
+    # extract_doi('gwf_data_extract/source-01.csv', 'gwf_data_extract/output_all.csv')             # 1st
     # fetch_paper_data('DOI_all.csv', 'result.json')            # 2nd
     # get_abstracts('DOI_all.csv', 'abstract.json')             # 3rd
     # create_xml_yaml_files('result.json', 'abstract.json')     # 4th
     
+    handle_HTML_entities("data/xml/G22.xml")
+
     # paper_df = pd.read_csv('output_all_non.csv', header=0).fillna("").iloc[:,0]
     # for paper in paper_df:
     #     get_doi(re.split("([Dd][Oo][Ii])", paper)[0])

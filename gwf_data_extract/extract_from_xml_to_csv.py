@@ -1,18 +1,22 @@
 import pandas as pd
 import xml.etree.ElementTree as et
+import html
 
 sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey"])
-file = 'G16'
-tree = et.parse(file+'.xml')
+file = 'G22'
+input = 'data/xml/'+ file +'.xml'
+output = 'gwf_data_extract/'+file+'.csv'
+tree = et.parse(input)
 root = tree.getroot()
 
 for paper in root.iter('paper'):
     paper_dict = {}
-    paper_dict["title"] = paper.find("title").text
+    paper_dict["title"] = html.unescape(paper.find("title").text) if paper.find("title").text else paper.find("title").text
     paper_dict["author"] = ""
     for author in paper.findall("author"):
         paper_dict["author"] = paper_dict["author"] + author.find("first").text + " " + author.find("last").text + ", "
-    paper_dict["abstract"] = paper.find("abstract").text
+        paper_dict["author"] = html.unescape(paper_dict["author"]) if paper_dict["author"] else paper_dict["author"]
+    paper_dict["abstract"] = html.unescape(paper.find("abstract").text) if paper.find("abstract").text else paper.find("abstract").text
     paper_dict["url"] = paper.find("url").text
     paper_dict["pages"] = paper.find("pages").text if paper.find("pages") is not None else ""
     paper_dict["doi"] = paper.find("doi").text
@@ -20,4 +24,4 @@ for paper in root.iter('paper'):
     
     sheet = pd.concat([sheet, pd.DataFrame([paper_dict.values()], columns=sheet.columns)], ignore_index=True)
 
-sheet.to_csv(file+".csv", index=False)
+sheet.to_csv(output, index=False)
