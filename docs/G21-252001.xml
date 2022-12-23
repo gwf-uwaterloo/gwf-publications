@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mavrovic-2021-Soil">
+    <titleInfo>
+        <title>Soil dielectric characterization during freeze–thaw transitions using L-band coaxial and soil moisture probes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Alex</namePart>
+        <namePart type="family">Mavrovic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Renato</namePart>
+        <namePart type="family">Pardo Lara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">François</namePart>
+        <namePart type="family">Demontoux</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Royer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 25, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Soil microwave permittivity is a crucial parameter in passive microwave retrieval algorithms but remains a challenging variable to measure. To validate and improve satellite microwave data products, precise and reliable estimations of the relative permittivity (εr=ε/ε0=ε′-jε′′; unitless) of soils are required, particularly for frozen soils. In this study, permittivity measurements were acquired using two different instruments: the newly designed open-ended coaxial probe (OECP) and the conventional Stevens HydraProbe. Both instruments were used to characterize the permittivity of soil samples undergoing several freeze–thaw cycles in a laboratory environment. The measurements were compared to soil permittivity models. The OECP measured frozen (εfrozen′=[3.5; 6.0], εfrozen′′=[0.46; 1.2]) and thawed (εthawed′=[6.5; 22.8], εthawed′′=[1.43; 5.7]) soil microwave permittivity. We also demonstrate that cheaper and widespread soil permittivity probes operating at lower frequencies (i.e., Stevens HydraProbe) can be used to estimate microwave permittivity given proper calibration relative to an L-band (1–2 GHz) probe. This study also highlighted the need to improve dielectric soil models, particularly during freeze–thaw transitions. There are still important discrepancies between in situ and modeled estimates and no current model accounts for the hysteresis effect shown between freezing and thawing processes, which could have a significant impact on freeze–thaw detection from satellites.</abstract>
+    <identifier type="citekey">Mavrovic-2021-Soil</identifier>
+    <identifier type="doi">10.5194/hess-25-1117-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-69001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>25</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>1117</start>
+            <end>1131</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

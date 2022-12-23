@@ -1,33 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <modsCollection xmlns="http://www.loc.gov/mods/v3">
-<mods ID="Sun-2020-A">
+<mods ID="Akbas-2020-What">
     <titleInfo>
-        <title>A Comparison of Intra-Annual and Long-Term Trend Scaling of Extreme Precipitation with Temperature in a Large-Ensemble Regional Climate Simulation</title>
+        <title>What about reservoirs? Questioning anthropogenic and climatic interferences on water availability</title>
     </titleInfo>
     <name type="personal">
-        <namePart type="given">Qiaohong</namePart>
-        <namePart type="family">Sun</namePart>
+        <namePart type="given">Abdullah</namePart>
+        <namePart type="family">Akbas</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Francis</namePart>
-        <namePart type="family">Zwiers</namePart>
+        <namePart type="given">Jim</namePart>
+        <namePart type="family">Freer</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Xuebin</namePart>
-        <namePart type="family">Zhang</namePart>
+        <namePart type="given">Hasan</namePart>
+        <namePart type="family">Ozdemir</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Guilong</namePart>
-        <namePart type="family">Li</namePart>
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bates</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">Tufan</namePart>
+        <namePart type="family">Turp</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -39,28 +48,27 @@
     <genre authority="bibutilsgt">journal article</genre>
     <relatedItem type="host">
         <titleInfo>
-            <title>Journal of Climate, Volume 33, Issue 21</title>
+            <title>Hydrological Processes, Volume 34, Issue 26</title>
         </titleInfo>
         <originInfo>
             <issuance>continuing</issuance>
-            <publisher>American Meteorological Society</publisher>
+            <publisher>Wiley</publisher>
         </originInfo>
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
-    <abstract>Abstract Long-term changes in extreme daily and subdaily precipitation simulated by climate models are often compared with corresponding temperature changes to estimate the sensitivity of extreme precipitation to warming. Such “trend scaling” rates are difficult to estimate from observations, however, because of limited data availability and high background variability. Intra-annual temperature scaling (here called binning scaling), which relates extreme precipitation to temperature at or near the time of occurrence, has been suggested as a possible substitute for trend scaling. We use a large ensemble simulation of the Canadian regional climate model (CanRCM4) to assess this possibility, considering both daily near-surface air temperature and daily dewpoint temperature as scaling variables. We find that binning curves that are based on precipitation data for the whole year generally look like the composite of binning curves for winter and summer, with the lower temperature portion similar to winter and the higher temperature portion similar to summer, indicating that binning curves reflect seasonal changes in the relationship between temperature and extreme precipitation. The magnitude and spatial pattern of binning and trend scaling rates are also quantitatively different, with little spatial correlation between them, regardless of precipitation duration or choice of temperature variable. The evidence therefore suggests that binning scaling with temperature is not a reliable predictor for future changes in precipitation extremes in the climate simulated by CanRCM4. Nevertheless, external forcing does have a discernable influence on binning curves, which are seen to shift upward and to the right in some regions, consistent with a general increase in extreme precipitation.</abstract>
-    <identifier type="citekey">Sun-2020-A</identifier>
-    <identifier type="doi">10.1175/jcli-d-19-0920.1</identifier>
+    <identifier type="citekey">Akbas-2020-What</identifier>
+    <identifier type="doi">10.1002/hyp.13960</identifier>
     <location>
-        <url>https://aclanthology.org/G20-29002</url>
+        <url>https://aclanthology.org/G20-6001</url>
     </location>
     <part>
         <date>2020</date>
-        <detail type="volume"><number>33</number></detail>
-        <detail type="issue"><number>21</number></detail>
+        <detail type="volume"><number>34</number></detail>
+        <detail type="issue"><number>26</number></detail>
         <extent unit="page">
-            <start>9233</start>
-            <end>9245</end>
+            <start>5441</start>
+            <end>5455</end>
         </extent>
     </part>
 </mods>

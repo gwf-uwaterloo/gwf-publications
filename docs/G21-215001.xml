@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Zaremehrjardy-2021-Assessment">
+    <titleInfo>
+        <title>Assessment of the cascade of uncertainty in future snow depth projections across watersheds of mountainous, foothill, and plain areas in northern latitudes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Majid</namePart>
+        <namePart type="family">Zaremehrjardy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Monireh</namePart>
+        <namePart type="family">Faramarzi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 598</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet The choice of energy-balance or temperature-index snowmelt modules is often ad-hoc. \bullet Two snowmelt modules under two snow density functions are examined in SWAT model. \bullet Cascade of uncertainty for future projections varies across spatiotemporal scales. \bullet Snow density approach is a major control of snow depth simulation and projection. \bullet Unlike mountains, in plain, snowmelt module uncertainties are scanty but vary in time. Snowmelt is a major driver of the hydrological cycle in cold regions, as such, its accurate representation in hydrological models is key to both regional snow depth and streamflow prediction. The choice of a proper method for snowmelt representation is often improvised; however, a thorough characterization of uncertainty in such process representations particularly in the context of climate change has remained essential. To fill this gap, this study revisits and characterizes performance and uncertainty around the two general approaches to snowmelt representation, namely Energy-Balance Modules (EBMs) and Temperature-Index Modules (TIMs). To account for snow depth simulation and projection, two common Snow Density formulations (SNDs) are implemented that map snow water equivalent (SWE) to snow depth. The major research questions we address are two-fold. First, we examine the dominant controls of uncertainty in snow depth and streamflow simulations across scales and in different climates. Second, we evaluate the cascade of uncertainty of snow depth projections resulting from impact model parameters, greenhouse gas emission scenarios, climate models and their internal variability, and downscaling processes. We enable the Soil and Water Assessment Tool (SWAT) by coupling EBM, TIM, and two SND modules for examination of different snowmelt representation methods, and Analysis of Variance (ANOVA) for uncertainty decomposition and attribution. These analyses are implemented in mountainous, foothill, and plain regions in a large snow-dominated watershed in western Canada. Results show, rather counter-intuitively, that the choice of SND is a major control of performance and uncertainty of snow depth simulation rather than the choice between TIMs and EBMs and of their uncertain parameters. Also, analysis of streamflow simulations suggest that EBMs generally overestimate streamflow on main tributaries. Finally, uncertainty decompositions show that parameter uncertainty related to snowmelt modules dominantly controls uncertainty in future snow depth projections under climate change, particularly in mountainous regions. However, in plain regions, the uncertainty contribution of model parameters becomes more variable with time and less dominant compared with the other sources of uncertainty. Overall, it is shown that the hydro-climatic and topographic conditions of different regions, as well as input data availability, have considerable effect on reproduction of snow depth, snowmelt and resulting streamflow, and on the share of different uncertainty sources when projecting regional snow depth.</abstract>
+    <identifier type="citekey">Zaremehrjardy-2021-Assessment</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2020.125735</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-26001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>598</number></detail>
+        <detail type="page"><number>125735</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Meles-2021-Multi-criteria">
+    <titleInfo>
+        <title>Multi-criteria, time dependent sensitivity analysis of an event-oriented, physically-based, distributed sediment and runoff model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Menberu</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Meles</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dave</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Goodrich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hoshin</namePart>
+        <namePart type="given">V</namePart>
+        <namePart type="family">Gupta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">I</namePart>
+        <namePart type="family">Shea Burns</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Carl</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Unkrich</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="given">Phillip</namePart>
+        <namePart type="family">Guertin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 598</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet Time-variant variogram analysis reveals significant event scale parameter importance variability. \bullet The type of modeling objectives used influences parameter importance. \bullet Input rainfall intensity and hyetograph shape affects parameters importance. \bullet VARS is an effective and robust approach for identifying key modeling parameters. Runoff and sediment yield predictions using rainfall-runoff modeling systems play a significant role in developing sustainable rangeland and water resource management strategies. To characterize the behavior and predictive uncertainty of the KINEROS2 physically-based distributed hydrologic model, we assessed model parameters importance at the event-scale for small nested semi-arid subwatersheds in southeastern Arizona using the Variogram Analysis of Response Surfaces (VARS) methodology. A two-pronged approach using time-aggregate and time-variant parameter importance analysis was adopted to improve understanding of the control and behavior of models. The time-aggregate analysis looks at several signature responses, including runoff volume, sediment yield, peak runoff, runoff duration, time to peak, lag time, and recession duration, to investigate the influence of parameter and input on the model predictions. The time-variant analysis looks at the dynamical influence of parameters on the simulation of flow and sediment rates at every simulation time step using the different forcing inputs. This investigation was able to address Simpson’s paradox-type issues where the analysis across the different objective functions and full data set vs. its subsets (i.e., different events and/or time steps) could yield inconsistent and potentially misleading results. The results indicated the uncertainties in the flow responses are primarily due to the saturated hydraulic conductivity, the Manning’s coefficient, the soil capillary coefficient, and the cohesion in sediment and flow-related responses. The level of influence of K2 parameters depends on the type of the model response surface, the rainfall, and the watershed size.</abstract>
+    <identifier type="citekey">Meles-2021-Multi-criteria</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2021.126268</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-26003</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>598</number></detail>
+        <detail type="page"><number>126268</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,16 @@
+﻿%0 Journal Article
+%T Automatic clustering-based surrogate-assisted genetic algorithm for groundwater remediation system design
+%A Vali, Majid
+%A Zare, Mohammad
+%A Razavi, Saman
+%J Journal of Hydrology, Volume 598
+%D 2021
+%V 598
+%I Elsevier BV
+%F Vali-2021-Automatic
+%X \bullet Simulation-optimization techniques are essential but computationally cumbersome. \bullet Classic surrogates that globally emulate response surfaces can be of limited help. \bullet Local surrogate models are proposed using automatic clustering for simulation. \bullet The proposed method is shown to be efficient and robust in groundwater remediation. Simulation-optimization techniques in support of groundwater management are computationally expensive. To tackle such computational burden, a variety of surrogate modeling-frameworks have been proposed, where a cheaper-to-run model referred to as a surrogate is used in lieu of a computationally intensive model. These frameworks are generally based on what referred herein to as ‘global surrogate modelling’ where a single surrogate approximates the underlying response surface of a model. Such classic frameworks, however, are sub-optimal when the response surface is complex and/or high-dimensional. This paper proposes a novel ‘local surrogate modelling’ framework that simultaneously builds and evolves multiple local surrogates, guided by an automatic clustering method. Unlike traditional clustering methods that select the number of clusters a priori, the proposed automatic clustering method concurrently determines the optimum number of clusters and the clustering scheme itself. To serve as the surrogate, Artificial Neural Networks (ANNs) are used. The proposed framework is applied to solve a computationally intensive groundwater remediation optimization problem. This study shows that the proposed automatic clustering-based local surrogate modeling is effective and reliable while reducing at least 60 percent of the computational burden.
+%R 10.1016/j.jhydrol.2020.125752
+%U https://aclanthology.org/G21-26002
+%U https://doi.org/10.1016/j.jhydrol.2020.125752
+%P 125752
+

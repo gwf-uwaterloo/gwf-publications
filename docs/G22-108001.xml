@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mai-Craig-2022-The-pie">
+    <titleInfo>
+        <title>The pie sharing problem: Unbiased sampling of N+1 summative weights</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Juliane</namePart>
+        <namePart type="family">Mai</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">James</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Craig</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bryan</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Tolson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Modelling &amp; Software, Volume 148</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>A simple algorithm is provided for randomly sampling a set of N +1 weights such that their sum is constrained to be equal to one, analogous to randomly subdividing a pie into N +1 slices where the probability distribution of slice volumes are identically distributed. The cumulative density and probability density functions of the random weights are provided. The algorithmic implementation for the random number sampling are made available. This algorithm has potential applications in calibration, uncertainty analysis, and sensitivity analysis of environmental models. Three example applications are provided to demonstrate the efficiency and superiority of the proposed method compared to alternative sampling methods. \bullet Present unbiased method to sample weights that sum up to 1. \bullet Examples demonstrating the benefit of unbiased sampling. \bullet Code made available in multiple languages.</abstract>
+    <identifier type="citekey">Mai-Craig-2022-The-pie</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2021.105282</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-5001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>148</number></detail>
+        <detail type="page"><number>105282</number></detail>
+    </part>
+</mods>
+</modsCollection>

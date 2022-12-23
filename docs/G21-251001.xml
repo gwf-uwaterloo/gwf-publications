@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Chaudhuri-2021-InundatEd-v1.0:">
+    <titleInfo>
+        <title>InundatEd-v1.0: a height above nearest drainage (HAND)-based flood risk modeling system using a discrete global grid system</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Chiranjib</namePart>
+        <namePart type="family">Chaudhuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Annie</namePart>
+        <namePart type="family">Gray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoscientific Model Development, Volume 14, Issue 6</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Despite the high historical losses attributed to flood events, Canadian flood mitigation efforts have been hindered by a dearth of current, accessible flood extent/risk models and maps. Such resources often entail large datasets and high computational requirements. This study presents a novel, computationally efficient flood inundation modeling framework (“InundatEd”) using the height above nearest drainage (HAND)-based solution for Manning’s equation, implemented in a big-data discrete global grid system (DGGS)-based architecture with a web-GIS (Geographic Information Systems) platform. Specifically, this study aimed to develop, present, and validate InundatEd through binary classification comparisons to recently observed flood events. The framework is divided into multiple swappable modules including GIS pre-processing; regional regression; inundation models; and web-GIS visualization. Extent testing and processing speed results indicate the value of a DGGS-based architecture alongside a simple conceptual inundation model and a dynamic user interface.</abstract>
+    <identifier type="citekey">Chaudhuri-2021-InundatEd-v1.0:</identifier>
+    <identifier type="doi">10.5194/gmd-14-3295-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-68001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>6</number></detail>
+        <extent unit="page">
+            <start>3295</start>
+            <end>3315</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

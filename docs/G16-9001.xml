@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Pomeroy-2016-Aerodynamic">
+    <titleInfo>
+        <title>Aerodynamic and Radiative Controls on the Snow Surface Temperature</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">R</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="given">H</namePart>
+        <namePart type="family">Essery</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">W</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2016</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology, Volume 17, Issue 8</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract The snow surface temperature (SST) is essential for estimating longwave radiation fluxes from snow. SST can be diagnosed using finescale multilayer snow physics models that track changes in snow properties and internal energy; however, these models are heavily parameterized, have high predictive uncertainty, and require continuous simulation to estimate prognostic state variables. Here, a relatively simple model to estimate SST that is not reliant on prognostic state variables is proposed. The model assumes that the snow surface is poorly connected thermally to the underlying snowpack and largely transparent for most of the shortwave radiation spectrum, such that a snow surface energy balance among only sensible heat, latent heat, longwave radiation, and near-infrared radiation is possible and is called the radiative psychrometric model (RPM). The RPM SST is sensitive to air temperature, humidity, ventilation, and longwave irradiance and is secondarily affected by absorption of near-infrared radiation at the snow surface that was higher where atmospheric deposition of particulates was more likely to be higher. The model was implemented with neutral stability, an implicit windless exchange coefficient, and constant shortwave absorption factors and aerodynamic roughness lengths. It was evaluated against radiative SST measurements from the Canadian Prairies and Rocky Mountains, French Alps, and Bolivian Andes. With optimized and global shortwave absorption and aerodynamic roughness length parameters, the model is shown to accurately predict SST under a wide range of conditions, providing superior predictions when compared to air temperature, dewpoint, or ice bulb calculation approaches.</abstract>
+    <identifier type="citekey">Pomeroy-2016-Aerodynamic</identifier>
+    <identifier type="doi">10.1175/jhm-d-15-0226.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G16-5001</url>
+    </location>
+    <part>
+        <date>2016</date>
+        <detail type="volume"><number>17</number></detail>
+        <detail type="issue"><number>8</number></detail>
+        <extent unit="page">
+            <start>2175</start>
+            <end>2189</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

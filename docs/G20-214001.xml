@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Rajulapati-2020-Assessment">
+    <titleInfo>
+        <title>Assessment of Extremes in Global Precipitation Products: How Reliable Are They?</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Chandra</namePart>
+        <namePart type="given">Rupa</namePart>
+        <namePart type="family">Rajulapati</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology, Volume 21, Issue 12</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Global gridded precipitation products have proven essential for many applications ranging from hydrological modeling and climate model validation to natural hazard risk assessment. They provide a global picture of how precipitation varies across time and space, specifically in regions where ground-based observations are scarce. While the application of global precipitation products has become widespread, there is limited knowledge on how well these products represent the magnitude and frequency of extreme precipitation—the key features in triggering flood hazards. Here, five global precipitation datasets (MSWEP, CFSR, CPC, PERSIANN-CDR, and WFDEI) are compared to each other and to surface observations. The spatial variability of relatively high precipitation events (tail heaviness) and the resulting discrepancy among datasets in the predicted precipitation return levels were evaluated for the time period 1979–2017. The analysis shows that 1) these products do not provide a consistent representation of the behavior of extremes as quantified by the tail heaviness, 2) there is strong spatial variability in the tail index, 3) the spatial patterns of the tail heaviness generally match the Köppen–Geiger climate classification, and 4) the predicted return levels for 100 and 1000 years differ significantly among the gridded products. More generally, our findings reveal shortcomings of global precipitation products in representing extremes and highlight that there is no single global product that performs best for all regions and climates.</abstract>
+    <identifier type="citekey">Rajulapati-2020-Assessment</identifier>
+    <identifier type="doi">10.1175/jhm-d-20-0040.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-70001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>12</number></detail>
+        <extent unit="page">
+            <start>2855</start>
+            <end>2873</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

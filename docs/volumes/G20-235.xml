@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Newman-2020-TIER">
+    <titleInfo>
+        <title>TIER version 1.0: an open-source Topographically InformEd Regression (TIER) model to estimate spatial meteorological fields</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Newman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoscientific Model Development, Volume 13, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Newman-2020-TIER</identifier>
+    <identifier type="doi">10.5194/gmd-13-1827-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-94001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>1827</start>
+            <end>1843</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,18 @@
+﻿%0 Journal Article
+%T Comparative Performance Analysis of Lightweight Cryptography Algorithms for IoT Sensor Nodes
+%A Fotovvat, Amir
+%A Rahman, Gazi M. E.
+%A Vedaei, Seyed Shahim
+%A Wahid, Khan A.
+%J IEEE Internet of Things Journal, Volume 8, Issue 10
+%D 2021
+%V 8
+%N 10
+%I Institute of Electrical and Electronics Engineers (IEEE)
+%F Fotovvat-2021-Comparative
+%X The Internet of Things (IoT) has become an integral part of future solutions, ranging from industrial to everyday human life applications. Adding a new level of intelligence to objects and automating decisions make this new technology appealing to everyone. However, applications that involve data are more vulnerable to various types of attacks. As a result, researchers are constantly exploring secure connections between IoT edge nodes. On one hand, suitable IoT nodes should be cheap and require low power, which means lower computational performance. On the other hand, a secure connection layer is power hungry and requires powerful hardware resources. Lightweight cryptography (LWC) algorithms are a promising solution to reduce computation complexity while maintaining a desired level of security. In the presented work, we attempt to address the issue of adding security to the IoT network layer by comparing the performance of 32 LWC algorithms with currently well-known algorithms on multiple IoT platforms (Raspberry Pi 3, Raspberry Pi Zero W, and iMX233). These 32 authenticated encryption with associated data algorithms have been selected from the second round of the LWC standardization process conducted by the National Institute of Standards and Technology. Power consumption, random access memory usage, and execution time are measured for these algorithms using the targeted embedded platforms that are used as IoT sensor nodes. The results of this study will assist researchers in choosing a suitable platform and optimal LWC algorithm for IoT applications.
+%R 10.1109/jiot.2020.3044526
+%U https://aclanthology.org/G21-48001
+%U https://doi.org/10.1109/jiot.2020.3044526
+%P 8279-8290
+

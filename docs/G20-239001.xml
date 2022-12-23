@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Aksamit-2020-Warm-air">
+    <titleInfo>
+        <title>Warm-air entrainment and advection during alpine blowing snow events</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nikolas</namePart>
+        <namePart type="given">O</namePart>
+        <namePart type="family">Aksamit</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>The Cryosphere, Volume 14, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Blowing snow transport has considerable impact on the hydrological cycle in alpine regions both through the redistribution of the seasonal snowpack and through sublimation back into the atmosphere. Alpine energy and mass balances are typically modeled with time-averaged approximations of sensible and latent heat fluxes. This oversimplifies nonstationary turbulent mixing in complex terrain and may overlook important exchange processes for hydrometeorological prediction. To determine if specific turbulent motions are responsible for warm- and dry-air advection during blowing snow events, quadrant analysis and variable interval time averaging was used to investigate turbulent time series from the Fortress Mountain Snow Laboratory alpine study site in the Canadian Rockies, Alberta, Canada, during the winter of 2015–2016. By analyzing wind velocity and sonic temperature time series with concurrent blowing snow, such turbulent motions were found to supply substantial sensible heat to near-surface wind flows. These motions were responsible for temperature fluctuations of up to 1 ∘C, a considerable change for energy balance estimation. A simple scaling relationship was derived that related the frequency of dominant downdraft and updraft events to their duration and local variance. This allows for the first parameterization of entrained or advected energy for time-averaged representations of blowing snow sublimation and suggests that advection can strongly reduce thermodynamic feedbacks between blowing snow sublimation and the near-surface atmosphere. The downdraft and updraft scaling relationship described herein provides a significant step towards a more physically based blowing snow sublimation model with more realistic mixing of atmospheric heat. Additionally, calculations of return frequencies and event durations provide a field-measurement context for recent findings of nonstationarity impacts on sublimation rates.</abstract>
+    <identifier type="citekey">Aksamit-2020-Warm-air</identifier>
+    <identifier type="doi">10.5194/tc-14-2795-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-99001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>2795</start>
+            <end>2807</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

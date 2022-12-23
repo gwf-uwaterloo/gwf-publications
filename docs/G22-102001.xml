@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Hanes-2022-Mapping">
+    <titleInfo>
+        <title>Mapping organic layer thickness and fuel load of the boreal forest in Alberta, Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Chelene</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Hanes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Wotton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Douglas</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Woolford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Martell</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="family">Flannigan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoderma, Volume 417</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet Maps of organic layer thickness and fuel load were developed using machine learning. \bullet Tree species was the most important variable in the final random forest model. \bullet Error in our final models was close to the natural variability we expected to find. \bullet The resultant maps will help improve fuel consumption models. Forest organic layers are important soil carbon pools that can, in the absence of disturbance, accumulate to great depths, especially in lowland areas. Across the Canadian boreal forest, fire is the primary disturbance agent, often limiting organic layer accumulation through the direct consumption of these fuels. Organic layer thickness (OLT) and fuel load (OLFL) are common physical attributes used to characterize these layers, especially for wildland fire science. Understanding the drivers and spatial distribution of these attributes is important to improve predictions of fire behaviour, emissions and effects models. We developed maps of OLT and OLFL using machine learning approaches (weighted K-nearest neighbour and random forests) for the forested region of the province of Alberta, Canada (538, 058 km 2 ). The random forests approach was found to be the best approach to model the spatial distribution of these forest floor attributes. A databased of 3, 237 OLT and 594 OLFL plots were used to train the models. The error in our final model, particularly for OLT (5 cm), was relatively close to the variability we would expect to find naturally (3 cm). The dominant tree species was the most important covariate in the models. Age, solar radiation, spatial location, climate variables and surficial geology were also important drivers, although their level of importance varied between tree species and depended on the modelling method that was used.</abstract>
+    <identifier type="citekey">Hanes-2022-Mapping</identifier>
+    <identifier type="doi">10.1016/j.geoderma.2022.115827</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-2001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>417</number></detail>
+        <detail type="page"><number>115827</number></detail>
+    </part>
+</mods>
+</modsCollection>

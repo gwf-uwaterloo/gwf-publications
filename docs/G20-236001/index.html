@@ -1,0 +1,324 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model" name=citation_title><meta content="Yuan Zhang" name=citation_author><meta content="Ana Bastos" name=citation_author><meta content="Fabienne Maignan" name=citation_author><meta content="Daniel Goll" name=citation_author><meta content="Olivier Boucher" name=citation_author><meta content="Laurent Li" name=citation_author><meta content="Alessandro Cescatti" name=citation_author><meta content="Nicolas Vuichard" name=citation_author><meta content="Xiuzhi Chen" name=citation_author><meta content="Christof Ammann" name=citation_author><meta content="M. Altaf Arain" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="Bogdan Chojnicki" name=citation_author><meta content="Tomomichi Kato" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Leonardo Montagnani" name=citation_author><meta content="Olivier Roupsard" name=citation_author><meta content="Maria J. Sanz" name=citation_author><meta content="Lukas Siebicke" name=citation_author><meta content="Marek Urbaniak" name=citation_author><meta content="Francesco Primo Vaccari" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Will Woodgate" name=citation_author><meta content="Philippe Ciais" name=citation_author><meta content="Geoscientific Model Development, Volume 13, Issue 11" name=citation_journal_title><meta content="13" name=citation_volume><meta content="11" name=citation_issue><meta content="2020" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G20-95001.pdf" name=citation_pdf_url><meta content="5401" name=citation_firstpage><meta content="5423" name=citation_lastpage><meta content="10.5194/gmd-13-5401-2020" name=citation_doi><meta property="og:title" content="Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G20-236001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G20-95001"><meta property="og:description" content="Yuan Zhang, Ana Bastos, Fabienne Maignan, Daniel Goll, Olivier Boucher, Laurent Li, Alessandro Cescatti, Nicolas Vuichard, Xiuzhi Chen, Christof Ammann, M. Altaf Arain, T. Andrew Black, Bogdan Chojnicki, Tomomichi Kato, Ivan Mammarella, Leonardo Montagnani, Olivier Roupsard, Maria J. Sanz, Lukas Siebicke, Marek Urbaniak, Francesco Primo Vaccari, Georg Wohlfahrt, Will Woodgate, Philippe Ciais. Geoscientific Model Development, Volume 13, Issue 11. 2020."><link rel=canonical href=https://aclanthology.org/G20-95001></head><body><nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient-light shadow-sm py-0 mb-3 mb-md-4 mb-xl-5"><div id=navbar-container class=container><a class=navbar-brand href=/gwf-publications/><img src=/gwf-publications/images/gwf-logo.svg width=56 alt="GWF Logo">
+<span class="d-none d-md-inline pl-md-2">GWF Publications</span></a>
+<button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent></div></div></nav><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-95001.pdf>Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model</a></h2><p class=lead><a href=/gwf-publications/people/Y/Yuan-Zhang/>Yuan Zhang</a>,
+<a href=/gwf-publications/people/A/Ana-Bastos/>Ana Bastos</a>,
+<a href=/gwf-publications/people/F/Fabienne-Maignan/>Fabienne Maignan</a>,
+<a href=/gwf-publications/people/D/Daniel-Goll/>Daniel Goll</a>,
+<a href=/gwf-publications/people/O/Olivier-Boucher/>Olivier Boucher</a>,
+<a href=/gwf-publications/people/L/Laurent-Li/>Laurent Li</a>,
+<a href=/gwf-publications/people/A/Alessandro-Cescatti/>Alessandro Cescatti</a>,
+<a href=/gwf-publications/people/N/Nicolas-Vuichard/>Nicolas Vuichard</a>,
+<a href=/gwf-publications/people/X/Xiuzhi-Chen/>Xiuzhi Chen</a>,
+<a href=/gwf-publications/people/C/Christof-Ammann/>Christof Ammann</a>,
+<a href=/gwf-publications/people/M/M-Altaf-Arain/>M. Altaf Arain</a>,
+<a href=/gwf-publications/people/T/T-Andrew-Black/>T. Andrew Black</a>,
+<a href=/gwf-publications/people/B/Bogdan-Chojnicki/>Bogdan Chojnicki</a>,
+<a href=/gwf-publications/people/T/Tomomichi-Kato/>Tomomichi Kato</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/L/Leonardo-Montagnani/>Leonardo Montagnani</a>,
+<a href=/gwf-publications/people/O/Olivier-Roupsard/>Olivier Roupsard</a>,
+<a href=/gwf-publications/people/M/Maria-J-Sanz/>Maria J. Sanz</a>,
+<a href=/gwf-publications/people/L/Lukas-Siebicke/>Lukas Siebicke</a>,
+<a href=/gwf-publications/people/M/Marek-Urbaniak/>Marek Urbaniak</a>,
+<a href=/gwf-publications/people/F/Francesco-Primo-Vaccari/>Francesco Primo Vaccari</a>,
+<a href=/gwf-publications/people/G/Georg-Wohlfahrt/>Georg Wohlfahrt</a>,
+<a href=/gwf-publications/people/W/Will-Woodgate/>Will Woodgate</a>,
+<a href=/gwf-publications/people/P/Philippe-Ciais/>Philippe Ciais</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Aerosol- and cloud-induced changes in diffuse light have important impacts on the global land carbon cycle, as they alter light distribution and photosynthesis in vegetation canopies. However, this effect remains poorly represented or evaluated in current land surface models. Here, we add a light partitioning module and a new canopy light transmission module to the ORCHIDEE (Organising Carbon and Hydrology In Dynamic Ecosystems) land surface model (trunk version, v5453) and use the revised model, ORCHIDEE_DF, to estimate the fraction of diffuse light and its effect on gross primary production (GPP) in a multilayer canopy. We evaluate the new parameterizations using flux observations from 159 eddy covariance sites over the globe. Our results show that, compared with the original model, ORCHIDEE_DF improves the GPP simulation under sunny conditions and captures the observed higher photosynthesis under cloudier conditions in most plant functional types (PFTs). Our results also indicate that the larger GPP under cloudy conditions compared with sunny conditions is mainly driven by increased diffuse light in the morning and in the afternoon as well as by a decreased vapor pressure deficit (VPD) and decreased air temperature at midday. The observations show that the strongest positive effects of diffuse light on photosynthesis are found in the range from 5 to 20 ∘C and at a VPD &lt; 1 kPa. This effect is found to decrease when the VPD becomes too large or the temperature falls outside of the abovementioned range, which is likely due to the increasing stomatal resistance to leaf CO2 uptake. ORCHIDEE_DF underestimates the diffuse light effect at low temperature in all PFTs and overestimates this effect at high temperature and at a high VPD in grasslands and croplands. The new model has the potential to better investigate the impact of large-scale aerosol changes and long-term changes in cloudiness on the terrestrial carbon budget, both in the historical period and in the context of future air quality policies and/or climate engineering.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Yuan Zhang, Ana Bastos, Fabienne Maignan, Daniel Goll, Olivier Boucher, Laurent Li, Alessandro Cescatti, Nicolas Vuichard, Xiuzhi Chen, Christof Ammann, M. Altaf Arain, T. Andrew Black, Bogdan Chojnicki, Tomomichi Kato, Ivan Mammarella, Leonardo Montagnani, Olivier Roupsard, Maria J. Sanz, Lukas Siebicke, et al.. 2020. <a href=https://aclanthology.org/G20-95001>Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model</a>. <i>Geoscientific Model Development, Volume 13, Issue 11</i>, 13(11):5401–5423.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G20-95001.pdf title="Open PDF of 'Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
+<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Modeling+the+impacts+of+diffuse+light+fraction+on+photosynthesis+in+ORCHIDEE+%28v5453%29+land+surface+model" title="Search for 'Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Zhang-Bastos-2020-Modeling-the,
+    title = &#34;Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model&#34;,
+    author = &#34;Zhang, Yuan  and
+      Bastos, Ana  and
+      Maignan, Fabienne  and
+      Goll, Daniel  and
+      Boucher, Olivier  and
+      Li, Laurent  and
+      Cescatti, Alessandro  and
+      Vuichard, Nicolas  and
+      Chen, Xiuzhi  and
+      Ammann, Christof  and
+      Arain, M. Altaf  and
+      Black, T. Andrew  and
+      Chojnicki, Bogdan  and
+      Kato, Tomomichi  and
+      Mammarella, Ivan  and
+      Montagnani, Leonardo  and
+      Roupsard, Olivier  and
+      Sanz, Maria J.  and
+      Siebicke, Lukas  and
+      Urbaniak, Marek  and
+      Vaccari, Francesco Primo  and
+      Wohlfahrt, Georg  and
+      Woodgate, Will  and
+      Ciais, Philippe&#34;,
+    journal = &#34;Geoscientific Model Development, Volume 13, Issue 11&#34;,
+    volume = &#34;13&#34;,
+    number = &#34;11&#34;,
+    year = &#34;2020&#34;,
+    publisher = &#34;Copernicus GmbH&#34;,
+    url = &#34;https://aclanthology.org/G20-95001&#34;,
+    doi = &#34;10.5194/gmd-13-5401-2020&#34;,
+    pages = &#34;5401--5423&#34;,
+    abstract = &#34;Abstract. Aerosol- and cloud-induced changes in diffuse light have important impacts on the global land carbon cycle, as they alter light distribution and photosynthesis in vegetation canopies. However, this effect remains poorly represented or evaluated in current land surface models. Here, we add a light partitioning module and a new canopy light transmission module to the ORCHIDEE (Organising Carbon and Hydrology In Dynamic Ecosystems) land surface model (trunk version, v5453) and use the revised model, ORCHIDEE{\_}DF, to estimate the fraction of diffuse light and its effect on gross primary production (GPP) in a multilayer canopy. We evaluate the new parameterizations using flux observations from 159 eddy covariance sites over the globe. Our results show that, compared with the original model, ORCHIDEE{\_}DF improves the GPP simulation under sunny conditions and captures the observed higher photosynthesis under cloudier conditions in most plant functional types (PFTs). Our results also indicate that the larger GPP under cloudy conditions compared with sunny conditions is mainly driven by increased diffuse light in the morning and in the afternoon as well as by a decreased vapor pressure deficit (VPD) and decreased air temperature at midday. The observations show that the strongest positive effects of diffuse light on photosynthesis are found in the range from 5 to 20 ∘C and at a VPD {\textless} 1 kPa. This effect is found to decrease when the VPD becomes too large or the temperature falls outside of the abovementioned range, which is likely due to the increasing stomatal resistance to leaf CO2 uptake. ORCHIDEE{\_}DF underestimates the diffuse light effect at low temperature in all PFTs and overestimates this effect at high temperature and at a high VPD in grasslands and croplands. The new model has the potential to better investigate the impact of large-scale aerosol changes and long-term changes in cloudiness on the terrestrial carbon budget, both in the historical period and in the context of future air quality policies and/or climate engineering.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G20-236001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Zhang-Bastos-2020-Modeling-the&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yuan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ana&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bastos&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Fabienne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Maignan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goll&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Olivier&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Boucher&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Laurent&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Li&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alessandro&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cescatti&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicolas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vuichard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xiuzhi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christof&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ammann&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Altaf&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arain&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Black&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bogdan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chojnicki&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tomomichi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kato&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mammarella&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Leonardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Montagnani&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Olivier&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Roupsard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Maria&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sanz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lukas&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Siebicke&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marek&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Urbaniak&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Francesco&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Primo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vaccari&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Georg&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wohlfahrt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Will&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Woodgate&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Philippe&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ciais&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2020&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Geoscientific Model Development, Volume 13, Issue 11&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;Copernicus GmbH&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Abstract. Aerosol- and cloud-induced changes in diffuse light have important impacts on the global land carbon cycle, as they alter light distribution and photosynthesis in vegetation canopies. However, this effect remains poorly represented or evaluated in current land surface models. Here, we add a light partitioning module and a new canopy light transmission module to the ORCHIDEE (Organising Carbon and Hydrology In Dynamic Ecosystems) land surface model (trunk version, v5453) and use the revised model, ORCHIDEE_DF, to estimate the fraction of diffuse light and its effect on gross primary production (GPP) in a multilayer canopy. We evaluate the new parameterizations using flux observations from 159 eddy covariance sites over the globe. Our results show that, compared with the original model, ORCHIDEE_DF improves the GPP simulation under sunny conditions and captures the observed higher photosynthesis under cloudier conditions in most plant functional types (PFTs). Our results also indicate that the larger GPP under cloudy conditions compared with sunny conditions is mainly driven by increased diffuse light in the morning and in the afternoon as well as by a decreased vapor pressure deficit (VPD) and decreased air temperature at midday. The observations show that the strongest positive effects of diffuse light on photosynthesis are found in the range from 5 to 20 ∘C and at a VPD \textless 1 kPa. This effect is found to decrease when the VPD becomes too large or the temperature falls outside of the abovementioned range, which is likely due to the increasing stomatal resistance to leaf CO2 uptake. ORCHIDEE_DF underestimates the diffuse light effect at low temperature in all PFTs and overestimates this effect at high temperature and at a high VPD in grasslands and croplands. The new model has the potential to better investigate the impact of large-scale aerosol changes and long-term changes in cloudiness on the terrestrial carbon budget, both in the historical period and in the context of future air quality policies and/or climate engineering.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Zhang-Bastos-2020-Modeling-the&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.5194/gmd-13-5401-2020&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://aclanthology.org/G20-95001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2020&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;13&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;11&lt;/number&gt;&lt;/detail&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;5401&lt;/start&gt;
+            &lt;end&gt;5423&lt;/end&gt;
+        &lt;/extent&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G20-236001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model
+%A Zhang, Yuan
+%A Bastos, Ana
+%A Maignan, Fabienne
+%A Goll, Daniel
+%A Boucher, Olivier
+%A Li, Laurent
+%A Cescatti, Alessandro
+%A Vuichard, Nicolas
+%A Chen, Xiuzhi
+%A Ammann, Christof
+%A Arain, M. Altaf
+%A Black, T. Andrew
+%A Chojnicki, Bogdan
+%A Kato, Tomomichi
+%A Mammarella, Ivan
+%A Montagnani, Leonardo
+%A Roupsard, Olivier
+%A Sanz, Maria J.
+%A Siebicke, Lukas
+%A Urbaniak, Marek
+%A Vaccari, Francesco Primo
+%A Wohlfahrt, Georg
+%A Woodgate, Will
+%A Ciais, Philippe
+%J Geoscientific Model Development, Volume 13, Issue 11
+%D 2020
+%V 13
+%N 11
+%I Copernicus GmbH
+%F Zhang-Bastos-2020-Modeling-the
+%X Abstract. Aerosol- and cloud-induced changes in diffuse light have important impacts on the global land carbon cycle, as they alter light distribution and photosynthesis in vegetation canopies. However, this effect remains poorly represented or evaluated in current land surface models. Here, we add a light partitioning module and a new canopy light transmission module to the ORCHIDEE (Organising Carbon and Hydrology In Dynamic Ecosystems) land surface model (trunk version, v5453) and use the revised model, ORCHIDEE_DF, to estimate the fraction of diffuse light and its effect on gross primary production (GPP) in a multilayer canopy. We evaluate the new parameterizations using flux observations from 159 eddy covariance sites over the globe. Our results show that, compared with the original model, ORCHIDEE_DF improves the GPP simulation under sunny conditions and captures the observed higher photosynthesis under cloudier conditions in most plant functional types (PFTs). Our results also indicate that the larger GPP under cloudy conditions compared with sunny conditions is mainly driven by increased diffuse light in the morning and in the afternoon as well as by a decreased vapor pressure deficit (VPD) and decreased air temperature at midday. The observations show that the strongest positive effects of diffuse light on photosynthesis are found in the range from 5 to 20 ∘C and at a VPD \textless 1 kPa. This effect is found to decrease when the VPD becomes too large or the temperature falls outside of the abovementioned range, which is likely due to the increasing stomatal resistance to leaf CO2 uptake. ORCHIDEE_DF underestimates the diffuse light effect at low temperature in all PFTs and overestimates this effect at high temperature and at a high VPD in grasslands and croplands. The new model has the potential to better investigate the impact of large-scale aerosol changes and long-term changes in cloudiness on the terrestrial carbon budget, both in the historical period and in the context of future air quality policies and/or climate engineering.
+%R 10.5194/gmd-13-5401-2020
+%U https://aclanthology.org/G20-95001
+%U https://doi.org/10.5194/gmd-13-5401-2020
+%P 5401-5423
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G20-236001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model](https://aclanthology.org/G20-95001) (Zhang et al., GWF 2020)</p><ul class=mt-2><li><a href=https://aclanthology.org/G20-95001>Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model</a> (Zhang et al., GWF 2020)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Yuan Zhang, Ana Bastos, Fabienne Maignan, Daniel Goll, Olivier Boucher, Laurent Li, Alessandro Cescatti, Nicolas Vuichard, Xiuzhi Chen, Christof Ammann, M. Altaf Arain, T. Andrew Black, Bogdan Chojnicki, Tomomichi Kato, Ivan Mammarella, Leonardo Montagnani, Olivier Roupsard, Maria J. Sanz, Lukas Siebicke, et al.. 2020. <a href=https://aclanthology.org/G20-95001>Modeling the impacts of diffuse light fraction on photosynthesis in ORCHIDEE (v5453) land surface model</a>. <i>Geoscientific Model Development, Volume 13, Issue 11</i>, 13(11):5401–5423.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

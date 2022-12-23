@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Shao-2020-Modeling">
+    <titleInfo>
+        <title>Modeling Snow Surface Spectral Reflectance in a Land Surface Model Targeting Satellite Remote Sensing Observations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Donghang</namePart>
+        <namePart type="family">Shao</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wenbo</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hongyi</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jian</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaohua</namePart>
+        <namePart type="family">Hao</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 12, Issue 18</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Snow surface spectral reflectance is very important in the Earth’s climate system. Traditional land surface models with parameterized schemes can simulate broadband snow surface albedo but cannot accurately simulate snow surface spectral reflectance with continuous and fine spectral wavebands, which constitute the major observations of current satellite sensors; consequently, there is an obvious gap between land surface model simulations and remote sensing observations. Here, we suggest a new integrated scheme that couples a radiative transfer model with a land surface model to simulate high spectral resolution snow surface reflectance information specifically targeting multisource satellite remote sensing observations. Our results indicate that the new integrated model can accurately simulate snow surface reflectance information over a large spatial scale and continuous time series. The integrated model extends the range of snow spectral reflectance simulation to the whole shortwave band and can predict snow spectral reflectance changes in the solar spectrum region based on meteorological element data. The kappa coefficients (K) of both the narrowband snow albedo targeting Moderate Resolution Imaging Spectroradiometer (MODIS) data simulated by the new integrated model and the retrieved snow albedo based on MODIS reflectance data are 0.5, and both exhibit good spatial consistency. Our proposed narrowband snow albedo simulation scheme targeting satellite remote sensing observations is consistent with remote sensing satellite observations in time series and can predict narrowband snow albedo even during periods of missing remote sensing observations. This new integrated model is a significant improvement over traditional land surface models for the direct spectral observations of satellite remote sensing. The proposed model could contribute to the effective combination of snow surface reflectance information from multisource remote sensing observations with land surface models.</abstract>
+    <identifier type="citekey">Shao-2020-Modeling</identifier>
+    <identifier type="doi">10.3390/rs12183101</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-86002</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>18</number></detail>
+        <detail type="page"><number>3101</number></detail>
+    </part>
+</mods>
+</modsCollection>

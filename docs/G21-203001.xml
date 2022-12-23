@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Rogers-2021-Daily">
+    <titleInfo>
+        <title>Daily leaf area index from photosynthetically active radiation for long term records of canopy structure and leaf phenology</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Cheryl</namePart>
+        <namePart type="family">Rogers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jing</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Holly</namePart>
+        <namePart type="family">Croft</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alemu</namePart>
+        <namePart type="family">Gonsamo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiangzhong</namePart>
+        <namePart type="family">Luo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="family">Bartlett</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ralf</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Staebler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Agricultural and Forest Meteorology, Volume 304-305</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet We present four methods to calculate LAI on a daily basis from PAR. \bullet Each method shows high linear correlation to MODIS and LAI-2000 datasets. \bullet All methods provide a precise indication of start and end of the growing season. \bullet PAR based LAI has broad potential to reveal phenological response to global change. Leaf area index (LAI) is a critical biophysical indicator that describes foliage abundance in ecosystems. An accurate and continuous estimation of LAI is therefore desirable to quantify ecosystem status and function (e.g. carbon and water exchange between the land surface and the atmosphere). However, deriving accurate LAI measurements at regular temporal intervals remains challenging, requiring either destructive sampling or manual collection of canopy gap fraction measurements at discrete time intervals. In this study, we present four methods to obtain continuous LAI data, simply derived from above and below canopy measurements of photosynthetically active radiation (PAR) at the Borden Forest Research Station from 1999 to 2018. We compared LAI derived using the four PAR-based methods to independent measurements of LAI from optical methods and the MODIS satellite LAI product. LAI derived from all four PAR-based methods captured the seasonal changes in observed and remotely sensed LAI and showed a close linear correspondence with one another (R 2 of 0.55 to 0.76 compared to MODIS LAI, and R 2 of 0.78 to 0.84 compared to LAI-2000 measurements). A PAR-based method using Miller’s Integral theorem showed the strongest linear relationship with LAI-2000 measurements (R 2 =0.84, p\textless0.001, SE=0.40). In many years MODIS LAI indicated an earlier start of season and earlier end of season than the daily PAR-based LAI datasets showing systematic biases in the MODIS assessment of growing season. The four PAR-based LAI methods outlined in this study provide an LAI dataset of unprecedented temporal resolution. These methods will allow precise determination of phenological events, improve leaf to canopy scaling in process-based models, and provide valuable insight into dynamic vegetation responses to global climate change.</abstract>
+    <identifier type="citekey">Rogers-2021-Daily</identifier>
+    <identifier type="doi">10.1016/j.agrformet.2021.108407</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-14001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>304</number></detail>
+        <detail type="page"><number>108407</number></detail>
+    </part>
+</mods>
+</modsCollection>

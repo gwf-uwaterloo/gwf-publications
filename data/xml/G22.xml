@@ -433,6 +433,21 @@
 			<doi>10.1109/saner53432.2022.00109</doi>
 			<bibkey>Nafi-2022-Mining</bibkey>
 		</paper>
+		<paper id="2">
+			<title>Exploring Relevant Artifacts of Release Notes: The Practitioners' Perspective</title>
+			<author>
+				<first>Sristy Sumana</first>
+				<last>Nath</last>
+			</author>
+			<author>
+				<first>Banani</first>
+				<last>Roy</last>
+			</author>
+			<abstract>A software release note is one of the essential documents in the software development life cycle. The software release contains a set of information, e.g., bug fixes and security fixes. Release notes are used in different phases, e.g., requirement engineering, software testing and release management. Different types of practitioners (e.g., project managers and clients) get benefited from the release notes to understand the overview of the latest release. As a result, several studies have been done about release notes production and usage in practice. However, two significant problems (e.g., duplication and inconsistency in release notes contents) exist in producing well-written &amp; well-structured release notes and organizing appropriate information regarding different targeted users' needs. For that reason, practitioners face difficulties in writing and reading the release notes using existing tools. To mitigate these problems, we execute two different studies in our paper. First, we execute an exploratory study by analyzing 3,347 release notes of 21 GitHub repositories to understand the documented contents of the release notes. As a result, we find relevant key artifacts, e.g., issues (29%), pull-requests (32%), commits (19%), and common vulnerabilities and exposures (CVE) issues (6%) in the release note contents. Second, we conduct a survey study with 32 professionals to understand the key information that is included in release notes regarding users' roles. For example, project managers are more interested in learning about new features than less critical bug fixes. Our study can guide future research directions to help practitioners produce the release notes with relevant content and improve the documentation quality.</abstract>
+			<url hash="d945363d">G22-10001</url>
+			<doi>10.1109/saner53432.2022.00152</doi>
+			<bibkey>Nath-2022-Exploring</bibkey>
+		</paper>
 	</volume>
 	<volume id="12">
 		<meta>
@@ -1086,6 +1101,84 @@
 			<url hash="1b9cdacb">G22-18005</url>
 			<doi>10.1002/essoar.10510317.1</doi>
 			<bibkey>Abdelhamed-2022-Challenges</bibkey>
+		</paper>
+		<paper id="6">
+			<title>Significant underestimation of peatland permafrost along the Labrador Sea coastline</title>
+			<author>
+				<first>Yifeng</first>
+				<last>Wang</last>
+			</author>
+			<author>
+				<first>Robert G.</first>
+				<last>Way</last>
+			</author>
+			<author>
+				<first>Jordan</first>
+				<last>Beer</last>
+			</author>
+			<author>
+				<first>Anika</first>
+				<last>Forget</last>
+			</author>
+			<author>
+				<first>Rosamond</first>
+				<last>Tutton</last>
+			</author>
+			<author>
+				<first>Meredith C.</first>
+				<last>Purcell</last>
+			</author>
+			<abstract>Abstract. Northern peatlands cover approximately four million km2, and about half of these peatlands are estimated to contain permafrost and periglacial landforms, like palsas and peat plateaux. In northeastern Canada, peatland permafrost is predicted to be spatially concentrated in the western interior of Labrador and largely absent along the Labrador Sea and Gulf of St. Lawrence coastline. However, the paucity of observations of peatland permafrost in the interior coupled with ongoing use of perennially frozen peatlands along the coast by Labrador Inuit and Innu cast doubt on the reliability of existing maps of peatland permafrost distribution in the region. In this study, we develop a multi-stage consensus-based inventory of peatland permafrost complexes in coastal Labrador and adjacent parts of Quebec using high-resolution satellite imagery and validate it with extensive field visits and low-altitude aerial photography and videography. A total of 1885 wetland complexes were inventoried, of which 1023 were interpreted as likely containing peatland permafrost. Likely peatland permafrost complexes were mostly found in lowlands within 40 km of the coastline where mean annual air temperatures of up to +1.2 °C are recorded. Evaluation of the geographic distribution of peatland permafrost complexes reveals a clear gradient from the outer coasts, where peatland permafrost is more abundant, to inland peatlands, where permafrost is generally absent. This coastal gradient may be attributed to a combination of climatic and geomorphological influences which lead to lower insolation, thinner snowpacks, and more frost-susceptible materials along the coast. The results of this study also suggest that existing maps of permafrost distribution for southeastern Labrador require adjustment to better reflect the abundance of peatland permafrost complexes which are located to the south of the regional sporadic discontinuous permafrost limit. This study constitutes the first dedicated peatland permafrost inventory for Labrador, and our results provide an important baseline for future mapping, modelling, and climate change adaptation strategy development in the region.</abstract>
+			<url hash="6463363f">G22-5001</url>
+			<doi>10.5194/tc-2022-38</doi>
+			<bibkey>Wang-2022-Significant</bibkey>
+		</paper>
+		<paper id="7">
+			<title>Evaluating a reservoir parametrisation in the vector-based global routing model mizuRoute (v2.0.1) for Earth System Model coupling</title>
+			<author>
+				<first>Inne</first>
+				<last>Vanderkelen</last>
+			</author>
+			<author>
+				<first>Shervan</first>
+				<last>Gharari</last>
+			</author>
+			<author>
+				<first>Naoki</first>
+				<last>Mizukami</last>
+			</author>
+			<author>
+				<first>Martyn P.</first>
+				<last>Clark</last>
+			</author>
+			<author>
+				<first>David M.</first>
+				<last>Lawrence</last>
+			</author>
+			<author>
+				<first>Sean</first>
+				<last>Swenson</last>
+			</author>
+			<author>
+				<first>Yadu</first>
+				<last>Pokhrel</last>
+			</author>
+			<author>
+				<first>Naota</first>
+				<last>Hanasaki</last>
+			</author>
+			<author>
+				<first>Ann</first>
+				<last>van Griensven</last>
+			</author>
+			<author>
+				<first>Wim</first>
+				<last>Thiery</last>
+			</author>
+			<abstract>Abstract. Human-controlled reservoirs have a large influence on the global water cycle. While global hydrological models use generic parametrisations to model human dam operations, the representation of reservoir regulation is often still lacking in Earth System Models. Here we implement and evaluate a widely used reservoir parametrisation in the global river routing model mizuRoute, which operates on a vector-based river network resolving individual lakes and reservoirs, and which is currently being coupled to an Earth System Model. We develop an approach to determine the downstream area over which to aggregate irrigation water demand per reservoir. The implementation of managed reservoirs is evaluated by comparing to simulations ignoring inland waters, and simulations with reservoirs represented as natural lakes, using (i) local simulations for 26 individual reservoirs driven by observed inflows, and (ii) global-scale simulations driven by runoff from the Community Land Model. The local simulations show a clear added value of the reservoir parametrisation, especially for simulating storage for large reservoirs with a multi-year storage capacity. In the global-scale application, the implementation of reservoirs shows an improvement in outflow and storage compared to the no-reservoir simulation, but compared to the natural lake parametrisation, an overall similar performance is found. This lack of impact could be attributed to biases in simulated river discharge, mainly originating from biases in simulated runoff from the Community Land Model. Finally, the comparison of modelled monthly streamflow indices against observations highlights that the inclusion of dam operations improves the streamflow simulation compared to ignoring lakes and reservoirs. This study overall underlines the need to further develop and test water management parametrisations, as well as to improve runoff simulations for advancing the representation of anthropogenic interference with the terrestrial water cycle in Earth System Models.</abstract>
+			<url hash="734cfeb6">G22-12001</url>
+			<doi>10.5194/gmd-2022-16</doi>
+			<bibkey>Vanderkelen-2022-Evaluating</bibkey>
 		</paper>
 	</volume>
 	<volume id="19">
@@ -3043,7 +3136,7 @@
 			<year>2022</year>
 		</meta>
 		<paper id="1">
-			<title>The ABCflux database: Arctic–boreal CO&amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems</title>
+			<title>The ABCflux database: Arctic–boreal CO&lt;sub&gt;2&lt;/sub&gt; flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems</title>
 			<author>
 				<first>Anna-Maria</first>
 				<last>Virkkala​​​​​​​</last>
@@ -3928,6 +4021,41 @@
 			<url hash="fc0c0b16">G22-72001</url>
 			<doi>10.3389/fenvs.2022.908568</doi>
 			<bibkey>Jensen-2022-Microbial</bibkey>
+		</paper>
+		<paper id="2">
+			<title>Nitrogen Leaching From Agricultural Soils Under Imposed Freeze-Thaw Cycles: A Column Study With and Without Fertilizer Amendment</title>
+			<author>
+				<first>Konrad</first>
+				<last>Krogstad</last>
+			</author>
+			<author>
+				<first>Mehdi</first>
+				<last>Gharasoo</last>
+			</author>
+			<author>
+				<first>Grant</first>
+				<last>Jensen</last>
+			</author>
+			<author>
+				<first>Laura A.</first>
+				<last>Hug</last>
+			</author>
+			<author>
+				<first>David</first>
+				<last>Rudolph</last>
+			</author>
+			<author>
+				<first>Philippe</first>
+				<last>Van Cappellen</last>
+			</author>
+			<author>
+				<first>Fereidoun</first>
+				<last>Rezanezhad</last>
+			</author>
+			<abstract>Cold regions are warming faster than the rest of the planet, with the greatest warming occurring during the winter and shoulder seasons. Warmer winters are further predicted to result in more frequent soil freezing and thawing events. Freeze-thaw cycles affect biogeochemical soil processes and alter carbon and nutrient export from soils, hence impacting receiving ground and surface waters. Cold region agricultural management should therefore consider the possible effects on water quality of changing soil freeze-thaw dynamics under future climate conditions. In this study, soil column experiments were conducted to assess the leaching of fertilizer nitrogen (N) from an agricultural soil during the non-growing season. Identical time series temperature and precipitation were imposed to four parallel soil columns, two of which had received fertilizer amendments, the two others not. A 15-30-15 N-P-K fertilizer (5.8% ammonium and 9.2% urea) was used for fertilizer amendments. Leachates from the soil columns were collected and analyzed for major cations and anions. The results show that thawing following freezing caused significant export of chloride (Cl − ), sulfate (SO 4 2− ) and nitrate (NO 3 − ) from the fertilizer-amended soils. Simple plug flow reactor model calculations indicated that the high NO 3 − concentrations produced during the fertilized soil thawing events were due to nitrification of fertilizer N in the upper oxidized portion of the soil. The very low concentrations of NO 3 − and ammonium in the non-fertilized soils leachates implied that the freeze-thaw cycles had little impact on the mineralization of soil organic N. The findings, while preliminary, indicate that unwanted N enrichment of aquifers and rivers in agricultural areas caused by fall application of N fertilizers may be exacerbated by changing freeze-thaw activity.</abstract>
+			<url hash="61f95158">G22-11001</url>
+			<doi>10.3389/fenvs.2022.915329</doi>
+			<bibkey>Krogstad-2022-Nitrogen</bibkey>
 		</paper>
 	</volume>
 	<volume id="73">
@@ -4936,6 +5064,21 @@
 			<doi>10.1002/hyp.14515</doi>
 			<bibkey>Feigl-2022-Learning</bibkey>
 		</paper>
+		<paper id="2">
+			<title>Effects of lake‐groundwater interaction on the thermal regime of a sub‐alpine headwater stream</title>
+			<author>
+				<first>Benjamin</first>
+				<last>Roesky</last>
+			</author>
+			<author>
+				<first>Masaki</first>
+				<last>Hayashi</last>
+			</author>
+			<abstract>Stream thermal regimes are critical to the stability of freshwater habitats. There is growing concern that climate change will result in stream warming due to rising air temperatures, decreased shading in forested areas due to wildfires, and changes in streamflow. Groundwater plays an important role in controlling stream temperatures in mountain headwaters, where it makes up a considerable portion of discharge. This study investigated the controls on the thermal regime of a headwater stream, and the surrounding groundwater processes, in a catchment on the eastern slopes of the Canadian Rocky Mountains. Groundwater discharge to the headwater spring is partially sourced by a seasonal lake. Spring, stream and lake temperature, water level, discharge and chemistry data were used to build a conceptual model of the system. Meteorological data was used to set up a stream temperature model. This study presents a unique example of an indirectly lake-headed stream, that is, a lake that only has transient subsurface hydrologic connections to the stream and no surface connections. The interaction of groundwater and lake water, and the subsurface connectivity between the lake and the headwater spring determine the resulting stream temperature. Radiation dominated the non-advective fluxes in the stream energy balance. Sensible and latent heat fluxes play a secondary role, but their effects generally cancel out. During snowfall events, the latent heat associated with melting of direct snowfall onto the water surface was responsible for rapid stream cooling. An increase in advective inputs from groundwater and hillslope pathways did not result in observed cooling of stream water during rainfall events. The results from this study will assist water resource and fisheries managers in adapting to stream temperature changes under a warming climate.</abstract>
+			<url hash="f9b40e86">G22-2001</url>
+			<doi>10.1002/hyp.14501</doi>
+			<bibkey>Roesky-2022-Effects</bibkey>
+		</paper>
 	</volume>
 	<volume id="96">
 		<meta>
@@ -5149,6 +5292,502 @@
 			<pages>128711</pages>
 			<doi>10.1016/j.jhydrol.2022.128711</doi>
 			<bibkey>Pomeroy-2022-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="101">
+		<meta>
+			<booktitle>Eco-Environment &amp; Health, Volume 1, Issue 3</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Monthly variations of unregulated brominated disinfection by-products in chlorinated water are correlated with total bromine</title>
+			<author>
+				<first>Christena</first>
+				<last>Watts</last>
+			</author>
+			<author>
+				<first>Jianxian</first>
+				<last>Sun</last>
+			</author>
+			<author>
+				<first>Paul D.</first>
+				<last>Jones</last>
+			</author>
+			<author>
+				<first>Hui</first>
+				<last>Peng</last>
+			</author>
+			<author>
+				<first>John P.</first>
+				<last>Giesy</last>
+			</author>
+			<abstract>Brominated disinfection by-products (Br-DBPs) can form during chlorination of drinking water in treatment plants (DWTP). Regulations exist for a small subset of Br-DBPs; However, hundreds of unregulated Br-DBPs have been detected and limited information exists on their occurrence, concentrations, and seasonal trends. Here, a data-independent precursor isolation and characteristic fragment (DIPIC-Frag) method was optimized to screen chlorinated waters for Br-DBPs. There were 553 Br-DBPs detected with m/z values ranging from 170.884 to 497.0278 and chromatographic retention times from 2.4 to 26.2 min. With MS 2 information, structures for 40 of the 54 most abundant Br-DBPs were predicted. The method was then applied to a year-long study in which raw, clear well, and finished water were analyzed monthly. The 54 most abundant unregulated Br-DBPs were subjected to trend analysis. Br-DBPs with higher oxygen-to-carbon (O/C) and bromine-to-carbon (Br/C) ratios increased as water moved from the clear well to the finished stage, which indicated the dynamic formation of Br-DBPs. Monthly trends of unregulated Br-DBPs were compared to raw water parameters such as natural organic matter, temperature, and total bromine, but no correlations were observed. It was found that total concentrations of bromine (TBr) in finished water (0.04–0.12 mg/L) were consistently and significantly greater than in raw water (0.013–0.038 mg/L, P &lt; 0.001), suggesting the introduction of bromine during the disinfection process. Concentrations of TBr in treatment units, rather than raw water, were significantly correlated to 34 of the Br-DBPs at α = 0.05. This study provides the first evidence that monthly trends of unregulated Br-DBPs can be associated with the concentration of TBr in treated waters. - Ultrahigh resolution mass spectrometry was used to identify novel brominated disinfection byproducts in a Canadian water treatment facility. - Several hundred novel brominated compounds were identified of which 54 were assigned chemical structures. - Seasonal variation in the generated DBPs were assessed over 11 months of sampling. - Increases in total bromine in drinking water was noted with progress thru the treatment process.</abstract>
+			<url hash="eb01a168">G22-1001</url>
+			<pages>147-155</pages>
+			<doi>10.1016/j.eehl.2022.06.002</doi>
+			<bibkey>Watts-2022-Monthly</bibkey>
+		</paper>
+	</volume>
+	<volume id="102">
+		<meta>
+			<booktitle>Geoderma, Volume 417</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Mapping organic layer thickness and fuel load of the boreal forest in Alberta, Canada</title>
+			<author>
+				<first>Chelene C.</first>
+				<last>Hanes</last>
+			</author>
+			<author>
+				<first>Mike</first>
+				<last>Wotton</last>
+			</author>
+			<author>
+				<first>Douglas G.</first>
+				<last>Woolford</last>
+			</author>
+			<author>
+				<first>David L.</first>
+				<last>Martell</last>
+			</author>
+			<author>
+				<first>Mike</first>
+				<last>Flannigan</last>
+			</author>
+			<abstract>• Maps of organic layer thickness and fuel load were developed using machine learning. • Tree species was the most important variable in the final random forest model. • Error in our final models was close to the natural variability we expected to find. • The resultant maps will help improve fuel consumption models. Forest organic layers are important soil carbon pools that can, in the absence of disturbance, accumulate to great depths, especially in lowland areas. Across the Canadian boreal forest, fire is the primary disturbance agent, often limiting organic layer accumulation through the direct consumption of these fuels. Organic layer thickness (OLT) and fuel load (OLFL) are common physical attributes used to characterize these layers, especially for wildland fire science. Understanding the drivers and spatial distribution of these attributes is important to improve predictions of fire behaviour, emissions and effects models. We developed maps of OLT and OLFL using machine learning approaches (weighted K-nearest neighbour and random forests) for the forested region of the province of Alberta, Canada (538, 058 km 2 ). The random forests approach was found to be the best approach to model the spatial distribution of these forest floor attributes. A databased of 3, 237 OLT and 594 OLFL plots were used to train the models. The error in our final model, particularly for OLT (5 cm), was relatively close to the variability we would expect to find naturally (3 cm). The dominant tree species was the most important covariate in the models. Age, solar radiation, spatial location, climate variables and surficial geology were also important drivers, although their level of importance varied between tree species and depended on the modelling method that was used.</abstract>
+			<url hash="f9b40e86">G22-2001</url>
+			<pages>115827</pages>
+			<doi>10.1016/j.geoderma.2022.115827</doi>
+			<bibkey>Hanes-2022-Mapping</bibkey>
+		</paper>
+	</volume>
+	<volume id="103">
+		<meta>
+			<booktitle>Materials Today Communications, Volume 30</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>A xurography based rapid prototyping method to fabricate low-cost and high quality metal thin film micropatterns using metal leaves</title>
+			<author>
+				<first>Vinay</first>
+				<last>Patel</last>
+			</author>
+			<author>
+				<first>Peter</first>
+				<last>Kruse</last>
+			</author>
+			<author>
+				<first>P. Ravi</first>
+				<last>Selvaganapathy</last>
+			</author>
+			<abstract>Metal leaves are commercially available for decoration purposes and offers a low-cost alternative to sputtering thin metal films. Although thin metal leaves have been sparingly used in physical and chemical sensing and solar cells, their application has been limited primarily due to lack of a simple patterning methods and to form microscale features with them. Here, a low-cost, rapid and simple xurography based cutting method has been developed for direct pattering of metal leaves. The method was able to pattern features with line width of &lt; 100 µm and it was also able to cut patterns with a pitch of &lt; 100 µm. Conductive lines &lt; 250 µm were also achieved which is a sufficient resolution for application in sensors and most biomedical devices. The versatile capability of this method to cut various geometric shapes like circle, rectangle, triangles and hexagons was also demonstrated. The method is robust and can be applied to pattern leaves made of several materials or which gold, silver, palladium, aluminum and copper were demonstrated. This patterning method was used to fabricate contact electrodes for chemiresistive sensors with low and high surface roughness. These sensors were evaluated using the resistance and noise characteristics. The peak-to-peak noise for gold contact electrodes (11.5 nA) for chemiresistive sensors was significantly lower than the copper tape contact electrodes (18.2 nA). The process was also used to fabricate gold interdigitated electrodes for biamperometric glucose sensing at low potential (~10 mV). Finally, the method was used to indirectly pattern gold leaf on a shrink film to fabricate high surface 3D electrodes costing around one-fifth (~20%) of a sputtered gold electrode.</abstract>
+			<url hash="410869e3">G22-3001</url>
+			<pages>103132</pages>
+			<doi>10.1016/j.mtcomm.2022.103132</doi>
+			<bibkey>Patel-2022-A</bibkey>
+		</paper>
+	</volume>
+	<volume id="104">
+		<meta>
+			<booktitle>Science of The Total Environment, Volume 802</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Assessment of effective LAI and water use efficiency using Eddy Covariance data</title>
+			<author>
+				<first>Mazda</first>
+				<last>Kompanizare</last>
+			</author>
+			<author>
+				<first>Richard M.</first>
+				<last>Petrone</last>
+			</author>
+			<author>
+				<first>Merrin L.</first>
+				<last>Macrae</last>
+			</author>
+			<author>
+				<first>Kevin</first>
+				<last>De Haan</last>
+			</author>
+			<author>
+				<first>Myroslava</first>
+				<last>Khomik</last>
+			</author>
+			<abstract>Globally, maize ( Zea mays , a C4-plant) and alfalfa ( Medicago sativa , a C3-plant) are common and economically important crops. Predicting the response of their water use efficiency, WUE , to changing hydrologic and climatic conditions is vital in helping farmers adapt to a changing climate. In this study, we assessed the effective leaf area index ( eLAI - the leaf area most involved in CO 2 and H 2 O exchange) and stomatal conductance in canopy scale in maize and alfalfa fields. In the process we used a theoretically-based photosynthesis C3-C4 model (C3C4PM) and carbon and water vapour fluxes measured by Eddy Covariance towers at our study sites. We found that in our study sites the eLAI was in the range of 25–32% of the observed total LAI in these crops. WUE s were in range of 8–9 mmol/mol. C3C4PM can be used in predictions of stomatal conductance and eLAI responses in C3 and C4 agricultural crops to elevated CO 2 concentration and changes in precipitation and temperature under future climate scenarios. • ~25 (maize) &amp; 32% (alfalfa) of the observed crop LAI was involved in photosynthesis. • Extinction coefficient for beam radiation was 1.08 (maize) and 0.84 (alfalfa). • Canopy stomatal conductance, SC , was ~0.13 (maize) and ~0.15 (alfalfa). • Effective LAI and canopy SC can be evaluated by Eddy Covariance records.</abstract>
+			<url hash="dcdf515a">G22-4001</url>
+			<pages>149628</pages>
+			<doi>10.1016/j.scitotenv.2021.149628</doi>
+			<bibkey>Kompanizare-2022-Assessment</bibkey>
+		</paper>
+	</volume>
+	<volume id="105">
+		<meta>
+			<booktitle>Journal of Climate, Volume 35, Issue 1</booktitle>
+			<publisher>American Meteorological Society</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Quantifying the Human Influence on the Intensity of Extreme 1- and 5-Day Precipitation Amounts at Global, Continental, and Regional Scales</title>
+			<author>
+				<first>Qiaohong</first>
+				<last>Sun</last>
+			</author>
+			<author>
+				<first>Francis</first>
+				<last>Zwiers</last>
+			</author>
+			<author>
+				<first>Xuebin</first>
+				<last>Zhang</last>
+			</author>
+			<author>
+				<first>Jun</first>
+				<last>Yan</last>
+			</author>
+			<abstract>Abstract This study provides a comprehensive analysis of the human contribution to the observed intensification of precipitation extremes at different spatial scales. We consider the annual maxima of the logarithm of 1-day (Rx1day) and 5-day (Rx5day) precipitation amounts for 1950–2014 over the global land area, four continents, and several regions, and compare observed changes with expected responses to external forcings as simulated by CanESM2 in a large-ensemble experiment and by multiple models from phase 6 of the Coupled Model Intercomparison Project (CMIP6). We use a novel detection and attribution analysis method that is applied directly to station data in the areas considered without prior processing such as gridding, spatial or temporal dimension reduction or transformation to unitless indices and uses climate models only to obtain estimates of the space-time pattern of extreme precipitation response to external forcing. The influence of anthropogenic forcings on extreme precipitation is detected over the global land area, three continental regions (western Northern Hemisphere, western Eurasia and eastern Eurasia), and many smaller IPCC regions, including C. North-America, E. Asia, E.C. Asia, E. Europe, E. North-America, N. Europe, and W. Siberia for Rx1day, and C. North-America, E. Europe, E. North-America, N. Europe, Russian-Arctic, and W. Siberia for Rx5day. Consistent results are obtained using forcing response estimates from either CanESM2 or CMIP6. Anthropogenic influence is estimated to have substantially decreased the approximate waiting time between extreme annual maximum events in regions where anthropogenic influence has been detected, which has important implications for infrastructure design and climate change adaptation policy.</abstract>
+			<url hash="eb01a168">G22-1001</url>
+			<pages>195-210</pages>
+			<doi>10.1175/jcli-d-21-0028.1</doi>
+			<bibkey>Sun-2022-Quantifying</bibkey>
+		</paper>
+	</volume>
+	<volume id="106">
+		<meta>
+			<booktitle>Wetlands Ecology and Management, Volume 30, Issue 6</booktitle>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Evaluating ecosystem services for agricultural wetlands: a systematic review and meta-analysis</title>
+			<author>
+				<first>Asare</first>
+				<last>Eric</last>
+			</author>
+			<author>
+				<first>Mantyka-Pringle</first>
+				<last>Chrystal</last>
+			</author>
+			<author>
+				<first>Anderson</first>
+				<last>Erik</last>
+			</author>
+			<author>
+				<first>Belcher</first>
+				<last>Kenneth</last>
+			</author>
+			<author>
+				<first>Clark</first>
+				<last>Robert</last>
+			</author>
+			<abstract>Abstract Globally, the extent of inland wetlands has declined by approximately 70% since the start of the twentieth century, resulting in the loss of important wetland-associated ecosystem services. We evaluate the drivers of wetland values in agricultural landscapes to increase the effectiveness and reliability of benefit transfer tools to assign values to local wetland services. We reviewed 668 studies that analyzed wetland ecosystem services within agricultural environments and identified 45 studies across 22 countries that provided sufficient economic information to be included in a quantitative meta-analysis. We developed meta-regression models to represent provisioning and regulating wetland ecosystem services and identify the main drivers of these ecosystem service categories. Provisioning wetland ecosystem service values were best explained (direction of effects in parenthesis) by high-income variable (+), peer-reviewed journal publications (+), agricultural total factor productivity index (−) and population density (+), while agricultural total factor productivity index (−), income level ( +) and wetland area (−) had significant effects on regulating wetland ecosystem service values. Our models can help estimate wetland values more reliably across similar regions because they have significantly lower transfer errors (66 and 185% absolute percentage error for the provisioning and regulating models, respectively) than the errors from unit value transfers. Model predicted wetland values ($/Ha/Year) range from $0.62 to $11,216 for regulating services and $0.95 to $2,122 for provisioning services and vary based on the differences in the levels of the variables (in the wetland locations) that best explained the estimated models.</abstract>
+			<url hash="410869e3">G22-3001</url>
+			<pages>1129-1149</pages>
+			<doi>10.1007/s11273-022-09857-5</doi>
+			<bibkey>Eric-2022-Evaluating</bibkey>
+		</paper>
+	</volume>
+	<volume id="107">
+		<meta>
+			<booktitle>Journal of Hydrology: Regional Studies, Volume 39</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>The hydrochemical evolution of a constructed peatland in a post-mining landscape six years after construction</title>
+			<author>
+				<first>Kelly M.</first>
+				<last>Biagi</last>
+			</author>
+			<author>
+				<first>Sean K.</first>
+				<last>Carey</last>
+			</author>
+			<abstract>Reclamation of wetlands, including peatlands, is legally required in the Athabasca oil sands region following bitumen extraction via surface mining which leaves large open pits that are backfilled with saline tailings waste. Six years of hydrochemical data (2013 – 2018) from the Sandhill Fen Watershed (SFW), a 52-ha upland-peatland catchment that was built upon highly saline soft tailings, were used to evaluate salinity and ion patterns and provide insight on its trajectory. In general, electrical conductivity (EC) increased throughout SFW from 1) reduced inflow and outflow, 2) changes in water table positions and 3) increased mixing of site-wide waters. Salinity has increased site-wide over time as EC increased by an average of 1585 and 2313 µS/cm in the wetland and margins, respectively from 2013 to 2018. The uplands were the only region where EC declined by 1747 µS/cm over the six years. There is also evidence of mixing with underlying tailings waste (Na-Cl dominant) as the chemical composition of SFW waters shifted from largely Ca-dominant in 2013 (&gt; 90%) to Na-dominant by 2018 (&gt; 70%). Based on its current conditions, SFW cannot support freshwater peat-forming bryophytes and is most chemically similar to naturally occurring saline fens. A shift in design strategies is recommended (replicating saline instead of freshwater peatlands) to increase the success of these systems. Changes in site-wide average annual electrical conductivity (µS/cm) from 2013 to 2018. • Electrical conductivity (EC) and Na+ increased site-wide from 2013 to 2018. • Decreased inflow and outflow increased EC and ion accumulation. • Higher water tables diluted wetland EC and increased margin EC (ion mobilization). • Increased mixing with tailings waste shifted waters from Ca +2 to Na + dominant. • Waters have become similar to brackish marshes and saline fens.</abstract>
+			<url hash="dcdf515a">G22-4001</url>
+			<pages>100978</pages>
+			<doi>10.1016/j.ejrh.2021.100978</doi>
+			<bibkey>Biagi-2022-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="108">
+		<meta>
+			<booktitle>Environmental Modelling &amp; Software, Volume 148</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>The pie sharing problem: Unbiased sampling of N+1 summative weights</title>
+			<author>
+				<first>Juliane</first>
+				<last>Mai</last>
+			</author>
+			<author>
+				<first>James R.</first>
+				<last>Craig</last>
+			</author>
+			<author>
+				<first>Bryan A.</first>
+				<last>Tolson</last>
+			</author>
+			<abstract>A simple algorithm is provided for randomly sampling a set of N +1 weights such that their sum is constrained to be equal to one, analogous to randomly subdividing a pie into N +1 slices where the probability distribution of slice volumes are identically distributed. The cumulative density and probability density functions of the random weights are provided. The algorithmic implementation for the random number sampling are made available. This algorithm has potential applications in calibration, uncertainty analysis, and sensitivity analysis of environmental models. Three example applications are provided to demonstrate the efficiency and superiority of the proposed method compared to alternative sampling methods. • Present unbiased method to sample weights that sum up to 1. • Examples demonstrating the benefit of unbiased sampling. • Code made available in multiple languages.</abstract>
+			<url hash="6463363f">G22-5001</url>
+			<pages>105282</pages>
+			<doi>10.1016/j.envsoft.2021.105282</doi>
+			<bibkey>Mai-Craig-2022-The-pie</bibkey>
+		</paper>
+	</volume>
+	<volume id="109">
+		<meta>
+			<booktitle>MethodsX, Volume 9</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Methods for stability assessment of electrically conductive membranes</title>
+			<author>
+				<first>Mohamad Amin</first>
+				<last>Halali</last>
+			</author>
+			<author>
+				<first>Charles-Franҫois</first>
+				<last>de Lannoy</last>
+			</author>
+			<abstract>The surface properties of electrically conductive membranes (ECMs) govern their advanced abilities. During operation, these properties may differ considerably from their initially measured properties. Depending on their operating conditions, ECMs may undergo various degrees of passivation. ECM passivation can detrimentally impact their real time performance, causing large deviations from expected behaviour based on their initially measured properties. Quantifying these changes will enable consistent performance comparisons across the active and electrically conductive membrane research field. As such, consistent methods must be established to quantify ECM membrane properties. In this work, we proposed three standardized methods to assess the electrochemical, chemical, and physical stability of such membrane coatings: 1) electrochemical oxidation, 2) surface scratch testing, and 3) pressurized leaching. ECMs were synthesized by the most common approach - coating support ultrafiltration (UF) and/or microfiltration (MF) polyethersulfone (PES) membranes with carbon nanotubes (CNT) cross-linked with polyvinyl alcohol (PVA) and two types of cross-linkers (either succinic acid (SA) or glutaraldehyde (GA)). We then evaluated these ECMs based on the three standardized methods: 1) We evaluated electrochemical stability as a function of electro-oxidation induced by applying anodic potentials. 2) We measured the scratch resistance to quantify the surface mechanical stability. 3) We measured physical stability by quantifying the leaching of PVA during separation of a model foulant (polyethylene oxide (PEO)). Our methods can be extended to all types of electrically conductive membranes including MF, UF, nanofiltration (NF), and reverse osmosis (RO) ECMs. We propose that these fundamental measurements are critical to assessing the viability of ECMs for industrial MF, UF, NF, and RO applications.•Anodic-oxidation was used to check the electrochemical stability of ECMs•Depth of penetration resulted from scratch test is an indicator of the electrically conductive membrane coating's mechanical stability•The leaching of the main components forming the nanolayer was quantified to assess the membranes' physical stability.</abstract>
+			<url hash="76d699d1">G22-6001</url>
+			<pages>101627</pages>
+			<doi>10.1016/j.mex.2022.101627</doi>
+			<bibkey>Halali-2022-Methods</bibkey>
+		</paper>
+	</volume>
+	<volume id="110">
+		<meta>
+			<booktitle>Science of The Total Environment, Volume 807</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>16S rRNA metabarcoding unearths responses of rare gut microbiome of fathead minnows exposed to benzo[a]pyrene</title>
+			<author>
+				<first>Abigail</first>
+				<last>DeBofsky</last>
+			</author>
+			<author>
+				<first>Yuwei</first>
+				<last>Xie</last>
+			</author>
+			<author>
+				<first>Jonathan K.</first>
+				<last>Challis</last>
+			</author>
+			<author>
+				<first>Phillip J.</first>
+				<last>Ankley</last>
+			</author>
+			<author>
+				<first>Markus</first>
+				<last>Brinkmann</last>
+			</author>
+			<author>
+				<first>Paul D.</first>
+				<last>Jones</last>
+			</author>
+			<author>
+				<first>John P.</first>
+				<last>Giesy</last>
+			</author>
+			<abstract>Activities of gut microbiomes are often overlooked in assessments of ecotoxicological effects of environmental contaminants. Effects of the polycyclic aromatic hydrocarbon, benzo[a]pyrene (BaP) on active gut microbiomes of juvenile fathead minnows (Pimephales promelas) were investigated. Fish were exposed for two weeks, to concentrations of 0, 1, 10, 100, or 1000 μg BaP g-1 in the diet. The active gut microbiome was characterized using 16S rRNA metabarcoding to determine its response to dietary exposure of BaP. BaP reduced alpha-diversity at the greatest exposure concentrations. Additionally, exposure to BaP altered community composition of active microbiome and resulted in differential proportion of taxa associated with hydrocarbon degradation and fish health. Neighborhood selection networks of active microbiomes were not reduced with greater concentrations of BaP, which suggests ecological resistance and/or resilience of gut microbiota. The active gut microbiome had a similar overall biodiversity as that of the genomic gut microbiota, but had a distinct composition from that of the 16S rDNA profile. Responses of alpha- and beta-diversities of the active microbiome to BaP exposure were consistent with that of genomic microbiomes. Normalized activity of microbiome via the ratio of rRNA to rDNA abundance revealed rare taxa that became active or dormant due to exposure to BaP. These differences highlight the need to assess both 16S rDNA and rRNA metabarcoding to fully derive bacterial compositional changes resulting from exposure to contaminants.</abstract>
+			<url hash="ce6afeb4">G22-7001</url>
+			<pages>151060</pages>
+			<doi>10.1016/j.scitotenv.2021.151060</doi>
+			<bibkey>DeBofsky-2022-16S</bibkey>
+		</paper>
+	</volume>
+	<volume id="111">
+		<meta>
+			<booktitle>Weather and Climate Extremes, Volume 36</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>Human influence on the 2021 British Columbia floods</title>
+			<author>
+				<first>Nathan P.</first>
+				<last>Gillett</last>
+			</author>
+			<author>
+				<first>Alex J.</first>
+				<last>Cannon</last>
+			</author>
+			<author>
+				<first>Elizaveta</first>
+				<last>Malinina</last>
+			</author>
+			<author>
+				<first>Markus</first>
+				<last>Schnorbus</last>
+			</author>
+			<author>
+				<first>Faron</first>
+				<last>Anslow</last>
+			</author>
+			<author>
+				<first>Qiaohong</first>
+				<last>Sun</last>
+			</author>
+			<author>
+				<first>Megan</first>
+				<last>Kirchmeier-Young</last>
+			</author>
+			<author>
+				<first>Francis</first>
+				<last>Zwiers</last>
+			</author>
+			<author>
+				<first>Christian</first>
+				<last>Seiler</last>
+			</author>
+			<author>
+				<first>Xuebin</first>
+				<last>Zhang</last>
+			</author>
+			<author>
+				<first>Greg</first>
+				<last>Flato</last>
+			</author>
+			<author>
+				<first>Hui</first>
+				<last>Wan</last>
+			</author>
+			<author>
+				<first>Guilong</first>
+				<last>Li</last>
+			</author>
+			<author>
+				<first>Armel</first>
+				<last>Castellan</last>
+			</author>
+			<abstract>A strong atmospheric river made landfall in southwestern British Columbia, Canada on November 14th, 2021, bringing two days of intense precipitation to the region. The resulting floods and landslides led to the loss of at least five lives, cut Vancouver off entirely from the rest of Canada by road and rail, and made this the costliest natural disaster in the province's history. Here we show that when characterised in terms of storm-averaged water vapour transport, the variable typically used to characterise the intensity of atmospheric rivers, westerly atmospheric river events of this magnitude are approximately one in ten year events in the current climate of this region, and that such events have been made at least 60% more likely by the effects of human-induced climate change. Characterised in terms of the associated two-day precipitation, the event is substantially more extreme, approximately a one in fifty to one in a hundred year event, and the probability of events at least this large has been increased by a best estimate of 45% by human-induced climate change. The effects of this precipitation on streamflow were exacerbated by already wet conditions preceding the event, and by rising temperatures during the event that led to significant snowmelt, which led to streamflow maxima exceeding estimated one in a hundred year events in several basins in the region. Based on a large ensemble of simulations with a hydrological model which integrates the effects of multiple climatic drivers, we find that the probability of such extreme streamflow events in October to December has been increased by human-induced climate change by a best estimate of 120–330%. Together these results demonstrate the substantial human influence on this compound extreme event, and help motivate efforts to increase resiliency in the face of more frequent events of this kind in the future.</abstract>
+			<url hash="9609eee2">G22-8001</url>
+			<pages>100441</pages>
+			<doi>10.1016/j.wace.2022.100441</doi>
+			<bibkey>Gillett-Cannon-2022-Human-influence</bibkey>
+		</paper>
+	</volume>
+	<volume id="112">
+		<meta>
+			<booktitle>Environmental Research Communications, Volume 4, Issue 2</booktitle>
+			<publisher>IOP Publishing</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>The definition of the non-growing season matters: a case study of net ecosystem carbon exchange from a Canadian peatland</title>
+			<author>
+				<first>Arash</first>
+				<last>Rafat</last>
+			</author>
+			<author>
+				<first>Eunji</first>
+				<last>Byun</last>
+			</author>
+			<author>
+				<first>Fereidoun</first>
+				<last>Rezanezhad</last>
+			</author>
+			<author>
+				<first>William L</first>
+				<last>Quinton</last>
+			</author>
+			<author>
+				<first>Elyn R</first>
+				<last>Humphreys</last>
+			</author>
+			<author>
+				<first>Kara</first>
+				<last>Webster</last>
+			</author>
+			<author>
+				<first>Philippe</first>
+				<last>Van Cappellen</last>
+			</author>
+			<abstract>Abstract Climate change is a threat to the 500 Gt carbon stored in northern peatlands. As the region warms, the rise in mean temperature is more pronounced during the non-growing season (NGS, i.e., winter and parts of the shoulder seasons) when net ecosystem loss of carbon dioxide (CO 2 ) occurs. Many studies have investigated the impacts of climate warming on NGS CO 2 emissions, yet there is a lack of consistency amongst researchers in how the NGS period is defined. This complicates the interpretation of NGS CO 2 emissions and hinders our understanding of seasonal drivers of important terrestrial carbon exchange processes. Here, we analyze the impact of alternative definitions of the NGS for a peatland site with multiple years of CO 2 flux records. Three climatic parameters were considered to define the NGS: air temperature, soil temperature, and snow cover. Our findings reveal positive correlations between estimates of the cumulative non-growing season net ecosystem CO 2 exchange (NGS-NEE) and the length of the NGS for each alternative definition, with the greatest proportion of variability explained using snow cover ( R 2 = 0.89, p &lt; 0.001), followed by air temperature ( R 2 = 0.79, p &lt; 0.001) and soil temperature ( R 2 = 0.54, p = 0.006). Using these correlations, we estimate average daily NGS CO 2 emitted between 1.42 and 1.90 gCO 2 m −2 , depending on which NGS definition is used. Our results highlight the need to explicitly define the NGS based on available climatic parameters to account for regional climate and ecosystem variability.</abstract>
+			<url hash="2eb58987">G22-9001</url>
+			<pages>021003</pages>
+			<doi>10.1088/2515-7620/ac53c2</doi>
+			<bibkey>Rafat-2022-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="113">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 26, Issue 8</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address />
+			<year>2022</year>
+		</meta>
+		<paper id="1">
+			<title>A socio-hydrological framework for understanding  conflict and cooperation with respect to transboundary rivers</title>
+			<author>
+				<first>Yongping</first>
+				<last>Wei</last>
+			</author>
+			<author>
+				<first>Jing</first>
+				<last>Wei</last>
+			</author>
+			<author>
+				<first>Gen</first>
+				<last>Li</last>
+			</author>
+			<author>
+				<first>Shuanglei</first>
+				<last>Wu</last>
+			</author>
+			<author>
+				<first>David</first>
+				<last>Yu</last>
+			</author>
+			<author>
+				<first>Mohammad</first>
+				<last>Ghoreishi</last>
+			</author>
+			<author>
+				<first>You</first>
+				<last>Lu</last>
+			</author>
+			<author>
+				<first>Felipe Augusto Arguello</first>
+				<last>Souza</last>
+			</author>
+			<author>
+				<first>Murugesu</first>
+				<last>Sivapalan</last>
+			</author>
+			<author>
+				<first>Fuqiang</first>
+				<last>Tian</last>
+			</author>
+			<abstract>Abstract. Increasing hydrological variability, accelerating population growth and urbanisation, and the resurgence of water resources development projects have all indicated increasing tension among the riparian countries of transboundary rivers. While a wide range of disciplines develop their understandings of conflict and cooperation in transboundary river basins, few process-based interdisciplinary approaches are available for investigating the mechanism of conflict and cooperation. This article aims to develop a meta-theoretical socio-hydrological framework that brings the slow and less visible societal processes into existing hydrological–economic models and enables observations of the change in the cooperation process and the societal processes underlying this change, thereby contributing to revealing the mechanism that drives conflict and cooperation. This framework can act as a “middle ground”, providing a system of constituent disciplinary theories and models for developing formal models according to a specific problem or system under investigation. Its potential applicability is demonstrated in the Nile, Lancang–Mekong, and Columbia rivers.</abstract>
+			<url hash="cbf099d3">G22-13001</url>
+			<pages>2131-2146</pages>
+			<doi>10.5194/hess-26-2131-2022</doi>
+			<bibkey>Wei-2022-A</bibkey>
 		</paper>
 	</volume>
 </collection>

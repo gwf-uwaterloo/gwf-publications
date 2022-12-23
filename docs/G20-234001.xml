@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Kinar-2020-Signal">
+    <titleInfo>
+        <title>Signal processing for in situ detection of effective heat pulse probe spacing radius as the basis of a self-calibrating heat pulse probe</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Kinar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bing</namePart>
+        <namePart type="family">Si</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoscientific Instrumentation, Methods and Data Systems, Volume 9, Issue 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. A sensor comprised of an electronic circuit and a hybrid single and dual heat pulse probe was constructed and tested along with a novel signal processing procedure to determine changes in the effective dual-probe spacing radius over the time of measurement. The circuit utilized a proportional–integral–derivative (PID) controller to control heat inputs into the soil medium in lieu of a variable resistor. The system was designed for onboard signal processing and implemented USB, RS-232, and SDI-12 interfaces for machine-to-machine (M2M) exchange of data, thereby enabling heat inputs to be adjusted to soil conditions and data availability shortly after the time of experiment. Signal processing was introduced to provide a simplified single-probe model to determine thermal conductivity instead of reliance on late-time logarithmic curve fitting. Homomorphic and derivative filters were used with a dual-probe model to detect changes in the effective probe spacing radius over the time of experiment to compensate for physical changes in radius as well as model and experimental error. Theoretical constraints were developed for an efficient inverse of the exponential integral on an embedded system. Application of the signal processing to experiments on sand and peat improved the estimates of soil water content and bulk density compared to methods of curve fitting nominally used for heat pulse probe experiments. Applications of the technology may be especially useful for soil and environmental conditions under which effective changes in probe spacing radius need to be detected and compensated for over the time of experiment.</abstract>
+    <identifier type="citekey">Kinar-2020-Signal</identifier>
+    <identifier type="doi">10.5194/gi-9-293-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-93001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>9</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>293</start>
+            <end>315</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Beven-2021-A">
+    <titleInfo>
+        <title>A history of TOPMODEL</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Keith</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Beven</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mike</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Kirkby</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jim</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Freer</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rob</namePart>
+        <namePart type="family">Lamb</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 25, Issue 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. The theory that forms the basis of TOPMODEL (a topography-based hydrological model) was first outlined by Mike Kirkby some 45 years ago. This paper recalls some of the early developments, the rejection of the first journal paper, the early days of digital terrain analysis, model calibration and validation, the various criticisms of the simplifying assumptions, and the relaxation of those assumptions in the dynamic forms of TOPMODEL. A final section addresses the question of what might be done now in seeking a simple, parametrically parsimonious model of hillslope and small catchment processes if we were starting again.</abstract>
+    <identifier type="citekey">Beven-2021-A</identifier>
+    <identifier type="doi">10.5194/hess-25-527-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-72001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>25</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>527</start>
+            <end>549</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

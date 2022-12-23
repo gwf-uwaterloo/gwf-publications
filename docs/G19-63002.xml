@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Green-Bohn-2019-Direct-Function">
+    <titleInfo>
+        <title>Direct Function Evaluation versus Lookup Tables: When to Use Which?</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Green</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tanner</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Bohn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>SIAM Journal on Scientific Computing, Volume 41, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Society for Industrial &amp; Applied Mathematics (SIAM)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>The speed of mathematical function evaluations can significantly contribute to the overall performance of numerical simulations. Two common approaches to evaluate a mathematical function are by dir...</abstract>
+    <identifier type="citekey">Green-Bohn-2019-Direct-Function</identifier>
+    <identifier type="doi">10.1137/18m1201421</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-2001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>41</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>C194</start>
+            <end>C218</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

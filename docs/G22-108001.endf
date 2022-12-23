@@ -1,0 +1,16 @@
+﻿%0 Journal Article
+%T The pie sharing problem: Unbiased sampling of N+1 summative weights
+%A Mai, Juliane
+%A Craig, James R.
+%A Tolson, Bryan A.
+%J Environmental Modelling & Software, Volume 148
+%D 2022
+%V 148
+%I Elsevier BV
+%F Mai-Craig-2022-The-pie
+%X A simple algorithm is provided for randomly sampling a set of N +1 weights such that their sum is constrained to be equal to one, analogous to randomly subdividing a pie into N +1 slices where the probability distribution of slice volumes are identically distributed. The cumulative density and probability density functions of the random weights are provided. The algorithmic implementation for the random number sampling are made available. This algorithm has potential applications in calibration, uncertainty analysis, and sensitivity analysis of environmental models. Three example applications are provided to demonstrate the efficiency and superiority of the proposed method compared to alternative sampling methods. \bullet Present unbiased method to sample weights that sum up to 1. \bullet Examples demonstrating the benefit of unbiased sampling. \bullet Code made available in multiple languages.
+%R 10.1016/j.envsoft.2021.105282
+%U https://aclanthology.org/G22-5001
+%U https://doi.org/10.1016/j.envsoft.2021.105282
+%P 105282
+

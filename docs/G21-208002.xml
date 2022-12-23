@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Choi-2021-Toward">
+    <titleInfo>
+        <title>Toward open and reproducible environmental modeling by integrating online data repositories, computational environments, and model Application Programming Interfaces</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Young-Don</namePart>
+        <namePart type="family">Choi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jonathan</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Goodall</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Sadler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anthony</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Castronova</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Bennett</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhiyu</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bart</namePart>
+        <namePart type="family">Nijssen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shaowen</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Ames</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffery</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Horsburgh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hong</namePart>
+        <namePart type="family">Yi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christina</namePart>
+        <namePart type="family">Bandaragoda</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Seul</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="family">Hooper</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Tarboton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Modelling &amp; Software, Volume 135</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Cyberinfrastructure needs to be advanced to enable open and reproducible environmental modeling research. Recent efforts toward this goal have focused on advancing online repositories for data and model sharing, online computational environments along with containerization technology and notebooks for capturing reproducible computational studies, and Application Programming Interfaces (APIs) for simulation models to foster intuitive programmatic control. The objective of this research is to show how these efforts can be integrated to support reproducible environmental modeling. We present first the high-level concept and general approach for integrating these three components. We then present one possible implementation that integrates HydroShare (an online repository), CUAHSI JupyterHub and CyberGIS-Jupyter for Water (computational environments), and pySUMMA (a model API) to support open and reproducible hydrologic modeling. We apply the example implementation for a hydrologic modeling use case to demonstrate how the approach can advance reproducible environmental modeling through the seamless integration of cyberinfrastructure services. \bullet New approaches are needed to support open and reproducible environmental modeling. \bullet Efforts should focus on integrating existing cyberinfrastructure to build new systems. \bullet Our focus is on integrating repositories, computational environments, and model APIs. \bullet An example implementation is shown using HydroShare, JupyterHub, and pySUMMA. \bullet We demonstrate how the approach fosters reproducibility using a modeling case study.</abstract>
+    <identifier type="citekey">Choi-2021-Toward</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2020.104888</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-19002</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>135</number></detail>
+        <detail type="page"><number>104888</number></detail>
+    </part>
+</mods>
+</modsCollection>

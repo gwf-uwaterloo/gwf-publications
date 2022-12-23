@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Bahrami-2021-Data">
+    <titleInfo>
+        <title>Data assimilation of satellite-based terrestrial water storage changes into a hydrology land-surface model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ala</namePart>
+        <namePart type="family">Bahrami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kalifa</namePart>
+        <namePart type="family">Goïta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ramata</namePart>
+        <namePart type="family">Magagi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">Davison</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mohamed</namePart>
+        <namePart type="family">Elshamy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Princz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 597</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet Development of the ensemble-based data assimilation framework is examined. \bullet GRACE assimilation improves the simulation of snow estimates at the basin and grid scales. \bullet Data assimilation can effectively constrain the amplitude of modeled water storage dynamics. \bullet GRACE data assimilation improves the simulation of high flows during snowmelt season. Accurate estimation of snow mass or snow water equivalent (SWE) over space and time is required for global and regional predictions of the effects of climate change. This work investigates whether integration of remotely sensed terrestrial water storage (TWS) information, which is derived from the Gravity Recovery and Climate Experiment (GRACE), can improve SWE and streamflow simulations within a semi-distributed hydrology land surface model. A data assimilation (DA) framework was developed to combine TWS observations with the MESH (Modélisation Environnementale Communautaire – Surface Hydrology) model using an ensemble Kalman smoother (EnKS). The snow-dominated Liard Basin was selected as a case study. The proposed assimilation methodology reduced bias of monthly SWE simulations at the basin scale by 17.5% and improved unbiased root-mean-square difference (ubRMSD) by 23%. At the grid scale, the DA method improved ubRMSD values and correlation coefficients for 85% and 97% of the grid cells, respectively. Effects of GRACE DA on streamflow simulations were evaluated against observations from three river gauges, where it effectively improved the simulation of high flows during snowmelt season from April to June. The influence of GRACE DA on the total flow volume and low flows was found to be variable. In general, the use of GRACE observations in the assimilation framework not only improved the simulation of SWE, but also effectively influenced streamflow simulations.</abstract>
+    <identifier type="citekey">Bahrami-2021-Data</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2020.125744</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-27001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>597</number></detail>
+        <detail type="page"><number>125744</number></detail>
+    </part>
+</mods>
+</modsCollection>

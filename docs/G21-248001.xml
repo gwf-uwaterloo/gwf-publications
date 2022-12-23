@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="He-2021-Crop">
+    <titleInfo>
+        <title>Crop Biomass Mapping Based on Ecosystem Modeling at Regional Scale Using High Resolution Sentinel-2 Data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Liming</namePart>
+        <namePart type="family">He</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rong</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Georgy</namePart>
+        <namePart type="family">Mostovoy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jane</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jing</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jiali</namePart>
+        <namePart type="family">Shang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jiangui</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Heather</namePart>
+        <namePart type="family">McNairn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jarrett</namePart>
+        <namePart type="family">Powers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 13, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>We evaluate the potential of using a process-based ecosystem model (BEPS) for crop biomass mapping at 20 m resolution over the research site in Manitoba, western Canada driven by spatially explicit leaf area index (LAI) retrieved from Sentinel-2 spectral reflectance throughout the entire growing season. We find that overall, the BEPS-simulated crop gross primary production (GPP), net primary production (NPP), and LAI time-series can explain 82%, 83%, and 85%, respectively, of the variation in the above-ground biomass (AGB) for six selected annual crops, while an application of individual crop LAI explains only 50% of the variation in AGB. The linear relationships between the AGB and these three indicators (GPP, NPP and LAI time-series) are rather high for the six crops, while the slopes of the regression models vary for individual crop type, indicating the need for calibration of key photosynthetic parameters and carbon allocation coefficients. This study demonstrates that accumulated GPP and NPP derived from an ecosystem model, driven by Sentinel-2 LAI data and abiotic data, can be effectively used for crop AGB mapping; the temporal information from LAI is also effective in AGB mapping for some crop types.</abstract>
+    <identifier type="citekey">He-2021-Crop</identifier>
+    <identifier type="doi">10.3390/rs13040806</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-63001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>806</number></detail>
+    </part>
+</mods>
+</modsCollection>

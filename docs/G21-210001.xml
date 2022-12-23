@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Tefs-2021-Simulating">
+    <titleInfo>
+        <title>Simulating river regulation and reservoir performance in a continental-scale hydrologic model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Tefs</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">T</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Stadnyk</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Koenig</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Déry</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">MacDonald</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Slota</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Crawford</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">M</namePart>
+        <namePart type="family">Hamilton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Modelling &amp; Software, Volume 141</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract This study develops a novel reservoir regulation routine, incorporated into a continental-scale hydrologic model in the Nelson, Churchill, Yenisey, Ob, and Lena basins. This regulation routine is integrated into the Hydrological Predictions for the Environment (HYPE) hydrologic model, used for continental-scale applications. Applying this daily timestep regulation routine at 19 reservoirs in the Arctic Ocean watershed, performance is shown to improve upon the reservoir regulation currently available in the HYPE model when testing outflow and storage Nash Sutcliffe Efficiencies (NSEs). Improvements stem from intra-annually variable storage rule curves and a variety of stage-dependent outflow functions, improving simulation skill (median NSE increases of 0.18 over 21 reservoir outflow records and 0.49 over 19 reservoir storage records). This new, reservoir regulation routine is suitable for continental-scale modelling by deriving varying, rather than fixed, threshold water surface levels and associated outflow rules in a programmatic way for multiple reservoirs.</abstract>
+    <identifier type="citekey">Tefs-2021-Simulating</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2021.105025</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-21001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>141</number></detail>
+        <detail type="page"><number>105025</number></detail>
+    </part>
+</mods>
+</modsCollection>

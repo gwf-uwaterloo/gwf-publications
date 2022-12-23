@@ -1,5 +1,4 @@
 import os
-import yaml
 import pandas as pd
 from typing import Any
 from typing import Dict
@@ -201,33 +200,24 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
         json_object = json.load(openfile)
 
     with open(abstract_file, 'r') as openfile:     
-        abstract_dict = json.load(openfile)            
-
-    with_abs, without_abs = 0, 0
+        abstract_dict = json.load(openfile)
 
     paper_dict = {}
     json_object = {key: item for key, item in json_object.items() if ('author' in item) and (item['title'])} # drop papers without title or author 
-    print(len(json_object))
-    count = 0
-    count1 = 0
-    count2 = 0
+        
     for key, item in json_object.items():
         try:
             year = item['published']['date-parts'][0][0]
-            count1 += 1
             journal = item['container-title'][0] if item['container-title'] else ' '
-            count2 += 1
             volume = item['volume'] if 'volume' in item else ''
             issue = item['issue'] if 'issue' in item else ''
             pub_key = 'journal: '+journal+' volume: '+volume+' issue: '+issue
             if year not in paper_dict: paper_dict[year]={}
             if pub_key not in paper_dict[year]: paper_dict[year][pub_key]={}
             paper_dict[year][pub_key][key] = item     
-        except:
-            count += 1
+        except:            
             pass
-    
-    print(count, count1, count2)
+        
     for year, year_dict in paper_dict.items():        
         tag_collection = et.Element("collection")
         tag_collection.set('id', "G"+str(year)[-2:])
@@ -272,7 +262,7 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
                     tag_subsubelement.text = (author['family'] if 'family' in author else '')
 
                 tag_subelement = et.SubElement(tag_paper, "abstract")
-                tag_subelement.text = abstract_dict[tmep_dict_item['DOI']] if tmep_dict_item['DOI'] in abstract_dict else ''                                        
+                tag_subelement.text = abstract_dict[tmep_dict_item['DOI']] if tmep_dict_item['DOI'] in abstract_dict else ''
                 tag_subelement = et.SubElement(tag_paper, "url")
                 tag_subelement.text =  f'G{str(year)[-2:]}-{index+1}{(idx+1):03}'
                 tag_subelement.set('hash', compute_hash(str.encode(tag_subelement.text)))
@@ -284,19 +274,19 @@ def create_xml_yaml_files(input_file: str, abstract_file: str):
                 tag_subelement = et.SubElement(tag_paper, "doi")
                 tag_subelement.text = tmep_dict_item['DOI']
                 tag_subelement = et.SubElement(tag_paper, "bibkey")
-                bibkey = generate_bibkey(tmep_dict_item['title'][0], tmep_dict_item['author'], year, bibkey_list)            
+                bibkey = generate_bibkey(tmep_dict_item['title'][0], tmep_dict_item['author'], year, bibkey_list)
                 tag_subelement.text = bibkey
                 bibkey_list.append(bibkey)
 
         tree = et.ElementTree(tag_collection)
         file_name = "G"+str(year)[-2:]+".xml"
         with open (file_name, "wb") as files :
-            tree.write(files, encoding='UTF-8', xml_declaration=True)        
+            tree.write(files, encoding='UTF-8', xml_declaration=True)
         
         xml_pretty_str = md.parse(file_name)
         xml_pretty_str = xml_pretty_str.toprettyxml(encoding='UTF-8').decode()
         with open(file_name, "w", encoding="utf-8") as f:
-            f.write(xml_pretty_str)        
+            f.write(xml_pretty_str)
 
     dict_file = []
     for key in json_object:
@@ -325,8 +315,3 @@ if __name__ == "__main__":
     # create_xml_yaml_files('result.json', 'abstract.json')     # 4th
     
     handle_HTML_entities("data/xml/G22.xml")
-
-    # paper_df = pd.read_csv('output_all_non.csv', header=0).fillna("").iloc[:,0]
-    # for paper in paper_df:
-    #     get_doi(re.split("([Dd][Oo][Ii])", paper)[0])
-    #     print(similar_count, no_data_count)

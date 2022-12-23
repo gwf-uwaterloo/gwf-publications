@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Chowdhury-2020-Design">
+    <titleInfo>
+        <title>Design and Development of Low-Cost, Portable, and Smart Chlorophyll-A Sensor</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rakibul</namePart>
+        <namePart type="given">Islam</namePart>
+        <namePart type="family">Chowdhury</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Khan</namePart>
+        <namePart type="given">Arif</namePart>
+        <namePart type="family">Wahid</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Katy</namePart>
+        <namePart type="family">Nugent</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Sensors Journal, Volume 20, Issue 13</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Chlorophyll-A concentration is one of the most commonly measured water quality parameters. It is an indicator of algal biomass and provides insight into stressors such as eutrophication and bloom risk. It is also a widely used metric in terrestrial ecosystems as an indicator of photosynthetic activity and nutrient limitation. Laboratory-based methods for measuring chlorophyll-A require expensive instrumentation. In this paper, we proposed a smart, low-cost, and portable smart sensor system to measure the concentration of chlorophyll-A in an extracted solution using two consumer-grade spectral sensors that read the reflectance at 12 discrete wavelengths in visible and near-infrared spectra. The system was tuned for an optimal distance from the sensors to the solution and an enclosure was printed to maintain the distance, as well as to avoid natural light interference. Extracted chlorophyll solutions of 51 different concentrations were prepared, and at least 100 readings per sample were taken using our smart sensor system. The ground truth values of the samples were measured in the laboratory using Thermo Nano 2000C. After cleaning the anomalous data, different machine learning models were trained to determine the significant wavelengths that contribute most towards chlorophyll-A measurement. Finally, a decision tree model with 5 important features was chosen based on the lowest Root Mean Square and Mean Absolute Error when it was tested on the validation set. Our final model resulted in a mean error of \pm0.9μg/L when applied on our test set. The total cost was around $150.</abstract>
+    <identifier type="citekey">Chowdhury-2020-Design</identifier>
+    <identifier type="doi">10.1109/jsen.2020.2978758</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-61001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>20</number></detail>
+        <detail type="issue"><number>13</number></detail>
+        <extent unit="page">
+            <start>7362</start>
+            <end>7371</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

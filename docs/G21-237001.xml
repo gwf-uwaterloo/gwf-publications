@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Walker-2021-Accuracy">
+    <titleInfo>
+        <title>Accuracy assessment of late winter snow depth mapping for tundra environments using Structure-from-Motion photogrammetry</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Branden</namePart>
+        <namePart type="family">Walker</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Evan</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Wilcox</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philip</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Arctic Science, Volume 7, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Canadian Science Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Arctic tundra environments are characterized by a spatially heterogeneous end-of-winter snow depth resulting from wind transport and deposition. Traditional methods for measuring snow depth do not accurately capture such heterogeneity at catchment scales. In this study we address the use of high-resolution, spatially distributed, snow depth data for Arctic environments through the application of unmanned aerial systems (UASs). We apply Structure-from-Motion photogrammetry to images collected using a fixed-wing UAS to produce a 1 m resolution snow depth product across seven areas of interest (AOIs) within the Trail Valley Creek Research Watershed, Northwest Territories, Canada. We evaluated these snow depth products with in situ measurements of both the snow surface elevation (n = 8434) and snow depth (n = 7191). When all AOIs were averaged, the RMSE of the snow surface elevation models was 0.16 m (\textless0.01 m bias), similar to the snow depth product (UAS SD ) RMSE of 0.15 m (+0.04 m bias). The distribution of snow depth between in situ measurements and UAS SD was similar along the transects where in situ snow depth was collected, although similarity varies by AOI. Finally, we provide a discussion of factors that may influence the accuracy of the snow depth products including vegetation, environmental conditions, and study design.</abstract>
+    <identifier type="citekey">Walker-2021-Accuracy</identifier>
+    <identifier type="doi">10.1139/as-2020-0006</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-51001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>7</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>588</start>
+            <end>604</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

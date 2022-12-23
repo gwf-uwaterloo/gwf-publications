@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="ThomasAmbadan-2020-Satellite-Observed">
+    <titleInfo>
+        <title>Satellite-Observed Soil Moisture as an Indicator of Wildfire Risk</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jaison</namePart>
+        <namePart type="family">Thomas Ambadan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Matilda</namePart>
+        <namePart type="family">Oja</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ze’ev</namePart>
+        <namePart type="family">Gedalof</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 12, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Wildfires are a concerning issue in Canada due to their immediate impact on people’s lives, local economy, climate, and environment. Studies have shown that the number of wildfires and affected areas in Canada has increased during recent decades and is a result of a warming and drying climate. Therefore, identifying potential wildfire risk areas is increasingly an important aspect of wildfire management. The purpose of this study is to investigate if remotely sensed soil moisture products from the Soil Moisture and Ocean Salinity (SMOS) satellite can be used to identify potential wildfire risk areas for better wildfire management. We used the National Fire Database (NFDB) fire points and polygons to group the wildfires according to ecozone classifications, as well as to analyze the SMOS soil moisture data over the wildfire areas, between 2010–2017, across fourteen ecozones in Canada. Timeseries of 3-day, 5-day, and 7-day soil moisture anomalies prior to the onset of each wildfire occurrence were examined over the ecozones individually. Overall, the results suggest, despite the coarse-resolution, SMOS soil moisture products are potentially useful in identifying soil moisture anomalies where wildfire hot-spots may occur.</abstract>
+    <identifier type="citekey">Thomas Ambadan-2020-Satellite-Observed</identifier>
+    <identifier type="doi">10.3390/rs12101543</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-85001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>12</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>1543</number></detail>
+    </part>
+</mods>
+</modsCollection>

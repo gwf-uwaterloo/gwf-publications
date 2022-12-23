@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Quéno-2020-Satellite-derived">
+    <titleInfo>
+        <title>Satellite-derived products of solar and longwave irradiances used for snowpack modelling in mountainous terrain</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Louis</namePart>
+        <namePart type="family">Quéno</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fatima</namePart>
+        <namePart type="family">Karbou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Vincent</namePart>
+        <namePart type="family">Vionnet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ingrid</namePart>
+        <namePart type="family">Dombrowski-Etchevers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 24, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. In mountainous terrain, the snowpack is strongly affected by incoming shortwave and longwave radiation. In this study, a thorough evaluation of the solar and longwave downwelling irradiance products (DSSF and DSLF) derived from the Meteosat Second Generation satellite was undertaken in the French Alps and the Pyrenees. The satellite-derived products were compared with forecast fields from the meteorological model AROME and with analysis fields from the SAFRAN system. A new satellite-derived product (DSLFnew) was developed by combining satellite observations and AROME forecasts. An evaluation against in situ measurements showed lower errors for DSSF than AROME and SAFRAN in terms of solar irradiances. For longwave irradiances, we were not able to select the best product due to contrasted results falling in the range of uncertainty of the sensors. Spatial comparisons of the different datasets over the Alpine and Pyrenean domains highlighted a better representation of the spatial variability of solar fluxes by DSSF and AROME than SAFRAN. We also showed that the altitudinal gradient of longwave irradiance is too strong for DSLFnew and too weak for SAFRAN. These datasets were then used as radiative forcing together with AROME near-surface forecasts to drive distributed snowpack simulations by the model Crocus in the French Alps and the Pyrenees. An evaluation against in situ snow depth measurements showed higher biases when using satellite-derived products, despite their quality. This effect is attributed to some error compensations in the atmospheric forcing and the snowpack model. However, satellite-derived irradiance products are judged beneficial for snowpack modelling in mountains, when the error compensations are solved.</abstract>
+    <identifier type="citekey">Quéno-2020-Satellite-derived</identifier>
+    <identifier type="doi">10.5194/hess-24-2083-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-96001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>2083</start>
+            <end>2104</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

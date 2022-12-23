@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Schmieder-2019-‘Teflon">
+    <titleInfo>
+        <title>‘Teflon Basin’ or Not? A High-Elevation Catchment Transit Time Modeling Approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jan</namePart>
+        <namePart type="family">Schmieder</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stefan</namePart>
+        <namePart type="family">Seeger</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Markus</namePart>
+        <namePart type="family">Weiler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ulrich</namePart>
+        <namePart type="family">Strasser</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology, Volume 6, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>We determined the streamflow transit time and the subsurface water storage volume in the glacierized high-elevation catchment of the Rofenache (Oetztal Alps, Austria) with the lumped parameter transit time model TRANSEP. Therefore we enhanced the surface energy-balance model ESCIMO to simulate the ice melt, snowmelt and rain input to the catchment and associated δ18O values for 100 m elevation bands. We then optimized TRANSEP with streamflow volume and δ18O for a four-year period with input data from the modified version of ESCIMO at a daily resolution. The median of the 100 best TRANSEP runs revealed a catchment mean transit time of 9.5 years and a mobile storage of 13,846 mm. The interquartile ranges of the best 100 runs were large for both, the mean transit time (8.2–10.5 years) and the mobile storage (11,975–15,382 mm). The young water fraction estimated with the sinusoidal amplitude ratio of input and output δ18O values and delayed input of snow and ice melt was 47%. Our results indicate that streamflow is dominated by the release of water younger than 56 days. However, tracers also revealed a large water volume in the subsurface with a long transit time resulting to a strongly delayed exchange with streamflow and hence also to a certain portion of relatively old water: The median of the best 100 TRANSEP runs for streamflow fraction older than five years is 28%.</abstract>
+    <identifier type="citekey">Schmieder-2019-‘Teflon</identifier>
+    <identifier type="doi">10.3390/hydrology6040092</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-11001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>92</number></detail>
+    </part>
+</mods>
+</modsCollection>

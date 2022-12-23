@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Bolibar-2020-Deep">
+    <titleInfo>
+        <title>Deep learning applied to glacier evolution modelling</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jordi</namePart>
+        <namePart type="family">Bolibar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Antoine</namePart>
+        <namePart type="family">Rabatel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Isabelle</namePart>
+        <namePart type="family">Gouttevin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Clovis</namePart>
+        <namePart type="family">Galiez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Thomas</namePart>
+        <namePart type="family">Condom</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Eric</namePart>
+        <namePart type="family">Sauquet</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>The Cryosphere, Volume 14, Issue 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. We present a novel approach to simulate and reconstruct annual glacier-wide surface mass balance (SMB) series based on a deep artificial neural network (ANN; i.e. deep learning). This method has been included as the SMB component of an open-source regional glacier evolution model. While most glacier models tend to incorporate more and more physical processes, here we take an alternative approach by creating a parameterized model based on data science. Annual glacier-wide SMBs can be simulated from topo-climatic predictors using either deep learning or Lasso (least absolute shrinkage and selection operator; regularized multilinear regression), whereas the glacier geometry is updated using a glacier-specific parameterization. We compare and cross-validate our nonlinear deep learning SMB model against other standard linear statistical methods on a dataset of 32 French Alpine glaciers. Deep learning is found to outperform linear methods, with improved explained variance (up to +64 % in space and +108 % in time) and accuracy (up to +47 % in space and +58 % in time), resulting in an estimated r2 of 0.77 and a root-mean-square error (RMSE) of 0.51 m w.e. Substantial nonlinear structures are captured by deep learning, with around 35 % of nonlinear behaviour in the temporal dimension. For the glacier geometry evolution, the main uncertainties come from the ice thickness data used to initialize the model. These results should encourage the use of deep learning in glacier modelling as a powerful nonlinear tool, capable of capturing the nonlinearities of the climate and glacier systems, that can serve to reconstruct or simulate SMB time series for individual glaciers in a whole region for past and future climates.</abstract>
+    <identifier type="citekey">Bolibar-2020-Deep</identifier>
+    <identifier type="doi">10.5194/tc-14-565-2020</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-101001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>565</start>
+            <end>584</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

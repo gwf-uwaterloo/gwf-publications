@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sun-2022-Quantifying">
+    <titleInfo>
+        <title>Quantifying the Human Influence on the Intensity of Extreme 1- and 5-Day Precipitation Amounts at Global, Continental, and Regional Scales</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Qiaohong</namePart>
+        <namePart type="family">Sun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francis</namePart>
+        <namePart type="family">Zwiers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xuebin</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jun</namePart>
+        <namePart type="family">Yan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Climate, Volume 35, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract This study provides a comprehensive analysis of the human contribution to the observed intensification of precipitation extremes at different spatial scales. We consider the annual maxima of the logarithm of 1-day (Rx1day) and 5-day (Rx5day) precipitation amounts for 1950–2014 over the global land area, four continents, and several regions, and compare observed changes with expected responses to external forcings as simulated by CanESM2 in a large-ensemble experiment and by multiple models from phase 6 of the Coupled Model Intercomparison Project (CMIP6). We use a novel detection and attribution analysis method that is applied directly to station data in the areas considered without prior processing such as gridding, spatial or temporal dimension reduction or transformation to unitless indices and uses climate models only to obtain estimates of the space-time pattern of extreme precipitation response to external forcing. The influence of anthropogenic forcings on extreme precipitation is detected over the global land area, three continental regions (western Northern Hemisphere, western Eurasia and eastern Eurasia), and many smaller IPCC regions, including C. North-America, E. Asia, E.C. Asia, E. Europe, E. North-America, N. Europe, and W. Siberia for Rx1day, and C. North-America, E. Europe, E. North-America, N. Europe, Russian-Arctic, and W. Siberia for Rx5day. Consistent results are obtained using forcing response estimates from either CanESM2 or CMIP6. Anthropogenic influence is estimated to have substantially decreased the approximate waiting time between extreme annual maximum events in regions where anthropogenic influence has been detected, which has important implications for infrastructure design and climate change adaptation policy.</abstract>
+    <identifier type="citekey">Sun-2022-Quantifying</identifier>
+    <identifier type="doi">10.1175/jcli-d-21-0028.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G22-1001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>195</start>
+            <end>210</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gray-2021-CWDAT—An">
+    <titleInfo>
+        <title>CWDAT—An Open-Source Tool for the Visualization and Analysis of Community-Generated Water Quality Data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Annie</namePart>
+        <namePart type="family">Gray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rob</namePart>
+        <namePart type="family">Feick</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ISPRS International Journal of Geo-Information, Volume 10, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Citizen science initiatives span a wide range of topics, designs, and research needs. Despite this heterogeneity, there are several common barriers to the uptake and sustainability of citizen science projects and the information they generate. One key barrier often cited in the citizen science literature is data quality. Open-source tools for the analysis, visualization, and reporting of citizen science data hold promise for addressing the challenge of data quality, while providing other benefits such as technical capacity-building, increased user engagement, and reinforcing data sovereignty. We developed an operational citizen science tool called the Community Water Data Analysis Tool (CWDAT)—a R/Shiny-based web application designed for community-based water quality monitoring. Surveys and facilitated user-engagement were conducted among stakeholders during the development of CWDAT. Targeted recruitment was used to gather feedback on the initial CWDAT prototype’s interface, features, and potential to support capacity building in the context of community-based water quality monitoring. Fourteen of thirty-two invited individuals (response rate 44%) contributed feedback via a survey or through facilitated interaction with CWDAT, with eight individuals interacting directly with CWDAT. Overall, CWDAT was received favourably. Participants requested updates and modifications such as water quality thresholds and indices that reflected well-known barriers to citizen science initiatives related to data quality assurance and the generation of actionable information. Our findings support calls to engage end-users directly in citizen science tool design and highlight how design can contribute to users’ understanding of data quality. Enhanced citizen participation in water resource stewardship facilitated by tools such as CWDAT may provide greater community engagement and acceptance of water resource management and policy-making.</abstract>
+    <identifier type="citekey">Gray-2021-CWDAT—An</identifier>
+    <identifier type="doi">10.3390/ijgi10040207</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-61001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>10</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <detail type="page"><number>207</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -147,4 +147,61 @@
         </extent>
     </part>
 </mods>
+<mods ID="Aguilar-2021-Two">
+    <titleInfo>
+        <title>Two decades of distributed global radiation time series across a mountainous semiarid area (Sierra Nevada, Spain)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Cristina</namePart>
+        <namePart type="family">Aguilar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rafael</namePart>
+        <namePart type="family">Pimentel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">María</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Polo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth System Science Data, Volume 13, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Aguilar-2021-Two</identifier>
+    <identifier type="doi">10.5194/essd-13-1335-2021</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-64001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>13</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>1335</start>
+            <end>1359</end>
+        </extent>
+    </part>
+</mods>
 </modsCollection>

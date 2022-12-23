@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ma-2020-Reducing">
+    <titleInfo>
+        <title>Reducing the Statistical Distribution Error in Gridded Precipitation Data for the Tibetan Plateau</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jiapei</namePart>
+        <namePart type="family">Ma</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hongyi</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jian</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaohua</namePart>
+        <namePart type="family">Hao</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Donghang</namePart>
+        <namePart type="family">Shao</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Huajin</namePart>
+        <namePart type="family">Lei</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology, Volume 21, Issue 11</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Gridded precipitation data are very important for hydrological and meteorological studies. However, gridded precipitation can exhibit significant statistical bias that needs to be corrected before application, especially in regions where high wind speeds, frequent snowfall, and sparse observation networks can induce significant uncertainties in the final gridded datasets. In this paper, we present a method for the production of gridded precipitation on the Tibetan Plateau (TP). This method reduces the statistical distribution error by correcting for wind-induced undercatch and optimizing the interpolation method. A gridded precipitation product constructed by this method was compared with previous products on the TP. The results show that undercatch correction is necessary for station data, which can reduce the distributional error by 30% at most. A thin-plate splines interpolation algorithm considering altitude as a covariate is helpful to reduce the statistical distributional error in general. Our method effectively inhibits the smoothing effect in gridded precipitation, and compared to previous products, results in a higher mean value, larger 98th percentile, and greater temporal variance. This study can help to improve the quality of gridded precipitation over the TP.</abstract>
+    <identifier type="citekey">Ma-2020-Reducing</identifier>
+    <identifier type="doi">10.1175/jhm-d-20-0096.1</identifier>
+    <location>
+        <url>https://aclanthology.org/G20-71001</url>
+    </location>
+    <part>
+        <date>2020</date>
+        <detail type="volume"><number>21</number></detail>
+        <detail type="issue"><number>11</number></detail>
+        <extent unit="page">
+            <start>2641</start>
+            <end>2654</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Barandun-2021-Towards">
+    <titleInfo>
+        <title>Towards daily snowline observations on glaciers using multi-source and multi-resolution satellite data</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Martina</namePart>
+        <namePart type="family">Barandun</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mattia</namePart>
+        <namePart type="family">Callegari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ulrich</namePart>
+        <namePart type="family">Strasser</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claudia</namePart>
+        <namePart type="family">Notarnicola</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Microwave Remote Sensing: Data Processing and Applications</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>SPIE</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Glacier melt is an important fresh water source. Seasonal changes can have impacting consequences on downstream water resources management. Today’s glacier monitoring lacks an observation-based tool for regional, sub-seasonal observation of glacier mass balance and a quantification of associated meltwater release at high temporal resolution. The snowline on a glacier marks the transition between the ice and snow surface, and is, at the end of the summer, a proxy for the annual glacier mass balance. It was shown that glacier mass balance model simulations closely tied to sub-seasonal snowline observations on optical satellite sensors are robust for the observation date. Recent advances in remote sensing permit efficient and extensive snowline mapping. Different methods automatically discriminate snow over ice on high- to medium-resolution optical satellite images. Other studies rely on lower ground resolution optical imagery to retrieve snow cover fraction at pixel level and produce regional maps of snow cover extent. However, state-of-the-art methods using optical sensors still have important shortcomings, such as cloud-cover related issues. Images acquired by Synthetic Aperture Radar (SAR), which are almost insensitive to cloud coverage, have proofed suitable for transient snowline delineation. The combination of SAR and optical data in a complementary way carries a unique potential for a better monitoring of snow depletion on high temporal and spatial resolution. The aim of this work is to map snow cover over glaciers by combining Sentinel-1 SAR, Sentinel-2 multispectral and lower resolution MODIS images. Consecutively, we developed an approach that can automatically handle classification of multi-source and multi-resolution satellite image stacks. This provides a unique solution for continuous snowline mapping since the beginning of the century. With the provided close-to-daily transient snow cover fractions on glacier level, we provide the basis for a new strategy to directly integrate multi-source satellite image classification into glacier mass balance monitoring.</abstract>
+    <identifier type="citekey">Barandun-2021-Towards</identifier>
+    <identifier type="doi">10.1117/12.2601682</identifier>
+    <location>
+        <url>https://aclanthology.org/G21-50001</url>
+    </location>
+    <part>
+        <date>2021</date>
+    </part>
+</mods>
+</modsCollection>
