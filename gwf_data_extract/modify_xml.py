@@ -24,10 +24,8 @@ def handle_HTML_entities(file_name: str):
 def get_website_dois():
     all_website_dois = []
     files_path = 'data/xml/'
-    for file in os.listdir(files_path):
-        # sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey"])    
-        input = files_path+ file
-        # output = 'gwf_data_extract/'+file+'all_website_dois.csv'
+    for file in os.listdir(files_path):        
+        input = files_path+ file        
         tree = et.parse(input)
         root = tree.getroot()
 
