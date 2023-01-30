@@ -7,8 +7,7 @@
         <div class="card">
           <h5 class="card-header">Year</h5>
           <ul class="list-group list-group-flush list-group-compact">
-            {{ $paper_years := slice "2022" "2021" "2020" "2019" "2018" "2017" "2016" }}
-            {{ range $paper_year := $paper_years }}
+            {{ range $key_year, $paper_year := sort $.Site.Data.venues.GWF.years "value" "desc" }}
             <li class="list-group-item">
               <input type="checkbox" id={{ print "check_year_" $paper_year }} checked=True/>
               {{ $paper_year }}
@@ -17,6 +16,22 @@
           </ul>
         </div>
       </div>
+      <div class="col-12 col-md-6 col-lg-12">
+        <div class="card my-2 my-md-0 my-lg-2">
+          <h5 class="card-header">University</h5>
+          <ul class="list-group list-group-flush list-group-compact">            
+            {{ $universities := dict "wat" "University of Waterloo" "sas" "University of Saskatchewan" }}
+            {{ range $abbr_uni, $uni := $universities }}
+            <li class="list-group-item">
+              <input type="checkbox" id={{ print "uni_" $abbr_uni }} checked=True/>
+              {{ $uni }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+
     </div>
   </div>
 
@@ -41,13 +56,9 @@
       </aside>
 
       <div>
-        <a class="align-middle" href="#year_2022">2022</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2021">2021</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2020">2020</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2019">2019</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2018">2018</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2017">2017</a> &nbsp|&nbsp
-        <a class="align-middle" href="#year_2016">2016</a>
+        {{ range $key_year, $paper_year := sort $.Site.Data.venues.GWF.years "value" "desc" }}
+        <a class="align-middle" href={{ print "#year_" $paper_year }}>{{ $paper_year }}</a> &nbsp|&nbsp
+        {{ end }}
       </div>
 
       <!-- Temporarily disabled...
@@ -75,11 +86,8 @@
 
     <section id="main">
 
-      {{ $paper_years := slice "2022" "2021" "2020" "2019" "2018" "2017" "2016" }}
-      {{ $venue := index .Site.Data.venues "GWF" }}
-
-
-      {{ range $paper_year := $paper_years }}
+      {{ $venue := index .Site.Data.venues "GWF" }}            
+      {{ range $key_year, $paper_year := sort $.Site.Data.venues.GWF.years "value" "desc" }}
       
       {{ $div_id := print "year_" $paper_year }}
       <div id={{ $div_id }}>

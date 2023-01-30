@@ -10,13 +10,51 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-    $(document).on("change", "input[type='checkbox']", function () {          
-      const collection = document.getElementById("main").children;      
-      for (child of collection)
-      {        
-        if (child.id.startsWith(this.id.slice(-9)))
-        {
-          this.checked ? child.style.display = "initial" : child.style.display = "none";
+    var unis = {wat: true, sas: true};
+    $(document).on("change", "input[type='checkbox']", function () {      
+      // document.getElementById("debug2").innerHTML = ""
+
+      if (this.id.startsWith("check_year")) {    
+        const collection = document.getElementById("main").children;      
+        for (child of collection)
+        {        
+          if (child.id.startsWith(this.id.slice(-9)))
+          {
+            this.checked ? child.style.display = "initial" : child.style.display = "none";
+          }
+        }
+      } else if (this.id.startsWith("uni")) {        
+        var uni = this.id.slice(-3);        
+        this.checked ? (unis[uni] = true) : (unis[uni] = false);
+
+        // document.getElementById("debug1").innerHTML = "";
+        // for (var key in unis) {
+        //   document.getElementById("debug1").innerHTML =
+        //     document.getElementById("debug1").innerHTML + unis[key];
+        // }
+
+        const collection = document.querySelectorAll("[data-uni=" + uni + "]");
+        for (child of collection) {
+          if (this.checked) {
+            child.parentNode.parentNode.setAttribute("style", "display:flex !important")            
+          } else {
+            disp_off_flag = true;
+            for (child of child.parentNode.querySelectorAll("[data-uni]")) {        
+              
+              // document.getElementById("debug2").innerHTML = document.getElementById("debug2").innerHTML+child.getAttribute("data-uni")+"|";
+
+              if (unis[child.getAttribute("data-uni")] == true) {
+                disp_off_flag = false;
+                break;
+              }
+            }
+
+            // document.getElementById("debug2").innerHTML = document.getElementById("debug2").innerHTML+" ||| "
+
+            if (disp_off_flag) {
+              child.parentNode.parentNode.setAttribute("style", "display:none !important");
+            }
+          }
         }
       }
     });
