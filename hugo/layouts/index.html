@@ -30,8 +30,20 @@
           </ul>
         </div>
       </div>
-
-
+      <div class="col-12 col-md-6 col-lg-12">
+        <div class="card my-2 my-md-0 my-lg-2">
+          <h5 class="card-header">Project</h5>
+          <ul class="list-group list-group-flush list-group-compact">            
+            {{ $projects := dict "prj1" "Project1" "prj2" "Project2" "prj3" "Project3" "prj4" "Project4" "prj5" "Project5" "prj6" "Project6" }}
+            {{ range $abbr_prj, $prj := $projects }}
+            <li class="list-group-item">
+              <input type="checkbox" id={{ print "prj_" $abbr_prj }} checked=True/>
+              {{ $prj }}
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
