@@ -34,7 +34,7 @@
         <div class="card my-2 my-md-0 my-lg-2">
           <h5 class="card-header" style="cursor:pointer;"  href="#project_list" data-toggle="collapse" aria-expanded="false" aria-controls="project_list">Project</h5>
           <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="project_list">            
-            {{ $projects := dict "prj1" "Combined Hydrological, Exposure and Risk Assessment Models in Support of Environmental Risk Assessment" "prj2" "Building and Sustaining Infrastructure Resilience Through Targeted Cli- mate Adaptation Training for Professionals in Newfoundland and Labrador" "prj3" "Project3" "prj4" "Project4" "prj5" "Project5" "prj6" "Project6" }}
+            {{ $projects := dict "prj1" "What is Water Worth? Valuing Canada's Water Resources and Aquatic Ecosystem Services Publications" "prj2" "Paradigm Shift in Downscaling Climate Model Projections Publications" "prj3" "Short-Duration Extreme Precipitation in Future Climate Publications" "prj4" "Winter Soil Processes in Transition Publications" "prj5" "Collaborative Modelling Framework for Water Futures Publications" "prj6" "Others" }}
             {{ range $abbr_prj, $prj := $projects }}
             <li class="list-group-item">
               <input type="checkbox" id={{ print "prj_" $abbr_prj }} checked=True/>
