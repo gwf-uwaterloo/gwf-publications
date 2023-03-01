@@ -84,7 +84,7 @@
   <div {{ if or $paper.retracted $paper.removed }} style="text-decoration: line-through" {{ end }}>
   <h2 id="title">
     {{ with $paper.pdf }}
-    <a href="{{ . }}">{{ $paper.title_html | safeHTML }}</a>
+    <a href="{{ $paper.url }}">{{ $paper.title_html | safeHTML }}</a>
     {{ else }}
       {{ $paper.title_html | safeHTML }}
     {{ end }}
@@ -279,7 +279,7 @@
 
     <!-- Most of the styling for this block is set in _papers.scss to avoid clutter -->
     <div class="acl-paper-link-block">
-      {{ if isset $paper "revision" }}
+      <!-- {{ if isset $paper "revision" }}
         {{ range last 1 $paper.revision }}
         <a class="btn btn-primary" href="{{ .url }}" title="Open latest revision PDF of '{{ $paper.title | htmlEscape }}'">
           <i class="far fa-file-pdf"></i><span class="pl-2">PDF&nbsp;<small>(v{{ .id }})</small></span>
@@ -296,7 +296,7 @@
           <i class="far fa-file-pdf"></i><span class="pl-2">PDF</span>
         </a>
         {{ end }}
-      {{ end }}
+      {{ end }} -->
       {{ if and (not $paper.retracted) (not $paper.removed) (or $has_bib $has_xml $has_endf) }}
       <a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle="modal" data-target="#citeModal" href="#">
         <i class="fas fa-quote-left"></i><span class="pl-2">Cite</span>

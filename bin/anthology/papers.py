@@ -460,6 +460,7 @@ class Paper:
             # entail writing/updating our own CSL style.
             title = self.get_title("plain")
             link = f'<a href="{self.url}">{title}</a>'
+            link = f'{title}'
             html = html.replace(title, link)
         return html
 

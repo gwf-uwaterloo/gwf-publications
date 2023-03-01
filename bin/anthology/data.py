@@ -25,7 +25,10 @@ import os
 
 # this is the canonical URL.  In contrast to all other
 # URL templates, it always links to the official anthology.
-CANONICAL_URL_TEMPLATE = "https://aclanthology.org/{}"
+try:
+    CANONICAL_URL_TEMPLATE = os.environ["ANTHOLOGY_PREFIX"]+"/{}"
+except:
+    CANONICAL_URL_TEMPLATE = "https://saclanthology.org/{}"
 
 # the prefix is used in different programs and we need to set it everywhere
 # We use a environment variable to set this and not have to forward the value

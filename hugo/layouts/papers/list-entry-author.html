@@ -3,11 +3,11 @@
 <div data-prj={{ $paper.project }}>
 <p class="d-sm-flex align-items-stretch">
   <span class="d-block mr-2 text-nowrap list-button-row">
-    {{- with $paper.pdf -}}
+    <!-- {{- with $paper.pdf -}}
     <a class="badge badge-primary align-middle mr-1" href="{{ . }}" data-toggle="tooltip" data-placement="top" title="Open PDF">
       pdf
     </a>
-    {{- end -}}
+    {{- end -}} -->
     {{- if (fileExists (printf "/data-export/%s.bib" .Params.anthology_id)) -}}
     <a class="badge badge-secondary align-middle mr-1" href="{{ (printf "/%s.bib" .Params.anthology_id) | relURL }}" data-toggle="tooltip" data-placement="top" title="Export to BibTeX">
       bib
