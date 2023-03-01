@@ -138,6 +138,28 @@
     </section>
 
   </div>
+  <script>  
+    //  get the content of the search query (prj,uni,year)
+    const searchArr = window.location.search.substring(1).split("&");
+    for (var i = 0; i < searchArr.length; i++) {
+      if(searchArr[i].startsWith("prj")){
+        var prjArr = searchArr[i].split("=")[1].split("+")
+      }if(searchArr[i].startsWith("uni")){
+        // fill later
+      }if(searchArr[i].startsWith("uni")){
+        // fill later
+      }
+    }
+    if(typeof prjArr !== 'undefined'){      
+      $( '[data-prj]' ).prop('style', "display:none !important");
+      $( ':input[id^="prj"]' ).prop('checked', false);
+  
+      for (var i = 0; i < prjArr.length; i++) {        
+        $( '[data-prj=prj'+prjArr[i]+']' ).prop('style', "display:initial !important");
+        $( ':input[id="prj_prj'+prjArr[i]+'"]' ).prop('checked', true);
+      }
+    }
+  </script>
 </div>
 
 {{ end }}
