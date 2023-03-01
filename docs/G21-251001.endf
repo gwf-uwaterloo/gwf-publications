@@ -11,7 +11,7 @@
 %F Chaudhuri-2021-InundatEd-v1.0:
 %X Abstract. Despite the high historical losses attributed to flood events, Canadian flood mitigation efforts have been hindered by a dearth of current, accessible flood extent/risk models and maps. Such resources often entail large datasets and high computational requirements. This study presents a novel, computationally efficient flood inundation modeling framework (“InundatEd”) using the height above nearest drainage (HAND)-based solution for Manning’s equation, implemented in a big-data discrete global grid system (DGGS)-based architecture with a web-GIS (Geographic Information Systems) platform. Specifically, this study aimed to develop, present, and validate InundatEd through binary classification comparisons to recently observed flood events. The framework is divided into multiple swappable modules including GIS pre-processing; regional regression; inundation models; and web-GIS visualization. Extent testing and processing speed results indicate the value of a DGGS-based architecture alongside a simple conceptual inundation model and a dynamic user interface.
 %R 10.5194/gmd-14-3295-2021
-%U https://aclanthology.org/G21-68001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-68001
 %U https://doi.org/10.5194/gmd-14-3295-2021
 %P 3295-3315
 

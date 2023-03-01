@@ -18,7 +18,7 @@
 %F Gascoin-2020-Estimating
 %X Sentinel-2 provides the opportunity to map the snow cover at unprecedented spatial and temporal resolutions on a global scale. Here we calibrate and evaluate a simple empirical function to estimate the fractional snow cover (FSC) in open terrains using the normalized difference snow index (NDSI) from 20 m resolution Sentinel-2 images. The NDSI is computed from flat surface reflectance after masking cloud and snow-free areas. The NDSI–FSC function is calibrated using Pléiades very high-resolution images and evaluated using independent datasets including SPOT 6/7 satellite images, time lapse camera photographs, terrestrial lidar scans and crowd-sourced in situ measurements. The calibration results show that the FSC can be represented with a sigmoid-shaped function 0.5 \times tanh(a \times NDSI + b) + 0.5, where a = 2.65 and b = −1.42, yielding a root mean square error (RMSE) of 25%. Similar RMSE are obtained with different evaluation datasets with a high topographic variability. With this function, we estimate that the confidence interval on the FSC retrievals is 38% at the 95% confidence level.
 %R 10.3390/rs12182904
-%U https://aclanthology.org/G20-86001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-86001
 %U https://doi.org/10.3390/rs12182904
 %P 2904
 

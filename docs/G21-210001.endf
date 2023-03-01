@@ -15,7 +15,7 @@
 %F Tefs-2021-Simulating
 %X Abstract This study develops a novel reservoir regulation routine, incorporated into a continental-scale hydrologic model in the Nelson, Churchill, Yenisey, Ob, and Lena basins. This regulation routine is integrated into the Hydrological Predictions for the Environment (HYPE) hydrologic model, used for continental-scale applications. Applying this daily timestep regulation routine at 19 reservoirs in the Arctic Ocean watershed, performance is shown to improve upon the reservoir regulation currently available in the HYPE model when testing outflow and storage Nash Sutcliffe Efficiencies (NSEs). Improvements stem from intra-annually variable storage rule curves and a variety of stage-dependent outflow functions, improving simulation skill (median NSE increases of 0.18 over 21 reservoir outflow records and 0.49 over 19 reservoir storage records). This new, reservoir regulation routine is suitable for continental-scale modelling by deriving varying, rather than fixed, threshold water surface levels and associated outflow rules in a programmatic way for multiple reservoirs.
 %R 10.1016/j.envsoft.2021.105025
-%U https://aclanthology.org/G21-21001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-21001
 %U https://doi.org/10.1016/j.envsoft.2021.105025
 %P 105025
 

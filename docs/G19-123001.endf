@@ -11,7 +11,7 @@
 %F Mondal-2019-An
 %X Abstract Code clones are identical or nearly similar code fragments in a code-base. According to the existing studies, code clones are directly related to bugs. Code cloning, creating code clones, is suspected to propagate temporarily hidden bugs from one code fragment to another. However, there is no study on the intensity of bug-propagation through code cloning. In this paper, we define two clone evolutionary patterns that reasonably indicate bug propagation through code cloning. By analyzing software evolution history, we identify those code clones that evolved following the bug propagation patterns. According to our study on thousands of commits of seven subject systems, overall 18.42% of the clone fragments that experience bug-fixes contain propagated bugs. Type-3 clones are primarily involved with bug-propagation. Bug propagation is more likely to occur in the clone fragments that are created in the same commit rather than in different commits. Moreover, code clones residing in the same file have a higher possibility of containing propagated bugs compared to those residing in different files. Severe bugs can sometimes get propagated through code cloning. Automatic support for immediately identifying occurrences of bug-propagation can be beneficial for software maintenance. Our findings are important for prioritizing code clones for management.
 %R 10.1016/j.jss.2019.110407
-%U https://aclanthology.org/G19-123001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G19-123001
 %U https://doi.org/10.1016/j.jss.2019.110407
 %P 110407
 
