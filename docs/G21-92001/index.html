@@ -1,66 +1,66 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={wat:true,sas:true};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){const collection=document.getElementById("main").children;for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}}else if(this.id.startsWith("uni")){var uni=this.id.slice(-3);this.checked?(unis[uni]=true):(unis[uni]=false);const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
-if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else if(this.id.startsWith("prj")){var prj=this.id.slice(-4);const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales" name=citation_title><meta content="Sara H. Knox" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Karina Schafer" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex C. Valach" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Eugenie Euskirchen" name=citation_author><meta content="Jinxun Liu" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lulie Melling" name=citation_author><meta content="William Riley" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Jessica Turner" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="Qing Zhu" name=citation_author><meta content="Tuula Alto" name=citation_author><meta content="Etienne Fluet‐Chouinard" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Eric Ward" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Sarah Feron" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Minseok Kang" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Olli Peltola" name=citation_author><meta content="Youngryel Ryu" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Jed P. Sparks" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Guan X. Wong" name=citation_author><meta content="Lisamarie Windham‐Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Global Change Biology, Volume 27, Issue 15" name=citation_journal_title><meta content="27" name=citation_volume><meta content="15" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-92001.pdf" name=citation_pdf_url><meta content="3582" name=citation_firstpage><meta content="3604" name=citation_lastpage><meta content="10.1111/gcb.15661" name=citation_doi><meta property="og:title" content="Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-92001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-92001"><meta property="og:description" content="Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina Schafer, Cove Sturtevant, Masahito Ueyama, Alex C. Valach, Dennis Baldocchi, Kyle Delwiche, Ankur R. Desai, Eugenie Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William Riley, Benjamin R. K. Runkle, Jessica Turner, Rodrigo Vargas, Qing Zhu, Tuula Alto, Etienne Fluet‐Chouinard, Mathias Goeckede, Joe R. Melton, Oliver Sonnentag, Timo Vesala, Eric Ward, Zhen Zhang, Sarah Feron, Zutao Ouyang, Pavel Alekseychik, Mika Aurela, Gil Bohrer, David I. Campbell, Jiquan Chen, Housen Chu, Higo J. Dalmagro, Jordan P. Goodrich, Pia Gottschalk, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, Minseok Kang, Franziska Koebsch, Ivan Mammarella, Mats B. Nilsson, Keisuke Ono, Matthias Peichl, Olli Peltola, Youngryel Ryu, Torsten Sachs, Ayaka Sakabe, Jed P. Sparks, Eeva‐Stiina Tuittila, George L. Vourlitis, Guan X. Wong, Lisamarie Windham‐Myers, Benjamin Poulter, Robert B. Jackson. Global Change Biology, Volume 27, Issue 15. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales</a></h2><p class=lead><a href=/gwf-publications/people/S/Sara-H-Knox/ data-uni=wat>Sara H. Knox</a>,
-<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=wat>Sheel Bansal</a>,
-<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=wat>Gavin McNicol</a>,
-<a href=/gwf-publications/people/K/Karina-Schafer/ data-uni=wat>Karina Schafer</a>,
-<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=wat>Cove Sturtevant</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=wat>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/A/Alex-C-Valach/ data-uni=wat>Alex C. Valach</a>,
-<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=wat>Dennis Baldocchi</a>,
-<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=wat>Kyle Delwiche</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=wat>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/E/Eugenie-Euskirchen/ data-uni=sas>Eugenie Euskirchen</a>,
-<a href=/gwf-publications/people/J/Jinxun-Liu/ data-uni=wat>Jinxun Liu</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=wat>Annalea Lohila</a>,
-<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=wat>Avni Malhotra</a>,
-<a href=/gwf-publications/people/L/Lulie-Melling/ data-uni=wat>Lulie Melling</a>,
-<a href=/gwf-publications/people/W/William-Riley/ data-uni=wat>William Riley</a>,
-<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=wat>Benjamin R. K. Runkle</a>,
-<a href=/gwf-publications/people/J/Jessica-Turner/ data-uni=wat>Jessica Turner</a>,
-<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=wat>Rodrigo Vargas</a>,
-<a href=/gwf-publications/people/Q/Qing-Zhu/ data-uni=wat>Qing Zhu</a>,
-<a href=/gwf-publications/people/T/Tuula-Alto/ data-uni=wat>Tuula Alto</a>,
-<a href=/gwf-publications/people/E/Etienne-FluetChouinard/ data-uni=wat>Etienne Fluet‐Chouinard</a>,
-<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=sas>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/J/Joe-R-Melton/ data-uni=wat>Joe R. Melton</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=wat>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=wat>Timo Vesala</a>,
-<a href=/gwf-publications/people/E/Eric-Ward/ data-uni=wat>Eric Ward</a>,
-<a href=/gwf-publications/people/Z/Zhen-Zhang/ data-uni=wat>Zhen Zhang</a>,
-<a href=/gwf-publications/people/S/Sarah-Feron/ data-uni=wat>Sarah Feron</a>,
-<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=wat>Zutao Ouyang</a>,
-<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=wat>Pavel Alekseychik</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=wat>Mika Aurela</a>,
-<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=wat>Gil Bohrer</a>,
-<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=wat>David I. Campbell</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=wat>Jiquan Chen</a>,
-<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=sas>Housen Chu</a>,
-<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=wat>Higo J. Dalmagro</a>,
-<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=wat>Jordan P. Goodrich</a>,
-<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=wat>Pia Gottschalk</a>,
-<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=wat>Takashi Hirano</a>,
-<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=wat>Hiroki Iwata</a>,
-<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=wat>Gerald Jurasinski</a>,
-<a href=/gwf-publications/people/M/Minseok-Kang/ data-uni=wat>Minseok Kang</a>,
-<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=wat>Franziska Koebsch</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=wat>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/M/Mats-B-Nilsson/ data-uni=wat>Mats B. Nilsson</a>,
-<a href=/gwf-publications/people/K/Keisuke-Ono/ data-uni=wat>Keisuke Ono</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=wat>Matthias Peichl</a>,
-<a href=/gwf-publications/people/O/Olli-Peltola/ data-uni=wat>Olli Peltola</a>,
-<a href=/gwf-publications/people/Y/Youngryel-Ryu/ data-uni=wat>Youngryel Ryu</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=wat>Torsten Sachs</a>,
-<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=wat>Ayaka Sakabe</a>,
-<a href=/gwf-publications/people/J/Jed-P-Sparks/ data-uni=wat>Jed P. Sparks</a>,
-<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=wat>Eeva‐Stiina Tuittila</a>,
-<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=wat>George L. Vourlitis</a>,
-<a href=/gwf-publications/people/G/Guan-X-Wong/ data-uni=wat>Guan X. Wong</a>,
-<a href=/gwf-publications/people/L/Lisamarie-WindhamMyers/ data-uni=wat>Lisamarie Windham‐Myers</a>,
-<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=wat>Benjamin Poulter</a>,
-<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=wat>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>While wetlands are the largest natural source of methane (CH4) to the atmosphere, they represent a large source of uncertainty in the global CH4 budget due to the complex biogeochemical controls on CH4 dynamics. Here we present, to our knowledge, the first multi-site synthesis of how predictors of CH4 fluxes (FCH4) in freshwater wetlands vary across wetland types at diel, multiday (synoptic), and seasonal time scales. We used several statistical approaches (correlation analysis, generalized additive modeling, mutual information, and random forests) in a wavelet-based multi-resolution framework to assess the importance of environmental predictors, nonlinearities and lags on FCH4 across 23 eddy covariance sites. Seasonally, soil and air temperature were dominant predictors of FCH4 at sites with smaller seasonal variation in water table depth (WTD). In contrast, WTD was the dominant predictor for wetlands with smaller variations in temperature (e.g., seasonal tropical/subtropical wetlands). Changes in seasonal FCH4 lagged fluctuations in WTD by ~17 ± 11 days, and lagged air and soil temperature by median values of 8 ± 16 and 5 ± 15 days, respectively. Temperature and WTD were also dominant predictors at the multiday scale. Atmospheric pressure (PA) was another important multiday scale predictor for peat-dominated sites, with drops in PA coinciding with synchronous releases of CH4. At the diel scale, synchronous relationships with latent heat flux and vapor pressure deficit suggest that physical processes controlling evaporation and boundary layer mixing exert similar controls on CH4 volatilization, and suggest the influence of pressurized ventilation in aerenchymatous vegetation. In addition, 1- to 4-h lagged relationships with ecosystem photosynthesis indicate recent carbon substrates, such as root exudates, may also control FCH4. By addressing issues of scale, asynchrony, and nonlinearity, this work improves understanding of the predictors and timing of wetland FCH4 that can inform future studies and models, and help constrain wetland CH4 emissions.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina Schafer, Cove Sturtevant, Masahito Ueyama, Alex C. Valach, Dennis Baldocchi, Kyle Delwiche, Ankur R. Desai, Eugenie Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William Riley, Benjamin R. K. Runkle, Jessica Turner, Rodrigo Vargas, et al.. 2021. Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales. <i>Global Change Biology, Volume 27, Issue 15</i>, 27(15):3582–3604.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else if(this.id.startsWith("uni")){var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else if(this.id.startsWith("prj")){var prj=this.id.slice(-4);const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:none;');}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('p.d-sm-flex').prop('style','display:none!important;');uni_ids=$(':input[id^="uni"]');for(var i=0;i<uni_ids.length;i++){unis[uni_ids[i].id.slice(-7)]=false;}}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj]').prop('style','display:none!important;');data-prj}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales" name=citation_title><meta content="Sara H. Knox" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Karina V. R. Schäfer" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="A. C. Valach" name=citation_author><meta content="Dennis D. Baldocchi" name=citation_author><meta content="Kyle B. Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Jinxun Liu" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lulie Melling" name=citation_author><meta content="William J. Riley" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Vince D. Calhoun" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="Qing Zhu" name=citation_author><meta content="T. Alto" name=citation_author><meta content="Etienne Fluet-Chouinard" name=citation_author><meta content="Mathias Göckede" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Sarah Feron" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David K. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Minseok Kang" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Olli Peltola" name=citation_author><meta content="Youngryel Ryu" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Jed P. Sparks" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Lisamarie Windham-Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Global Change Biology, Volume 27, Issue 15" name=citation_journal_title><meta content="27" name=citation_volume><meta content="15" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-92001.pdf" name=citation_pdf_url><meta content="3582" name=citation_firstpage><meta content="3604" name=citation_lastpage><meta content="10.1111/gcb.15661" name=citation_doi><meta property="og:title" content="Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-92001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-92001"><meta property="og:description" content="Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina V. R. Schäfer, Cove Sturtevant, Masahito Ueyama, A. C. Valach, Dennis D. Baldocchi, Kyle B. Delwiche, Ankur R. Desai, Eugénie S. Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William J. Riley, Benjamin R. K. Runkle, Vince D. Calhoun, Rodrigo Vargas, Qing Zhu, T. Alto, Etienne Fluet-Chouinard, Mathias Göckede, Joe R. Melton, Oliver Sonnentag, Timo Vesala, Eric J. Ward, Zhen Zhang, Sarah Feron, Zutao Ouyang, Pavel Alekseychik, Mika Aurela, Gil Bohrer, David K. Campbell, Jiquan Chen, Housen Chu, Higo J. Dalmagro, Jordan P. Goodrich, Pia Gottschalk, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, Minseok Kang, Franziska Koebsch, Ivan Mammarella, Mats Nilsson, Keisuke Ono, Matthias Peichl, Olli Peltola, Youngryel Ryu, Torsten Sachs, Ayaka Sakabe, Jed P. Sparks, Eeva-Stiina Tuittila, George L. Vourlitis, Guan Xhuan Wong, Lisamarie Windham-Myers, Benjamin Poulter, Robert B. Jackson. Global Change Biology, Volume 27, Issue 15. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales</a></h2><p class=lead><a href=/gwf-publications/people/S/Sara-H-Knox/ data-uni=uni0029>Sara H. Knox</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0014>Sheel Bansal</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0038>Gavin McNicol</a>,
+<a href=/gwf-publications/people/K/Karina-V-R-Sch%C3%A4fer/ data-uni=uni0404>Karina V. R. Schäfer</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0286>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni1493>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/A-C-Valach/ data-uni=uni0021>A. C. Valach</a>,
+<a href=/gwf-publications/people/D/Dennis-D-Baldocchi/ data-uni=uni0021>Dennis D. Baldocchi</a>,
+<a href=/gwf-publications/people/K/Kyle-B-Delwiche/ data-uni=uni0021>Kyle B. Delwiche</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0082>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0024>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/J/Jinxun-Liu/ data-uni=uni0014>Jinxun Liu</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0030>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0038>Avni Malhotra</a>,
+<a href=/gwf-publications/people/L/Lulie-Melling/ data-uni=uni0982>Lulie Melling</a>,
+<a href=/gwf-publications/people/W/William-J-Riley/ data-uni=uni0016>William J. Riley</a>,
+<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0159>Benjamin R. K. Runkle</a>,
+<a href=/gwf-publications/people/V/Vince-D-Calhoun/ data-uni=uni1318>Vince D. Calhoun</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0482>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/Q/Qing-Zhu/ data-uni=uni0983>Qing Zhu</a>,
+<a href=/gwf-publications/people/T/T-Alto/ data-uni=uni0000>T. Alto</a>,
+<a href=/gwf-publications/people/E/Etienne-Fluet-Chouinard/ data-uni=uni0040>Etienne Fluet-Chouinard</a>,
+<a href=/gwf-publications/people/M/Mathias-G%C3%B6ckede/ data-uni=uni0025>Mathias Göckede</a>,
+<a href=/gwf-publications/people/J/Joe-R-Melton/ data-uni=uni0004>Joe R. Melton</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0027>Timo Vesala</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0892>Eric J. Ward</a>,
+<a href=/gwf-publications/people/Z/Zhen-Zhang/ data-uni=uni1221>Zhen Zhang</a>,
+<a href=/gwf-publications/people/S/Sarah-Feron/ data-uni=uni0407>Sarah Feron</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0038>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0027>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0030>Mika Aurela</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0058>Gil Bohrer</a>,
+<a href=/gwf-publications/people/D/David-K-Campbell/ data-uni=uni0100>David K. Campbell</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0497>Jiquan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0016>Housen Chu</a>,
+<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=uni0877>Higo J. Dalmagro</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0257>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=uni0055>Pia Gottschalk</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0253>Takashi Hirano</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni1257>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0239>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/M/Minseok-Kang/ data-uni=uni0173>Minseok Kang</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0239>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0027>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0111>Mats Nilsson</a>,
+<a href=/gwf-publications/people/K/Keisuke-Ono/ data-uni=uni0370>Keisuke Ono</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0049>Matthias Peichl</a>,
+<a href=/gwf-publications/people/O/Olli-Peltola/ data-uni=uni0030>Olli Peltola</a>,
+<a href=/gwf-publications/people/Y/Youngryel-Ryu/ data-uni=uni0173>Youngryel Ryu</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0055>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0306>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/J/Jed-P-Sparks/ data-uni=uni0091>Jed P. Sparks</a>,
+<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/ data-uni=uni0323>Eeva-Stiina Tuittila</a>,
+<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=uni0891>George L. Vourlitis</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0253>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/L/Lisamarie-Windham-Myers/ data-uni=uni0014>Lisamarie Windham-Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0028>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0038>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>While wetlands are the largest natural source of methane (CH4) to the atmosphere, they represent a large source of uncertainty in the global CH4 budget due to the complex biogeochemical controls on CH4 dynamics. Here we present, to our knowledge, the first multi-site synthesis of how predictors of CH4 fluxes (FCH4) in freshwater wetlands vary across wetland types at diel, multiday (synoptic), and seasonal time scales. We used several statistical approaches (correlation analysis, generalized additive modeling, mutual information, and random forests) in a wavelet-based multi-resolution framework to assess the importance of environmental predictors, nonlinearities and lags on FCH4 across 23 eddy covariance sites. Seasonally, soil and air temperature were dominant predictors of FCH4 at sites with smaller seasonal variation in water table depth (WTD). In contrast, WTD was the dominant predictor for wetlands with smaller variations in temperature (e.g., seasonal tropical/subtropical wetlands). Changes in seasonal FCH4 lagged fluctuations in WTD by ~17 ± 11 days, and lagged air and soil temperature by median values of 8 ± 16 and 5 ± 15 days, respectively. Temperature and WTD were also dominant predictors at the multiday scale. Atmospheric pressure (PA) was another important multiday scale predictor for peat-dominated sites, with drops in PA coinciding with synchronous releases of CH4. At the diel scale, synchronous relationships with latent heat flux and vapor pressure deficit suggest that physical processes controlling evaporation and boundary layer mixing exert similar controls on CH4 volatilization, and suggest the influence of pressurized ventilation in aerenchymatous vegetation. In addition, 1- to 4-h lagged relationships with ecosystem photosynthesis indicate recent carbon substrates, such as root exudates, may also control FCH4. By addressing issues of scale, asynchrony, and nonlinearity, this work improves understanding of the predictors and timing of wetland FCH4 that can inform future studies and models, and help constrain wetland CH4 emissions.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina V. R. Schäfer, Cove Sturtevant, Masahito Ueyama, A. C. Valach, Dennis D. Baldocchi, Kyle B. Delwiche, Ankur R. Desai, Eugénie S. Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William J. Riley, Benjamin R. K. Runkle, Vince D. Calhoun, Rodrigo Vargas, et al.. 2021. Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales. <i>Global Change Biology, Volume 27, Issue 15</i>, 27(15):3582–3604.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -68,40 +68,40 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Identifying+dominant+environmental+predictors+of+freshwater+wetland+methane+fluxes+across+diurnal+to+seasonal+time+scales" title="Search for 'Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Knox-2021-Identifying,
     title = &#34;Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales&#34;,
-    author = &#34;Knox, Sara H.  and
+    author = {Knox, Sara H.  and
       Bansal, Sheel  and
       McNicol, Gavin  and
-      Schafer, Karina  and
+      Sch{\&#34;a}fer, Karina V. R.  and
       Sturtevant, Cove  and
       Ueyama, Masahito  and
-      Valach, Alex C.  and
-      Baldocchi, Dennis  and
-      Delwiche, Kyle  and
+      Valach, A. C.  and
+      Baldocchi, Dennis D.  and
+      Delwiche, Kyle B.  and
       Desai, Ankur R.  and
-      Euskirchen, Eugenie  and
+      Euskirchen, Eug{\&#39;e}nie S.  and
       Liu, Jinxun  and
       Lohila, Annalea  and
       Malhotra, Avni  and
       Melling, Lulie  and
-      Riley, William  and
+      Riley, William J.  and
       Runkle, Benjamin R. K.  and
-      Turner, Jessica  and
+      Calhoun, Vince D.  and
       Vargas, Rodrigo  and
       Zhu, Qing  and
-      Alto, Tuula  and
-      Fluet‐Chouinard, Etienne  and
-      Goeckede, Mathias  and
+      Alto, T.  and
+      Fluet-Chouinard, Etienne  and
+      G{\&#34;o}ckede, Mathias  and
       Melton, Joe R.  and
       Sonnentag, Oliver  and
       Vesala, Timo  and
-      Ward, Eric  and
+      Ward, Eric J.  and
       Zhang, Zhen  and
       Feron, Sarah  and
       Ouyang, Zutao  and
       Alekseychik, Pavel  and
       Aurela, Mika  and
       Bohrer, Gil  and
-      Campbell, David I.  and
+      Campbell, David K.  and
       Chen, Jiquan  and
       Chu, Housen  and
       Dalmagro, Higo J.  and
@@ -113,7 +113,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
       Kang, Minseok  and
       Koebsch, Franziska  and
       Mammarella, Ivan  and
-      Nilsson, Mats B.  and
+      Nilsson, Mats  and
       Ono, Keisuke  and
       Peichl, Matthias  and
       Peltola, Olli  and
@@ -121,12 +121,12 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
       Sachs, Torsten  and
       Sakabe, Ayaka  and
       Sparks, Jed P.  and
-      Tuittila, Eeva‐Stiina  and
+      Tuittila, Eeva-Stiina  and
       Vourlitis, George L.  and
-      Wong, Guan X.  and
-      Windham‐Myers, Lisamarie  and
+      Wong, Guan Xhuan  and
+      Windham-Myers, Lisamarie  and
       Poulter, Benjamin  and
-      Jackson, Robert B.&#34;,
+      Jackson, Robert B.},
     journal = &#34;Global Change Biology, Volume 27, Issue 15&#34;,
     volume = &#34;27&#34;,
     number = &#34;15&#34;,
@@ -168,7 +168,9 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Karina&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Schafer&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;V&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schäfer&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -188,7 +190,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Alex&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Valach&lt;/namePart&gt;
         &lt;role&gt;
@@ -197,6 +199,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Baldocchi&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -204,6 +207,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Delwiche&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -218,7 +222,8 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -254,6 +259,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Riley&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -269,8 +275,9 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jessica&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Turner&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vince&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Calhoun&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -290,7 +297,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Tuula&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Alto&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -298,14 +305,14 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Etienne&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Fluet‐Chouinard&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fluet-Chouinard&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Göckede&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -334,6 +341,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ward&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -383,7 +391,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Campbell&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -470,7 +478,6 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -527,7 +534,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eeva‐Stiina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva-Stiina&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -543,7 +550,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Guan&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;X&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xhuan&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Wong&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -551,7 +558,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Lisamarie&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Windham‐Myers&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Windham-Myers&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -610,37 +617,37 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
 %A Knox, Sara H.
 %A Bansal, Sheel
 %A McNicol, Gavin
-%A Schafer, Karina
+%A Schäfer, Karina V. R.
 %A Sturtevant, Cove
 %A Ueyama, Masahito
-%A Valach, Alex C.
-%A Baldocchi, Dennis
-%A Delwiche, Kyle
+%A Valach, A. C.
+%A Baldocchi, Dennis D.
+%A Delwiche, Kyle B.
 %A Desai, Ankur R.
-%A Euskirchen, Eugenie
+%A Euskirchen, Eugénie S.
 %A Liu, Jinxun
 %A Lohila, Annalea
 %A Malhotra, Avni
 %A Melling, Lulie
-%A Riley, William
+%A Riley, William J.
 %A Runkle, Benjamin R. K.
-%A Turner, Jessica
+%A Calhoun, Vince D.
 %A Vargas, Rodrigo
 %A Zhu, Qing
-%A Alto, Tuula
-%A Fluet‐Chouinard, Etienne
-%A Goeckede, Mathias
+%A Alto, T.
+%A Fluet-Chouinard, Etienne
+%A Göckede, Mathias
 %A Melton, Joe R.
 %A Sonnentag, Oliver
 %A Vesala, Timo
-%A Ward, Eric
+%A Ward, Eric J.
 %A Zhang, Zhen
 %A Feron, Sarah
 %A Ouyang, Zutao
 %A Alekseychik, Pavel
 %A Aurela, Mika
 %A Bohrer, Gil
-%A Campbell, David I.
+%A Campbell, David K.
 %A Chen, Jiquan
 %A Chu, Housen
 %A Dalmagro, Higo J.
@@ -652,7 +659,7 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
 %A Kang, Minseok
 %A Koebsch, Franziska
 %A Mammarella, Ivan
-%A Nilsson, Mats B.
+%A Nilsson, Mats
 %A Ono, Keisuke
 %A Peichl, Matthias
 %A Peltola, Olli
@@ -660,10 +667,10 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
 %A Sachs, Torsten
 %A Sakabe, Ayaka
 %A Sparks, Jed P.
-%A Tuittila, Eeva‐Stiina
+%A Tuittila, Eeva-Stiina
 %A Vourlitis, George L.
-%A Wong, Guan X.
-%A Windham‐Myers, Lisamarie
+%A Wong, Guan Xhuan
+%A Windham-Myers, Lisamarie
 %A Poulter, Benjamin
 %A Jackson, Robert B.
 %J Global Change Biology, Volume 27, Issue 15
@@ -679,6 +686,6 @@ if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none
 %P 3582-3604
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-92001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales](https://gwf-uwaterloo.github.io/gwf-publications/G21-92001) (Knox et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales</a> (Knox et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina Schafer, Cove Sturtevant, Masahito Ueyama, Alex C. Valach, Dennis Baldocchi, Kyle Delwiche, Ankur R. Desai, Eugenie Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William Riley, Benjamin R. K. Runkle, Jessica Turner, Rodrigo Vargas, et al.. 2021. Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales. <i>Global Change Biology, Volume 27, Issue 15</i>, 27(15):3582–3604.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales](https://gwf-uwaterloo.github.io/gwf-publications/G21-92001) (Knox et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-92001>Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales</a> (Knox et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Sara H. Knox, Sheel Bansal, Gavin McNicol, Karina V. R. Schäfer, Cove Sturtevant, Masahito Ueyama, A. C. Valach, Dennis D. Baldocchi, Kyle B. Delwiche, Ankur R. Desai, Eugénie S. Euskirchen, Jinxun Liu, Annalea Lohila, Avni Malhotra, Lulie Melling, William J. Riley, Benjamin R. K. Runkle, Vince D. Calhoun, Rodrigo Vargas, et al.. 2021. Identifying dominant environmental predictors of freshwater wetland methane fluxes across diurnal to seasonal time scales. <i>Global Change Biology, Volume 27, Issue 15</i>, 27(15):3582–3604.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

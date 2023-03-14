@@ -1,12 +1,14 @@
 {{ define "main" }}
-
+{{ $universities := dict "uni0001" "University of Saskatchewan" "uni0002" "University of Waterloo" "uni0003" "McMaster University" "uni0004" "Environment and Climate Change Canada" "uni0005" "University of Guelph" "uni0006" "Global Institute for Water Security" "uni0007" "Wilfrid Laurier University" "uni0008" "University of Toronto" "uni0009" "University of Alberta" "uni0010" "Wageningen University & Research" "uni0011" "University of Calgary" "uni0012" "Jet Propulsion Lab" "uni0013" "University of Manitoba" "uni0014" "United States Geological Survey" "uni0015" "Universität Innsbruck" "uni0016" "Lawrence Berkeley National Laboratory" "uni0017" "University of Michigan–Ann Arbor" "uni0018" "University of Washington" "uni0019" "Agriculture and Agriculture-Food Canada" "uni0020" "Natural Resources Canada" "uni0021" "University of California, Berkeley" "uni0022" "University of Arizona" "uni0023" "University of Quebec at Montreal" "uni0024" "University of Alaska Fairbanks" "uni0025" "Max Planck Institute for Biogeochemistry" "uni0026" "University of Ottawa" "uni0027" "University of Helsinki" "uni0028" "Goddard Space Flight Center" "uni0029" "University of British Columbia" "uni0030" "Finnish Meteorological Institute" "uni0031" "University of Nebraska–Lincoln" "uni0032" "University of Victoria" "uni0033" "National Center for Atmospheric Research" "uni0034" "University of Exeter" "uni0035" "University of Montreal" "uni0036" "University of California, Los Angeles" "uni0037" "University of Chinese Academy of Sciences" "uni0038" "Stanford University" "uni0039" "Swiss Federal Institute for Forest, Snow and Landscape Research" "uni0040" "ETH Zurich" "uni0041" "Université Laval" "uni0042" "Oak Ridge National Laboratory" "uni0043" "UK Centre for Ecology & Hydrology" "uni0044" "McGill University" "uni0045" "Utrecht University" "uni0046" "University of Melbourne" "uni0047" "Météo-France" "uni0048" "Lund University" "uni0049" "Swedish University of Agricultural Sciences" "uni0050" "Northern Arizona University"}}
+<button onclick="goTopFunction()" id="topBtn" title="Go to top"><i class="arrowup"></i></button>
 <div class="row">
   <div class="col-lg-3">
-    <div class="row" style="top: 100px;position: sticky;">
+    <div class="row">
       <div class="col-12 col-md-6 col-lg-12">
         <div class="card my-2 my-md-0 my-lg-2">
-          <h5 class="card-header" style="cursor:pointer;"  href="#year_list" data-toggle="collapse" aria-expanded="false" aria-controls="year_list">Year</h5>
+          <h5 class="card-header card-header-custom" href="#year_list" data-toggle="collapse" aria-expanded="false" aria-controls="year_list">Year</h5>
           <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="year_list">
+            <li class="list-group-item"><div class="badge badge-secondary clear-widget" onclick="clearAll('year')">Clear All</div></li>
             {{ range $key_year, $paper_year := sort $.Site.Data.venues.GWF.years "value" "desc" }}
             <li class="list-group-item">
               <input type="checkbox" id={{ print "check_year_" $paper_year }} checked=True/>
@@ -18,9 +20,9 @@
       </div>
       <div class="col-12 col-md-6 col-lg-12">
         <div class="card my-2 my-md-0 my-lg-2">
-          <h5 class="card-header" style="cursor:pointer;"  href="#university_list" data-toggle="collapse" aria-expanded="false" aria-controls="university_list">University</h5>
-          <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="university_list">            
-            {{ $universities := dict "wat" "University of Waterloo" "sas" "University of Saskatchewan" }}
+          <h5 class="card-header card-header-custom" href="#university_list" data-toggle="collapse" aria-expanded="false" aria-controls="university_list">University</h5>
+          <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="university_list">
+            <li class="list-group-item"><div class="badge badge-secondary clear-widget" onclick="clearAll('uni')">Clear All</div></li>
             {{ range $abbr_uni, $uni := $universities }}
             <li class="list-group-item">
               <input type="checkbox" id={{ print "uni_" $abbr_uni }} checked=True/>
@@ -32,8 +34,9 @@
       </div>
       <div class="col-12 col-md-6 col-lg-12">
         <div class="card my-2 my-md-0 my-lg-2">
-          <h5 class="card-header" style="cursor:pointer;"  href="#project_list" data-toggle="collapse" aria-expanded="false" aria-controls="project_list">Project</h5>
-          <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="project_list">            
+          <h5 class="card-header card-header-custom" href="#project_list" data-toggle="collapse" aria-expanded="false" aria-controls="project_list">Project</h5>
+          <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="project_list">      
+            <li class="list-group-item"><div class="badge badge-secondary clear-widget" onclick="clearAll('prj')">Clear All</div></li>      
             {{ $projects := dict "prj1" "What is Water Worth? Valuing Canada's Water Resources and Aquatic Ecosystem Services Publications" "prj2" "Paradigm Shift in Downscaling Climate Model Projections Publications" "prj3" "Short-Duration Extreme Precipitation in Future Climate Publications" "prj4" "Winter Soil Processes in Transition Publications" "prj5" "Collaborative Modelling Framework for Water Futures Publications" "prj6" "Others" }}
             {{ range $abbr_prj, $prj := $projects }}
             <li class="list-group-item">
@@ -158,6 +161,27 @@
         $( '[data-prj=prj'+prjArr[i]+']' ).prop('style', "display:initial !important");
         $( ':input[id="prj_prj'+prjArr[i]+'"]' ).prop('checked', true);
       }
+    }
+  </script>
+  <script>
+    // Get the button
+    let topbutton = document.getElementById("topBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollBtnFunction()};
+
+    function scrollBtnFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        topbutton.style.display = "block";
+      } else {
+        topbutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function goTopFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
     }
   </script>
 </div>

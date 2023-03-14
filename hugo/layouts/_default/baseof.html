@@ -10,7 +10,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
-    var unis = {wat: true, sas: true};
+    var unis = {};
     $(document).on("change", "input[type='checkbox']", function () {
       if (this.id.startsWith("check_year")) {    
         const collection = document.getElementById("main").children;      
@@ -22,7 +22,8 @@
           }
         }
       } else if (this.id.startsWith("uni")) {        
-        var uni = this.id.slice(-3);        
+        var uni = this.id.slice(-7);        
+        if(unis[uni] == undefined) unis[uni]=true;
         this.checked ? (unis[uni] = true) : (unis[uni] = false);
 
         const collection = document.querySelectorAll("[data-uni=" + uni + "]");
@@ -31,7 +32,8 @@
             child.parentNode.parentNode.setAttribute("style", "display:flex !important")            
           } else {
             disp_off_flag = true;
-            for (child of child.parentNode.querySelectorAll("[data-uni]")) {                      
+            for (child of child.parentNode.querySelectorAll("[data-uni]")) {   
+              if(unis[child.getAttribute("data-uni")] == undefined) unis[child.getAttribute("data-uni")]=true;    
               if (unis[child.getAttribute("data-uni")] == true) {
                 disp_off_flag = false;
                 break;
@@ -51,7 +53,74 @@
         }
       }
     });
+
+    function clearAll(t){
+      if(t=='year'){
+        $( ':input[id^="check_year"]' ).prop('checked', false);
+        $( 'div[id^="year_"]' ).prop('style', 'display:none;');
+      }else if(t=='uni'){
+        $( ':input[id^="uni"]' ).prop('checked', false);
+        $( 'p.d-sm-flex' ).prop('style', 'display:none!important;');
+        uni_ids = $(':input[id^="uni"]');
+        for (var i=0;i<uni_ids.length;i++){
+          unis[uni_ids[i].id.slice(-7)] = false;          
+        }
+      }else if(t=='prj'){
+        $( ':input[id^="prj"]' ).prop('checked', false);
+        $( 'div[data-prj]' ).prop('style', 'display:none!important;');
+        data-prj
+      }
+    }
     </script>
+
+    <style>
+      .arrowup {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 5px;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+      }      
+      #topBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        background-color: #29abe0;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 8px;
+        height: 10dp;
+      }
+
+      #topBtn:hover {
+        background-color: #1b8dbb;
+      }
+      .card-header-custom {
+        cursor: pointer;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      .clear-widget{
+        color: #747474!important;
+        background-color: #dee2e6;
+        font-size: 80%!important;
+        /* margin-left: 1rem!important; */
+        /* vertical-align: bottom!important; */
+      }
+      .clear-widget:hover{
+        color: #212529!important;
+        background-color: #c1c9d0;
+        cursor: pointer;
+      }
+    </style>
 
     <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
     {{ "<!--[if IEMobile]>" | safeHTML }}
