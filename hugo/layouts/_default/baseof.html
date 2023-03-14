@@ -61,9 +61,8 @@
       }else if(t=='uni'){
         $( ':input[id^="uni"]' ).prop('checked', false);
         $( 'p.d-sm-flex' ).prop('style', 'display:none!important;');
-        uni_ids = $(':input[id^="uni"]');
-        for (var i=0;i<uni_ids.length;i++){
-          unis[uni_ids[i].id.slice(-7)] = false;          
+        for(let key in unis){
+          unis[key] = false
         }
       }else if(t=='prj'){
         $( ':input[id^="prj"]' ).prop('checked', false);

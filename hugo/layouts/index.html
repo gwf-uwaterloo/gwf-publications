@@ -183,6 +183,11 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     }
+
+    insts = $('a[data-uni]');
+    for (var i=0;i<insts.length;i++){      
+      unis[insts[i].dataset.uni] = true;
+    }
   </script>
 </div>
 
