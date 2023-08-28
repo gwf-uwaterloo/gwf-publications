@@ -1,9 +1,9 @@
 ﻿%0 Journal Article
 %T Multi-objective unstructured triangular mesh generation for use in hydrological and land surface models
-%A Marsh, Christopher B.
+%A Marsh, Christopher L.
 %A Spiteri, Raymond J.
 %A Pomeroy, John W.
-%A Wheater, Howard S.
+%A Wheater, Howard
 %J Computers & Geosciences, Volume 119
 %D 2018
 %V 119
@@ -11,7 +11,7 @@
 %F Marsh-2018-Multi-objective
 %X Abstract Unstructured triangular meshes are an efficient and effective landscape representation that are suitable for use in distributed hydrological and land surface models. Their variable spatial resolution provides similar spatial performance to high-resolution structured grids while using only a fraction of the number of elements. Many existing triangulation methods either sacrifice triangle quality to introduce variable resolution or maintain well-formed uniform meshes at the expense of variable triangle resolution. They are also generally constructed to only fulfil topographic constraints. However, distributed hydrological and land surface models require triangles of varying resolution to provide landscape representations that accurately represent the spatial heterogeneity of driving meteorology, physical parameters and process operation in the simulation domain. As such, mesh generators need to constrain the unstructured mesh to not only topography but to other important surface and sub-surface features. This work presents novel multi-objective unstructured mesh generation software that allows mesh generation to be constrained to an arbitrary number of important features while maintaining a variable spatial resolution. Triangle quality is supported as well as a smooth gradation from small to large triangles. Including these additional constraints results in a better representation of spatial heterogeneity than from classic topography-only constraints.
 %R 10.1016/j.cageo.2018.06.009
-%U https://aclanthology.org/G18-78001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G18-78001
 %U https://doi.org/10.1016/j.cageo.2018.06.009
 %P 49-67
 

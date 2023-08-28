@@ -1,6 +1,6 @@
 ﻿%0 Journal Article
 %T Retrieval of ice/water observations from synthetic aperture radar imagery for use in lake ice data assimilation
-%A Scott, K. Andrea
+%A Scott, Keith
 %A Xu, Linlin
 %A Pour, Homa Kheyrollah
 %J Journal of Great Lakes Research, Volume 46, Issue 6
@@ -11,7 +11,7 @@
 %F Scott-2020-Retrieval
 %X High-resolution lake ice/water observations retrieved from satellite imagery through efficient, automated methods can provide critical information to lake ice forecasting systems. Synthetic aperture radar (SAR) data is well-suited to this purpose due to its high spatial resolution (approximately 50 m). With recent increases in the volume of SAR data available, the development of automated retrieval methods for these data is a priority for operational centres. However, automated retrieval of ice/water data from SAR imagery is difficult, due to ambiguity in ice and open water signatures, both in terms of image tone and in terms of parameterized texture features extracted from these images. Convolutional neural networks (CNNs) can learn features from imagery in an automated manner, and have been found effective in previous studies on sea ice concentration estimation from SAR. In this study the use of CNNs to retrieve ice/water observations from dual-polarized SAR imagery of two of the Laurentian Great Lakes, Lake Erie and Lake Ontario, is investigated. For data assimilation, it is crucial that the retrieved observations are of high quality. To this end, quality control measures based on the uncertainty of the CNN output to eliminate incorrect retrievals are discussed and demonstrated. The quality control measures are found to be effective in both dual-polarized and single-polarized retrievals. The ability of the CNN to downscale the coarse resolution training labels is demonstrated qualitatively.
 %R 10.1016/j.jglr.2020.08.018
-%U https://aclanthology.org/G20-132001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-132001
 %U https://doi.org/10.1016/j.jglr.2020.08.018
 %P 1521-1532
 

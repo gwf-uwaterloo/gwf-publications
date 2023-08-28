@@ -11,13 +11,13 @@
 %A Gauch, Martin
 %A Klotz, Daniel
 %A Kratzert, Frederik
-%A O’Brien, Nicole
-%A Princz, Daniel G.
-%A Rasiya Koya, Sinan
+%A O’Brien, Nicole F.
+%A Princz, Daniel
+%A Koya, Sinan Rasiya
 %A Roy, Tirthankar
 %A Seglenieks, Frank
-%A Shrestha, Narayan K.
-%A Temgoua, André G. T.
+%A Shrestha, Narayan Kumar
+%A Temgoua, André Guy Tranquille
 %A Vionnet, Vincent
 %A Waddell, Jonathan W.
 %J Hydrology and Earth System Sciences
@@ -26,6 +26,6 @@
 %F Mai-2022-The
 %X Abstract. Model intercomparison studies are carried out to test and compare the simulated outputs of various model setups over the same study domain. The Great Lakes region is such a domain of high public interest as it not only resembles a challenging region to model with its trans-boundary location, strong lake effects, and regions of strong human impact but is also one of the most densely populated areas in the United States and Canada. This study brought together a wide range of researchers setting up their models of choice in a highly standardized experimental setup using the same geophysical datasets, forcings, common routing product, and locations of performance evaluation across the 1 million square kilometer study domain. The study comprises 13 models covering a wide range of model types from Machine Learning based, basin-wise, subbasin-based, and gridded models that are either locally or globally calibrated or calibrated for one of each of six predefined regions of the watershed. Unlike most hydrologically focused model intercomparisons, this study not only compares models regarding their capability to simulated streamflow (Q) but also evaluates the quality of simulated actual evapotranspiration (AET), surface soil moisture (SSM), and snow water equivalent (SWE). The latter three outputs are compared against gridded reference datasets. The comparisons are performed in two ways: either by aggregating model outputs and the reference to basin-level or by regridding all model outputs to the reference grid and comparing the model simulations at each grid-cell. The main results of this study are: (1) The comparison of models regarding streamflow reveals the superior quality of the Machine Learning based model in all experiments performance; even for the most challenging spatio-temporal validation the ML model outperforms any other physically based model. (2) While the locally calibrated models lead to good performance in calibration and temporal validation (even outperforming several regionally calibrated models), they lose performance when they are transferred to locations the model has not been calibrated on. This is likely to be improved with more advanced strategies to transfer these models in space. (3) The regionally calibrated models – while losing less performance in spatial and spatio-temporal validation than locally calibrated models – exhibit low performances in highly regulated and urban areas as well as agricultural regions in the US. (4) Comparisons of additional model outputs (AET, SSM, SWE) against gridded reference datasets show that aggregating model outputs and the reference dataset to basin scale can lead to different conclusions than a comparison at the native grid scale. This is especially true for variables with large spatial variability such as SWE. (5) A multi-objective-based analysis of the model performances across all variables (Q, AET, SSM, SWE) reveals overall excellent performing locally calibrated models (i.e., HYMOD2-lumped) as well as regionally calibrated models (i.e., MESH-SVS-Raven and GEM-Hydro-Watroute) due to varying reasons. The Machine Learning based model was not included here as is not setup to simulate AET, SSM, and SWE. (6) All basin-aggregated model outputs and observations for the model variables evaluated in this study are available on an interactive website that enables users to visualize results and download data and model outputs.
 %R 10.5194/hess-2022-113
-%U https://aclanthology.org/G22-83001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-83001
 %U https://doi.org/10.5194/hess-2022-113
 

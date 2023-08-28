@@ -1,88 +1,95 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada" name=citation_title><meta content="Jennifer D. Watts" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Christina Minions" name=citation_author><meta content="Dave Risk" name=citation_author><meta content="Kyle Arndt" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Adrian V. Rocha" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Walt Oechel" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Rikie Suzuki" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Yongwon Kim" name=citation_author><meta content="Bang-Yong Lee" name=citation_author><meta content="Scott Goetz" name=citation_author><meta content="Nima Madani" name=citation_author><meta content="Luke D Schiferl" name=citation_author><meta content="Roisin Commane" name=citation_author><meta content="John S. Kimball" name=citation_author><meta content="Zhihua Liu" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Stefano Potter" name=citation_author><meta content="Jonathan A. Wang" name=citation_author><meta content="M Torre Jorgenson" name=citation_author><meta content="Jingfeng Xiao" name=citation_author><meta content="Xing Li" name=citation_author><meta content="Colin Edgar" name=citation_author><meta content="Environmental Research Letters, Volume 16, Issue 8" name=citation_journal_title><meta content="16" name=citation_volume><meta content="8" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-101001.pdf" name=citation_pdf_url><meta content="10.1088/1748-9326/ac1222" name=citation_doi><meta property="og:title" content="Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-101001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-101001"><meta property="og:description" content="Jennifer D Watts, Susan M Natali, Christina Minions, Dave Risk, Kyle Arndt, Donatella Zona, Eugénie S Euskirchen, Adrian V Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walt Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A G Schuur, Elyn Humphreys, Yongwon Kim, Bang-Yong Lee, Scott Goetz, Nima Madani, Luke D Schiferl, Roisin Commane, John S Kimball, Zhihua Liu, Margaret S Torn, Stefano Potter, Jonathan A Wang, M Torre Jorgenson, Jingfeng Xiao, Xing Li, Colin Edgar. Environmental Research Letters, Volume 16, Issue 8. 2021."><link rel=canonical href=https://aclanthology.org/G21-101001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-101001.pdf>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a></h2><p class=lead><a href=/gwf-publications/people/J/Jennifer-D-Watts/>Jennifer D Watts</a>,
-<a href=/gwf-publications/people/S/Susan-M-Natali/>Susan M Natali</a>,
-<a href=/gwf-publications/people/C/Christina-Minions/>Christina Minions</a>,
-<a href=/gwf-publications/people/D/Dave-Risk/>Dave Risk</a>,
-<a href=/gwf-publications/people/K/Kyle-Arndt/>Kyle Arndt</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/>Eugénie S Euskirchen</a>,
-<a href=/gwf-publications/people/A/Adrian-V-Rocha/>Adrian V Rocha</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/M/Manuel-Helbig/>Manuel Helbig</a>,
-<a href=/gwf-publications/people/A/Aram-Kalhori/>Aram Kalhori</a>,
-<a href=/gwf-publications/people/W/Walt-Oechel/>Walt Oechel</a>,
-<a href=/gwf-publications/people/H/Hiroki-Ikawa/>Hiroki Ikawa</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/R/Rikie-Suzuki/>Rikie Suzuki</a>,
-<a href=/gwf-publications/people/H/Hideki-Kobayashi/>Hideki Kobayashi</a>,
-<a href=/gwf-publications/people/G/Gerardo-Celis/>Gerardo Celis</a>,
-<a href=/gwf-publications/people/E/Edward-A-G-Schuur/>Edward A G Schuur</a>,
-<a href=/gwf-publications/people/E/Elyn-Humphreys/>Elyn Humphreys</a>,
-<a href=/gwf-publications/people/Y/Yongwon-Kim/>Yongwon Kim</a>,
-<a href=/gwf-publications/people/B/Bang-Yong-Lee/>Bang-Yong Lee</a>,
-<a href=/gwf-publications/people/S/Scott-Goetz/>Scott Goetz</a>,
-<a href=/gwf-publications/people/N/Nima-Madani/>Nima Madani</a>,
-<a href=/gwf-publications/people/L/Luke-D-Schiferl/>Luke D Schiferl</a>,
-<a href=/gwf-publications/people/R/Roisin-Commane/>Roisin Commane</a>,
-<a href=/gwf-publications/people/J/John-S-Kimball/>John S Kimball</a>,
-<a href=/gwf-publications/people/Z/Zhihua-Liu/>Zhihua Liu</a>,
-<a href=/gwf-publications/people/M/Margaret-S-Torn/>Margaret S Torn</a>,
-<a href=/gwf-publications/people/S/Stefano-Potter/>Stefano Potter</a>,
-<a href=/gwf-publications/people/J/Jonathan-A-Wang/>Jonathan A Wang</a>,
-<a href=/gwf-publications/people/M/M-Torre-Jorgenson/>M Torre Jorgenson</a>,
-<a href=/gwf-publications/people/J/Jingfeng-Xiao/>Jingfeng Xiao</a>,
-<a href=/gwf-publications/people/X/Xing-Li/>Xing Li</a>,
-<a href=/gwf-publications/people/C/Colin-Edgar/>Colin Edgar</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Soil respiration (i.e. from soils and roots) provides one of the largest global fluxes of carbon dioxide (CO 2 ) to the atmosphere and is likely to increase with warming, yet the magnitude of soil respiration from rapidly thawing Arctic-boreal regions is not well understood. To address this knowledge gap, we first compiled a new CO 2 flux database for permafrost-affected tundra and boreal ecosystems in Alaska and Northwest Canada. We then used the CO 2 database, multi-sensor satellite imagery, and random forest models to assess the regional magnitude of soil respiration. The flux database includes a new Soil Respiration Station network of chamber-based fluxes, and fluxes from eddy covariance towers. Our site-level data, spanning September 2016 to August 2017, revealed that the largest soil respiration emissions occurred during the summer (June–August) and that summer fluxes were higher in boreal sites (1.87 ± 0.67 g CO 2 –C m −2 d −1 ) relative to tundra (0.94 ± 0.4 g CO 2 –C m −2 d −1 ). We also observed considerable emissions (boreal: 0.24 ± 0.2 g CO 2 –C m −2 d −1 ; tundra: 0.18 ± 0.16 g CO 2 –C m −2 d −1 ) from soils during the winter (November–March) despite frozen surface conditions. Our model estimates indicated an annual region-wide loss from soil respiration of 591 ± 120 Tg CO 2 –C during the 2016–2017 period. Summer months contributed to 58% of the regional soil respiration, winter months contributed to 15%, and the shoulder months contributed to 27%. In total, soil respiration offset 54% of annual gross primary productivity (GPP) across the study domain. We also found that in tundra environments, transitional tundra/boreal ecotones, and in landscapes recently affected by fire, soil respiration often exceeded GPP, resulting in a net annual source of CO 2 to the atmosphere. As this region continues to warm, soil respiration may increasingly offset GPP, further amplifying global climate change.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jennifer D Watts, Susan M Natali, Christina Minions, Dave Risk, Kyle Arndt, Donatella Zona, Eugénie S Euskirchen, Adrian V Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walt Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A G Schuur, Elyn Humphreys, et al.. 2021. <a href=https://aclanthology.org/G21-101001>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a>. <i>Environmental Research Letters, Volume 16, Issue 8</i>, 16(8):084051.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada" name=citation_title><meta content="Jennifer J. Watts" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Christina Minions" name=citation_author><meta content="Dave Risk" name=citation_author><meta content="Kyle A. Arndt" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Adrian V. Rocha" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Rikie Suzuki" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Yongwon Kim" name=citation_author><meta content="Bang-Yong Lee" name=citation_author><meta content="Scott J. Goetz" name=citation_author><meta content="Nima Madani" name=citation_author><meta content="Luke D Schiferl" name=citation_author><meta content="Roisin Commane" name=citation_author><meta content="John S. Kimball" name=citation_author><meta content="Zhihua Liu" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="S. Potter" name=citation_author><meta content="Jonathan M. Wang" name=citation_author><meta content="M. Torre Jorgenson" name=citation_author><meta content="Jingfeng Xiao" name=citation_author><meta content="Xing Li" name=citation_author><meta content="C. Edgar" name=citation_author><meta content="Environmental Research Letters, Volume 16, Issue 8" name=citation_journal_title><meta content="16" name=citation_volume><meta content="8" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-101001.pdf" name=citation_pdf_url><meta content="10.1088/1748-9326/ac1222" name=citation_doi><meta property="og:title" content="Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-101001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-101001"><meta property="og:description" content="Jennifer J. Watts, Susan M. Natali, Christina Minions, Dave Risk, Kyle A. Arndt, Donatella Zona, Eugénie S. Euskirchen, Adrian V. Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walter C. Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A. G. Schuur, Elyn Humphreys, Yongwon Kim, Bang-Yong Lee, Scott J. Goetz, Nima Madani, Luke D Schiferl, Roisin Commane, John S. Kimball, Zhihua Liu, Margaret S. Torn, S. Potter, Jonathan M. Wang, M. Torre Jorgenson, Jingfeng Xiao, Xing Li, C. Edgar. Environmental Research Letters, Volume 16, Issue 8. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-101001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-101001>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a></h2><p class=lead><a href=/gwf-publications/people/J/Jennifer-J-Watts/ data-uni=uni1492>Jennifer J. Watts</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0069>Susan M. Natali</a>,
+<a href=/gwf-publications/people/C/Christina-Minions/ data-uni=uni1449>Christina Minions</a>,
+<a href=/gwf-publications/people/D/Dave-Risk/ data-uni=uni0415>Dave Risk</a>,
+<a href=/gwf-publications/people/K/Kyle-A-Arndt/ data-uni=uni0124>Kyle A. Arndt</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0103>Donatella Zona</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0024>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/A/Adrian-V-Rocha/ data-uni=uni0272>Adrian V. Rocha</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0076>Manuel Helbig</a>,
+<a href=/gwf-publications/people/A/Aram-Kalhori/ data-uni=uni0055>Aram Kalhori</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0034>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/H/Hiroki-Ikawa/ data-uni=uni0370>Hiroki Ikawa</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni1493>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/R/Rikie-Suzuki/ data-uni=uni0413>Rikie Suzuki</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0413>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0159>Gerardo Celis</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0050>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0118>Elyn Humphreys</a>,
+<a href=/gwf-publications/people/Y/Yongwon-Kim/ data-uni=uni0024>Yongwon Kim</a>,
+<a href=/gwf-publications/people/B/Bang-Yong-Lee/ data-uni=uni0577>Bang-Yong Lee</a>,
+<a href=/gwf-publications/people/S/Scott-J-Goetz/ data-uni=uni0050>Scott J. Goetz</a>,
+<a href=/gwf-publications/people/N/Nima-Madani/ data-uni=uni0012>Nima Madani</a>,
+<a href=/gwf-publications/people/L/Luke-D-Schiferl/ data-uni=uni0371>Luke D Schiferl</a>,
+<a href=/gwf-publications/people/R/Roisin-Commane/ data-uni=uni0371>Roisin Commane</a>,
+<a href=/gwf-publications/people/J/John-S-Kimball/ data-uni=uni0141>John S. Kimball</a>,
+<a href=/gwf-publications/people/Z/Zhihua-Liu/ data-uni=uni0443>Zhihua Liu</a>,
+<a href=/gwf-publications/people/M/Margaret-S-Torn/ data-uni=uni0021>Margaret S. Torn</a>,
+<a href=/gwf-publications/people/S/S-Potter/ data-uni=uni0069>S. Potter</a>,
+<a href=/gwf-publications/people/J/Jonathan-M-Wang/ data-uni=uni0008>Jonathan M. Wang</a>,
+<a href=/gwf-publications/people/M/M-Torre-Jorgenson/ data-uni=uni0024>M. Torre Jorgenson</a>,
+<a href=/gwf-publications/people/J/Jingfeng-Xiao/ data-uni=uni0124>Jingfeng Xiao</a>,
+<a href=/gwf-publications/people/X/Xing-Li/ data-uni=uni1217>Xing Li</a>,
+<a href=/gwf-publications/people/C/C-Edgar/ data-uni=uni0024>C. Edgar</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Soil respiration (i.e. from soils and roots) provides one of the largest global fluxes of carbon dioxide (CO 2 ) to the atmosphere and is likely to increase with warming, yet the magnitude of soil respiration from rapidly thawing Arctic-boreal regions is not well understood. To address this knowledge gap, we first compiled a new CO 2 flux database for permafrost-affected tundra and boreal ecosystems in Alaska and Northwest Canada. We then used the CO 2 database, multi-sensor satellite imagery, and random forest models to assess the regional magnitude of soil respiration. The flux database includes a new Soil Respiration Station network of chamber-based fluxes, and fluxes from eddy covariance towers. Our site-level data, spanning September 2016 to August 2017, revealed that the largest soil respiration emissions occurred during the summer (June–August) and that summer fluxes were higher in boreal sites (1.87 ± 0.67 g CO 2 –C m −2 d −1 ) relative to tundra (0.94 ± 0.4 g CO 2 –C m −2 d −1 ). We also observed considerable emissions (boreal: 0.24 ± 0.2 g CO 2 –C m −2 d −1 ; tundra: 0.18 ± 0.16 g CO 2 –C m −2 d −1 ) from soils during the winter (November–March) despite frozen surface conditions. Our model estimates indicated an annual region-wide loss from soil respiration of 591 ± 120 Tg CO 2 –C during the 2016–2017 period. Summer months contributed to 58% of the regional soil respiration, winter months contributed to 15%, and the shoulder months contributed to 27%. In total, soil respiration offset 54% of annual gross primary productivity (GPP) across the study domain. We also found that in tundra environments, transitional tundra/boreal ecotones, and in landscapes recently affected by fire, soil respiration often exceeded GPP, resulting in a net annual source of CO 2 to the atmosphere. As this region continues to warm, soil respiration may increasingly offset GPP, further amplifying global climate change.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jennifer J. Watts, Susan M. Natali, Christina Minions, Dave Risk, Kyle A. Arndt, Donatella Zona, Eugénie S. Euskirchen, Adrian V. Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walter C. Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A. G. Schuur, Elyn Humphreys, et al.. 2021. Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada. <i>Environmental Research Letters, Volume 16, Issue 8</i>, 16(8):084051.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-101001.pdf title="Open PDF of 'Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Soil+respiration+strongly+offsets+carbon+uptake+in+Alaska+and+Northwest+Canada" title="Search for 'Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Watts-2021-Soil,
     title = &#34;Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada&#34;,
-    author = &#34;Watts, Jennifer D  and
-      Natali, Susan M  and
+    author = &#34;Watts, Jennifer J.  and
+      Natali, Susan M.  and
       Minions, Christina  and
       Risk, Dave  and
-      Arndt, Kyle  and
+      Arndt, Kyle A.  and
       Zona, Donatella  and
-      Euskirchen, Eug{\&#39;e}nie S  and
-      Rocha, Adrian V  and
+      Euskirchen, Eug{\&#39;e}nie S.  and
+      Rocha, Adrian V.  and
       Sonnentag, Oliver  and
       Helbig, Manuel  and
       Kalhori, Aram  and
-      Oechel, Walt  and
+      Oechel, Walter C.  and
       Ikawa, Hiroki  and
       Ueyama, Masahito  and
       Suzuki, Rikie  and
       Kobayashi, Hideki  and
       Celis, Gerardo  and
-      Schuur, Edward A G  and
+      Schuur, Edward A. G.  and
       Humphreys, Elyn  and
       Kim, Yongwon  and
       Lee, Bang-Yong  and
-      Goetz, Scott  and
+      Goetz, Scott J.  and
       Madani, Nima  and
       Schiferl, Luke D  and
       Commane, Roisin  and
-      Kimball, John S  and
+      Kimball, John S.  and
       Liu, Zhihua  and
-      Torn, Margaret S  and
-      Potter, Stefano  and
-      Wang, Jonathan A  and
-      Jorgenson, M Torre  and
+      Torn, Margaret S.  and
+      Potter, S.  and
+      Wang, Jonathan M.  and
+      Jorgenson, M. Torre  and
       Xiao, Jingfeng  and
       Li, Xing  and
-      Edgar, Colin&#34;,
+      Edgar, C.&#34;,
     journal = &#34;Environmental Research Letters, Volume 16, Issue 8&#34;,
     volume = &#34;16&#34;,
     number = &#34;8&#34;,
     year = &#34;2021&#34;,
     publisher = &#34;IOP Publishing&#34;,
-    url = &#34;https://aclanthology.org/G21-101001&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G21-101001&#34;,
     doi = &#34;10.1088/1748-9326/ac1222&#34;,
     pages = &#34;084051&#34;,
     abstract = &#34;Abstract Soil respiration (i.e. from soils and roots) provides one of the largest global fluxes of carbon dioxide (CO 2 ) to the atmosphere and is likely to increase with warming, yet the magnitude of soil respiration from rapidly thawing Arctic-boreal regions is not well understood. To address this knowledge gap, we first compiled a new CO 2 flux database for permafrost-affected tundra and boreal ecosystems in Alaska and Northwest Canada. We then used the CO 2 database, multi-sensor satellite imagery, and random forest models to assess the regional magnitude of soil respiration. The flux database includes a new Soil Respiration Station network of chamber-based fluxes, and fluxes from eddy covariance towers. Our site-level data, spanning September 2016 to August 2017, revealed that the largest soil respiration emissions occurred during the summer (June{--}August) and that summer fluxes were higher in boreal sites (1.87 {\mbox{$\pm$}} 0.67 g CO 2 {--}C m −2 d −1 ) relative to tundra (0.94 {\mbox{$\pm$}} 0.4 g CO 2 {--}C m −2 d −1 ). We also observed considerable emissions (boreal: 0.24 {\mbox{$\pm$}} 0.2 g CO 2 {--}C m −2 d −1 ; tundra: 0.18 {\mbox{$\pm$}} 0.16 g CO 2 {--}C m −2 d −1 ) from soils during the winter (November{--}March) despite frozen surface conditions. Our model estimates indicated an annual region-wide loss from soil respiration of 591 {\mbox{$\pm$}} 120 Tg CO 2 {--}C during the 2016{--}2017 period. Summer months contributed to 58{\%} of the regional soil respiration, winter months contributed to 15{\%}, and the shoulder months contributed to 27{\%}. In total, soil respiration offset 54{\%} of annual gross primary productivity (GPP) across the study domain. We also found that in tundra environments, transitional tundra/boreal ecotones, and in landscapes recently affected by fire, soil respiration often exceeded GPP, resulting in a net annual source of CO 2 to the atmosphere. As this region continues to warm, soil respiration may increasingly offset GPP, further amplifying global climate change.&#34;,
@@ -96,7 +103,7 @@
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Jennifer&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Watts&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -126,6 +133,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Arndt&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -176,7 +184,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Walt&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -249,6 +258,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Goetz&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -300,7 +310,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Stefano&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Potter&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -308,7 +318,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Jonathan&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Wang&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -337,7 +347,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Colin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Edgar&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -363,7 +373,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Watts-2021-Soil&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.1088/1748-9326/ac1222&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G21-101001&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G21-101001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2021&lt;/date&gt;
@@ -376,18 +386,18 @@
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-101001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada
-%A Watts, Jennifer D.
+%A Watts, Jennifer J.
 %A Natali, Susan M.
 %A Minions, Christina
 %A Risk, Dave
-%A Arndt, Kyle
+%A Arndt, Kyle A.
 %A Zona, Donatella
 %A Euskirchen, Eugénie S.
 %A Rocha, Adrian V.
 %A Sonnentag, Oliver
 %A Helbig, Manuel
 %A Kalhori, Aram
-%A Oechel, Walt
+%A Oechel, Walter C.
 %A Ikawa, Hiroki
 %A Ueyama, Masahito
 %A Suzuki, Rikie
@@ -397,19 +407,19 @@
 %A Humphreys, Elyn
 %A Kim, Yongwon
 %A Lee, Bang-Yong
-%A Goetz, Scott
+%A Goetz, Scott J.
 %A Madani, Nima
 %A Schiferl, Luke D.
 %A Commane, Roisin
 %A Kimball, John S.
 %A Liu, Zhihua
 %A Torn, Margaret S.
-%A Potter, Stefano
-%A Wang, Jonathan A.
+%A Potter, S.
+%A Wang, Jonathan M.
 %A Jorgenson, M. Torre
 %A Xiao, Jingfeng
 %A Li, Xing
-%A Edgar, Colin
+%A Edgar, C.
 %J Environmental Research Letters, Volume 16, Issue 8
 %D 2021
 %V 16
@@ -418,11 +428,11 @@
 %F Watts-2021-Soil
 %X Abstract Soil respiration (i.e. from soils and roots) provides one of the largest global fluxes of carbon dioxide (CO 2 ) to the atmosphere and is likely to increase with warming, yet the magnitude of soil respiration from rapidly thawing Arctic-boreal regions is not well understood. To address this knowledge gap, we first compiled a new CO 2 flux database for permafrost-affected tundra and boreal ecosystems in Alaska and Northwest Canada. We then used the CO 2 database, multi-sensor satellite imagery, and random forest models to assess the regional magnitude of soil respiration. The flux database includes a new Soil Respiration Station network of chamber-based fluxes, and fluxes from eddy covariance towers. Our site-level data, spanning September 2016 to August 2017, revealed that the largest soil respiration emissions occurred during the summer (June–August) and that summer fluxes were higher in boreal sites (1.87 \pm 0.67 g CO 2 –C m −2 d −1 ) relative to tundra (0.94 \pm 0.4 g CO 2 –C m −2 d −1 ). We also observed considerable emissions (boreal: 0.24 \pm 0.2 g CO 2 –C m −2 d −1 ; tundra: 0.18 \pm 0.16 g CO 2 –C m −2 d −1 ) from soils during the winter (November–March) despite frozen surface conditions. Our model estimates indicated an annual region-wide loss from soil respiration of 591 \pm 120 Tg CO 2 –C during the 2016–2017 period. Summer months contributed to 58% of the regional soil respiration, winter months contributed to 15%, and the shoulder months contributed to 27%. In total, soil respiration offset 54% of annual gross primary productivity (GPP) across the study domain. We also found that in tundra environments, transitional tundra/boreal ecotones, and in landscapes recently affected by fire, soil respiration often exceeded GPP, resulting in a net annual source of CO 2 to the atmosphere. As this region continues to warm, soil respiration may increasingly offset GPP, further amplifying global climate change.
 %R 10.1088/1748-9326/ac1222
-%U https://aclanthology.org/G21-101001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-101001
 %U https://doi.org/10.1088/1748-9326/ac1222
 %P 084051
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-101001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada](https://aclanthology.org/G21-101001) (Watts et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-101001>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a> (Watts et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Jennifer D Watts, Susan M Natali, Christina Minions, Dave Risk, Kyle Arndt, Donatella Zona, Eugénie S Euskirchen, Adrian V Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walt Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A G Schuur, Elyn Humphreys, et al.. 2021. <a href=https://aclanthology.org/G21-101001>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a>. <i>Environmental Research Letters, Volume 16, Issue 8</i>, 16(8):084051.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada](https://gwf-uwaterloo.github.io/gwf-publications/G21-101001) (Watts et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-101001>Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada</a> (Watts et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Jennifer J. Watts, Susan M. Natali, Christina Minions, Dave Risk, Kyle A. Arndt, Donatella Zona, Eugénie S. Euskirchen, Adrian V. Rocha, Oliver Sonnentag, Manuel Helbig, Aram Kalhori, Walter C. Oechel, Hiroki Ikawa, Masahito Ueyama, Rikie Suzuki, Hideki Kobayashi, Gerardo Celis, Edward A. G. Schuur, Elyn Humphreys, et al.. 2021. Soil respiration strongly offsets carbon uptake in Alaska and Northwest Canada. <i>Environmental Research Letters, Volume 16, Issue 8</i>, 16(8):084051.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

@@ -1,7 +1,7 @@
 ﻿%0 Journal Article
 %T Mapping erosion and deposition in an agricultural landscape: Optimization of UAV image acquisition schemes for SfM-MVS
 %A Meinen, Benjamin U.
-%A Robinson, Derek T.
+%A Robinson, Derek W.
 %J Remote Sensing of Environment, Volume 239
 %D 2020
 %V 239
@@ -9,7 +9,7 @@
 %F Meinen-2020-Mapping
 %X Abstract Structure-from-motion (SfM) and multi-view stereo (MVS) algorithms coupled with the use of unmanned aerial vehicles (UAVs) have become a popular tool in the geosciences for modelling complex landscapes on-demand allowing for high-resolution topographic change-detection studies to be conducted at minimal cost. To identify the effects of UAV image orientation on the accuracy of SfM-MVS 3D surface models, we tested four different UAV image acquisition schemes that incorporated both nadir and oblique imagery of an agricultural field. The coupling of nadir and oblique imaging angles led to the highest surface model accuracy in the absence of ground control points (GCPs; vertical RMSE: 0.047 m, horizontal RMSE: 0.019 m), while with a normative distribution of GCPs the nadir-only image sets had similar accuracy metrics (vertical RMSE 0.028 m, horizontal RMSE 0.017 m) to surface models generated with nadir and oblique imaging angles (vertical RMSE 0.028 m, horizontal RMSE 0.013 m). Homologous keypoint matching between nadir and oblique imagery was poor when the survey conditions were bright and the surface texture of the field was homogeneous, leading to broad-scale vertical noise in the generated surface models. Results indicate that a nadir-only image set accompanied with a dense deployment of GCPs is the most ideal for SfM-MVS agricultural 3D surface reconstructions. The diachronic analysis of surface models generated from nadir-only image sets were able to detect surface-change \textgreater0.040 m in depth (i.e., rill and gully erosion, depositional zones) and were comparable to results obtained from a terrestrial laser scanner. Stable GCPs should be used where possible to ensure precise co-registration between subsequent UAV surveys.
 %R 10.1016/j.rse.2020.111666
-%U https://aclanthology.org/G20-110001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-110001
 %U https://doi.org/10.1016/j.rse.2020.111666
 %P 111666
 

@@ -1,15 +1,15 @@
 ﻿%0 Journal Article
 %T Hydrologic Model Sensitivity to Temporal Aggregation of Meteorological Forcing Data: A Case Study for the Contiguous United States
-%A Van Beusekom, Ashley E.
+%A Beusekom, Ashley E. Van
 %A Hay, Lauren E.
-%A Bennett, Andrew R.
-%A Choi, Young-Don
+%A Bennett, Andrew F.
+%A Choi, Young Don
 %A Clark, Martyn P.
-%A Goodall, Jon L.
+%A Goodall, J. L.
 %A Li, Zhiyu
 %A Maghami, Iman
 %A Nijssen, Bart
-%A Wood, Andrew W.
+%A Wood, Andrew R.
 %J Journal of Hydrometeorology, Volume 23, Issue 2
 %D 2022
 %V 23
@@ -18,7 +18,7 @@
 %F VanBeusekom-2022-Hydrologic
 %X Abstract Surface meteorological analyses are an essential input (termed “forcing”) for hydrologic modeling. This study investigated the sensitivity of different hydrologic model configurations to temporal variations of seven forcing variables (precipitation rate, air temperature, longwave radiation, specific humidity, shortwave radiation, wind speed, and air pressure). Specifically, the effects of temporally aggregating hourly forcings to hourly daily average forcings were examined. The analysis was based on 14 hydrological outputs from the Structure for Unifying Multiple Modeling Alternatives (SUMMA) model for the 671 Catchment Attributes and Meteorology for Large-Sample Studies (CAMELS) basins across the contiguous United States (CONUS). Results demonstrated that the hydrologic model sensitivity to temporally aggregating the forcing inputs varies across model output variables and model locations. We used Latin hypercube sampling to sample model parameters from eight combinations of three influential model physics choices (three model decisions with two options for each decision, i.e., eight model configurations). Results showed that the choice of model physics can change the relative influence of forcing on model outputs and the forcing importance may not be dependent on the parameter space. This allows for model output sensitivity to forcing aggregation to be tested prior to parameter calibration. More generally, this work provides a comprehensive analysis of the dependence of modeled outcomes on input forcing behavior, providing insight into the regional variability of forcing variable dominance on modeled outputs across CONUS.
 %R 10.1175/jhm-d-21-0111.1
-%U https://aclanthology.org/G22-36001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-36001
 %U https://doi.org/10.1175/jhm-d-21-0111.1
 %P 167-183
 

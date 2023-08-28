@@ -1,109 +1,116 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties" name=citation_title><meta content="Anna‐Maria Virkkala" name=citation_author><meta content="Juha Aalto" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Torbern Tagesson" name=citation_author><meta content="Claire C. Treat" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Jennifer D. Watts" name=citation_author><meta content="Stefano Potter" name=citation_author><meta content="Aleksi Lehtonen" name=citation_author><meta content="Marguerite Mauritz" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="John Kochendorfer" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Walter Oechel" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Peter M. Lafleur" name=citation_author><meta content="Eugenie S. Euskirchen" name=citation_author><meta content="Stef Bokhorst" name=citation_author><meta content="Maija Marushchak" name=citation_author><meta content="Pertti J. Martikainen" name=citation_author><meta content="Bo Elberling" name=citation_author><meta content="Carolina Voigt" name=citation_author><meta content="Christina Biasi" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Frans‐Jan W. Parmentier" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Vincent L. St.Louis" name=citation_author><meta content="Craig A. Emmerton" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Jinshu Chi" name=citation_author><meta content="Järvi Järveoja" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Steven F. Oberbauer" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Sang‐Jong Park" name=citation_author><meta content="Han Dolman" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Namyi Chae" name=citation_author><meta content="Rafael Poyatos" name=citation_author><meta content="Efrén López‐Blanco" name=citation_author><meta content="Torben Røjle Christensen" name=citation_author><meta content="Min Jung Kwon" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="David Holl" name=citation_author><meta content="Miska Luoto" name=citation_author><meta content="Global Change Biology, Volume 27, Issue 17" name=citation_journal_title><meta content="27" name=citation_volume><meta content="17" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-100001.pdf" name=citation_pdf_url><meta content="4040" name=citation_firstpage><meta content="4059" name=citation_lastpage><meta content="10.1111/gcb.15659" name=citation_doi><meta property="og:title" content="Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-100001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-100001"><meta property="og:description" content="Anna‐Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer D. Watts, Stefano Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Goeckede, Hiroki Iwata, Peter M. Lafleur, Eugenie S. Euskirchen, Stef Bokhorst, Maija Marushchak, Pertti J. Martikainen, Bo Elberling, Carolina Voigt, Christina Biasi, Oliver Sonnentag, Frans‐Jan W. Parmentier, Masahito Ueyama, Gerardo Celis, Vincent L. St.Louis, Craig A. Emmerton, Matthias Peichl, Jinshu Chi, Järvi Järveoja, Mats B. Nilsson, Steven F. Oberbauer, Margaret S. Torn, Sang‐Jong Park, Han Dolman, Ivan Mammarella, Namyi Chae, Rafael Poyatos, Efrén López‐Blanco, Torben Røjle Christensen, Min Jung Kwon, Torsten Sachs, David Holl, Miska Luoto. Global Change Biology, Volume 27, Issue 17. 2021."><link rel=canonical href=https://aclanthology.org/G21-100001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-100001.pdf>Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a></h2><p class=lead><a href=/gwf-publications/people/A/AnnaMaria-Virkkala/>Anna‐Maria Virkkala</a>,
-<a href=/gwf-publications/people/J/Juha-Aalto/>Juha Aalto</a>,
-<a href=/gwf-publications/people/B/Brendan-M-Rogers/>Brendan M. Rogers</a>,
-<a href=/gwf-publications/people/T/Torbern-Tagesson/>Torbern Tagesson</a>,
-<a href=/gwf-publications/people/C/Claire-C-Treat/>Claire C. Treat</a>,
-<a href=/gwf-publications/people/S/Susan-M-Natali/>Susan M. Natali</a>,
-<a href=/gwf-publications/people/J/Jennifer-D-Watts/>Jennifer D. Watts</a>,
-<a href=/gwf-publications/people/S/Stefano-Potter/>Stefano Potter</a>,
-<a href=/gwf-publications/people/A/Aleksi-Lehtonen/>Aleksi Lehtonen</a>,
-<a href=/gwf-publications/people/M/Marguerite-Mauritz/>Marguerite Mauritz</a>,
-<a href=/gwf-publications/people/E/Edward-A-G-Schuur/>Edward A. G. Schuur</a>,
-<a href=/gwf-publications/people/J/John-Kochendorfer/>John Kochendorfer</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a>,
-<a href=/gwf-publications/people/W/Walter-Oechel/>Walter Oechel</a>,
-<a href=/gwf-publications/people/H/Hideki-Kobayashi/>Hideki Kobayashi</a>,
-<a href=/gwf-publications/people/E/Elyn-Humphreys/>Elyn Humphreys</a>,
-<a href=/gwf-publications/people/M/Mathias-Goeckede/>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/H/Hiroki-Iwata/>Hiroki Iwata</a>,
-<a href=/gwf-publications/people/P/Peter-M-Lafleur/>Peter M. Lafleur</a>,
-<a href=/gwf-publications/people/E/Eugenie-S-Euskirchen/>Eugenie S. Euskirchen</a>,
-<a href=/gwf-publications/people/S/Stef-Bokhorst/>Stef Bokhorst</a>,
-<a href=/gwf-publications/people/M/Maija-Marushchak/>Maija Marushchak</a>,
-<a href=/gwf-publications/people/P/Pertti-J-Martikainen/>Pertti J. Martikainen</a>,
-<a href=/gwf-publications/people/B/Bo-Elberling/>Bo Elberling</a>,
-<a href=/gwf-publications/people/C/Carolina-Voigt/>Carolina Voigt</a>,
-<a href=/gwf-publications/people/C/Christina-Biasi/>Christina Biasi</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/F/FransJan-W-Parmentier/>Frans‐Jan W. Parmentier</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/G/Gerardo-Celis/>Gerardo Celis</a>,
-<a href=/gwf-publications/people/V/Vincent-L-StLouis/>Vincent L. St.Louis</a>,
-<a href=/gwf-publications/people/C/Craig-A-Emmerton/>Craig A. Emmerton</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/>Matthias Peichl</a>,
-<a href=/gwf-publications/people/J/Jinshu-Chi/>Jinshu Chi</a>,
-<a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/>Järvi Järveoja</a>,
-<a href=/gwf-publications/people/M/Mats-B-Nilsson/>Mats B. Nilsson</a>,
-<a href=/gwf-publications/people/S/Steven-F-Oberbauer/>Steven F. Oberbauer</a>,
-<a href=/gwf-publications/people/M/Margaret-S-Torn/>Margaret S. Torn</a>,
-<a href=/gwf-publications/people/S/SangJong-Park/>Sang‐Jong Park</a>,
-<a href=/gwf-publications/people/H/Han-Dolman/>Han Dolman</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/N/Namyi-Chae/>Namyi Chae</a>,
-<a href=/gwf-publications/people/R/Rafael-Poyatos/>Rafael Poyatos</a>,
-<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pezBlanco/>Efrén López‐Blanco</a>,
-<a href=/gwf-publications/people/T/Torben-R%C3%B8jle-Christensen/>Torben Røjle Christensen</a>,
-<a href=/gwf-publications/people/M/Min-Jung-Kwon/>Min Jung Kwon</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/>Torsten Sachs</a>,
-<a href=/gwf-publications/people/D/David-Holl/>David Holl</a>,
-<a href=/gwf-publications/people/M/Miska-Luoto/>Miska Luoto</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>The regional variability in tundra and boreal carbon dioxide (CO2) fluxes can be high, complicating efforts to quantify sink-source patterns across the entire region. Statistical models are increasingly used to predict (i.e., upscale) CO2 fluxes across large spatial domains, but the reliability of different modeling techniques, each with different specifications and assumptions, has not been assessed in detail. Here, we compile eddy covariance and chamber measurements of annual and growing season CO2 fluxes of gross primary productivity (GPP), ecosystem respiration (ER), and net ecosystem exchange (NEE) during 1990–2015 from 148 terrestrial high-latitude (i.e., tundra and boreal) sites to analyze the spatial patterns and drivers of CO2 fluxes and test the accuracy and uncertainty of different statistical models. CO2 fluxes were upscaled at relatively high spatial resolution (1 km2) across the high-latitude region using five commonly used statistical models and their ensemble, that is, the median of all five models, using climatic, vegetation, and soil predictors. We found the performance of machine learning and ensemble predictions to outperform traditional regression methods. We also found the predictive performance of NEE-focused models to be low, relative to models predicting GPP and ER. Our data compilation and ensemble predictions showed that CO2 sink strength was larger in the boreal biome (observed and predicted average annual NEE −46 and −29 g C m−2 yr−1, respectively) compared to tundra (average annual NEE +10 and −2 g C m−2 yr−1). This pattern was associated with large spatial variability, reflecting local heterogeneity in soil organic carbon stocks, climate, and vegetation productivity. The terrestrial ecosystem CO2 budget, estimated using the annual NEE ensemble prediction, suggests the high-latitude region was on average an annual CO2 sink during 1990–2015, although uncertainty remains high.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Anna‐Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer D. Watts, Stefano Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Goeckede, Hiroki Iwata, Peter M. Lafleur, et al.. 2021. <a href=https://aclanthology.org/G21-100001>Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a>. <i>Global Change Biology, Volume 27, Issue 17</i>, 27(17):4040–4059.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties" name=citation_title><meta content="Anna-Maria Virkkala" name=citation_author><meta content="Juha Aalto" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Torbern Tagesson" name=citation_author><meta content="Claire C. Treat" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Jennifer J. Watts" name=citation_author><meta content="S. Potter" name=citation_author><meta content="Aleksi Lehtonen" name=citation_author><meta content="Marguerite Mauritz" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="John Kochendorfer" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Mathias Göckede" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Peter M. Lafleur" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Stef Bokhorst" name=citation_author><meta content="Maija E. Marushchak" name=citation_author><meta content="Pertti J. Martikainen" name=citation_author><meta content="Bo Elberling" name=citation_author><meta content="Carolina Voigt" name=citation_author><meta content="Christina Biasi" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Vincent L. St. Louis" name=citation_author><meta content="Craig A. Emmerton" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Jinshu Chi" name=citation_author><meta content="Järvi Järveoja" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Steven F. Oberbauer" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Sang Min Park" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Namyi Chae" name=citation_author><meta content="Rafael Poyatos" name=citation_author><meta content="Efrén López-Blanco" name=citation_author><meta content="Torben R. Christensen" name=citation_author><meta content="Min Sang Kwon" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="David Holl" name=citation_author><meta content="Miska Luoto" name=citation_author><meta content="Global Change Biology, Volume 27, Issue 17" name=citation_journal_title><meta content="27" name=citation_volume><meta content="17" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-100001.pdf" name=citation_pdf_url><meta content="4040" name=citation_firstpage><meta content="4059" name=citation_lastpage><meta content="10.1111/gcb.15659" name=citation_doi><meta property="og:title" content="Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-100001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-100001"><meta property="og:description" content="Anna-Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer J. Watts, S. Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter C. Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Göckede, Hiroki Iwata, Peter M. Lafleur, Eugénie S. Euskirchen, Stef Bokhorst, Maija E. Marushchak, Pertti J. Martikainen, Bo Elberling, Carolina Voigt, Christina Biasi, Oliver Sonnentag, Frans-Jan W. Parmentier, Masahito Ueyama, Gerardo Celis, Vincent L. St. Louis, Craig A. Emmerton, Matthias Peichl, Jinshu Chi, Järvi Järveoja, Mats Nilsson, Steven F. Oberbauer, Margaret S. Torn, Sang Min Park, A. J. Dolman, Ivan Mammarella, Namyi Chae, Rafael Poyatos, Efrén López-Blanco, Torben R. Christensen, Min Sang Kwon, Torsten Sachs, David Holl, Miska Luoto. Global Change Biology, Volume 27, Issue 17. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-100001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-100001>Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a></h2><p class=lead><a href=/gwf-publications/people/A/Anna-Maria-Virkkala/ data-uni=uni0069>Anna-Maria Virkkala</a>,
+<a href=/gwf-publications/people/J/Juha-Aalto/ data-uni=uni0027>Juha Aalto</a>,
+<a href=/gwf-publications/people/B/Brendan-M-Rogers/ data-uni=uni0069>Brendan M. Rogers</a>,
+<a href=/gwf-publications/people/T/Torbern-Tagesson/ data-uni=uni0048>Torbern Tagesson</a>,
+<a href=/gwf-publications/people/C/Claire-C-Treat/ data-uni=uni0134>Claire C. Treat</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0069>Susan M. Natali</a>,
+<a href=/gwf-publications/people/J/Jennifer-J-Watts/ data-uni=uni1492>Jennifer J. Watts</a>,
+<a href=/gwf-publications/people/S/S-Potter/ data-uni=uni0069>S. Potter</a>,
+<a href=/gwf-publications/people/A/Aleksi-Lehtonen/ data-uni=uni0098>Aleksi Lehtonen</a>,
+<a href=/gwf-publications/people/M/Marguerite-Mauritz/ data-uni=uni0319>Marguerite Mauritz</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0050>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/J/John-Kochendorfer/ data-uni=uni0582>John Kochendorfer</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0103>Donatella Zona</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0034>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0413>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0118>Elyn Humphreys</a>,
+<a href=/gwf-publications/people/M/Mathias-G%C3%B6ckede/ data-uni=uni0025>Mathias Göckede</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni1257>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/P/Peter-M-Lafleur/ data-uni=uni0247>Peter M. Lafleur</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0024>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/S/Stef-Bokhorst/ data-uni=uni0071>Stef Bokhorst</a>,
+<a href=/gwf-publications/people/M/Maija-E-Marushchak/ data-uni=uni0599>Maija E. Marushchak</a>,
+<a href=/gwf-publications/people/P/Pertti-J-Martikainen/ data-uni=uni0323>Pertti J. Martikainen</a>,
+<a href=/gwf-publications/people/B/Bo-Elberling/ data-uni=uni0065>Bo Elberling</a>,
+<a href=/gwf-publications/people/C/Carolina-Voigt/ data-uni=uni0035>Carolina Voigt</a>,
+<a href=/gwf-publications/people/C/Christina-Biasi/ data-uni=uni0323>Christina Biasi</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0060>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni1493>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0159>Gerardo Celis</a>,
+<a href=/gwf-publications/people/V/Vincent-L-St-Louis/ data-uni=uni0009>Vincent L. St. Louis</a>,
+<a href=/gwf-publications/people/C/Craig-A-Emmerton/ data-uni=uni0009>Craig A. Emmerton</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0049>Matthias Peichl</a>,
+<a href=/gwf-publications/people/J/Jinshu-Chi/ data-uni=uni0049>Jinshu Chi</a>,
+<a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/ data-uni=uni0049>Järvi Järveoja</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0111>Mats Nilsson</a>,
+<a href=/gwf-publications/people/S/Steven-F-Oberbauer/ data-uni=uni0985>Steven F. Oberbauer</a>,
+<a href=/gwf-publications/people/M/Margaret-S-Torn/ data-uni=uni0021>Margaret S. Torn</a>,
+<a href=/gwf-publications/people/S/Sang-Min-Park/ data-uni=uni0455>Sang Min Park</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0071>A. J. Dolman</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0027>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/N/Namyi-Chae/ data-uni=uni0572>Namyi Chae</a>,
+<a href=/gwf-publications/people/R/Rafael-Poyatos/ data-uni=uni0277>Rafael Poyatos</a>,
+<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pez-Blanco/ data-uni=uni0680>Efrén López-Blanco</a>,
+<a href=/gwf-publications/people/T/Torben-R-Christensen/ data-uni=uni0246>Torben R. Christensen</a>,
+<a href=/gwf-publications/people/M/Min-Sang-Kwon/ data-uni=uni0173>Min Sang Kwon</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0055>Torsten Sachs</a>,
+<a href=/gwf-publications/people/D/David-Holl/ data-uni=uni0425>David Holl</a>,
+<a href=/gwf-publications/people/M/Miska-Luoto/ data-uni=uni0027>Miska Luoto</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>The regional variability in tundra and boreal carbon dioxide (CO2) fluxes can be high, complicating efforts to quantify sink-source patterns across the entire region. Statistical models are increasingly used to predict (i.e., upscale) CO2 fluxes across large spatial domains, but the reliability of different modeling techniques, each with different specifications and assumptions, has not been assessed in detail. Here, we compile eddy covariance and chamber measurements of annual and growing season CO2 fluxes of gross primary productivity (GPP), ecosystem respiration (ER), and net ecosystem exchange (NEE) during 1990–2015 from 148 terrestrial high-latitude (i.e., tundra and boreal) sites to analyze the spatial patterns and drivers of CO2 fluxes and test the accuracy and uncertainty of different statistical models. CO2 fluxes were upscaled at relatively high spatial resolution (1 km2) across the high-latitude region using five commonly used statistical models and their ensemble, that is, the median of all five models, using climatic, vegetation, and soil predictors. We found the performance of machine learning and ensemble predictions to outperform traditional regression methods. We also found the predictive performance of NEE-focused models to be low, relative to models predicting GPP and ER. Our data compilation and ensemble predictions showed that CO2 sink strength was larger in the boreal biome (observed and predicted average annual NEE −46 and −29 g C m−2 yr−1, respectively) compared to tundra (average annual NEE +10 and −2 g C m−2 yr−1). This pattern was associated with large spatial variability, reflecting local heterogeneity in soil organic carbon stocks, climate, and vegetation productivity. The terrestrial ecosystem CO2 budget, estimated using the annual NEE ensemble prediction, suggests the high-latitude region was on average an annual CO2 sink during 1990–2015, although uncertainty remains high.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Anna-Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer J. Watts, S. Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter C. Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Göckede, Hiroki Iwata, Peter M. Lafleur, et al.. 2021. Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties. <i>Global Change Biology, Volume 27, Issue 17</i>, 27(17):4040–4059.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-100001.pdf title="Open PDF of 'Statistical upscaling of ecosystem CO &amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Statistical+upscaling+of+ecosystem+CO+%3Csub%3E2%3C%2Fsub%3E+fluxes+across+the+terrestrial+tundra+and+boreal+domain%3A+Regional+patterns+and+uncertainties" title="Search for 'Statistical upscaling of ecosystem CO &amp;lt;sub&amp;gt;2&amp;lt;/sub&amp;gt; fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Virkkala-2021-Statistical,
     title = &#34;Statistical upscaling of ecosystem CO {\textless}sub{\textgreater}2{\textless}/sub{\textgreater} fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties&#34;,
-    author = {Virkkala, Anna‐Maria  and
+    author = {Virkkala, Anna-Maria  and
       Aalto, Juha  and
       Rogers, Brendan M.  and
       Tagesson, Torbern  and
       Treat, Claire C.  and
       Natali, Susan M.  and
-      Watts, Jennifer D.  and
-      Potter, Stefano  and
+      Watts, Jennifer J.  and
+      Potter, S.  and
       Lehtonen, Aleksi  and
       Mauritz, Marguerite  and
       Schuur, Edward A. G.  and
       Kochendorfer, John  and
       Zona, Donatella  and
-      Oechel, Walter  and
+      Oechel, Walter C.  and
       Kobayashi, Hideki  and
       Humphreys, Elyn  and
-      Goeckede, Mathias  and
+      G{\&#34;o}ckede, Mathias  and
       Iwata, Hiroki  and
       Lafleur, Peter M.  and
-      Euskirchen, Eugenie S.  and
+      Euskirchen, Eug{\&#39;e}nie S.  and
       Bokhorst, Stef  and
-      Marushchak, Maija  and
+      Marushchak, Maija E.  and
       Martikainen, Pertti J.  and
       Elberling, Bo  and
       Voigt, Carolina  and
       Biasi, Christina  and
       Sonnentag, Oliver  and
-      Parmentier, Frans‐Jan W.  and
+      Parmentier, Frans-Jan W.  and
       Ueyama, Masahito  and
       Celis, Gerardo  and
-      St.Louis, Vincent L.  and
+      Louis, Vincent L. St.  and
       Emmerton, Craig A.  and
       Peichl, Matthias  and
       Chi, Jinshu  and
       J{\&#34;a}rveoja, J{\&#34;a}rvi  and
-      Nilsson, Mats B.  and
+      Nilsson, Mats  and
       Oberbauer, Steven F.  and
       Torn, Margaret S.  and
-      Park, Sang‐Jong  and
-      Dolman, Han  and
+      Park, Sang Min  and
+      Dolman, A. J.  and
       Mammarella, Ivan  and
       Chae, Namyi  and
       Poyatos, Rafael  and
-      L{\&#39;o}pez‐Blanco, Efr{\&#39;e}n  and
-      Christensen, Torben R{\o}jle  and
-      Kwon, Min Jung  and
+      L{\&#39;o}pez-Blanco, Efr{\&#39;e}n  and
+      Christensen, Torben R.  and
+      Kwon, Min Sang  and
       Sachs, Torsten  and
       Holl, David  and
       Luoto, Miska},
@@ -112,7 +119,7 @@
     number = &#34;17&#34;,
     year = &#34;2021&#34;,
     publisher = &#34;Wiley&#34;,
-    url = &#34;https://aclanthology.org/G21-100001&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G21-100001&#34;,
     doi = &#34;10.1111/gcb.15659&#34;,
     pages = &#34;4040--4059&#34;,
     abstract = &#34;The regional variability in tundra and boreal carbon dioxide (CO2) fluxes can be high, complicating efforts to quantify sink-source patterns across the entire region. Statistical models are increasingly used to predict (i.e., upscale) CO2 fluxes across large spatial domains, but the reliability of different modeling techniques, each with different specifications and assumptions, has not been assessed in detail. Here, we compile eddy covariance and chamber measurements of annual and growing season CO2 fluxes of gross primary productivity (GPP), ecosystem respiration (ER), and net ecosystem exchange (NEE) during 1990{--}2015 from 148 terrestrial high-latitude (i.e., tundra and boreal) sites to analyze the spatial patterns and drivers of CO2 fluxes and test the accuracy and uncertainty of different statistical models. CO2 fluxes were upscaled at relatively high spatial resolution (1 km2) across the high-latitude region using five commonly used statistical models and their ensemble, that is, the median of all five models, using climatic, vegetation, and soil predictors. We found the performance of machine learning and ensemble predictions to outperform traditional regression methods. We also found the predictive performance of NEE-focused models to be low, relative to models predicting GPP and ER. Our data compilation and ensemble predictions showed that CO2 sink strength was larger in the boreal biome (observed and predicted average annual NEE −46 and −29 g C m−2 yr−1, respectively) compared to tundra (average annual NEE &#43;10 and −2 g C m−2 yr−1). This pattern was associated with large spatial variability, reflecting local heterogeneity in soil organic carbon stocks, climate, and vegetation productivity. The terrestrial ecosystem CO2 budget, estimated using the annual NEE ensemble prediction, suggests the high-latitude region was on average an annual CO2 sink during 1990{--}2015, although uncertainty remains high.&#34;,
@@ -125,7 +132,7 @@
         &lt;title&gt;Statistical upscaling of ecosystem CO \textlesssub\textgreater2\textless/sub\textgreater fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Anna‐Maria&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anna-Maria&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Virkkala&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -171,14 +178,14 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Jennifer&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Watts&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Stefano&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Potter&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -223,6 +230,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -244,7 +252,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Göckede&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -265,7 +273,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
@@ -281,6 +289,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Maija&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Marushchak&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -323,7 +332,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Frans‐Jan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frans-Jan&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Parmentier&lt;/namePart&gt;
         &lt;role&gt;
@@ -347,7 +356,8 @@
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Vincent&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;St.Louis&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;St.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Louis&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -383,7 +393,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -406,14 +415,16 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Sang‐Jong&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sang&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Min&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Park&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Han&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Dolman&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -442,14 +453,14 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Efrén&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;López‐Blanco&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;López-Blanco&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Torben&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Røjle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Christensen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -457,7 +468,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Min&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jung&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sang&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kwon&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -504,7 +515,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Virkkala-2021-Statistical&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.1111/gcb.15659&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G21-100001&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G21-100001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2021&lt;/date&gt;
@@ -520,52 +531,52 @@
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-100001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Statistical upscaling of ecosystem CO \textlesssub\textgreater2\textless/sub\textgreater fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties
-%A Virkkala, Anna‐Maria
+%A Virkkala, Anna-Maria
 %A Aalto, Juha
 %A Rogers, Brendan M.
 %A Tagesson, Torbern
 %A Treat, Claire C.
 %A Natali, Susan M.
-%A Watts, Jennifer D.
-%A Potter, Stefano
+%A Watts, Jennifer J.
+%A Potter, S.
 %A Lehtonen, Aleksi
 %A Mauritz, Marguerite
 %A Schuur, Edward A. G.
 %A Kochendorfer, John
 %A Zona, Donatella
-%A Oechel, Walter
+%A Oechel, Walter C.
 %A Kobayashi, Hideki
 %A Humphreys, Elyn
-%A Goeckede, Mathias
+%A Göckede, Mathias
 %A Iwata, Hiroki
 %A Lafleur, Peter M.
-%A Euskirchen, Eugenie S.
+%A Euskirchen, Eugénie S.
 %A Bokhorst, Stef
-%A Marushchak, Maija
+%A Marushchak, Maija E.
 %A Martikainen, Pertti J.
 %A Elberling, Bo
 %A Voigt, Carolina
 %A Biasi, Christina
 %A Sonnentag, Oliver
-%A Parmentier, Frans‐Jan W.
+%A Parmentier, Frans-Jan W.
 %A Ueyama, Masahito
 %A Celis, Gerardo
-%A St.Louis, Vincent L.
+%A Louis, Vincent L. St.
 %A Emmerton, Craig A.
 %A Peichl, Matthias
 %A Chi, Jinshu
 %A Järveoja, Järvi
-%A Nilsson, Mats B.
+%A Nilsson, Mats
 %A Oberbauer, Steven F.
 %A Torn, Margaret S.
-%A Park, Sang‐Jong
-%A Dolman, Han
+%A Park, Sang Min
+%A Dolman, A. J.
 %A Mammarella, Ivan
 %A Chae, Namyi
 %A Poyatos, Rafael
-%A López‐Blanco, Efrén
-%A Christensen, Torben Røjle
-%A Kwon, Min Jung
+%A López-Blanco, Efrén
+%A Christensen, Torben R.
+%A Kwon, Min Sang
 %A Sachs, Torsten
 %A Holl, David
 %A Luoto, Miska
@@ -577,11 +588,11 @@
 %F Virkkala-2021-Statistical
 %X The regional variability in tundra and boreal carbon dioxide (CO2) fluxes can be high, complicating efforts to quantify sink-source patterns across the entire region. Statistical models are increasingly used to predict (i.e., upscale) CO2 fluxes across large spatial domains, but the reliability of different modeling techniques, each with different specifications and assumptions, has not been assessed in detail. Here, we compile eddy covariance and chamber measurements of annual and growing season CO2 fluxes of gross primary productivity (GPP), ecosystem respiration (ER), and net ecosystem exchange (NEE) during 1990–2015 from 148 terrestrial high-latitude (i.e., tundra and boreal) sites to analyze the spatial patterns and drivers of CO2 fluxes and test the accuracy and uncertainty of different statistical models. CO2 fluxes were upscaled at relatively high spatial resolution (1 km2) across the high-latitude region using five commonly used statistical models and their ensemble, that is, the median of all five models, using climatic, vegetation, and soil predictors. We found the performance of machine learning and ensemble predictions to outperform traditional regression methods. We also found the predictive performance of NEE-focused models to be low, relative to models predicting GPP and ER. Our data compilation and ensemble predictions showed that CO2 sink strength was larger in the boreal biome (observed and predicted average annual NEE −46 and −29 g C m−2 yr−1, respectively) compared to tundra (average annual NEE &#43;10 and −2 g C m−2 yr−1). This pattern was associated with large spatial variability, reflecting local heterogeneity in soil organic carbon stocks, climate, and vegetation productivity. The terrestrial ecosystem CO2 budget, estimated using the annual NEE ensemble prediction, suggests the high-latitude region was on average an annual CO2 sink during 1990–2015, although uncertainty remains high.
 %R 10.1111/gcb.15659
-%U https://aclanthology.org/G21-100001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-100001
 %U https://doi.org/10.1111/gcb.15659
 %P 4040-4059
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-100001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties](https://aclanthology.org/G21-100001) (Virkkala et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-100001>Statistical upscaling of ecosystem CO 2 fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a> (Virkkala et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Anna‐Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer D. Watts, Stefano Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Goeckede, Hiroki Iwata, Peter M. Lafleur, et al.. 2021. <a href=https://aclanthology.org/G21-100001>Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a>. <i>Global Change Biology, Volume 27, Issue 17</i>, 27(17):4040–4059.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Statistical upscaling of ecosystem CO &lt;sub>2&lt;/sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties](https://gwf-uwaterloo.github.io/gwf-publications/G21-100001) (Virkkala et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-100001>Statistical upscaling of ecosystem CO 2 fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties</a> (Virkkala et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Anna-Maria Virkkala, Juha Aalto, Brendan M. Rogers, Torbern Tagesson, Claire C. Treat, Susan M. Natali, Jennifer J. Watts, S. Potter, Aleksi Lehtonen, Marguerite Mauritz, Edward A. G. Schuur, John Kochendorfer, Donatella Zona, Walter C. Oechel, Hideki Kobayashi, Elyn Humphreys, Mathias Göckede, Hiroki Iwata, Peter M. Lafleur, et al.. 2021. Statistical upscaling of ecosystem CO <sub>2</sub> fluxes across the terrestrial tundra and boreal domain: Regional patterns and uncertainties. <i>Global Change Biology, Volume 27, Issue 17</i>, 27(17):4040–4059.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

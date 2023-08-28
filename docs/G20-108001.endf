@@ -1,8 +1,8 @@
 ﻿%0 Journal Article
 %T The Canadian Hydrological Model (CHM) v1.0: a multi-scale, multi-extent, variable-complexity hydrological model – design and overview
-%A Marsh, Christopher B.
+%A Marsh, Christopher L.
 %A Pomeroy, John W.
-%A Wheater, Howard S.
+%A Wheater, Howard
 %J Geoscientific Model Development, Volume 13, Issue 1
 %D 2020
 %V 13
@@ -11,7 +11,7 @@
 %F Marsh-2020-The
 %X Abstract. Despite debate in the rainfall–runoff hydrology literature about the merits of physics-based and spatially distributed models, substantial work in cold-region hydrology has shown improved predictive capacity by including physics-based process representations, relatively high-resolution semi-distributed and fully distributed discretizations, and the use of physically identifiable parameters that require limited calibration. While there is increasing motivation for modelling at hyper-resolution (\textless 1 km) and snowdrift-resolving scales (\approx 1 to 100 m), the capabilities of existing cold-region hydrological models are computationally limited at these scales. Here, a new distributed model, the Canadian Hydrological Model (CHM), is presented. Although designed to be applied generally, it has a focus for application where cold-region processes play a role in hydrology. Key features include the ability to do the following: capture spatial heterogeneity in the surface discretization in an efficient manner via variable-resolution unstructured meshes; include multiple process representations; change, remove, and decouple hydrological process algorithms; work at both a point and spatially distributed scale; scale to multiple spatial extents and scales; and utilize a variety of forcing fields (boundary and initial conditions). This paper focuses on the overall model philosophy and design, and it provides a number of cold-region-specific features and examples.
 %R 10.5194/gmd-13-225-2020
-%U https://aclanthology.org/G20-108001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-108001
 %U https://doi.org/10.5194/gmd-13-225-2020
 %P 225-247
 

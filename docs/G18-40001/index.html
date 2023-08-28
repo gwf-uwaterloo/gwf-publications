@@ -1,61 +1,68 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Missing pieces to modeling the Arctic-Boreal puzzle - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Missing pieces to modeling the Arctic-Boreal puzzle" name=citation_title><meta content="Joshua B. Fisher" name=citation_author><meta content="Daniel J Hayes" name=citation_author><meta content="Christopher R. Schwalm" name=citation_author><meta content="Deborah N. Huntzinger" name=citation_author><meta content="Eric Stofferahn" name=citation_author><meta content="Kevin Schaefer" name=citation_author><meta content="Yiqi Luo" name=citation_author><meta content="Stan D Wullschleger" name=citation_author><meta content="Scott Goetz" name=citation_author><meta content="Charles E. Miller" name=citation_author><meta content="Peter Griffith" name=citation_author><meta content="Sarah Chadburn" name=citation_author><meta content="Abhishek Chatterjee" name=citation_author><meta content="Philippe Ciais" name=citation_author><meta content="Thomas A. Douglas" name=citation_author><meta content="Hélène Genet" name=citation_author><meta content="Akihiko Ito" name=citation_author><meta content="Christopher S R Neigh" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Hanqin Tian" name=citation_author><meta content="Weile Wang" name=citation_author><meta content="Yongkang Xue" name=citation_author><meta content="Zong-Liang Yang" name=citation_author><meta content="Ning Zeng" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Environmental Research Letters, Volume 13, Issue 2" name=citation_journal_title><meta content="13" name=citation_volume><meta content="2" name=citation_issue><meta content="2018" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G18-40001.pdf" name=citation_pdf_url><meta content="10.1088/1748-9326/aa9d9a" name=citation_doi><meta property="og:title" content="Missing pieces to modeling the Arctic-Boreal puzzle"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G18-40001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G18-40001"><meta property="og:description" content="Joshua B Fisher, Daniel J Hayes, Christopher R Schwalm, Deborah N Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D Wullschleger, Scott Goetz, Charles E Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas A Douglas, Hélène Genet, Akihiko Ito, Christopher S R Neigh, Benjamin Poulter, Brendan M Rogers, Oliver Sonnentag, Hanqin Tian, Weile Wang, Yongkang Xue, Zong-Liang Yang, Ning Zeng, Zhen Zhang. Environmental Research Letters, Volume 13, Issue 2. 2018."><link rel=canonical href=https://aclanthology.org/G18-40001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-40001.pdf>Missing pieces to modeling the Arctic-Boreal puzzle</a></h2><p class=lead><a href=/gwf-publications/people/J/Joshua-B-Fisher/>Joshua B Fisher</a>,
-<a href=/gwf-publications/people/D/Daniel-J-Hayes/>Daniel J Hayes</a>,
-<a href=/gwf-publications/people/C/Christopher-R-Schwalm/>Christopher R Schwalm</a>,
-<a href=/gwf-publications/people/D/Deborah-N-Huntzinger/>Deborah N Huntzinger</a>,
-<a href=/gwf-publications/people/E/Eric-Stofferahn/>Eric Stofferahn</a>,
-<a href=/gwf-publications/people/K/Kevin-Schaefer/>Kevin Schaefer</a>,
-<a href=/gwf-publications/people/Y/Yiqi-Luo/>Yiqi Luo</a>,
-<a href=/gwf-publications/people/S/Stan-D-Wullschleger/>Stan D Wullschleger</a>,
-<a href=/gwf-publications/people/S/Scott-Goetz/>Scott Goetz</a>,
-<a href=/gwf-publications/people/C/Charles-E-Miller/>Charles E Miller</a>,
-<a href=/gwf-publications/people/P/Peter-Griffith/>Peter Griffith</a>,
-<a href=/gwf-publications/people/S/Sarah-Chadburn/>Sarah Chadburn</a>,
-<a href=/gwf-publications/people/A/Abhishek-Chatterjee/>Abhishek Chatterjee</a>,
-<a href=/gwf-publications/people/P/Philippe-Ciais/>Philippe Ciais</a>,
-<a href=/gwf-publications/people/T/Thomas-A-Douglas/>Thomas A Douglas</a>,
-<a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/>Hélène Genet</a>,
-<a href=/gwf-publications/people/A/Akihiko-Ito/>Akihiko Ito</a>,
-<a href=/gwf-publications/people/C/Christopher-S-R-Neigh/>Christopher S R Neigh</a>,
-<a href=/gwf-publications/people/B/Benjamin-Poulter/>Benjamin Poulter</a>,
-<a href=/gwf-publications/people/B/Brendan-M-Rogers/>Brendan M Rogers</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/H/Hanqin-Tian/>Hanqin Tian</a>,
-<a href=/gwf-publications/people/W/Weile-Wang/>Weile Wang</a>,
-<a href=/gwf-publications/people/Y/Yongkang-Xue/>Yongkang Xue</a>,
-<a href=/gwf-publications/people/Z/Zong-Liang-Yang/>Zong-Liang Yang</a>,
-<a href=/gwf-publications/people/N/Ning-Zeng/>Ning Zeng</a>,
-<a href=/gwf-publications/people/Z/Zhen-Zhang/>Zhen Zhang</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Author(s): Fisher, JB; Hayes, DJ; Schwalm, CR; Huntzinger, DN; Stofferahn, E; Schaefer, K; Luo, Y; Wullschleger, SD; Goetz, S; Miller, CE; Griffith, P; Chadburn, S; Chatterjee, A; Ciais, P; Douglas, TA; Genet, H; Ito, A; Neigh, CSR; Poulter, B; Rogers, BM; Sonnentag, O; Tian, H; Wang, W; Xue, Y; Yang, ZL; Zeng, N; Zhang, Z | Abstract: NASA has launched the decade-long Arctic-Boreal Vulnerability Experiment (ABoVE). While the initial phases focus on field and airborne data collection, early integration with modeling activities is important to benefit future modeling syntheses. We compiled feedback from ecosystem modeling teams on key data needs, which encompass carbon biogeochemistry, vegetation, permafrost, hydrology, and disturbance dynamics. A suite of variables was identified as part of this activity with a critical requirement that they are collected concurrently and representatively over space and time. Individual projects in ABoVE may not capture all these needs, and thus there is both demand and opportunity for the augmentation of field observations, and synthesis of the observations that are collected, to ensure that science questions and integrated modeling activities are successfully implemented.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Joshua B Fisher, Daniel J Hayes, Christopher R Schwalm, Deborah N Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D Wullschleger, Scott Goetz, Charles E Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas A Douglas, Hélène Genet, Akihiko Ito, Christopher S R Neigh, Benjamin Poulter, et al.. 2018. <a href=https://aclanthology.org/G18-40001>Missing pieces to modeling the Arctic-Boreal puzzle</a>. <i>Environmental Research Letters, Volume 13, Issue 2</i>, 13(2):020202.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Missing pieces to modeling the Arctic-Boreal puzzle - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Missing pieces to modeling the Arctic-Boreal puzzle" name=citation_title><meta content="Joshua B. Fisher" name=citation_author><meta content="Daniel F. Hayes" name=citation_author><meta content="Christopher R. Schwalm" name=citation_author><meta content="Deborah N. Huntzinger" name=citation_author><meta content="Eric Stofferahn" name=citation_author><meta content="Kevin Schaefer" name=citation_author><meta content="Yiqi Luo" name=citation_author><meta content="Stan D. Wullschleger" name=citation_author><meta content="Scott J. Goetz" name=citation_author><meta content="Charles C. Miller" name=citation_author><meta content="Peter Griffith" name=citation_author><meta content="Sarah Chadburn" name=citation_author><meta content="Abhishek Chatterjee" name=citation_author><meta content="Philippe Ciais" name=citation_author><meta content="Thomas Douglas" name=citation_author><meta content="Hélène Genet" name=citation_author><meta content="Akihiko Ito" name=citation_author><meta content="Christopher S.R. Neigh" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Hanqin Tian" name=citation_author><meta content="Weile Wang" name=citation_author><meta content="Yongkang Xue" name=citation_author><meta content="Zong-Liang Yang" name=citation_author><meta content="Ning Zeng" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Environmental Research Letters, Volume 13, Issue 2" name=citation_journal_title><meta content="13" name=citation_volume><meta content="2" name=citation_issue><meta content="2018" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G18-40001.pdf" name=citation_pdf_url><meta content="10.1088/1748-9326/aa9d9a" name=citation_doi><meta property="og:title" content="Missing pieces to modeling the Arctic-Boreal puzzle"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G18-40001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G18-40001"><meta property="og:description" content="Joshua B. Fisher, Daniel F. Hayes, Christopher R. Schwalm, Deborah N. Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D. Wullschleger, Scott J. Goetz, Charles C. Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas Douglas, Hélène Genet, Akihiko Ito, Christopher S.R. Neigh, Benjamin Poulter, Brendan M. Rogers, Oliver Sonnentag, Hanqin Tian, Weile Wang, Yongkang Xue, Zong-Liang Yang, Ning Zeng, Zhen Zhang. Environmental Research Letters, Volume 13, Issue 2. 2018."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G18-40001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-40001>Missing pieces to modeling the Arctic-Boreal puzzle</a></h2><p class=lead><a href=/gwf-publications/people/J/Joshua-B-Fisher/ data-uni=uni0332>Joshua B. Fisher</a>,
+<a href=/gwf-publications/people/D/Daniel-F-Hayes/ data-uni=uni0017>Daniel F. Hayes</a>,
+<a href=/gwf-publications/people/C/Christopher-R-Schwalm/ data-uni=uni0050>Christopher R. Schwalm</a>,
+<a href=/gwf-publications/people/D/Deborah-N-Huntzinger/ data-uni=uni0050>Deborah N. Huntzinger</a>,
+<a href=/gwf-publications/people/E/Eric-Stofferahn/ data-uni=uni0012>Eric Stofferahn</a>,
+<a href=/gwf-publications/people/K/Kevin-Schaefer/ data-uni=uni0084>Kevin Schaefer</a>,
+<a href=/gwf-publications/people/Y/Yiqi-Luo/ data-uni=uni0050>Yiqi Luo</a>,
+<a href=/gwf-publications/people/S/Stan-D-Wullschleger/ data-uni=uni0042>Stan D. Wullschleger</a>,
+<a href=/gwf-publications/people/S/Scott-J-Goetz/ data-uni=uni0050>Scott J. Goetz</a>,
+<a href=/gwf-publications/people/C/Charles-C-Miller/ data-uni=uni1246>Charles C. Miller</a>,
+<a href=/gwf-publications/people/P/Peter-Griffith/ data-uni=uni0519>Peter Griffith</a>,
+<a href=/gwf-publications/people/S/Sarah-Chadburn/ data-uni=uni0034>Sarah Chadburn</a>,
+<a href=/gwf-publications/people/A/Abhishek-Chatterjee/ data-uni=uni1247>Abhishek Chatterjee</a>,
+<a href=/gwf-publications/people/P/Philippe-Ciais/ data-uni=uni0096>Philippe Ciais</a>,
+<a href=/gwf-publications/people/T/Thomas-Douglas/ data-uni=uni1248>Thomas Douglas</a>,
+<a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/ data-uni=uni0024>Hélène Genet</a>,
+<a href=/gwf-publications/people/A/Akihiko-Ito/ data-uni=uni1249>Akihiko Ito</a>,
+<a href=/gwf-publications/people/C/Christopher-SR-Neigh/ data-uni=uni0028>Christopher S.R. Neigh</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0028>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/B/Brendan-M-Rogers/ data-uni=uni0069>Brendan M. Rogers</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/H/Hanqin-Tian/ data-uni=uni1237>Hanqin Tian</a>,
+<a href=/gwf-publications/people/W/Weile-Wang/ data-uni=uni1222>Weile Wang</a>,
+<a href=/gwf-publications/people/Y/Yongkang-Xue/ data-uni=uni0036>Yongkang Xue</a>,
+<a href=/gwf-publications/people/Z/Zong-Liang-Yang/ data-uni=uni0097>Zong-Liang Yang</a>,
+<a href=/gwf-publications/people/N/Ning-Zeng/ data-uni=uni0376>Ning Zeng</a>,
+<a href=/gwf-publications/people/Z/Zhen-Zhang/ data-uni=uni1221>Zhen Zhang</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Author(s): Fisher, JB; Hayes, DJ; Schwalm, CR; Huntzinger, DN; Stofferahn, E; Schaefer, K; Luo, Y; Wullschleger, SD; Goetz, S; Miller, CE; Griffith, P; Chadburn, S; Chatterjee, A; Ciais, P; Douglas, TA; Genet, H; Ito, A; Neigh, CSR; Poulter, B; Rogers, BM; Sonnentag, O; Tian, H; Wang, W; Xue, Y; Yang, ZL; Zeng, N; Zhang, Z | Abstract: NASA has launched the decade-long Arctic-Boreal Vulnerability Experiment (ABoVE). While the initial phases focus on field and airborne data collection, early integration with modeling activities is important to benefit future modeling syntheses. We compiled feedback from ecosystem modeling teams on key data needs, which encompass carbon biogeochemistry, vegetation, permafrost, hydrology, and disturbance dynamics. A suite of variables was identified as part of this activity with a critical requirement that they are collected concurrently and representatively over space and time. Individual projects in ABoVE may not capture all these needs, and thus there is both demand and opportunity for the augmentation of field observations, and synthesis of the observations that are collected, to ensure that science questions and integrated modeling activities are successfully implemented.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Joshua B. Fisher, Daniel F. Hayes, Christopher R. Schwalm, Deborah N. Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D. Wullschleger, Scott J. Goetz, Charles C. Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas Douglas, Hélène Genet, Akihiko Ito, Christopher S.R. Neigh, Benjamin Poulter, et al.. 2018. Missing pieces to modeling the Arctic-Boreal puzzle. <i>Environmental Research Letters, Volume 13, Issue 2</i>, 13(2):020202.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G18-40001.pdf title="Open PDF of 'Missing pieces to modeling the Arctic-Boreal puzzle'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Missing+pieces+to+modeling+the+Arctic-Boreal+puzzle" title="Search for 'Missing pieces to modeling the Arctic-Boreal puzzle' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Fisher-2018-Missing,
     title = &#34;Missing pieces to modeling the Arctic-Boreal puzzle&#34;,
-    author = &#34;Fisher, Joshua B  and
-      Hayes, Daniel J  and
-      Schwalm, Christopher R  and
-      Huntzinger, Deborah N  and
+    author = &#34;Fisher, Joshua B.  and
+      Hayes, Daniel F.  and
+      Schwalm, Christopher R.  and
+      Huntzinger, Deborah N.  and
       Stofferahn, Eric  and
       Schaefer, Kevin  and
       Luo, Yiqi  and
-      Wullschleger, Stan D  and
-      Goetz, Scott  and
-      Miller, Charles E  and
+      Wullschleger, Stan D.  and
+      Goetz, Scott J.  and
+      Miller, Charles C.  and
       Griffith, Peter  and
       Chadburn, Sarah  and
       Chatterjee, Abhishek  and
       Ciais, Philippe  and
-      Douglas, Thomas A  and
+      Douglas, Thomas  and
       Genet, H{\&#39;e}l{\`e}ne  and
       Ito, Akihiko  and
-      Neigh, Christopher S R  and
+      Neigh, Christopher S.R.  and
       Poulter, Benjamin  and
-      Rogers, Brendan M  and
+      Rogers, Brendan M.  and
       Sonnentag, Oliver  and
       Tian, Hanqin  and
       Wang, Weile  and
@@ -68,7 +75,7 @@
     number = &#34;2&#34;,
     year = &#34;2018&#34;,
     publisher = &#34;IOP Publishing&#34;,
-    url = &#34;https://aclanthology.org/G18-40001&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G18-40001&#34;,
     doi = &#34;10.1088/1748-9326/aa9d9a&#34;,
     pages = &#34;020202&#34;,
     abstract = &#34;Author(s): Fisher, JB; Hayes, DJ; Schwalm, CR; Huntzinger, DN; Stofferahn, E; Schaefer, K; Luo, Y; Wullschleger, SD; Goetz, S; Miller, CE; Griffith, P; Chadburn, S; Chatterjee, A; Ciais, P; Douglas, TA; Genet, H; Ito, A; Neigh, CSR; Poulter, B; Rogers, BM; Sonnentag, O; Tian, H; Wang, W; Xue, Y; Yang, ZL; Zeng, N; Zhang, Z | Abstract: NASA has launched the decade-long Arctic-Boreal Vulnerability Experiment (ABoVE). While the initial phases focus on field and airborne data collection, early integration with modeling activities is important to benefit future modeling syntheses. We compiled feedback from ecosystem modeling teams on key data needs, which encompass carbon biogeochemistry, vegetation, permafrost, hydrology, and disturbance dynamics. A suite of variables was identified as part of this activity with a critical requirement that they are collected concurrently and representatively over space and time. Individual projects in ABoVE may not capture all these needs, and thus there is both demand and opportunity for the augmentation of field observations, and synthesis of the observations that are collected, to ensure that science questions and integrated modeling activities are successfully implemented.&#34;,
@@ -90,7 +97,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Hayes&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -143,6 +150,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Goetz&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -150,7 +158,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Charles&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Miller&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -186,7 +194,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Douglas&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -208,8 +215,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S.R.&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Neigh&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -299,7 +305,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Fisher-2018-Missing&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.1088/1748-9326/aa9d9a&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G18-40001&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G18-40001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2018&lt;/date&gt;
@@ -313,23 +319,23 @@
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Missing pieces to modeling the Arctic-Boreal puzzle
 %A Fisher, Joshua B.
-%A Hayes, Daniel J.
+%A Hayes, Daniel F.
 %A Schwalm, Christopher R.
 %A Huntzinger, Deborah N.
 %A Stofferahn, Eric
 %A Schaefer, Kevin
 %A Luo, Yiqi
 %A Wullschleger, Stan D.
-%A Goetz, Scott
-%A Miller, Charles E.
+%A Goetz, Scott J.
+%A Miller, Charles C.
 %A Griffith, Peter
 %A Chadburn, Sarah
 %A Chatterjee, Abhishek
 %A Ciais, Philippe
-%A Douglas, Thomas A.
+%A Douglas, Thomas
 %A Genet, Hélène
 %A Ito, Akihiko
-%A Neigh, Christopher S. R.
+%A Neigh, Christopher S.R.
 %A Poulter, Benjamin
 %A Rogers, Brendan M.
 %A Sonnentag, Oliver
@@ -347,11 +353,11 @@
 %F Fisher-2018-Missing
 %X Author(s): Fisher, JB; Hayes, DJ; Schwalm, CR; Huntzinger, DN; Stofferahn, E; Schaefer, K; Luo, Y; Wullschleger, SD; Goetz, S; Miller, CE; Griffith, P; Chadburn, S; Chatterjee, A; Ciais, P; Douglas, TA; Genet, H; Ito, A; Neigh, CSR; Poulter, B; Rogers, BM; Sonnentag, O; Tian, H; Wang, W; Xue, Y; Yang, ZL; Zeng, N; Zhang, Z | Abstract: NASA has launched the decade-long Arctic-Boreal Vulnerability Experiment (ABoVE). While the initial phases focus on field and airborne data collection, early integration with modeling activities is important to benefit future modeling syntheses. We compiled feedback from ecosystem modeling teams on key data needs, which encompass carbon biogeochemistry, vegetation, permafrost, hydrology, and disturbance dynamics. A suite of variables was identified as part of this activity with a critical requirement that they are collected concurrently and representatively over space and time. Individual projects in ABoVE may not capture all these needs, and thus there is both demand and opportunity for the augmentation of field observations, and synthesis of the observations that are collected, to ensure that science questions and integrated modeling activities are successfully implemented.
 %R 10.1088/1748-9326/aa9d9a
-%U https://aclanthology.org/G18-40001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G18-40001
 %U https://doi.org/10.1088/1748-9326/aa9d9a
 %P 020202
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G18-40001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Missing pieces to modeling the Arctic-Boreal puzzle](https://aclanthology.org/G18-40001) (Fisher et al., GWF 2018)</p><ul class=mt-2><li><a href=https://aclanthology.org/G18-40001>Missing pieces to modeling the Arctic-Boreal puzzle</a> (Fisher et al., GWF 2018)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Joshua B Fisher, Daniel J Hayes, Christopher R Schwalm, Deborah N Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D Wullschleger, Scott Goetz, Charles E Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas A Douglas, Hélène Genet, Akihiko Ito, Christopher S R Neigh, Benjamin Poulter, et al.. 2018. <a href=https://aclanthology.org/G18-40001>Missing pieces to modeling the Arctic-Boreal puzzle</a>. <i>Environmental Research Letters, Volume 13, Issue 2</i>, 13(2):020202.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Missing pieces to modeling the Arctic-Boreal puzzle](https://gwf-uwaterloo.github.io/gwf-publications/G18-40001) (Fisher et al., GWF 2018)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-40001>Missing pieces to modeling the Arctic-Boreal puzzle</a> (Fisher et al., GWF 2018)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Joshua B. Fisher, Daniel F. Hayes, Christopher R. Schwalm, Deborah N. Huntzinger, Eric Stofferahn, Kevin Schaefer, Yiqi Luo, Stan D. Wullschleger, Scott J. Goetz, Charles C. Miller, Peter Griffith, Sarah Chadburn, Abhishek Chatterjee, Philippe Ciais, Thomas Douglas, Hélène Genet, Akihiko Ito, Christopher S.R. Neigh, Benjamin Poulter, et al.. 2018. Missing pieces to modeling the Arctic-Boreal puzzle. <i>Environmental Research Letters, Volume 13, Issue 2</i>, 13(2):020202.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

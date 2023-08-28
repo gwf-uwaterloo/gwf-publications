@@ -1,77 +1,77 @@
 ﻿%0 Journal Article
 %T COSORE: A community database for continuous soil respiration and other soil‐atmosphere greenhouse gas flux data
-%A Bond‐Lamberty, Ben
-%A Christianson, Danielle S.
+%A Bond-Lamberty, Ben
+%A Christianson, D. S.
 %A Malhotra, Avni
 %A Pennington, Stephanie C.
 %A Sihi, Debjani
 %A AghaKouchak, Amir
 %A Anjileli, Hassan
-%A Altaf Arain, M.
+%A Arain, M. Altaf
 %A Armesto, Juan J.
 %A Ashraf, Samaneh
 %A Ataka, Mioko
-%A Baldocchi, Dennis
-%A Andrew Black, Thomas
+%A Baldocchi, Dennis D.
+%A Black, T. Andrew
 %A Buchmann, Nina
 %A Carbone, Mariah S.
-%A Chang, Shih‐Chieh
-%A Crill, Patrick
+%A Chang, Shih Lin
+%A Crill, Patrick M.
 %A Curtis, Peter S.
-%A Davidson, Eric A.
+%A Davidson, Eric H.
 %A Desai, Ankur R.
-%A Drake, John E.
-%A El‐Madany, Tarek S.
+%A Drake, John M.
+%A El-Madany, Tarek S.
 %A Gavazzi, Michael
-%A Görres, Carolyn‐Monika
+%A Görres, Carolyn Monika
 %A Gough, Christopher M.
-%A Goulden, Michael
-%A Gregg, Jillian
-%A Gutiérrez del Arroyo, Omar
-%A He, Jin‐Sheng
+%A Goulden, Michael L.
+%A Gregg, Jillian W.
+%A Arroyo, Omar Gutiérrez del
+%A He, Jin
 %A Hirano, Takashi
-%A Hopple, Anya
-%A Hughes, Holly
+%A Hopple, A.
+%A Hughes, Holly R.
 %A Järveoja, Järvi
-%A Jassal, Rachhpal
+%A Jassal, Rachhpal S.
 %A Jian, Jinshi
 %A Kan, Haiming
-%A Kaye, Jason
+%A Kaye, Jason P.
 %A Kominami, Yuji
 %A Liang, Naishen
-%A Lipson, David
+%A Lipson, David A.
 %A Macdonald, Catriona A.
 %A Maseyk, Kadmiel
-%A Mathes, Kayla
+%A Mathes, K. C.
 %A Mauritz, Marguerite
 %A Mayes, Melanie A.
-%A McNulty, Steve
+%A McNulty, Steven G.
 %A Miao, Guofang
 %A Migliavacca, Mirco
-%A Miller, Scott
-%A Miniat, Chelcy F.
-%A Nietz, Jennifer G.
-%A Nilsson, Mats B.
+%A Carreira, Erick M.
+%A Miniat, Chelcy Ford
+%A Nietz, Jennifer Goedhart
+%A Nilsson, Mats
 %A Noormets, Asko
 %A Norouzi, Hamidreza
-%A O’Connell, Christine S.
+%A O’Connell, Colleen
 %A Osborne, Bruce
 %A Oyonarte, Cecilio
-%A Pang, Zhuo
+%A Zhuo, Pang
 %A Peichl, Matthias
 %A Pendall, Elise
-%A Perez‐Quezada, Jorge F.
+%A Perez-Quezada, Jorge F.
 %A Phillips, Claire L.
-%A Phillips, Richard P.
+%A Phillips, Richard A.
 %A Raich, James W.
 %A Renchon, Alexandre A.
 %A Ruehr, Nadine K.
-%A Sánchez‐Cañete, Enrique P.
+%A Sánchez-Cañete, Enrique P.
 %A Saunders, Matthew
-%A Savage, Kathleen E.
+%A Savage, Kathleen
 %A Schrumpf, Marion
 %A Scott, Russell L.
-%A Seibt, Ulli
+%A Seibt, U.
 %A Silver, Whendee L.
 %A Sun, Wu
 %A Szutu, Daphne
@@ -79,12 +79,12 @@
 %A Takagi, Masahiro
 %A Teramoto, Munemasa
 %A Tjoelker, Mark G.
-%A Trumbore, Susan
+%A Trumbore, Susan E.
 %A Ueyama, Masahito
 %A Vargas, Rodrigo
 %A Varner, Ruth K.
 %A Verfaillie, Joseph
-%A Vogel, Christoph
+%A Vogel, Christoph F.A.
 %A Wang, Jinsong
 %A Winston, Greg
 %A Wood, Tana E.
@@ -102,7 +102,7 @@
 %F Bond‐Lamberty-2020-COSORE:
 %X Globally, soils store two to three times as much carbon as currently resides in the atmosphere, and it is critical to understand how soil greenhouse gas (GHG) emissions and uptake will respond to ongoing climate change. In particular, the soil-to-atmosphere CO2 flux, commonly though imprecisely termed soil respiration (RS ), is one of the largest carbon fluxes in the Earth system. An increasing number of high-frequency RS measurements (typically, from an automated system with hourly sampling) have been made over the last two decades; an increasing number of methane measurements are being made with such systems as well. Such high frequency data are an invaluable resource for understanding GHG fluxes, but lack a central database or repository. Here we describe the lightweight, open-source COSORE (COntinuous SOil REspiration) database and software, that focuses on automated, continuous and long-term GHG flux datasets, and is intended to serve as a community resource for earth sciences, climate change syntheses and model evaluation. Contributed datasets are mapped to a single, consistent standard, with metadata on contributors, geographic location, measurement conditions and ancillary data. The design emphasizes the importance of reproducibility, scientific transparency and open access to data. While being oriented towards continuously measured RS , the database design accommodates other soil-atmosphere measurements (e.g. ecosystem respiration, chamber-measured net ecosystem exchange, methane fluxes) as well as experimental treatments (heterotrophic only, etc.). We give brief examples of the types of analyses possible using this new community resource and describe its accompanying R software package.
 %R 10.1111/gcb.15353
-%U https://aclanthology.org/G20-63001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-63001
 %U https://doi.org/10.1111/gcb.15353
 %P 7268-7283
 

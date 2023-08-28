@@ -4,13 +4,13 @@
 %A Kratzert, Frederik
 %A Klotz, Daniel
 %A Nearing, Grey
-%A Lin, Jimmy
+%A Lin, Jerry Chun-Wei
 %A Hochreiter, Sepp
 %D 2020
 %I Copernicus GmbH
 %F Gauch-2020-Rainfall–Runoff
 %X Abstract. Long Short-Term Memory Networks (LSTMs) have been applied to daily discharge prediction with remarkable success. Many practical scenarios, however, require predictions at more granular timescales. For instance, accurate prediction of short but extreme flood peaks can make a life-saving difference, yet such peaks may escape the coarse temporal resolution of daily predictions. Naively training an LSTM on hourly data, however, entails very long input sequences that make learning hard and computationally expensive. In this study, we propose two Multi-Timescale LSTM (MTS-LSTM) architectures that jointly predict multiple timescales within one model, as they process long-past inputs at a single temporal resolution and branch out into each individual timescale for more recent input steps. We test these models on 516 basins across the continental United States and benchmark against the US National Water Model. Compared to naive prediction with a distinct LSTM per timescale, the multi-timescale architectures are computationally more efficient with no loss in accuracy. Beyond prediction quality, the multi-timescale LSTM can process different input variables at different timescales, which is especially relevant to operational applications where the lead time of meteorological forcings depends on their temporal resolution.
 %R 10.5194/hess-2020-540
-%U https://aclanthology.org/G20-3001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-3001
 %U https://doi.org/10.5194/hess-2020-540
 

@@ -1,128 +1,135 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands" name=citation_title><meta content="Kyle B. Delwiche" name=citation_author><meta content="Sara Helen Knox" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Etienne Fluet-Chouinard" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Sarah Feron" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Eleonora Canfora" name=citation_author><meta content="You-Wei Cheah" name=citation_author><meta content="Danielle Christianson" name=citation_author><meta content="Ma. Carmelita R. Alberto" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Rosvel Bracho" name=citation_author><meta content="Nina Buchmann" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Weinan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Sigrid Dengel" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Matteo Detto" name=citation_author><meta content="Han Dolman" name=citation_author><meta content="Elke Eichelmann" name=citation_author><meta content="Eugenie Euskirchen" name=citation_author><meta content="Daniela Famulari" name=citation_author><meta content="Kathrin Fuchs" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Scott L. Graham" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="David Hollinger" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Minseok Kang" name=citation_author><meta content="Kuno Kasak" name=citation_author><meta content="John King" name=citation_author><meta content="Janina Klatt" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Ken W. Krauss" name=citation_author><meta content="Derrick Y. F. Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Luca Belelli Marchesini" name=citation_author><meta content="Giovanni Manca" name=citation_author><meta content="Jaclyn Hatala Matthes" name=citation_author><meta content="Trofim Maximov" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="Timothy H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Shuli Niu" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Olli Peltola" name=citation_author><meta content="Michele L. Reba" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="William Riley" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Youngryel Ryu" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Camilo Rey Sanchez" name=citation_author><meta content="Edward A. Schuur" name=citation_author><meta content="Karina V. R. Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Jed P. Sparks" name=citation_author><meta content="Ellen Stuart-Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Daphne J. Szutu" name=citation_author><meta content="Jonathan E. Thom" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Jessica Turner" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex C. Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Alma Vazquez-Lule" name=citation_author><meta content="Joseph G. Verfaillie" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Lisamarie Windham-Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Earth System Science Data, Volume 13, Issue 7" name=citation_journal_title><meta content="13" name=citation_volume><meta content="7" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-71002.pdf" name=citation_pdf_url><meta content="3607" name=citation_firstpage><meta content="3689" name=citation_lastpage><meta content="10.5194/essd-13-3607-2021" name=citation_doi><meta property="og:title" content="FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-71002.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G21-71002"><meta property="og:description" content="Kyle B. Delwiche, Sara Helen Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, Eleonora Canfora, You-Wei Cheah, Danielle Christianson, Ma. Carmelita R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis Baldocchi, Sheel Bansal, David P. Billesbach, Gil Bohrer, Rosvel Bracho, Nina Buchmann, David I. Campbell, Gerardo Celis, Jiquan Chen, Weinan Chen, Housen Chu, Higo J. Dalmagro, Sigrid Dengel, Ankur R. Desai, Matteo Detto, Han Dolman, Elke Eichelmann, Eugenie Euskirchen, Daniela Famulari, Kathrin Fuchs, Mathias Goeckede, Sébastien Gogo, Mangaliso J. Gondwe, Jordan P. Goodrich, Pia Gottschalk, Scott L. Graham, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S. Hemes, Takashi Hirano, David Hollinger, Lukas Hörtnagl, Hiroki Iwata, Adrien Jacotot, Gerald Jurasinski, Minseok Kang, Kuno Kasak, John King, Janina Klatt, Franziska Koebsch, Ken W. Krauss, Derrick Y. F. Lai, Annalea Lohila, Ivan Mammarella, Luca Belelli Marchesini, Giovanni Manca, Jaclyn Hatala Matthes, Trofim Maximov, Lutz Merbold, Bhaskar Mitra, Timothy H. Morin, Eiko Nemitz, Mats B. Nilsson, Shuli Niu, Walter C. Oechel, Patricia Y. Oikawa, Keisuke Ono, Matthias Peichl, Olli Peltola, Michele L. Reba, Andrew D. Richardson, William Riley, Benjamin R. K. Runkle, Youngryel Ryu, Torsten Sachs, Ayaka Sakabe, Camilo Rey Sanchez, Edward A. Schuur, Karina V. R. Schäfer, Oliver Sonnentag, Jed P. Sparks, Ellen Stuart-Haëntjens, Cove Sturtevant, Ryan C. Sullivan, Daphne J. Szutu, Jonathan E. Thom, Margaret S. Torn, Eeva-Stiina Tuittila, Jessica Turner, Masahito Ueyama, Alex C. Valach, Rodrigo Vargas, Andrej Varlagin, Alma Vazquez-Lule, Joseph G. Verfaillie, Timo Vesala, George L. Vourlitis, Eric J. Ward, Christian Wille, Georg Wohlfahrt, Guan Xhuan Wong, Zhen Zhang, Donatella Zona, Lisamarie Windham-Myers, Benjamin Poulter, Robert B. Jackson. Earth System Science Data, Volume 13, Issue 7. 2021."><link rel=canonical href=https://aclanthology.org/G21-71002></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-71002.pdf>FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a></h2><p class=lead><a href=/gwf-publications/people/K/Kyle-B-Delwiche/>Kyle B. Delwiche</a>,
-<a href=/gwf-publications/people/S/Sara-Helen-Knox/>Sara Helen Knox</a>,
-<a href=/gwf-publications/people/A/Avni-Malhotra/>Avni Malhotra</a>,
-<a href=/gwf-publications/people/E/Etienne-Fluet-Chouinard/>Etienne Fluet-Chouinard</a>,
-<a href=/gwf-publications/people/G/Gavin-McNicol/>Gavin McNicol</a>,
-<a href=/gwf-publications/people/S/Sarah-Feron/>Sarah Feron</a>,
-<a href=/gwf-publications/people/Z/Zutao-Ouyang/>Zutao Ouyang</a>,
-<a href=/gwf-publications/people/D/Dario-Papale/>Dario Papale</a>,
-<a href=/gwf-publications/people/C/Carlo-Trotta/>Carlo Trotta</a>,
-<a href=/gwf-publications/people/E/Eleonora-Canfora/>Eleonora Canfora</a>,
-<a href=/gwf-publications/people/Y/You-Wei-Cheah/>You-Wei Cheah</a>,
-<a href=/gwf-publications/people/D/Danielle-Christianson/>Danielle Christianson</a>,
-<a href=/gwf-publications/people/M/Ma-Carmelita-R-Alberto/>Ma. Carmelita R. Alberto</a>,
-<a href=/gwf-publications/people/P/Pavel-Alekseychik/>Pavel Alekseychik</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/>Mika Aurela</a>,
-<a href=/gwf-publications/people/D/Dennis-Baldocchi/>Dennis Baldocchi</a>,
-<a href=/gwf-publications/people/S/Sheel-Bansal/>Sheel Bansal</a>,
-<a href=/gwf-publications/people/D/David-P-Billesbach/>David P. Billesbach</a>,
-<a href=/gwf-publications/people/G/Gil-Bohrer/>Gil Bohrer</a>,
-<a href=/gwf-publications/people/R/Rosvel-Bracho/>Rosvel Bracho</a>,
-<a href=/gwf-publications/people/N/Nina-Buchmann/>Nina Buchmann</a>,
-<a href=/gwf-publications/people/D/David-I-Campbell/>David I. Campbell</a>,
-<a href=/gwf-publications/people/G/Gerardo-Celis/>Gerardo Celis</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/>Jiquan Chen</a>,
-<a href=/gwf-publications/people/W/Weinan-Chen/>Weinan Chen</a>,
-<a href=/gwf-publications/people/H/Housen-Chu/>Housen Chu</a>,
-<a href=/gwf-publications/people/H/Higo-J-Dalmagro/>Higo J. Dalmagro</a>,
-<a href=/gwf-publications/people/S/Sigrid-Dengel/>Sigrid Dengel</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/M/Matteo-Detto/>Matteo Detto</a>,
-<a href=/gwf-publications/people/H/Han-Dolman/>Han Dolman</a>,
-<a href=/gwf-publications/people/E/Elke-Eichelmann/>Elke Eichelmann</a>,
-<a href=/gwf-publications/people/E/Eugenie-Euskirchen/>Eugenie Euskirchen</a>,
-<a href=/gwf-publications/people/D/Daniela-Famulari/>Daniela Famulari</a>,
-<a href=/gwf-publications/people/K/Kathrin-Fuchs/>Kathrin Fuchs</a>,
-<a href=/gwf-publications/people/M/Mathias-Goeckede/>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/>Sébastien Gogo</a>,
-<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/>Mangaliso J. Gondwe</a>,
-<a href=/gwf-publications/people/J/Jordan-P-Goodrich/>Jordan P. Goodrich</a>,
-<a href=/gwf-publications/people/P/Pia-Gottschalk/>Pia Gottschalk</a>,
-<a href=/gwf-publications/people/S/Scott-L-Graham/>Scott L. Graham</a>,
-<a href=/gwf-publications/people/M/Martin-Heimann/>Martin Heimann</a>,
-<a href=/gwf-publications/people/M/Manuel-Helbig/>Manuel Helbig</a>,
-<a href=/gwf-publications/people/C/Carole-Helfter/>Carole Helfter</a>,
-<a href=/gwf-publications/people/K/Kyle-S-Hemes/>Kyle S. Hemes</a>,
-<a href=/gwf-publications/people/T/Takashi-Hirano/>Takashi Hirano</a>,
-<a href=/gwf-publications/people/D/David-Hollinger/>David Hollinger</a>,
-<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/>Lukas Hörtnagl</a>,
-<a href=/gwf-publications/people/H/Hiroki-Iwata/>Hiroki Iwata</a>,
-<a href=/gwf-publications/people/A/Adrien-Jacotot/>Adrien Jacotot</a>,
-<a href=/gwf-publications/people/G/Gerald-Jurasinski/>Gerald Jurasinski</a>,
-<a href=/gwf-publications/people/M/Minseok-Kang/>Minseok Kang</a>,
-<a href=/gwf-publications/people/K/Kuno-Kasak/>Kuno Kasak</a>,
-<a href=/gwf-publications/people/J/John-King/>John King</a>,
-<a href=/gwf-publications/people/J/Janina-Klatt/>Janina Klatt</a>,
-<a href=/gwf-publications/people/F/Franziska-Koebsch/>Franziska Koebsch</a>,
-<a href=/gwf-publications/people/K/Ken-W-Krauss/>Ken W. Krauss</a>,
-<a href=/gwf-publications/people/D/Derrick-Y-F-Lai/>Derrick Y. F. Lai</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/>Annalea Lohila</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/L/Luca-Belelli-Marchesini/>Luca Belelli Marchesini</a>,
-<a href=/gwf-publications/people/G/Giovanni-Manca/>Giovanni Manca</a>,
-<a href=/gwf-publications/people/J/Jaclyn-Hatala-Matthes/>Jaclyn Hatala Matthes</a>,
-<a href=/gwf-publications/people/T/Trofim-Maximov/>Trofim Maximov</a>,
-<a href=/gwf-publications/people/L/Lutz-Merbold/>Lutz Merbold</a>,
-<a href=/gwf-publications/people/B/Bhaskar-Mitra/>Bhaskar Mitra</a>,
-<a href=/gwf-publications/people/T/Timothy-H-Morin/>Timothy H. Morin</a>,
-<a href=/gwf-publications/people/E/Eiko-Nemitz/>Eiko Nemitz</a>,
-<a href=/gwf-publications/people/M/Mats-B-Nilsson/>Mats B. Nilsson</a>,
-<a href=/gwf-publications/people/S/Shuli-Niu/>Shuli Niu</a>,
-<a href=/gwf-publications/people/W/Walter-C-Oechel/>Walter C. Oechel</a>,
-<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/>Patricia Y. Oikawa</a>,
-<a href=/gwf-publications/people/K/Keisuke-Ono/>Keisuke Ono</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/>Matthias Peichl</a>,
-<a href=/gwf-publications/people/O/Olli-Peltola/>Olli Peltola</a>,
-<a href=/gwf-publications/people/M/Michele-L-Reba/>Michele L. Reba</a>,
-<a href=/gwf-publications/people/A/Andrew-D-Richardson/>Andrew D. Richardson</a>,
-<a href=/gwf-publications/people/W/William-Riley/>William Riley</a>,
-<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/>Benjamin R. K. Runkle</a>,
-<a href=/gwf-publications/people/Y/Youngryel-Ryu/>Youngryel Ryu</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/>Torsten Sachs</a>,
-<a href=/gwf-publications/people/A/Ayaka-Sakabe/>Ayaka Sakabe</a>,
-<a href=/gwf-publications/people/C/Camilo-Rey-Sanchez/>Camilo Rey Sanchez</a>,
-<a href=/gwf-publications/people/E/Edward-A-Schuur/>Edward A. Schuur</a>,
-<a href=/gwf-publications/people/K/Karina-V-R-Sch%C3%A4fer/>Karina V. R. Schäfer</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/J/Jed-P-Sparks/>Jed P. Sparks</a>,
-<a href=/gwf-publications/people/E/Ellen-Stuart-Ha%C3%ABntjens/>Ellen Stuart-Haëntjens</a>,
-<a href=/gwf-publications/people/C/Cove-Sturtevant/>Cove Sturtevant</a>,
-<a href=/gwf-publications/people/R/Ryan-C-Sullivan/>Ryan C. Sullivan</a>,
-<a href=/gwf-publications/people/D/Daphne-J-Szutu/>Daphne J. Szutu</a>,
-<a href=/gwf-publications/people/J/Jonathan-E-Thom/>Jonathan E. Thom</a>,
-<a href=/gwf-publications/people/M/Margaret-S-Torn/>Margaret S. Torn</a>,
-<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/>Eeva-Stiina Tuittila</a>,
-<a href=/gwf-publications/people/J/Jessica-Turner/>Jessica Turner</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/A/Alex-C-Valach/>Alex C. Valach</a>,
-<a href=/gwf-publications/people/R/Rodrigo-Vargas/>Rodrigo Vargas</a>,
-<a href=/gwf-publications/people/A/Andrej-Varlagin/>Andrej Varlagin</a>,
-<a href=/gwf-publications/people/A/Alma-Vazquez-Lule/>Alma Vazquez-Lule</a>,
-<a href=/gwf-publications/people/J/Joseph-G-Verfaillie/>Joseph G. Verfaillie</a>,
-<a href=/gwf-publications/people/T/Timo-Vesala/>Timo Vesala</a>,
-<a href=/gwf-publications/people/G/George-L-Vourlitis/>George L. Vourlitis</a>,
-<a href=/gwf-publications/people/E/Eric-J-Ward/>Eric J. Ward</a>,
-<a href=/gwf-publications/people/C/Christian-Wille/>Christian Wille</a>,
-<a href=/gwf-publications/people/G/Georg-Wohlfahrt/>Georg Wohlfahrt</a>,
-<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/>Guan Xhuan Wong</a>,
-<a href=/gwf-publications/people/Z/Zhen-Zhang/>Zhen Zhang</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/>Donatella Zona</a>,
-<a href=/gwf-publications/people/L/Lisamarie-Windham-Myers/>Lisamarie Windham-Myers</a>,
-<a href=/gwf-publications/people/B/Benjamin-Poulter/>Benjamin Poulter</a>,
-<a href=/gwf-publications/people/R/Robert-B-Jackson/>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Methane (CH4) emissions from natural landscapes constitute roughly half of global CH4 contributions to the atmosphere, yet large uncertainties remain in the absolute magnitude and the seasonality of emission quantities and drivers. Eddy covariance (EC) measurements of CH4 flux are ideal for constraining ecosystem-scale CH4 emissions due to quasi-continuous and high-temporal-resolution CH4 flux measurements, coincident carbon dioxide, water, and energy flux measurements, lack of ecosystem disturbance, and increased availability of datasets over the last decade. Here, we (1) describe the newly published dataset, FLUXNET-CH4 Version 1.0, the first open-source global dataset of CH4 EC measurements (available at https://fluxnet.org/data/fluxnet-ch4-community-product/, last access: 7 April 2021). FLUXNET-CH4 includes half-hourly and daily gap-filled and non-gap-filled aggregated CH4 fluxes and meteorological data from 79 sites globally: 42 freshwater wetlands, 6 brackish and saline wetlands, 7 formerly drained ecosystems, 7 rice paddy sites, 2 lakes, and 15 uplands. Then, we (2) evaluate FLUXNET-CH4 representativeness for freshwater wetland coverage globally because the majority of sites in FLUXNET-CH4 Version 1.0 are freshwater wetlands which are a substantial source of total atmospheric CH4 emissions; and (3) we provide the first global estimates of the seasonal variability and seasonality predictors of freshwater wetland CH4 fluxes. Our representativeness analysis suggests that the freshwater wetland sites in the dataset cover global wetland bioclimatic attributes (encompassing energy, moisture, and vegetation-related parameters) in arctic, boreal, and temperate regions but only sparsely cover humid tropical regions. Seasonality metrics of wetland CH4 emissions vary considerably across latitudinal bands. In freshwater wetlands (except those between 20∘ S to 20∘ N) the spring onset of elevated CH4 emissions starts 3 d earlier, and the CH4 emission season lasts 4 d longer, for each degree Celsius increase in mean annual air temperature. On average, the spring onset of increasing CH4 emissions lags behind soil warming by 1 month, with very few sites experiencing increased CH4 emissions prior to the onset of soil warming. In contrast, roughly half of these sites experience the spring onset of rising CH4 emissions prior to the spring increase in gross primary productivity (GPP). The timing of peak summer CH4 emissions does not correlate with the timing for either peak summer temperature or peak GPP. Our results provide seasonality parameters for CH4 modeling and highlight seasonality metrics that cannot be predicted by temperature or GPP (i.e., seasonality of CH4 peak). FLUXNET-CH4 is a powerful new resource for diagnosing and understanding the role of terrestrial ecosystems and climate drivers in the global CH4 cycle, and future additions of sites in tropical ecosystems and site years of data collection will provide added value to this database. All seasonality parameters are available at https://doi.org/10.5281/zenodo.4672601 (Delwiche et al., 2021). Additionally, raw FLUXNET-CH4 data used to extract seasonality parameters can be downloaded from https://fluxnet.org/data/fluxnet-ch4-community-product/ (last access: 7 April 2021), and a complete list of the 79 individual site data DOIs is provided in Table 2 of this paper.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Kyle B. Delwiche, Sara Helen Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, Eleonora Canfora, You-Wei Cheah, Danielle Christianson, Ma. Carmelita R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis Baldocchi, Sheel Bansal, David P. Billesbach, Gil Bohrer, et al.. 2021. <a href=https://aclanthology.org/G21-71002>FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a>. <i>Earth System Science Data, Volume 13, Issue 7</i>, 13(7):3607–3689.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands" name=citation_title><meta content="Kyle B. Delwiche" name=citation_author><meta content="Sara H. Knox" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Etienne Fluet-Chouinard" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Sarah Feron" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="E. Canfora" name=citation_author><meta content="You Wei Cheah" name=citation_author><meta content="D. S. Christianson" name=citation_author><meta content="M. C. R. Alberto" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Dennis D. Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="D. P. Billesbach" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Rosvel Bracho" name=citation_author><meta content="Nina Buchmann" name=citation_author><meta content="David K. Campbell" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Weinan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Sigrid Dengel" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Matteo Detto" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Elke Eichelmann" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Daniela Famulari" name=citation_author><meta content="Klaus Butterbach-Bahl" name=citation_author><meta content="Mathias Göckede" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Scott M. Graham" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="David Y. Hollinger" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Minseok Kang" name=citation_author><meta content="Ülo Mander" name=citation_author><meta content="John R. King" name=citation_author><meta content="Janina Klatt" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Ken W. Krauss" name=citation_author><meta content="Derrick Y.F. Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Luca Belelli Marchesini" name=citation_author><meta content="Giovanni Manca" name=citation_author><meta content="Jaclyn Hatala Matthes" name=citation_author><meta content="Trofim C. Maximov" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="T. H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Shuli Niu" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Olli Peltola" name=citation_author><meta content="Michele L. Reba" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="William J. Riley" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Youngryel Ryu" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Camilo Rey-Sanchez" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Karina V. R. Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Jed P. Sparks" name=citation_author><meta content="Ellen Stuart-Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Ryan J. Sullivan" name=citation_author><meta content="Daphne Szutu" name=citation_author><meta content="Jonathan E. Thom" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Vince D. Calhoun" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="A. C. Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Alma Vázquez-Lule" name=citation_author><meta content="Joseph Verfaillie" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Lisamarie Windham-Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Earth System Science Data, Volume 13, Issue 7" name=citation_journal_title><meta content="13" name=citation_volume><meta content="7" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-71002.pdf" name=citation_pdf_url><meta content="3607" name=citation_firstpage><meta content="3689" name=citation_lastpage><meta content="10.5194/essd-13-3607-2021" name=citation_doi><meta property="og:title" content="FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-71002.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-71002"><meta property="og:description" content="Kyle B. Delwiche, Sara H. Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, E. Canfora, You Wei Cheah, D. S. Christianson, M. C. R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis D. Baldocchi, Sheel Bansal, D. P. Billesbach, Gil Bohrer, Rosvel Bracho, Nina Buchmann, David K. Campbell, Gerardo Celis, Jiquan Chen, Weinan Chen, Housen Chu, Higo J. Dalmagro, Sigrid Dengel, Ankur R. Desai, Matteo Detto, A. J. Dolman, Elke Eichelmann, Eugénie S. Euskirchen, Daniela Famulari, Klaus Butterbach-Bahl, Mathias Göckede, Sébastien Gogo, Mangaliso J. Gondwe, Jordan P. Goodrich, Pia Gottschalk, Scott M. Graham, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S. Hemes, Takashi Hirano, David Y. Hollinger, Lukas Hörtnagl, Hiroki Iwata, Adrien Jacotot, Gerald Jurasinski, Minseok Kang, Ülo Mander, John R. King, Janina Klatt, Franziska Koebsch, Ken W. Krauss, Derrick Y.F. Lai, Annalea Lohila, Ivan Mammarella, Luca Belelli Marchesini, Giovanni Manca, Jaclyn Hatala Matthes, Trofim C. Maximov, Lutz Merbold, Bhaskar Mitra, T. H. Morin, Eiko Nemitz, Mats Nilsson, Shuli Niu, Walter C. Oechel, Patricia Y. Oikawa, Keisuke Ono, Matthias Peichl, Olli Peltola, Michele L. Reba, Andrew D. Richardson, William J. Riley, Benjamin R. K. Runkle, Youngryel Ryu, Torsten Sachs, Ayaka Sakabe, Camilo Rey-Sanchez, Edward A. G. Schuur, Karina V. R. Schäfer, Oliver Sonnentag, Jed P. Sparks, Ellen Stuart-Haëntjens, Cove Sturtevant, Ryan J. Sullivan, Daphne Szutu, Jonathan E. Thom, Margaret S. Torn, Eeva-Stiina Tuittila, Vince D. Calhoun, Masahito Ueyama, A. C. Valach, Rodrigo Vargas, Andrej Varlagin, Alma Vázquez-Lule, Joseph Verfaillie, Timo Vesala, George L. Vourlitis, Eric J. Ward, Christian Wille, Georg Wohlfahrt, Guan Xhuan Wong, Zhen Zhang, Donatella Zona, Lisamarie Windham-Myers, Benjamin Poulter, Robert B. Jackson. Earth System Science Data, Volume 13, Issue 7. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-71002></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-71002>FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a></h2><p class=lead><a href=/gwf-publications/people/K/Kyle-B-Delwiche/ data-uni=uni0021>Kyle B. Delwiche</a>,
+<a href=/gwf-publications/people/S/Sara-H-Knox/ data-uni=uni0029>Sara H. Knox</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0038>Avni Malhotra</a>,
+<a href=/gwf-publications/people/E/Etienne-Fluet-Chouinard/ data-uni=uni0040>Etienne Fluet-Chouinard</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0038>Gavin McNicol</a>,
+<a href=/gwf-publications/people/S/Sarah-Feron/ data-uni=uni0407>Sarah Feron</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0038>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0081>Dario Papale</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0326>Carlo Trotta</a>,
+<a href=/gwf-publications/people/E/E-Canfora/ data-uni=uni0021>E. Canfora</a>,
+<a href=/gwf-publications/people/Y/You-Wei-Cheah/ data-uni=uni0014>You Wei Cheah</a>,
+<a href=/gwf-publications/people/D/D-S-Christianson/ data-uni=uni0016>D. S. Christianson</a>,
+<a href=/gwf-publications/people/M/M-C-R-Alberto/ data-uni=uni0878>M. C. R. Alberto</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0027>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0030>Mika Aurela</a>,
+<a href=/gwf-publications/people/D/Dennis-D-Baldocchi/ data-uni=uni0021>Dennis D. Baldocchi</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0014>Sheel Bansal</a>,
+<a href=/gwf-publications/people/D/D-P-Billesbach/ data-uni=uni0031>D. P. Billesbach</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0058>Gil Bohrer</a>,
+<a href=/gwf-publications/people/R/Rosvel-Bracho/ data-uni=uni0342>Rosvel Bracho</a>,
+<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni1185>Nina Buchmann</a>,
+<a href=/gwf-publications/people/D/David-K-Campbell/ data-uni=uni0100>David K. Campbell</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0159>Gerardo Celis</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0497>Jiquan Chen</a>,
+<a href=/gwf-publications/people/W/Weinan-Chen/ data-uni=uni0368>Weinan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0016>Housen Chu</a>,
+<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=uni0877>Higo J. Dalmagro</a>,
+<a href=/gwf-publications/people/S/Sigrid-Dengel/ data-uni=uni0016>Sigrid Dengel</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0082>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/M/Matteo-Detto/ data-uni=uni0183>Matteo Detto</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0071>A. J. Dolman</a>,
+<a href=/gwf-publications/people/E/Elke-Eichelmann/ data-uni=uni0278>Elke Eichelmann</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0024>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/D/Daniela-Famulari/ data-uni=uni0075>Daniela Famulari</a>,
+<a href=/gwf-publications/people/K/Klaus-Butterbach-Bahl/ data-uni=uni0116>Klaus Butterbach-Bahl</a>,
+<a href=/gwf-publications/people/M/Mathias-G%C3%B6ckede/ data-uni=uni0025>Mathias Göckede</a>,
+<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ data-uni=uni0876>Sébastien Gogo</a>,
+<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/ data-uni=uni0875>Mangaliso J. Gondwe</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0257>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=uni0055>Pia Gottschalk</a>,
+<a href=/gwf-publications/people/S/Scott-M-Graham/ data-uni=uni0874>Scott M. Graham</a>,
+<a href=/gwf-publications/people/M/Martin-Heimann/ data-uni=uni0025>Martin Heimann</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0076>Manuel Helbig</a>,
+<a href=/gwf-publications/people/C/Carole-Helfter/ data-uni=uni0043>Carole Helfter</a>,
+<a href=/gwf-publications/people/K/Kyle-S-Hemes/ data-uni=uni0038>Kyle S. Hemes</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0253>Takashi Hirano</a>,
+<a href=/gwf-publications/people/D/David-Y-Hollinger/ data-uni=uni0143>David Y. Hollinger</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0040>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni1257>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/A/Adrien-Jacotot/ data-uni=uni0873>Adrien Jacotot</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0239>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/M/Minseok-Kang/ data-uni=uni0173>Minseok Kang</a>,
+<a href=/gwf-publications/people/%C3%9C/%C3%9Clo-Mander/ data-uni=uni0079>Ülo Mander</a>,
+<a href=/gwf-publications/people/J/John-R-King/ data-uni=uni0335>John R. King</a>,
+<a href=/gwf-publications/people/J/Janina-Klatt/ data-uni=uni1454>Janina Klatt</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0239>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/K/Ken-W-Krauss/ data-uni=uni0014>Ken W. Krauss</a>,
+<a href=/gwf-publications/people/D/Derrick-YF-Lai/ data-uni=uni0887>Derrick Y.F. Lai</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0030>Annalea Lohila</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0027>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/L/Luca-Belelli-Marchesini/ data-uni=uni0108>Luca Belelli Marchesini</a>,
+<a href=/gwf-publications/people/G/Giovanni-Manca/ data-uni=uni0109>Giovanni Manca</a>,
+<a href=/gwf-publications/people/J/Jaclyn-Hatala-Matthes/ data-uni=uni0673>Jaclyn Hatala Matthes</a>,
+<a href=/gwf-publications/people/T/Trofim-C-Maximov/ data-uni=uni1316>Trofim C. Maximov</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni1187>Lutz Merbold</a>,
+<a href=/gwf-publications/people/B/Bhaskar-Mitra/ data-uni=uni0165>Bhaskar Mitra</a>,
+<a href=/gwf-publications/people/T/T-H-Morin/ data-uni=uni0888>T. H. Morin</a>,
+<a href=/gwf-publications/people/E/Eiko-Nemitz/ data-uni=uni0043>Eiko Nemitz</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0111>Mats Nilsson</a>,
+<a href=/gwf-publications/people/S/Shuli-Niu/ data-uni=uni0037>Shuli Niu</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0034>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/ data-uni=uni0432>Patricia Y. Oikawa</a>,
+<a href=/gwf-publications/people/K/Keisuke-Ono/ data-uni=uni0370>Keisuke Ono</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0049>Matthias Peichl</a>,
+<a href=/gwf-publications/people/O/Olli-Peltola/ data-uni=uni0030>Olli Peltola</a>,
+<a href=/gwf-publications/people/M/Michele-L-Reba/ data-uni=uni0889>Michele L. Reba</a>,
+<a href=/gwf-publications/people/A/Andrew-D-Richardson/ data-uni=uni0050>Andrew D. Richardson</a>,
+<a href=/gwf-publications/people/W/William-J-Riley/ data-uni=uni0016>William J. Riley</a>,
+<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0159>Benjamin R. K. Runkle</a>,
+<a href=/gwf-publications/people/Y/Youngryel-Ryu/ data-uni=uni0173>Youngryel Ryu</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0055>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0306>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/C/Camilo-Rey-Sanchez/ data-uni=uni0021>Camilo Rey-Sanchez</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0050>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/K/Karina-V-R-Sch%C3%A4fer/ data-uni=uni0404>Karina V. R. Schäfer</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/J/Jed-P-Sparks/ data-uni=uni0091>Jed P. Sparks</a>,
+<a href=/gwf-publications/people/E/Ellen-Stuart-Ha%C3%ABntjens/ data-uni=uni0014>Ellen Stuart-Haëntjens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0286>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/R/Ryan-J-Sullivan/ data-uni=uni0430>Ryan J. Sullivan</a>,
+<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0021>Daphne Szutu</a>,
+<a href=/gwf-publications/people/J/Jonathan-E-Thom/ data-uni=uni0082>Jonathan E. Thom</a>,
+<a href=/gwf-publications/people/M/Margaret-S-Torn/ data-uni=uni0021>Margaret S. Torn</a>,
+<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/ data-uni=uni0323>Eeva-Stiina Tuittila</a>,
+<a href=/gwf-publications/people/V/Vince-D-Calhoun/ data-uni=uni1318>Vince D. Calhoun</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni1493>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/A-C-Valach/ data-uni=uni0021>A. C. Valach</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0482>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0227>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/A/Alma-V%C3%A1zquez-Lule/ data-uni=uni0890>Alma Vázquez-Lule</a>,
+<a href=/gwf-publications/people/J/Joseph-Verfaillie/ data-uni=uni0021>Joseph Verfaillie</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0027>Timo Vesala</a>,
+<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=uni0891>George L. Vourlitis</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0892>Eric J. Ward</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni1451>Christian Wille</a>,
+<a href=/gwf-publications/people/G/Georg-Wohlfahrt/ data-uni=uni0015>Georg Wohlfahrt</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0253>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/Z/Zhen-Zhang/ data-uni=uni1221>Zhen Zhang</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0103>Donatella Zona</a>,
+<a href=/gwf-publications/people/L/Lisamarie-Windham-Myers/ data-uni=uni0014>Lisamarie Windham-Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0028>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0038>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Methane (CH4) emissions from natural landscapes constitute roughly half of global CH4 contributions to the atmosphere, yet large uncertainties remain in the absolute magnitude and the seasonality of emission quantities and drivers. Eddy covariance (EC) measurements of CH4 flux are ideal for constraining ecosystem-scale CH4 emissions due to quasi-continuous and high-temporal-resolution CH4 flux measurements, coincident carbon dioxide, water, and energy flux measurements, lack of ecosystem disturbance, and increased availability of datasets over the last decade. Here, we (1) describe the newly published dataset, FLUXNET-CH4 Version 1.0, the first open-source global dataset of CH4 EC measurements (available at https://fluxnet.org/data/fluxnet-ch4-community-product/, last access: 7 April 2021). FLUXNET-CH4 includes half-hourly and daily gap-filled and non-gap-filled aggregated CH4 fluxes and meteorological data from 79 sites globally: 42 freshwater wetlands, 6 brackish and saline wetlands, 7 formerly drained ecosystems, 7 rice paddy sites, 2 lakes, and 15 uplands. Then, we (2) evaluate FLUXNET-CH4 representativeness for freshwater wetland coverage globally because the majority of sites in FLUXNET-CH4 Version 1.0 are freshwater wetlands which are a substantial source of total atmospheric CH4 emissions; and (3) we provide the first global estimates of the seasonal variability and seasonality predictors of freshwater wetland CH4 fluxes. Our representativeness analysis suggests that the freshwater wetland sites in the dataset cover global wetland bioclimatic attributes (encompassing energy, moisture, and vegetation-related parameters) in arctic, boreal, and temperate regions but only sparsely cover humid tropical regions. Seasonality metrics of wetland CH4 emissions vary considerably across latitudinal bands. In freshwater wetlands (except those between 20∘ S to 20∘ N) the spring onset of elevated CH4 emissions starts 3 d earlier, and the CH4 emission season lasts 4 d longer, for each degree Celsius increase in mean annual air temperature. On average, the spring onset of increasing CH4 emissions lags behind soil warming by 1 month, with very few sites experiencing increased CH4 emissions prior to the onset of soil warming. In contrast, roughly half of these sites experience the spring onset of rising CH4 emissions prior to the spring increase in gross primary productivity (GPP). The timing of peak summer CH4 emissions does not correlate with the timing for either peak summer temperature or peak GPP. Our results provide seasonality parameters for CH4 modeling and highlight seasonality metrics that cannot be predicted by temperature or GPP (i.e., seasonality of CH4 peak). FLUXNET-CH4 is a powerful new resource for diagnosing and understanding the role of terrestrial ecosystems and climate drivers in the global CH4 cycle, and future additions of sites in tropical ecosystems and site years of data collection will provide added value to this database. All seasonality parameters are available at https://doi.org/10.5281/zenodo.4672601 (Delwiche et al., 2021). Additionally, raw FLUXNET-CH4 data used to extract seasonality parameters can be downloaded from https://fluxnet.org/data/fluxnet-ch4-community-product/ (last access: 7 April 2021), and a complete list of the 79 individual site data DOIs is provided in Table 2 of this paper.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Kyle B. Delwiche, Sara H. Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, E. Canfora, You Wei Cheah, D. S. Christianson, M. C. R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis D. Baldocchi, Sheel Bansal, D. P. Billesbach, Gil Bohrer, et al.. 2021. FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands. <i>Earth System Science Data, Volume 13, Issue 7</i>, 13(7):3607–3689.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G21-71002.pdf title="Open PDF of 'FLUXNET-CH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=FLUXNET-CH%3Csub%3E4%3C%2Fsub%3E%3A+a+global%2C+multi-ecosystem+dataset+and+analysis+of+methane+seasonality+from+freshwater+wetlands" title="Search for 'FLUXNET-CH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Delwiche-2021-FLUXNET-CH&lt;sub&gt;4&lt;/sub&gt;:,
     title = &#34;FLUXNET-CH{\textless}sub{\textgreater}4{\textless}/sub{\textgreater}: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands&#34;,
     author = {Delwiche, Kyle B.  and
-      Knox, Sara Helen  and
+      Knox, Sara H.  and
       Malhotra, Avni  and
       Fluet-Chouinard, Etienne  and
       McNicol, Gavin  and
@@ -130,19 +137,19 @@
       Ouyang, Zutao  and
       Papale, Dario  and
       Trotta, Carlo  and
-      Canfora, Eleonora  and
-      Cheah, You-Wei  and
-      Christianson, Danielle  and
-      Alberto, Ma. Carmelita R.  and
+      Canfora, E.  and
+      Cheah, You Wei  and
+      Christianson, D. S.  and
+      Alberto, M. C. R.  and
       Alekseychik, Pavel  and
       Aurela, Mika  and
-      Baldocchi, Dennis  and
+      Baldocchi, Dennis D.  and
       Bansal, Sheel  and
-      Billesbach, David P.  and
+      Billesbach, D. P.  and
       Bohrer, Gil  and
       Bracho, Rosvel  and
       Buchmann, Nina  and
-      Campbell, David I.  and
+      Campbell, David K.  and
       Celis, Gerardo  and
       Chen, Jiquan  and
       Chen, Weinan  and
@@ -151,45 +158,45 @@
       Dengel, Sigrid  and
       Desai, Ankur R.  and
       Detto, Matteo  and
-      Dolman, Han  and
+      Dolman, A. J.  and
       Eichelmann, Elke  and
-      Euskirchen, Eugenie  and
+      Euskirchen, Eug{\&#39;e}nie S.  and
       Famulari, Daniela  and
-      Fuchs, Kathrin  and
-      Goeckede, Mathias  and
+      Butterbach-Bahl, Klaus  and
+      G{\&#34;o}ckede, Mathias  and
       Gogo, S{\&#39;e}bastien  and
       Gondwe, Mangaliso J.  and
       Goodrich, Jordan P.  and
       Gottschalk, Pia  and
-      Graham, Scott L.  and
+      Graham, Scott M.  and
       Heimann, Martin  and
       Helbig, Manuel  and
       Helfter, Carole  and
       Hemes, Kyle S.  and
       Hirano, Takashi  and
-      Hollinger, David  and
+      Hollinger, David Y.  and
       H{\&#34;o}rtnagl, Lukas  and
       Iwata, Hiroki  and
       Jacotot, Adrien  and
       Jurasinski, Gerald  and
       Kang, Minseok  and
-      Kasak, Kuno  and
-      King, John  and
+      Mander, {\&#34;U}lo  and
+      King, John R.  and
       Klatt, Janina  and
       Koebsch, Franziska  and
       Krauss, Ken W.  and
-      Lai, Derrick Y. F.  and
+      Lai, Derrick Y.F.  and
       Lohila, Annalea  and
       Mammarella, Ivan  and
-      Belelli Marchesini, Luca  and
+      Marchesini, Luca Belelli  and
       Manca, Giovanni  and
       Matthes, Jaclyn Hatala  and
-      Maximov, Trofim  and
+      Maximov, Trofim C.  and
       Merbold, Lutz  and
       Mitra, Bhaskar  and
-      Morin, Timothy H.  and
+      Morin, T. H.  and
       Nemitz, Eiko  and
-      Nilsson, Mats B.  and
+      Nilsson, Mats  and
       Niu, Shuli  and
       Oechel, Walter C.  and
       Oikawa, Patricia Y.  and
@@ -198,30 +205,30 @@
       Peltola, Olli  and
       Reba, Michele L.  and
       Richardson, Andrew D.  and
-      Riley, William  and
+      Riley, William J.  and
       Runkle, Benjamin R. K.  and
       Ryu, Youngryel  and
       Sachs, Torsten  and
       Sakabe, Ayaka  and
-      Sanchez, Camilo Rey  and
-      Schuur, Edward A.  and
+      Rey-Sanchez, Camilo  and
+      Schuur, Edward A. G.  and
       Sch{\&#34;a}fer, Karina V. R.  and
       Sonnentag, Oliver  and
       Sparks, Jed P.  and
       Stuart-Ha{\&#34;e}ntjens, Ellen  and
       Sturtevant, Cove  and
-      Sullivan, Ryan C.  and
-      Szutu, Daphne J.  and
+      Sullivan, Ryan J.  and
+      Szutu, Daphne  and
       Thom, Jonathan E.  and
       Torn, Margaret S.  and
       Tuittila, Eeva-Stiina  and
-      Turner, Jessica  and
+      Calhoun, Vince D.  and
       Ueyama, Masahito  and
-      Valach, Alex C.  and
+      Valach, A. C.  and
       Vargas, Rodrigo  and
       Varlagin, Andrej  and
-      Vazquez-Lule, Alma  and
-      Verfaillie, Joseph G.  and
+      V{\&#39;a}zquez-Lule, Alma  and
+      Verfaillie, Joseph  and
       Vesala, Timo  and
       Vourlitis, George L.  and
       Ward, Eric J.  and
@@ -238,7 +245,7 @@
     number = &#34;7&#34;,
     year = &#34;2021&#34;,
     publisher = &#34;Copernicus GmbH&#34;,
-    url = &#34;https://aclanthology.org/G21-71002&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G21-71002&#34;,
     doi = &#34;10.5194/essd-13-3607-2021&#34;,
     pages = &#34;3607--3689&#34;,
     abstract = &#34;Abstract. Methane (CH4) emissions from natural landscapes constitute roughly half of global CH4 contributions to the atmosphere, yet large uncertainties remain in the absolute magnitude and the seasonality of emission quantities and drivers. Eddy covariance (EC) measurements of CH4 flux are ideal for constraining ecosystem-scale CH4 emissions due to quasi-continuous and high-temporal-resolution CH4 flux measurements, coincident carbon dioxide, water, and energy flux measurements, lack of ecosystem disturbance, and increased availability of datasets over the last decade. Here, we (1) describe the newly published dataset, FLUXNET-CH4 Version 1.0, the first open-source global dataset of CH4 EC measurements (available at https://fluxnet.org/data/fluxnet-ch4-community-product/, last access: 7 April 2021). FLUXNET-CH4 includes half-hourly and daily gap-filled and non-gap-filled aggregated CH4 fluxes and meteorological data from 79 sites globally: 42 freshwater wetlands, 6 brackish and saline wetlands, 7 formerly drained ecosystems, 7 rice paddy sites, 2 lakes, and 15 uplands. Then, we (2) evaluate FLUXNET-CH4 representativeness for freshwater wetland coverage globally because the majority of sites in FLUXNET-CH4 Version 1.0 are freshwater wetlands which are a substantial source of total atmospheric CH4 emissions; and (3) we provide the first global estimates of the seasonal variability and seasonality predictors of freshwater wetland CH4 fluxes. Our representativeness analysis suggests that the freshwater wetland sites in the dataset cover global wetland bioclimatic attributes (encompassing energy, moisture, and vegetation-related parameters) in arctic, boreal, and temperate regions but only sparsely cover humid tropical regions. Seasonality metrics of wetland CH4 emissions vary considerably across latitudinal bands. In freshwater wetlands (except those between 20∘ S to 20∘ N) the spring onset of elevated CH4 emissions starts 3 d earlier, and the CH4 emission season lasts 4 d longer, for each degree Celsius increase in mean annual air temperature. On average, the spring onset of increasing CH4 emissions lags behind soil warming by 1 month, with very few sites experiencing increased CH4 emissions prior to the onset of soil warming. In contrast, roughly half of these sites experience the spring onset of rising CH4 emissions prior to the spring increase in gross primary productivity (GPP). The timing of peak summer CH4 emissions does not correlate with the timing for either peak summer temperature or peak GPP. Our results provide seasonality parameters for CH4 modeling and highlight seasonality metrics that cannot be predicted by temperature or GPP (i.e., seasonality of CH4 peak). FLUXNET-CH4 is a powerful new resource for diagnosing and understanding the role of terrestrial ecosystems and climate drivers in the global CH4 cycle, and future additions of sites in tropical ecosystems and site years of data collection will provide added value to this database. All seasonality parameters are available at https://doi.org/10.5281/zenodo.4672601 (Delwiche et al., 2021). Additionally, raw FLUXNET-CH4 data used to extract seasonality parameters can be downloaded from https://fluxnet.org/data/fluxnet-ch4-community-product/ (last access: 7 April 2021), and a complete list of the 79 individual site data DOIs is provided in Table 2 of this paper.&#34;,
@@ -260,7 +267,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Sara&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Helen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Knox&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -316,29 +323,31 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eleonora&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Canfora&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;You-Wei&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;You&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wei&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Cheah&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Danielle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Christianson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Ma.&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Carmelita&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Alberto&lt;/namePart&gt;
         &lt;role&gt;
@@ -361,6 +370,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Baldocchi&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -374,7 +384,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Billesbach&lt;/namePart&gt;
         &lt;role&gt;
@@ -404,7 +414,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Campbell&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -469,7 +479,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Han&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Dolman&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -483,7 +494,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eugenie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -497,15 +509,15 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Kathrin&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Fuchs&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Klaus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Butterbach-Bahl&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Göckede&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -542,7 +554,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Graham&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -586,6 +598,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Y&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Hollinger&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -627,14 +640,15 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Kuno&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Kasak&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ülo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mander&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;King&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -664,8 +678,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Derrick&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Y&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Y.F.&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Lai&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -687,7 +700,8 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Luca&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Belelli Marchesini&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Belelli&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Marchesini&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -709,6 +723,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Trofim&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Maximov&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -729,7 +744,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Timothy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Morin&lt;/namePart&gt;
         &lt;role&gt;
@@ -745,7 +760,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -813,6 +827,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Riley&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -850,8 +865,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Camilo&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Rey&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Sanchez&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Rey-Sanchez&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -859,6 +873,7 @@
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Edward&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Schuur&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -904,7 +919,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Ryan&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Sullivan&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -912,7 +927,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Daphne&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Szutu&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -942,8 +956,9 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jessica&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Turner&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vince&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Calhoun&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -956,7 +971,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Alex&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Valach&lt;/namePart&gt;
         &lt;role&gt;
@@ -979,14 +994,13 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Alma&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Vazquez-Lule&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vázquez-Lule&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Joseph&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Verfaillie&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1093,7 +1107,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Delwiche-2021-FLUXNET-CH&amp;lt;sub&amp;gt;4&amp;lt;/sub&amp;gt;:&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.5194/essd-13-3607-2021&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G21-71002&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G21-71002&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2021&lt;/date&gt;
@@ -1110,7 +1124,7 @@
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T FLUXNET-CH\textlesssub\textgreater4\textless/sub\textgreater: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands
 %A Delwiche, Kyle B.
-%A Knox, Sara Helen
+%A Knox, Sara H.
 %A Malhotra, Avni
 %A Fluet-Chouinard, Etienne
 %A McNicol, Gavin
@@ -1118,19 +1132,19 @@
 %A Ouyang, Zutao
 %A Papale, Dario
 %A Trotta, Carlo
-%A Canfora, Eleonora
-%A Cheah, You-Wei
-%A Christianson, Danielle
-%A Alberto, Ma. Carmelita R.
+%A Canfora, E.
+%A Cheah, You Wei
+%A Christianson, D. S.
+%A Alberto, M. C. R.
 %A Alekseychik, Pavel
 %A Aurela, Mika
-%A Baldocchi, Dennis
+%A Baldocchi, Dennis D.
 %A Bansal, Sheel
-%A Billesbach, David P.
+%A Billesbach, D. P.
 %A Bohrer, Gil
 %A Bracho, Rosvel
 %A Buchmann, Nina
-%A Campbell, David I.
+%A Campbell, David K.
 %A Celis, Gerardo
 %A Chen, Jiquan
 %A Chen, Weinan
@@ -1139,45 +1153,45 @@
 %A Dengel, Sigrid
 %A Desai, Ankur R.
 %A Detto, Matteo
-%A Dolman, Han
+%A Dolman, A. J.
 %A Eichelmann, Elke
-%A Euskirchen, Eugenie
+%A Euskirchen, Eugénie S.
 %A Famulari, Daniela
-%A Fuchs, Kathrin
-%A Goeckede, Mathias
+%A Butterbach-Bahl, Klaus
+%A Göckede, Mathias
 %A Gogo, Sébastien
 %A Gondwe, Mangaliso J.
 %A Goodrich, Jordan P.
 %A Gottschalk, Pia
-%A Graham, Scott L.
+%A Graham, Scott M.
 %A Heimann, Martin
 %A Helbig, Manuel
 %A Helfter, Carole
 %A Hemes, Kyle S.
 %A Hirano, Takashi
-%A Hollinger, David
+%A Hollinger, David Y.
 %A Hörtnagl, Lukas
 %A Iwata, Hiroki
 %A Jacotot, Adrien
 %A Jurasinski, Gerald
 %A Kang, Minseok
-%A Kasak, Kuno
-%A King, John
+%A Mander, Ülo
+%A King, John R.
 %A Klatt, Janina
 %A Koebsch, Franziska
 %A Krauss, Ken W.
-%A Lai, Derrick Y. F.
+%A Lai, Derrick Y.F.
 %A Lohila, Annalea
 %A Mammarella, Ivan
-%A Belelli Marchesini, Luca
+%A Marchesini, Luca Belelli
 %A Manca, Giovanni
 %A Matthes, Jaclyn Hatala
-%A Maximov, Trofim
+%A Maximov, Trofim C.
 %A Merbold, Lutz
 %A Mitra, Bhaskar
-%A Morin, Timothy H.
+%A Morin, T. H.
 %A Nemitz, Eiko
-%A Nilsson, Mats B.
+%A Nilsson, Mats
 %A Niu, Shuli
 %A Oechel, Walter C.
 %A Oikawa, Patricia Y.
@@ -1186,30 +1200,30 @@
 %A Peltola, Olli
 %A Reba, Michele L.
 %A Richardson, Andrew D.
-%A Riley, William
+%A Riley, William J.
 %A Runkle, Benjamin R. K.
 %A Ryu, Youngryel
 %A Sachs, Torsten
 %A Sakabe, Ayaka
-%A Sanchez, Camilo Rey
-%A Schuur, Edward A.
+%A Rey-Sanchez, Camilo
+%A Schuur, Edward A. G.
 %A Schäfer, Karina V. R.
 %A Sonnentag, Oliver
 %A Sparks, Jed P.
 %A Stuart-Haëntjens, Ellen
 %A Sturtevant, Cove
-%A Sullivan, Ryan C.
-%A Szutu, Daphne J.
+%A Sullivan, Ryan J.
+%A Szutu, Daphne
 %A Thom, Jonathan E.
 %A Torn, Margaret S.
 %A Tuittila, Eeva-Stiina
-%A Turner, Jessica
+%A Calhoun, Vince D.
 %A Ueyama, Masahito
-%A Valach, Alex C.
+%A Valach, A. C.
 %A Vargas, Rodrigo
 %A Varlagin, Andrej
-%A Vazquez-Lule, Alma
-%A Verfaillie, Joseph G.
+%A Vázquez-Lule, Alma
+%A Verfaillie, Joseph
 %A Vesala, Timo
 %A Vourlitis, George L.
 %A Ward, Eric J.
@@ -1229,11 +1243,11 @@
 %F Delwiche-2021-FLUXNET-CH&lt;sub&gt;4&lt;/sub&gt;:
 %X Abstract. Methane (CH4) emissions from natural landscapes constitute roughly half of global CH4 contributions to the atmosphere, yet large uncertainties remain in the absolute magnitude and the seasonality of emission quantities and drivers. Eddy covariance (EC) measurements of CH4 flux are ideal for constraining ecosystem-scale CH4 emissions due to quasi-continuous and high-temporal-resolution CH4 flux measurements, coincident carbon dioxide, water, and energy flux measurements, lack of ecosystem disturbance, and increased availability of datasets over the last decade. Here, we (1) describe the newly published dataset, FLUXNET-CH4 Version 1.0, the first open-source global dataset of CH4 EC measurements (available at https://fluxnet.org/data/fluxnet-ch4-community-product/, last access: 7 April 2021). FLUXNET-CH4 includes half-hourly and daily gap-filled and non-gap-filled aggregated CH4 fluxes and meteorological data from 79 sites globally: 42 freshwater wetlands, 6 brackish and saline wetlands, 7 formerly drained ecosystems, 7 rice paddy sites, 2 lakes, and 15 uplands. Then, we (2) evaluate FLUXNET-CH4 representativeness for freshwater wetland coverage globally because the majority of sites in FLUXNET-CH4 Version 1.0 are freshwater wetlands which are a substantial source of total atmospheric CH4 emissions; and (3) we provide the first global estimates of the seasonal variability and seasonality predictors of freshwater wetland CH4 fluxes. Our representativeness analysis suggests that the freshwater wetland sites in the dataset cover global wetland bioclimatic attributes (encompassing energy, moisture, and vegetation-related parameters) in arctic, boreal, and temperate regions but only sparsely cover humid tropical regions. Seasonality metrics of wetland CH4 emissions vary considerably across latitudinal bands. In freshwater wetlands (except those between 20∘ S to 20∘ N) the spring onset of elevated CH4 emissions starts 3 d earlier, and the CH4 emission season lasts 4 d longer, for each degree Celsius increase in mean annual air temperature. On average, the spring onset of increasing CH4 emissions lags behind soil warming by 1 month, with very few sites experiencing increased CH4 emissions prior to the onset of soil warming. In contrast, roughly half of these sites experience the spring onset of rising CH4 emissions prior to the spring increase in gross primary productivity (GPP). The timing of peak summer CH4 emissions does not correlate with the timing for either peak summer temperature or peak GPP. Our results provide seasonality parameters for CH4 modeling and highlight seasonality metrics that cannot be predicted by temperature or GPP (i.e., seasonality of CH4 peak). FLUXNET-CH4 is a powerful new resource for diagnosing and understanding the role of terrestrial ecosystems and climate drivers in the global CH4 cycle, and future additions of sites in tropical ecosystems and site years of data collection will provide added value to this database. All seasonality parameters are available at https://doi.org/10.5281/zenodo.4672601 (Delwiche et al., 2021). Additionally, raw FLUXNET-CH4 data used to extract seasonality parameters can be downloaded from https://fluxnet.org/data/fluxnet-ch4-community-product/ (last access: 7 April 2021), and a complete list of the 79 individual site data DOIs is provided in Table 2 of this paper.
 %R 10.5194/essd-13-3607-2021
-%U https://aclanthology.org/G21-71002
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-71002
 %U https://doi.org/10.5194/essd-13-3607-2021
 %P 3607-3689
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-71002.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands](https://aclanthology.org/G21-71002) (Delwiche et al., GWF 2021)</p><ul class=mt-2><li><a href=https://aclanthology.org/G21-71002>FLUXNET-CH4: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a> (Delwiche et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Kyle B. Delwiche, Sara Helen Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, Eleonora Canfora, You-Wei Cheah, Danielle Christianson, Ma. Carmelita R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis Baldocchi, Sheel Bansal, David P. Billesbach, Gil Bohrer, et al.. 2021. <a href=https://aclanthology.org/G21-71002>FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a>. <i>Earth System Science Data, Volume 13, Issue 7</i>, 13(7):3607–3689.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[FLUXNET-CH&lt;sub>4&lt;/sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands](https://gwf-uwaterloo.github.io/gwf-publications/G21-71002) (Delwiche et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-71002>FLUXNET-CH4: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands</a> (Delwiche et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Kyle B. Delwiche, Sara H. Knox, Avni Malhotra, Etienne Fluet-Chouinard, Gavin McNicol, Sarah Feron, Zutao Ouyang, Dario Papale, Carlo Trotta, E. Canfora, You Wei Cheah, D. S. Christianson, M. C. R. Alberto, Pavel Alekseychik, Mika Aurela, Dennis D. Baldocchi, Sheel Bansal, D. P. Billesbach, Gil Bohrer, et al.. 2021. FLUXNET-CH<sub>4</sub>: a global, multi-ecosystem dataset and analysis of methane seasonality from freshwater wetlands. <i>Earth System Science Data, Volume 13, Issue 7</i>, 13(7):3607–3689.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

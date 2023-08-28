@@ -1,90 +1,97 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age. - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age." name=citation_title><meta content="Authors presented in alphabetical order:" name=citation_author><meta content="Eric Arts" name=citation_author><meta content="Stephen Brown" name=citation_author><meta content="David Bulir" name=citation_author><meta content="Trevor C. Charles" name=citation_author><meta content="Christopher T. DeGroot" name=citation_author><meta content="Robert Delatolla" name=citation_author><meta content="Jean-Paul Desaulniers" name=citation_author><meta content="Elizabeth A. Edwards" name=citation_author><meta content="Meghan Fuzzen" name=citation_author><meta content="Kimberley Gilbride" name=citation_author><meta content="Jodi Gilchrist" name=citation_author><meta content="Lawrence Goodridge" name=citation_author><meta content="Tyson E. Graber" name=citation_author><meta content="Marc Habash" name=citation_author><meta content="Peter Jüni" name=citation_author><meta content="Andrea Kirkwood" name=citation_author><meta content="James Knockleby" name=citation_author><meta content="Christopher Kyle" name=citation_author><meta content="Chrystal Landgraff" name=citation_author><meta content="Chand Mangat" name=citation_author><meta content="Douglas G. Manuel" name=citation_author><meta content="R. Michael McKay" name=citation_author><meta content="Edgard Mejia" name=citation_author><meta content="Aleksandra Mloszewska" name=citation_author><meta content="Banu Ormeci" name=citation_author><meta content="Claire Oswald" name=citation_author><meta content="Sarah Jane Payne" name=citation_author><meta content="Hui Peng" name=citation_author><meta content="Shelley Peterson" name=citation_author><meta content="Art F.Y. Poon" name=citation_author><meta content="Mark R. Servos" name=citation_author><meta content="Denina Simmons" name=citation_author><meta content="Jianxian Sun" name=citation_author><meta content="Minqing Yang" name=citation_author><meta content="Gustavo Ybazeta" name=citation_author><meta content name=citation_journal_title><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-18001.pdf" name=citation_pdf_url><meta content="10.21203/rs.3.rs-1439969/v2" name=citation_doi><meta property="og:title" content="Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age."><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-18001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G22-18001"><meta property="og:description" content="Authors presented in alphabetical order:, Eric Arts, Stephen Brown, David Bulir, Trevor C. Charles, Christopher T. DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan Fuzzen, Kimberley Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc Habash, Peter Jüni, Andrea Kirkwood, James Knockleby, Christopher Kyle, Chrystal Landgraff, Chand Mangat, Douglas G. Manuel, R. Michael McKay, Edgard Mejia, Aleksandra Mloszewska, Banu Ormeci, Claire Oswald, Sarah Jane Payne, Hui Peng, Shelley Peterson, Art F.Y. Poon, Mark R. Servos, Denina Simmons, Jianxian Sun, Minqing Yang, Gustavo Ybazeta. . 2022."><link rel=canonical href=https://aclanthology.org/G22-18001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-18001.pdf>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a></h2><p class=lead><a href=/gwf-publications/people/A/Authors-presented-in-alphabetical-order/>Authors presented in alphabetical order:</a>,
-<a href=/gwf-publications/people/E/Eric-Arts/>Eric Arts</a>,
-<a href=/gwf-publications/people/S/Stephen-Brown/>Stephen Brown</a>,
-<a href=/gwf-publications/people/D/David-Bulir/>David Bulir</a>,
-<a href=/gwf-publications/people/T/Trevor-C-Charles/>Trevor C. Charles</a>,
-<a href=/gwf-publications/people/C/Christopher-T-DeGroot/>Christopher T. DeGroot</a>,
-<a href=/gwf-publications/people/R/Robert-Delatolla/>Robert Delatolla</a>,
-<a href=/gwf-publications/people/J/Jean-Paul-Desaulniers/>Jean-Paul Desaulniers</a>,
-<a href=/gwf-publications/people/E/Elizabeth-A-Edwards/>Elizabeth A. Edwards</a>,
-<a href=/gwf-publications/people/M/Meghan-Fuzzen/>Meghan Fuzzen</a>,
-<a href=/gwf-publications/people/K/Kimberley-Gilbride/>Kimberley Gilbride</a>,
-<a href=/gwf-publications/people/J/Jodi-Gilchrist/>Jodi Gilchrist</a>,
-<a href=/gwf-publications/people/L/Lawrence-Goodridge/>Lawrence Goodridge</a>,
-<a href=/gwf-publications/people/T/Tyson-E-Graber/>Tyson E. Graber</a>,
-<a href=/gwf-publications/people/M/Marc-Habash/>Marc Habash</a>,
-<a href=/gwf-publications/people/P/Peter-J%C3%BCni/>Peter Jüni</a>,
-<a href=/gwf-publications/people/A/Andrea-Kirkwood/>Andrea Kirkwood</a>,
-<a href=/gwf-publications/people/J/James-Knockleby/>James Knockleby</a>,
-<a href=/gwf-publications/people/C/Christopher-Kyle/>Christopher Kyle</a>,
-<a href=/gwf-publications/people/C/Chrystal-Landgraff/>Chrystal Landgraff</a>,
-<a href=/gwf-publications/people/C/Chand-Mangat/>Chand Mangat</a>,
-<a href=/gwf-publications/people/D/Douglas-G-Manuel/>Douglas G. Manuel</a>,
-<a href=/gwf-publications/people/R/R-Michael-McKay/>R. Michael McKay</a>,
-<a href=/gwf-publications/people/E/Edgard-Mejia/>Edgard Mejia</a>,
-<a href=/gwf-publications/people/A/Aleksandra-Mloszewska/>Aleksandra Mloszewska</a>,
-<a href=/gwf-publications/people/B/Banu-Ormeci/>Banu Ormeci</a>,
-<a href=/gwf-publications/people/C/Claire-Oswald/>Claire Oswald</a>,
-<a href=/gwf-publications/people/S/Sarah-Jane-Payne/>Sarah Jane Payne</a>,
-<a href=/gwf-publications/people/H/Hui-Peng/>Hui Peng</a>,
-<a href=/gwf-publications/people/S/Shelley-Peterson/>Shelley Peterson</a>,
-<a href=/gwf-publications/people/A/Art-FY-Poon/>Art F.Y. Poon</a>,
-<a href=/gwf-publications/people/M/Mark-R-Servos/>Mark R. Servos</a>,
-<a href=/gwf-publications/people/D/Denina-Simmons/>Denina Simmons</a>,
-<a href=/gwf-publications/people/J/Jianxian-Sun/>Jianxian Sun</a>,
-<a href=/gwf-publications/people/M/Minqing-Yang/>Minqing Yang</a>,
-<a href=/gwf-publications/people/G/Gustavo-Ybazeta/>Gustavo Ybazeta</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Wastewater-based surveillance of SARS-CoV-2 RNA has been implemented at building, neighbourhood, and city levels throughout the world. Implementation strategies and analysis methods differ, but they all aim to provide rapid and reliable information about community COVID-19 health states. A viable and sustainable SARS-CoV-2 surveillance network must not only provide reliable and timely information about COVID-19 trends, but also provide for scalability as well as accurate detection of known or unknown emerging variants. Emergence of the SARS-CoV-2 variant of concern Omicron in late Fall 2021 presented an excellent opportunity to benchmark individual and aggregated data outputs of the Ontario Wastewater Surveillance Initiative in Canada; this public health-integrated surveillance network monitors wastewaters from over 10 million people across major population centres of the province. We demonstrate that this coordinated approach provides excellent situational awareness, comparing favourably with traditional clinical surveillance measures. Thus, aggregated datasets compiled from multiple wastewater-based surveillance nodes can provide sufficient sensitivity (i.e., early indication of increasing and decreasing incidence of SARS-CoV-2) and specificity (i.e., allele frequency estimation of emerging variants) with which to make informed public health decisions at regional- and state-levels.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Authors presented in alphabetical order:, Eric Arts, Stephen Brown, David Bulir, Trevor C. Charles, Christopher T. DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan Fuzzen, Kimberley Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc Habash, Peter Jüni, Andrea Kirkwood, James Knockleby, Christopher Kyle, et al.. 2022. <a href=https://aclanthology.org/G22-18001>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a>.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age. - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age." name=citation_title><meta content="Authors presented in alphabetical order:" name=citation_author><meta content="Eric J. Arts" name=citation_author><meta content="Stephen J. Brown" name=citation_author><meta content="David Bulir" name=citation_author><meta content="Trevor C. Charles" name=citation_author><meta content="Christopher DeGroot" name=citation_author><meta content="Robert Delatolla" name=citation_author><meta content="Jean-Paul Desaulniers" name=citation_author><meta content="Elizabeth A. Edwards" name=citation_author><meta content="Meghan L.M. Fuzzen" name=citation_author><meta content="Kimberley A. Gilbride" name=citation_author><meta content="Jodi Gilchrist" name=citation_author><meta content="Lawrence Goodridge" name=citation_author><meta content="Tyson E. Graber" name=citation_author><meta content="Marc B. Habash" name=citation_author><meta content="Peter Jüni" name=citation_author><meta content="Andrea E. Kirkwood" name=citation_author><meta content="James Knockleby" name=citation_author><meta content="Christopher J. Kyle" name=citation_author><meta content="Chrystal Landgraff" name=citation_author><meta content="Chand S. Mangat" name=citation_author><meta content="Douglas G. Manuel" name=citation_author><meta content="Robert M. McKay" name=citation_author><meta content="Ervido Mejia" name=citation_author><meta content="Aleksandra M. Mloszewska" name=citation_author><meta content="Banu Örmeci" name=citation_author><meta content="Claire J. Oswald" name=citation_author><meta content="Sarah R. Payne" name=citation_author><meta content="Hui Peng" name=citation_author><meta content="Shelley Stagg Peterson" name=citation_author><meta content="Art F. Y. Poon" name=citation_author><meta content="Mark R. Servos" name=citation_author><meta content="Denina B.D. Simmons" name=citation_author><meta content="Jianxian Sun" name=citation_author><meta content="Minqing Ivy Yang" name=citation_author><meta content="Gustavo Ybazeta" name=citation_author><meta content name=citation_journal_title><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-18001.pdf" name=citation_pdf_url><meta content="10.21203/rs.3.rs-1439969/v2" name=citation_doi><meta property="og:title" content="Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age."><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-18001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-18001"><meta property="og:description" content="Authors presented in alphabetical order:, Eric J. Arts, Stephen J. Brown, David Bulir, Trevor C. Charles, Christopher DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan L.M. Fuzzen, Kimberley A. Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc B. Habash, Peter Jüni, Andrea E. Kirkwood, James Knockleby, Christopher J. Kyle, Chrystal Landgraff, Chand S. Mangat, Douglas G. Manuel, Robert M. McKay, Ervido Mejia, Aleksandra M. Mloszewska, Banu Örmeci, Claire J. Oswald, Sarah R. Payne, Hui Peng, Shelley Stagg Peterson, Art F. Y. Poon, Mark R. Servos, Denina B.D. Simmons, Jianxian Sun, Minqing Ivy Yang, Gustavo Ybazeta. . 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-18001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-18001>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a></h2><p class=lead><a href=/gwf-publications/people/A/Authors-presented-in-alphabetical-order/ data-uni=uni0000>Authors presented in alphabetical order:</a>,
+<a href=/gwf-publications/people/E/Eric-J-Arts/ data-uni=uni0070>Eric J. Arts</a>,
+<a href=/gwf-publications/people/S/Stephen-J-Brown/ data-uni=uni0852>Stephen J. Brown</a>,
+<a href=/gwf-publications/people/D/David-Bulir/ data-uni=uni0061>David Bulir</a>,
+<a href=/gwf-publications/people/T/Trevor-C-Charles/ data-uni=uni0002>Trevor C. Charles</a>,
+<a href=/gwf-publications/people/C/Christopher-DeGroot/ data-uni=uni0000>Christopher DeGroot</a>,
+<a href=/gwf-publications/people/R/Robert-Delatolla/ data-uni=uni0026>Robert Delatolla</a>,
+<a href=/gwf-publications/people/J/Jean-Paul-Desaulniers/ data-uni=uni0221>Jean-Paul Desaulniers</a>,
+<a href=/gwf-publications/people/E/Elizabeth-A-Edwards/ data-uni=uni0008>Elizabeth A. Edwards</a>,
+<a href=/gwf-publications/people/M/Meghan-LM-Fuzzen/ data-uni=uni0002>Meghan L.M. Fuzzen</a>,
+<a href=/gwf-publications/people/K/Kimberley-A-Gilbride/ data-uni=uni0147>Kimberley A. Gilbride</a>,
+<a href=/gwf-publications/people/J/Jodi-Gilchrist/ data-uni=uni0838>Jodi Gilchrist</a>,
+<a href=/gwf-publications/people/L/Lawrence-Goodridge/ data-uni=uni0005>Lawrence Goodridge</a>,
+<a href=/gwf-publications/people/T/Tyson-E-Graber/ data-uni=uni0140>Tyson E. Graber</a>,
+<a href=/gwf-publications/people/M/Marc-B-Habash/ data-uni=uni0005>Marc B. Habash</a>,
+<a href=/gwf-publications/people/P/Peter-J%C3%BCni/ data-uni=uni0426>Peter Jüni</a>,
+<a href=/gwf-publications/people/A/Andrea-E-Kirkwood/ data-uni=uni0221>Andrea E. Kirkwood</a>,
+<a href=/gwf-publications/people/J/James-Knockleby/ data-uni=uni0494>James Knockleby</a>,
+<a href=/gwf-publications/people/C/Christopher-J-Kyle/ data-uni=uni0247>Christopher J. Kyle</a>,
+<a href=/gwf-publications/people/C/Chrystal-Landgraff/ data-uni=uni0005>Chrystal Landgraff</a>,
+<a href=/gwf-publications/people/C/Chand-S-Mangat/ data-uni=uni0466>Chand S. Mangat</a>,
+<a href=/gwf-publications/people/D/Douglas-G-Manuel/ data-uni=uni0853>Douglas G. Manuel</a>,
+<a href=/gwf-publications/people/R/Robert-M-McKay/ data-uni=uni0926>Robert M. McKay</a>,
+<a href=/gwf-publications/people/E/Ervido-Mejia/ data-uni=uni0855>Ervido Mejia</a>,
+<a href=/gwf-publications/people/A/Aleksandra-M-Mloszewska/ data-uni=uni0856>Aleksandra M. Mloszewska</a>,
+<a href=/gwf-publications/people/B/Banu-%C3%96rmeci/ data-uni=uni0118>Banu Örmeci</a>,
+<a href=/gwf-publications/people/C/Claire-J-Oswald/ data-uni=uni0147>Claire J. Oswald</a>,
+<a href=/gwf-publications/people/S/Sarah-R-Payne/ data-uni=uni0857>Sarah R. Payne</a>,
+<a href=/gwf-publications/people/H/Hui-Peng/ data-uni=uni0420>Hui Peng</a>,
+<a href=/gwf-publications/people/S/Shelley-Stagg-Peterson/ data-uni=uni0008>Shelley Stagg Peterson</a>,
+<a href=/gwf-publications/people/A/Art-F-Y-Poon/ data-uni=uni0070>Art F. Y. Poon</a>,
+<a href=/gwf-publications/people/M/Mark-R-Servos/ data-uni=uni0002>Mark R. Servos</a>,
+<a href=/gwf-publications/people/D/Denina-BD-Simmons/ data-uni=uni0221>Denina B.D. Simmons</a>,
+<a href=/gwf-publications/people/J/Jianxian-Sun/ data-uni=uni0008>Jianxian Sun</a>,
+<a href=/gwf-publications/people/M/Minqing-Ivy-Yang/ data-uni=uni0008>Minqing Ivy Yang</a>,
+<a href=/gwf-publications/people/G/Gustavo-Ybazeta/ data-uni=uni0494>Gustavo Ybazeta</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Wastewater-based surveillance of SARS-CoV-2 RNA has been implemented at building, neighbourhood, and city levels throughout the world. Implementation strategies and analysis methods differ, but they all aim to provide rapid and reliable information about community COVID-19 health states. A viable and sustainable SARS-CoV-2 surveillance network must not only provide reliable and timely information about COVID-19 trends, but also provide for scalability as well as accurate detection of known or unknown emerging variants. Emergence of the SARS-CoV-2 variant of concern Omicron in late Fall 2021 presented an excellent opportunity to benchmark individual and aggregated data outputs of the Ontario Wastewater Surveillance Initiative in Canada; this public health-integrated surveillance network monitors wastewaters from over 10 million people across major population centres of the province. We demonstrate that this coordinated approach provides excellent situational awareness, comparing favourably with traditional clinical surveillance measures. Thus, aggregated datasets compiled from multiple wastewater-based surveillance nodes can provide sufficient sensitivity (i.e., early indication of increasing and decreasing incidence of SARS-CoV-2) and specificity (i.e., allele frequency estimation of emerging variants) with which to make informed public health decisions at regional- and state-levels.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Authors presented in alphabetical order:, Eric J. Arts, Stephen J. Brown, David Bulir, Trevor C. Charles, Christopher DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan L.M. Fuzzen, Kimberley A. Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc B. Habash, Peter Jüni, Andrea E. Kirkwood, James Knockleby, Christopher J. Kyle, et al.. 2022. Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age..</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G22-18001.pdf title="Open PDF of 'Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Community+Surveillance+of+Omicron+in+Ontario%3A+Wastewater-based+Epidemiology+Comes+of+Age." title="Search for 'Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{order:-2022-Community,
     title = &#34;Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.&#34;,
     author = {order:, Authors presented in alphabetical  and
-      Arts, Eric  and
-      Brown, Stephen  and
+      Arts, Eric J.  and
+      Brown, Stephen J.  and
       Bulir, David  and
       Charles, Trevor C.  and
-      DeGroot, Christopher T.  and
+      DeGroot, Christopher  and
       Delatolla, Robert  and
       Desaulniers, Jean-Paul  and
       Edwards, Elizabeth A.  and
-      Fuzzen, Meghan  and
-      Gilbride, Kimberley  and
+      Fuzzen, Meghan L.M.  and
+      Gilbride, Kimberley A.  and
       Gilchrist, Jodi  and
       Goodridge, Lawrence  and
       Graber, Tyson E.  and
-      Habash, Marc  and
+      Habash, Marc B.  and
       J{\&#34;u}ni, Peter  and
-      Kirkwood, Andrea  and
+      Kirkwood, Andrea E.  and
       Knockleby, James  and
-      Kyle, Christopher  and
+      Kyle, Christopher J.  and
       Landgraff, Chrystal  and
-      Mangat, Chand  and
+      Mangat, Chand S.  and
       Manuel, Douglas G.  and
-      McKay, R. Michael  and
-      Mejia, Edgard  and
-      Mloszewska, Aleksandra  and
-      Ormeci, Banu  and
-      Oswald, Claire  and
-      Payne, Sarah Jane  and
+      McKay, Robert M.  and
+      Mejia, Ervido  and
+      Mloszewska, Aleksandra M.  and
+      {\&#34;O}rmeci, Banu  and
+      Oswald, Claire J.  and
+      Payne, Sarah R.  and
       Peng, Hui  and
-      Peterson, Shelley  and
-      Poon, Art F.Y.  and
+      Peterson, Shelley Stagg  and
+      Poon, Art F. Y.  and
       Servos, Mark R.  and
-      Simmons, Denina  and
+      Simmons, Denina B.D.  and
       Sun, Jianxian  and
-      Yang, Minqing  and
+      Yang, Minqing Ivy  and
       Ybazeta, Gustavo},
     journal = &#34;&#34;,
     year = &#34;2022&#34;,
     publisher = &#34;Research Square Platform LLC&#34;,
-    url = &#34;https://aclanthology.org/G22-18001&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G22-18001&#34;,
     doi = &#34;10.21203/rs.3.rs-1439969/v2&#34;,
     abstract = &#34;Abstract Wastewater-based surveillance of SARS-CoV-2 RNA has been implemented at building, neighbourhood, and city levels throughout the world. Implementation strategies and analysis methods differ, but they all aim to provide rapid and reliable information about community COVID-19 health states. A viable and sustainable SARS-CoV-2 surveillance network must not only provide reliable and timely information about COVID-19 trends, but also provide for scalability as well as accurate detection of known or unknown emerging variants. Emergence of the SARS-CoV-2 variant of concern Omicron in late Fall 2021 presented an excellent opportunity to benchmark individual and aggregated data outputs of the Ontario Wastewater Surveillance Initiative in Canada; this public health-integrated surveillance network monitors wastewaters from over 10 million people across major population centres of the province. We demonstrate that this coordinated approach provides excellent situational awareness, comparing favourably with traditional clinical surveillance measures. Thus, aggregated datasets compiled from multiple wastewater-based surveillance nodes can provide sufficient sensitivity (i.e., early indication of increasing and decreasing incidence of SARS-CoV-2) and specificity (i.e., allele frequency estimation of emerging variants) with which to make informed public health decisions at regional- and state-levels.&#34;,
 }
@@ -107,6 +114,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Arts&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -114,6 +122,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Stephen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Brown&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -136,7 +145,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;DeGroot&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -166,6 +174,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Meghan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L.M.&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Fuzzen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -173,6 +182,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Kimberley&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Gilbride&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -202,6 +212,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Habash&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -216,6 +227,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Andrea&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kirkwood&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -230,6 +242,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kyle&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -244,6 +257,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Chand&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Mangat&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -258,15 +272,15 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;McKay&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Edgard&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ervido&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Mejia&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -274,6 +288,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Aleksandra&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Mloszewska&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -281,13 +296,14 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Banu&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Ormeci&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Örmeci&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Claire&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Oswald&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -295,7 +311,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Sarah&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jane&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Payne&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -310,6 +326,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Shelley&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Stagg&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Peterson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -317,7 +334,8 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Art&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F.Y.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Y&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Poon&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -333,6 +351,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Denina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B.D.&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Simmons&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -347,6 +366,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Minqing&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivy&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Yang&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -379,7 +399,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;order:-2022-Community&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.21203/rs.3.rs-1439969/v2&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G22-18001&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G22-18001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2022&lt;/date&gt;
@@ -390,50 +410,50 @@
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.
 %A order:, Authors presented in alphabetical
-%A Arts, Eric
-%A Brown, Stephen
+%A Arts, Eric J.
+%A Brown, Stephen J.
 %A Bulir, David
 %A Charles, Trevor C.
-%A DeGroot, Christopher T.
+%A DeGroot, Christopher
 %A Delatolla, Robert
 %A Desaulniers, Jean-Paul
 %A Edwards, Elizabeth A.
-%A Fuzzen, Meghan
-%A Gilbride, Kimberley
+%A Fuzzen, Meghan L.M.
+%A Gilbride, Kimberley A.
 %A Gilchrist, Jodi
 %A Goodridge, Lawrence
 %A Graber, Tyson E.
-%A Habash, Marc
+%A Habash, Marc B.
 %A Jüni, Peter
-%A Kirkwood, Andrea
+%A Kirkwood, Andrea E.
 %A Knockleby, James
-%A Kyle, Christopher
+%A Kyle, Christopher J.
 %A Landgraff, Chrystal
-%A Mangat, Chand
+%A Mangat, Chand S.
 %A Manuel, Douglas G.
-%A McKay, R. Michael
-%A Mejia, Edgard
-%A Mloszewska, Aleksandra
-%A Ormeci, Banu
-%A Oswald, Claire
-%A Payne, Sarah Jane
+%A McKay, Robert M.
+%A Mejia, Ervido
+%A Mloszewska, Aleksandra M.
+%A Örmeci, Banu
+%A Oswald, Claire J.
+%A Payne, Sarah R.
 %A Peng, Hui
-%A Peterson, Shelley
-%A Poon, Art F.Y.
+%A Peterson, Shelley Stagg
+%A Poon, Art F. Y.
 %A Servos, Mark R.
-%A Simmons, Denina
+%A Simmons, Denina B.D.
 %A Sun, Jianxian
-%A Yang, Minqing
+%A Yang, Minqing Ivy
 %A Ybazeta, Gustavo
 %D 2022
 %I Research Square Platform LLC
 %F order:-2022-Community
 %X Abstract Wastewater-based surveillance of SARS-CoV-2 RNA has been implemented at building, neighbourhood, and city levels throughout the world. Implementation strategies and analysis methods differ, but they all aim to provide rapid and reliable information about community COVID-19 health states. A viable and sustainable SARS-CoV-2 surveillance network must not only provide reliable and timely information about COVID-19 trends, but also provide for scalability as well as accurate detection of known or unknown emerging variants. Emergence of the SARS-CoV-2 variant of concern Omicron in late Fall 2021 presented an excellent opportunity to benchmark individual and aggregated data outputs of the Ontario Wastewater Surveillance Initiative in Canada; this public health-integrated surveillance network monitors wastewaters from over 10 million people across major population centres of the province. We demonstrate that this coordinated approach provides excellent situational awareness, comparing favourably with traditional clinical surveillance measures. Thus, aggregated datasets compiled from multiple wastewater-based surveillance nodes can provide sufficient sensitivity (i.e., early indication of increasing and decreasing incidence of SARS-CoV-2) and specificity (i.e., allele frequency estimation of emerging variants) with which to make informed public health decisions at regional- and state-levels.
 %R 10.21203/rs.3.rs-1439969/v2
-%U https://aclanthology.org/G22-18001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-18001
 %U https://doi.org/10.21203/rs.3.rs-1439969/v2
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-18001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.](https://aclanthology.org/G22-18001) (order: et al., GWF 2022)</p><ul class=mt-2><li><a href=https://aclanthology.org/G22-18001>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a> (order: et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Authors presented in alphabetical order:, Eric Arts, Stephen Brown, David Bulir, Trevor C. Charles, Christopher T. DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan Fuzzen, Kimberley Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc Habash, Peter Jüni, Andrea Kirkwood, James Knockleby, Christopher Kyle, et al.. 2022. <a href=https://aclanthology.org/G22-18001>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a>.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.](https://gwf-uwaterloo.github.io/gwf-publications/G22-18001) (order: et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-18001>Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age.</a> (order: et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Authors presented in alphabetical order:, Eric J. Arts, Stephen J. Brown, David Bulir, Trevor C. Charles, Christopher DeGroot, Robert Delatolla, Jean-Paul Desaulniers, Elizabeth A. Edwards, Meghan L.M. Fuzzen, Kimberley A. Gilbride, Jodi Gilchrist, Lawrence Goodridge, Tyson E. Graber, Marc B. Habash, Peter Jüni, Andrea E. Kirkwood, James Knockleby, Christopher J. Kyle, et al.. 2022. Community Surveillance of Omicron in Ontario: Wastewater-based Epidemiology Comes of Age..</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

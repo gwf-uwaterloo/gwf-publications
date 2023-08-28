@@ -1,58 +1,65 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Snow cover duration trends observed at sites and predicted bymultiple models - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Snow cover duration trends observed at sites and predicted bymultiple models" name=citation_title><meta content="Richard Essery" name=citation_author><meta content="Hyungjun Kim" name=citation_author><meta content="Libo Wang" name=citation_author><meta content="Paul Bartlett" name=citation_author><meta content="Aaron Boone" name=citation_author><meta content="Claire Brutel-Vuilmet" name=citation_author><meta content="Eleanor Burke" name=citation_author><meta content="Matthias Cuntz" name=citation_author><meta content="Bertrand Decharme" name=citation_author><meta content="Emanuel Dutra" name=citation_author><meta content="Xing Fang" name=citation_author><meta content="Yeugeniy Gusev" name=citation_author><meta content="Stefan Hagemann" name=citation_author><meta content="Vanessa Haverd" name=citation_author><meta content="Anna Kontu" name=citation_author><meta content="Gerhard Krinner" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="Yves Lejeune" name=citation_author><meta content="Thomas Marke" name=citation_author><meta content="Danny Marks" name=citation_author><meta content="Christoph Marty" name=citation_author><meta content="Cecile B. Menard" name=citation_author><meta content="Olga Nasonova" name=citation_author><meta content="Tomoko Nitta" name=citation_author><meta content="John Pomeroy" name=citation_author><meta content="Gerd Schaedler" name=citation_author><meta content="Vladimir Semenov" name=citation_author><meta content="Tatiana Smirnova" name=citation_author><meta content="Sean Swenson" name=citation_author><meta content="Dmitry Turkov" name=citation_author><meta content="Nander Wever" name=citation_author><meta content="Hua Yuan" name=citation_author><meta content name=citation_journal_title><meta content="2020" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G20-3004.pdf" name=citation_pdf_url><meta content="10.5194/tc-2020-182" name=citation_doi><meta property="og:title" content="Snow cover duration trends observed at sites and predicted bymultiple models"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G20-3004.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G20-3004"><meta property="og:description" content="Richard Essery, Hyungjun Kim, Libo Wang, Paul Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, Danny Marks, Christoph Marty, Cecile B. Menard, Olga Nasonova, Tomoko Nitta, John Pomeroy, Gerd Schaedler, Vladimir Semenov, Tatiana Smirnova, Sean Swenson, Dmitry Turkov, Nander Wever, Hua Yuan. . 2020."><link rel=canonical href=https://aclanthology.org/G20-3004></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-3004.pdf>Snow cover duration trends observed at sites and predicted bymultiple models</a></h2><p class=lead><a href=/gwf-publications/people/R/Richard-Essery/>Richard Essery</a>,
-<a href=/gwf-publications/people/H/Hyungjun-Kim/>Hyungjun Kim</a>,
-<a href=/gwf-publications/people/L/Libo-Wang/>Libo Wang</a>,
-<a href=/gwf-publications/people/P/Paul-Bartlett/>Paul Bartlett</a>,
-<a href=/gwf-publications/people/A/Aaron-Boone/>Aaron Boone</a>,
-<a href=/gwf-publications/people/C/Claire-Brutel-Vuilmet/>Claire Brutel-Vuilmet</a>,
-<a href=/gwf-publications/people/E/Eleanor-Burke/>Eleanor Burke</a>,
-<a href=/gwf-publications/people/M/Matthias-Cuntz/>Matthias Cuntz</a>,
-<a href=/gwf-publications/people/B/Bertrand-Decharme/>Bertrand Decharme</a>,
-<a href=/gwf-publications/people/E/Emanuel-Dutra/>Emanuel Dutra</a>,
-<a href=/gwf-publications/people/X/Xing-Fang/>Xing Fang</a>,
-<a href=/gwf-publications/people/Y/Yeugeniy-Gusev/>Yeugeniy Gusev</a>,
-<a href=/gwf-publications/people/S/Stefan-Hagemann/>Stefan Hagemann</a>,
-<a href=/gwf-publications/people/V/Vanessa-Haverd/>Vanessa Haverd</a>,
-<a href=/gwf-publications/people/A/Anna-Kontu/>Anna Kontu</a>,
-<a href=/gwf-publications/people/G/Gerhard-Krinner/>Gerhard Krinner</a>,
-<a href=/gwf-publications/people/M/Matthieu-Lafaysse/>Matthieu Lafaysse</a>,
-<a href=/gwf-publications/people/Y/Yves-Lejeune/>Yves Lejeune</a>,
-<a href=/gwf-publications/people/T/Thomas-Marke/>Thomas Marke</a>,
-<a href=/gwf-publications/people/D/Danny-Marks/>Danny Marks</a>,
-<a href=/gwf-publications/people/C/Christoph-Marty/>Christoph Marty</a>,
-<a href=/gwf-publications/people/C/Cecile-B-Menard/>Cecile B. Menard</a>,
-<a href=/gwf-publications/people/O/Olga-Nasonova/>Olga Nasonova</a>,
-<a href=/gwf-publications/people/T/Tomoko-Nitta/>Tomoko Nitta</a>,
-<a href=/gwf-publications/people/J/John-Pomeroy/>John Pomeroy</a>,
-<a href=/gwf-publications/people/G/Gerd-Schaedler/>Gerd Schaedler</a>,
-<a href=/gwf-publications/people/V/Vladimir-Semenov/>Vladimir Semenov</a>,
-<a href=/gwf-publications/people/T/Tatiana-Smirnova/>Tatiana Smirnova</a>,
-<a href=/gwf-publications/people/S/Sean-Swenson/>Sean Swenson</a>,
-<a href=/gwf-publications/people/D/Dmitry-Turkov/>Dmitry Turkov</a>,
-<a href=/gwf-publications/people/N/Nander-Wever/>Nander Wever</a>,
-<a href=/gwf-publications/people/H/Hua-Yuan/>Hua Yuan</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Thirty-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Richard Essery, Hyungjun Kim, Libo Wang, Paul Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, et al.. 2020. <a href=https://aclanthology.org/G20-3004>Snow cover duration trends observed at sites and predicted bymultiple models</a>.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Snow cover duration trends observed at sites and predicted bymultiple models - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Snow cover duration trends observed at sites and predicted bymultiple models" name=citation_title><meta content="Richard Essery" name=citation_author><meta content="Hyungjun Kim" name=citation_author><meta content="Libo Wang" name=citation_author><meta content="Paul D. Bartlett" name=citation_author><meta content="Aaron Boone" name=citation_author><meta content="Claire Brutel-Vuilmet" name=citation_author><meta content="Eleanor J. Burke" name=citation_author><meta content="Matthias Cuntz" name=citation_author><meta content="Bertrand Decharme" name=citation_author><meta content="Emanuel Dutra" name=citation_author><meta content="Xing Fang" name=citation_author><meta content="Yeugeniy M. Gusev" name=citation_author><meta content="Stefan Hagemann" name=citation_author><meta content="Vanessa Haverd" name=citation_author><meta content="Anna Kontu" name=citation_author><meta content="Gerhard Krinner" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="Yves Lejeune" name=citation_author><meta content="Thomas Marke" name=citation_author><meta content="Danny Marks" name=citation_author><meta content="Christoph Marty" name=citation_author><meta content="Cécile B. Ménard" name=citation_author><meta content="Olga N. Nasonova" name=citation_author><meta content="Tomoko Nitta" name=citation_author><meta content="John W. Pomeroy" name=citation_author><meta content="Gerd Schaedler" name=citation_author><meta content="Vladimir Semenov" name=citation_author><meta content="Tatiana G. Smirnova" name=citation_author><meta content="Sean Swenson" name=citation_author><meta content="Dmitry Turkov" name=citation_author><meta content="Nander Wever" name=citation_author><meta content="Hua Yuan" name=citation_author><meta content name=citation_journal_title><meta content="2020" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G20-3004.pdf" name=citation_pdf_url><meta content="10.5194/tc-2020-182" name=citation_doi><meta property="og:title" content="Snow cover duration trends observed at sites and predicted bymultiple models"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G20-3004.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G20-3004"><meta property="og:description" content="Richard Essery, Hyungjun Kim, Libo Wang, Paul D. Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor J. Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy M. Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, Danny Marks, Christoph Marty, Cécile B. Ménard, Olga N. Nasonova, Tomoko Nitta, John W. Pomeroy, Gerd Schaedler, Vladimir Semenov, Tatiana G. Smirnova, Sean Swenson, Dmitry Turkov, Nander Wever, Hua Yuan. . 2020."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G20-3004></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-3004>Snow cover duration trends observed at sites and predicted bymultiple models</a></h2><p class=lead><a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0064>Richard Essery</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0572>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/L/Libo-Wang/ data-uni=uni1025>Libo Wang</a>,
+<a href=/gwf-publications/people/P/Paul-D-Bartlett/ data-uni=uni0088>Paul D. Bartlett</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0191>Aaron Boone</a>,
+<a href=/gwf-publications/people/C/Claire-Brutel-Vuilmet/ data-uni=uni0057>Claire Brutel-Vuilmet</a>,
+<a href=/gwf-publications/people/E/Eleanor-J-Burke/ data-uni=uni0127>Eleanor J. Burke</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0184>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0047>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni1027>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0320>Xing Fang</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0205>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0573>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0612>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0030>Anna Kontu</a>,
+<a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0057>Gerhard Krinner</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0057>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/Y/Yves-Lejeune/ data-uni=uni0213>Yves Lejeune</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0015>Thomas Marke</a>,
+<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0135>Danny Marks</a>,
+<a href=/gwf-publications/people/C/Christoph-Marty/ data-uni=uni0039>Christoph Marty</a>,
+<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0064>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/O/Olga-N-Nasonova/ data-uni=uni0205>Olga N. Nasonova</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni1028>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
+<a href=/gwf-publications/people/G/Gerd-Schaedler/ data-uni=uni0102>Gerd Schaedler</a>,
+<a href=/gwf-publications/people/V/Vladimir-Semenov/ data-uni=uni1030>Vladimir Semenov</a>,
+<a href=/gwf-publications/people/T/Tatiana-G-Smirnova/ data-uni=uni0269>Tatiana G. Smirnova</a>,
+<a href=/gwf-publications/people/S/Sean-Swenson/ data-uni=uni0033>Sean Swenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni1032>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0084>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0608>Hua Yuan</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Thirty-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Richard Essery, Hyungjun Kim, Libo Wang, Paul D. Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor J. Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy M. Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, et al.. 2020. Snow cover duration trends observed at sites and predicted bymultiple models.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G20-3004.pdf title="Open PDF of 'Snow cover duration trends observed at sites and predicted bymultiple models'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Snow+cover+duration+trends+observed+at+sites+and+predicted+bymultiple+models" title="Search for 'Snow cover duration trends observed at sites and predicted bymultiple models' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Essery-2020-Snow,
     title = &#34;Snow cover duration trends observed at sites and predicted bymultiple models&#34;,
     author = &#34;Essery, Richard  and
       Kim, Hyungjun  and
       Wang, Libo  and
-      Bartlett, Paul  and
+      Bartlett, Paul D.  and
       Boone, Aaron  and
       Brutel-Vuilmet, Claire  and
-      Burke, Eleanor  and
+      Burke, Eleanor J.  and
       Cuntz, Matthias  and
       Decharme, Bertrand  and
       Dutra, Emanuel  and
       Fang, Xing  and
-      Gusev, Yeugeniy  and
+      Gusev, Yeugeniy M.  and
       Hagemann, Stefan  and
       Haverd, Vanessa  and
       Kontu, Anna  and
@@ -62,13 +69,13 @@
       Marke, Thomas  and
       Marks, Danny  and
       Marty, Christoph  and
-      Menard, Cecile B.  and
-      Nasonova, Olga  and
+      M{\&#39;e}nard, C{\&#39;e}cile B.  and
+      Nasonova, Olga N.  and
       Nitta, Tomoko  and
-      Pomeroy, John  and
+      Pomeroy, John W.  and
       Schaedler, Gerd  and
       Semenov, Vladimir  and
-      Smirnova, Tatiana  and
+      Smirnova, Tatiana G.  and
       Swenson, Sean  and
       Turkov, Dmitry  and
       Wever, Nander  and
@@ -76,7 +83,7 @@
     journal = &#34;&#34;,
     year = &#34;2020&#34;,
     publisher = &#34;Copernicus GmbH&#34;,
-    url = &#34;https://aclanthology.org/G20-3004&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G20-3004&#34;,
     doi = &#34;10.5194/tc-2020-182&#34;,
     abstract = &#34;Abstract. Thirty-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.&#34;,
 }
@@ -110,6 +117,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Bartlett&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -131,6 +139,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Eleanor&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Burke&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -166,6 +175,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Yeugeniy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Gusev&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -235,15 +245,16 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Cecile&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Cécile&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Menard&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ménard&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Olga&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;N&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nasonova&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -258,6 +269,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Pomeroy&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -279,6 +291,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Tatiana&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Smirnova&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -332,7 +345,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Essery-2020-Snow&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.5194/tc-2020-182&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G20-3004&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G20-3004&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2020&lt;/date&gt;
@@ -345,15 +358,15 @@
 %A Essery, Richard
 %A Kim, Hyungjun
 %A Wang, Libo
-%A Bartlett, Paul
+%A Bartlett, Paul D.
 %A Boone, Aaron
 %A Brutel-Vuilmet, Claire
-%A Burke, Eleanor
+%A Burke, Eleanor J.
 %A Cuntz, Matthias
 %A Decharme, Bertrand
 %A Dutra, Emanuel
 %A Fang, Xing
-%A Gusev, Yeugeniy
+%A Gusev, Yeugeniy M.
 %A Hagemann, Stefan
 %A Haverd, Vanessa
 %A Kontu, Anna
@@ -363,13 +376,13 @@
 %A Marke, Thomas
 %A Marks, Danny
 %A Marty, Christoph
-%A Menard, Cecile B.
-%A Nasonova, Olga
+%A Ménard, Cécile B.
+%A Nasonova, Olga N.
 %A Nitta, Tomoko
-%A Pomeroy, John
+%A Pomeroy, John W.
 %A Schaedler, Gerd
 %A Semenov, Vladimir
-%A Smirnova, Tatiana
+%A Smirnova, Tatiana G.
 %A Swenson, Sean
 %A Turkov, Dmitry
 %A Wever, Nander
@@ -379,10 +392,10 @@
 %F Essery-2020-Snow
 %X Abstract. Thirty-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.
 %R 10.5194/tc-2020-182
-%U https://aclanthology.org/G20-3004
+%U https://gwf-uwaterloo.github.io/gwf-publications/G20-3004
 %U https://doi.org/10.5194/tc-2020-182
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G20-3004.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Snow cover duration trends observed at sites and predicted bymultiple models](https://aclanthology.org/G20-3004) (Essery et al., GWF 2020)</p><ul class=mt-2><li><a href=https://aclanthology.org/G20-3004>Snow cover duration trends observed at sites and predicted bymultiple models</a> (Essery et al., GWF 2020)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Richard Essery, Hyungjun Kim, Libo Wang, Paul Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, et al.. 2020. <a href=https://aclanthology.org/G20-3004>Snow cover duration trends observed at sites and predicted bymultiple models</a>.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Snow cover duration trends observed at sites and predicted bymultiple models](https://gwf-uwaterloo.github.io/gwf-publications/G20-3004) (Essery et al., GWF 2020)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-3004>Snow cover duration trends observed at sites and predicted bymultiple models</a> (Essery et al., GWF 2020)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Richard Essery, Hyungjun Kim, Libo Wang, Paul D. Bartlett, Aaron Boone, Claire Brutel-Vuilmet, Eleanor J. Burke, Matthias Cuntz, Bertrand Decharme, Emanuel Dutra, Xing Fang, Yeugeniy M. Gusev, Stefan Hagemann, Vanessa Haverd, Anna Kontu, Gerhard Krinner, Matthieu Lafaysse, Yves Lejeune, Thomas Marke, et al.. 2020. Snow cover duration trends observed at sites and predicted bymultiple models.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

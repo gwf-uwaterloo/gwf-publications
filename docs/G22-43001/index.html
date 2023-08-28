@@ -1,86 +1,93 @@
-<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>$(document).on("change","input[type='checkbox']",function(){const collection=document.getElementById("main").children;for(child of collection)
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
 {if(child.id.startsWith(this.id.slice(-9)))
-{this.checked?child.style.display="initial":child.style.display="none";}}});</script><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Warming response of peatland CO2 sink is sensitive to seasonality in warming trends" name=citation_title><meta content="M. Helbig" name=citation_author><meta content="T. Živković" name=citation_author><meta content="P. Alekseychik" name=citation_author><meta content="M. Aurela" name=citation_author><meta content="T. S. El-Madany" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="L. B. Flanagan" name=citation_author><meta content="T. J. Griffis" name=citation_author><meta content="P. J. Hanson" name=citation_author><meta content="J. Hattakka" name=citation_author><meta content="C. Helfter" name=citation_author><meta content="T. Hirano" name=citation_author><meta content="E. R. Humphreys" name=citation_author><meta content="G. Kiely" name=citation_author><meta content="R. K. Kolka" name=citation_author><meta content="T. Laurila" name=citation_author><meta content="P. G. Leahy" name=citation_author><meta content="A. Lohila" name=citation_author><meta content="I. Mammarella" name=citation_author><meta content="M. B. Nilsson" name=citation_author><meta content="A. Panov" name=citation_author><meta content="F. J. W. Parmentier" name=citation_author><meta content="M. Peichl" name=citation_author><meta content="J. Rinne" name=citation_author><meta content="D. T. Roman" name=citation_author><meta content="O. Sonnentag" name=citation_author><meta content="E.-S Tuittila" name=citation_author><meta content="M. Ueyama" name=citation_author><meta content="T. Vesala" name=citation_author><meta content="P. Vestin" name=citation_author><meta content="S. Weldon" name=citation_author><meta content="P. Weslien" name=citation_author><meta content="S. Zaehle" name=citation_author><meta content="Nature Climate Change, Volume 12, Issue 8" name=citation_journal_title><meta content="12" name=citation_volume><meta content="8" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-43001.pdf" name=citation_pdf_url><meta content="743" name=citation_firstpage><meta content="749" name=citation_lastpage><meta content="10.1038/s41558-022-01428-z" name=citation_doi><meta property="og:title" content="Warming response of peatland CO2 sink is sensitive to seasonality in warming trends"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-43001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://aclanthology.org/G22-43001"><meta property="og:description" content="M. Helbig, T. Živković, P. Alekseychik, M. Aurela, T. S. El-Madany, E. S. Euskirchen, L. B. Flanagan, T. J. Griffis, P. J. Hanson, J. Hattakka, C. Helfter, T. Hirano, E. R. Humphreys, G. Kiely, R. K. Kolka, T. Laurila, P. G. Leahy, A. Lohila, I. Mammarella, M. B. Nilsson, A. Panov, F. J. W. Parmentier, M. Peichl, J. Rinne, D. T. Roman, O. Sonnentag, E.-S Tuittila, M. Ueyama, T. Vesala, P. Vestin, S. Weldon, P. Weslien, S. Zaehle. Nature Climate Change, Volume 12, Issue 8. 2022."><link rel=canonical href=https://aclanthology.org/G22-43001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-43001.pdf>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a></h2><p class=lead><a href=/gwf-publications/people/M/M-Helbig/>M. Helbig</a>,
-<a href=/gwf-publications/people/T/T-%C5%BDivkovi%C4%87/>T. Živković</a>,
-<a href=/gwf-publications/people/P/P-Alekseychik/>P. Alekseychik</a>,
-<a href=/gwf-publications/people/M/M-Aurela/>M. Aurela</a>,
-<a href=/gwf-publications/people/T/T-S-El-Madany/>T. S. El-Madany</a>,
-<a href=/gwf-publications/people/E/E-S-Euskirchen/>E. S. Euskirchen</a>,
-<a href=/gwf-publications/people/L/L-B-Flanagan/>L. B. Flanagan</a>,
-<a href=/gwf-publications/people/T/T-J-Griffis/>T. J. Griffis</a>,
-<a href=/gwf-publications/people/P/P-J-Hanson/>P. J. Hanson</a>,
-<a href=/gwf-publications/people/J/J-Hattakka/>J. Hattakka</a>,
-<a href=/gwf-publications/people/C/C-Helfter/>C. Helfter</a>,
-<a href=/gwf-publications/people/T/T-Hirano/>T. Hirano</a>,
-<a href=/gwf-publications/people/E/E-R-Humphreys/>E. R. Humphreys</a>,
-<a href=/gwf-publications/people/G/G-Kiely/>G. Kiely</a>,
-<a href=/gwf-publications/people/R/R-K-Kolka/>R. K. Kolka</a>,
-<a href=/gwf-publications/people/T/T-Laurila/>T. Laurila</a>,
-<a href=/gwf-publications/people/P/P-G-Leahy/>P. G. Leahy</a>,
-<a href=/gwf-publications/people/A/A-Lohila/>A. Lohila</a>,
-<a href=/gwf-publications/people/I/I-Mammarella/>I. Mammarella</a>,
-<a href=/gwf-publications/people/M/M-B-Nilsson/>M. B. Nilsson</a>,
-<a href=/gwf-publications/people/A/A-Panov/>A. Panov</a>,
-<a href=/gwf-publications/people/F/F-J-W-Parmentier/>F. J. W. Parmentier</a>,
-<a href=/gwf-publications/people/M/M-Peichl/>M. Peichl</a>,
-<a href=/gwf-publications/people/J/J-Rinne/>J. Rinne</a>,
-<a href=/gwf-publications/people/D/D-T-Roman/>D. T. Roman</a>,
-<a href=/gwf-publications/people/O/O-Sonnentag/>O. Sonnentag</a>,
-<a href=/gwf-publications/people/E/E-S-Tuittila/>E.-S Tuittila</a>,
-<a href=/gwf-publications/people/M/M-Ueyama/>M. Ueyama</a>,
-<a href=/gwf-publications/people/T/T-Vesala/>T. Vesala</a>,
-<a href=/gwf-publications/people/P/P-Vestin/>P. Vestin</a>,
-<a href=/gwf-publications/people/S/S-Weldon/>S. Weldon</a>,
-<a href=/gwf-publications/people/P/P-Weslien/>P. Weslien</a>,
-<a href=/gwf-publications/people/S/S-Zaehle/>S. Zaehle</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Peatlands have acted as net CO2 sinks over millennia, exerting a global climate cooling effect. Rapid warming at northern latitudes, where peatlands are abundant, can disturb their CO2 sink function. Here we show that sensitivity of peatland net CO2 exchange to warming changes in sign and magnitude across seasons, resulting in complex net CO2 sink responses. We use multiannual net CO2 exchange observations from 20 northern peatlands to show that warmer early summers are linked to increased net CO2 uptake, while warmer late summers lead to decreased net CO2 uptake. Thus, net CO2 sinks of peatlands in regions experiencing early summer warming, such as central Siberia, are more likely to persist under warmer climate conditions than are those in other regions. Our results will be useful to improve the design of future warming experiments and to better interpret large-scale trends in peatland net CO2 uptake over the coming few decades.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>M. Helbig, T. Živković, P. Alekseychik, M. Aurela, T. S. El-Madany, E. S. Euskirchen, L. B. Flanagan, T. J. Griffis, P. J. Hanson, J. Hattakka, C. Helfter, T. Hirano, E. R. Humphreys, G. Kiely, R. K. Kolka, T. Laurila, P. G. Leahy, A. Lohila, I. Mammarella, et al.. 2022. <a href=https://aclanthology.org/G22-43001>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a>. <i>Nature Climate Change, Volume 12, Issue 8</i>, 12(8):743–749.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Warming response of peatland CO2 sink is sensitive to seasonality in warming trends" name=citation_title><meta content="Manuel Helbig" name=citation_author><meta content="Tanja Živković" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Tarek S. El-Madany" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Lawrence B. Flanagan" name=citation_author><meta content="Timothy J. Griffis" name=citation_author><meta content="Paul J. Hanson" name=citation_author><meta content="J. Hattakka" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Toshio Hirano" name=citation_author><meta content="Elizabeth Humphreys" name=citation_author><meta content="Gerard Kiely" name=citation_author><meta content="Randall K. Kolka" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="Paul Leahy" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="A. Panov" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Juha O. Rinne" name=citation_author><meta content="D. T. Roman" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Patrik Vestin" name=citation_author><meta content="Scott A. Weldon" name=citation_author><meta content="Per Weslien" name=citation_author><meta content="Sönke Zaehle" name=citation_author><meta content="Nature Climate Change, Volume 12, Issue 8" name=citation_journal_title><meta content="12" name=citation_volume><meta content="8" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-43001.pdf" name=citation_pdf_url><meta content="743" name=citation_firstpage><meta content="749" name=citation_lastpage><meta content="10.1038/s41558-022-01428-z" name=citation_doi><meta property="og:title" content="Warming response of peatland CO2 sink is sensitive to seasonality in warming trends"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-43001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="ACL Anthology"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-43001"><meta property="og:description" content="Manuel Helbig, Tanja Živković, Pavel Alekseychik, Mika Aurela, Tarek S. El-Madany, Eugénie S. Euskirchen, Lawrence B. Flanagan, Timothy J. Griffis, Paul J. Hanson, J. Hattakka, Carole Helfter, Toshio Hirano, Elizabeth Humphreys, Gerard Kiely, Randall K. Kolka, Tuomas Laurila, Paul Leahy, Annalea Lohila, Ivan Mammarella, Mats Nilsson, A. Panov, Frans-Jan W. Parmentier, Matthias Peichl, Juha O. Rinne, D. T. Roman, Oliver Sonnentag, Eeva-Stiina Tuittila, Masahito Ueyama, Timo Vesala, Patrik Vestin, Scott A. Weldon, Per Weslien, Sönke Zaehle. Nature Climate Change, Volume 12, Issue 8. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-43001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-43001>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a></h2><p class=lead><a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0076>Manuel Helbig</a>,
+<a href=/gwf-publications/people/T/Tanja-%C5%BDivkovi%C4%87/ data-uni=uni0813>Tanja Živković</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0027>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0030>Mika Aurela</a>,
+<a href=/gwf-publications/people/T/Tarek-S-El-Madany/ data-uni=uni0025>Tarek S. El-Madany</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0024>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/L/Lawrence-B-Flanagan/ data-uni=uni0090>Lawrence B. Flanagan</a>,
+<a href=/gwf-publications/people/T/Timothy-J-Griffis/ data-uni=uni0145>Timothy J. Griffis</a>,
+<a href=/gwf-publications/people/P/Paul-J-Hanson/ data-uni=uni0042>Paul J. Hanson</a>,
+<a href=/gwf-publications/people/J/J-Hattakka/ data-uni=uni0000>J. Hattakka</a>,
+<a href=/gwf-publications/people/C/Carole-Helfter/ data-uni=uni0043>Carole Helfter</a>,
+<a href=/gwf-publications/people/T/Toshio-Hirano/ data-uni=uni0814>Toshio Hirano</a>,
+<a href=/gwf-publications/people/E/Elizabeth-Humphreys/ data-uni=uni0487>Elizabeth Humphreys</a>,
+<a href=/gwf-publications/people/G/Gerard-Kiely/ data-uni=uni0592>Gerard Kiely</a>,
+<a href=/gwf-publications/people/R/Randall-K-Kolka/ data-uni=uni0143>Randall K. Kolka</a>,
+<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0030>Tuomas Laurila</a>,
+<a href=/gwf-publications/people/P/Paul-Leahy/ data-uni=uni0592>Paul Leahy</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0030>Annalea Lohila</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0027>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0111>Mats Nilsson</a>,
+<a href=/gwf-publications/people/A/A-Panov/ data-uni=uni0000>A. Panov</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0060>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0049>Matthias Peichl</a>,
+<a href=/gwf-publications/people/J/Juha-O-Rinne/ data-uni=uni0815>Juha O. Rinne</a>,
+<a href=/gwf-publications/people/D/D-T-Roman/ data-uni=uni0087>D. T. Roman</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0035>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/ data-uni=uni0323>Eeva-Stiina Tuittila</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni1493>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0027>Timo Vesala</a>,
+<a href=/gwf-publications/people/P/Patrik-Vestin/ data-uni=uni0048>Patrik Vestin</a>,
+<a href=/gwf-publications/people/S/Scott-A-Weldon/ data-uni=uni0816>Scott A. Weldon</a>,
+<a href=/gwf-publications/people/P/Per-Weslien/ data-uni=uni0169>Per Weslien</a>,
+<a href=/gwf-publications/people/S/S%C3%B6nke-Zaehle/ data-uni=uni0025>Sönke Zaehle</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Peatlands have acted as net CO2 sinks over millennia, exerting a global climate cooling effect. Rapid warming at northern latitudes, where peatlands are abundant, can disturb their CO2 sink function. Here we show that sensitivity of peatland net CO2 exchange to warming changes in sign and magnitude across seasons, resulting in complex net CO2 sink responses. We use multiannual net CO2 exchange observations from 20 northern peatlands to show that warmer early summers are linked to increased net CO2 uptake, while warmer late summers lead to decreased net CO2 uptake. Thus, net CO2 sinks of peatlands in regions experiencing early summer warming, such as central Siberia, are more likely to persist under warmer climate conditions than are those in other regions. Our results will be useful to improve the design of future warming experiments and to better interpret large-scale trends in peatland net CO2 uptake over the coming few decades.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Manuel Helbig, Tanja Živković, Pavel Alekseychik, Mika Aurela, Tarek S. El-Madany, Eugénie S. Euskirchen, Lawrence B. Flanagan, Timothy J. Griffis, Paul J. Hanson, J. Hattakka, Carole Helfter, Toshio Hirano, Elizabeth Humphreys, Gerard Kiely, Randall K. Kolka, Tuomas Laurila, Paul Leahy, Annalea Lohila, Ivan Mammarella, et al.. 2022. Warming response of peatland CO2 sink is sensitive to seasonality in warming trends. <i>Nature Climate Change, Volume 12, Issue 8</i>, 12(8):743–749.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
-<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-primary" href=https://gwf-uwaterloo.github.io/gwf-publications/G22-43001.pdf title="Open PDF of 'Warming response of peatland CO2 sink is sensitive to seasonality in warming trends'"><i class="far fa-file-pdf"></i><span class=pl-2>PDF</span></a>
-<a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Warming+response+of+peatland+CO2+sink+is+sensitive+to+seasonality+in+warming+trends" title="Search for 'Warming response of peatland CO2 sink is sensitive to seasonality in warming trends' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Helbig-2022-Warming,
     title = &#34;Warming response of peatland CO2 sink is sensitive to seasonality in warming trends&#34;,
-    author = &#34;Helbig, M.  and
-      {\v{Z}}ivkovi{\&#39;c}, T.  and
-      Alekseychik, P.  and
-      Aurela, M.  and
-      El-Madany, T. S.  and
-      Euskirchen, E. S.  and
-      Flanagan, L. B.  and
-      Griffis, T. J.  and
-      Hanson, P. J.  and
+    author = {Helbig, Manuel  and
+      {\v{Z}}ivkovi{\&#39;c}, Tanja  and
+      Alekseychik, Pavel  and
+      Aurela, Mika  and
+      El-Madany, Tarek S.  and
+      Euskirchen, Eug{\&#39;e}nie S.  and
+      Flanagan, Lawrence B.  and
+      Griffis, Timothy J.  and
+      Hanson, Paul J.  and
       Hattakka, J.  and
-      Helfter, C.  and
-      Hirano, T.  and
-      Humphreys, E. R.  and
-      Kiely, G.  and
-      Kolka, R. K.  and
-      Laurila, T.  and
-      Leahy, P. G.  and
-      Lohila, A.  and
-      Mammarella, I.  and
-      Nilsson, M. B.  and
+      Helfter, Carole  and
+      Hirano, Toshio  and
+      Humphreys, Elizabeth  and
+      Kiely, Gerard  and
+      Kolka, Randall K.  and
+      Laurila, Tuomas  and
+      Leahy, Paul  and
+      Lohila, Annalea  and
+      Mammarella, Ivan  and
+      Nilsson, Mats  and
       Panov, A.  and
-      Parmentier, F. J. W.  and
-      Peichl, M.  and
-      Rinne, J.  and
+      Parmentier, Frans-Jan W.  and
+      Peichl, Matthias  and
+      Rinne, Juha O.  and
       Roman, D. T.  and
-      Sonnentag, O.  and
-      Tuittila, E.-S  and
-      Ueyama, M.  and
-      Vesala, T.  and
-      Vestin, P.  and
-      Weldon, S.  and
-      Weslien, P.  and
-      Zaehle, S.&#34;,
+      Sonnentag, Oliver  and
+      Tuittila, Eeva-Stiina  and
+      Ueyama, Masahito  and
+      Vesala, Timo  and
+      Vestin, Patrik  and
+      Weldon, Scott A.  and
+      Weslien, Per  and
+      Zaehle, S{\&#34;o}nke},
     journal = &#34;Nature Climate Change, Volume 12, Issue 8&#34;,
     volume = &#34;12&#34;,
     number = &#34;8&#34;,
     year = &#34;2022&#34;,
     publisher = &#34;Springer Science and Business Media LLC&#34;,
-    url = &#34;https://aclanthology.org/G22-43001&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G22-43001&#34;,
     doi = &#34;10.1038/s41558-022-01428-z&#34;,
     pages = &#34;743--749&#34;,
     abstract = &#34;Peatlands have acted as net CO2 sinks over millennia, exerting a global climate cooling effect. Rapid warming at northern latitudes, where peatlands are abundant, can disturb their CO2 sink function. Here we show that sensitivity of peatland net CO2 exchange to warming changes in sign and magnitude across seasons, resulting in complex net CO2 sink responses. We use multiannual net CO2 exchange observations from 20 northern peatlands to show that warmer early summers are linked to increased net CO2 uptake, while warmer late summers lead to decreased net CO2 uptake. Thus, net CO2 sinks of peatlands in regions experiencing early summer warming, such as central Siberia, are more likely to persist under warmer climate conditions than are those in other regions. Our results will be useful to improve the design of future warming experiments and to better interpret large-scale trends in peatland net CO2 uptake over the coming few decades.&#34;,
@@ -93,35 +100,35 @@
         &lt;title&gt;Warming response of peatland CO2 sink is sensitive to seasonality in warming trends&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Manuel&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Helbig&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tanja&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Živković&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pavel&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Alekseychik&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mika&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Aurela&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tarek&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;El-Madany&lt;/namePart&gt;
         &lt;role&gt;
@@ -129,7 +136,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
@@ -137,7 +144,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lawrence&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Flanagan&lt;/namePart&gt;
         &lt;role&gt;
@@ -145,7 +152,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timothy&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Griffis&lt;/namePart&gt;
         &lt;role&gt;
@@ -153,7 +160,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Hanson&lt;/namePart&gt;
         &lt;role&gt;
@@ -168,36 +175,35 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carole&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Helfter&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Toshio&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Hirano&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elizabeth&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Humphreys&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gerard&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kiely&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Randall&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kolka&lt;/namePart&gt;
         &lt;role&gt;
@@ -205,37 +211,35 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tuomas&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Laurila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Paul&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Leahy&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Annalea&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Lohila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Mammarella&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -249,8 +253,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frans-Jan&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Parmentier&lt;/namePart&gt;
         &lt;role&gt;
@@ -258,14 +261,15 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthias&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Peichl&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juha&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;O&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Rinne&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -280,56 +284,57 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;O&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oliver&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Sonnentag&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E.-S.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva-Stiina&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Masahito&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ueyama&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timo&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Vesala&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Patrik&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Vestin&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Weldon&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Per&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Weslien&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sönke&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Zaehle&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -355,7 +360,7 @@
     &lt;identifier type=&#34;citekey&#34;&gt;Helbig-2022-Warming&lt;/identifier&gt;
     &lt;identifier type=&#34;doi&#34;&gt;10.1038/s41558-022-01428-z&lt;/identifier&gt;
     &lt;location&gt;
-        &lt;url&gt;https://aclanthology.org/G22-43001&lt;/url&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G22-43001&lt;/url&gt;
     &lt;/location&gt;
     &lt;part&gt;
         &lt;date&gt;2022&lt;/date&gt;
@@ -371,39 +376,39 @@
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-43001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Warming response of peatland CO2 sink is sensitive to seasonality in warming trends
-%A Helbig, M.
-%A Živković, T.
-%A Alekseychik, P.
-%A Aurela, M.
-%A El-Madany, T. S.
-%A Euskirchen, E. S.
-%A Flanagan, L. B.
-%A Griffis, T. J.
-%A Hanson, P. J.
+%A Helbig, Manuel
+%A Živković, Tanja
+%A Alekseychik, Pavel
+%A Aurela, Mika
+%A El-Madany, Tarek S.
+%A Euskirchen, Eugénie S.
+%A Flanagan, Lawrence B.
+%A Griffis, Timothy J.
+%A Hanson, Paul J.
 %A Hattakka, J.
-%A Helfter, C.
-%A Hirano, T.
-%A Humphreys, E. R.
-%A Kiely, G.
-%A Kolka, R. K.
-%A Laurila, T.
-%A Leahy, P. G.
-%A Lohila, A.
-%A Mammarella, I.
-%A Nilsson, M. B.
+%A Helfter, Carole
+%A Hirano, Toshio
+%A Humphreys, Elizabeth
+%A Kiely, Gerard
+%A Kolka, Randall K.
+%A Laurila, Tuomas
+%A Leahy, Paul
+%A Lohila, Annalea
+%A Mammarella, Ivan
+%A Nilsson, Mats
 %A Panov, A.
-%A Parmentier, F. J. W.
-%A Peichl, M.
-%A Rinne, J.
+%A Parmentier, Frans-Jan W.
+%A Peichl, Matthias
+%A Rinne, Juha O.
 %A Roman, D. T.
-%A Sonnentag, O.
-%A Tuittila, E.-S.
-%A Ueyama, M.
-%A Vesala, T.
-%A Vestin, P.
-%A Weldon, S.
-%A Weslien, P.
-%A Zaehle, S.
+%A Sonnentag, Oliver
+%A Tuittila, Eeva-Stiina
+%A Ueyama, Masahito
+%A Vesala, Timo
+%A Vestin, Patrik
+%A Weldon, Scott A.
+%A Weslien, Per
+%A Zaehle, Sönke
 %J Nature Climate Change, Volume 12, Issue 8
 %D 2022
 %V 12
@@ -412,11 +417,11 @@
 %F Helbig-2022-Warming
 %X Peatlands have acted as net CO2 sinks over millennia, exerting a global climate cooling effect. Rapid warming at northern latitudes, where peatlands are abundant, can disturb their CO2 sink function. Here we show that sensitivity of peatland net CO2 exchange to warming changes in sign and magnitude across seasons, resulting in complex net CO2 sink responses. We use multiannual net CO2 exchange observations from 20 northern peatlands to show that warmer early summers are linked to increased net CO2 uptake, while warmer late summers lead to decreased net CO2 uptake. Thus, net CO2 sinks of peatlands in regions experiencing early summer warming, such as central Siberia, are more likely to persist under warmer climate conditions than are those in other regions. Our results will be useful to improve the design of future warming experiments and to better interpret large-scale trends in peatland net CO2 uptake over the coming few decades.
 %R 10.1038/s41558-022-01428-z
-%U https://aclanthology.org/G22-43001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-43001
 %U https://doi.org/10.1038/s41558-022-01428-z
 %P 743-749
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-43001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Warming response of peatland CO2 sink is sensitive to seasonality in warming trends](https://aclanthology.org/G22-43001) (Helbig et al., GWF 2022)</p><ul class=mt-2><li><a href=https://aclanthology.org/G22-43001>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a> (Helbig et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>M. Helbig, T. Živković, P. Alekseychik, M. Aurela, T. S. El-Madany, E. S. Euskirchen, L. B. Flanagan, T. J. Griffis, P. J. Hanson, J. Hattakka, C. Helfter, T. Hirano, E. R. Humphreys, G. Kiely, R. K. Kolka, T. Laurila, P. G. Leahy, A. Lohila, I. Mammarella, et al.. 2022. <a href=https://aclanthology.org/G22-43001>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a>. <i>Nature Climate Change, Volume 12, Issue 8</i>, 12(8):743–749.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Warming response of peatland CO2 sink is sensitive to seasonality in warming trends](https://gwf-uwaterloo.github.io/gwf-publications/G22-43001) (Helbig et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-43001>Warming response of peatland CO2 sink is sensitive to seasonality in warming trends</a> (Helbig et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Manuel Helbig, Tanja Živković, Pavel Alekseychik, Mika Aurela, Tarek S. El-Madany, Eugénie S. Euskirchen, Lawrence B. Flanagan, Timothy J. Griffis, Paul J. Hanson, J. Hattakka, Carole Helfter, Toshio Hirano, Elizabeth Humphreys, Gerard Kiely, Randall K. Kolka, Tuomas Laurila, Paul Leahy, Annalea Lohila, Ivan Mammarella, et al.. 2022. Warming response of peatland CO2 sink is sensitive to seasonality in warming trends. <i>Nature Climate Change, Volume 12, Issue 8</i>, 12(8):743–749.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

@@ -1,7 +1,7 @@
 ﻿%0 Journal Article
 %T Structural analysis of integro-differential–algebraic equations
 %A Zolfaghari, Reza
-%A Taylor, Jacob
+%A Taylor, Jacob M.
 %A Spiteri, Raymond J.
 %J Journal of Computational and Applied Mathematics, Volume 394
 %D 2021
@@ -10,7 +10,7 @@
 %F Zolfaghari-2021-Structural
 %X We describe a method for analyzing the structure of a system of nonlinear integro-differential–algebraic equations (IDAEs) that generalizes the Σ -method for the structural analysis of differential–algebraic equations. The method is based on the sparsity pattern of the IDAE and the ν -smoothing property of a Volterra integral operator. It determines which equations and how many times they need to be differentiated to determine the index, and it reveals the hidden constraints and compatibility conditions in order to prove the existence of a solution. The success of the Σ -method is indicated by the non-singularity of a certain Jacobian matrix. Although it is likely the Σ -method can be directly applied with success to many problems of practical interest, it can fail on some solvable IDAEs. Accordingly, we also present two techniques for addressing these failures.
 %R 10.1016/j.cam.2021.113568
-%U https://aclanthology.org/G21-28001
+%U https://gwf-uwaterloo.github.io/gwf-publications/G21-28001
 %U https://doi.org/10.1016/j.cam.2021.113568
 %P 113568
 

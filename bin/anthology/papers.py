@@ -48,6 +48,7 @@ class Paper:
         self._id = paper_id
         self._ingest_date = ingest_date
         self._bibkey = None
+        self._project = None
         self._citeproc_json = None
         self.is_volume = paper_id == "0"
 
@@ -148,6 +149,8 @@ class Paper:
                 del paper.attrib["editor"]
             if key == "bibkey":
                 paper.bibkey = value
+            elif key == "project":
+                paper.project = value    
             else:
                 paper.attrib[key] = value
 
@@ -245,6 +248,14 @@ class Paper:
     @bibkey.setter
     def bibkey(self, value):
         self._bibkey = value
+
+    @property
+    def project(self):
+        return self._project
+
+    @project.setter
+    def project(self, value):
+        self._project = value
 
     @property
     def bibtype(self):
@@ -449,6 +460,7 @@ class Paper:
             # entail writing/updating our own CSL style.
             title = self.get_title("plain")
             link = f'<a href="{self.url}">{title}</a>'
+            link = f'{title}'
             html = html.replace(title, link)
         return html
 
@@ -487,6 +499,7 @@ class Paper:
         value = self.attrib.copy()
         value["paper_id"] = self.paper_id
         value["parent_volume_id"] = self.parent_volume_id
+        value["project"] = self.project
         value["bibkey"] = self.bibkey
         value["bibtype"] = self.bibtype
         value["language"] = self.language
