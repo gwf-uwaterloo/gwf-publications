@@ -12,44 +12,88 @@
     <script>
     var unis = {};
     $(document).on("change", "input[type='checkbox']", function () {
-      if (this.id.startsWith("check_year")) {    
-        const collection = document.getElementById("main").children;      
-        for (child of collection)
-        {        
-          if (child.id.startsWith(this.id.slice(-9)))
+      if (this.id.startsWith("check_year")) {            
+        var any_checked = $( ':input[id^="check_year"]' ).map(function() {return $(this).prop('checked');}).get().includes(true);
+        const collection = document.getElementById("main").children;
+        if ($("#year_list li:first-child").css("display") == 'none'){
+          $("#year_list li:first-child").prop('style', "display:initial !important");
+          $( 'div[id^="year_"]' ).prop('style', 'display:none !important');
+        } 
+        if (any_checked){
+          for (child of collection)
           {
-            this.checked ? child.style.display = "initial" : child.style.display = "none";
+            if (child.id.startsWith(this.id.slice(-9)))
+            {
+              this.checked ? child.style.display = "initial" : child.style.display = "none";
+            }                                
           }
-        }
-      } else if (this.id.startsWith("uni")) {        
+        }else{
+          $("#year_list li:first-child").prop('style', "display:none !important")
+          for (child of collection)
+          {
+            child.style.display = "initial";
+          }
+        }                                                  
+      } else if (this.id.startsWith("uni")) {
+        console.log("Hi2")
+        var any_checked = $( ':input[id^="uni"]' ).map(function() {return $(this).prop('checked');}).get().includes(true);
         var uni = this.id.slice(-7);        
-        if(unis[uni] == undefined) unis[uni]=true;
-        this.checked ? (unis[uni] = true) : (unis[uni] = false);
+        if(unis[uni] == undefined) unis[uni]=true;        
+        this.checked ? (unis[uni] = true) : (unis[uni] = false);        
 
-        const collection = document.querySelectorAll("[data-uni=" + uni + "]");
-        for (child of collection) {
-          if (this.checked) {
-            child.parentNode.parentNode.setAttribute("style", "display:flex !important")            
-          } else {
-            disp_off_flag = true;
-            for (child of child.parentNode.querySelectorAll("[data-uni]")) {   
-              if(unis[child.getAttribute("data-uni")] == undefined) unis[child.getAttribute("data-uni")]=true;    
-              if (unis[child.getAttribute("data-uni")] == true) {
-                disp_off_flag = false;
-                break;
+        if ($("#university_list li:first-child").css("display") == 'none'){
+          $("#university_list li:first-child").prop('style', "display:initial !important");
+          $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).children().first().prop("style", "display:none !important");
+          });
+        } 
+
+        if (any_checked){
+          const collection = document.querySelectorAll("[data-uni=" + uni + "]");
+          for (child of collection) {
+            if (this.checked) {
+              child.parentNode.parentNode.setAttribute("style", "display:flex !important")            
+            } else {
+              disp_off_flag = true;
+              for (child of child.parentNode.querySelectorAll("[data-uni]")) {   
+                if(unis[child.getAttribute("data-uni")] == undefined) unis[child.getAttribute("data-uni")]=true;
+                if (unis[child.getAttribute("data-uni")] == true) {
+                  disp_off_flag = false;
+                  break;
+                }
+              }
+              if (disp_off_flag) {
+                child.parentNode.parentNode.setAttribute("style", "display:none !important");
               }
             }
-            if (disp_off_flag) {
-              child.parentNode.parentNode.setAttribute("style", "display:none !important");
-            }
+          } 
+        }else{    
+          $("#university_list li:first-child").prop('style', "display:none !important");      
+          $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).children().first().prop("style", "display:flex !important");
+          });
+        }
+      } 
+      else if (this.id.startsWith("prj")) {      
+        var any_checked = $( ':input[id^="prj"]' ).map(function() {return $(this).prop('checked');}).get().includes(true);  
+        var prj = this.id.slice(-4);     
+        if ($("#project_list li:first-child").css("display") == 'none'){
+          $("#project_list li:first-child").prop('style', "display:initial !important");
+          $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).prop("style", "display:none !important");
+          }); 
+        }    
+        if (any_checked){     
+          const collection = document.querySelectorAll("[data-prj=" + prj + "]");        
+          for (child of collection) {          
+            (this.checked) ? child.setAttribute("style", "display:initial !important") : child.setAttribute("style", "display:none !important")
           }
-        } 
-      } else if (this.id.startsWith("prj")) {        
-        var prj = this.id.slice(-4);        
-        const collection = document.querySelectorAll("[data-prj=" + prj + "]");
-        for (child of collection) {
-          
-          (this.checked) ? child.setAttribute("style", "display:initial !important") : child.setAttribute("style", "display:none !important")
+        }else{
+          console.log("all unckecked")
+          $("#project_list li:first-child").prop('style', "display:none !important");
+          $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).prop("style", "display:initial !important");
+          }); 
         }
       }
     });
@@ -57,17 +101,20 @@
     function clearAll(t){
       if(t=='year'){
         $( ':input[id^="check_year"]' ).prop('checked', false);
-        $( 'div[id^="year_"]' ).prop('style', 'display:none;');
+        $( 'div[id^="year_"]' ).prop('style', 'display:initial;');
+        $("#year_list li:first-child").prop('style', "display:none !important")
       }else if(t=='uni'){
         $( ':input[id^="uni"]' ).prop('checked', false);
-        $( 'p.d-sm-flex' ).prop('style', 'display:none!important;');
-        for(let key in unis){
-          unis[key] = false
-        }
+        $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).children().first().prop("style", "display:flex !important");
+          });
+        $("#university_list li:first-child").prop('style', "display:none !important")
       }else if(t=='prj'){
         $( ':input[id^="prj"]' ).prop('checked', false);
-        $( 'div[data-prj]' ).prop('style', 'display:none!important;');
-        data-prj
+        $( 'div[data-prj^="prj"]' ).each(function() {
+            $(this).prop("style", "display:initial !important");
+          }); 
+          $("#project_list li:first-child").prop('style', "display:none !important")
       }
     }
     </script>

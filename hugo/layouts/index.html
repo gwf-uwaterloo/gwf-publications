@@ -141,7 +141,21 @@
     </section>
 
   </div>
+
+  <script>
+    // initialzie all the checkboxes in the unchecked state
+    $( ':input[id^="check_year_"]' ).prop('checked', false);
+    $("#year_list li:first-child").prop('style', "display:none !important");
+
+    $( ':input[id^="uni_"]' ).prop('checked', false);
+    $("#university_list li:first-child").prop('style', "display:none !important");
+
+    $( ':input[id^="prj_"]' ).prop('checked', false);
+    $("#project_list li:first-child").prop('style', "display:none !important");
+  </script>    
+
   <script>  
+    // this script is for handling the url filters
     //  get the content of the search query (prj,uni,year)
     const searchArr = window.location.search.substring(1).split("&");
     for (var i = 0; i < searchArr.length; i++) {
