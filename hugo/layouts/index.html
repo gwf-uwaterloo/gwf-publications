@@ -1,9 +1,17 @@
 {{ define "main" }}
 {{ $universities := dict "uni0001" "University of Saskatchewan" "uni0002" "University of Waterloo" "uni0003" "McMaster University" "uni0004" "Environment and Climate Change Canada" "uni0005" "University of Guelph" "uni0006" "Global Institute for Water Security" "uni0007" "Wilfrid Laurier University" "uni0008" "University of Toronto" "uni0009" "University of Alberta" "uni0010" "Wageningen University & Research" "uni0011" "University of Calgary" "uni0012" "Jet Propulsion Lab" "uni0013" "University of Manitoba" "uni0014" "United States Geological Survey" "uni0015" "Universität Innsbruck" "uni0016" "Lawrence Berkeley National Laboratory" "uni0017" "University of Michigan–Ann Arbor" "uni0018" "University of Washington" "uni0019" "Agriculture and Agriculture-Food Canada" "uni0020" "Natural Resources Canada" "uni0021" "University of California, Berkeley" "uni0022" "University of Arizona" "uni0023" "University of Quebec at Montreal" "uni0024" "University of Alaska Fairbanks" "uni0025" "Max Planck Institute for Biogeochemistry" "uni0026" "University of Ottawa" "uni0027" "University of Helsinki" "uni0028" "Goddard Space Flight Center" "uni0029" "University of British Columbia" "uni0030" "Finnish Meteorological Institute" "uni0031" "University of Nebraska–Lincoln" "uni0032" "University of Victoria" "uni0033" "National Center for Atmospheric Research" "uni0034" "University of Exeter" "uni0035" "University of Montreal" "uni0036" "University of California, Los Angeles" "uni0037" "University of Chinese Academy of Sciences" "uni0038" "Stanford University" "uni0039" "Swiss Federal Institute for Forest, Snow and Landscape Research" "uni0040" "ETH Zurich" "uni0041" "Université Laval" "uni0042" "Oak Ridge National Laboratory" "uni0043" "UK Centre for Ecology & Hydrology" "uni0044" "McGill University" "uni0045" "Utrecht University" "uni0046" "University of Melbourne" "uni0047" "Météo-France" "uni0048" "Lund University" "uni0049" "Swedish University of Agricultural Sciences" "uni0050" "Northern Arizona University"}}
 <button onclick="goTopFunction()" id="topBtn" title="Go to top"><i class="arrowup"></i></button>
+<div class="row mb-xl-5">
+</div>
 <div class="row">
-  <div class="col-lg-3">
+  <div class="col-12 col-lg-3">
     <div class="row">
+      <div class="col-12 col-md-6 col-lg-12">        
+        <form class="form-inline" action={{"/search/?" | relURL}} method=get>
+          <input id=acl-search-box class="form-control mr-sm-2" style="width: 12rem !important;" name=q type=search placeholder=Search... aria-label=Search>
+          <button class="btn btn-outline-primary" type=submit><i class="fas fa-search"></i></button>
+        </form>        
+      </div>
       <div class="col-12 col-md-6 col-lg-12">
         <div class="card my-2 my-md-0 my-lg-2">
           <h5 class="card-header card-header-custom" href="#year_list" data-toggle="collapse" aria-expanded="false" aria-controls="year_list">Year</h5>
@@ -50,8 +58,7 @@
     </div>
   </div>
 
-  <div class="col-lg-9">
-
+  <div class="col-12 col-lg-9 col-lg-width-auto">
     <div class="py-4">
       {{ $.Scratch.Set "paper_count" 0 }}
       {{ range $.Site.Data.papers }}

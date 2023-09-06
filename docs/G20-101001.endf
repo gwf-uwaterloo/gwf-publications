@@ -1,0 +1,15 @@
+﻿%0 Journal Article
+%T On compatible triangulations with a minimum number of Steiner points
+%A Lubiw, Anna
+%A Mondal, Debajyoti
+%J Theoretical Computer Science, Volume 835
+%D 2020
+%V 835
+%I Elsevier BV
+%F Lubiw-2020-On
+%X Two vertex-labelled polygons are compatible if they have the same clockwise cyclic ordering of vertices. The definition extends to polygonal regions (polygons with holes) and to triangulations—for every face, the clockwise cyclic order of vertices on the boundary must be the same. It is known that every pair of compatible n -vertex polygonal regions can be extended to compatible triangulations by adding O ( n 2 ) Steiner points. Furthermore, Ω ( n 2 ) Steiner points are sometimes necessary, even for a pair of polygons. Compatible triangulations provide piecewise linear homeomorphisms and are also a crucial first step in morphing planar graph drawings, aka “2D shape animation.” An intriguing open question, first posed by Aronov, Seidel, and Souvaine in 1993, is to decide if two compatible polygons have compatible triangulations with at most k Steiner points. In this paper we prove the problem to be NP-hard for polygons with holes. The question remains open for simple polygons.
+%R 10.1016/j.tcs.2020.06.014
+%U https://aclanthology.org/G20-101001
+%U https://doi.org/10.1016/j.tcs.2020.06.014
+%P 97-107
+

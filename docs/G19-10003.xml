@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Wolfe-2019-A">
+    <titleInfo>
+        <title>A watershed classification approach that looks beyond hydrology: application to a semi-arid, agricultural region in Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jared</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Wolfe</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Shook</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chris</namePart>
+        <namePart type="family">Spence</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Whitfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 23, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Classification and clustering approaches provide a means to group watersheds according to similar attributes, functions, or behaviours, and can aid in managing natural resources. Although they are widely used, approaches based on hydrological response parameters restrict analyses to regions where well-developed hydrological records exist, and overlook factors contributing to other management concerns, including biogeochemistry and ecology. In the Canadian Prairie, hydrometric gauging is sparse and often seasonal. Moreover, large areas are endorheic and the landscape is highly modified by human activity, complicating classification based solely on hydrological parameters. We compiled climate, geological, topographical, and land-cover data from the Prairie and conducted a classification of watersheds using a hierarchical clustering of principal components. Seven classes were identified based on the clustering of watersheds, including those distinguishing southern Manitoba, the pothole region, river valleys, and grasslands. Important defining variables were climate, elevation, surficial geology, wetland distribution, and land cover. In particular, three classes occur almost exclusively within regions that tend not to contribute to major river systems, and collectively encompass the majority of the study area. The gross difference in key characteristics across the classes suggests that future water management and climate change may carry with them heterogeneous sets of implications for water security across the Prairie. This emphasizes the importance of developing management strategies that target sub-regions expected to behave coherently as current human-induced changes to the landscape will affect how watersheds react to change. The study provides the first classification of watersheds within the Prairie based on climatic and biophysical attributes, with the framework used being applicable to other regions where hydrometric data are sparse. Our findings provide a foundation for addressing questions related to hydrological, biogeochemical, and ecological behaviours at a regional level, enhancing the capacity to address issues of water security.</abstract>
+    <identifier type="citekey">Wolfe-2019-A</identifier>
+    <identifier type="doi">10.5194/hess-23-3945-2019</identifier>
+    <location>
+        <url>https://aclanthology.org/G19-10003</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>23</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>3945</start>
+            <end>3967</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>
