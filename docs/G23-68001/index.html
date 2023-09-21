@@ -1,0 +1,248 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology" name=citation_title><meta content="Philip J. Schmidt" name=citation_author><meta content="Nicole Acosta" name=citation_author><meta content="Alex H. S. Chik" name=citation_author><meta content="Patrick M. D'Aoust" name=citation_author><meta content="Robert Delatolla" name=citation_author><meta content="Hadi A. Dhiyebi" name=citation_author><meta content="Melissa B. Glier" name=citation_author><meta content="Casey R.J. Hubert" name=citation_author><meta content="Jennifer Kopetzky" name=citation_author><meta content="Chand S. Mangat" name=citation_author><meta content="Xiaoli Pang" name=citation_author><meta content="Shelley Peterson" name=citation_author><meta content="Natalie Prystajecky" name=citation_author><meta content="Yuanyuan Qiu" name=citation_author><meta content="Mark R. Servos" name=citation_author><meta content="Monica B. Emelko" name=citation_author><meta content="Frontiers in Microbiology, Volume 14" name=citation_journal_title><meta content="14" name=citation_volume><meta content="2023" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G23-68001.pdf" name=citation_pdf_url><meta content="10.3389/fmicb.2023.1048661" name=citation_doi><meta property="og:title" content="Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G23-68001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G23-68001"><meta property="og:description" content="Philip J. Schmidt, Nicole Acosta, Alex H. S. Chik, Patrick M. D'Aoust, Robert Delatolla, Hadi A. Dhiyebi, Melissa B. Glier, Casey R.J. Hubert, Jennifer Kopetzky, Chand S. Mangat, Xiaoli Pang, Shelley Peterson, Natalie Prystajecky, Yuanyuan Qiu, Mark R. Servos, Monica B. Emelko. Frontiers in Microbiology, Volume 14. 2023."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G23-68001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-68001>Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology</a></h2><p class=lead><a href=/gwf-publications/people/P/Philip-J-Schmidt/ data-uni=uni0002>Philip J. Schmidt</a>,
+<a href=/gwf-publications/people/N/Nicole-Acosta/ data-uni=uni0007>Nicole Acosta</a>,
+<a href=/gwf-publications/people/A/Alex-H-S-Chik/ data-uni=uni0670>Alex H. S. Chik</a>,
+<a href=/gwf-publications/people/P/Patrick-M-DAoust/ data-uni=uni0042>Patrick M. D'Aoust</a>,
+<a href=/gwf-publications/people/R/Robert-Delatolla/ data-uni=uni0042>Robert Delatolla</a>,
+<a href=/gwf-publications/people/H/Hadi-A-Dhiyebi/ data-uni=uni0002>Hadi A. Dhiyebi</a>,
+<a href=/gwf-publications/people/M/Melissa-B-Glier/ data-uni=uni0673>Melissa B. Glier</a>,
+<a href=/gwf-publications/people/C/Casey-RJ-Hubert/ data-uni=uni0007>Casey R.J. Hubert</a>,
+<a href=/gwf-publications/people/J/Jennifer-Kopetzky/ data-uni=uni0133>Jennifer Kopetzky</a>,
+<a href=/gwf-publications/people/C/Chand-S-Mangat/ data-uni=uni0111>Chand S. Mangat</a>,
+<a href=/gwf-publications/people/X/Xiaoli-Pang/ data-uni=uni0584>Xiaoli Pang</a>,
+<a href=/gwf-publications/people/S/Shelley-Peterson/ data-uni=uni0111>Shelley Peterson</a>,
+<a href=/gwf-publications/people/N/Natalie-Prystajecky/ data-uni=uni0700>Natalie Prystajecky</a>,
+<a href=/gwf-publications/people/Y/Yuanyuan-Qiu/ data-uni=uni0587>Yuanyuan Qiu</a>,
+<a href=/gwf-publications/people/M/Mark-R-Servos/ data-uni=uni0002>Mark R. Servos</a>,
+<a href=/gwf-publications/people/M/Monica-B-Emelko/ data-uni=uni0002>Monica B. Emelko</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain "non-standard" data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Philip J. Schmidt, Nicole Acosta, Alex H. S. Chik, Patrick M. D'Aoust, Robert Delatolla, Hadi A. Dhiyebi, Melissa B. Glier, Casey R.J. Hubert, Jennifer Kopetzky, Chand S. Mangat, Xiaoli Pang, Shelley Peterson, Natalie Prystajecky, Yuanyuan Qiu, Mark R. Servos, and Monica B. Emelko. 2023. Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology. <i>Frontiers in Microbiology, Volume 14</i>, 14.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Realizing+the+value+in+%E2%80%9Cnon-standard%E2%80%9D+parts+of+the+qPCR+standard+curve+by+integrating+fundamentals+of+quantitative+microbiology" title="Search for 'Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Schmidt-2023-Realizing,
+    title = &#34;Realizing the value in {``}non-standard{&#39;&#39;} parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology&#34;,
+    author = &#34;Schmidt, Philip J.  and
+      Acosta, Nicole  and
+      Chik, Alex H. S.  and
+      D&#39;Aoust, Patrick M.  and
+      Delatolla, Robert  and
+      Dhiyebi, Hadi A.  and
+      Glier, Melissa B.  and
+      Hubert, Casey R.J.  and
+      Kopetzky, Jennifer  and
+      Mangat, Chand S.  and
+      Pang, Xiaoli  and
+      Peterson, Shelley  and
+      Prystajecky, Natalie  and
+      Qiu, Yuanyuan  and
+      Servos, Mark R.  and
+      Emelko, Monica B.&#34;,
+    journal = &#34;Frontiers in Microbiology, Volume 14&#34;,
+    volume = &#34;14&#34;,
+    year = &#34;2023&#34;,
+    publisher = &#34;Frontiers Media SA&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G23-68001&#34;,
+    doi = &#34;10.3389/fmicb.2023.1048661&#34;,
+    abstract = &#34;The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain ``non-standard&#39;&#39; data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G23-68001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Schmidt-2023-Realizing&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Philip&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schmidt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicole&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Acosta&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alex&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Patrick&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;D’Aoust&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Delatolla&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hadi&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dhiyebi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Melissa&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Glier&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Casey&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R.J.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hubert&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jennifer&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kopetzky&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Chand&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mangat&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xiaoli&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Pang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shelley&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Peterson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Natalie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Prystajecky&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yuanyuan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Qiu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mark&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Servos&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Monica&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Emelko&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2023&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Frontiers in Microbiology, Volume 14&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;Frontiers Media SA&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain “non-standard” data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Schmidt-2023-Realizing&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.3389/fmicb.2023.1048661&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G23-68001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2023&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;14&lt;/number&gt;&lt;/detail&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G23-68001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology
+%A Schmidt, Philip J.
+%A Acosta, Nicole
+%A Chik, Alex H. S.
+%A D’Aoust, Patrick M.
+%A Delatolla, Robert
+%A Dhiyebi, Hadi A.
+%A Glier, Melissa B.
+%A Hubert, Casey R.J.
+%A Kopetzky, Jennifer
+%A Mangat, Chand S.
+%A Pang, Xiaoli
+%A Peterson, Shelley
+%A Prystajecky, Natalie
+%A Qiu, Yuanyuan
+%A Servos, Mark R.
+%A Emelko, Monica B.
+%J Frontiers in Microbiology, Volume 14
+%D 2023
+%V 14
+%I Frontiers Media SA
+%F Schmidt-2023-Realizing
+%X The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain “non-standard” data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.
+%R 10.3389/fmicb.2023.1048661
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-68001
+%U https://doi.org/10.3389/fmicb.2023.1048661
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G23-68001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology](https://gwf-uwaterloo.github.io/gwf-publications/G23-68001) (Schmidt et al., GWF 2023)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-68001>Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology</a> (Schmidt et al., GWF 2023)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Philip J. Schmidt, Nicole Acosta, Alex H. S. Chik, Patrick M. D'Aoust, Robert Delatolla, Hadi A. Dhiyebi, Melissa B. Glier, Casey R.J. Hubert, Jennifer Kopetzky, Chand S. Mangat, Xiaoli Pang, Shelley Peterson, Natalie Prystajecky, Yuanyuan Qiu, Mark R. Servos, and Monica B. Emelko. 2023. Realizing the value in “non-standard” parts of the qPCR standard curve by integrating fundamentals of quantitative microbiology. <i>Frontiers in Microbiology, Volume 14</i>, 14.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

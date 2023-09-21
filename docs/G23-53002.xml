@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Papalexiou-2023-Large‐Domain">
+    <titleInfo>
+        <title>Large‐Domain Multisite Precipitation Generation: Operational Blueprint and Demonstration for 1,000 Sites</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Francesco</namePart>
+        <namePart type="family">Serinaldi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 59, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Stochastic simulations of spatiotemporal patterns of hydroclimatic processes, such as precipitation, are needed to build alternative but equally plausible inputs for water‐related design and management, and to estimate uncertainty and assess risks. However, while existing stochastic simulation methods are mature enough to deal with relatively small domains and coarse spatiotemporal scales, additional work is required to develop simulation tools for large‐domain analyses, which are more and more common in an increasingly interconnected world. This study proposes a methodological advancement in the CoSMoS framework, which is a flexible simulation framework preserving arbitrary marginal distributions and correlations, to dramatically decrease the computational burden and make the algorithm fast enough to perform large‐domain simulations in short time. The proposed approach focuses on correlated processes with mixed (zero‐inflated) Uniform marginal distributions. These correlated processes act as intermediates between the target process to simulate (precipitation) and parent Gaussian processes that are the core of the simulation algorithm. Working in the mixed‐Uniform space enables a substantial simplification of the so‐called correlation transformation functions, which represent a computational bottle neck in the original CoSMoS formulation. As a proof of concept, we simulate 40 years of daily precipitation records from 1,000 gauging stations in the Mississippi River basin. Moreover, we extend CoSMoS incorporating parent non‐Gaussian processes with different degrees of tail dependence and suggest potential improvements including the separate simulation of occurrence and intensity processes, and the use of advection, anisotropy, and nonstationary spatiotemporal correlation functions.</abstract>
+    <identifier type="citekey">Papalexiou-2023-Large‐Domain</identifier>
+    <identifier type="doi">10.1029/2022wr034094</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-53002</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>59</number></detail>
+        <detail type="issue"><number>3</number></detail>
+    </part>
+</mods>
+</modsCollection>

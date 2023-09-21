@@ -9,294 +9,295 @@ if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]")
 if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
 else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
 if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
-$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data" name=citation_title><meta content="Gilberto Pastorello" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="E. Canfora" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="D. S. Christianson" name=citation_author><meta content="You Wei Cheah" name=citation_author><meta content="Cristina Poindexter" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Abdelrahman Elbashandy" name=citation_author><meta content="Marty Humphrey" name=citation_author><meta content="Peter Isaac" name=citation_author><meta content="Diego Polidori" name=citation_author><meta content="Markus Reichstein" name=citation_author><meta content="A. Ribeca" name=citation_author><meta content="Catharine van Ingen" name=citation_author><meta content="Nicolas Vuichard" name=citation_author><meta content="Leiming Zhang" name=citation_author><meta content="Brian D. Amiro" name=citation_author><meta content="Christof Ammann" name=citation_author><meta content="M. Altaf Arain" name=citation_author><meta content="Jonas Ardö" name=citation_author><meta content="Timothy J. Arkebauer" name=citation_author><meta content="Stefan K. Arndt" name=citation_author><meta content="Nicola Arriga" name=citation_author><meta content="Marc Aubinet" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Dennis D. Baldocchi" name=citation_author><meta content="Alan Barr" name=citation_author><meta content="E. Beamesderfer" name=citation_author><meta content="Luca Belelli Marchesini" name=citation_author><meta content="Onil Bergeron" name=citation_author><meta content="Jason Beringer" name=citation_author><meta content="Christian Bernhofer" name=citation_author><meta content="Daniel Berveiller" name=citation_author><meta content="D. P. Billesbach" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="Peter D. Blanken" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Paul V. Bolstad" name=citation_author><meta content="Damien Bonal" name=citation_author><meta content="Jean Marc Bonnefond" name=citation_author><meta content="David R. Bowling" name=citation_author><meta content="Rosvel Bracho" name=citation_author><meta content="Jason Brodeur" name=citation_author><meta content="Christian Brümmer" name=citation_author><meta content="Nina Buchmann" name=citation_author><meta content="Benoit Burban" name=citation_author><meta content="Sean P. Burns" name=citation_author><meta content="Pauline Buysse" name=citation_author><meta content="Peter Cale" name=citation_author><meta content="Mauro Cavagna" name=citation_author><meta content="Pierre Cellier" name=citation_author><meta content="Shiping Chen" name=citation_author><meta content="Isaac Chini" name=citation_author><meta content="Torben R. Christensen" name=citation_author><meta content="James Cleverly" name=citation_author><meta content="Alessio Collalti" name=citation_author><meta content="Claudia Consalvo" name=citation_author><meta content="Bruce D. Cook" name=citation_author><meta content="David Cook" name=citation_author><meta content="Carole Coursolle" name=citation_author><meta content="Edoardo Cremonese" name=citation_author><meta content="Peter S. Curtis" name=citation_author><meta content="Paolo Villari" name=citation_author><meta content="Humberto Ribeiro da Rocha" name=citation_author><meta content="Xiaoqin Dai" name=citation_author><meta content="Kenneth L. Davis" name=citation_author><meta content="Bruno De Cinti" name=citation_author><meta content="Agnès de Grandcourt" name=citation_author><meta content="Anne De Ligne" name=citation_author><meta content="Raimundo Cosme de Oliveira Junior" name=citation_author><meta content="Nicolas Delpierre" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Carlos Marcelo Di Bella" name=citation_author><meta content="Paul Di Tommasi" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Francisco Domingo" name=citation_author><meta content="Gang Dong" name=citation_author><meta content="Sabina Dore" name=citation_author><meta content="Pierpaolo Duce" name=citation_author><meta content="Eric Dufrêne" name=citation_author><meta content="Allison L. Dunn" name=citation_author><meta content="Jiří Dušek" name=citation_author><meta content="Derek Eamus" name=citation_author><meta content="Uwe Eichelmann" name=citation_author><meta content="Hatim Abdalla M. ElKhidir" name=citation_author><meta content="Werner Eugster" name=citation_author><meta content="Cacilia Ewenz" name=citation_author><meta content="Brent E. Ewers" name=citation_author><meta content="Daniela Famulari" name=citation_author><meta content="Silvano Fares" name=citation_author><meta content="Iris Feigenwinter" name=citation_author><meta content="Andrew Feitz" name=citation_author><meta content="Rasmus Fensholt" name=citation_author><meta content="Gianluca Filippa" name=citation_author><meta content="Marc Fischer" name=citation_author><meta content="John Frank" name=citation_author><meta content="Marta Galvagno" name=citation_author><meta content="Mana Gharun" name=citation_author><meta content="Damiano Gianelle" name=citation_author><meta content="Bert Gielen" name=citation_author><meta content="Beniamino Gioli" name=citation_author><meta content="Anatoly A. Gitelson" name=citation_author><meta content="Ignacio Goded" name=citation_author><meta content="Mathias Göckede" name=citation_author><meta content="Allen H. Goldstein" name=citation_author><meta content="Christopher M. Gough" name=citation_author><meta content="Michael L. Goulden" name=citation_author><meta content="Alexander Graf" name=citation_author><meta content="Anne Griebel" name=citation_author><meta content="Carsten Gruening" name=citation_author><meta content="Thomas Grünwald" name=citation_author><meta content="Albin Hammerle" name=citation_author><meta content="Shijie Han" name=citation_author><meta content="Xingguo Han" name=citation_author><meta content="Birger Ulf Hansen" name=citation_author><meta content="Chad T. Hanson" name=citation_author><meta content="Juha Hatakka" name=citation_author><meta content="Yongtao He" name=citation_author><meta content="Markus Hehn" name=citation_author><meta content="Bernard Heinesch" name=citation_author><meta content="Nina Hinko-Najera" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Lindsay B. Hutley" name=citation_author><meta content="Andreas Ibrom" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Marcin Jackowicz-Korczynski" name=citation_author><meta content="Dalibor Janouš" name=citation_author><meta content="W.W.P. Jans" name=citation_author><meta content="Rachhpal S. Jassal" name=citation_author><meta content="Shicheng Jiang" name=citation_author><meta content="Tomomichi Kato" name=citation_author><meta content="Myroslava Khomik" name=citation_author><meta content="Janina Klatt" name=citation_author><meta content="Alexander Knohl" name=citation_author><meta content="Sara H. Knox" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Georgia R. Koerber" name=citation_author><meta content="Olaf Kolle" name=citation_author><meta content="Yoshiko Kosugi" name=citation_author><meta content="Ayumi Kotani" name=citation_author><meta content="Andrew S. Kowalski" name=citation_author><meta content="Bart Kruijt" name=citation_author><meta content="Juliya Kurbatova" name=citation_author><meta content="Werner L. Kutsch" name=citation_author><meta content="Hyo-Jung Kwon" name=citation_author><meta content="Samuli Launiainen" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="Beverly E. Law" name=citation_author><meta content="Ray Leuning" name=citation_author><meta content="Yingnian Li" name=citation_author><meta content="Michael J. Liddell" name=citation_author><meta content="Jean-Marc Limousin" name=citation_author><meta content="Marryanna Lion" name=citation_author><meta content="Adam J. Liska" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ana López-Ballesteros" name=citation_author><meta content="Efrén López-Blanco" name=citation_author><meta content="Benjamin Loubet" name=citation_author><meta content="Denis Loustau" name=citation_author><meta content="Antje Moffat" name=citation_author><meta content="Johannes Lüers" name=citation_author><meta content="Siyan Ma" name=citation_author><meta content="Craig Macfarlane" name=citation_author><meta content="Carmen Arena" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Giovanni Manca" name=citation_author><meta content="Barbara Marcolla" name=citation_author><meta content="Hank A. Margolis" name=citation_author><meta content="Serena Marras" name=citation_author><meta content="William J. Massman" name=citation_author><meta content="Mikhail Mastepanov" name=citation_author><meta content="Roser Matamala" name=citation_author><meta content="Jaclyn Hatala Matthes" name=citation_author><meta content="Francesco Mazzenga" name=citation_author><meta content="Harry McCaughey" name=citation_author><meta content="Ian McHugh" name=citation_author><meta content="Andrew McMillan" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Wayne S. Meyer" name=citation_author><meta content="Tilden P. Meyers" name=citation_author><meta content="Erick M. Carreira" name=citation_author><meta content="Stefano Minerbi" name=citation_author><meta content="Uta Moderow" name=citation_author><meta content="Russell K. Monson" name=citation_author><meta content="Leonardo Montagnani" name=citation_author><meta content="Caitlin E. Moore" name=citation_author><meta content="Eddy Moors" name=citation_author><meta content="Virginie Moreaux" name=citation_author><meta content="Christine Moureaux" name=citation_author><meta content="J. William Munger" name=citation_author><meta content="Taro Nakai" name=citation_author><meta content="Johan Neirynck" name=citation_author><meta content="Zoran Nesic" name=citation_author><meta content="Giacomo Nicolini" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthew Northwood" name=citation_author><meta content="Marcelo D. Nosetto" name=citation_author><meta content="Yann Nouvellon" name=citation_author><meta content="Kimberly A. Novick" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Jørgen E. Olesen" name=citation_author><meta content="Jean Marc Ourcival" name=citation_author><meta content="Shirley A. Papuga" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Eugénie Paul-Limoges" name=citation_author><meta content="Marian Pavelka" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Elise Pendall" name=citation_author><meta content="Richard A. Phillips" name=citation_author><meta content="Kim Pilegaard" name=citation_author><meta content="N. Pirk" name=citation_author><meta content="Gabriela Posse" name=citation_author><meta content="Thomas Dennis Powell" name=citation_author><meta content="Heiko Prasse" name=citation_author><meta content="Suzanne M. Prober" name=citation_author><meta content="Serge Rambal" name=citation_author><meta content="Üllar Rannik" name=citation_author><meta content="Naama Raz-Yaseef" name=citation_author><meta content="Corinna Rebmann" name=citation_author><meta content="David Reed" name=citation_author><meta content="Víctor Resco de Dios" name=citation_author><meta content="Natalia Restrepo-Coupe" name=citation_author><meta content="B.R. Reverter" name=citation_author><meta content="Marilyn Roland" name=citation_author><meta content="Simone Sabbatini" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Scott R. Saleska" name=citation_author><meta content="Enrique P. Sánchez-Cañete" name=citation_author><meta content="Zulia Mayari Sanchez-Mejia" name=citation_author><meta content="Hans Schmid" name=citation_author><meta content="Marius Schmidt" name=citation_author><meta content="Karl Schneider" name=citation_author><meta content="Frederik Schrader" name=citation_author><meta content="Ivan Schroder" name=citation_author><meta content="Russell L. Scott" name=citation_author><meta content="Pavel Sedlák" name=citation_author><meta content="Penélope Serrano-Ortiz" name=citation_author><meta content="Changliang Shao" name=citation_author><meta content="Peili Shi" name=citation_author><meta content="Ivan Shironya" name=citation_author><meta content="Lukas Siebicke" name=citation_author><meta content="Ladislav Šigut" name=citation_author><meta content="Richard B. Silberstein" name=citation_author><meta content="Costantino Sirca" name=citation_author><meta content="Donatella Spano" name=citation_author><meta content="Rainer Steinbrecher" name=citation_author><meta content="Robert Stevens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Andrew E. Suyker" name=citation_author><meta content="Torbern Tagesson" name=citation_author><meta content="Satoru Takanashi" name=citation_author><meta content="Yanhong Tang" name=citation_author><meta content="Nigel J. Tapper" name=citation_author><meta content="Jonathan E. Thom" name=citation_author><meta content="Michele Tomassucci" name=citation_author><meta content="Juha-Pekka Tuovinen" name=citation_author><meta content="Shawn Urbanski" name=citation_author><meta content="Riccardo Valentini" name=citation_author><meta content="M. K. van der Molen" name=citation_author><meta content="Eva van Gorsel" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joseph Verfaillie" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Caroline Vincke" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="N. N. Vygodskaya" name=citation_author><meta content="Jeffrey P. Walker" name=citation_author><meta content="Elizabeth A. Walter-Shea" name=citation_author><meta content="Huimin Wang" name=citation_author><meta content="Robin Weber" name=citation_author><meta content="Sebastian Westermann" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Steven C. Wofsy" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Sebastian Wolf" name=citation_author><meta content="William Woodgate" name=citation_author><meta content="Yuelin Li" name=citation_author><meta content="Roberto Zampedri" name=citation_author><meta content="Junhui Zhang" name=citation_author><meta content="Guoyi Zhou" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Deb Agarwal" name=citation_author><meta content="Sébastien C. Biraud" name=citation_author><meta content="Margaret S. Torn" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Scientific Data, Volume 8, Issue 1" name=citation_journal_title><meta content="8" name=citation_volume><meta content="1" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf" name=citation_pdf_url><meta content="10.1038/s41597-021-00851-9" name=citation_doi><meta property="og:title" content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-159001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001"><meta property="og:description" content="Gilberto Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, A. Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian D. Amiro, Christof Ammann, M. Altaf Arain, Jonas Ardö, Timothy J. Arkebauer, Stefan K. Arndt, Nicola Arriga, Marc Aubinet, Mika Aurela, Dennis D. Baldocchi, Alan Barr, E. Beamesderfer, Luca Belelli Marchesini, Onil Bergeron, Jason Beringer, Christian Bernhofer, Daniel Berveiller, D. P. Billesbach, T. Andrew Black, Peter D. Blanken, Gil Bohrer, Julia Boike, Paul V. Bolstad, Damien Bonal, Jean Marc Bonnefond, David R. Bowling, Rosvel Bracho, Jason Brodeur, Christian Brümmer, Nina Buchmann, Benoit Burban, Sean P. Burns, Pauline Buysse, Peter Cale, Mauro Cavagna, Pierre Cellier, Shiping Chen, Isaac Chini, Torben R. Christensen, James Cleverly, Alessio Collalti, Claudia Consalvo, Bruce D. Cook, David Cook, Carole Coursolle, Edoardo Cremonese, Peter S. Curtis, Paolo Villari, Humberto Ribeiro da Rocha, Xiaoqin Dai, Kenneth L. Davis, Bruno De Cinti, Agnès de Grandcourt, Anne De Ligne, Raimundo Cosme de Oliveira Junior, Nicolas Delpierre, Ankur R. Desai, Carlos Marcelo Di Bella, Paul Di Tommasi, A. J. Dolman, Francisco Domingo, Gang Dong, Sabina Dore, Pierpaolo Duce, Eric Dufrêne, Allison L. Dunn, Jiří Dušek, Derek Eamus, Uwe Eichelmann, Hatim Abdalla M. ElKhidir, Werner Eugster, Cacilia Ewenz, Brent E. Ewers, Daniela Famulari, Silvano Fares, Iris Feigenwinter, Andrew Feitz, Rasmus Fensholt, Gianluca Filippa, Marc Fischer, John Frank, Marta Galvagno, Mana Gharun, Damiano Gianelle, Bert Gielen, Beniamino Gioli, Anatoly A. Gitelson, Ignacio Goded, Mathias Göckede, Allen H. Goldstein, Christopher M. Gough, Michael L. Goulden, Alexander Graf, Anne Griebel, Carsten Gruening, Thomas Grünwald, Albin Hammerle, Shijie Han, Xingguo Han, Birger Ulf Hansen, Chad T. Hanson, Juha Hatakka, Yongtao He, Markus Hehn, Bernard Heinesch, Nina Hinko-Najera, Lukas Hörtnagl, Lindsay B. Hutley, Andreas Ibrom, Hiroki Ikawa, Marcin Jackowicz-Korczynski, Dalibor Janouš, W.W.P. Jans, Rachhpal S. Jassal, Shicheng Jiang, Tomomichi Kato, Myroslava Khomik, Janina Klatt, Alexander Knohl, Sara H. Knox, Hideki Kobayashi, Georgia R. Koerber, Olaf Kolle, Yoshiko Kosugi, Ayumi Kotani, Andrew S. Kowalski, Bart Kruijt, Juliya Kurbatova, Werner L. Kutsch, Hyo-Jung Kwon, Samuli Launiainen, Tuomas Laurila, Beverly E. Law, Ray Leuning, Yingnian Li, Michael J. Liddell, Jean-Marc Limousin, Marryanna Lion, Adam J. Liska, Annalea Lohila, Ana López-Ballesteros, Efrén López-Blanco, Benjamin Loubet, Denis Loustau, Antje Moffat, Johannes Lüers, Siyan Ma, Craig Macfarlane, Carmen Arena, Regine Maier, Ivan Mammarella, Giovanni Manca, Barbara Marcolla, Hank A. Margolis, Serena Marras, William J. Massman, Mikhail Mastepanov, Roser Matamala, Jaclyn Hatala Matthes, Francesco Mazzenga, Harry McCaughey, Ian McHugh, Andrew McMillan, Lutz Merbold, Wayne S. Meyer, Tilden P. Meyers, Erick M. Carreira, Stefano Minerbi, Uta Moderow, Russell K. Monson, Leonardo Montagnani, Caitlin E. Moore, Eddy Moors, Virginie Moreaux, Christine Moureaux, J. William Munger, Taro Nakai, Johan Neirynck, Zoran Nesic, Giacomo Nicolini, Asko Noormets, Matthew Northwood, Marcelo D. Nosetto, Yann Nouvellon, Kimberly A. Novick, Walter C. Oechel, Jørgen E. Olesen, Jean Marc Ourcival, Shirley A. Papuga, Frans-Jan W. Parmentier, Eugénie Paul-Limoges, Marian Pavelka, Matthias Peichl, Elise Pendall, Richard A. Phillips, Kim Pilegaard, N. Pirk, Gabriela Posse, Thomas Dennis Powell, Heiko Prasse, Suzanne M. Prober, Serge Rambal, Üllar Rannik, Naama Raz-Yaseef, Corinna Rebmann, David Reed, Víctor Resco de Dios, Natalia Restrepo-Coupe, B.R. Reverter, Marilyn Roland, Simone Sabbatini, Torsten Sachs, Scott R. Saleska, Enrique P. Sánchez-Cañete, Zulia Mayari Sanchez-Mejia, Hans Schmid, Marius Schmidt, Karl Schneider, Frederik Schrader, Ivan Schroder, Russell L. Scott, Pavel Sedlák, Penélope Serrano-Ortiz, Changliang Shao, Peili Shi, Ivan Shironya, Lukas Siebicke, Ladislav Šigut, Richard B. Silberstein, Costantino Sirca, Donatella Spano, Rainer Steinbrecher, Robert Stevens, Cove Sturtevant, Andrew E. Suyker, Torbern Tagesson, Satoru Takanashi, Yanhong Tang, Nigel J. Tapper, Jonathan E. Thom, Michele Tomassucci, Juha-Pekka Tuovinen, Shawn Urbanski, Riccardo Valentini, M. K. van der Molen, Eva van Gorsel, Andrej Varlagin, Joseph Verfaillie, Timo Vesala, Caroline Vincke, Domenico Vitale, N. N. Vygodskaya, Jeffrey P. Walker, Elizabeth A. Walter-Shea, Huimin Wang, Robin Weber, Sebastian Westermann, Christian Wille, Steven C. Wofsy, Georg Wohlfahrt, Sebastian Wolf, William Woodgate, Yuelin Li, Roberto Zampedri, Junhui Zhang, Guoyi Zhou, Donatella Zona, Deb Agarwal, Sébastien C. Biraud, Margaret S. Torn, Dario Papale. Scientific Data, Volume 8, Issue 1. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a></h2><p class=lead><a href=/gwf-publications/people/G/Gilberto-Pastorello/ data-uni=uni0016>Gilberto Pastorello</a>,
-<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0326>Carlo Trotta</a>,
-<a href=/gwf-publications/people/E/E-Canfora/ data-uni=uni0021>E. Canfora</a>,
-<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0016>Housen Chu</a>,
-<a href=/gwf-publications/people/D/D-S-Christianson/ data-uni=uni0016>D. S. Christianson</a>,
-<a href=/gwf-publications/people/Y/You-Wei-Cheah/ data-uni=uni0014>You Wei Cheah</a>,
-<a href=/gwf-publications/people/C/Cristina-Poindexter/ data-uni=uni1192>Cristina Poindexter</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0497>Jiquan Chen</a>,
-<a href=/gwf-publications/people/A/Abdelrahman-Elbashandy/ data-uni=uni0016>Abdelrahman Elbashandy</a>,
-<a href=/gwf-publications/people/M/Marty-Humphrey/ data-uni=uni0250>Marty Humphrey</a>,
-<a href=/gwf-publications/people/P/Peter-Isaac/ data-uni=uni0669>Peter Isaac</a>,
-<a href=/gwf-publications/people/D/Diego-Polidori/ data-uni=uni0081>Diego Polidori</a>,
-<a href=/gwf-publications/people/M/Markus-Reichstein/ data-uni=uni0025>Markus Reichstein</a>,
-<a href=/gwf-publications/people/A/A-Ribeca/ data-uni=uni0081>A. Ribeca</a>,
-<a href=/gwf-publications/people/C/Catharine-van-Ingen/ data-uni=uni0016>Catharine van Ingen</a>,
-<a href=/gwf-publications/people/N/Nicolas-Vuichard/ data-uni=uni0096>Nicolas Vuichard</a>,
-<a href=/gwf-publications/people/L/Leiming-Zhang/ data-uni=uni0245>Leiming Zhang</a>,
-<a href=/gwf-publications/people/B/Brian-D-Amiro/ data-uni=uni0013>Brian D. Amiro</a>,
-<a href=/gwf-publications/people/C/Christof-Ammann/ data-uni=uni0500>Christof Ammann</a>,
-<a href=/gwf-publications/people/M/M-Altaf-Arain/ data-uni=uni0003>M. Altaf Arain</a>,
-<a href=/gwf-publications/people/J/Jonas-Ard%C3%B6/ data-uni=uni0048>Jonas Ardö</a>,
-<a href=/gwf-publications/people/T/Timothy-J-Arkebauer/ data-uni=uni0031>Timothy J. Arkebauer</a>,
-<a href=/gwf-publications/people/S/Stefan-K-Arndt/ data-uni=uni0046>Stefan K. Arndt</a>,
-<a href=/gwf-publications/people/N/Nicola-Arriga/ data-uni=uni0092>Nicola Arriga</a>,
-<a href=/gwf-publications/people/M/Marc-Aubinet/ data-uni=uni0189>Marc Aubinet</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0030>Mika Aurela</a>,
-<a href=/gwf-publications/people/D/Dennis-D-Baldocchi/ data-uni=uni0021>Dennis D. Baldocchi</a>,
-<a href=/gwf-publications/people/A/Alan-Barr/ data-uni=uni0056>Alan Barr</a>,
-<a href=/gwf-publications/people/E/E-Beamesderfer/ data-uni=uni0050>E. Beamesderfer</a>,
-<a href=/gwf-publications/people/L/Luca-Belelli-Marchesini/ data-uni=uni0108>Luca Belelli Marchesini</a>,
-<a href=/gwf-publications/people/O/Onil-Bergeron/ data-uni=uni0668>Onil Bergeron</a>,
-<a href=/gwf-publications/people/J/Jason-Beringer/ data-uni=uni0136>Jason Beringer</a>,
-<a href=/gwf-publications/people/C/Christian-Bernhofer/ data-uni=uni0200>Christian Bernhofer</a>,
-<a href=/gwf-publications/people/D/Daniel-Berveiller/ data-uni=uni0375>Daniel Berveiller</a>,
-<a href=/gwf-publications/people/D/D-P-Billesbach/ data-uni=uni0031>D. P. Billesbach</a>,
-<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0029>T. Andrew Black</a>,
-<a href=/gwf-publications/people/P/Peter-D-Blanken/ data-uni=uni0126>Peter D. Blanken</a>,
-<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0058>Gil Bohrer</a>,
-<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0134>Julia Boike</a>,
-<a href=/gwf-publications/people/P/Paul-V-Bolstad/ data-uni=uni0666>Paul V. Bolstad</a>,
-<a href=/gwf-publications/people/D/Damien-Bonal/ data-uni=uni0184>Damien Bonal</a>,
-<a href=/gwf-publications/people/J/Jean-Marc-Bonnefond/ data-uni=uni0182>Jean Marc Bonnefond</a>,
-<a href=/gwf-publications/people/D/David-R-Bowling/ data-uni=uni0265>David R. Bowling</a>,
-<a href=/gwf-publications/people/R/Rosvel-Bracho/ data-uni=uni0342>Rosvel Bracho</a>,
-<a href=/gwf-publications/people/J/Jason-Brodeur/ data-uni=uni0003>Jason Brodeur</a>,
-<a href=/gwf-publications/people/C/Christian-Br%C3%BCmmer/ data-uni=uni0679>Christian Brümmer</a>,
-<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni1185>Nina Buchmann</a>,
-<a href=/gwf-publications/people/B/Benoit-Burban/ data-uni=uni0672>Benoit Burban</a>,
-<a href=/gwf-publications/people/S/Sean-P-Burns/ data-uni=uni1225>Sean P. Burns</a>,
-<a href=/gwf-publications/people/P/Pauline-Buysse/ data-uni=uni0590>Pauline Buysse</a>,
-<a href=/gwf-publications/people/P/Peter-Cale/ data-uni=uni0000>Peter Cale</a>,
-<a href=/gwf-publications/people/M/Mauro-Cavagna/ data-uni=uni0108>Mauro Cavagna</a>,
-<a href=/gwf-publications/people/P/Pierre-Cellier/ data-uni=uni0158>Pierre Cellier</a>,
-<a href=/gwf-publications/people/S/Shiping-Chen/ data-uni=uni0710>Shiping Chen</a>,
-<a href=/gwf-publications/people/I/Isaac-Chini/ data-uni=uni0000>Isaac Chini</a>,
-<a href=/gwf-publications/people/T/Torben-R-Christensen/ data-uni=uni0246>Torben R. Christensen</a>,
-<a href=/gwf-publications/people/J/James-Cleverly/ data-uni=uni0356>James Cleverly</a>,
-<a href=/gwf-publications/people/A/Alessio-Collalti/ data-uni=uni0326>Alessio Collalti</a>,
-<a href=/gwf-publications/people/C/Claudia-Consalvo/ data-uni=uni0075>Claudia Consalvo</a>,
-<a href=/gwf-publications/people/B/Bruce-D-Cook/ data-uni=uni0028>Bruce D. Cook</a>,
-<a href=/gwf-publications/people/D/David-Cook/ data-uni=uni0515>David Cook</a>,
-<a href=/gwf-publications/people/C/Carole-Coursolle/ data-uni=uni0041>Carole Coursolle</a>,
-<a href=/gwf-publications/people/E/Edoardo-Cremonese/ data-uni=uni0276>Edoardo Cremonese</a>,
-<a href=/gwf-publications/people/P/Peter-S-Curtis/ data-uni=uni0058>Peter S. Curtis</a>,
-<a href=/gwf-publications/people/P/Paolo-Villari/ data-uni=uni0311>Paolo Villari</a>,
-<a href=/gwf-publications/people/H/Humberto-Ribeiro-da-Rocha/ data-uni=uni0351>Humberto Ribeiro da Rocha</a>,
-<a href=/gwf-publications/people/X/Xiaoqin-Dai/ data-uni=uni0068>Xiaoqin Dai</a>,
-<a href=/gwf-publications/people/K/Kenneth-L-Davis/ data-uni=uni0695>Kenneth L. Davis</a>,
-<a href=/gwf-publications/people/B/Bruno-De-Cinti/ data-uni=uni0075>Bruno De Cinti</a>,
-<a href=/gwf-publications/people/A/Agn%C3%A8s-de-Grandcourt/ data-uni=uni0511>Agnès de Grandcourt</a>,
-<a href=/gwf-publications/people/A/Anne-De-Ligne/ data-uni=uni0189>Anne De Ligne</a>,
-<a href=/gwf-publications/people/R/Raimundo-Cosme-de-Oliveira-Junior/ data-uni=uni0549>Raimundo Cosme de Oliveira Junior</a>,
-<a href=/gwf-publications/people/N/Nicolas-Delpierre/ data-uni=uni0375>Nicolas Delpierre</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0082>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/C/Carlos-Marcelo-Di-Bella/ data-uni=uni0682>Carlos Marcelo Di Bella</a>,
-<a href=/gwf-publications/people/P/Paul-Di-Tommasi/ data-uni=uni0075>Paul Di Tommasi</a>,
-<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0071>A. J. Dolman</a>,
-<a href=/gwf-publications/people/F/Francisco-Domingo/ data-uni=uni0242>Francisco Domingo</a>,
-<a href=/gwf-publications/people/G/Gang-Dong/ data-uni=uni0687>Gang Dong</a>,
-<a href=/gwf-publications/people/S/Sabina-Dore/ data-uni=uni0050>Sabina Dore</a>,
-<a href=/gwf-publications/people/P/Pierpaolo-Duce/ data-uni=uni0075>Pierpaolo Duce</a>,
-<a href=/gwf-publications/people/E/Eric-Dufr%C3%AAne/ data-uni=uni0375>Eric Dufrêne</a>,
-<a href=/gwf-publications/people/A/Allison-L-Dunn/ data-uni=uni1315>Allison L. Dunn</a>,
-<a href=/gwf-publications/people/J/Ji%C5%99%C3%AD-Du%C5%A1ek/ data-uni=uni0481>Jiří Dušek</a>,
-<a href=/gwf-publications/people/D/Derek-Eamus/ data-uni=uni0271>Derek Eamus</a>,
-<a href=/gwf-publications/people/U/Uwe-Eichelmann/ data-uni=uni0157>Uwe Eichelmann</a>,
-<a href=/gwf-publications/people/H/Hatim-Abdalla-M-ElKhidir/ data-uni=uni0686>Hatim Abdalla M. ElKhidir</a>,
-<a href=/gwf-publications/people/W/Werner-Eugster/ data-uni=uni0040>Werner Eugster</a>,
-<a href=/gwf-publications/people/C/Cacilia-Ewenz/ data-uni=uni0506>Cacilia Ewenz</a>,
-<a href=/gwf-publications/people/B/Brent-E-Ewers/ data-uni=uni0503>Brent E. Ewers</a>,
-<a href=/gwf-publications/people/D/Daniela-Famulari/ data-uni=uni0075>Daniela Famulari</a>,
-<a href=/gwf-publications/people/S/Silvano-Fares/ data-uni=uni0683>Silvano Fares</a>,
-<a href=/gwf-publications/people/I/Iris-Feigenwinter/ data-uni=uni0040>Iris Feigenwinter</a>,
-<a href=/gwf-publications/people/A/Andrew-Feitz/ data-uni=uni0502>Andrew Feitz</a>,
-<a href=/gwf-publications/people/R/Rasmus-Fensholt/ data-uni=uni0065>Rasmus Fensholt</a>,
-<a href=/gwf-publications/people/G/Gianluca-Filippa/ data-uni=uni0315>Gianluca Filippa</a>,
-<a href=/gwf-publications/people/M/Marc-Fischer/ data-uni=uni0016>Marc Fischer</a>,
-<a href=/gwf-publications/people/J/John-Frank/ data-uni=uni0064>John Frank</a>,
-<a href=/gwf-publications/people/M/Marta-Galvagno/ data-uni=uni0276>Marta Galvagno</a>,
-<a href=/gwf-publications/people/M/Mana-Gharun/ data-uni=uni0040>Mana Gharun</a>,
-<a href=/gwf-publications/people/D/Damiano-Gianelle/ data-uni=uni0108>Damiano Gianelle</a>,
-<a href=/gwf-publications/people/B/Bert-Gielen/ data-uni=uni0092>Bert Gielen</a>,
-<a href=/gwf-publications/people/B/Beniamino-Gioli/ data-uni=uni0075>Beniamino Gioli</a>,
-<a href=/gwf-publications/people/A/Anatoly-A-Gitelson/ data-uni=uni0031>Anatoly A. Gitelson</a>,
-<a href=/gwf-publications/people/I/Ignacio-Goded/ data-uni=uni0109>Ignacio Goded</a>,
-<a href=/gwf-publications/people/M/Mathias-G%C3%B6ckede/ data-uni=uni0025>Mathias Göckede</a>,
-<a href=/gwf-publications/people/A/Allen-H-Goldstein/ data-uni=uni0021>Allen H. Goldstein</a>,
-<a href=/gwf-publications/people/C/Christopher-M-Gough/ data-uni=uni0329>Christopher M. Gough</a>,
-<a href=/gwf-publications/people/M/Michael-L-Goulden/ data-uni=uni0083>Michael L. Goulden</a>,
-<a href=/gwf-publications/people/A/Alexander-Graf/ data-uni=uni0706>Alexander Graf</a>,
-<a href=/gwf-publications/people/A/Anne-Griebel/ data-uni=uni0359>Anne Griebel</a>,
-<a href=/gwf-publications/people/C/Carsten-Gruening/ data-uni=uni0109>Carsten Gruening</a>,
-<a href=/gwf-publications/people/T/Thomas-Gr%C3%BCnwald/ data-uni=uni0157>Thomas Grünwald</a>,
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data" name=citation_title><meta content="G. Pastorello" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="E. Canfora" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="D. S. Christianson" name=citation_author><meta content="You-Wei Cheah" name=citation_author><meta content="C. Poindexter" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Abdelrahman Elbashandy" name=citation_author><meta content="Marty Humphrey" name=citation_author><meta content="Peter Isaac" name=citation_author><meta content="Diego Polidori" name=citation_author><meta content="Markus Reichstein" name=citation_author><meta content="Alessio Ribeca" name=citation_author><meta content="Catharine van Ingen" name=citation_author><meta content="Nicolas Vuichard" name=citation_author><meta content="Leiming Zhang" name=citation_author><meta content="B.D. Amiro" name=citation_author><meta content="Christof Ammann" name=citation_author><meta content="M. Altaf Arain" name=citation_author><meta content="Jonas Ardö" name=citation_author><meta content="Timothy J. Arkebauer" name=citation_author><meta content="Stefan K. Arndt" name=citation_author><meta content="Nicola Arriga" name=citation_author><meta content="Marc Aubinet" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Alan Barr" name=citation_author><meta content="Eric Beamesderfer" name=citation_author><meta content="Luca Belelli Marchesini" name=citation_author><meta content="Onil Bergeron" name=citation_author><meta content="Jason Beringer" name=citation_author><meta content="Christian Bernhofer" name=citation_author><meta content="Daniel Berveiller" name=citation_author><meta content="D. P. Billesbach" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="Peter D. Blanken" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Paul V. Bolstad" name=citation_author><meta content="Damien Bonal" name=citation_author><meta content="Jean-Marc Bonnefond" name=citation_author><meta content="David R. Bowling" name=citation_author><meta content="Rosvel Bracho" name=citation_author><meta content="Jason Brodeur" name=citation_author><meta content="Christian Brümmer" name=citation_author><meta content="Nina Buchmann" name=citation_author><meta content="Benoit Burban" name=citation_author><meta content="Sean P. Burns" name=citation_author><meta content="Pauline Buysse" name=citation_author><meta content="Peter Cale" name=citation_author><meta content="M. Cavagna" name=citation_author><meta content="Pierre Cellier" name=citation_author><meta content="Shiping Chen" name=citation_author><meta content="Isaac Chini" name=citation_author><meta content="T. R. Christensen" name=citation_author><meta content="James Cleverly" name=citation_author><meta content="Alessio Collalti" name=citation_author><meta content="Claudia Consalvo" name=citation_author><meta content="Bruce D. Cook" name=citation_author><meta content="David Cook" name=citation_author><meta content="Carole Coursolle" name=citation_author><meta content="Edoardo Cremonese" name=citation_author><meta content="Peter S. Curtis" name=citation_author><meta content="Ettore D'Andrea" name=citation_author><meta content="Humberto da Rocha" name=citation_author><meta content="Xiaoqin Dai" name=citation_author><meta content="Kenneth J. Davis" name=citation_author><meta content="Bruno De Cinti" name=citation_author><meta content="A. de Grandcourt" name=citation_author><meta content="Anne De Ligne" name=citation_author><meta content="Raimundo Cosme de Oliveira Junior" name=citation_author><meta content="Nicolas Delpierre" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Carlos Marcelo Di Bella" name=citation_author><meta content="Paul Di Tommasi" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Francisco Domingo" name=citation_author><meta content="Gang Dong" name=citation_author><meta content="Sabina Dore" name=citation_author><meta content="Pierpaolo Duce" name=citation_author><meta content="Eric Dufrêne" name=citation_author><meta content="Allison L. Dunn" name=citation_author><meta content="J.T. Dusek" name=citation_author><meta content="Derek Eamus" name=citation_author><meta content="Uwe Eichelmann" name=citation_author><meta content="Hatim Abdalla M. ElKhidir" name=citation_author><meta content="Werner Eugster" name=citation_author><meta content="Cacilia Ewenz" name=citation_author><meta content="B. E. Ewers" name=citation_author><meta content="D. Famulari" name=citation_author><meta content="Silvano Fares" name=citation_author><meta content="Iris Feigenwinter" name=citation_author><meta content="Andrew Feitz" name=citation_author><meta content="Rasmus Fensholt" name=citation_author><meta content="Gianluca Filippa" name=citation_author><meta content="M. L. Fischer" name=citation_author><meta content="J. M. Frank" name=citation_author><meta content="Marta Galvagno" name=citation_author><meta content="Mana Gharun" name=citation_author><meta content="Damiano Gianelle" name=citation_author><meta content="Bert Gielen" name=citation_author><meta content="Beniamino Gioli" name=citation_author><meta content="Anatoly A. Gitelson" name=citation_author><meta content="Ignacio Goded" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Allen H. Goldstein" name=citation_author><meta content="Christopher M. Gough" name=citation_author><meta content="Michael L. Goulden" name=citation_author><meta content="Alexander Graf" name=citation_author><meta content="Anne Griebel" name=citation_author><meta content="Carsten Gruening" name=citation_author><meta content="Thomas Grünwald" name=citation_author><meta content="Albin Hammerle" name=citation_author><meta content="Shijie Han" name=citation_author><meta content="Xingguo Han" name=citation_author><meta content="Birger Ulf Hansen" name=citation_author><meta content="Chad Hanson" name=citation_author><meta content="Juha Hatakka" name=citation_author><meta content="Yongtao He" name=citation_author><meta content="Markus Hehn" name=citation_author><meta content="Bernard Heinesch" name=citation_author><meta content="Nina Hinko-Najera" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Lindsay B. Hutley" name=citation_author><meta content="Andreas Ibrom" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Marcin Jackowicz-Korczynski" name=citation_author><meta content="Dalibor Janouš" name=citation_author><meta content="W.W.P. Jans" name=citation_author><meta content="Rachhpal S. Jassal" name=citation_author><meta content="Shicheng Jiang" name=citation_author><meta content="Tomomichi Kato" name=citation_author><meta content="Myroslava Khomik" name=citation_author><meta content="Janina Klatt" name=citation_author><meta content="Alexander Knohl" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Georgia R. Koerber" name=citation_author><meta content="Olaf Kolle" name=citation_author><meta content="Yukio Kosugi" name=citation_author><meta content="Ayumi Kotani" name=citation_author><meta content="Andrew S. Kowalski" name=citation_author><meta content="B. Kruijt" name=citation_author><meta content="Juliya Kurbatova" name=citation_author><meta content="Werner L. Kutsch" name=citation_author><meta content="Hyojung Kwon" name=citation_author><meta content="Samuli Launiainen" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="B. E. Law" name=citation_author><meta content="R. Leuning" name=citation_author><meta content="Yingnian Li" name=citation_author><meta content="Michael J. Liddell" name=citation_author><meta content="Jean-Marc Limousin" name=citation_author><meta content="Marryanna Lion" name=citation_author><meta content="Adam Liska" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ana López-Ballesteros" name=citation_author><meta content="Efrén López-Blanco" name=citation_author><meta content="Benjamin Loubet" name=citation_author><meta content="Denis Loustau" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Johannes Lüers" name=citation_author><meta content="Siyan Ma" name=citation_author><meta content="Craig Macfarlane" name=citation_author><meta content="Vincenzo Magliulo" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Giovanni Manca" name=citation_author><meta content="Barbara Marcolla" name=citation_author><meta content="Hank A. Margolis" name=citation_author><meta content="Serena Marras" name=citation_author><meta content="W. J. Massman" name=citation_author><meta content="Mikhail Mastepanov" name=citation_author><meta content="Roser Matamala" name=citation_author><meta content="Jaclyn Hatala Matthes" name=citation_author><meta content="Francesco Mazzenga" name=citation_author><meta content="Harry McCaughey" name=citation_author><meta content="Ian McHugh" name=citation_author><meta content="Andrew M. S. McMillan" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Wayne S. Meyer" name=citation_author><meta content="Tilden P. Meyers" name=citation_author><meta content="S. D. Miller" name=citation_author><meta content="Stefano Minerbi" name=citation_author><meta content="Uta Moderow" name=citation_author><meta content="Russell K. Monson" name=citation_author><meta content="Leonardo Montagnani" name=citation_author><meta content="Caitlin E. Moore" name=citation_author><meta content="E.J. Moors" name=citation_author><meta content="Virginie Moreaux" name=citation_author><meta content="Christine Moureaux" name=citation_author><meta content="J. William Munger" name=citation_author><meta content="T. Nakai" name=citation_author><meta content="Johan Neirynck" name=citation_author><meta content="Zoran Nesic" name=citation_author><meta content="Giacomo Nicolini" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthew Northwood" name=citation_author><meta content="Marcelo D. Nosetto" name=citation_author><meta content="Yann Nouvellon" name=citation_author><meta content="Kimberly A. Novick" name=citation_author><meta content="W. C. Oechel" name=citation_author><meta content="Jørgen E. Olesen" name=citation_author><meta content="Jean-Marc Ourcival" name=citation_author><meta content="S. A. Papuga" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Eugénie Paul-Limoges" name=citation_author><meta content="Marian Pavelka" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Elise Pendall" name=citation_author><meta content="Richard P. Phillips" name=citation_author><meta content="Kim Pilegaard" name=citation_author><meta content="Norbert Pirk" name=citation_author><meta content="Gabriela Posse" name=citation_author><meta content="Thomas L. Powell" name=citation_author><meta content="Heiko Prasse" name=citation_author><meta content="Suzanne M. Prober" name=citation_author><meta content="Serge Rambal" name=citation_author><meta content="Üllar Rannik" name=citation_author><meta content="Naama Raz-Yaseef" name=citation_author><meta content="Corinna Rebmann" name=citation_author><meta content="David E. Reed" name=citation_author><meta content="Víctor Resco de Dios" name=citation_author><meta content="Natalia Restrepo-Coupe" name=citation_author><meta content="Borja R. Reverter" name=citation_author><meta content="Marilyn Roland" name=citation_author><meta content="Simone Sabbatini" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="S. R. Saleska" name=citation_author><meta content="Enrique P. Sánchez-Cañete" name=citation_author><meta content="Z. M. Sanchez-Mejia" name=citation_author><meta content="Hans Peter Schmid" name=citation_author><meta content="Marius Schmidt" name=citation_author><meta content="Karl Schneider" name=citation_author><meta content="Frederik Schrader" name=citation_author><meta content="Ivan Schroder" name=citation_author><meta content="Russell L. Scott" name=citation_author><meta content="Pavel Sedlák" name=citation_author><meta content="Penélope Serrano-Ortiz" name=citation_author><meta content="Changliang Shao" name=citation_author><meta content="Peili Shi" name=citation_author><meta content="Ivan Shironya" name=citation_author><meta content="Lukas Siebicke" name=citation_author><meta content="Ladislav Šigut" name=citation_author><meta content="Richard Silberstein" name=citation_author><meta content="Costantino Sirca" name=citation_author><meta content="Donatella Spano" name=citation_author><meta content="R. Steinbrecher" name=citation_author><meta content="Robert M. Stevens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Andy Suyker" name=citation_author><meta content="Torbern Tagesson" name=citation_author><meta content="Satoru Takanashi" name=citation_author><meta content="Yanhong Tang" name=citation_author><meta content="Nigel Tapper" name=citation_author><meta content="Jonathan E. Thom" name=citation_author><meta content="Michele Tomassucci" name=citation_author><meta content="Juha-Pekka Tuovinen" name=citation_author><meta content="S. P. Urbanski" name=citation_author><meta content="R. Valentini" name=citation_author><meta content="M. K. van der Molen" name=citation_author><meta content="Eva van Gorsel" name=citation_author><meta content="J. van Huissteden" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joe Verfaillie" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Caroline Vincke" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="N. N. Vygodskaya" name=citation_author><meta content="Jeffrey P. Walker" name=citation_author><meta content="Elizabeth A. Walter-Shea" name=citation_author><meta content="Huimin Wang" name=citation_author><meta content="R. J. Weber" name=citation_author><meta content="Sebastian Westermann" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Steven C. Wofsy" name=citation_author><meta content="Georg Wohlfahrt" name=citation_author><meta content="Sebastian Wolf" name=citation_author><meta content="William Woodgate" name=citation_author><meta content="Yuelin Li" name=citation_author><meta content="Roberto Zampedri" name=citation_author><meta content="Junhui Zhang" name=citation_author><meta content="Guoyi Zhou" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="D. Agarwal" name=citation_author><meta content="S. Biraud" name=citation_author><meta content="M. S. Torn" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Scientific Data, Volume 8, Issue 1" name=citation_journal_title><meta content="8" name=citation_volume><meta content="1" name=citation_issue><meta content="2021" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001.pdf" name=citation_pdf_url><meta content="10.1038/s41597-021-00851-9" name=citation_doi><meta property="og:title" content="Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-159001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-159001"><meta property="og:description" content="G. Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You-Wei Cheah, C. Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, B.D. Amiro, Christof Ammann, M. Altaf Arain, Jonas Ardö, Timothy J. Arkebauer, Stefan K. Arndt, Nicola Arriga, Marc Aubinet, Mika Aurela, Dennis Baldocchi, Alan Barr, Eric Beamesderfer, Luca Belelli Marchesini, Onil Bergeron, Jason Beringer, Christian Bernhofer, Daniel Berveiller, D. P. Billesbach, T. Andrew Black, Peter D. Blanken, Gil Bohrer, Julia Boike, Paul V. Bolstad, Damien Bonal, Jean-Marc Bonnefond, David R. Bowling, Rosvel Bracho, Jason Brodeur, Christian Brümmer, Nina Buchmann, Benoit Burban, Sean P. Burns, Pauline Buysse, Peter Cale, M. Cavagna, Pierre Cellier, Shiping Chen, Isaac Chini, T. R. Christensen, James Cleverly, Alessio Collalti, Claudia Consalvo, Bruce D. Cook, David Cook, Carole Coursolle, Edoardo Cremonese, Peter S. Curtis, Ettore D'Andrea, Humberto da Rocha, Xiaoqin Dai, Kenneth J. Davis, Bruno De Cinti, A. de Grandcourt, Anne De Ligne, Raimundo Cosme de Oliveira Junior, Nicolas Delpierre, Ankur R. Desai, Carlos Marcelo Di Bella, Paul Di Tommasi, A. J. Dolman, Francisco Domingo, Gang Dong, Sabina Dore, Pierpaolo Duce, Eric Dufrêne, Allison L. Dunn, J.T. Dusek, Derek Eamus, Uwe Eichelmann, Hatim Abdalla M. ElKhidir, Werner Eugster, Cacilia Ewenz, B. E. Ewers, D. Famulari, Silvano Fares, Iris Feigenwinter, Andrew Feitz, Rasmus Fensholt, Gianluca Filippa, M. L. Fischer, J. M. Frank, Marta Galvagno, Mana Gharun, Damiano Gianelle, Bert Gielen, Beniamino Gioli, Anatoly A. Gitelson, Ignacio Goded, Mathias Goeckede, Allen H. Goldstein, Christopher M. Gough, Michael L. Goulden, Alexander Graf, Anne Griebel, Carsten Gruening, Thomas Grünwald, Albin Hammerle, Shijie Han, Xingguo Han, Birger Ulf Hansen, Chad Hanson, Juha Hatakka, Yongtao He, Markus Hehn, Bernard Heinesch, Nina Hinko-Najera, Lukas Hörtnagl, Lindsay B. Hutley, Andreas Ibrom, Hiroki Ikawa, Marcin Jackowicz-Korczynski, Dalibor Janouš, W.W.P. Jans, Rachhpal S. Jassal, Shicheng Jiang, Tomomichi Kato, Myroslava Khomik, Janina Klatt, Alexander Knohl, Sara Knox, Hideki Kobayashi, Georgia R. Koerber, Olaf Kolle, Yukio Kosugi, Ayumi Kotani, Andrew S. Kowalski, B. Kruijt, Juliya Kurbatova, Werner L. Kutsch, Hyojung Kwon, Samuli Launiainen, Tuomas Laurila, B. E. Law, R. Leuning, Yingnian Li, Michael J. Liddell, Jean-Marc Limousin, Marryanna Lion, Adam Liska, Annalea Lohila, Ana López-Ballesteros, Efrén López-Blanco, Benjamin Loubet, Denis Loustau, Antje Lucas-Moffat, Johannes Lüers, Siyan Ma, Craig Macfarlane, Vincenzo Magliulo, Regine Maier, Ivan Mammarella, Giovanni Manca, Barbara Marcolla, Hank A. Margolis, Serena Marras, W. J. Massman, Mikhail Mastepanov, Roser Matamala, Jaclyn Hatala Matthes, Francesco Mazzenga, Harry McCaughey, Ian McHugh, Andrew M. S. McMillan, Lutz Merbold, Wayne S. Meyer, Tilden P. Meyers, S. D. Miller, Stefano Minerbi, Uta Moderow, Russell K. Monson, Leonardo Montagnani, Caitlin E. Moore, E.J. Moors, Virginie Moreaux, Christine Moureaux, J. William Munger, T. Nakai, Johan Neirynck, Zoran Nesic, Giacomo Nicolini, Asko Noormets, Matthew Northwood, Marcelo D. Nosetto, Yann Nouvellon, Kimberly A. Novick, W. C. Oechel, Jørgen E. Olesen, Jean-Marc Ourcival, S. A. Papuga, Frans-Jan W. Parmentier, Eugénie Paul-Limoges, Marian Pavelka, Matthias Peichl, Elise Pendall, Richard P. Phillips, Kim Pilegaard, Norbert Pirk, Gabriela Posse, Thomas L. Powell, Heiko Prasse, Suzanne M. Prober, Serge Rambal, Üllar Rannik, Naama Raz-Yaseef, Corinna Rebmann, David E. Reed, Víctor Resco de Dios, Natalia Restrepo-Coupe, Borja R. Reverter, Marilyn Roland, Simone Sabbatini, Torsten Sachs, S. R. Saleska, Enrique P. Sánchez-Cañete, Z. M. Sanchez-Mejia, Hans Peter Schmid, Marius Schmidt, Karl Schneider, Frederik Schrader, Ivan Schroder, Russell L. Scott, Pavel Sedlák, Penélope Serrano-Ortiz, Changliang Shao, Peili Shi, Ivan Shironya, Lukas Siebicke, Ladislav Šigut, Richard Silberstein, Costantino Sirca, Donatella Spano, R. Steinbrecher, Robert M. Stevens, Cove Sturtevant, Andy Suyker, Torbern Tagesson, Satoru Takanashi, Yanhong Tang, Nigel Tapper, Jonathan E. Thom, Michele Tomassucci, Juha-Pekka Tuovinen, S. P. Urbanski, R. Valentini, M. K. van der Molen, Eva van Gorsel, J. van Huissteden, Andrej Varlagin, Joe Verfaillie, Timo Vesala, Caroline Vincke, Domenico Vitale, N. N. Vygodskaya, Jeffrey P. Walker, Elizabeth A. Walter-Shea, Huimin Wang, R. J. Weber, Sebastian Westermann, Christian Wille, Steven C. Wofsy, Georg Wohlfahrt, Sebastian Wolf, William Woodgate, Yuelin Li, Roberto Zampedri, Junhui Zhang, Guoyi Zhou, Donatella Zona, D. Agarwal, S. Biraud, M. S. Torn, Dario Papale. Scientific Data, Volume 8, Issue 1. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a></h2><p class=lead><a href=/gwf-publications/people/G/G-Pastorello/ data-uni=uni0025>G. Pastorello</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0095>Carlo Trotta</a>,
+<a href=/gwf-publications/people/E/E-Canfora/ data-uni=uni0109>E. Canfora</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0025>Housen Chu</a>,
+<a href=/gwf-publications/people/D/D-S-Christianson/ data-uni=uni0025>D. S. Christianson</a>,
+<a href=/gwf-publications/people/Y/You-Wei-Cheah/ data-uni=uni0025>You-Wei Cheah</a>,
+<a href=/gwf-publications/people/C/C-Poindexter/ data-uni=uni0526>C. Poindexter</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0098>Jiquan Chen</a>,
+<a href=/gwf-publications/people/A/Abdelrahman-Elbashandy/ data-uni=uni0025>Abdelrahman Elbashandy</a>,
+<a href=/gwf-publications/people/M/Marty-Humphrey/ data-uni=uni0142>Marty Humphrey</a>,
+<a href=/gwf-publications/people/P/Peter-Isaac/ data-uni=uni0214>Peter Isaac</a>,
+<a href=/gwf-publications/people/D/Diego-Polidori/ data-uni=uni0109>Diego Polidori</a>,
+<a href=/gwf-publications/people/M/Markus-Reichstein/ data-uni=uni0034>Markus Reichstein</a>,
+<a href=/gwf-publications/people/A/Alessio-Ribeca/ data-uni=uni0109>Alessio Ribeca</a>,
+<a href=/gwf-publications/people/C/Catharine-van-Ingen/ data-uni=uni0025>Catharine van Ingen</a>,
+<a href=/gwf-publications/people/N/Nicolas-Vuichard/ data-uni=uni0124>Nicolas Vuichard</a>,
+<a href=/gwf-publications/people/L/Leiming-Zhang/ data-uni=uni0005>Leiming Zhang</a>,
+<a href=/gwf-publications/people/B/BD-Amiro/ data-uni=uni0020>B.D. Amiro</a>,
+<a href=/gwf-publications/people/C/Christof-Ammann/ data-uni=uni0185>Christof Ammann</a>,
+<a href=/gwf-publications/people/M/M-Altaf-Arain/ data-uni=uni0004>M. Altaf Arain</a>,
+<a href=/gwf-publications/people/J/Jonas-Ard%C3%B6/ data-uni=uni0044>Jonas Ardö</a>,
+<a href=/gwf-publications/people/T/Timothy-J-Arkebauer/ data-uni=uni0068>Timothy J. Arkebauer</a>,
+<a href=/gwf-publications/people/S/Stefan-K-Arndt/ data-uni=uni0563>Stefan K. Arndt</a>,
+<a href=/gwf-publications/people/N/Nicola-Arriga/ data-uni=uni0081>Nicola Arriga</a>,
+<a href=/gwf-publications/people/M/Marc-Aubinet/ data-uni=uni0215>Marc Aubinet</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0040>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/A/Alan-Barr/ data-uni=uni0061>Alan Barr</a>,
+<a href=/gwf-publications/people/E/Eric-Beamesderfer/ data-uni=uni0013>Eric Beamesderfer</a>,
+<a href=/gwf-publications/people/L/Luca-Belelli-Marchesini/ data-uni=uni0100>Luca Belelli Marchesini</a>,
+<a href=/gwf-publications/people/O/Onil-Bergeron/ data-uni=uni0695>Onil Bergeron</a>,
+<a href=/gwf-publications/people/J/Jason-Beringer/ data-uni=uni0196>Jason Beringer</a>,
+<a href=/gwf-publications/people/C/Christian-Bernhofer/ data-uni=uni0184>Christian Bernhofer</a>,
+<a href=/gwf-publications/people/D/Daniel-Berveiller/ data-uni=uni0560>Daniel Berveiller</a>,
+<a href=/gwf-publications/people/D/D-P-Billesbach/ data-uni=uni0068>D. P. Billesbach</a>,
+<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0012>T. Andrew Black</a>,
+<a href=/gwf-publications/people/P/Peter-D-Blanken/ data-uni=uni0058>Peter D. Blanken</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0072>Gil Bohrer</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0155>Julia Boike</a>,
+<a href=/gwf-publications/people/P/Paul-V-Bolstad/ data-uni=uni0149>Paul V. Bolstad</a>,
+<a href=/gwf-publications/people/D/Damien-Bonal/ data-uni=uni0263>Damien Bonal</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Bonnefond/ data-uni=uni0676>Jean-Marc Bonnefond</a>,
+<a href=/gwf-publications/people/D/David-R-Bowling/ data-uni=uni0177>David R. Bowling</a>,
+<a href=/gwf-publications/people/R/Rosvel-Bracho/ data-uni=uni0121>Rosvel Bracho</a>,
+<a href=/gwf-publications/people/J/Jason-Brodeur/ data-uni=uni0004>Jason Brodeur</a>,
+<a href=/gwf-publications/people/C/Christian-Br%C3%BCmmer/ data-uni=uni0355>Christian Brümmer</a>,
+<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni0046>Nina Buchmann</a>,
+<a href=/gwf-publications/people/B/Benoit-Burban/ data-uni=uni0675>Benoit Burban</a>,
+<a href=/gwf-publications/people/S/Sean-P-Burns/ data-uni=uni0360>Sean P. Burns</a>,
+<a href=/gwf-publications/people/P/Pauline-Buysse/ data-uni=uni0456>Pauline Buysse</a>,
+<a href=/gwf-publications/people/P/Peter-Cale/ data-uni=uni0674>Peter Cale</a>,
+<a href=/gwf-publications/people/M/M-Cavagna/ data-uni=uni0100>M. Cavagna</a>,
+<a href=/gwf-publications/people/P/Pierre-Cellier/ data-uni=uni0124>Pierre Cellier</a>,
+<a href=/gwf-publications/people/S/Shiping-Chen/ data-uni=uni0270>Shiping Chen</a>,
+<a href=/gwf-publications/people/I/Isaac-Chini/ data-uni=uni0100>Isaac Chini</a>,
+<a href=/gwf-publications/people/T/T-R-Christensen/ data-uni=uni0038>T. R. Christensen</a>,
+<a href=/gwf-publications/people/J/James-Cleverly/ data-uni=uni0214>James Cleverly</a>,
+<a href=/gwf-publications/people/A/Alessio-Collalti/ data-uni=uni0043>Alessio Collalti</a>,
+<a href=/gwf-publications/people/C/Claudia-Consalvo/ data-uni=uni0043>Claudia Consalvo</a>,
+<a href=/gwf-publications/people/B/Bruce-D-Cook/ data-uni=uni0051>Bruce D. Cook</a>,
+<a href=/gwf-publications/people/D/David-Cook/ data-uni=uni0654>David Cook</a>,
+<a href=/gwf-publications/people/C/Carole-Coursolle/ data-uni=uni0300>Carole Coursolle</a>,
+<a href=/gwf-publications/people/E/Edoardo-Cremonese/ data-uni=uni0138>Edoardo Cremonese</a>,
+<a href=/gwf-publications/people/P/Peter-S-Curtis/ data-uni=uni0072>Peter S. Curtis</a>,
+<a href=/gwf-publications/people/E/Ettore-DAndrea/ data-uni=uni0043>Ettore D'Andrea</a>,
+<a href=/gwf-publications/people/H/Humberto-da-Rocha/ data-uni=uni0434>Humberto da Rocha</a>,
+<a href=/gwf-publications/people/X/Xiaoqin-Dai/ data-uni=uni0200>Xiaoqin Dai</a>,
+<a href=/gwf-publications/people/K/Kenneth-J-Davis/ data-uni=uni0166>Kenneth J. Davis</a>,
+<a href=/gwf-publications/people/B/Bruno-De-Cinti/ data-uni=uni0043>Bruno De Cinti</a>,
+<a href=/gwf-publications/people/A/A-de-Grandcourt/ data-uni=uni0286>A. de Grandcourt</a>,
+<a href=/gwf-publications/people/A/Anne-De-Ligne/ data-uni=uni0215>Anne De Ligne</a>,
+<a href=/gwf-publications/people/R/Raimundo-Cosme-de-Oliveira-Junior/ data-uni=uni0385>Raimundo Cosme de Oliveira Junior</a>,
+<a href=/gwf-publications/people/N/Nicolas-Delpierre/ data-uni=uni0602>Nicolas Delpierre</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0050>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/C/Carlos-Marcelo-Di-Bella/ data-uni=uni0659>Carlos Marcelo Di Bella</a>,
+<a href=/gwf-publications/people/P/Paul-Di-Tommasi/ data-uni=uni0043>Paul Di Tommasi</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0199>A. J. Dolman</a>,
+<a href=/gwf-publications/people/F/Francisco-Domingo/ data-uni=uni0661>Francisco Domingo</a>,
+<a href=/gwf-publications/people/G/Gang-Dong/ data-uni=uni0662>Gang Dong</a>,
+<a href=/gwf-publications/people/S/Sabina-Dore/ data-uni=uni0013>Sabina Dore</a>,
+<a href=/gwf-publications/people/P/Pierpaolo-Duce/ data-uni=uni0043>Pierpaolo Duce</a>,
+<a href=/gwf-publications/people/E/Eric-Dufr%C3%AAne/ data-uni=uni0124>Eric Dufrêne</a>,
+<a href=/gwf-publications/people/A/Allison-L-Dunn/ data-uni=uni0412>Allison L. Dunn</a>,
+<a href=/gwf-publications/people/J/JT-Dusek/ data-uni=uni0102>J.T. Dusek</a>,
+<a href=/gwf-publications/people/D/Derek-Eamus/ data-uni=uni0665>Derek Eamus</a>,
+<a href=/gwf-publications/people/U/Uwe-Eichelmann/ data-uni=uni0184>Uwe Eichelmann</a>,
+<a href=/gwf-publications/people/H/Hatim-Abdalla-M-ElKhidir/ data-uni=uni0666>Hatim Abdalla M. ElKhidir</a>,
+<a href=/gwf-publications/people/W/Werner-Eugster/ data-uni=uni0046>Werner Eugster</a>,
+<a href=/gwf-publications/people/C/Cacilia-Ewenz/ data-uni=uni0214>Cacilia Ewenz</a>,
+<a href=/gwf-publications/people/B/B-E-Ewers/ data-uni=uni0445>B. E. Ewers</a>,
+<a href=/gwf-publications/people/D/D-Famulari/ data-uni=uni0043>D. Famulari</a>,
+<a href=/gwf-publications/people/S/Silvano-Fares/ data-uni=uni0043>Silvano Fares</a>,
+<a href=/gwf-publications/people/I/Iris-Feigenwinter/ data-uni=uni0046>Iris Feigenwinter</a>,
+<a href=/gwf-publications/people/A/Andrew-Feitz/ data-uni=uni0447>Andrew Feitz</a>,
+<a href=/gwf-publications/people/R/Rasmus-Fensholt/ data-uni=uni0057>Rasmus Fensholt</a>,
+<a href=/gwf-publications/people/G/Gianluca-Filippa/ data-uni=uni0138>Gianluca Filippa</a>,
+<a href=/gwf-publications/people/M/M-L-Fischer/ data-uni=uni0046>M. L. Fischer</a>,
+<a href=/gwf-publications/people/J/J-M-Frank/ data-uni=uni0265>J. M. Frank</a>,
+<a href=/gwf-publications/people/M/Marta-Galvagno/ data-uni=uni0138>Marta Galvagno</a>,
+<a href=/gwf-publications/people/M/Mana-Gharun/ data-uni=uni0046>Mana Gharun</a>,
+<a href=/gwf-publications/people/D/Damiano-Gianelle/ data-uni=uni0100>Damiano Gianelle</a>,
+<a href=/gwf-publications/people/B/Bert-Gielen/ data-uni=uni0175>Bert Gielen</a>,
+<a href=/gwf-publications/people/B/Beniamino-Gioli/ data-uni=uni0321>Beniamino Gioli</a>,
+<a href=/gwf-publications/people/A/Anatoly-A-Gitelson/ data-uni=uni0068>Anatoly A. Gitelson</a>,
+<a href=/gwf-publications/people/I/Ignacio-Goded/ data-uni=uni0081>Ignacio Goded</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0034>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/A/Allen-H-Goldstein/ data-uni=uni0040>Allen H. Goldstein</a>,
+<a href=/gwf-publications/people/C/Christopher-M-Gough/ data-uni=uni0167>Christopher M. Gough</a>,
+<a href=/gwf-publications/people/M/Michael-L-Goulden/ data-uni=uni0176>Michael L. Goulden</a>,
+<a href=/gwf-publications/people/A/Alexander-Graf/ data-uni=uni0254>Alexander Graf</a>,
+<a href=/gwf-publications/people/A/Anne-Griebel/ data-uni=uni0173>Anne Griebel</a>,
+<a href=/gwf-publications/people/C/Carsten-Gruening/ data-uni=uni0081>Carsten Gruening</a>,
+<a href=/gwf-publications/people/T/Thomas-Gr%C3%BCnwald/ data-uni=uni0184>Thomas Grünwald</a>,
 <a href=/gwf-publications/people/A/Albin-Hammerle/ data-uni=uni0015>Albin Hammerle</a>,
-<a href=/gwf-publications/people/S/Shijie-Han/ data-uni=uni0732>Shijie Han</a>,
-<a href=/gwf-publications/people/X/Xingguo-Han/ data-uni=uni0603>Xingguo Han</a>,
-<a href=/gwf-publications/people/B/Birger-Ulf-Hansen/ data-uni=uni0065>Birger Ulf Hansen</a>,
-<a href=/gwf-publications/people/C/Chad-T-Hanson/ data-uni=uni0685>Chad T. Hanson</a>,
-<a href=/gwf-publications/people/J/Juha-Hatakka/ data-uni=uni0030>Juha Hatakka</a>,
-<a href=/gwf-publications/people/Y/Yongtao-He/ data-uni=uni0068>Yongtao He</a>,
-<a href=/gwf-publications/people/M/Markus-Hehn/ data-uni=uni0085>Markus Hehn</a>,
-<a href=/gwf-publications/people/B/Bernard-Heinesch/ data-uni=uni0189>Bernard Heinesch</a>,
-<a href=/gwf-publications/people/N/Nina-Hinko-Najera/ data-uni=uni0046>Nina Hinko-Najera</a>,
-<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0040>Lukas Hörtnagl</a>,
-<a href=/gwf-publications/people/L/Lindsay-B-Hutley/ data-uni=uni0605>Lindsay B. Hutley</a>,
-<a href=/gwf-publications/people/A/Andreas-Ibrom/ data-uni=uni0360>Andreas Ibrom</a>,
-<a href=/gwf-publications/people/H/Hiroki-Ikawa/ data-uni=uni0370>Hiroki Ikawa</a>,
-<a href=/gwf-publications/people/M/Marcin-Jackowicz-Korczynski/ data-uni=uni0048>Marcin Jackowicz-Korczynski</a>,
-<a href=/gwf-publications/people/D/Dalibor-Janou%C5%A1/ data-uni=uni0079>Dalibor Janouš</a>,
-<a href=/gwf-publications/people/W/WWP-Jans/ data-uni=uni0010>W.W.P. Jans</a>,
-<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0029>Rachhpal S. Jassal</a>,
-<a href=/gwf-publications/people/S/Shicheng-Jiang/ data-uni=uni0229>Shicheng Jiang</a>,
-<a href=/gwf-publications/people/T/Tomomichi-Kato/ data-uni=uni0253>Tomomichi Kato</a>,
+<a href=/gwf-publications/people/S/Shijie-Han/ data-uni=uni0353>Shijie Han</a>,
+<a href=/gwf-publications/people/X/Xingguo-Han/ data-uni=uni0270>Xingguo Han</a>,
+<a href=/gwf-publications/people/B/Birger-Ulf-Hansen/ data-uni=uni0057>Birger Ulf Hansen</a>,
+<a href=/gwf-publications/people/C/Chad-Hanson/ data-uni=uni0085>Chad Hanson</a>,
+<a href=/gwf-publications/people/J/Juha-Hatakka/ data-uni=uni0018>Juha Hatakka</a>,
+<a href=/gwf-publications/people/Y/Yongtao-He/ data-uni=uni0047>Yongtao He</a>,
+<a href=/gwf-publications/people/M/Markus-Hehn/ data-uni=uni0184>Markus Hehn</a>,
+<a href=/gwf-publications/people/B/Bernard-Heinesch/ data-uni=uni0215>Bernard Heinesch</a>,
+<a href=/gwf-publications/people/N/Nina-Hinko-Najera/ data-uni=uni0093>Nina Hinko-Najera</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0046>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/L/Lindsay-B-Hutley/ data-uni=uni0451>Lindsay B. Hutley</a>,
+<a href=/gwf-publications/people/A/Andreas-Ibrom/ data-uni=uni0345>Andreas Ibrom</a>,
+<a href=/gwf-publications/people/H/Hiroki-Ikawa/ data-uni=uni0252>Hiroki Ikawa</a>,
+<a href=/gwf-publications/people/M/Marcin-Jackowicz-Korczynski/ data-uni=uni0038>Marcin Jackowicz-Korczynski</a>,
+<a href=/gwf-publications/people/D/Dalibor-Janou%C5%A1/ data-uni=uni0102>Dalibor Janouš</a>,
+<a href=/gwf-publications/people/W/WWP-Jans/ data-uni=uni0029>W.W.P. Jans</a>,
+<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0012>Rachhpal S. Jassal</a>,
+<a href=/gwf-publications/people/S/Shicheng-Jiang/ data-uni=uni0586>Shicheng Jiang</a>,
+<a href=/gwf-publications/people/T/Tomomichi-Kato/ data-uni=uni0153>Tomomichi Kato</a>,
 <a href=/gwf-publications/people/M/Myroslava-Khomik/ data-uni=uni0002>Myroslava Khomik</a>,
-<a href=/gwf-publications/people/J/Janina-Klatt/ data-uni=uni1454>Janina Klatt</a>,
-<a href=/gwf-publications/people/A/Alexander-Knohl/ data-uni=uni0110>Alexander Knohl</a>,
-<a href=/gwf-publications/people/S/Sara-H-Knox/ data-uni=uni0029>Sara H. Knox</a>,
-<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0413>Hideki Kobayashi</a>,
-<a href=/gwf-publications/people/G/Georgia-R-Koerber/ data-uni=uni0151>Georgia R. Koerber</a>,
-<a href=/gwf-publications/people/O/Olaf-Kolle/ data-uni=uni0025>Olaf Kolle</a>,
-<a href=/gwf-publications/people/Y/Yoshiko-Kosugi/ data-uni=uni0306>Yoshiko Kosugi</a>,
-<a href=/gwf-publications/people/A/Ayumi-Kotani/ data-uni=uni0553>Ayumi Kotani</a>,
-<a href=/gwf-publications/people/A/Andrew-S-Kowalski/ data-uni=uni0689>Andrew S. Kowalski</a>,
-<a href=/gwf-publications/people/B/Bart-Kruijt/ data-uni=uni0010>Bart Kruijt</a>,
-<a href=/gwf-publications/people/J/Juliya-Kurbatova/ data-uni=uni0227>Juliya Kurbatova</a>,
-<a href=/gwf-publications/people/W/Werner-L-Kutsch/ data-uni=uni0027>Werner L. Kutsch</a>,
-<a href=/gwf-publications/people/H/Hyo-Jung-Kwon/ data-uni=uni0300>Hyo-Jung Kwon</a>,
-<a href=/gwf-publications/people/S/Samuli-Launiainen/ data-uni=uni0098>Samuli Launiainen</a>,
-<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0030>Tuomas Laurila</a>,
-<a href=/gwf-publications/people/B/Beverly-E-Law/ data-uni=uni0073>Beverly E. Law</a>,
-<a href=/gwf-publications/people/R/Ray-Leuning/ data-uni=uni0030>Ray Leuning</a>,
-<a href=/gwf-publications/people/Y/Yingnian-Li/ data-uni=uni0704>Yingnian Li</a>,
-<a href=/gwf-publications/people/M/Michael-J-Liddell/ data-uni=uni0356>Michael J. Liddell</a>,
-<a href=/gwf-publications/people/J/Jean-Marc-Limousin/ data-uni=uni0693>Jean-Marc Limousin</a>,
-<a href=/gwf-publications/people/M/Marryanna-Lion/ data-uni=uni0690>Marryanna Lion</a>,
-<a href=/gwf-publications/people/A/Adam-J-Liska/ data-uni=uni0031>Adam J. Liska</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0030>Annalea Lohila</a>,
-<a href=/gwf-publications/people/A/Ana-L%C3%B3pez-Ballesteros/ data-uni=uni0258>Ana López-Ballesteros</a>,
-<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pez-Blanco/ data-uni=uni0680>Efrén López-Blanco</a>,
-<a href=/gwf-publications/people/B/Benjamin-Loubet/ data-uni=uni0158>Benjamin Loubet</a>,
-<a href=/gwf-publications/people/D/Denis-Loustau/ data-uni=uni0547>Denis Loustau</a>,
-<a href=/gwf-publications/people/A/Antje-Moffat/ data-uni=uni0025>Antje Moffat</a>,
-<a href=/gwf-publications/people/J/Johannes-L%C3%BCers/ data-uni=uni0431>Johannes Lüers</a>,
-<a href=/gwf-publications/people/S/Siyan-Ma/ data-uni=uni0021>Siyan Ma</a>,
-<a href=/gwf-publications/people/C/Craig-Macfarlane/ data-uni=uni0198>Craig Macfarlane</a>,
-<a href=/gwf-publications/people/C/Carmen-Arena/ data-uni=uni1186>Carmen Arena</a>,
-<a href=/gwf-publications/people/R/Regine-Maier/ data-uni=uni0040>Regine Maier</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0027>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/G/Giovanni-Manca/ data-uni=uni0109>Giovanni Manca</a>,
-<a href=/gwf-publications/people/B/Barbara-Marcolla/ data-uni=uni0108>Barbara Marcolla</a>,
-<a href=/gwf-publications/people/H/Hank-A-Margolis/ data-uni=uni0041>Hank A. Margolis</a>,
-<a href=/gwf-publications/people/S/Serena-Marras/ data-uni=uni0302>Serena Marras</a>,
-<a href=/gwf-publications/people/W/William-J-Massman/ data-uni=uni0486>William J. Massman</a>,
-<a href=/gwf-publications/people/M/Mikhail-Mastepanov/ data-uni=uni0116>Mikhail Mastepanov</a>,
-<a href=/gwf-publications/people/R/Roser-Matamala/ data-uni=uni0170>Roser Matamala</a>,
-<a href=/gwf-publications/people/J/Jaclyn-Hatala-Matthes/ data-uni=uni0673>Jaclyn Hatala Matthes</a>,
-<a href=/gwf-publications/people/F/Francesco-Mazzenga/ data-uni=uni0675>Francesco Mazzenga</a>,
-<a href=/gwf-publications/people/H/Harry-McCaughey/ data-uni=uni0052>Harry McCaughey</a>,
-<a href=/gwf-publications/people/I/Ian-McHugh/ data-uni=uni0046>Ian McHugh</a>,
-<a href=/gwf-publications/people/A/Andrew-McMillan/ data-uni=uni0678>Andrew McMillan</a>,
-<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni1187>Lutz Merbold</a>,
-<a href=/gwf-publications/people/W/Wayne-S-Meyer/ data-uni=uni0506>Wayne S. Meyer</a>,
-<a href=/gwf-publications/people/T/Tilden-P-Meyers/ data-uni=uni0582>Tilden P. Meyers</a>,
-<a href=/gwf-publications/people/E/Erick-M-Carreira/ data-uni=uni0040>Erick M. Carreira</a>,
-<a href=/gwf-publications/people/S/Stefano-Minerbi/ data-uni=uni0697>Stefano Minerbi</a>,
-<a href=/gwf-publications/people/U/Uta-Moderow/ data-uni=uni0200>Uta Moderow</a>,
-<a href=/gwf-publications/people/R/Russell-K-Monson/ data-uni=uni0022>Russell K. Monson</a>,
-<a href=/gwf-publications/people/L/Leonardo-Montagnani/ data-uni=uni0565>Leonardo Montagnani</a>,
-<a href=/gwf-publications/people/C/Caitlin-E-Moore/ data-uni=uni0136>Caitlin E. Moore</a>,
-<a href=/gwf-publications/people/E/Eddy-Moors/ data-uni=uni0186>Eddy Moors</a>,
-<a href=/gwf-publications/people/V/Virginie-Moreaux/ data-uni=uni0057>Virginie Moreaux</a>,
-<a href=/gwf-publications/people/C/Christine-Moureaux/ data-uni=uni0189>Christine Moureaux</a>,
-<a href=/gwf-publications/people/J/J-William-Munger/ data-uni=uni0088>J. William Munger</a>,
-<a href=/gwf-publications/people/T/Taro-Nakai/ data-uni=uni0583>Taro Nakai</a>,
-<a href=/gwf-publications/people/J/Johan-Neirynck/ data-uni=uni0699>Johan Neirynck</a>,
-<a href=/gwf-publications/people/Z/Zoran-Nesic/ data-uni=uni0029>Zoran Nesic</a>,
-<a href=/gwf-publications/people/G/Giacomo-Nicolini/ data-uni=uni0081>Giacomo Nicolini</a>,
-<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0078>Asko Noormets</a>,
-<a href=/gwf-publications/people/M/Matthew-Northwood/ data-uni=uni0605>Matthew Northwood</a>,
-<a href=/gwf-publications/people/M/Marcelo-D-Nosetto/ data-uni=uni0728>Marcelo D. Nosetto</a>,
-<a href=/gwf-publications/people/Y/Yann-Nouvellon/ data-uni=uni0511>Yann Nouvellon</a>,
-<a href=/gwf-publications/people/K/Kimberly-A-Novick/ data-uni=uni0373>Kimberly A. Novick</a>,
-<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0034>Walter C. Oechel</a>,
-<a href=/gwf-publications/people/J/J%C3%B8rgen-E-Olesen/ data-uni=uni0116>Jørgen E. Olesen</a>,
-<a href=/gwf-publications/people/J/Jean-Marc-Ourcival/ data-uni=uni0206>Jean Marc Ourcival</a>,
-<a href=/gwf-publications/people/S/Shirley-A-Papuga/ data-uni=uni0717>Shirley A. Papuga</a>,
-<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0060>Frans-Jan W. Parmentier</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-Paul-Limoges/ data-uni=uni0099>Eugénie Paul-Limoges</a>,
-<a href=/gwf-publications/people/M/Marian-Pavelka/ data-uni=uni0079>Marian Pavelka</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0049>Matthias Peichl</a>,
-<a href=/gwf-publications/people/E/Elise-Pendall/ data-uni=uni0171>Elise Pendall</a>,
-<a href=/gwf-publications/people/R/Richard-A-Phillips/ data-uni=uni0705>Richard A. Phillips</a>,
-<a href=/gwf-publications/people/K/Kim-Pilegaard/ data-uni=uni0360>Kim Pilegaard</a>,
-<a href=/gwf-publications/people/N/N-Pirk/ data-uni=uni0060>N. Pirk</a>,
-<a href=/gwf-publications/people/G/Gabriela-Posse/ data-uni=uni0700>Gabriela Posse</a>,
-<a href=/gwf-publications/people/T/Thomas-Dennis-Powell/ data-uni=uni0103>Thomas Dennis Powell</a>,
-<a href=/gwf-publications/people/H/Heiko-Prasse/ data-uni=uni0157>Heiko Prasse</a>,
-<a href=/gwf-publications/people/S/Suzanne-M-Prober/ data-uni=uni0136>Suzanne M. Prober</a>,
-<a href=/gwf-publications/people/S/Serge-Rambal/ data-uni=uni1188>Serge Rambal</a>,
-<a href=/gwf-publications/people/%C3%9C/%C3%9Cllar-Rannik/ data-uni=uni0027>Üllar Rannik</a>,
-<a href=/gwf-publications/people/N/Naama-Raz-Yaseef/ data-uni=uni0016>Naama Raz-Yaseef</a>,
-<a href=/gwf-publications/people/C/Corinna-Rebmann/ data-uni=uni0054>Corinna Rebmann</a>,
-<a href=/gwf-publications/people/D/David-Reed/ data-uni=uni0149>David Reed</a>,
-<a href=/gwf-publications/people/V/V%C3%ADctor-Resco-de-Dios/ data-uni=uni0711>Víctor Resco de Dios</a>,
-<a href=/gwf-publications/people/N/Natalia-Restrepo-Coupe/ data-uni=uni0022>Natalia Restrepo-Coupe</a>,
-<a href=/gwf-publications/people/B/BR-Reverter/ data-uni=uni0713>B.R. Reverter</a>,
-<a href=/gwf-publications/people/M/Marilyn-Roland/ data-uni=uni0092>Marilyn Roland</a>,
-<a href=/gwf-publications/people/S/Simone-Sabbatini/ data-uni=uni0081>Simone Sabbatini</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0055>Torsten Sachs</a>,
-<a href=/gwf-publications/people/S/Scott-R-Saleska/ data-uni=uni0022>Scott R. Saleska</a>,
-<a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchez-Ca%C3%B1ete/ data-uni=uni0262>Enrique P. Sánchez-Cañete</a>,
-<a href=/gwf-publications/people/Z/Zulia-Mayari-Sanchez-Mejia/ data-uni=uni0681>Zulia Mayari Sanchez-Mejia</a>,
-<a href=/gwf-publications/people/H/Hans-Schmid/ data-uni=uni0471>Hans Schmid</a>,
-<a href=/gwf-publications/people/M/Marius-Schmidt/ data-uni=uni0661>Marius Schmidt</a>,
-<a href=/gwf-publications/people/K/Karl-Schneider/ data-uni=uni0620>Karl Schneider</a>,
-<a href=/gwf-publications/people/F/Frederik-Schrader/ data-uni=uni0429>Frederik Schrader</a>,
-<a href=/gwf-publications/people/I/Ivan-Schroder/ data-uni=uni0502>Ivan Schroder</a>,
-<a href=/gwf-publications/people/R/Russell-L-Scott/ data-uni=uni0256>Russell L. Scott</a>,
-<a href=/gwf-publications/people/P/Pavel-Sedl%C3%A1k/ data-uni=uni0274>Pavel Sedlák</a>,
-<a href=/gwf-publications/people/P/Pen%C3%A9lope-Serrano-Ortiz/ data-uni=uni0262>Penélope Serrano-Ortiz</a>,
-<a href=/gwf-publications/people/C/Changliang-Shao/ data-uni=uni0587>Changliang Shao</a>,
-<a href=/gwf-publications/people/P/Peili-Shi/ data-uni=uni0068>Peili Shi</a>,
-<a href=/gwf-publications/people/I/Ivan-Shironya/ data-uni=uni0000>Ivan Shironya</a>,
-<a href=/gwf-publications/people/L/Lukas-Siebicke/ data-uni=uni0110>Lukas Siebicke</a>,
-<a href=/gwf-publications/people/L/Ladislav-%C5%A0igut/ data-uni=uni0079>Ladislav Šigut</a>,
-<a href=/gwf-publications/people/R/Richard-B-Silberstein/ data-uni=uni0619>Richard B. Silberstein</a>,
-<a href=/gwf-publications/people/C/Costantino-Sirca/ data-uni=uni0302>Costantino Sirca</a>,
-<a href=/gwf-publications/people/D/Donatella-Spano/ data-uni=uni0302>Donatella Spano</a>,
-<a href=/gwf-publications/people/R/Rainer-Steinbrecher/ data-uni=uni0102>Rainer Steinbrecher</a>,
-<a href=/gwf-publications/people/R/Robert-Stevens/ data-uni=uni0659>Robert Stevens</a>,
-<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0286>Cove Sturtevant</a>,
-<a href=/gwf-publications/people/A/Andrew-E-Suyker/ data-uni=uni0031>Andrew E. Suyker</a>,
-<a href=/gwf-publications/people/T/Torbern-Tagesson/ data-uni=uni0048>Torbern Tagesson</a>,
-<a href=/gwf-publications/people/S/Satoru-Takanashi/ data-uni=uni0208>Satoru Takanashi</a>,
-<a href=/gwf-publications/people/Y/Yanhong-Tang/ data-uni=uni0412>Yanhong Tang</a>,
-<a href=/gwf-publications/people/N/Nigel-J-Tapper/ data-uni=uni0117>Nigel J. Tapper</a>,
-<a href=/gwf-publications/people/J/Jonathan-E-Thom/ data-uni=uni0082>Jonathan E. Thom</a>,
-<a href=/gwf-publications/people/M/Michele-Tomassucci/ data-uni=uni0081>Michele Tomassucci</a>,
-<a href=/gwf-publications/people/J/Juha-Pekka-Tuovinen/ data-uni=uni0030>Juha-Pekka Tuovinen</a>,
-<a href=/gwf-publications/people/S/Shawn-Urbanski/ data-uni=uni0614>Shawn Urbanski</a>,
-<a href=/gwf-publications/people/R/Riccardo-Valentini/ data-uni=uni0108>Riccardo Valentini</a>,
-<a href=/gwf-publications/people/M/M-K-van-der-Molen/ data-uni=uni0010>M. K. van der Molen</a>,
-<a href=/gwf-publications/people/E/Eva-van-Gorsel/ data-uni=uni0066>Eva van Gorsel</a>,
-<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0227>Andrej Varlagin</a>,
-<a href=/gwf-publications/people/J/Joseph-Verfaillie/ data-uni=uni0021>Joseph Verfaillie</a>,
-<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0027>Timo Vesala</a>,
-<a href=/gwf-publications/people/C/Caroline-Vincke/ data-uni=uni1151>Caroline Vincke</a>,
-<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0326>Domenico Vitale</a>,
-<a href=/gwf-publications/people/N/N-N-Vygodskaya/ data-uni=uni0640>N. N. Vygodskaya</a>,
-<a href=/gwf-publications/people/J/Jeffrey-P-Walker/ data-uni=uni0117>Jeffrey P. Walker</a>,
-<a href=/gwf-publications/people/E/Elizabeth-A-Walter-Shea/ data-uni=uni0031>Elizabeth A. Walter-Shea</a>,
-<a href=/gwf-publications/people/H/Huimin-Wang/ data-uni=uni0703>Huimin Wang</a>,
-<a href=/gwf-publications/people/R/Robin-Weber/ data-uni=uni0639>Robin Weber</a>,
-<a href=/gwf-publications/people/S/Sebastian-Westermann/ data-uni=uni0060>Sebastian Westermann</a>,
-<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni1451>Christian Wille</a>,
-<a href=/gwf-publications/people/S/Steven-C-Wofsy/ data-uni=uni0088>Steven C. Wofsy</a>,
+<a href=/gwf-publications/people/J/Janina-Klatt/ data-uni=uni0222>Janina Klatt</a>,
+<a href=/gwf-publications/people/A/Alexander-Knohl/ data-uni=uni0097>Alexander Knohl</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0012>Sara Knox</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0174>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/G/Georgia-R-Koerber/ data-uni=uni0237>Georgia R. Koerber</a>,
+<a href=/gwf-publications/people/O/Olaf-Kolle/ data-uni=uni0034>Olaf Kolle</a>,
+<a href=/gwf-publications/people/Y/Yukio-Kosugi/ data-uni=uni0224>Yukio Kosugi</a>,
+<a href=/gwf-publications/people/A/Ayumi-Kotani/ data-uni=uni0546>Ayumi Kotani</a>,
+<a href=/gwf-publications/people/A/Andrew-S-Kowalski/ data-uni=uni0171>Andrew S. Kowalski</a>,
+<a href=/gwf-publications/people/B/B-Kruijt/ data-uni=uni0029>B. Kruijt</a>,
+<a href=/gwf-publications/people/J/Juliya-Kurbatova/ data-uni=uni0064>Juliya Kurbatova</a>,
+<a href=/gwf-publications/people/W/Werner-L-Kutsch/ data-uni=uni0714>Werner L. Kutsch</a>,
+<a href=/gwf-publications/people/H/Hyojung-Kwon/ data-uni=uni0085>Hyojung Kwon</a>,
+<a href=/gwf-publications/people/S/Samuli-Launiainen/ data-uni=uni0079>Samuli Launiainen</a>,
+<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0018>Tuomas Laurila</a>,
+<a href=/gwf-publications/people/B/B-E-Law/ data-uni=uni0053>B. E. Law</a>,
+<a href=/gwf-publications/people/R/R-Leuning/ data-uni=uni0283>R. Leuning</a>,
+<a href=/gwf-publications/people/Y/Yingnian-Li/ data-uni=uni0589>Yingnian Li</a>,
+<a href=/gwf-publications/people/M/Michael-J-Liddell/ data-uni=uni0446>Michael J. Liddell</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Limousin/ data-uni=uni0468>Jean-Marc Limousin</a>,
+<a href=/gwf-publications/people/M/Marryanna-Lion/ data-uni=uni0734>Marryanna Lion</a>,
+<a href=/gwf-publications/people/A/Adam-Liska/ data-uni=uni0735>Adam Liska</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Ana-L%C3%B3pez-Ballesteros/ data-uni=uni0738>Ana López-Ballesteros</a>,
+<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pez-Blanco/ data-uni=uni0038>Efrén López-Blanco</a>,
+<a href=/gwf-publications/people/B/Benjamin-Loubet/ data-uni=uni0456>Benjamin Loubet</a>,
+<a href=/gwf-publications/people/D/Denis-Loustau/ data-uni=uni0435>Denis Loustau</a>,
+<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/ data-uni=uni0508>Antje Lucas-Moffat</a>,
+<a href=/gwf-publications/people/J/Johannes-L%C3%BCers/ data-uni=uni0405>Johannes Lüers</a>,
+<a href=/gwf-publications/people/S/Siyan-Ma/ data-uni=uni0480>Siyan Ma</a>,
+<a href=/gwf-publications/people/C/Craig-Macfarlane/ data-uni=uni0433>Craig Macfarlane</a>,
+<a href=/gwf-publications/people/V/Vincenzo-Magliulo/ data-uni=uni0043>Vincenzo Magliulo</a>,
+<a href=/gwf-publications/people/R/Regine-Maier/ data-uni=uni0502>Regine Maier</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0030>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/G/Giovanni-Manca/ data-uni=uni0081>Giovanni Manca</a>,
+<a href=/gwf-publications/people/B/Barbara-Marcolla/ data-uni=uni0100>Barbara Marcolla</a>,
+<a href=/gwf-publications/people/H/Hank-A-Margolis/ data-uni=uni0300>Hank A. Margolis</a>,
+<a href=/gwf-publications/people/S/Serena-Marras/ data-uni=uni0095>Serena Marras</a>,
+<a href=/gwf-publications/people/W/W-J-Massman/ data-uni=uni0265>W. J. Massman</a>,
+<a href=/gwf-publications/people/M/Mikhail-Mastepanov/ data-uni=uni0038>Mikhail Mastepanov</a>,
+<a href=/gwf-publications/people/R/Roser-Matamala/ data-uni=uni0161>Roser Matamala</a>,
+<a href=/gwf-publications/people/J/Jaclyn-Hatala-Matthes/ data-uni=uni0279>Jaclyn Hatala Matthes</a>,
+<a href=/gwf-publications/people/F/Francesco-Mazzenga/ data-uni=uni0043>Francesco Mazzenga</a>,
+<a href=/gwf-publications/people/H/Harry-McCaughey/ data-uni=uni0053>Harry McCaughey</a>,
+<a href=/gwf-publications/people/I/Ian-McHugh/ data-uni=uni0093>Ian McHugh</a>,
+<a href=/gwf-publications/people/A/Andrew-M-S-McMillan/ data-uni=uni0503>Andrew M. S. McMillan</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0185>Lutz Merbold</a>,
+<a href=/gwf-publications/people/W/Wayne-S-Meyer/ data-uni=uni0214>Wayne S. Meyer</a>,
+<a href=/gwf-publications/people/T/Tilden-P-Meyers/ data-uni=uni0428>Tilden P. Meyers</a>,
+<a href=/gwf-publications/people/S/S-D-Miller/ data-uni=uni0351>S. D. Miller</a>,
+<a href=/gwf-publications/people/S/Stefano-Minerbi/ data-uni=uni0709>Stefano Minerbi</a>,
+<a href=/gwf-publications/people/U/Uta-Moderow/ data-uni=uni0184>Uta Moderow</a>,
+<a href=/gwf-publications/people/R/Russell-K-Monson/ data-uni=uni0024>Russell K. Monson</a>,
+<a href=/gwf-publications/people/L/Leonardo-Montagnani/ data-uni=uni0239>Leonardo Montagnani</a>,
+<a href=/gwf-publications/people/C/Caitlin-E-Moore/ data-uni=uni0196>Caitlin E. Moore</a>,
+<a href=/gwf-publications/people/E/EJ-Moors/ data-uni=uni0241>E.J. Moors</a>,
+<a href=/gwf-publications/people/V/Virginie-Moreaux/ data-uni=uni0118>Virginie Moreaux</a>,
+<a href=/gwf-publications/people/C/Christine-Moureaux/ data-uni=uni0215>Christine Moureaux</a>,
+<a href=/gwf-publications/people/J/J-William-Munger/ data-uni=uni0415>J. William Munger</a>,
+<a href=/gwf-publications/people/T/T-Nakai/ data-uni=uni0021>T. Nakai</a>,
+<a href=/gwf-publications/people/J/Johan-Neirynck/ data-uni=uni0712>Johan Neirynck</a>,
+<a href=/gwf-publications/people/Z/Zoran-Nesic/ data-uni=uni0012>Zoran Nesic</a>,
+<a href=/gwf-publications/people/G/Giacomo-Nicolini/ data-uni=uni0095>Giacomo Nicolini</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0126>Asko Noormets</a>,
+<a href=/gwf-publications/people/M/Matthew-Northwood/ data-uni=uni0451>Matthew Northwood</a>,
+<a href=/gwf-publications/people/M/Marcelo-D-Nosetto/ data-uni=uni0713>Marcelo D. Nosetto</a>,
+<a href=/gwf-publications/people/Y/Yann-Nouvellon/ data-uni=uni0286>Yann Nouvellon</a>,
+<a href=/gwf-publications/people/K/Kimberly-A-Novick/ data-uni=uni0205>Kimberly A. Novick</a>,
+<a href=/gwf-publications/people/W/W-C-Oechel/ data-uni=uni0036>W. C. Oechel</a>,
+<a href=/gwf-publications/people/J/J%C3%B8rgen-E-Olesen/ data-uni=uni0038>Jørgen E. Olesen</a>,
+<a href=/gwf-publications/people/J/Jean-Marc-Ourcival/ data-uni=uni0146>Jean-Marc Ourcival</a>,
+<a href=/gwf-publications/people/S/S-A-Papuga/ data-uni=uni0487>S. A. Papuga</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0044>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-Paul-Limoges/ data-uni=uni0075>Eugénie Paul-Limoges</a>,
+<a href=/gwf-publications/people/M/Marian-Pavelka/ data-uni=uni0102>Marian Pavelka</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0026>Matthias Peichl</a>,
+<a href=/gwf-publications/people/E/Elise-Pendall/ data-uni=uni0173>Elise Pendall</a>,
+<a href=/gwf-publications/people/R/Richard-P-Phillips/ data-uni=uni0205>Richard P. Phillips</a>,
+<a href=/gwf-publications/people/K/Kim-Pilegaard/ data-uni=uni0345>Kim Pilegaard</a>,
+<a href=/gwf-publications/people/N/Norbert-Pirk/ data-uni=uni0115>Norbert Pirk</a>,
+<a href=/gwf-publications/people/G/Gabriela-Posse/ data-uni=uni0483>Gabriela Posse</a>,
+<a href=/gwf-publications/people/T/Thomas-L-Powell/ data-uni=uni0724>Thomas L. Powell</a>,
+<a href=/gwf-publications/people/H/Heiko-Prasse/ data-uni=uni0094>Heiko Prasse</a>,
+<a href=/gwf-publications/people/S/Suzanne-M-Prober/ data-uni=uni0293>Suzanne M. Prober</a>,
+<a href=/gwf-publications/people/S/Serge-Rambal/ data-uni=uni0409>Serge Rambal</a>,
+<a href=/gwf-publications/people/%C3%9C/%C3%9Cllar-Rannik/ data-uni=uni0030>Üllar Rannik</a>,
+<a href=/gwf-publications/people/N/Naama-Raz-Yaseef/ data-uni=uni0025>Naama Raz-Yaseef</a>,
+<a href=/gwf-publications/people/C/Corinna-Rebmann/ data-uni=uni0094>Corinna Rebmann</a>,
+<a href=/gwf-publications/people/D/David-E-Reed/ data-uni=uni0459>David E. Reed</a>,
+<a href=/gwf-publications/people/V/V%C3%ADctor-Resco-de-Dios/ data-uni=uni0701>Víctor Resco de Dios</a>,
+<a href=/gwf-publications/people/N/Natalia-Restrepo-Coupe/ data-uni=uni0024>Natalia Restrepo-Coupe</a>,
+<a href=/gwf-publications/people/B/Borja-R-Reverter/ data-uni=uni0609>Borja R. Reverter</a>,
+<a href=/gwf-publications/people/M/Marilyn-Roland/ data-uni=uni0175>Marilyn Roland</a>,
+<a href=/gwf-publications/people/S/Simone-Sabbatini/ data-uni=uni0095>Simone Sabbatini</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0031>Torsten Sachs</a>,
+<a href=/gwf-publications/people/S/S-R-Saleska/ data-uni=uni0024>S. R. Saleska</a>,
+<a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchez-Ca%C3%B1ete/ data-uni=uni0481>Enrique P. Sánchez-Cañete</a>,
+<a href=/gwf-publications/people/Z/Z-M-Sanchez-Mejia/ data-uni=uni0608>Z. M. Sanchez-Mejia</a>,
+<a href=/gwf-publications/people/H/Hans-Peter-Schmid/ data-uni=uni0096>Hans Peter Schmid</a>,
+<a href=/gwf-publications/people/M/Marius-Schmidt/ data-uni=uni0254>Marius Schmidt</a>,
+<a href=/gwf-publications/people/K/Karl-Schneider/ data-uni=uni0603>Karl Schneider</a>,
+<a href=/gwf-publications/people/F/Frederik-Schrader/ data-uni=uni0355>Frederik Schrader</a>,
+<a href=/gwf-publications/people/I/Ivan-Schroder/ data-uni=uni0447>Ivan Schroder</a>,
+<a href=/gwf-publications/people/R/Russell-L-Scott/ data-uni=uni0255>Russell L. Scott</a>,
+<a href=/gwf-publications/people/P/Pavel-Sedl%C3%A1k/ data-uni=uni0644>Pavel Sedlák</a>,
+<a href=/gwf-publications/people/P/Pen%C3%A9lope-Serrano-Ortiz/ data-uni=uni0171>Penélope Serrano-Ortiz</a>,
+<a href=/gwf-publications/people/C/Changliang-Shao/ data-uni=uni0642>Changliang Shao</a>,
+<a href=/gwf-publications/people/P/Peili-Shi/ data-uni=uni0047>Peili Shi</a>,
+<a href=/gwf-publications/people/I/Ivan-Shironya/ data-uni=uni0064>Ivan Shironya</a>,
+<a href=/gwf-publications/people/L/Lukas-Siebicke/ data-uni=uni0097>Lukas Siebicke</a>,
+<a href=/gwf-publications/people/L/Ladislav-%C5%A0igut/ data-uni=uni0102>Ladislav Šigut</a>,
+<a href=/gwf-publications/people/R/Richard-Silberstein/ data-uni=uni0641>Richard Silberstein</a>,
+<a href=/gwf-publications/people/C/Costantino-Sirca/ data-uni=uni0639>Costantino Sirca</a>,
+<a href=/gwf-publications/people/D/Donatella-Spano/ data-uni=uni0095>Donatella Spano</a>,
+<a href=/gwf-publications/people/R/R-Steinbrecher/ data-uni=uni0160>R. Steinbrecher</a>,
+<a href=/gwf-publications/people/R/Robert-M-Stevens/ data-uni=uni0638>Robert M. Stevens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0363>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/A/Andy-Suyker/ data-uni=uni0068>Andy Suyker</a>,
+<a href=/gwf-publications/people/T/Torbern-Tagesson/ data-uni=uni0044>Torbern Tagesson</a>,
+<a href=/gwf-publications/people/S/Satoru-Takanashi/ data-uni=uni0306>Satoru Takanashi</a>,
+<a href=/gwf-publications/people/Y/Yanhong-Tang/ data-uni=uni0637>Yanhong Tang</a>,
+<a href=/gwf-publications/people/N/Nigel-Tapper/ data-uni=uni0278>Nigel Tapper</a>,
+<a href=/gwf-publications/people/J/Jonathan-E-Thom/ data-uni=uni0050>Jonathan E. Thom</a>,
+<a href=/gwf-publications/people/M/Michele-Tomassucci/ data-uni=uni0636>Michele Tomassucci</a>,
+<a href=/gwf-publications/people/J/Juha-Pekka-Tuovinen/ data-uni=uni0018>Juha-Pekka Tuovinen</a>,
+<a href=/gwf-publications/people/S/S-P-Urbanski/ data-uni=uni0361>S. P. Urbanski</a>,
+<a href=/gwf-publications/people/R/R-Valentini/ data-uni=uni0109>R. Valentini</a>,
+<a href=/gwf-publications/people/M/M-K-van-der-Molen/ data-uni=uni0029>M. K. van der Molen</a>,
+<a href=/gwf-publications/people/E/Eva-van-Gorsel/ data-uni=uni0010>Eva van Gorsel</a>,
+<a href=/gwf-publications/people/J/J-van-Huissteden/ data-uni=uni0059>J. van Huissteden</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0064>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/J/Joe-Verfaillie/ data-uni=uni0040>Joe Verfaillie</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0030>Timo Vesala</a>,
+<a href=/gwf-publications/people/C/Caroline-Vincke/ data-uni=uni0472>Caroline Vincke</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0277>Domenico Vitale</a>,
+<a href=/gwf-publications/people/N/N-N-Vygodskaya/ data-uni=uni0064>N. N. Vygodskaya</a>,
+<a href=/gwf-publications/people/J/Jeffrey-P-Walker/ data-uni=uni0278>Jeffrey P. Walker</a>,
+<a href=/gwf-publications/people/E/Elizabeth-A-Walter-Shea/ data-uni=uni0068>Elizabeth A. Walter-Shea</a>,
+<a href=/gwf-publications/people/H/Huimin-Wang/ data-uni=uni0181>Huimin Wang</a>,
+<a href=/gwf-publications/people/R/R-J-Weber/ data-uni=uni0040>R. J. Weber</a>,
+<a href=/gwf-publications/people/S/Sebastian-Westermann/ data-uni=uni0115>Sebastian Westermann</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni0031>Christian Wille</a>,
+<a href=/gwf-publications/people/S/Steven-C-Wofsy/ data-uni=uni0242>Steven C. Wofsy</a>,
 <a href=/gwf-publications/people/G/Georg-Wohlfahrt/ data-uni=uni0015>Georg Wohlfahrt</a>,
-<a href=/gwf-publications/people/S/Sebastian-Wolf/ data-uni=uni0454>Sebastian Wolf</a>,
-<a href=/gwf-publications/people/W/William-Woodgate/ data-uni=uni0104>William Woodgate</a>,
-<a href=/gwf-publications/people/Y/Yuelin-Li/ data-uni=uni0638>Yuelin Li</a>,
-<a href=/gwf-publications/people/R/Roberto-Zampedri/ data-uni=uni0108>Roberto Zampedri</a>,
-<a href=/gwf-publications/people/J/Junhui-Zhang/ data-uni=uni0086>Junhui Zhang</a>,
-<a href=/gwf-publications/people/G/Guoyi-Zhou/ data-uni=uni0290>Guoyi Zhou</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0103>Donatella Zona</a>,
-<a href=/gwf-publications/people/D/Deb-Agarwal/ data-uni=uni0016>Deb Agarwal</a>,
-<a href=/gwf-publications/people/S/S%C3%A9bastien-C-Biraud/ data-uni=uni0016>Sébastien C. Biraud</a>,
-<a href=/gwf-publications/people/M/Margaret-S-Torn/ data-uni=uni0021>Margaret S. Torn</a>,
-<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0081>Dario Papale</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Gilberto Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, A. Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian D. Amiro, Christof Ammann, et al.. 2021. Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/S/Sebastian-Wolf/ data-uni=uni0046>Sebastian Wolf</a>,
+<a href=/gwf-publications/people/W/William-Woodgate/ data-uni=uni0150>William Woodgate</a>,
+<a href=/gwf-publications/people/Y/Yuelin-Li/ data-uni=uni0466>Yuelin Li</a>,
+<a href=/gwf-publications/people/R/Roberto-Zampedri/ data-uni=uni0100>Roberto Zampedri</a>,
+<a href=/gwf-publications/people/J/Junhui-Zhang/ data-uni=uni0328>Junhui Zhang</a>,
+<a href=/gwf-publications/people/G/Guoyi-Zhou/ data-uni=uni0041>Guoyi Zhou</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0036>Donatella Zona</a>,
+<a href=/gwf-publications/people/D/D-Agarwal/ data-uni=uni0025>D. Agarwal</a>,
+<a href=/gwf-publications/people/S/S-Biraud/ data-uni=uni0025>S. Biraud</a>,
+<a href=/gwf-publications/people/M/M-S-Torn/ data-uni=uni0025>M. S. Torn</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0095>Dario Papale</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>A Correction to this paper has been published: https://doi.org/10.1038/s41597-021-00851-9.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>G. Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You-Wei Cheah, C. Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, B.D. Amiro, Christof Ammann, et al.. 2021. Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -304,24 +305,24 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 <a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Author+Correction%3A+The+FLUXNET2015+dataset+and+the+ONEFlux+processing+pipeline+for+eddy+covariance+data" title="Search for 'Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Pastorello-2021-Author,
     title = &#34;Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data&#34;,
-    author = {Pastorello, Gilberto  and
+    author = {Pastorello, G.  and
       Trotta, Carlo  and
       Canfora, E.  and
       Chu, Housen  and
       Christianson, D. S.  and
-      Cheah, You Wei  and
-      Poindexter, Cristina  and
+      Cheah, You-Wei  and
+      Poindexter, C.  and
       Chen, Jiquan  and
       Elbashandy, Abdelrahman  and
       Humphrey, Marty  and
       Isaac, Peter  and
       Polidori, Diego  and
       Reichstein, Markus  and
-      Ribeca, A.  and
+      Ribeca, Alessio  and
       Ingen, Catharine van  and
       Vuichard, Nicolas  and
       Zhang, Leiming  and
-      Amiro, Brian D.  and
+      Amiro, B.D.  and
       Ammann, Christof  and
       Arain, M. Altaf  and
       Ard{\&#34;o}, Jonas  and
@@ -330,9 +331,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Arriga, Nicola  and
       Aubinet, Marc  and
       Aurela, Mika  and
-      Baldocchi, Dennis D.  and
+      Baldocchi, Dennis  and
       Barr, Alan  and
-      Beamesderfer, E.  and
+      Beamesderfer, Eric  and
       Marchesini, Luca Belelli  and
       Bergeron, Onil  and
       Beringer, Jason  and
@@ -345,7 +346,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Boike, Julia  and
       Bolstad, Paul V.  and
       Bonal, Damien  and
-      Bonnefond, Jean Marc  and
+      Bonnefond, Jean-Marc  and
       Bowling, David R.  and
       Bracho, Rosvel  and
       Brodeur, Jason  and
@@ -355,11 +356,11 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Burns, Sean P.  and
       Buysse, Pauline  and
       Cale, Peter  and
-      Cavagna, Mauro  and
+      Cavagna, M.  and
       Cellier, Pierre  and
       Chen, Shiping  and
       Chini, Isaac  and
-      Christensen, Torben R.  and
+      Christensen, T. R.  and
       Cleverly, James  and
       Collalti, Alessio  and
       Consalvo, Claudia  and
@@ -368,12 +369,12 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Coursolle, Carole  and
       Cremonese, Edoardo  and
       Curtis, Peter S.  and
-      Villari, Paolo  and
-      Rocha, Humberto Ribeiro da  and
+      D&#39;Andrea, Ettore  and
+      Rocha, Humberto da  and
       Dai, Xiaoqin  and
-      Davis, Kenneth L.  and
+      Davis, Kenneth J.  and
       Cinti, Bruno De  and
-      Grandcourt, Agn{\`e}s de  and
+      Grandcourt, A. de  and
       Ligne, Anne De  and
       Junior, Raimundo Cosme de Oliveira  and
       Delpierre, Nicolas  and
@@ -387,21 +388,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Duce, Pierpaolo  and
       Dufr{\^e}ne, Eric  and
       Dunn, Allison L.  and
-      Du{\v{s}}ek, Ji{\v{r}}{\&#39;\i}  and
+      Dusek, J.T.  and
       Eamus, Derek  and
       Eichelmann, Uwe  and
       ElKhidir, Hatim Abdalla M.  and
       Eugster, Werner  and
       Ewenz, Cacilia  and
-      Ewers, Brent E.  and
-      Famulari, Daniela  and
+      Ewers, B. E.  and
+      Famulari, D.  and
       Fares, Silvano  and
       Feigenwinter, Iris  and
       Feitz, Andrew  and
       Fensholt, Rasmus  and
       Filippa, Gianluca  and
-      Fischer, Marc  and
-      Frank, John  and
+      Fischer, M. L.  and
+      Frank, J. M.  and
       Galvagno, Marta  and
       Gharun, Mana  and
       Gianelle, Damiano  and
@@ -409,7 +410,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Gioli, Beniamino  and
       Gitelson, Anatoly A.  and
       Goded, Ignacio  and
-      G{\&#34;o}ckede, Mathias  and
+      Goeckede, Mathias  and
       Goldstein, Allen H.  and
       Gough, Christopher M.  and
       Goulden, Michael L.  and
@@ -421,7 +422,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Han, Shijie  and
       Han, Xingguo  and
       Hansen, Birger Ulf  and
-      Hanson, Chad T.  and
+      Hanson, Chad  and
       Hatakka, Juha  and
       He, Yongtao  and
       Hehn, Markus  and
@@ -440,64 +441,64 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Khomik, Myroslava  and
       Klatt, Janina  and
       Knohl, Alexander  and
-      Knox, Sara H.  and
+      Knox, Sara  and
       Kobayashi, Hideki  and
       Koerber, Georgia R.  and
       Kolle, Olaf  and
-      Kosugi, Yoshiko  and
+      Kosugi, Yukio  and
       Kotani, Ayumi  and
       Kowalski, Andrew S.  and
-      Kruijt, Bart  and
+      Kruijt, B.  and
       Kurbatova, Juliya  and
       Kutsch, Werner L.  and
-      Kwon, Hyo-Jung  and
+      Kwon, Hyojung  and
       Launiainen, Samuli  and
       Laurila, Tuomas  and
-      Law, Beverly E.  and
-      Leuning, Ray  and
+      Law, B. E.  and
+      Leuning, R.  and
       Li, Yingnian  and
       Liddell, Michael J.  and
       Limousin, Jean-Marc  and
       Lion, Marryanna  and
-      Liska, Adam J.  and
+      Liska, Adam  and
       Lohila, Annalea  and
       L{\&#39;o}pez-Ballesteros, Ana  and
       L{\&#39;o}pez-Blanco, Efr{\&#39;e}n  and
       Loubet, Benjamin  and
       Loustau, Denis  and
-      Moffat, Antje  and
+      Lucas-Moffat, Antje  and
       L{\&#34;u}ers, Johannes  and
       Ma, Siyan  and
       Macfarlane, Craig  and
-      Arena, Carmen  and
+      Magliulo, Vincenzo  and
       Maier, Regine  and
       Mammarella, Ivan  and
       Manca, Giovanni  and
       Marcolla, Barbara  and
       Margolis, Hank A.  and
       Marras, Serena  and
-      Massman, William J.  and
+      Massman, W. J.  and
       Mastepanov, Mikhail  and
       Matamala, Roser  and
       Matthes, Jaclyn Hatala  and
       Mazzenga, Francesco  and
       McCaughey, Harry  and
       McHugh, Ian  and
-      McMillan, Andrew  and
+      McMillan, Andrew M. S.  and
       Merbold, Lutz  and
       Meyer, Wayne S.  and
       Meyers, Tilden P.  and
-      Carreira, Erick M.  and
+      Miller, S. D.  and
       Minerbi, Stefano  and
       Moderow, Uta  and
       Monson, Russell K.  and
       Montagnani, Leonardo  and
       Moore, Caitlin E.  and
-      Moors, Eddy  and
+      Moors, E.J.  and
       Moreaux, Virginie  and
       Moureaux, Christine  and
       Munger, J. William  and
-      Nakai, Taro  and
+      Nakai, T.  and
       Neirynck, Johan  and
       Nesic, Zoran  and
       Nicolini, Giacomo  and
@@ -506,37 +507,37 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Nosetto, Marcelo D.  and
       Nouvellon, Yann  and
       Novick, Kimberly A.  and
-      Oechel, Walter C.  and
+      Oechel, W. C.  and
       Olesen, J{\o}rgen E.  and
-      Ourcival, Jean Marc  and
-      Papuga, Shirley A.  and
+      Ourcival, Jean-Marc  and
+      Papuga, S. A.  and
       Parmentier, Frans-Jan W.  and
       Paul-Limoges, Eug{\&#39;e}nie  and
       Pavelka, Marian  and
       Peichl, Matthias  and
       Pendall, Elise  and
-      Phillips, Richard A.  and
+      Phillips, Richard P.  and
       Pilegaard, Kim  and
-      Pirk, N.  and
+      Pirk, Norbert  and
       Posse, Gabriela  and
-      Powell, Thomas Dennis  and
+      Powell, Thomas L.  and
       Prasse, Heiko  and
       Prober, Suzanne M.  and
       Rambal, Serge  and
       Rannik, {\&#34;U}llar  and
       Raz-Yaseef, Naama  and
       Rebmann, Corinna  and
-      Reed, David  and
+      Reed, David E.  and
       Dios, V{\&#39;\i}ctor Resco de  and
       Restrepo-Coupe, Natalia  and
-      Reverter, B.R.  and
+      Reverter, Borja R.  and
       Roland, Marilyn  and
       Sabbatini, Simone  and
       Sachs, Torsten  and
-      Saleska, Scott R.  and
+      Saleska, S. R.  and
       S{\&#39;a}nchez-Ca{\~n}ete, Enrique P.  and
-      Sanchez-Mejia, Zulia Mayari  and
-      Schmid, Hans  and
+      Sanchez-Mejia, Z. M.  and
+      Schmid, Hans Peter  and
       Schmidt, Marius  and
       Schneider, Karl  and
       Schrader, Frederik  and
@@ -549,26 +550,27 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Shironya, Ivan  and
       Siebicke, Lukas  and
       {\v{S}}igut, Ladislav  and
-      Silberstein, Richard B.  and
+      Silberstein, Richard  and
       Sirca, Costantino  and
       Spano, Donatella  and
-      Steinbrecher, Rainer  and
-      Stevens, Robert  and
+      Steinbrecher, R.  and
+      Stevens, Robert M.  and
       Sturtevant, Cove  and
-      Suyker, Andrew E.  and
+      Suyker, Andy  and
       Tagesson, Torbern  and
       Takanashi, Satoru  and
       Tang, Yanhong  and
-      Tapper, Nigel J.  and
+      Tapper, Nigel  and
       Thom, Jonathan E.  and
       Tomassucci, Michele  and
       Tuovinen, Juha-Pekka  and
-      Urbanski, Shawn  and
-      Valentini, Riccardo  and
+      Urbanski, S. P.  and
+      Valentini, R.  and
       Molen, M. K. van der  and
       Gorsel, Eva van  and
+      Huissteden, J. van  and
       Varlagin, Andrej  and
-      Verfaillie, Joseph  and
+      Verfaillie, Joe  and
       Vesala, Timo  and
       Vincke, Caroline  and
       Vitale, Domenico  and
@@ -576,7 +578,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Walker, Jeffrey P.  and
       Walter-Shea, Elizabeth A.  and
       Wang, Huimin  and
-      Weber, Robin  and
+      Weber, R. J.  and
       Westermann, Sebastian  and
       Wille, Christian  and
       Wofsy, Steven C.  and
@@ -588,9 +590,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Zhang, Junhui  and
       Zhou, Guoyi  and
       Zona, Donatella  and
-      Agarwal, Deb  and
-      Biraud, S{\&#39;e}bastien C.  and
-      Torn, Margaret S.  and
+      Agarwal, D.  and
+      Biraud, S.  and
+      Torn, M. S.  and
       Papale, Dario},
     journal = &#34;Scientific Data, Volume 8, Issue 1&#34;,
     volume = &#34;8&#34;,
@@ -609,7 +611,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;title&gt;Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data&lt;/title&gt;
     &lt;/titleInfo&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Gilberto&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;G&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Pastorello&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -645,15 +647,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;You&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Wei&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;You-Wei&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Cheah&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Cristina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Poindexter&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -702,7 +703,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alessio&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ribeca&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -731,7 +732,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Brian&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Amiro&lt;/namePart&gt;
         &lt;role&gt;
@@ -799,7 +800,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Baldocchi&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -813,7 +813,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Beamesderfer&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -909,8 +909,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jean&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jean-Marc&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Bonnefond&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -982,7 +981,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Mauro&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Cavagna&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1010,7 +1009,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Torben&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Christensen&lt;/namePart&gt;
         &lt;role&gt;
@@ -1076,15 +1075,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Paolo&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Villari&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ettore&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;D’Andrea&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Humberto&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Ribeiro&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;da&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Rocha&lt;/namePart&gt;
         &lt;role&gt;
@@ -1100,7 +1098,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Kenneth&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Davis&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1115,7 +1113,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Agnès&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;de&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Grandcourt&lt;/namePart&gt;
         &lt;role&gt;
@@ -1224,8 +1222,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jiří&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Dušek&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dusek&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -1268,7 +1267,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Brent&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ewers&lt;/namePart&gt;
         &lt;role&gt;
@@ -1276,7 +1275,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Daniela&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Famulari&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1318,14 +1317,16 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Fischer&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Frank&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1383,7 +1384,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Göckede&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -1471,7 +1472,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Chad&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Hanson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1609,7 +1609,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Sara&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Knox&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1638,7 +1637,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Yoshiko&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yukio&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kosugi&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1660,7 +1659,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Bart&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kruijt&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1682,7 +1681,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Hyo-Jung&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hyojung&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Kwon&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1703,7 +1702,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Beverly&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Law&lt;/namePart&gt;
         &lt;role&gt;
@@ -1711,7 +1710,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Ray&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Leuning&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1748,7 +1747,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Adam&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Liska&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1791,7 +1789,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Antje&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Moffat&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lucas-Moffat&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -1818,8 +1816,8 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Carmen&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Arena&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vincenzo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Magliulo&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -1868,7 +1866,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Massman&lt;/namePart&gt;
         &lt;role&gt;
@@ -1920,6 +1918,8 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;McMillan&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -1949,9 +1949,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Erick&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Carreira&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Miller&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -1994,7 +1994,8 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eddy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Moors&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2023,7 +2024,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Taro&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nakai&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2088,7 +2089,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
         &lt;role&gt;
@@ -2104,15 +2105,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Jean&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Marc&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jean-Marc&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ourcival&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Shirley&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Papuga&lt;/namePart&gt;
         &lt;role&gt;
@@ -2157,7 +2157,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Richard&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Phillips&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2171,7 +2171,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;N&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Norbert&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Pirk&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2186,7 +2186,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Thomas&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Dennis&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Powell&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2237,6 +2237,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Reed&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2259,7 +2260,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Borja&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Reverter&lt;/namePart&gt;
         &lt;role&gt;
@@ -2288,7 +2289,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Scott&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Saleska&lt;/namePart&gt;
         &lt;role&gt;
@@ -2304,8 +2305,8 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Zulia&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Mayari&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Z&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Sanchez-Mejia&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2313,6 +2314,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Hans&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peter&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Schmid&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2405,7 +2407,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Richard&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Silberstein&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2426,7 +2427,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Rainer&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Steinbrecher&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2434,6 +2435,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Stevens&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2447,8 +2449,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andy&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Suyker&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2477,7 +2478,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Nigel&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tapper&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2506,14 +2506,15 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Shawn&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Urbanski&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Riccardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Valentini&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2538,6 +2539,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;van&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Huissteden&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Andrej&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Varlagin&lt;/namePart&gt;
         &lt;role&gt;
@@ -2545,7 +2554,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Joseph&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Joe&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Verfaillie&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2604,7 +2613,8 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Robin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Weber&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -2689,22 +2699,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Deb&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Agarwal&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Sébastien&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Biraud&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Margaret&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Torn&lt;/namePart&gt;
         &lt;role&gt;
@@ -2750,24 +2759,24 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-159001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data
-%A Pastorello, Gilberto
+%A Pastorello, G.
 %A Trotta, Carlo
 %A Canfora, E.
 %A Chu, Housen
 %A Christianson, D. S.
-%A Cheah, You Wei
-%A Poindexter, Cristina
+%A Cheah, You-Wei
+%A Poindexter, C.
 %A Chen, Jiquan
 %A Elbashandy, Abdelrahman
 %A Humphrey, Marty
 %A Isaac, Peter
 %A Polidori, Diego
 %A Reichstein, Markus
-%A Ribeca, A.
+%A Ribeca, Alessio
 %A Ingen, Catharine van
 %A Vuichard, Nicolas
 %A Zhang, Leiming
-%A Amiro, Brian D.
+%A Amiro, B. D.
 %A Ammann, Christof
 %A Arain, M. Altaf
 %A Ardö, Jonas
@@ -2776,9 +2785,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Arriga, Nicola
 %A Aubinet, Marc
 %A Aurela, Mika
-%A Baldocchi, Dennis D.
+%A Baldocchi, Dennis
 %A Barr, Alan
-%A Beamesderfer, E.
+%A Beamesderfer, Eric
 %A Marchesini, Luca Belelli
 %A Bergeron, Onil
 %A Beringer, Jason
@@ -2791,7 +2800,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Boike, Julia
 %A Bolstad, Paul V.
 %A Bonal, Damien
-%A Bonnefond, Jean Marc
+%A Bonnefond, Jean-Marc
 %A Bowling, David R.
 %A Bracho, Rosvel
 %A Brodeur, Jason
@@ -2801,11 +2810,11 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Burns, Sean P.
 %A Buysse, Pauline
 %A Cale, Peter
-%A Cavagna, Mauro
+%A Cavagna, M.
 %A Cellier, Pierre
 %A Chen, Shiping
 %A Chini, Isaac
-%A Christensen, Torben R.
+%A Christensen, T. R.
 %A Cleverly, James
 %A Collalti, Alessio
 %A Consalvo, Claudia
@@ -2814,12 +2823,12 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Coursolle, Carole
 %A Cremonese, Edoardo
 %A Curtis, Peter S.
-%A Villari, Paolo
-%A Rocha, Humberto Ribeiro da
+%A D’Andrea, Ettore
+%A Rocha, Humberto da
 %A Dai, Xiaoqin
-%A Davis, Kenneth L.
+%A Davis, Kenneth J.
 %A Cinti, Bruno De
-%A Grandcourt, Agnès de
+%A Grandcourt, A. de
 %A Ligne, Anne De
 %A Junior, Raimundo Cosme de Oliveira
 %A Delpierre, Nicolas
@@ -2833,21 +2842,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Duce, Pierpaolo
 %A Dufrêne, Eric
 %A Dunn, Allison L.
-%A Dušek, Jiří
+%A Dusek, J. T.
 %A Eamus, Derek
 %A Eichelmann, Uwe
 %A ElKhidir, Hatim Abdalla M.
 %A Eugster, Werner
 %A Ewenz, Cacilia
-%A Ewers, Brent E.
-%A Famulari, Daniela
+%A Ewers, B. E.
+%A Famulari, D.
 %A Fares, Silvano
 %A Feigenwinter, Iris
 %A Feitz, Andrew
 %A Fensholt, Rasmus
 %A Filippa, Gianluca
-%A Fischer, Marc
-%A Frank, John
+%A Fischer, M. L.
+%A Frank, J. M.
 %A Galvagno, Marta
 %A Gharun, Mana
 %A Gianelle, Damiano
@@ -2855,7 +2864,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Gioli, Beniamino
 %A Gitelson, Anatoly A.
 %A Goded, Ignacio
-%A Göckede, Mathias
+%A Goeckede, Mathias
 %A Goldstein, Allen H.
 %A Gough, Christopher M.
 %A Goulden, Michael L.
@@ -2867,7 +2876,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Han, Shijie
 %A Han, Xingguo
 %A Hansen, Birger Ulf
-%A Hanson, Chad T.
+%A Hanson, Chad
 %A Hatakka, Juha
 %A He, Yongtao
 %A Hehn, Markus
@@ -2886,64 +2895,64 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Khomik, Myroslava
 %A Klatt, Janina
 %A Knohl, Alexander
-%A Knox, Sara H.
+%A Knox, Sara
 %A Kobayashi, Hideki
 %A Koerber, Georgia R.
 %A Kolle, Olaf
-%A Kosugi, Yoshiko
+%A Kosugi, Yukio
 %A Kotani, Ayumi
 %A Kowalski, Andrew S.
-%A Kruijt, Bart
+%A Kruijt, B.
 %A Kurbatova, Juliya
 %A Kutsch, Werner L.
-%A Kwon, Hyo-Jung
+%A Kwon, Hyojung
 %A Launiainen, Samuli
 %A Laurila, Tuomas
-%A Law, Beverly E.
-%A Leuning, Ray
+%A Law, B. E.
+%A Leuning, R.
 %A Li, Yingnian
 %A Liddell, Michael J.
 %A Limousin, Jean-Marc
 %A Lion, Marryanna
-%A Liska, Adam J.
+%A Liska, Adam
 %A Lohila, Annalea
 %A López-Ballesteros, Ana
 %A López-Blanco, Efrén
 %A Loubet, Benjamin
 %A Loustau, Denis
-%A Moffat, Antje
+%A Lucas-Moffat, Antje
 %A Lüers, Johannes
 %A Ma, Siyan
 %A Macfarlane, Craig
-%A Arena, Carmen
+%A Magliulo, Vincenzo
 %A Maier, Regine
 %A Mammarella, Ivan
 %A Manca, Giovanni
 %A Marcolla, Barbara
 %A Margolis, Hank A.
 %A Marras, Serena
-%A Massman, William J.
+%A Massman, W. J.
 %A Mastepanov, Mikhail
 %A Matamala, Roser
 %A Matthes, Jaclyn Hatala
 %A Mazzenga, Francesco
 %A McCaughey, Harry
 %A McHugh, Ian
-%A McMillan, Andrew
+%A McMillan, Andrew M. S.
 %A Merbold, Lutz
 %A Meyer, Wayne S.
 %A Meyers, Tilden P.
-%A Carreira, Erick M.
+%A Miller, S. D.
 %A Minerbi, Stefano
 %A Moderow, Uta
 %A Monson, Russell K.
 %A Montagnani, Leonardo
 %A Moore, Caitlin E.
-%A Moors, Eddy
+%A Moors, E. J.
 %A Moreaux, Virginie
 %A Moureaux, Christine
 %A Munger, J. William
-%A Nakai, Taro
+%A Nakai, T.
 %A Neirynck, Johan
 %A Nesic, Zoran
 %A Nicolini, Giacomo
@@ -2952,37 +2961,37 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Nosetto, Marcelo D.
 %A Nouvellon, Yann
 %A Novick, Kimberly A.
-%A Oechel, Walter C.
+%A Oechel, W. C.
 %A Olesen, Jørgen E.
-%A Ourcival, Jean Marc
-%A Papuga, Shirley A.
+%A Ourcival, Jean-Marc
+%A Papuga, S. A.
 %A Parmentier, Frans-Jan W.
 %A Paul-Limoges, Eugénie
 %A Pavelka, Marian
 %A Peichl, Matthias
 %A Pendall, Elise
-%A Phillips, Richard A.
+%A Phillips, Richard P.
 %A Pilegaard, Kim
-%A Pirk, N.
+%A Pirk, Norbert
 %A Posse, Gabriela
-%A Powell, Thomas Dennis
+%A Powell, Thomas L.
 %A Prasse, Heiko
 %A Prober, Suzanne M.
 %A Rambal, Serge
 %A Rannik, Üllar
 %A Raz-Yaseef, Naama
 %A Rebmann, Corinna
-%A Reed, David
+%A Reed, David E.
 %A Dios, Víctor Resco de
 %A Restrepo-Coupe, Natalia
-%A Reverter, B. R.
+%A Reverter, Borja R.
 %A Roland, Marilyn
 %A Sabbatini, Simone
 %A Sachs, Torsten
-%A Saleska, Scott R.
+%A Saleska, S. R.
 %A Sánchez-Cañete, Enrique P.
-%A Sanchez-Mejia, Zulia Mayari
-%A Schmid, Hans
+%A Sanchez-Mejia, Z. M.
+%A Schmid, Hans Peter
 %A Schmidt, Marius
 %A Schneider, Karl
 %A Schrader, Frederik
@@ -2995,26 +3004,27 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Shironya, Ivan
 %A Siebicke, Lukas
 %A Šigut, Ladislav
-%A Silberstein, Richard B.
+%A Silberstein, Richard
 %A Sirca, Costantino
 %A Spano, Donatella
-%A Steinbrecher, Rainer
-%A Stevens, Robert
+%A Steinbrecher, R.
+%A Stevens, Robert M.
 %A Sturtevant, Cove
-%A Suyker, Andrew E.
+%A Suyker, Andy
 %A Tagesson, Torbern
 %A Takanashi, Satoru
 %A Tang, Yanhong
-%A Tapper, Nigel J.
+%A Tapper, Nigel
 %A Thom, Jonathan E.
 %A Tomassucci, Michele
 %A Tuovinen, Juha-Pekka
-%A Urbanski, Shawn
-%A Valentini, Riccardo
+%A Urbanski, S. P.
+%A Valentini, R.
 %A Molen, M. K. van der
 %A Gorsel, Eva van
+%A Huissteden, J. van
 %A Varlagin, Andrej
-%A Verfaillie, Joseph
+%A Verfaillie, Joe
 %A Vesala, Timo
 %A Vincke, Caroline
 %A Vitale, Domenico
@@ -3022,7 +3032,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Walker, Jeffrey P.
 %A Walter-Shea, Elizabeth A.
 %A Wang, Huimin
-%A Weber, Robin
+%A Weber, R. J.
 %A Westermann, Sebastian
 %A Wille, Christian
 %A Wofsy, Steven C.
@@ -3034,9 +3044,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Zhang, Junhui
 %A Zhou, Guoyi
 %A Zona, Donatella
-%A Agarwal, Deb
-%A Biraud, Sébastien C.
-%A Torn, Margaret S.
+%A Agarwal, D.
+%A Biraud, S.
+%A Torn, M. S.
 %A Papale, Dario
 %J Scientific Data, Volume 8, Issue 1
 %D 2021
@@ -3050,6 +3060,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %U https://doi.org/10.1038/s41597-021-00851-9
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G21-159001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data](https://gwf-uwaterloo.github.io/gwf-publications/G21-159001) (Pastorello et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a> (Pastorello et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Gilberto Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You Wei Cheah, Cristina Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, A. Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, Brian D. Amiro, Christof Ammann, et al.. 2021. Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data](https://gwf-uwaterloo.github.io/gwf-publications/G21-159001) (Pastorello et al., GWF 2021)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-159001>Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data</a> (Pastorello et al., GWF 2021)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>G. Pastorello, Carlo Trotta, E. Canfora, Housen Chu, D. S. Christianson, You-Wei Cheah, C. Poindexter, Jiquan Chen, Abdelrahman Elbashandy, Marty Humphrey, Peter Isaac, Diego Polidori, Markus Reichstein, Alessio Ribeca, Catharine van Ingen, Nicolas Vuichard, Leiming Zhang, B.D. Amiro, Christof Ammann, et al.. 2021. Author Correction: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. <i>Scientific Data, Volume 8, Issue 1</i>, 8(1).</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

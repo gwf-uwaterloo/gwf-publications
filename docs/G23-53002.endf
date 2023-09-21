@@ -1,0 +1,16 @@
+﻿%0 Journal Article
+%T Large‐Domain Multisite Precipitation Generation: Operational Blueprint and Demonstration for 1,000 Sites
+%A Papalexiou, S.
+%A Serinaldi, Francesco
+%A Clark, Martyn P.
+%J Water Resources Research, Volume 59, Issue 3
+%D 2023
+%V 59
+%N 3
+%I American Geophysical Union (AGU)
+%F Papalexiou-2023-Large‐Domain
+%X Abstract Stochastic simulations of spatiotemporal patterns of hydroclimatic processes, such as precipitation, are needed to build alternative but equally plausible inputs for water‐related design and management, and to estimate uncertainty and assess risks. However, while existing stochastic simulation methods are mature enough to deal with relatively small domains and coarse spatiotemporal scales, additional work is required to develop simulation tools for large‐domain analyses, which are more and more common in an increasingly interconnected world. This study proposes a methodological advancement in the CoSMoS framework, which is a flexible simulation framework preserving arbitrary marginal distributions and correlations, to dramatically decrease the computational burden and make the algorithm fast enough to perform large‐domain simulations in short time. The proposed approach focuses on correlated processes with mixed (zero‐inflated) Uniform marginal distributions. These correlated processes act as intermediates between the target process to simulate (precipitation) and parent Gaussian processes that are the core of the simulation algorithm. Working in the mixed‐Uniform space enables a substantial simplification of the so‐called correlation transformation functions, which represent a computational bottle neck in the original CoSMoS formulation. As a proof of concept, we simulate 40 years of daily precipitation records from 1,000 gauging stations in the Mississippi River basin. Moreover, we extend CoSMoS incorporating parent non‐Gaussian processes with different degrees of tail dependence and suggest potential improvements including the separate simulation of occurrence and intensity processes, and the use of advection, anisotropy, and nonstationary spatiotemporal correlation functions.
+%R 10.1029/2022wr034094
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-53002
+%U https://doi.org/10.1029/2022wr034094
+

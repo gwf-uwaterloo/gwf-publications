@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ireson-2023-A">
+    <titleInfo>
+        <title>A simple, efficient, mass-conservative approach to solving Richards’ equation (openRE, v1.0)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Ireson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Simon</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Mathias</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoscientific Model Development, Volume 16, Issue 2</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. A simple numerical solution procedure – namely the method of lines combined with an off-the-shelf ordinary differential equation (ODE) solver – was shown in previous work to provide efficient, mass-conservative solutions to the pressure-head form of Richards’ equation. We implement such a solution in our model openRE. We developed a novel method to quantify the boundary fluxes that reduce water balance errors without negative impacts on model runtimes – the solver flux output method (SFOM). We compare this solution with alternatives, including the classic modified Picard iteration method and the Hydrus 1D model. We reproduce a set of benchmark solutions with all models. We find that Celia’s solution has the best water balance, but it can incur significant truncation errors in the simulated boundary fluxes, depending on the time steps used. Our solution has comparable runtimes to Hydrus and better water balance performance (though both models have excellent water balance closure for all the problems we considered). Our solution can be implemented in an interpreted language, such as MATLAB or Python, making use of off-the-shelf ODE solvers. We evaluated alternative SciPy ODE solvers that are available in Python and make practical recommendations about the best way to implement them for Richards’ equation. There are two advantages of our approach: (i) the code is concise, making it ideal for teaching purposes; and (ii) the method can be easily extended to represent alternative properties (e.g., novel ways to parameterize the K(ψ) relationship) and processes (e.g., it is straightforward to couple heat or solute transport), making it ideal for testing alternative hypotheses.</abstract>
+    <identifier type="citekey">Ireson-2023-A</identifier>
+    <identifier type="doi">10.5194/gmd-16-659-2023</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-39001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>2</number></detail>
+        <extent unit="page">
+            <start>659</start>
+            <end>677</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

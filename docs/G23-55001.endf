@@ -1,0 +1,18 @@
+﻿%0 Journal Article
+%T Leveraging Guided Backpropagation to Select Convolutional Neural Networks for Plant Classification
+%A Mostafa, Sakib
+%A Mondal, Debajyoti
+%A Beck, Michael A.
+%A Bidinosti, C. P.
+%A Henry, Christopher J.
+%A Stavness, Ian
+%J Frontiers in Artificial Intelligence, Volume 5
+%D 2023
+%V 5
+%I Frontiers Media SA
+%F Mostafa-2023-Leveraging
+%X The development of state-of-the-art convolutional neural networks (CNN) has allowed researchers to perform plant classification tasks previously thought impossible and rely on human judgment. Researchers often develop complex CNN models to achieve better performances, introducing over-parameterization and forcing the model to overfit on a training dataset. The most popular process for evaluating overfitting in a deep learning model is using accuracy and loss curves. Train and loss curves may help understand the performance of a model but do not provide guidance on how the model could be modified to attain better performance. In this article, we analyzed the relation between the features learned by a model and its capacity and showed that a model with higher representational capacity might learn many subtle features that may negatively affect its performance. Next, we showed that the shallow layers of a deep learning model learn more diverse features than the ones learned by the deeper layers. Finally, we propose SSIM cut curve, a new way to select the depth of a CNN model by using the pairwise similarity matrix between the visualization of the features learned at different depths by using Guided Backpropagation. We showed that our proposed method could potentially pave a new way to select a better CNN model.
+%R 10.3389/frai.2022.871162
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-55001
+%U https://doi.org/10.3389/frai.2022.871162
+

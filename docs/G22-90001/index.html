@@ -9,15 +9,24 @@ if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]")
 if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
 else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
 if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
-$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains" name=citation_title><meta content="Vincent Vionnet" name=citation_author><meta content="M. Verville" name=citation_author><meta content="Vincent Fortin" name=citation_author><meta content="M. Brugman" name=citation_author><meta content="M. Abrahamowicz" name=citation_author><meta content="F. Lemay" name=citation_author><meta content="J. M. Thériault" name=citation_author><meta content="M. Lafaysse" name=citation_author><meta content="J. A. Milbrandt" name=citation_author><meta content="Water Resources Research" name=citation_journal_title><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-90001.pdf" name=citation_pdf_url><meta content="10.1029/2021wr031778" name=citation_doi><meta property="og:title" content="Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-90001"><meta property="og:description" content="Vincent Vionnet, M. Verville, Vincent Fortin, M. Brugman, M. Abrahamowicz, F. Lemay, J. M. Thériault, M. Lafaysse, J. A. Milbrandt. Water Resources Research. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains</a></h2><p class=lead><a href=/gwf-publications/people/V/Vincent-Vionnet/ data-uni=uni0051>Vincent Vionnet</a>,
-<a href=/gwf-publications/people/M/M-Verville/ data-uni=uni0004>M. Verville</a>,
-<a href=/gwf-publications/people/V/Vincent-Fortin/ data-uni=uni0004>Vincent Fortin</a>,
-<a href=/gwf-publications/people/M/M-Brugman/ data-uni=uni0004>M. Brugman</a>,
-<a href=/gwf-publications/people/M/M-Abrahamowicz/ data-uni=uni0051>M. Abrahamowicz</a>,
-<a href=/gwf-publications/people/F/F-Lemay/ data-uni=uni0004>F. Lemay</a>,
-<a href=/gwf-publications/people/J/J-M-Th%C3%A9riault/ data-uni=uni0023>J. M. Thériault</a>,
-<a href=/gwf-publications/people/M/M-Lafaysse/ data-uni=uni0047>M. Lafaysse</a>,
-<a href=/gwf-publications/people/J/J-A-Milbrandt/ data-uni=uni0051>J. A. Milbrandt</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><dl><dt>Cite:</dt><dd><span id=citeACL>Vincent Vionnet, M. Verville, Vincent Fortin, M. Brugman, M. Abrahamowicz, F. Lemay, J. M. Thériault, M. Lafaysse, and J. A. Milbrandt. 2022. Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains. <i>Water Resources Research</i>.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains" name=citation_title><meta content="Vincent Vionnet" name=citation_author><meta content="M. Verville" name=citation_author><meta content="Vincent Fortin" name=citation_author><meta content="Melinda M. Brugman" name=citation_author><meta content="Maria Abrahamowicz" name=citation_author><meta content="François Lemay" name=citation_author><meta content="Julie M. Thériault" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="Jason A. Milbrandt" name=citation_author><meta content="Vincent Vionnet" name=citation_author><meta content="M. Verville" name=citation_author><meta content="Vincent Fortin" name=citation_author><meta content="Melinda M. Brugman" name=citation_author><meta content="Maria Abrahamowicz" name=citation_author><meta content="François Lemay" name=citation_author><meta content="Julie M. Thériault" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="Jason A. Milbrandt" name=citation_author><meta content="Water Resources Research" name=citation_journal_title><meta content="2022" name=citation_publication_date><meta content="https://gwf-uwaterloo.github.io/gwf-publications/G22-90001.pdf" name=citation_pdf_url><meta content="10.1029/2021wr031778" name=citation_doi><meta property="og:title" content="Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-90001"><meta property="og:description" content="Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, Jason A. Milbrandt, Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, Jason A. Milbrandt. Water Resources Research. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains</a></h2><p class=lead><a href=/gwf-publications/people/V/Vincent-Vionnet/ data-uni=uni0005>Vincent Vionnet</a>,
+<a href=/gwf-publications/people/M/M-Verville/ data-uni=uni0005>M. Verville</a>,
+<a href=/gwf-publications/people/V/Vincent-Fortin/ data-uni=uni0052>Vincent Fortin</a>,
+<a href=/gwf-publications/people/M/Melinda-M-Brugman/ data-uni=uni0005>Melinda M. Brugman</a>,
+<a href=/gwf-publications/people/M/Maria-Abrahamowicz/ data-uni=uni0005>Maria Abrahamowicz</a>,
+<a href=/gwf-publications/people/F/Fran%C3%A7ois-Lemay/ data-uni=uni0005>François Lemay</a>,
+<a href=/gwf-publications/people/J/Julie-M-Th%C3%A9riault/ data-uni=uni0019>Julie M. Thériault</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0039>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/J/Jason-A-Milbrandt/ data-uni=uni0005>Jason A. Milbrandt</a>,
+<a href=/gwf-publications/people/V/Vincent-Vionnet/ data-uni=uni0005>Vincent Vionnet</a>,
+<a href=/gwf-publications/people/M/M-Verville/ data-uni=uni0005>M. Verville</a>,
+<a href=/gwf-publications/people/V/Vincent-Fortin/ data-uni=uni0052>Vincent Fortin</a>,
+<a href=/gwf-publications/people/M/Melinda-M-Brugman/ data-uni=uni0005>Melinda M. Brugman</a>,
+<a href=/gwf-publications/people/M/Maria-Abrahamowicz/ data-uni=uni0005>Maria Abrahamowicz</a>,
+<a href=/gwf-publications/people/F/Fran%C3%A7ois-Lemay/ data-uni=uni0005>François Lemay</a>,
+<a href=/gwf-publications/people/J/Julie-M-Th%C3%A9riault/ data-uni=uni0019>Julie M. Thériault</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0039>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/J/Jason-A-Milbrandt/ data-uni=uni0005>Jason A. Milbrandt</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><dl><dt>Cite:</dt><dd><span id=citeACL>Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, Jason A. Milbrandt, Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, and Jason A. Milbrandt. 2022. Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains. <i>Water Resources Research</i>.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -28,12 +37,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     author = &#34;Vionnet, Vincent  and
       Verville, M.  and
       Fortin, Vincent  and
-      Brugman, M.  and
-      Abrahamowicz, M.  and
-      Lemay, F.  and
-      Th{\&#39;e}riault, J. M.  and
-      Lafaysse, M.  and
-      Milbrandt, J. A.&#34;,
+      Brugman, Melinda M.  and
+      Abrahamowicz, Maria  and
+      Lemay, Fran{\c{c}}ois  and
+      Th{\&#39;e}riault, Julie M.  and
+      Lafaysse, Matthieu  and
+      Milbrandt, Jason A.  and
+      Vionnet, Vincent  and
+      Verville, M.  and
+      Fortin, Vincent  and
+      Brugman, Melinda M.  and
+      Abrahamowicz, Maria  and
+      Lemay, Fran{\c{c}}ois  and
+      Th{\&#39;e}riault, Julie M.  and
+      Lafaysse, Matthieu  and
+      Milbrandt, Jason A.&#34;,
     journal = &#34;Water Resources Research&#34;,
     year = &#34;2022&#34;,
     publisher = &#34;American Geophysical Union (AGU)&#34;,
@@ -70,6 +88,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Melinda&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Brugman&lt;/namePart&gt;
         &lt;role&gt;
@@ -77,21 +96,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Maria&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Abrahamowicz&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;François&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Lemay&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Julie&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Thériault&lt;/namePart&gt;
         &lt;role&gt;
@@ -99,14 +118,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthieu&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Lafaysse&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jason&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Milbrandt&lt;/namePart&gt;
         &lt;role&gt;
@@ -145,12 +164,12 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Vionnet, Vincent
 %A Verville, M.
 %A Fortin, Vincent
-%A Brugman, M.
-%A Abrahamowicz, M.
-%A Lemay, F.
-%A Thériault, J. M.
-%A Lafaysse, M.
-%A Milbrandt, J. A.
+%A Brugman, Melinda M.
+%A Abrahamowicz, Maria
+%A Lemay, François
+%A Thériault, Julie M.
+%A Lafaysse, Matthieu
+%A Milbrandt, Jason A.
 %J Water Resources Research
 %D 2022
 %I American Geophysical Union (AGU)
@@ -160,6 +179,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %U https://doi.org/10.1029/2021wr031778
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-90001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains](https://gwf-uwaterloo.github.io/gwf-publications/G22-90001) (Vionnet et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains</a> (Vionnet et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Vincent Vionnet, M. Verville, Vincent Fortin, M. Brugman, M. Abrahamowicz, F. Lemay, J. M. Thériault, M. Lafaysse, and J. A. Milbrandt. 2022. Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains. <i>Water Resources Research</i>.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains](https://gwf-uwaterloo.github.io/gwf-publications/G22-90001) (Vionnet et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-90001>Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains</a> (Vionnet et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, Jason A. Milbrandt, Vincent Vionnet, M. Verville, Vincent Fortin, Melinda M. Brugman, Maria Abrahamowicz, François Lemay, Julie M. Thériault, Matthieu Lafaysse, and Jason A. Milbrandt. 2022. Snow level from post‐processing of atmospheric model improves snowfall estimate and snowpack prediction in mountains. <i>Water Resources Research</i>.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

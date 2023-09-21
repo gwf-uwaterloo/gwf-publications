@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ramezanzadeh-2023-Effects">
+    <titleInfo>
+        <title>Effects of freeze-thaw cycles on methanogenic hydrocarbon degradation: Experiment and modeling</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mehdi</namePart>
+        <namePart type="family">Ramezanzadeh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Stephanie</namePart>
+        <namePart type="family">Slowinski</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fereidoun</namePart>
+        <namePart type="family">Rezanezhad</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kathleen</namePart>
+        <namePart type="family">Murr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christina</namePart>
+        <namePart type="family">Lam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christina</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Smeaton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Clément</namePart>
+        <namePart type="family">Alibert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marianne</namePart>
+        <namePart type="family">Vandergriendt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Chemosphere, Volume 325</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Cold regions are warming much faster than the global average, resulting in more frequent and intense freeze-thaw cycles (FTCs) in soils. In hydrocarbon-contaminated soils, FTCs modify the biogeochemical and physical processes controlling petroleum hydrocarbon (PHC) biodegradation and the associated generation of methane (CH4) and carbon dioxide (CO2). Thus, understanding the effects of FTCs on the biodegradation of PHCs is critical for environmental risk assessment and the design of remediation strategies for contaminated soils in cold regions. In this study, we developed a diffusion-reaction model that accounts for the effects of FTCs on toluene biodegradation, including methanogenic biodegradation. The model is verified against data generated in a 215 day-long batch experiment with soil collected from a PHC contaminated site in Ontario, Canada. The fully saturated soil incubations with six different treatments were exposed to successive 4-week FTCs, with temperatures oscillating between −10 °C and +15 °C, under anoxic conditions to stimulate methanogenic biodegradation. We measured the headspace concentrations and 13C isotope compositions of CH4 and CO2 and analyzed the porewater for pH, acetate, dissolved organic and inorganic carbon, and toluene. The numerical model represents solute diffusion, volatilization, sorption, as well as a reaction network of 13 biogeochemical processes. The model successfully simulates the soil porewater and headspace concentration time series data by representing the temperature dependencies of microbial reaction and gas diffusion rates during FTCs. According to the model results, the observed increases in the headspace concentrations of CH4 and CO2 by 87% and 136%, respectively, following toluene addition are explained by toluene fermentation and subsequent methanogenesis reactions. The experiment and the numerical simulation show that methanogenic degradation is the primary toluene attenuation mechanism under the electron acceptor-limited conditions experienced by the soil samples, representing 74% of the attenuation, with sorption contributing to 11%, and evaporation contributing to 15%. Also, the model-predicted contribution of acetate-based methanogenesis to total produced CH4 agrees with that derived from the 13C isotope data. The freezing-induced soil matrix organic carbon release is considered as an important process causing DOC increase following each freezing period according to the calculations of carbon balance and SUVA index. The simulation results of a no FTC scenario indicate that, in the absence of FTCs, CO2 and CH4 generation would decrease by 29% and 26%, respectively, and that toluene would be biodegraded 23% faster than in the FTC scenario. Because our modeling approach represents the dominant processes controlling PHC biodegradation and the associated CH4 and CO2 fluxes, it can be used to analyze the sensitivity of these processes to FTC frequency and duration driven by temperature fluctuations.</abstract>
+    <identifier type="citekey">Ramezanzadeh-2023-Effects</identifier>
+    <identifier type="doi">10.1016/j.chemosphere.2023.138405</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-65001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>325</number></detail>
+        <detail type="page"><number>138405</number></detail>
+    </part>
+</mods>
+</modsCollection>

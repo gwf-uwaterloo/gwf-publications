@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Painter-2023-Blooms">
+    <titleInfo>
+        <title>Blooms and flows: Effects of variable hydrology and management on reservoir water quality</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kristin</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Painter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jason</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Venkiteswaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Ecosphere, Volume 14, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Flow management has the potential to significantly affect ecosystem condition. Shallow lakes in arid regions are especially susceptible to flow management changes, which can have important implications for the formation of cyanobacterial blooms. Here, we reveal water quality shifts associated with changing source water inflow management. Using in situ monitoring data, we studied a seven-year time span during which inflows to a shallow, eutrophic drinking water reservoir transitioned from primarily natural landscape runoff (2014–2015) to managed flows from a larger upstream reservoir (Lake Diefenbaker; 2016–2020) and identified significant changes in cyanobacteria (as phycocyanin) using generalized additive models to classify cyanobacterial bloom formation. We then connected changes in water source with shifts in chemistry and the occurrence of cyanobacterial blooms using principal components analysis. Phycocyanin was greater in years with managed reservoir inflow from a mesotrophic upstream reservoir (2016–2020), but dissolved organic matter (DOM) and specific conductivity, important determinants of drinking water quality, were greatest in years when landscape runoff dominated lake water source (2014–2015). Most notably, despite changing rapidly, it took multiple years for lake water to return to a consistent and reduced level of DOM after managed inflows from the upstream reservoir were resumed, an observation that underscores how resilience may be hindered by weak resistance to change and slow recovery. Environmental flows for water quality are rarely defined, yet we show that trade-offs exist between poor water quality via elevated conductivity and DOM and higher bloom risk, depending on water source. Our work highlights the importance of source water quality, not just quantity, to water security, and our findings have important implications for water managers who must protect ecosystem services while adapting to projected hydroclimatic change.</abstract>
+    <identifier type="citekey">Painter-2023-Blooms</identifier>
+    <identifier type="doi">10.1002/ecs2.4472</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-59001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>14</number></detail>
+        <detail type="issue"><number>3</number></detail>
+    </part>
+</mods>
+</modsCollection>

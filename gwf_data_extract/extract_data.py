@@ -23,7 +23,7 @@ no_data_count = 0
 
 def get_doi(publication: str):
     """
-    search for the paper's doi form the title
+    search for the paper's doi by the title
     Arguments:
         publication: title string        
     Returns:
@@ -310,8 +310,8 @@ def handle_HTML_entities(file_name: str):
 
 if __name__ == "__main__":    
     # extract_doi('gwf_data_extract/source-01.csv', 'gwf_data_extract/output_all.csv')             # 1st
-    # fetch_paper_data('DOI_all.csv', 'result.json')            # 2nd
-    # get_abstracts('DOI_all.csv', 'abstract.json')             # 3rd
-    # create_xml_yaml_files('result.json', 'abstract.json')     # 4th
+    # fetch_paper_data('DOI_2023.csv', 'result_2023.json')            # 2nd
+    # get_abstracts('DOI_2023.csv', 'abstract_2023.json')             # 3rd
+    # create_xml_yaml_files('gwf_data_extract/result_2023.json', 'gwf_data_extract/abstract_2023.json')     # 4th
     
-    handle_HTML_entities("data/xml/G22.xml")
+    handle_HTML_entities("G23.xml")

@@ -1,0 +1,16 @@
+@article{Ireson-2023-A,
+    title = "A simple, efficient, mass-conservative approach to solving Richards' equation (openRE, v1.0)",
+    author = "Ireson, A. M.  and
+      Spiteri, Raymond J.  and
+      Clark, Martyn P.  and
+      Mathias, Simon A.",
+    journal = "Geoscientific Model Development, Volume 16, Issue 2",
+    volume = "16",
+    number = "2",
+    year = "2023",
+    publisher = "Copernicus GmbH",
+    url = "https://gwf-uwaterloo.github.io/gwf-publications/G23-39001",
+    doi = "10.5194/gmd-16-659-2023",
+    pages = "659--677",
+    abstract = "Abstract. A simple numerical solution procedure {--} namely the method of lines combined with an off-the-shelf ordinary differential equation (ODE) solver {--} was shown in previous work to provide efficient, mass-conservative solutions to the pressure-head form of Richards' equation. We implement such a solution in our model openRE. We developed a novel method to quantify the boundary fluxes that reduce water balance errors without negative impacts on model runtimes {--} the solver flux output method (SFOM). We compare this solution with alternatives, including the classic modified Picard iteration method and the Hydrus 1D model. We reproduce a set of benchmark solutions with all models. We find that Celia's solution has the best water balance, but it can incur significant truncation errors in the simulated boundary fluxes, depending on the time steps used. Our solution has comparable runtimes to Hydrus and better water balance performance (though both models have excellent water balance closure for all the problems we considered). Our solution can be implemented in an interpreted language, such as MATLAB or Python, making use of off-the-shelf ODE solvers. We evaluated alternative SciPy ODE solvers that are available in Python and make practical recommendations about the best way to implement them for Richards' equation. There are two advantages of our approach: (i) the code is concise, making it ideal for teaching purposes; and (ii) the method can be easily extended to represent alternative properties (e.g., novel ways to parameterize the K(ψ) relationship) and processes (e.g., it is straightforward to couple heat or solute transport), making it ideal for testing alternative hypotheses.",
+}

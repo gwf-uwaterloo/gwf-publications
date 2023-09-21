@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Marsh-2023-Validation">
+    <titleInfo>
+        <title>Validation of FABDEM, a global bare-earth elevation model, against UAV-lidar derived elevation in a complex forested mountain catchment</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Phillip</namePart>
+        <namePart type="family">Harder</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Research Communications, Volume 5, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IOP Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Space-based, global-extent digital elevation models (DEMs) are key inputs to many Earth sciences applications. However, many of these applications require the use of a ‘bare-Earth’ DEM versus a digital surface model (DSM), the latter of which may include systematic positive biases due to tree canopies in forested areas. Critical topographic features may be obscured by these biases. Vegetation-free datasets have been created by using statistical relationships and machine learning to train on local-scale datasets (e.g., lidar) to de-bias the global-extent datasets. Recent advances in satellite platforms coupled with increased availability of computational resources and lidar reference products has allowed for a new generation of vegetation- and urban-canopy removals. One of these is the Forest And Buildings removed Copernicus DEM (FABDEM), based on the most recent and most accurate global DSM Copernicus-30. Among the more challenging landscapes to quantify surface elevations are densely forested mountain catchments, where even airborne lidar applications struggle to capture surface returns. The increasing affordability and availability of UAV-based lidar platforms have resulted in new capacity to fly modest spatial extents with unrivalled point densities. These data allow an unprecedented ability to validate global sub-canopy DEMs against representative UAV-based lidar data. In this work, the FABDEM is validated against up-scaled lidar data in a steep and forested mountain catchment considering elevation, slope, and Terrain Position Index (TPI) metrics. Comparisons of FABDEM with SRTM, MERIT, and the Copernicus-30 dataset are made. It was found that the FABDEM had a 24% reduction in elevation RMSE and a 135% reduction in bias compared to the Copernicus-30 dataset. Overall, the FABDEM provides a clear improvement over existing deforested DEM products in complex mountain topography such as the MERIT DEM. This study supports the use of FABDEM in forested mountain catchments as the current best-in-class data product.</abstract>
+    <identifier type="citekey">Marsh-2023-Validation</identifier>
+    <identifier type="doi">10.1088/2515-7620/acc56d</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-52001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>5</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <detail type="page"><number>031009</number></detail>
+    </part>
+</mods>
+</modsCollection>

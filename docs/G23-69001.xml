@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sedighkia-2023-Optimizing">
+    <titleInfo>
+        <title>Optimizing agricultural cropping patterns under irrigation water use restrictions due to environmental flow requirements and climate change</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mahdi</namePart>
+        <namePart type="family">Sedighkia</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bithin</namePart>
+        <namePart type="family">Datta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources and Economics, Volume 41</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>This study proposes a reservoir operation optimization framework to maximize the regional agricultural profit under the constraints of downstream environmental flow requirements and climate change. Three climate change models—CanESM2, MIROC5, and NorESM1-M—and the soil and water assessment tool (SWAT) were used to simulate the reservoir inflow in future periods under uncertainty. Minimum and ideal environmental flow regimes were embedded in the structure of the reservoir operation model to optimize the environmental flow needs and water supply and assess their tradeoffs. Cropping pattern optimization was used to maximize farmer profit. Particle swarm optimization was applied in the optimization processes. The method was applied to a case study in the Tajan River basin, Iran, with the results showing the environmental flow regime considerably reduces irrigation supply and has significant impacts on farmer profits. The results showed that cropping pattern optimization was not an effective strategy to mitigate the economic impacts of climate change under environmental flow constraints, but this assessment may not be generalized to other areas. Uncertainties related to the climate change models are a notable weakness of the approach and should be considered in future studies.</abstract>
+    <identifier type="citekey">Sedighkia-2023-Optimizing</identifier>
+    <identifier type="doi">10.1016/j.wre.2023.100216</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-69001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>41</number></detail>
+        <detail type="page"><number>100216</number></detail>
+    </part>
+</mods>
+</modsCollection>

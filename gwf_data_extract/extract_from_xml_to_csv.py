@@ -3,7 +3,7 @@ import xml.etree.ElementTree as et
 import html
 
 sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey"])
-file = 'G22'
+file = 'G23'
 input = 'data/xml/'+ file +'.xml'
 output = 'gwf_data_extract/'+file+'.csv'
 tree = et.parse(input)

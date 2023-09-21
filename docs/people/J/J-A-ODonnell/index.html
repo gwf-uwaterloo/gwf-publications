@@ -1,0 +1,368 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(-4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>J. A. O'Donnell - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css></head><body><header style="z-index:1002;top:0;position:sticky;display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style=display:block;overflow:hidden;z-index:10;left:0;margin:0;line-height:2em;white-space:normal;background-color:#000;color:#dfdfdf;height:57px;right:0;top:0><a href=/gwf-publications/ style=outline:none;position:absolute;top:50%;left:50%;max-width:45%;transform:translate(-50%,-50%)><img alt src=/gwf-publications/images/waterloo-logo.svg style="display:flex;flex-shrink:0;transition:opacity 300ms linear 0s;cursor:pointer;width:139.273px;max-width:100%;vertical-align:middle"></a></div></header><div id=main-container class=container><section id=main><h2 id=title><span class=font-weight-normal>J. A.</span> <span class=font-weight-bold>O'Donnell</span></h2><hr><div class=row><div class=col-lg-9><h4>2021</h4><div data-prj=prj6><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G21-62004.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-62004 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-62004 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-62004/>The Boreal-Arctic Wetland and Lake Dataset (BAWLD)</a></strong><br><a href=/gwf-publications/people/D/David-Olefeldt/ data-uni=uni0017>David Olefeldt</a>,
+<a href=/gwf-publications/people/M/Mikael-Hovemyr/ data-uni=uni0099>Mikael Hovemyr</a>,
+<a href=/gwf-publications/people/M/M-A-Kuhn/ data-uni=uni0498>M. A. Kuhn</a>,
+<a href=/gwf-publications/people/D/David-Bastviken/ data-uni=uni0736>David Bastviken</a>,
+<a href=/gwf-publications/people/T/Theodore-J-Bohn/ data-uni=uni0180>Theodore J. Bohn</a>,
+<a href=/gwf-publications/people/J/John-Connolly/ data-uni=uni0273>John Connolly</a>,
+<a href=/gwf-publications/people/P/Patrick-Crill/ data-uni=uni0099>Patrick Crill</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0021>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/S/S-A-Finkelstein/ data-uni=uni0022>S. A. Finkelstein</a>,
+<a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/ data-uni=uni0021>Hélène Genet</a>,
+<a href=/gwf-publications/people/G/Guido-Grosse/ data-uni=uni0113>Guido Grosse</a>,
+<a href=/gwf-publications/people/L/Lorna-I-Harris/ data-uni=uni0192>Lorna I. Harris</a>,
+<a href=/gwf-publications/people/L/Liam-Heffernan/ data-uni=uni0301>Liam Heffernan</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0037>Manuel Helbig</a>,
+<a href=/gwf-publications/people/G/Gustaf-Hugelius/ data-uni=uni0119>Gustaf Hugelius</a>,
+<a href=/gwf-publications/people/R/Ryan-Hutchins/ data-uni=uni0017>Ryan Hutchins</a>,
+<a href=/gwf-publications/people/S/Sari-Juutinen/ data-uni=uni0018>Sari Juutinen</a>,
+<a href=/gwf-publications/people/M/Mark-J-Lara/ data-uni=uni0092>Mark J. Lara</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0075>Avni Malhotra</a>,
+<a href=/gwf-publications/people/K/Kristen-L-Manies/ data-uni=uni0033>Kristen L. Manies</a>,
+<a href=/gwf-publications/people/A/A-David-McGuire/ data-uni=uni0021>A. David McGuire</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0016>Susan M. Natali</a>,
+<a href=/gwf-publications/people/J/J-A-ODonnell/ data-uni=uni0228>J. A. O'Donnell</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0044>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/A/Aleksi-R%C3%A4s%C3%A4nen/ data-uni=uni0079>Aleksi Räsänen</a>,
+<a href=/gwf-publications/people/C/Christina-Sch%C3%A4del/ data-uni=uni0013>Christina Schädel</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/M/Maria-Strack/ data-uni=uni0002>Maria Strack</a>,
+<a href=/gwf-publications/people/S/Suzanne-E-Tank/ data-uni=uni0017>Suzanne E. Tank</a>,
+<a href=/gwf-publications/people/C/Claire-C-Treat/ data-uni=uni0113>Claire C. Treat</a>,
+<a href=/gwf-publications/people/R/R-K-Varner/ data-uni=uni0231>R. K. Varner</a>,
+<a href=/gwf-publications/people/T/Tarmo-Virtanen/ data-uni=uni0030>Tarmo Virtanen</a>,
+<a href=/gwf-publications/people/R/Rebecca-K-Warren/ data-uni=uni0060>Rebecca K. Warren</a>,
+<a href=/gwf-publications/people/J/Jennifer-D-Watts/ data-uni=uni0016>Jennifer D. Watts</a><br><a href=/gwf-publications/volumes/G21-62/ class=text-muted></a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-62004><div class="card-body p-3 small">Abstract. Methane emissions from boreal and arctic wetlands, lakes, and rivers are expected to increase in response to warming and associated permafrost thaw. However, the lack of appropriate land cover datasets for scaling field-measured methane emissions to circumpolar scales has contributed to a large uncertainty for our understanding of present-day and future methane emissions. Here we present the Boreal-Arctic Wetland and Lake Dataset (BAWLD), a land cover dataset based on an expert assessment, extrapolated using random forest modelling from available spatial datasets of climate, topography, soils, permafrost conditions, vegetation, wetlands, and surface water extents and dynamics. In BAWLD, we estimate the fractional coverage of five wetland, seven lake, and three river classes within 0.5 × 0.5° grid cells that cover the northern boreal and tundra biomes (17 % of the global land surface). Land cover classes were defined using criteria that ensured distinct methane emissions among classes, as indicated by a co-developed comprehensive dataset of methane flux observations. In BAWLD, wetlands occupied 3.2 × 106 km2 (14 % of domain) with a 95 % confidence interval between 2.8 and 3.8 × 106 km2. Bog, fen, and permafrost bog were the most abundant wetland classes, covering ~28 % each of the total wetland area, while the highest methane emitting marsh and tundra wetland classes occupied 5 and 12 %, respectively. Lakes, defined to include all lentic open-water ecosystems regardless of size, covered 1.4 × 106 km2 (6 % of domain). Low methane-emitting large lakes (> 10 km2) and glacial lakes jointly represented 78 % of the total lake area, while high-emitting peatland and yedoma lakes covered 18 and 4 %, respectively. Small (&lt; 0.1 km2) glacial, peatland, and yedoma lakes combined covered 17 % of the total lake area, but contributed disproportionally to the overall spatial uncertainty of lake area with a 95 % confidence interval between 0.15 and 0.38 × 106 km2. Rivers and streams were estimated to cover 0.12 × 106 km2 (0.5 % of domain) of which 8 % was associated with high-methane emitting headwaters that drain organic-rich landscapes. Distinct combinations of spatially co-occurring wetland and lake classes were identified across the BAWLD domain, allowing for the mapping of “wetscapes” that will have characteristic methane emission magnitudes and sensitivities to climate change at regional scales. With BAWLD, we provide a dataset which avoids double-accounting of wetland, lake and river extents, and which includes confidence intervals for each land cover class. As such, BAWLD will be suitable for many hydrological and biogeochemical modelling and upscaling efforts for the northern Boreal and Arctic region, in particular those aimed at improving assessments of current and future methane emissions. Data is freely available at https://doi.org/10.18739/A2C824F9X (Olefeldt et al., 2021).</div></div><div data-prj=prj6><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G21-249001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-249001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-249001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-249001/>The Boreal–Arctic Wetland and Lake Dataset (BAWLD)</a></strong><br><a href=/gwf-publications/people/D/David-Olefeldt/ data-uni=uni0017>David Olefeldt</a>,
+<a href=/gwf-publications/people/M/Mikael-Hovemyr/ data-uni=uni0099>Mikael Hovemyr</a>,
+<a href=/gwf-publications/people/M/M-A-Kuhn/ data-uni=uni0498>M. A. Kuhn</a>,
+<a href=/gwf-publications/people/D/David-Bastviken/ data-uni=uni0736>David Bastviken</a>,
+<a href=/gwf-publications/people/T/Theodore-J-Bohn/ data-uni=uni0180>Theodore J. Bohn</a>,
+<a href=/gwf-publications/people/J/John-Connolly/ data-uni=uni0273>John Connolly</a>,
+<a href=/gwf-publications/people/P/Patrick-Crill/ data-uni=uni0099>Patrick Crill</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0021>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/S/S-A-Finkelstein/ data-uni=uni0022>S. A. Finkelstein</a>,
+<a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/ data-uni=uni0021>Hélène Genet</a>,
+<a href=/gwf-publications/people/G/Guido-Grosse/ data-uni=uni0113>Guido Grosse</a>,
+<a href=/gwf-publications/people/L/Lorna-I-Harris/ data-uni=uni0192>Lorna I. Harris</a>,
+<a href=/gwf-publications/people/L/Liam-Heffernan/ data-uni=uni0301>Liam Heffernan</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0037>Manuel Helbig</a>,
+<a href=/gwf-publications/people/G/Gustaf-Hugelius/ data-uni=uni0119>Gustaf Hugelius</a>,
+<a href=/gwf-publications/people/R/Ryan-Hutchins/ data-uni=uni0017>Ryan Hutchins</a>,
+<a href=/gwf-publications/people/S/Sari-Juutinen/ data-uni=uni0018>Sari Juutinen</a>,
+<a href=/gwf-publications/people/M/Mark-J-Lara/ data-uni=uni0092>Mark J. Lara</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0075>Avni Malhotra</a>,
+<a href=/gwf-publications/people/K/Kristen-L-Manies/ data-uni=uni0033>Kristen L. Manies</a>,
+<a href=/gwf-publications/people/A/A-David-McGuire/ data-uni=uni0021>A. David McGuire</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0016>Susan M. Natali</a>,
+<a href=/gwf-publications/people/J/J-A-ODonnell/ data-uni=uni0228>J. A. O'Donnell</a>,
+<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0044>Frans-Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/A/Aleksi-R%C3%A4s%C3%A4nen/ data-uni=uni0079>Aleksi Räsänen</a>,
+<a href=/gwf-publications/people/C/Christina-Sch%C3%A4del/ data-uni=uni0013>Christina Schädel</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/M/Maria-Strack/ data-uni=uni0002>Maria Strack</a>,
+<a href=/gwf-publications/people/S/Suzanne-E-Tank/ data-uni=uni0017>Suzanne E. Tank</a>,
+<a href=/gwf-publications/people/C/Claire-C-Treat/ data-uni=uni0113>Claire C. Treat</a>,
+<a href=/gwf-publications/people/R/Ruth-K-Varner/ data-uni=uni0231>Ruth K. Varner</a>,
+<a href=/gwf-publications/people/T/Tarmo-Virtanen/ data-uni=uni0030>Tarmo Virtanen</a>,
+<a href=/gwf-publications/people/R/Rebecca-K-Warren/ data-uni=uni0060>Rebecca K. Warren</a>,
+<a href=/gwf-publications/people/J/Jennifer-D-Watts/ data-uni=uni0016>Jennifer D. Watts</a><br><a href=/gwf-publications/volumes/G21-249/ class=text-muted>Earth System Science Data, Volume 13, Issue 11</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-249001><div class="card-body p-3 small">Abstract. Methane emissions from boreal and arctic wetlands, lakes, and rivers are expected to increase in response to warming and associated permafrost thaw. However, the lack of appropriate land cover datasets for scaling field-measured methane emissions to circumpolar scales has contributed to a large uncertainty for our understanding of present-day and future methane emissions. Here we present the Boreal–Arctic Wetland and Lake Dataset (BAWLD), a land cover dataset based on an expert assessment, extrapolated using random forest modelling from available spatial datasets of climate, topography, soils, permafrost conditions, vegetation, wetlands, and surface water extents and dynamics. In BAWLD, we estimate the fractional coverage of five wetland, seven lake, and three river classes within 0.5 × 0.5∘ grid cells that cover the northern boreal and tundra biomes (17 % of the global land surface). Land cover classes were defined using criteria that ensured distinct methane emissions among classes, as indicated by a co-developed comprehensive dataset of methane flux observations. In BAWLD, wetlands occupied 3.2 × 106 km2 (14 % of domain) with a 95 % confidence interval between 2.8 and 3.8 × 106 km2. Bog, fen, and permafrost bog were the most abundant wetland classes, covering ∼ 28 % each of the total wetland area, while the highest-methane-emitting marsh and tundra wetland classes occupied 5 % and 12 %, respectively. Lakes, defined to include all lentic open-water ecosystems regardless of size, covered 1.4 × 106 km2 (6 % of domain). Low-methane-emitting large lakes (>10 km2) and glacial lakes jointly represented 78 % of the total lake area, while high-emitting peatland and yedoma lakes covered 18 % and 4 %, respectively. Small (&lt;0.1 km2) glacial, peatland, and yedoma lakes combined covered 17 % of the total lake area but contributed disproportionally to the overall spatial uncertainty in lake area with a 95 % confidence interval between 0.15 and 0.38 × 106 km2. Rivers and streams were estimated to cover 0.12 × 106 km2 (0.5 % of domain), of which 8 % was associated with high-methane-emitting headwaters that drain organic-rich landscapes. Distinct combinations of spatially co-occurring wetland and lake classes were identified across the BAWLD domain, allowing for the mapping of “wetscapes” that have characteristic methane emission magnitudes and sensitivities to climate change at regional scales. With BAWLD, we provide a dataset which avoids double-accounting of wetland, lake, and river extents and which includes confidence intervals for each land cover class. As such, BAWLD will be suitable for many hydrological and biogeochemical modelling and upscaling efforts for the northern boreal and arctic region, in particular those aimed at improving assessments of current and future methane emissions. Data are freely available at https://doi.org/10.18739/A2C824F9X (Olefeldt et al., 2021).</div></div><h4>2020</h4><div data-prj=prj6><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G20-7001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-7001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-7001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-7001/>Shallow soils are warmer under trees and tall shrubs across Arctic and Boreal ecosystems</a></strong><br><a href=/gwf-publications/people/H/Heather-Kropp/ data-uni=uni0522>Heather Kropp</a>,
+<a href=/gwf-publications/people/M/M-M-Loranty/ data-uni=uni0297>M. M. Loranty</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0016>Susan M. Natali</a>,
+<a href=/gwf-publications/people/A/Alexander-Kholodov/ data-uni=uni0021>Alexander Kholodov</a>,
+<a href=/gwf-publications/people/A/A-V-Rocha/ data-uni=uni0198>A. V. Rocha</a>,
+<a href=/gwf-publications/people/I/Isla-H-Myers-Smith/ data-uni=uni0065>Isla H. Myers-Smith</a>,
+<a href=/gwf-publications/people/B/Benjamin-W-Abbot/ data-uni=uni0201>Benjamin W Abbot</a>,
+<a href=/gwf-publications/people/J/Jakob-Abermann/ data-uni=uni0295>Jakob Abermann</a>,
+<a href=/gwf-publications/people/E/E-Blanc-Betes/ data-uni=uni0092>E. Blanc-Betes</a>,
+<a href=/gwf-publications/people/D/Daan-Blok/ data-uni=uni0533>Daan Blok</a>,
+<a href=/gwf-publications/people/G/Gesche-Blume-Werry/ data-uni=uni1468>Gesche Blume-Werry</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0155>Julia Boike</a>,
+<a href=/gwf-publications/people/A/A-L-Breen/ data-uni=uni0021>A. L. Breen</a>,
+<a href=/gwf-publications/people/S/Sean-M-P-Cahoon/ data-uni=uni0842>Sean M. P. Cahoon</a>,
+<a href=/gwf-publications/people/C/Casper-T-Christiansen/ data-uni=uni0057>Casper T. Christiansen</a>,
+<a href=/gwf-publications/people/T/Thomas-A-Douglas/ data-uni=uni0444>Thomas A. Douglas</a>,
+<a href=/gwf-publications/people/H/Howard-E-Epstein/ data-uni=uni0142>Howard E. Epstein</a>,
+<a href=/gwf-publications/people/G/G-V-Frost/ data-uni=uni1469>G. V. Frost</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0034>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/T/Toke-T-H%C3%B8ye/ data-uni=uni0038>Toke T. Høye</a>,
+<a href=/gwf-publications/people/S/Steven-D-Mamet/ data-uni=uni0001>Steven D. Mamet</a>,
+<a href=/gwf-publications/people/J/J-A-ODonnell/ data-uni=uni0228>J. A. O'Donnell</a>,
+<a href=/gwf-publications/people/D/David-Olefeldt/ data-uni=uni0017>David Olefeldt</a>,
+<a href=/gwf-publications/people/G/Gareth-K-Phoenix/ data-uni=uni0243>Gareth K. Phoenix</a>,
+<a href=/gwf-publications/people/V/V-G-Salmon/ data-uni=uni0077>V. G. Salmon</a>,
+<a href=/gwf-publications/people/A/A-Britta-K-Sannel/ data-uni=uni0099>A. Britta K. Sannel</a>,
+<a href=/gwf-publications/people/S/Sharon-L-Smith/ data-uni=uni0246>Sharon L. Smith</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/L/Lydia-Smith-Vaughn/ data-uni=uni1470>Lydia Smith Vaughn</a>,
+<a href=/gwf-publications/people/M/Mathew-Williams/ data-uni=uni0065>Mathew Williams</a>,
+<a href=/gwf-publications/people/B/Bo-Elberling/ data-uni=uni0057>Bo Elberling</a>,
+<a href=/gwf-publications/people/L/Laura-Gough/ data-uni=uni1471>Laura Gough</a>,
+<a href=/gwf-publications/people/J/Jan-Hjort/ data-uni=uni0770>Jan Hjort</a>,
+<a href=/gwf-publications/people/P/Peter-M-Lafleur/ data-uni=uni0061>Peter M. Lafleur</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0021>Eugénie S. Euskirchen</a>,
+<a href=/gwf-publications/people/M/Monique-M-P-D-Heijmans/ data-uni=uni0029>Monique M. P. D. Heijmans</a>,
+<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0084>Elyn Humphreys</a>,
+<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0159>Hiroyasu Iwata</a>,
+<a href=/gwf-publications/people/B/Benjamin-M-Jones/ data-uni=uni0021>Benjamin M. Jones</a>,
+<a href=/gwf-publications/people/M/M-Torre-Jorgenson/ data-uni=uni0021>M. Torre Jorgenson</a>,
+<a href=/gwf-publications/people/I/Inge-Gr%C3%BCnberg/ data-uni=uni0113>Inge Grünberg</a>,
+<a href=/gwf-publications/people/Y/Yongwon-Kim/ data-uni=uni0550>Yongwon Kim</a>,
+<a href=/gwf-publications/people/J/James-A-Laundre/ data-uni=uni0626>James A. Laundre</a>,
+<a href=/gwf-publications/people/M/Marguerite-Mauritz/ data-uni=uni0236>Marguerite Mauritz</a>,
+<a href=/gwf-publications/people/A/Anders-Michelsen/ data-uni=uni0057>Anders Michelsen</a>,
+<a href=/gwf-publications/people/G/Gabriela-Schaepman-Strub/ data-uni=uni0075>Gabriela Schaepman-Strub</a>,
+<a href=/gwf-publications/people/K/Ken-D-Tape/ data-uni=uni0021>Ken D. Tape</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0110>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/B/Bang-Yong-Lee/ data-uni=uni0598>Bang-Yong Lee</a>,
+<a href=/gwf-publications/people/K/Kirsty-Langley/ data-uni=uni1472>Kirsty Langley</a>,
+<a href=/gwf-publications/people/M/Magnus-Lund/ data-uni=uni0038>Magnus Lund</a><br><a href=/gwf-publications/volumes/G20-7/ class=text-muted>Environmental Research Letters, Volume 16, Issue 1</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-7001><div class="card-body p-3 small">Abstract Soils are warming as air temperatures rise across the Arctic and Boreal region concurrent with the expansion of tall-statured shrubs and trees in the tundra. Changes in vegetation structure and function are expected to alter soil thermal regimes, thereby modifying climate feedbacks related to permafrost thaw and carbon cycling. However, current understanding of vegetation impacts on soil temperature is limited to local or regional scales and lacks the generality necessary to predict soil warming and permafrost stability on a pan-Arctic scale. Here we synthesize shallow soil and air temperature observations with broad spatial and temporal coverage collected across 106 sites representing nine different vegetation types in the permafrost region. We showed ecosystems with tall-statured shrubs and trees (>40 cm) have warmer shallow soils than those with short-statured tundra vegetation when normalized to a constant air temperature. In tree and tall shrub vegetation types, cooler temperatures in the warm season do not lead to cooler mean annual soil temperature indicating that ground thermal regimes in the cold-season rather than the warm-season are most critical for predicting soil warming in ecosystems underlain by permafrost. Our results suggest that the expansion of tall shrubs and trees into tundra regions can amplify shallow soil warming, and could increase the potential for increased seasonal thaw depth and increase soil carbon cycling rates and lead to increased carbon dioxide loss and further permafrost thaw.</div></div><div data-prj=prj6><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G20-9001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-9001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-9001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-9001/>Expert assessment of future vulnerability of the global peatland carbon sink</a></strong><br><a href=/gwf-publications/people/J/Julie-Loisel/ data-uni=uni0126>Julie Loisel</a>,
+<a href=/gwf-publications/people/A/Angela-Gallego-Sala/ data-uni=uni0189>Angela Gallego-Sala</a>,
+<a href=/gwf-publications/people/M/Matthew-J-Amesbury/ data-uni=uni0189>Matthew J. Amesbury</a>,
+<a href=/gwf-publications/people/G/Gabriel-Magnan/ data-uni=uni0019>Gabriel Magnan</a>,
+<a href=/gwf-publications/people/G/Gusti-Z-Anshari/ data-uni=uni1474>Gusti Z. Anshari</a>,
+<a href=/gwf-publications/people/D/David-W-Beilman/ data-uni=uni1475>David W. Beilman</a>,
+<a href=/gwf-publications/people/J/Juan-C-Benavides/ data-uni=uni1476>Juan C. Benavides</a>,
+<a href=/gwf-publications/people/J/Jerome-Blewett/ data-uni=uni0242>Jerome Blewett</a>,
+<a href=/gwf-publications/people/P/Philip-Camill/ data-uni=uni0745>Philip Camill</a>,
+<a href=/gwf-publications/people/D/Dan-J-Charman/ data-uni=uni0189>Dan J. Charman</a>,
+<a href=/gwf-publications/people/S/Sakonvan-Chawchai/ data-uni=uni0744>Sakonvan Chawchai</a>,
+<a href=/gwf-publications/people/A/A-Hedgpeth/ data-uni=uni0083>A. Hedgpeth</a>,
+<a href=/gwf-publications/people/T/Thomas-Kleinen/ data-uni=uni0342>Thomas Kleinen</a>,
+<a href=/gwf-publications/people/A/Atte-Korhola/ data-uni=uni0030>Atte Korhola</a>,
+<a href=/gwf-publications/people/D/David-Large/ data-uni=uni0556>David Large</a>,
+<a href=/gwf-publications/people/C/Claudia-A-Mansilla/ data-uni=uni0743>Claudia A Mansilla</a>,
+<a href=/gwf-publications/people/J/Jurek-M%C3%BCller/ data-uni=uni0221>Jurek Müller</a>,
+<a href=/gwf-publications/people/S/Simon-van-Bellen/ data-uni=uni0011>Simon van Bellen</a>,
+<a href=/gwf-publications/people/J/Jason-B-West/ data-uni=uni0126>Jason B. West</a>,
+<a href=/gwf-publications/people/Z/Zicheng-Yu/ data-uni=uni0872>Zicheng Yu</a>,
+<a href=/gwf-publications/people/J/Jill-L-Bubier/ data-uni=uni1477>Jill L. Bubier</a>,
+<a href=/gwf-publications/people/M/Michelle-Garneau/ data-uni=uni0019>Michelle Garneau</a>,
+<a href=/gwf-publications/people/T/Tim-R-Moore/ data-uni=uni0078>Tim R. Moore</a>,
+<a href=/gwf-publications/people/A/A-Britta-K-Sannel/ data-uni=uni0099>A. Britta K. Sannel</a>,
+<a href=/gwf-publications/people/S/Susan-Page/ data-uni=uni0742>Susan Page</a>,
+<a href=/gwf-publications/people/M/Minna-V%C3%A4liranta/ data-uni=uni0030>Minna Väliranta</a>,
+<a href=/gwf-publications/people/M/Michel-Bechtold/ data-uni=uni0296>Michel Bechtold</a>,
+<a href=/gwf-publications/people/V/Victor-Brovkin/ data-uni=uni0342>Victor Brovkin</a>,
+<a href=/gwf-publications/people/L/Lydia-ES-Cole/ data-uni=uni0789>Lydia E.S. Cole</a>,
+<a href=/gwf-publications/people/J/Jeffrey-P-Chanton/ data-uni=uni1478>Jeffrey P. Chanton</a>,
+<a href=/gwf-publications/people/T/T-R-Christensen/ data-uni=uni0038>T. R. Christensen</a>,
+<a href=/gwf-publications/people/M/Marissa-A-Davies/ data-uni=uni1479>Marissa A. Davies</a>,
+<a href=/gwf-publications/people/F/Fran%C3%A7ois-De-Vleeschouwer/ data-uni=uni1480>François De Vleeschouwer</a>,
+<a href=/gwf-publications/people/S/Sarah-A-Finkelstein/ data-uni=uni0022>Sarah A. Finkelstein</a>,
+<a href=/gwf-publications/people/S/Steve-Frolking/ data-uni=uni0498>Steve Frolking</a>,
+<a href=/gwf-publications/people/M/Mariusz-Ga%C5%82ka/ data-uni=uni0857>Mariusz Gałka</a>,
+<a href=/gwf-publications/people/L/Laure-Gandois/ data-uni=uni1481>Laure Gandois</a>,
+<a href=/gwf-publications/people/N/Nicholas-T-Girkin/ data-uni=uni1482>Nicholas T. Girkin</a>,
+<a href=/gwf-publications/people/L/Lorna-I-Harris/ data-uni=uni0192>Lorna I. Harris</a>,
+<a href=/gwf-publications/people/A/Andreas-Heinemeyer/ data-uni=uni1483>Andreas Heinemeyer</a>,
+<a href=/gwf-publications/people/A/Alison-M-Hoyt/ data-uni=uni0054>Alison M. Hoyt</a>,
+<a href=/gwf-publications/people/M/Miriam-C-Jones/ data-uni=uni0033>Miriam C. Jones</a>,
+<a href=/gwf-publications/people/F/Fortunat-Joos/ data-uni=uni0221>Fortunat Joos</a>,
+<a href=/gwf-publications/people/S/Sari-Juutinen/ data-uni=uni0018>Sari Juutinen</a>,
+<a href=/gwf-publications/people/K/Karl-Kaiser/ data-uni=uni1484>Karl Kaiser</a>,
+<a href=/gwf-publications/people/T/Terri-Lacourse/ data-uni=uni0062>Terri Lacourse</a>,
+<a href=/gwf-publications/people/M/Mariusz-Lamentowicz/ data-uni=uni0573>Mariusz Lamentowicz</a>,
+<a href=/gwf-publications/people/T/Tuula-Larmola/ data-uni=uni0079>Tuula Larmola</a>,
+<a href=/gwf-publications/people/J/Jens-Leifeld/ data-uni=uni0185>Jens Leifeld</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Alice-M-Milner/ data-uni=uni1485>Alice M. Milner</a>,
+<a href=/gwf-publications/people/K/Kari-Minkkinen/ data-uni=uni0030>Kari Minkkinen</a>,
+<a href=/gwf-publications/people/P/Patrick-Moss/ data-uni=uni0150>Patrick Moss</a>,
+<a href=/gwf-publications/people/B/B-David-A-Naafs/ data-uni=uni0076>B. David A. Naafs</a>,
+<a href=/gwf-publications/people/J/J-E-Nichols/ data-uni=uni0141>J. E. Nichols</a>,
+<a href=/gwf-publications/people/J/J-A-ODonnell/ data-uni=uni0228>J. A. O'Donnell</a>,
+<a href=/gwf-publications/people/R/Richard-J-Payne/ data-uni=uni0871>Richard J. Payne</a>,
+<a href=/gwf-publications/people/M/Michael-Philben/ data-uni=uni0206>Michael Philben</a>,
+<a href=/gwf-publications/people/S/Sanna-Piilo/ data-uni=uni0030>Sanna Piilo</a>,
+<a href=/gwf-publications/people/A/Anne-Quillet/ data-uni=uni0347>Anne Quillet</a>,
+<a href=/gwf-publications/people/A/Amila-Sandaruwan-Ratnayake/ data-uni=uni1465>Amila Sandaruwan Ratnayake</a>,
+<a href=/gwf-publications/people/T/Thomas-P-Roland/ data-uni=uni0189>Thomas P. Roland</a>,
+<a href=/gwf-publications/people/S/Sofie-Sj%C3%B6gersten/ data-uni=uni1419>Sofie Sjögersten</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/G/Graeme-T-Swindles/ data-uni=uni1418>Graeme T. Swindles</a>,
+<a href=/gwf-publications/people/W/Ward-Swinnen/ data-uni=uni0296>Ward Swinnen</a>,
+<a href=/gwf-publications/people/J/Julie-Talbot/ data-uni=uni0011>Julie Talbot</a>,
+<a href=/gwf-publications/people/C/Claire-C-Treat/ data-uni=uni0113>Claire C. Treat</a>,
+<a href=/gwf-publications/people/A/Amy-Valach/ data-uni=uni0040>Amy Valach</a>,
+<a href=/gwf-publications/people/J/Jiequn-Wu/ data-uni=uni1417>Jiequn Wu</a><br><a href=/gwf-publications/volumes/G20-9/ class=text-muted>Nature Climate Change, Volume 11, Issue 1</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-9001><div class="card-body p-3 small">The carbon balance of peatlands is predicted to shift from a sink to a source this century. However, peatland ecosystems are still omitted from the main Earth system models that are used for future climate change projections, and they are not considered in integrated assessment models that are used in impact and mitigation studies. By using evidence synthesized from the literature and an expert elicitation, we define and quantify the leading drivers of change that have impacted peatland carbon stocks during the Holocene and predict their effect during this century and in the far future. We also identify uncertainties and knowledge gaps in the scientific community and provide insight towards better integration of peatlands into modelling frameworks. Given the importance of the contribution by peatlands to the global carbon cycle, this study shows that peatland science is a critical research area and that we still have a long way to go to fully understand the peatland–carbon–climate nexus. Peatlands are impacted by climate and land-use changes, with feedback to warming by acting as either sources or sinks of carbon. Expert elicitation combined with literature review reveals key drivers of change that alter peatland carbon dynamics, with implications for improving models.</div></div><h4>2018</h4><div data-prj=prj6><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G18-72001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G18-72001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G18-72001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G18-72001/>Reviews and syntheses: Changing ecosystem influences on soil thermal regimes in northern high-latitude permafrost regions</a></strong><br><a href=/gwf-publications/people/M/M-M-Loranty/ data-uni=uni0297>M. M. Loranty</a>,
+<a href=/gwf-publications/people/B/Benjamin-W-Abbott/ data-uni=uni0201>Benjamin W. Abbott</a>,
+<a href=/gwf-publications/people/D/Daan-Blok/ data-uni=uni0533>Daan Blok</a>,
+<a href=/gwf-publications/people/T/Thomas-A-Douglas/ data-uni=uni0444>Thomas A. Douglas</a>,
+<a href=/gwf-publications/people/H/Howard-E-Epstein/ data-uni=uni0142>Howard E. Epstein</a>,
+<a href=/gwf-publications/people/B/Bruce-C-Forbes/ data-uni=uni0772>Bruce C. Forbes</a>,
+<a href=/gwf-publications/people/B/Benjamin-M-Jones/ data-uni=uni0021>Benjamin M. Jones</a>,
+<a href=/gwf-publications/people/A/Alexander-Kholodov/ data-uni=uni0021>Alexander Kholodov</a>,
+<a href=/gwf-publications/people/H/Heather-Kropp/ data-uni=uni0522>Heather Kropp</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0075>Avni Malhotra</a>,
+<a href=/gwf-publications/people/S/Steven-D-Mamet/ data-uni=uni0001>Steven D. Mamet</a>,
+<a href=/gwf-publications/people/I/Isla-H-Myers-Smith/ data-uni=uni0065>Isla H. Myers-Smith</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0016>Susan M. Natali</a>,
+<a href=/gwf-publications/people/J/J-A-ODonnell/ data-uni=uni0228>J. A. O'Donnell</a>,
+<a href=/gwf-publications/people/G/Gareth-K-Phoenix/ data-uni=uni0243>Gareth K. Phoenix</a>,
+<a href=/gwf-publications/people/A/A-V-Rocha/ data-uni=uni0198>A. V. Rocha</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/K/Ken-D-Tape/ data-uni=uni0021>Ken D. Tape</a>,
+<a href=/gwf-publications/people/D/Donald-A-Walker/ data-uni=uni0021>Donald A. Walker</a><br><a href=/gwf-publications/volumes/G18-72/ class=text-muted>Biogeosciences, Volume 15, Issue 17</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G18-72001><div class="card-body p-3 small">Abstract. Soils in Arctic and boreal ecosystems store twice as much carbon as the atmosphere, a portion of which may be released as high-latitude soils warm. Some of the uncertainty in the timing and magnitude of the permafrost–climate feedback stems from complex interactions between ecosystem properties and soil thermal dynamics. Terrestrial ecosystems fundamentally regulate the response of permafrost to climate change by influencing surface energy partitioning and the thermal properties of soil itself. Here we review how Arctic and boreal ecosystem processes influence thermal dynamics in permafrost soil and how these linkages may evolve in response to climate change. While many of the ecosystem characteristics and processes affecting soil thermal dynamics have been examined individually (e.g., vegetation, soil moisture, and soil structure), interactions among these processes are less understood. Changes in ecosystem type and vegetation characteristics will alter spatial patterns of interactions between climate and permafrost. In addition to shrub expansion, other vegetation responses to changes in climate and rapidly changing disturbance regimes will affect ecosystem surface energy partitioning in ways that are important for permafrost. Lastly, changes in vegetation and ecosystem distribution will lead to regional and global biophysical and biogeochemical climate feedbacks that may compound or offset local impacts on permafrost soils. Consequently, accurate prediction of the permafrost carbon climate feedback will require detailed understanding of changes in terrestrial ecosystem distribution and function, which depend on the net effects of multiple feedback processes operating across scales in space and time.</div></div></div><div class=col-lg-3><a class="btn btn-lg btn-secondary btn-block mb-2" href="https://www.semanticscholar.org/search?q=J.+A.+O%27Donnell" title="Search for 'J. A. O&amp;#39;Donnell' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class=pl-sm-2>Search</span></a><div class=row><div class="col-12 col-md-6 col-lg-12"><div class=card><h5 class=card-header>Co-authors</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/people/O/Oliver-Sonnentag/ class=align-middle data-uni=uni0011>Oliver Sonnentag</a>
+<span class="badge badge-secondary align-middle ml-2">5</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Susan-M-Natali/ class=align-middle data-uni=uni0016>Susan M. Natali</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Avni-Malhotra/ class=align-middle data-uni=uni0075>Avni Malhotra</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-Olefeldt/ class=align-middle data-uni=uni0017>David Olefeldt</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ class=align-middle data-uni=uni0021>Eugénie S. Euskirchen</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class="list-group-item list-group-toggle-btn py-1" data-toggle=collapse data-target=#more-coauthors aria-expanded=false aria-controls=more-coauthors>show all...</li><div class="collapse border-top" id=more-coauthors><li class=list-group-item><a href=/gwf-publications/people/L/Lorna-I-Harris/ class=align-middle data-uni=uni0192>Lorna I. Harris</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sari-Juutinen/ class=align-middle data-uni=uni0018>Sari Juutinen</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-C-Treat/ class=align-middle data-uni=uni0113>Claire C. Treat</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-M-Loranty/ class=align-middle data-uni=uni0297>M. M. Loranty</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Daan-Blok/ class=align-middle data-uni=uni0533>Daan Blok</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-A-Douglas/ class=align-middle data-uni=uni0444>Thomas A. Douglas</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Howard-E-Epstein/ class=align-middle data-uni=uni0142>Howard E. Epstein</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Benjamin-M-Jones/ class=align-middle data-uni=uni0021>Benjamin M. Jones</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alexander-Kholodov/ class=align-middle data-uni=uni0021>Alexander Kholodov</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Heather-Kropp/ class=align-middle data-uni=uni0522>Heather Kropp</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steven-D-Mamet/ class=align-middle data-uni=uni0001>Steven D. Mamet</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Isla-H-Myers-Smith/ class=align-middle data-uni=uni0065>Isla H. Myers-Smith</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gareth-K-Phoenix/ class=align-middle data-uni=uni0243>Gareth K. Phoenix</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-V-Rocha/ class=align-middle data-uni=uni0198>A. V. Rocha</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Ken-D-Tape/ class=align-middle data-uni=uni0021>Ken D. Tape</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-Britta-K-Sannel/ class=align-middle data-uni=uni0099>A. Britta K. Sannel</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mikael-Hovemyr/ class=align-middle data-uni=uni0099>Mikael Hovemyr</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-A-Kuhn/ class=align-middle data-uni=uni0498>M. A. Kuhn</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-Bastviken/ class=align-middle data-uni=uni0736>David Bastviken</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Theodore-J-Bohn/ class=align-middle data-uni=uni0180>Theodore J. Bohn</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/J/John-Connolly/ class=align-middle data-uni=uni0273>John Connolly</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrick-Crill/ class=align-middle data-uni=uni0099>Patrick Crill</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S-A-Finkelstein/ class=align-middle data-uni=uni0022>S. A. Finkelstein</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/H/H%C3%A9l%C3%A8ne-Genet/ class=align-middle data-uni=uni0021>Hélène Genet</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guido-Grosse/ class=align-middle data-uni=uni0113>Guido Grosse</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Liam-Heffernan/ class=align-middle data-uni=uni0301>Liam Heffernan</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Manuel-Helbig/ class=align-middle data-uni=uni0037>Manuel Helbig</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gustaf-Hugelius/ class=align-middle data-uni=uni0119>Gustaf Hugelius</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Ryan-Hutchins/ class=align-middle data-uni=uni0017>Ryan Hutchins</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mark-J-Lara/ class=align-middle data-uni=uni0092>Mark J. Lara</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kristen-L-Manies/ class=align-middle data-uni=uni0033>Kristen L. Manies</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-David-McGuire/ class=align-middle data-uni=uni0021>A. David McGuire</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ class=align-middle data-uni=uni0044>Frans-Jan W. Parmentier</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Aleksi-R%C3%A4s%C3%A4nen/ class=align-middle data-uni=uni0079>Aleksi Räsänen</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christina-Sch%C3%A4del/ class=align-middle data-uni=uni0013>Christina Schädel</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maria-Strack/ class=align-middle data-uni=uni0002>Maria Strack</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Suzanne-E-Tank/ class=align-middle data-uni=uni0017>Suzanne E. Tank</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tarmo-Virtanen/ class=align-middle data-uni=uni0030>Tarmo Virtanen</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Rebecca-K-Warren/ class=align-middle data-uni=uni0060>Rebecca K. Warren</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jennifer-D-Watts/ class=align-middle data-uni=uni0016>Jennifer D. Watts</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Benjamin-W-Abbott/ class=align-middle data-uni=uni0201>Benjamin W. Abbott</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bruce-C-Forbes/ class=align-middle data-uni=uni0772>Bruce C. Forbes</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Donald-A-Walker/ class=align-middle data-uni=uni0021>Donald A. Walker</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Benjamin-W-Abbot/ class=align-middle data-uni=uni0201>Benjamin W Abbot</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jakob-Abermann/ class=align-middle data-uni=uni0295>Jakob Abermann</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/E-Blanc-Betes/ class=align-middle data-uni=uni0092>E. Blanc-Betes</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gesche-Blume-Werry/ class=align-middle data-uni=uni1468>Gesche Blume-Werry</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Julia-Boike/ class=align-middle data-uni=uni0155>Julia Boike</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-L-Breen/ class=align-middle data-uni=uni0021>A. L. Breen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sean-M-P-Cahoon/ class=align-middle data-uni=uni0842>Sean M. P. Cahoon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Casper-T-Christiansen/ class=align-middle data-uni=uni0057>Casper T. Christiansen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/G-V-Frost/ class=align-middle data-uni=uni1469>G. V. Frost</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mathias-Goeckede/ class=align-middle data-uni=uni0034>Mathias Goeckede</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Toke-T-H%C3%B8ye/ class=align-middle data-uni=uni0038>Toke T. Høye</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/V/V-G-Salmon/ class=align-middle data-uni=uni0077>V. G. Salmon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sharon-L-Smith/ class=align-middle data-uni=uni0246>Sharon L. Smith</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lydia-Smith-Vaughn/ class=align-middle data-uni=uni1470>Lydia Smith Vaughn</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mathew-Williams/ class=align-middle data-uni=uni0065>Mathew Williams</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bo-Elberling/ class=align-middle data-uni=uni0057>Bo Elberling</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laura-Gough/ class=align-middle data-uni=uni1471>Laura Gough</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jan-Hjort/ class=align-middle data-uni=uni0770>Jan Hjort</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Peter-M-Lafleur/ class=align-middle data-uni=uni0061>Peter M. Lafleur</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Monique-M-P-D-Heijmans/ class=align-middle data-uni=uni0029>Monique M. P. D. Heijmans</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elyn-Humphreys/ class=align-middle data-uni=uni0084>Elyn Humphreys</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hiroyasu-Iwata/ class=align-middle data-uni=uni0159>Hiroyasu Iwata</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-Torre-Jorgenson/ class=align-middle data-uni=uni0021>M. Torre Jorgenson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Inge-Gr%C3%BCnberg/ class=align-middle data-uni=uni0113>Inge Grünberg</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yongwon-Kim/ class=align-middle data-uni=uni0550>Yongwon Kim</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/James-A-Laundre/ class=align-middle data-uni=uni0626>James A. Laundre</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marguerite-Mauritz/ class=align-middle data-uni=uni0236>Marguerite Mauritz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anders-Michelsen/ class=align-middle data-uni=uni0057>Anders Michelsen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gabriela-Schaepman-Strub/ class=align-middle data-uni=uni0075>Gabriela Schaepman-Strub</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masahito-Ueyama/ class=align-middle data-uni=uni0110>Masahito Ueyama</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bang-Yong-Lee/ class=align-middle data-uni=uni0598>Bang-Yong Lee</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kirsty-Langley/ class=align-middle data-uni=uni1472>Kirsty Langley</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Magnus-Lund/ class=align-middle data-uni=uni0038>Magnus Lund</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Julie-Loisel/ class=align-middle data-uni=uni0126>Julie Loisel</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Angela-Gallego-Sala/ class=align-middle data-uni=uni0189>Angela Gallego-Sala</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthew-J-Amesbury/ class=align-middle data-uni=uni0189>Matthew J. Amesbury</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gabriel-Magnan/ class=align-middle data-uni=uni0019>Gabriel Magnan</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gusti-Z-Anshari/ class=align-middle data-uni=uni1474>Gusti Z. Anshari</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-W-Beilman/ class=align-middle data-uni=uni1475>David W. Beilman</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Juan-C-Benavides/ class=align-middle data-uni=uni1476>Juan C. Benavides</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jerome-Blewett/ class=align-middle data-uni=uni0242>Jerome Blewett</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Philip-Camill/ class=align-middle data-uni=uni0745>Philip Camill</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dan-J-Charman/ class=align-middle data-uni=uni0189>Dan J. Charman</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sakonvan-Chawchai/ class=align-middle data-uni=uni0744>Sakonvan Chawchai</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-Hedgpeth/ class=align-middle data-uni=uni0083>A. Hedgpeth</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-Kleinen/ class=align-middle data-uni=uni0342>Thomas Kleinen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Atte-Korhola/ class=align-middle data-uni=uni0030>Atte Korhola</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-Large/ class=align-middle data-uni=uni0556>David Large</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claudia-A-Mansilla/ class=align-middle data-uni=uni0743>Claudia A Mansilla</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jurek-M%C3%BCller/ class=align-middle data-uni=uni0221>Jurek Müller</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Simon-van-Bellen/ class=align-middle data-uni=uni0011>Simon van Bellen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jason-B-West/ class=align-middle data-uni=uni0126>Jason B. West</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Z/Zicheng-Yu/ class=align-middle data-uni=uni0872>Zicheng Yu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jill-L-Bubier/ class=align-middle data-uni=uni1477>Jill L. Bubier</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michelle-Garneau/ class=align-middle data-uni=uni0019>Michelle Garneau</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tim-R-Moore/ class=align-middle data-uni=uni0078>Tim R. Moore</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Susan-Page/ class=align-middle data-uni=uni0742>Susan Page</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Minna-V%C3%A4liranta/ class=align-middle data-uni=uni0030>Minna Väliranta</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michel-Bechtold/ class=align-middle data-uni=uni0296>Michel Bechtold</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/V/Victor-Brovkin/ class=align-middle data-uni=uni0342>Victor Brovkin</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lydia-ES-Cole/ class=align-middle data-uni=uni0789>Lydia E.S. Cole</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jeffrey-P-Chanton/ class=align-middle data-uni=uni1478>Jeffrey P. Chanton</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/T-R-Christensen/ class=align-middle data-uni=uni0038>T. R. Christensen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marissa-A-Davies/ class=align-middle data-uni=uni1479>Marissa A. Davies</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fran%C3%A7ois-De-Vleeschouwer/ class=align-middle data-uni=uni1480>François De Vleeschouwer</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sarah-A-Finkelstein/ class=align-middle data-uni=uni0022>Sarah A. Finkelstein</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steve-Frolking/ class=align-middle data-uni=uni0498>Steve Frolking</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mariusz-Ga%C5%82ka/ class=align-middle data-uni=uni0857>Mariusz Gałka</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laure-Gandois/ class=align-middle data-uni=uni1481>Laure Gandois</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nicholas-T-Girkin/ class=align-middle data-uni=uni1482>Nicholas T. Girkin</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andreas-Heinemeyer/ class=align-middle data-uni=uni1483>Andreas Heinemeyer</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alison-M-Hoyt/ class=align-middle data-uni=uni0054>Alison M. Hoyt</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Miriam-C-Jones/ class=align-middle data-uni=uni0033>Miriam C. Jones</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fortunat-Joos/ class=align-middle data-uni=uni0221>Fortunat Joos</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Karl-Kaiser/ class=align-middle data-uni=uni1484>Karl Kaiser</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Terri-Lacourse/ class=align-middle data-uni=uni0062>Terri Lacourse</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mariusz-Lamentowicz/ class=align-middle data-uni=uni0573>Mariusz Lamentowicz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tuula-Larmola/ class=align-middle data-uni=uni0079>Tuula Larmola</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jens-Leifeld/ class=align-middle data-uni=uni0185>Jens Leifeld</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Annalea-Lohila/ class=align-middle data-uni=uni0018>Annalea Lohila</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alice-M-Milner/ class=align-middle data-uni=uni1485>Alice M. Milner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kari-Minkkinen/ class=align-middle data-uni=uni0030>Kari Minkkinen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrick-Moss/ class=align-middle data-uni=uni0150>Patrick Moss</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/B-David-A-Naafs/ class=align-middle data-uni=uni0076>B. David A. Naafs</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/J-E-Nichols/ class=align-middle data-uni=uni0141>J. E. Nichols</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Richard-J-Payne/ class=align-middle data-uni=uni0871>Richard J. Payne</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-Philben/ class=align-middle data-uni=uni0206>Michael Philben</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sanna-Piilo/ class=align-middle data-uni=uni0030>Sanna Piilo</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anne-Quillet/ class=align-middle data-uni=uni0347>Anne Quillet</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Amila-Sandaruwan-Ratnayake/ class=align-middle data-uni=uni1465>Amila Sandaruwan Ratnayake</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-P-Roland/ class=align-middle data-uni=uni0189>Thomas P. Roland</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sofie-Sj%C3%B6gersten/ class=align-middle data-uni=uni1419>Sofie Sjögersten</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Graeme-T-Swindles/ class=align-middle data-uni=uni1418>Graeme T. Swindles</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Ward-Swinnen/ class=align-middle data-uni=uni0296>Ward Swinnen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Julie-Talbot/ class=align-middle data-uni=uni0011>Julie Talbot</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Amy-Valach/ class=align-middle data-uni=uni0040>Amy Valach</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jiequn-Wu/ class=align-middle data-uni=uni1417>Jiequn Wu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/R-K-Varner/ class=align-middle data-uni=uni0231>R. K. Varner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Ruth-K-Varner/ class=align-middle data-uni=uni0231>Ruth K. Varner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li></div></ul></div></div><div class="col-12 col-md-6 col-lg-12"><div class="card my-2 my-md-0 my-lg-2"><h5 class=card-header>Venues</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/venues/gwf/ class=align-middle>GWF</a><span class="badge badge-secondary align-middle ml-2">5</span></li></ul></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script></body></html>
