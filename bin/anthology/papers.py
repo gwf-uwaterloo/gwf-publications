@@ -85,7 +85,7 @@ class Paper:
     def pdf(self):
         url = self.attrib.get("xml_url", None)
         if url is not None:
-            return infer_url(url, template=data.PDF_LOCATION_TEMPLATE)
+            return infer_url(self.attrib.get("doi", None), template=data.PDF_LOCATION_TEMPLATE)
         return None
 
     @cached_property
