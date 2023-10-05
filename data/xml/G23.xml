@@ -34,64 +34,12 @@
 	</volume>
 	<volume id="2">
 		<meta>
-			<booktitle> </booktitle>
+			<booktitle>Hydrology and Earth System Sciences Discussions, Volume 2023</booktitle>
 			<publisher>Copernicus GmbH</publisher>
 			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
-			<title>The Ability of Hydrologic-Land Surface Models to Concurrently Simulate Permafrost and Hydrology</title>
-			<author>
-				<first>Mohamed S.</first>
-				<last>Abdelhamed</last>
-			</author>
-			<author>
-				<first>Mohamed</first>
-				<last>Elshamy</last>
-			</author>
-			<author>
-				<first>Saman</first>
-				<last>Razavi</last>
-			</author>
-			<author>
-				<first>H. S.</first>
-				<last>Wheater</last>
-			</author>
-			<abstract>Abstract. Hydrologic-land surface models (H-LSMs) provide physically-based understanding and predictions of the current and future states of the world’s vast high-latitude permafrost regions. Two major challenges, however, hamper their parametrization and validation when concurrently representing hydrology and permafrost. One is the high computational complexity, exacerbated by the need to include a deep soil profile to adequately capture the freeze/thaw cycles and heat storage. The other is that soil-temperature data are severely limited, and traditional model validation, based on streamflow, can show the right fit to these data for the wrong reasons. There are few observational sites for such vast, heterogeneous regions, and remote sensing provides only limited support. In light of these challenges, we develop 16 parametrizations of a Canadian H-LSM, MESH, for the sub-arctic Liard River Basin and validate them using three data sources: streamflows at multiple gauges, soil temperature profiles from few available boreholes, and multiple permafrost maps. The different parametrizations favor different sources of data and it is challenging to configure a model faithful to all three data sources, which are at times inconsistent with each other. Overall, the results show that: (1) surface insulation through snow cover primarily regulates permafrost dynamics after model initialization effects decay over, relatively long time and (2) different parametrizations yield different partitioning patterns of solid-vs-liquid soil-water and produce different low-flow but similar high-flow regimes. We conclude that, given data scarcity, an ensemble of model parametrizations is essential to provide a reliable picture of the current states and future spatio-temporal co-evolution of permafrost and hydrology.</abstract>
-			<url hash="32e8dd23">G23-2001</url>
-			<doi>10.5194/tc-2023-20</doi>
-			<bibkey>Abdelhamed-2023-The</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="2">
-			<title>Real-Time Lead Detection Device Based on Nanomaterials Modified Microwave-Microfluidic Sensor</title>
-			<author>
-				<first>Weijia</first>
-				<last>Cui</last>
-			</author>
-			<author>
-				<first>Ren</first>
-				<last>Zhe</last>
-			</author>
-			<author>
-				<first>Zahra</first>
-				<last>Abbasi</last>
-			</author>
-			<author>
-				<first>Yongxin</first>
-				<last>Song</last>
-			</author>
-			<author>
-				<first>Carolyn L.</first>
-				<last>Ren</last>
-			</author>
-			<abstract/>
-			<url hash="abe18c99">G23-2002</url>
-			<doi>10.2139/ssrn.4483935</doi>
-			<bibkey>Cui-2023-Real-Time</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="3">
 			<title>On the optimal level of complexity for the representation of wetland systems in land surface models</title>
 			<author>
 				<first>Mennatullah</first>
@@ -111,7 +59,7 @@
 			<bibkey>Elrashidy-2023-On</bibkey>
 			<project>prj6</project>
 		</paper>
-		<paper id="4">
+		<paper id="2">
 			<title>Modeling the sensitivity of snowmelt, soil moisture and streamflow generation to climate over the Canadian Prairies using a basin classification approach</title>
 			<author>
 				<first>Zhaofeng</first>
@@ -137,114 +85,6 @@
 			<url hash="428229ac">G23-2004</url>
 			<doi>10.5194/hess-2023-71</doi>
 			<bibkey>He-2023-Modeling</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="5">
-			<title>Atmospheric and surface observations during the Saint John River Experiment on Cold Season Storms (SAJESS)</title>
-			<author>
-				<first>Hadleigh D.</first>
-				<last>Thompson</last>
-			</author>
-			<author>
-				<first>Julie M.</first>
-				<last>Thériault</last>
-			</author>
-			<author>
-				<first>Stephen J.</first>
-				<last>Déry</last>
-			</author>
-			<author>
-				<first>Ronald E.</first>
-				<last>Stewart</last>
-			</author>
-			<author>
-				<first>Dominique</first>
-				<last>Boisvert</last>
-			</author>
-			<author>
-				<first>Lisa</first>
-				<last>Rickard</last>
-			</author>
-			<author>
-				<first>Nicolas</first>
-				<last>Leroux</last>
-			</author>
-			<author>
-				<first>Matteo</first>
-				<last>Colli</last>
-			</author>
-			<author>
-				<first>Vincent</first>
-				<last>Vionnet</last>
-			</author>
-			<abstract>Abstract. The amount and phase of cold season precipitation accumulating in the upper Saint John River basin are critical factors in determining spring runoff, ice-jams, and flooding in downstream communities. To study the impact of winter and spring storms on the snowpack in the upper Saint John River (SJR) basin, the Saint John River Experiment on Cold Season Storms (SAJESS) utilized meteorological instrumentation, upper air soundings, human observations, and hydrometeor macrophotography during winter/spring 2020–21. Here, we provide an overview of the SAJESS study area, field campaign, and existing data networks surrounding the upper SJR basin. Initially, meteorological instrumentation was co-located with an Environment and Climate Change Canada station near Edmundston, New Brunswick, in early December 2020. This was followed by an intensive observation period that involved manual observations, upper-air soundings, a multi-angle snowflake camera, macrophotography of solid hydrometeors, and advanced automated instrumentation throughout March and April 2021. The resulting datasets include optical disdrometer size and velocity distributions of hydrometeors, micro rain radar output, near-surface meteorological observations, and wind speed, temperature, pressure and precipitation amounts from a K63 Hotplate precipitation gauge, the first one operating in Canada. These data are publicly available from the Federated Research Data Repository at https://doi.org/10.20383/103.0591 (Thompson et al., 2022). We also include a synopsis of the data management plan and data processing, and a brief assessment of the rewards and challenges of utilizing community volunteers for hydro-meteorological citizen science.</abstract>
-			<url hash="3585193a">G23-2005</url>
-			<doi>10.5194/essd-2023-59</doi>
-			<bibkey>Thompson-2023-Atmospheric</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="6">
-			<title>Hydrological, meteorological and watershed controls on the water balance of thermokarst lakes between Inuvik and Tuktoyaktuk, Northwest Territories, Canada</title>
-			<author>
-				<first>Evan J.</first>
-				<last>Wilcox</last>
-			</author>
-			<author>
-				<first>Brent B.</first>
-				<last>Wolfe</last>
-			</author>
-			<author>
-				<first>Philip</first>
-				<last>Marsh</last>
-			</author>
-			<abstract>Abstract. Thermokarst lake water balances are becoming increasingly vulnerable to change in the Arctic as air temperature increases and precipitation patterns shift. In the tundra uplands east of the Mackenzie Delta in the Northwest Territories, Canada, previous research has found that lakes responded non-uniformly to changes in precipitation, suggesting that lake and watershed properties moderate the response of lakes to climate change. To investigate how lake and watershed properties and meteoro5 logical conditions influence the water balance of thermokarst lakes in this region, we sampled 25 lakes for isotope analysis five times in 2018, beginning before snowmelt on May 1 and ending on September 3. Water isotope data were used to calculate the ratio of evaporation-to-inflow (E/I) and the average isotope composition of lake source water (δI). We identified four distinct water balance phases as lakes responded to seasonal shifts in meteorological conditions and hydrological processes. During the freshet phase from May 1 to June 15, the median E/I ratio of lakes decreased from 0.20 to 0.13 in response to freshet runoff 10 and limited evaporation due to lake ice presence that persisted for the duration of this phase. During the following warm, dry, and ice-free period from June 15 to July 26, designated the evaporation phase, the median E/I ratio increased to 0.19. During the brief soil wetting phase, E/I ratios did not respond to rainfall between July 26 and August 2, likely because watershed soils absorbed most of the precipitation which resulted in minimal runoff to lakes. The median E/I ratio decreased to 0.11 after an unseasonably cool and rainy August, identified as the recharge phase. Throughout the sampling period, δI remained relatively 15 stable and most lakes contained a greater amount of rainfall-sourced water than snow-sourced water, even after the freshet phase due to snowmelt bypass. The range of average E/I ratios we observed at lakes (0.00–0.43) was relatively narrow and low compared to thermokarst lakes in other regions, likely owing to the large watershed area to lake area (WA/LA), efficient preferential flow pathways for runoff, and a shorter ice-free season. WA/LA strongly predicted average lake E/I ratio (R2 = 0.74), as lakes with smaller WA/LA tended to have higher E/I ratios because they received relatively less inflow. We used this 20 relationship to predict the average E/I ratio of 7340 lakes in the region, finding that lakes are not vulnerable to desiccation in this region, given that all predicted average E/I values were &lt;0.33. If future permafrost thaw and warming cause less runoff to flow into lakes, we expect that lakes with smaller WA/LA will be more influenced by increasing evaporation, while lakes with larger WA/LA will be more resistant to lake-level drawdown. However under wetter conditions, lakes with larger WA/LA will likely experience greater increases in lake level and could be more susceptible to rapid drainage as a result.</abstract>
-			<url hash="ac8c4880">G23-2006</url>
-			<doi>10.5194/hess-2022-279</doi>
-			<bibkey>Wilcox-2023-Hydrological,</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="7">
-			<title>Developing Spring Wheat in the Noah-MP LSM (v4.4) for Growing Season Dynamics and Responses to Temperature Stress</title>
-			<author>
-				<first>Zhe</first>
-				<last>Zhang</last>
-			</author>
-			<author>
-				<first>Yanping</first>
-				<last>Li</last>
-			</author>
-			<author>
-				<first>Fei</first>
-				<last>Chen</last>
-			</author>
-			<author>
-				<first>Phillip</first>
-				<last>Harder</last>
-			</author>
-			<author>
-				<first>Warren</first>
-				<last>Helgason</last>
-			</author>
-			<author>
-				<first>J. S.</first>
-				<last>Famiglietti</last>
-			</author>
-			<author>
-				<first>Prasanth</first>
-				<last>Valayamkunnath</last>
-			</author>
-			<author>
-				<first>Cenlin</first>
-				<last>He</last>
-			</author>
-			<author>
-				<first>Zhenhua</first>
-				<last>Li</last>
-			</author>
-			<abstract>Abstract. The US Northern Great Plains and the Canadian Prairies are known as the world’s breadbaskets for its large spring wheat production and exports to the world. It is essential to accurately represent spring wheat growing dynamics and final yield and improve our ability to predict food production under climate change. This study attempts to incorporate spring wheat growth dynamics into the Noah-MP crop model, for a long time period (13-year) and fine spatial scale (4-km). The study focuses on three aspects: (1) developing and calibrating the spring wheat model at point-scale, (2) applying a dynamic planting/harvest date to facilitate large-scale simulations, and (3) applying a temperature stress function to assess crop responses to heat stress amid extreme heat. Model results are evaluated using field observations, satellite leaf area index (LAI), and census data from Statistics Canada and the US Department of Agriculture (USDA). Results suggest that incorporating a dynamic planting/harvest threshold can better constrain the growing season, especially the peak timing and magnitude of wheat LAI, as well as obtain realistic yield compared to prescribing a static province/state-level map. Results also demonstrate an evident control of heat stress upon wheat yield in three Canadian Prairies Provinces, which are reasonably captured in the new temperature stress function. This study has important implications for estimating crop production, simulating the land-atmosphere interactions in croplands, and crop growth’s responses to the raising temperatures amid climate change.</abstract>
-			<url hash="db8b7816">G23-2007</url>
-			<doi>10.5194/gmd-2022-311</doi>
-			<bibkey>Zhang-2023-Developing</bibkey>
 			<project>prj6</project>
 		</paper>
 	</volume>
@@ -4492,6 +4332,206 @@
 			<pages>1267-1281</pages>
 			<doi>10.1111/gcb.16487</doi>
 			<bibkey>Zona-2023-&lt;scp&gt;Pan‐Arctic&lt;/scp&gt;</bibkey>
+			<project>prj6</project>
+		</paper>
+	</volume>
+	<volume id="88">
+		<meta>
+			<booktitle>The Cryosphere Discussions, Volume 15</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The Ability of Hydrologic-Land Surface Models to Concurrently Simulate Permafrost and Hydrology</title>
+			<author>
+				<first>Mohamed S.</first>
+				<last>Abdelhamed</last>
+			</author>
+			<author>
+				<first>Mohamed</first>
+				<last>Elshamy</last>
+			</author>
+			<author>
+				<first>Saman</first>
+				<last>Razavi</last>
+			</author>
+			<author>
+				<first>H. S.</first>
+				<last>Wheater</last>
+			</author>
+			<abstract>Abstract. Hydrologic-land surface models (H-LSMs) provide physically-based understanding and predictions of the current and future states of the world’s vast high-latitude permafrost regions. Two major challenges, however, hamper their parametrization and validation when concurrently representing hydrology and permafrost. One is the high computational complexity, exacerbated by the need to include a deep soil profile to adequately capture the freeze/thaw cycles and heat storage. The other is that soil-temperature data are severely limited, and traditional model validation, based on streamflow, can show the right fit to these data for the wrong reasons. There are few observational sites for such vast, heterogeneous regions, and remote sensing provides only limited support. In light of these challenges, we develop 16 parametrizations of a Canadian H-LSM, MESH, for the sub-arctic Liard River Basin and validate them using three data sources: streamflows at multiple gauges, soil temperature profiles from few available boreholes, and multiple permafrost maps. The different parametrizations favor different sources of data and it is challenging to configure a model faithful to all three data sources, which are at times inconsistent with each other. Overall, the results show that: (1) surface insulation through snow cover primarily regulates permafrost dynamics after model initialization effects decay over, relatively long time and (2) different parametrizations yield different partitioning patterns of solid-vs-liquid soil-water and produce different low-flow but similar high-flow regimes. We conclude that, given data scarcity, an ensemble of model parametrizations is essential to provide a reliable picture of the current states and future spatio-temporal co-evolution of permafrost and hydrology.</abstract>
+			<url hash="32e8dd23">G23-2001</url>
+			<doi>10.5194/tc-2023-20</doi>
+			<bibkey>Abdelhamed-2023-The</bibkey>
+			<project>prj6</project>
+		</paper>
+	</volume>
+	<volume id="89">
+		<meta>
+			<booktitle>Sensors and Actuators A: Physical, Volume 362</booktitle>
+			<publisher>Elsevier</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Real-Time Lead Detection Device Based on Nanomaterials Modified Microwave-Microfluidic Sensor</title>
+			<author>
+				<first>Weijia</first>
+				<last>Cui</last>
+			</author>
+			<author>
+				<first>Ren</first>
+				<last>Zhe</last>
+			</author>
+			<author>
+				<first>Zahra</first>
+				<last>Abbasi</last>
+			</author>
+			<author>
+				<first>Yongxin</first>
+				<last>Song</last>
+			</author>
+			<author>
+				<first>Carolyn L.</first>
+				<last>Ren</last>
+			</author>
+			<abstract/>
+			<url hash="abe18c99">G23-2002</url>
+			<doi>10.2139/ssrn.4483935</doi>
+			<bibkey>Cui-2023-Real-Time</bibkey>
+			<project>prj6</project>
+		</paper>
+	</volume>
+	<volume id="90">
+		<meta>
+			<booktitle>Earth System Science Data Discussions, Volume 2023</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Atmospheric and surface observations during the Saint John River Experiment on Cold Season Storms (SAJESS)</title>
+			<author>
+				<first>Hadleigh D.</first>
+				<last>Thompson</last>
+			</author>
+			<author>
+				<first>Julie M.</first>
+				<last>Thériault</last>
+			</author>
+			<author>
+				<first>Stephen J.</first>
+				<last>Déry</last>
+			</author>
+			<author>
+				<first>Ronald E.</first>
+				<last>Stewart</last>
+			</author>
+			<author>
+				<first>Dominique</first>
+				<last>Boisvert</last>
+			</author>
+			<author>
+				<first>Lisa</first>
+				<last>Rickard</last>
+			</author>
+			<author>
+				<first>Nicolas</first>
+				<last>Leroux</last>
+			</author>
+			<author>
+				<first>Matteo</first>
+				<last>Colli</last>
+			</author>
+			<author>
+				<first>Vincent</first>
+				<last>Vionnet</last>
+			</author>
+			<abstract>Abstract. The amount and phase of cold season precipitation accumulating in the upper Saint John River basin are critical factors in determining spring runoff, ice-jams, and flooding in downstream communities. To study the impact of winter and spring storms on the snowpack in the upper Saint John River (SJR) basin, the Saint John River Experiment on Cold Season Storms (SAJESS) utilized meteorological instrumentation, upper air soundings, human observations, and hydrometeor macrophotography during winter/spring 2020–21. Here, we provide an overview of the SAJESS study area, field campaign, and existing data networks surrounding the upper SJR basin. Initially, meteorological instrumentation was co-located with an Environment and Climate Change Canada station near Edmundston, New Brunswick, in early December 2020. This was followed by an intensive observation period that involved manual observations, upper-air soundings, a multi-angle snowflake camera, macrophotography of solid hydrometeors, and advanced automated instrumentation throughout March and April 2021. The resulting datasets include optical disdrometer size and velocity distributions of hydrometeors, micro rain radar output, near-surface meteorological observations, and wind speed, temperature, pressure and precipitation amounts from a K63 Hotplate precipitation gauge, the first one operating in Canada. These data are publicly available from the Federated Research Data Repository at https://doi.org/10.20383/103.0591 (Thompson et al., 2022). We also include a synopsis of the data management plan and data processing, and a brief assessment of the rewards and challenges of utilizing community volunteers for hydro-meteorological citizen science.</abstract>
+			<url hash="3585193a">G23-2005</url>
+			<doi>10.5194/essd-2023-59</doi>
+			<bibkey>Thompson-2023-Atmospheric</bibkey>
+			<project>prj6</project>
+		</paper>
+	</volume>
+	<volume id="91">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 27</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Hydrological, meteorological and watershed controls on the water balance of thermokarst lakes between Inuvik and Tuktoyaktuk, Northwest Territories, Canada</title>
+			<author>
+				<first>Evan J.</first>
+				<last>Wilcox</last>
+			</author>
+			<author>
+				<first>Brent B.</first>
+				<last>Wolfe</last>
+			</author>
+			<author>
+				<first>Philip</first>
+				<last>Marsh</last>
+			</author>
+			<abstract>Abstract. Thermokarst lake water balances are becoming increasingly vulnerable to change in the Arctic as air temperature increases and precipitation patterns shift. In the tundra uplands east of the Mackenzie Delta in the Northwest Territories, Canada, previous research has found that lakes responded non-uniformly to changes in precipitation, suggesting that lake and watershed properties moderate the response of lakes to climate change. To investigate how lake and watershed properties and meteoro5 logical conditions influence the water balance of thermokarst lakes in this region, we sampled 25 lakes for isotope analysis five times in 2018, beginning before snowmelt on May 1 and ending on September 3. Water isotope data were used to calculate the ratio of evaporation-to-inflow (E/I) and the average isotope composition of lake source water (δI). We identified four distinct water balance phases as lakes responded to seasonal shifts in meteorological conditions and hydrological processes. During the freshet phase from May 1 to June 15, the median E/I ratio of lakes decreased from 0.20 to 0.13 in response to freshet runoff 10 and limited evaporation due to lake ice presence that persisted for the duration of this phase. During the following warm, dry, and ice-free period from June 15 to July 26, designated the evaporation phase, the median E/I ratio increased to 0.19. During the brief soil wetting phase, E/I ratios did not respond to rainfall between July 26 and August 2, likely because watershed soils absorbed most of the precipitation which resulted in minimal runoff to lakes. The median E/I ratio decreased to 0.11 after an unseasonably cool and rainy August, identified as the recharge phase. Throughout the sampling period, δI remained relatively 15 stable and most lakes contained a greater amount of rainfall-sourced water than snow-sourced water, even after the freshet phase due to snowmelt bypass. The range of average E/I ratios we observed at lakes (0.00–0.43) was relatively narrow and low compared to thermokarst lakes in other regions, likely owing to the large watershed area to lake area (WA/LA), efficient preferential flow pathways for runoff, and a shorter ice-free season. WA/LA strongly predicted average lake E/I ratio (R2 = 0.74), as lakes with smaller WA/LA tended to have higher E/I ratios because they received relatively less inflow. We used this 20 relationship to predict the average E/I ratio of 7340 lakes in the region, finding that lakes are not vulnerable to desiccation in this region, given that all predicted average E/I values were &lt;0.33. If future permafrost thaw and warming cause less runoff to flow into lakes, we expect that lakes with smaller WA/LA will be more influenced by increasing evaporation, while lakes with larger WA/LA will be more resistant to lake-level drawdown. However under wetter conditions, lakes with larger WA/LA will likely experience greater increases in lake level and could be more susceptible to rapid drainage as a result.</abstract>
+			<url hash="ac8c4880">G23-2006</url>
+			<doi>10.5194/hess-2022-279</doi>
+			<bibkey>Wilcox-2023-Hydrological,</bibkey>
+			<project>prj6</project>
+		</paper>
+	</volume>
+	<volume id="92">
+		<meta>
+			<booktitle>Geoscientific Model Development, Volume 16</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Developing Spring Wheat in the Noah-MP LSM (v4.4) for Growing Season Dynamics and Responses to Temperature Stress</title>
+			<author>
+				<first>Zhe</first>
+				<last>Zhang</last>
+			</author>
+			<author>
+				<first>Yanping</first>
+				<last>Li</last>
+			</author>
+			<author>
+				<first>Fei</first>
+				<last>Chen</last>
+			</author>
+			<author>
+				<first>Phillip</first>
+				<last>Harder</last>
+			</author>
+			<author>
+				<first>Warren</first>
+				<last>Helgason</last>
+			</author>
+			<author>
+				<first>J. S.</first>
+				<last>Famiglietti</last>
+			</author>
+			<author>
+				<first>Prasanth</first>
+				<last>Valayamkunnath</last>
+			</author>
+			<author>
+				<first>Cenlin</first>
+				<last>He</last>
+			</author>
+			<author>
+				<first>Zhenhua</first>
+				<last>Li</last>
+			</author>
+			<abstract>Abstract. The US Northern Great Plains and the Canadian Prairies are known as the world’s breadbaskets for its large spring wheat production and exports to the world. It is essential to accurately represent spring wheat growing dynamics and final yield and improve our ability to predict food production under climate change. This study attempts to incorporate spring wheat growth dynamics into the Noah-MP crop model, for a long time period (13-year) and fine spatial scale (4-km). The study focuses on three aspects: (1) developing and calibrating the spring wheat model at point-scale, (2) applying a dynamic planting/harvest date to facilitate large-scale simulations, and (3) applying a temperature stress function to assess crop responses to heat stress amid extreme heat. Model results are evaluated using field observations, satellite leaf area index (LAI), and census data from Statistics Canada and the US Department of Agriculture (USDA). Results suggest that incorporating a dynamic planting/harvest threshold can better constrain the growing season, especially the peak timing and magnitude of wheat LAI, as well as obtain realistic yield compared to prescribing a static province/state-level map. Results also demonstrate an evident control of heat stress upon wheat yield in three Canadian Prairies Provinces, which are reasonably captured in the new temperature stress function. This study has important implications for estimating crop production, simulating the land-atmosphere interactions in croplands, and crop growth’s responses to the raising temperatures amid climate change.</abstract>
+			<url hash="db8b7816">G23-2007</url>
+			<doi>10.5194/gmd-2022-311</doi>
+			<bibkey>Zhang-2023-Developing</bibkey>
 			<project>prj6</project>
 		</paper>
 	</volume>
