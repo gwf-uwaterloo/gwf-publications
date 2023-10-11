@@ -42,6 +42,7 @@
         <genre authority="marcgt">periodical</genre>
         <genre authority="bibutilsgt">academic journal</genre>
     </relatedItem>
+    <abstract>Abstract SAR data provide the high-resolution images useful for monitoring environment, and natural resources. Nevertheless, it has been a great challenge to retrieve soil moisture over vegetated sites from SAR backscatter coefficients, as it is almost impossible to parameterize spatially heterogeneous and time-varying roughness, the effect of rainfall or canopy volume scattering with implicit equations. We suggest a Monte Carlo Method (MCM) as a strategy to mitigate non-linear errors in retrievals arising from rainfall, and vegetation growth. The Advanced Integral Equation Model (AIEM) is repeatedly run in a forward mode for establishing the Gaussian-distributed soil roughness and backscatter coefficients. The mean value of soil moisture ensembles inverted from those was taken as an optimal estimate. Local validations show that Root Mean Square Errors (RMSEs) were 0.05 ∼ 0.07 m3/m3 at the stations in Saskatchewan, Canada. Biases were 0.01 m3/m3. Spatial distribution illustrates that the retrieval biases were mitigated, resolving AIEM inversion errors.</abstract>
     <identifier type="citekey">Lee-2021-Stochastic</identifier>
     <identifier type="doi">10.1080/10106049.2021.2017009</identifier>
     <location>
