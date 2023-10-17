@@ -96,7 +96,7 @@
       } 
       else if (this.id.startsWith("prj")) {      
         var any_checked = $( ':input[id^="prj"]' ).map(function() {return $(this).prop('checked');}).get().includes(true);  
-        var prj = this.id.slice(-4);     
+        var prj = this.id.slice(4);     
         if ($("#project_list li:first-child").css("display") == 'none'){
           $("#project_list li:first-child").prop('style', "display:initial !important");
           $( 'div[data-prj^="prj"]' ).each(function() {

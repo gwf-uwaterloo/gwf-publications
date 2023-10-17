@@ -264,6 +264,28 @@ def add_doi_to_xml(new_doi_file:str, xml_folder: str, yaml_folder: str):
     with open(yaml_folder+'name_variants.yaml', 'w') as file:
         documents = yaml.dump(dict_file, file, default_flow_style=None)
 
+def assign_prj(in_file: str, out_file: str, doi2prj_file: str):
+    doi_prj_df = pd.read_excel(doi2prj_file)
+    tree = et.parse(in_file)
+
+    for paper_element in tree.findall(".//paper"):
+        # abstract_element = paper_element.find("abstract")
+        doi = paper_element.find("doi").text
+        prj = paper_element.find("project")
+        project_num = doi_prj_df[doi_prj_df['DOI'] == doi]['prj']
+        prj.text = "prj46" if project_num.empty else project_num.iloc[0]
+        pass
+        # if abstract_element is not None and abstract_element.text is None:
+        #     r = requests.get(url = data_url.replace("{DOI}", doi))
+        #     if r.status_code!=200: print("r: " + str(r.content))
+        #     try:                
+        #         abstract_element.text = r.json()['abstract']
+        #     except:
+        #         print(doi)
+            
+    with open (out_file, "wb") as files :
+        tree.write(files, encoding='UTF-8', xml_declaration=True, method='xml')
+
 # get_new_doi_data('extra_publication_cleaned.csv')
 # get_new_doi_data('non_doi_titles.csv')
 # find_doi_diffs('gwf_data_extract/doi_from_USask.csv')
@@ -272,4 +294,5 @@ def add_doi_to_xml(new_doi_file:str, xml_folder: str, yaml_folder: str):
 # add_doi_to_xml('extra_publication_cleaned.csv', 'data/xml/', 'data/yaml/')
 
 # handle_HTML_entities("data/xml/G23.xml")
-add_abstract_to_missing("data/xml/G17.xml", "data/xml/G17.xml")
+# add_abstract_to_missing("data/xml/G17.xml", "data/xml/G17.xml")
+assign_prj("data/xml/G23.xml", "data/xml/G23.xml", "gwf_data_extract/doi2projects.xlsx")
