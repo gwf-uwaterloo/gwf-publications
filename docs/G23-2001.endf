@@ -1,14 +1,15 @@
 ﻿%0 Journal Article
-%T The Ability of Hydrologic-Land Surface Models to Concurrently Simulate Permafrost and Hydrology
-%A Abdelhamed, Mohamed S.
-%A Elshamy, Mohamed
+%T On the optimal level of complexity for the representation of wetland systems in land surface models
+%A Elrashidy, Mennatullah
+%A Ireson, A. M.
 %A Razavi, Saman
-%A Wheater, H. S.
+%J Hydrology and Earth System Sciences Discussions, Volume 2023
 %D 2023
+%V 2023
 %I Copernicus GmbH
-%F Abdelhamed-2023-The
-%X Abstract. Hydrologic-land surface models (H-LSMs) provide physically-based understanding and predictions of the current and future states of the world’s vast high-latitude permafrost regions. Two major challenges, however, hamper their parametrization and validation when concurrently representing hydrology and permafrost. One is the high computational complexity, exacerbated by the need to include a deep soil profile to adequately capture the freeze/thaw cycles and heat storage. The other is that soil-temperature data are severely limited, and traditional model validation, based on streamflow, can show the right fit to these data for the wrong reasons. There are few observational sites for such vast, heterogeneous regions, and remote sensing provides only limited support. In light of these challenges, we develop 16 parametrizations of a Canadian H-LSM, MESH, for the sub-arctic Liard River Basin and validate them using three data sources: streamflows at multiple gauges, soil temperature profiles from few available boreholes, and multiple permafrost maps. The different parametrizations favor different sources of data and it is challenging to configure a model faithful to all three data sources, which are at times inconsistent with each other. Overall, the results show that: (1) surface insulation through snow cover primarily regulates permafrost dynamics after model initialization effects decay over, relatively long time and (2) different parametrizations yield different partitioning patterns of solid-vs-liquid soil-water and produce different low-flow but similar high-flow regimes. We conclude that, given data scarcity, an ensemble of model parametrizations is essential to provide a reliable picture of the current states and future spatio-temporal co-evolution of permafrost and hydrology.
-%R 10.5194/tc-2023-20
-%U https://gwf-uwaterloo.github.io/gwf-publications/G23-2001
-%U https://doi.org/10.5194/tc-2023-20
+%F Elrashidy-2023-On
+%X Abstract. Wetland systems are among the largest stores of carbon on the planet, most biologically diverse of all ecosystems, and dominant controls of the hydrologic cycle. However, their representation in land surface models (LSMs), which are the terrestrial lower boundary of Earth system models (ESMs) that inform climate actions, is limited. Here, we explore different possible parametrizations to represent wetland-groundwater-upland interactions with varying levels of system and computational complexity. We perform a series of numerical experiments that are informed by field observations from wetlands in the well-instrumented White Gull Creek in Saskatchewan, in the boreal region of North America. We show that the typical representation of wetlands in LSMs, which ignores interactions with groundwater and uplands, can be inadequate. We show that the optimal level of model complexity depends on the land cover, soil type, and the ultimate modelling purpose, being nowcasting and prediction, scenario analysis, or diagnostic learning.
+%R 10.5194/hess-2023-68
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-2003
+%U https://doi.org/10.5194/hess-2023-68
 

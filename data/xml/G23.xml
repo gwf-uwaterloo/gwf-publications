@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <collection id="G23">
 	<volume id="1">
 		<meta>
 			<booktitle>Journal of Advances in Modeling Earth Systems, Volume 15, Issue 3</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -29,69 +29,17 @@
 			<url hash="205d72cd">G23-1001</url>
 			<doi>10.1029/2022ms003013</doi>
 			<bibkey>Abdelhamed-2023-Challenges</bibkey>
-			<project>prj6</project>			
+			<project>prj46</project>			
 		</paper>
 	</volume>
 	<volume id="2">
 		<meta>
-			<booktitle> </booktitle>
+			<booktitle>Hydrology and Earth System Sciences Discussions, Volume 2023</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
-			<title>The Ability of Hydrologic-Land Surface Models to Concurrently Simulate Permafrost and Hydrology</title>
-			<author>
-				<first>Mohamed S.</first>
-				<last>Abdelhamed</last>
-			</author>
-			<author>
-				<first>Mohamed</first>
-				<last>Elshamy</last>
-			</author>
-			<author>
-				<first>Saman</first>
-				<last>Razavi</last>
-			</author>
-			<author>
-				<first>H. S.</first>
-				<last>Wheater</last>
-			</author>
-			<abstract>Abstract. Hydrologic-land surface models (H-LSMs) provide physically-based understanding and predictions of the current and future states of the world’s vast high-latitude permafrost regions. Two major challenges, however, hamper their parametrization and validation when concurrently representing hydrology and permafrost. One is the high computational complexity, exacerbated by the need to include a deep soil profile to adequately capture the freeze/thaw cycles and heat storage. The other is that soil-temperature data are severely limited, and traditional model validation, based on streamflow, can show the right fit to these data for the wrong reasons. There are few observational sites for such vast, heterogeneous regions, and remote sensing provides only limited support. In light of these challenges, we develop 16 parametrizations of a Canadian H-LSM, MESH, for the sub-arctic Liard River Basin and validate them using three data sources: streamflows at multiple gauges, soil temperature profiles from few available boreholes, and multiple permafrost maps. The different parametrizations favor different sources of data and it is challenging to configure a model faithful to all three data sources, which are at times inconsistent with each other. Overall, the results show that: (1) surface insulation through snow cover primarily regulates permafrost dynamics after model initialization effects decay over, relatively long time and (2) different parametrizations yield different partitioning patterns of solid-vs-liquid soil-water and produce different low-flow but similar high-flow regimes. We conclude that, given data scarcity, an ensemble of model parametrizations is essential to provide a reliable picture of the current states and future spatio-temporal co-evolution of permafrost and hydrology.</abstract>
-			<url hash="32e8dd23">G23-2001</url>
-			<doi>10.5194/tc-2023-20</doi>
-			<bibkey>Abdelhamed-2023-The</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="2">
-			<title>Real-Time Lead Detection Device Based on Nanomaterials Modified Microwave-Microfluidic Sensor</title>
-			<author>
-				<first>Weijia</first>
-				<last>Cui</last>
-			</author>
-			<author>
-				<first>Ren</first>
-				<last>Zhe</last>
-			</author>
-			<author>
-				<first>Zahra</first>
-				<last>Abbasi</last>
-			</author>
-			<author>
-				<first>Yongxin</first>
-				<last>Song</last>
-			</author>
-			<author>
-				<first>Carolyn L.</first>
-				<last>Ren</last>
-			</author>
-			<abstract/>
-			<url hash="abe18c99">G23-2002</url>
-			<doi>10.2139/ssrn.4483935</doi>
-			<bibkey>Cui-2023-Real-Time</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="3">
 			<title>On the optimal level of complexity for the representation of wetland systems in land surface models</title>
 			<author>
 				<first>Mennatullah</first>
@@ -109,9 +57,9 @@
 			<url hash="dce6bc0f">G23-2003</url>
 			<doi>10.5194/hess-2023-68</doi>
 			<bibkey>Elrashidy-2023-On</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
-		<paper id="4">
+		<paper id="2">
 			<title>Modeling the sensitivity of snowmelt, soil moisture and streamflow generation to climate over the Canadian Prairies using a basin classification approach</title>
 			<author>
 				<first>Zhaofeng</first>
@@ -137,122 +85,14 @@
 			<url hash="428229ac">G23-2004</url>
 			<doi>10.5194/hess-2023-71</doi>
 			<bibkey>He-2023-Modeling</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="5">
-			<title>Atmospheric and surface observations during the Saint John River Experiment on Cold Season Storms (SAJESS)</title>
-			<author>
-				<first>Hadleigh D.</first>
-				<last>Thompson</last>
-			</author>
-			<author>
-				<first>Julie M.</first>
-				<last>Thériault</last>
-			</author>
-			<author>
-				<first>Stephen J.</first>
-				<last>Déry</last>
-			</author>
-			<author>
-				<first>Ronald E.</first>
-				<last>Stewart</last>
-			</author>
-			<author>
-				<first>Dominique</first>
-				<last>Boisvert</last>
-			</author>
-			<author>
-				<first>Lisa</first>
-				<last>Rickard</last>
-			</author>
-			<author>
-				<first>Nicolas</first>
-				<last>Leroux</last>
-			</author>
-			<author>
-				<first>Matteo</first>
-				<last>Colli</last>
-			</author>
-			<author>
-				<first>Vincent</first>
-				<last>Vionnet</last>
-			</author>
-			<abstract>Abstract. The amount and phase of cold season precipitation accumulating in the upper Saint John River basin are critical factors in determining spring runoff, ice-jams, and flooding in downstream communities. To study the impact of winter and spring storms on the snowpack in the upper Saint John River (SJR) basin, the Saint John River Experiment on Cold Season Storms (SAJESS) utilized meteorological instrumentation, upper air soundings, human observations, and hydrometeor macrophotography during winter/spring 2020–21. Here, we provide an overview of the SAJESS study area, field campaign, and existing data networks surrounding the upper SJR basin. Initially, meteorological instrumentation was co-located with an Environment and Climate Change Canada station near Edmundston, New Brunswick, in early December 2020. This was followed by an intensive observation period that involved manual observations, upper-air soundings, a multi-angle snowflake camera, macrophotography of solid hydrometeors, and advanced automated instrumentation throughout March and April 2021. The resulting datasets include optical disdrometer size and velocity distributions of hydrometeors, micro rain radar output, near-surface meteorological observations, and wind speed, temperature, pressure and precipitation amounts from a K63 Hotplate precipitation gauge, the first one operating in Canada. These data are publicly available from the Federated Research Data Repository at https://doi.org/10.20383/103.0591 (Thompson et al., 2022). We also include a synopsis of the data management plan and data processing, and a brief assessment of the rewards and challenges of utilizing community volunteers for hydro-meteorological citizen science.</abstract>
-			<url hash="3585193a">G23-2005</url>
-			<doi>10.5194/essd-2023-59</doi>
-			<bibkey>Thompson-2023-Atmospheric</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="6">
-			<title>Hydrological, meteorological and watershed controls on the water balance of thermokarst lakes between Inuvik and Tuktoyaktuk, Northwest Territories, Canada</title>
-			<author>
-				<first>Evan J.</first>
-				<last>Wilcox</last>
-			</author>
-			<author>
-				<first>Brent B.</first>
-				<last>Wolfe</last>
-			</author>
-			<author>
-				<first>Philip</first>
-				<last>Marsh</last>
-			</author>
-			<abstract>Abstract. Thermokarst lake water balances are becoming increasingly vulnerable to change in the Arctic as air temperature increases and precipitation patterns shift. In the tundra uplands east of the Mackenzie Delta in the Northwest Territories, Canada, previous research has found that lakes responded non-uniformly to changes in precipitation, suggesting that lake and watershed properties moderate the response of lakes to climate change. To investigate how lake and watershed properties and meteoro5 logical conditions influence the water balance of thermokarst lakes in this region, we sampled 25 lakes for isotope analysis five times in 2018, beginning before snowmelt on May 1 and ending on September 3. Water isotope data were used to calculate the ratio of evaporation-to-inflow (E/I) and the average isotope composition of lake source water (δI). We identified four distinct water balance phases as lakes responded to seasonal shifts in meteorological conditions and hydrological processes. During the freshet phase from May 1 to June 15, the median E/I ratio of lakes decreased from 0.20 to 0.13 in response to freshet runoff 10 and limited evaporation due to lake ice presence that persisted for the duration of this phase. During the following warm, dry, and ice-free period from June 15 to July 26, designated the evaporation phase, the median E/I ratio increased to 0.19. During the brief soil wetting phase, E/I ratios did not respond to rainfall between July 26 and August 2, likely because watershed soils absorbed most of the precipitation which resulted in minimal runoff to lakes. The median E/I ratio decreased to 0.11 after an unseasonably cool and rainy August, identified as the recharge phase. Throughout the sampling period, δI remained relatively 15 stable and most lakes contained a greater amount of rainfall-sourced water than snow-sourced water, even after the freshet phase due to snowmelt bypass. The range of average E/I ratios we observed at lakes (0.00–0.43) was relatively narrow and low compared to thermokarst lakes in other regions, likely owing to the large watershed area to lake area (WA/LA), efficient preferential flow pathways for runoff, and a shorter ice-free season. WA/LA strongly predicted average lake E/I ratio (R2 = 0.74), as lakes with smaller WA/LA tended to have higher E/I ratios because they received relatively less inflow. We used this 20 relationship to predict the average E/I ratio of 7340 lakes in the region, finding that lakes are not vulnerable to desiccation in this region, given that all predicted average E/I values were &lt;0.33. If future permafrost thaw and warming cause less runoff to flow into lakes, we expect that lakes with smaller WA/LA will be more influenced by increasing evaporation, while lakes with larger WA/LA will be more resistant to lake-level drawdown. However under wetter conditions, lakes with larger WA/LA will likely experience greater increases in lake level and could be more susceptible to rapid drainage as a result.</abstract>
-			<url hash="ac8c4880">G23-2006</url>
-			<doi>10.5194/hess-2022-279</doi>
-			<bibkey>Wilcox-2023-Hydrological,</bibkey>
-			<project>prj6</project>
-		</paper>
-		<paper id="7">
-			<title>Developing Spring Wheat in the Noah-MP LSM (v4.4) for Growing Season Dynamics and Responses to Temperature Stress</title>
-			<author>
-				<first>Zhe</first>
-				<last>Zhang</last>
-			</author>
-			<author>
-				<first>Yanping</first>
-				<last>Li</last>
-			</author>
-			<author>
-				<first>Fei</first>
-				<last>Chen</last>
-			</author>
-			<author>
-				<first>Phillip</first>
-				<last>Harder</last>
-			</author>
-			<author>
-				<first>Warren</first>
-				<last>Helgason</last>
-			</author>
-			<author>
-				<first>J. S.</first>
-				<last>Famiglietti</last>
-			</author>
-			<author>
-				<first>Prasanth</first>
-				<last>Valayamkunnath</last>
-			</author>
-			<author>
-				<first>Cenlin</first>
-				<last>He</last>
-			</author>
-			<author>
-				<first>Zhenhua</first>
-				<last>Li</last>
-			</author>
-			<abstract>Abstract. The US Northern Great Plains and the Canadian Prairies are known as the world’s breadbaskets for its large spring wheat production and exports to the world. It is essential to accurately represent spring wheat growing dynamics and final yield and improve our ability to predict food production under climate change. This study attempts to incorporate spring wheat growth dynamics into the Noah-MP crop model, for a long time period (13-year) and fine spatial scale (4-km). The study focuses on three aspects: (1) developing and calibrating the spring wheat model at point-scale, (2) applying a dynamic planting/harvest date to facilitate large-scale simulations, and (3) applying a temperature stress function to assess crop responses to heat stress amid extreme heat. Model results are evaluated using field observations, satellite leaf area index (LAI), and census data from Statistics Canada and the US Department of Agriculture (USDA). Results suggest that incorporating a dynamic planting/harvest threshold can better constrain the growing season, especially the peak timing and magnitude of wheat LAI, as well as obtain realistic yield compared to prescribing a static province/state-level map. Results also demonstrate an evident control of heat stress upon wheat yield in three Canadian Prairies Provinces, which are reasonably captured in the new temperature stress function. This study has important implications for estimating crop production, simulating the land-atmosphere interactions in croplands, and crop growth’s responses to the raising temperatures amid climate change.</abstract>
-			<url hash="db8b7816">G23-2007</url>
-			<doi>10.5194/gmd-2022-311</doi>
-			<bibkey>Zhang-2023-Developing</bibkey>
-			<project>prj6</project>
+			<project>prj15</project>
 		</paper>
 	</volume>
 	<volume id="3">
 		<meta>
 			<booktitle>Journal of Climate, Volume 36, Issue 9</booktitle>
 			<publisher>American Meteorological Society</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -270,14 +110,14 @@
 			<pages>2999-3014</pages>
 			<doi>10.1175/jcli-d-22-0467.1</doi>
 			<bibkey>Abdelmoaty-2023-Changes</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="4">
 		<meta>
 			<booktitle>Quarterly Journal of the Royal Meteorological Society, Volume 149, Issue 752</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -303,14 +143,14 @@
 			<pages>830-842</pages>
 			<doi>10.1002/qj.4434</doi>
 			<bibkey>Agyeman-2023-Projected</bibkey>
-			<project>prj6</project>
+			<project>prj12</project>
 		</paper>
 	</volume>
 	<volume id="5">
 		<meta>
 			<booktitle>Ecological Indicators, Volume 146</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -340,14 +180,14 @@
 			<pages>109829</pages>
 			<doi>10.1016/j.ecolind.2022.109829</doi>
 			<bibkey>Barati-2023-Interactions</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="6">
 		<meta>
 			<booktitle>Journal of Flood Risk Management</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -396,14 +236,14 @@
 			<url hash="bd8a4a74">G23-6001</url>
 			<doi>10.1111/jfr3.12895</doi>
 			<bibkey>Arnal-2023-Towards</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="7">
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 876</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -473,7 +313,7 @@
 			<pages>162800</pages>
 			<doi>10.1016/j.scitotenv.2023.162800</doi>
 			<bibkey>Asadi-2023-A</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 		<paper id="2">
 			<title>Modeling multi-year phosphorus dynamics in a bioretention cell: Phosphorus partitioning, accumulation, and export</title>
@@ -510,14 +350,14 @@
 			<pages>162749</pages>
 			<doi>10.1016/j.scitotenv.2023.162749</doi>
 			<bibkey>Zhou-2023-Modeling</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="8">
 		<meta>
 			<booktitle>Earth System Science Data, Volume 15, Issue 3</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -539,7 +379,7 @@
 			<pages>1329-1355</pages>
 			<doi>10.5194/essd-15-1329-2023</doi>
 			<bibkey>Attiah-2023-Lake</bibkey>
-			<project>prj6</project>
+			<project>prj30</project>
 		</paper>
 		<paper id="2">
 			<title>Pan-Arctic soil element bioavailability estimations</title>
@@ -600,14 +440,14 @@
 			<pages>1059-1075</pages>
 			<doi>10.5194/essd-15-1059-2023</doi>
 			<bibkey>Stimmler-2023-Pan-Arctic</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="9">
 		<meta>
 			<booktitle>Journal of Hydrology: Regional Studies, Volume 47</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -633,14 +473,14 @@
 			<pages>101391</pages>
 			<doi>10.1016/j.ejrh.2023.101391</doi>
 			<bibkey>Bajracharya-2023-Process</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="10">
 		<meta>
 			<booktitle>Methods in Ecology and Evolution, Volume 14, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -686,14 +526,14 @@
 			<pages>173-188</pages>
 			<doi>10.1111/2041-210x.14034</doi>
 			<bibkey>Barros-2023-Empowering</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="11">
 		<meta>
 			<booktitle>Earth's Future, Volume 10, Issue 4</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -714,14 +554,14 @@
 			<url hash="c78e5aec">G23-11001</url>
 			<doi>10.1029/2022ef002685</doi>
 			<bibkey>Aubry‐Wake-2023-Fire</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="12">
 		<meta>
 			<booktitle>Hydrological Processes, Volume 36, Issue 10</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -742,14 +582,14 @@
 			<url hash="d53bf502">G23-12001</url>
 			<doi>10.1002/hyp.14731</doi>
 			<bibkey>Aubry‐Wake-2023-Hydrological</bibkey>
-			<project>prj6</project>
+			<project>prj12</project>
 		</paper>
 	</volume>
 	<volume id="13">
 		<meta>
 			<booktitle>Ecosystems</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -790,18 +630,18 @@
 				<first>M. R.</first>
 				<last>Turetsky</last>
 			</author>
-			<abstract/>
+			<abstract>Conifer forests historically have been resilient to wildfires in part due to thick organic soil layers that regulate combustion and post-fire moisture and vegetation change. However, recent shifts in fire activity in western North America may be overwhelming these resilience mechanisms with potential impacts for energy and carbon exchange. Here, we quantify the long-term recovery of the organic soil layer and its carbon pools across 511 forested plots. Our plots span ~ 140,000 km2 across two ecozones of the Northwest Territories, Canada, and allowed us to investigate the impacts of time-after-fire, site moisture class, and dominant canopy type on soil organic layer thickness and associated carbon stocks. Despite thinner soil organic layers in xeric plots immediately after fire, these drier stands supported faster post-fire recovery of the soil organic layer than in mesic plots. Unlike xeric or mesic stands, post-fire soil carbon accumulation rates in hydric plots were negligible despite wetter forested plots having greater soil organic carbon stocks immediately post-fire compared to other stands. While permafrost and high-water tables inhibit combustion and maintain thick organic soils immediately after fire, our results suggest that these wet stands are not recovering their pre-fire carbon stocks on a century timescale. We show that canopy conversion from black spruce to jack pine or deciduous dominance could reduce organic soil carbon stocks by 60–80% depending on stand age. Our two main findings—decreasing organic soil carbon storage with increasing deciduous cover and the lack of post-fire SOL recovery in hydric sites—have implications for the turnover time of carbon stocks in the western boreal forest region and also will impact energy fluxes by controlling albedo and surface soil moisture.</abstract>
 			<url hash="6d879267">G23-13001</url>
 			<doi>10.1007/s10021-023-00854-0</doi>
 			<bibkey>Bill-2023-Post-fire</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="14">
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -826,14 +666,14 @@
 			<url hash="f050aade">G23-14001</url>
 			<doi>10.1002/hyp.14789</doi>
 			<bibkey>Bodo-2023-Below</bibkey>
-			<project>prj6</project>
+			<project>prj7</project>
 		</paper>
 	</volume>
 	<volume id="15">
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 895</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -891,14 +731,14 @@
 			<pages>165095</pages>
 			<doi>10.1016/j.scitotenv.2023.165095</doi>
 			<bibkey>Breadner-2023-A</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="16">
 		<meta>
 			<booktitle>Agricultural Water Management, Volume 284</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -951,7 +791,7 @@
 		<meta>
 			<booktitle>Cold Regions Science and Technology, Volume 209</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -977,14 +817,14 @@
 			<pages>103807</pages>
 			<doi>10.1016/j.coldregions.2023.103807</doi>
 			<bibkey>Champagne-2023-Future</bibkey>
-			<project>prj6</project>
+			<project>prj7</project>
 		</paper>
 	</volume>
 	<volume id="18">
 		<meta>
 			<booktitle>Canadian Journal of Remote Sensing, Volume 49, Issue 1</booktitle>
 			<publisher>Informa UK Limited</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1021,14 +861,14 @@
 			<url hash="ba861566">G23-18001</url>
 			<doi>10.1080/07038992.2023.2215333</doi>
 			<bibkey>Chegoonian-2023-Comparative</bibkey>
-			<project>prj6</project>
+			<project>prj13</project>
 		</paper>
 	</volume>
 	<volume id="19">
 		<meta>
 			<booktitle>Environmental Research Letters, Volume 17, Issue 11</booktitle>
 			<publisher>IOP Publishing</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1102,14 +942,14 @@
 			<pages>115009</pages>
 			<doi>10.1088/1748-9326/ac9dae</doi>
 			<bibkey>Cheng-2023-Evaluating</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="20">
 		<meta>
 			<booktitle>Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval</booktitle>
 			<publisher>ACM</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1142,14 +982,14 @@
 			<url hash="38924759">G23-20001</url>
 			<doi>10.1145/3539618.3591887</doi>
 			<bibkey>Kamphuis-2023-MMEAD:</bibkey>
-			<project>prj6</project>
+			<project>prj10</project>
 		</paper>
 	</volume>
 	<volume id="21">
 		<meta>
 			<booktitle>Environmental Reviews, Volume 31, Issue 1</booktitle>
 			<publisher>Canadian Science Publishing</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1198,7 +1038,7 @@
 		<meta>
 			<booktitle>Comparative Biochemistry and Physiology Part B: Biochemistry and Molecular Biology, Volume 269</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1228,14 +1068,14 @@
 			<pages>110875</pages>
 			<doi>10.1016/j.cbpb.2023.110875</doi>
 			<bibkey>Dawe-2023-Investigating</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="23">
 		<meta>
 			<booktitle>Frontiers in Public Health, Volume 11</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1308,14 +1148,14 @@
 			<url hash="2a27e8b7">G23-23001</url>
 			<doi>10.3389/fpubh.2023.1186525</doi>
 			<bibkey>Dhiyebi-2023-Assessment</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="24">
 		<meta>
 			<booktitle>Emerging Infectious Diseases, Volume 29, Issue 8</booktitle>
 			<publisher>Centers for Disease Control and Prevention (CDC)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1388,14 +1228,14 @@
 			<url hash="b7f0d00e">G23-24001</url>
 			<doi>10.3201/eid2908.221580</doi>
 			<bibkey>Cheng-2023-Omicron</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="25">
 		<meta>
 			<booktitle>Water Economics and Policy, Volume 09, Issue 01</booktitle>
 			<publisher>World Scientific Pub Co Pte Ltd</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1416,14 +1256,14 @@
 			<url hash="0f4cb76b">G23-25001</url>
 			<doi>10.1142/s2382624x23400040</doi>
 			<bibkey>Eamen-2023-Testing</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="26">
 		<meta>
 			<booktitle>Chemosphere, Volume 334</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1465,14 +1305,14 @@
 			<pages>138991</pages>
 			<doi>10.1016/j.chemosphere.2023.138991</doi>
 			<bibkey>Esser-2023-Wastewater</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="27">
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 881</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1542,14 +1382,14 @@
 			<pages>163292</pages>
 			<doi>10.1016/j.scitotenv.2023.163292</doi>
 			<bibkey>Fuzzen-2023-An</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="28">
 		<meta>
 			<booktitle>Hydrology and Earth System Sciences, Volume 27, Issue 5</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1583,14 +1423,14 @@
 			<pages>1201-1219</pages>
 			<doi>10.5194/hess-27-1201-2023</doi>
 			<bibkey>Ghoreishi-2023-Cooperation</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="29">
 		<meta>
 			<booktitle>Ecohydrology, Volume 16, Issue 4</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1623,14 +1463,14 @@
 			<url hash="459a08d3">G23-29001</url>
 			<doi>10.1002/eco.2530</doi>
 			<bibkey>Glowa-2023-Applying</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="30">
 		<meta>
 			<booktitle>River Research and Applications, Volume 39, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1656,14 +1496,14 @@
 			<pages>444-459</pages>
 			<doi>10.1002/rra.4083</doi>
 			<bibkey>Glowa-2023-Evaluating</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="31">
 		<meta>
 			<booktitle>Physical Review Fluids, Volume 8, Issue 1</booktitle>
 			<publisher>American Physical Society (APS)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1688,14 +1528,14 @@
 			<url hash="bd4e098c">G23-31001</url>
 			<doi>10.1103/physrevfluids.8.014502</doi>
 			<bibkey>Grace-2023-Gravity</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="32">
 		<meta>
 			<booktitle>International Journal of Wildland Fire</booktitle>
 			<publisher>CSIRO Publishing</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1732,14 +1572,14 @@
 			<url hash="affba662">G23-32001</url>
 			<doi>10.1071/wf22112</doi>
 			<bibkey>Hanes-2023-Evaluation</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="33">
 		<meta>
 			<booktitle>Agricultural and Forest Meteorology, Volume 341</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1772,7 +1612,7 @@
 		<meta>
 			<booktitle>The Cryosphere, Volume 14, Issue 6</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1806,14 +1646,14 @@
 			<pages>1919-1935</pages>
 			<doi>10.5194/tc-14-1919-2020</doi>
 			<bibkey>Harder-2023-Improving</bibkey>
-			<project>prj6</project>
+			<project>prj13</project>
 		</paper>
 	</volume>
 	<volume id="35">
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 5</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1830,14 +1670,14 @@
 			<url hash="322c9edb">G23-35001</url>
 			<doi>10.1002/hyp.14881</doi>
 			<bibkey>He-2023-Field</bibkey>
-			<project>prj6</project>
+			<project>prj3</project>
 		</paper>
 	</volume>
 	<volume id="36">
 		<meta>
 			<booktitle>Aquatic Toxicology, Volume 261</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1891,14 +1731,14 @@
 			<pages>106636</pages>
 			<doi>10.1016/j.aquatox.2023.106636</doi>
 			<bibkey>Hicks-2023-Intersex</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="37">
 		<meta>
 			<booktitle>Angewandte Chemie International Edition, Volume 62, Issue 12</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1915,14 +1755,14 @@
 			<url hash="98255650">G23-37001</url>
 			<doi>10.1002/anie.202212879</doi>
 			<bibkey>Huang-2023-Simultaneous</bibkey>
-			<project>prj6</project>
+			<project>prj17</project>
 		</paper>
 	</volume>
 	<volume id="38">
 		<meta>
 			<booktitle>Water Resources Research</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1939,14 +1779,14 @@
 			<url hash="c0464606">G23-38001</url>
 			<doi>10.1029/2022wr032146</doi>
 			<bibkey>Huang-2023-Numerical</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="39">
 		<meta>
 			<booktitle>Geoscientific Model Development, Volume 16, Issue 2</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1972,14 +1812,14 @@
 			<pages>659-677</pages>
 			<doi>10.5194/gmd-16-659-2023</doi>
 			<bibkey>Ireson-2023-A</bibkey>
-			<project>prj6</project>
+			<project>prj4</project>
 		</paper>
 	</volume>
 	<volume id="40">
 		<meta>
 			<booktitle>Ecosphere, Volume 14, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2028,14 +1868,14 @@
 			<url hash="b7d2b2f9">G23-40001</url>
 			<doi>10.1002/ecs2.4605</doi>
 			<bibkey>Jorgensen-2023-The</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="41">
 		<meta>
 			<booktitle>Environmental Research, Volume 216</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2089,14 +1929,14 @@
 			<pages>114439</pages>
 			<doi>10.1016/j.envres.2022.114439</doi>
 			<bibkey>Kay-2023-Paleolimnological</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="42">
 		<meta>
 			<booktitle>Water, Volume 15, Issue 1</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2234,14 +2074,14 @@
 			<pages>76</pages>
 			<doi>10.3390/w15010076</doi>
 			<bibkey>Lindenschmidt-2023-Assessing</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="43">
 		<meta>
 			<booktitle>Hydrology Research, Volume 54, Issue 2</booktitle>
 			<publisher>IWA Publishing</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2255,14 +2095,14 @@
 			<pages>149-164</pages>
 			<doi>10.2166/nh.2023.042</doi>
 			<bibkey>Lindenschmidt-2023-Extension</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="44">
 		<meta>
 			<booktitle>Water, Volume 15, Issue 4</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2276,14 +2116,14 @@
 			<pages>828</pages>
 			<doi>10.3390/w15040828</doi>
 			<bibkey>Lindenschmidt-2023-Surface</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="45">
 		<meta>
 			<booktitle>Contemporary Economic Policy, Volume 41, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2301,14 +2141,14 @@
 			<pages>194-217</pages>
 			<doi>10.1111/coep.12583</doi>
 			<bibkey>Liu-2023-What</bibkey>
-			<project>prj6</project>
+			<project>prj9</project>
 		</paper>
 	</volume>
 	<volume id="46">
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 56, Issue 20</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2390,14 +2230,14 @@
 			<pages>14840-14851</pages>
 			<doi>10.1021/acs.est.2c04247</doi>
 			<bibkey>Liu-2023-Large</bibkey>
-			<project>prj6</project>
+			<project>prj16</project>
 		</paper>
 	</volume>
 	<volume id="47">
 		<meta>
 			<booktitle>Journal of Environmental Management, Volume 341</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2439,14 +2279,14 @@
 			<pages>118017</pages>
 			<doi>10.1016/j.jenvman.2023.118017</doi>
 			<bibkey>Ma-2023-Multiple</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="48">
 		<meta>
 			<booktitle>Aquatic Toxicology, Volume 257</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2476,14 +2316,14 @@
 			<pages>106453</pages>
 			<doi>10.1016/j.aquatox.2023.106453</doi>
 			<bibkey>Mahoney-2023-Perfluoroethylcyclohexane</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="49">
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 57, Issue 10</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2512,19 +2352,19 @@
 				<first>Markus</first>
 				<last>Brinkmann</last>
 			</author>
-			<abstract>Perfluoroethylcyclohexanesulfonate (PFECHS) is an emerging perfluoroalkyl substance (PFAS) that has been considered a potential replacement for perfluorooctanesulfonic acid (PFOS). However, there is little information characterizing the toxic potency of PFECHS to zebrafish embryos and its potential for effects in aquatic environments. This study assessed toxic potency of PFECHS in vivo during both acute (96-hour postfertilization) and chronic (21-day posthatch) exposures and tested concentrations of PFECHS from 500 ng/L to 2 mg/L. PFECHS was less likely to cause mortalities than PFOS for both the acute and chronic experiments based on previously published values for PFOS exposure, but exposure resulted in a similar incidence of deformities. Exposure to PFECHS also resulted in significantly increased abundance of transcripts of peroxisome proliferator activated receptor alpha (pparα), cytochrome p450 1a1 (cyp1a1), and apolipoprotein IV (apoaIV) at concentrations nearing those of environmental relevance. Overall, these results provide further insight into the safety of an emerging PFAS alternative in the aquatic environment and raise awareness that previously considered &quot;safer&quot; alternatives may show similar effects as legacy PFASs.</abstract>
+			<abstract>Perfluoroethylcyclohexanesulfonate (PFECHS) is an emerging perfluoroalkyl substance (PFAS) that has been considered a potential replacement for perfluorooctanesulfonic acid (PFOS). However, there is little information characterizing the toxic potency of PFECHS to zebrafish embryos and its potential for effects in aquatic environments. This study assessed toxic potency of PFECHS in vivo during both acute (96-hour postfertilization) and chronic (21-day posthatch) exposures and tested concentrations of PFECHS from 500 ng/L to 2 mg/L. PFECHS was less likely to cause mortalities than PFOS for both the acute and chronic experiments based on previously published values for PFOS exposure, but exposure resulted in a similar incidence of deformities. Exposure to PFECHS also resulted in significantly increased abundance of transcripts of peroxisome proliferator activated receptor alpha (pparα), cytochrome p450 1a1 (cyp1a1), and apolipoprotein IV (apoaIV) at concentrations nearing those of environmental relevance. Overall, these results provide further insight into the safety of an emerging PFAS alternative in the aquatic environment and raise awareness that previously considered "safer" alternatives may show similar effects as legacy PFASs.</abstract>
 			<url hash="cadafd73">G23-49001</url>
 			<pages>4199-4207</pages>
 			<doi>10.1021/acs.est.2c08463</doi>
 			<bibkey>Mahoney-2023-Acute</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="50">
 		<meta>
 			<booktitle>Climate Dynamics, Volume 60, Issue 5-6</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2558,14 +2398,14 @@
 			<pages>1369-1384</pages>
 			<doi>10.1007/s00382-022-06370-6</doi>
 			<bibkey>Marinier-2023-Changes</bibkey>
-			<project>prj6</project>
+			<project>prj12</project>
 		</paper>
 	</volume>
 	<volume id="51">
 		<meta>
 			<booktitle>Advances in Water Resources, Volume 173</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2587,14 +2427,14 @@
 			<pages>104388</pages>
 			<doi>10.1016/j.advwatres.2023.104388</doi>
 			<bibkey>Marra-2023-Non-asymptotic</bibkey>
-			<project>prj6</project>
+			<project>prj14</project>
 		</paper>
 	</volume>
 	<volume id="52">
 		<meta>
 			<booktitle>Environmental Research Communications, Volume 5, Issue 3</booktitle>
 			<publisher>IOP Publishing</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2616,14 +2456,14 @@
 			<pages>031009</pages>
 			<doi>10.1088/2515-7620/acc56d</doi>
 			<bibkey>Marsh-2023-Validation</bibkey>
-			<project>prj6</project>
+			<project>prj3</project>
 		</paper>
 	</volume>
 	<volume id="53">
 		<meta>
 			<booktitle>Water Resources Research, Volume 59, Issue 3</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2644,7 +2484,7 @@
 			<url hash="980734a7">G23-53001</url>
 			<doi>10.1029/2022wr032683</doi>
 			<bibkey>Marsh-2023-Windmapper:</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 		<paper id="2">
 			<title>Large‐Domain Multisite Precipitation Generation: Operational Blueprint and Demonstration for 1,000 Sites</title>
@@ -2664,14 +2504,14 @@
 			<url hash="010e651d">G23-53002</url>
 			<doi>10.1029/2022wr034094</doi>
 			<bibkey>Papalexiou-2023-Large‐Domain</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="54">
 		<meta>
 			<booktitle>Environmental Research, Volume 217</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2705,14 +2545,14 @@
 			<pages>114835</pages>
 			<doi>10.1016/j.envres.2022.114835</doi>
 			<bibkey>Moslemi-Aqdam-2023-Estimates,</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="55">
 		<meta>
 			<booktitle>Frontiers in Artificial Intelligence, Volume 5</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2745,14 +2585,14 @@
 			<url hash="bd6c6b7b">G23-55001</url>
 			<doi>10.3389/frai.2022.871162</doi>
 			<bibkey>Mostafa-2023-Leveraging</bibkey>
-			<project>prj6</project>
+			<project>prj10</project>
 		</paper>
 	</volume>
 	<volume id="56">
 		<meta>
 			<booktitle>Agricultural and Forest Meteorology, Volume 331</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2802,14 +2642,14 @@
 			<pages>109319</pages>
 			<doi>10.1016/j.agrformet.2023.109319</doi>
 			<bibkey>Nehemy-2023-Phenological</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="57">
 		<meta>
 			<booktitle>Citizen Science: Theory and Practice, Volume 8, Issue 1</booktitle>
 			<publisher>Ubiquity Press, Ltd.</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2855,14 +2695,14 @@
 			<pages>7</pages>
 			<doi>10.5334/cstp.448</doi>
 			<bibkey>North-2023-iWetland:</bibkey>
-			<project>prj6</project>
+			<project>prj5</project>
 		</paper>
 	</volume>
 	<volume id="58">
 		<meta>
 			<booktitle>Chemosphere, Volume 333</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2908,14 +2748,14 @@
 			<pages>138682</pages>
 			<doi>10.1016/j.chemosphere.2023.138682</doi>
 			<bibkey>Oloye-2023-Understanding</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="59">
 		<meta>
 			<booktitle>Ecosphere, Volume 14, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2936,14 +2776,14 @@
 			<url hash="f7bad4c3">G23-59001</url>
 			<doi>10.1002/ecs2.4472</doi>
 			<bibkey>Painter-2023-Blooms</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="60">
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 2</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2964,14 +2804,14 @@
 			<url hash="cd12e199">G23-60001</url>
 			<doi>10.1002/hyp.14815</doi>
 			<bibkey>Perron-2023-Spatial</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="61">
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 57, Issue 1</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3013,14 +2853,14 @@
 			<pages>751-760</pages>
 			<doi>10.1021/acs.est.2c03647</doi>
 			<bibkey>Pi-2023-Fluvial</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="62">
 		<meta>
 			<booktitle>Water, Volume 15, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3046,14 +2886,14 @@
 			<pages>265</pages>
 			<doi>10.3390/w15020265</doi>
 			<bibkey>Prajapati-2023-Modelling</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="63">
 		<meta>
 			<booktitle>Cold Regions Science and Technology, Volume 210</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3083,14 +2923,14 @@
 			<pages>103808</pages>
 			<doi>10.1016/j.coldregions.2023.103808</doi>
 			<bibkey>Rafat-2023-An</bibkey>
-			<project>prj6</project>
+			<project>prj30</project>
 		</paper>
 	</volume>
 	<volume id="64">
 		<meta>
 			<booktitle>Earth and Space Science, Volume 10, Issue 4</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3107,14 +2947,14 @@
 			<url hash="427076ce">G23-64001</url>
 			<doi>10.1029/2023ea002823</doi>
 			<bibkey>Rajulapati-2023-Precipitation</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="65">
 		<meta>
 			<booktitle>Chemosphere, Volume 325</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3160,14 +3000,14 @@
 			<pages>138405</pages>
 			<doi>10.1016/j.chemosphere.2023.138405</doi>
 			<bibkey>Ramezanzadeh-2023-Effects</bibkey>
-			<project>prj6</project>
+			<project>prj22</project>
 		</paper>
 	</volume>
 	<volume id="66">
 		<meta>
 			<booktitle>Microorganisms, Volume 11, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3209,14 +3049,14 @@
 			<pages>504</pages>
 			<doi>10.3390/microorganisms11020504</doi>
 			<bibkey>Rani-2023-Aqueous</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="67">
 		<meta>
 			<booktitle>Science, Volume 379, Issue 6627</booktitle>
 			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3278,14 +3118,14 @@
 			<pages>78-83</pages>
 			<doi>10.1126/science.abo1324</doi>
 			<bibkey>Rounce-2023-Global</bibkey>
-			<project>prj6</project>
+			<project>prj3</project>
 		</paper>
 	</volume>
 	<volume id="68">
 		<meta>
 			<booktitle>Frontiers in Microbiology, Volume 14</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3354,18 +3194,18 @@
 				<first>Monica B.</first>
 				<last>Emelko</last>
 			</author>
-			<abstract>The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain &quot;non-standard&quot; data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.</abstract>
+			<abstract>The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain "non-standard" data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.</abstract>
 			<url hash="08a6c976">G23-68001</url>
 			<doi>10.3389/fmicb.2023.1048661</doi>
 			<bibkey>Schmidt-2023-Realizing</bibkey>
-			<project>prj6</project>
+			<project>prj18</project>
 		</paper>
 	</volume>
 	<volume id="69">
 		<meta>
 			<booktitle>Water Resources and Economics, Volume 41</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3387,14 +3227,14 @@
 			<pages>100216</pages>
 			<doi>10.1016/j.wre.2023.100216</doi>
 			<bibkey>Sedighkia-2023-Optimizing</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="70">
 		<meta>
 			<booktitle>Irrigation Science, Volume 41, Issue 1</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3415,19 +3255,19 @@
 				<first>Asghar</first>
 				<last>Abdoli</last>
 			</author>
-			<abstract/>
+			<abstract>The present study proposes and evaluates an integrated optimization framework for agricultural planning in which an environmental flow model, drought analysis, cropping pattern model, and deficit irrigation functions are linked. Fuzzy physical habitat simulation was used to assess the environmental flow regime. A regression model was applied to develop the deficit irrigation functions. Average river flow time series in three hydrological conditions (dry, normal, and wet) were obtained using drought analysis. The environmental flow model, cropping pattern model, deficit irrigation functions, and river flow time series were then used in the structure of the optimization model. The goal of the optimization model is to provide an agricultural plan, including optimal cropping patterns and irrigation supply that minimizes ecological impacts on the river ecosystem. A genetic algorithm was used in the optimization process. Based on case study results, the proposed model is able to minimize ecological impacts on the river ecosystem in all hydrological conditions and propose an optimal plan for cropping patterns and irrigation supply. The difference between average revenue in the optimal plan and current conditions in all simulated hydrological conditions is less than 10%, which means the optimization system provides a sustainable plan for agricultural and environmental management.</abstract>
 			<url hash="f072c829">G23-70001</url>
 			<pages>93-106</pages>
 			<doi>10.1007/s00271-022-00834-7</doi>
 			<bibkey>Sedighkia-2023-Optimal</bibkey>
-			<project>prj6</project>
+			<project>prj2</project>
 		</paper>
 	</volume>
 	<volume id="71">
 		<meta>
 			<booktitle>Hydrobiologia</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3452,18 +3292,18 @@
 				<first>Sherry L.</first>
 				<last>Schiff</last>
 			</author>
-			<abstract/>
+			<abstract>Monod growth kinetics predictions of competition outcomes between freshwater cyanobacteria and chlorophytes at low iron (Fe) was tested with dual-species competition experiments. Fe threshold concentrations (FeT) below which growth ceases and growth affinities (slope of Fe concentration vs growth rate near FeT) for three large-bodied cyanobacteria and two chlorophytes in batch cultures showed that cyanobacteria are more efficient at acquiring Fe and predicted that cyanobacteria will dominate chlorophytes at low Fe, similar to an earlier study where cyanobacteria were more efficient at acquiring phosphorus (P) at low P. The prediction of cyanobacteria dominance at low Fe was borne out in serial dilution competition experiments between a pico-cyanobacteria and a third chlorophyte. These results show that Monod kinetics can successfully predict competition outcomes between cyanobacteria and eukaryotic algae in a laboratory setting at low Fe. However, while nutrient acquisition and growth kinetics are clearly important, other factors also influence competition between pico-cyanobacteria, large-bodied cyanobacteria, and eukaryotic algae in natural systems. These factors include the effect of cell surface area/volume ratio on cellular nutrient supply rates, cyanobacteria dependence on membrane transport of Fe+2, Fe+2 supply from anaerobic sediments, buoyancy regulation, and intensive grazing of pico-cyanobacteria.</abstract>
 			<url hash="48ceaf4c">G23-71001</url>
 			<doi>10.1007/s10750-023-05150-5</doi>
 			<bibkey>Shah-2023-Monod</bibkey>
-			<project>prj6</project>
+			<project>prj16</project>
 		</paper>
 	</volume>
 	<volume id="72">
 		<meta>
 			<booktitle>Environmental Pollution, Volume 318</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3525,14 +3365,14 @@
 			<pages>120843</pages>
 			<doi>10.1016/j.envpol.2022.120843</doi>
 			<bibkey>Shi-2023-Acute</bibkey>
-			<project>prj6</project>
+			<project>prj11</project>
 		</paper>
 	</volume>
 	<volume id="73">
 		<meta>
 			<booktitle>International Journal of Climatology</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3549,14 +3389,14 @@
 			<url hash="e2c767c7">G23-73001</url>
 			<doi>10.1002/joc.8230</doi>
 			<bibkey>Sobral-2023-Spatiotemporal</bibkey>
-			<project>prj6</project>
+			<project>prj3</project>
 		</paper>
 	</volume>
 	<volume id="74">
 		<meta>
 			<booktitle>Ecological Economics, Volume 205</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3578,14 +3418,14 @@
 			<pages>107724</pages>
 			<doi>10.1016/j.ecolecon.2022.107724</doi>
 			<bibkey>Spence-2023-Disparities</bibkey>
-			<project>prj6</project>
+			<project>prj26</project>
 		</paper>
 	</volume>
 	<volume id="75">
 		<meta>
 			<booktitle>Frontiers in Sustainable Food Systems, Volume 6</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3614,14 +3454,14 @@
 			<url hash="c7ac381b">G23-75001</url>
 			<doi>10.3389/fsufs.2022.984290</doi>
 			<bibkey>Spring-2023-Learning</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="76">
 		<meta>
 			<booktitle>Journal of Geophysical Research: Atmospheres, Volume 128, Issue 6</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3646,14 +3486,14 @@
 			<url hash="d51997f5">G23-76001</url>
 			<doi>10.1029/2022jd037981</doi>
 			<bibkey>Stewart-2023-The</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="77">
 		<meta>
 			<booktitle>Atmosphere, Volume 14, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3683,14 +3523,14 @@
 			<pages>396</pages>
 			<doi>10.3390/atmos14020396</doi>
 			<bibkey>Stewart-2023-Adhering</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="78">
 		<meta>
 			<booktitle>Water Resources Research, Volume 58, Issue 12</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3771,14 +3611,14 @@
 			<url hash="35c6e0c6">G23-78001</url>
 			<doi>10.1029/2021wr031778</doi>
 			<bibkey>Vionnet-2023-Snow</bibkey>
-			<project>prj6</project>
+			<project>prj44</project>
 		</paper>
 	</volume>
 	<volume id="79">
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 8</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3904,14 +3744,14 @@
 			<pages>2313-2334</pages>
 			<doi>10.1111/gcb.16594</doi>
 			<bibkey>Ueyama-2023-Modeled</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="80">
 		<meta>
 			<booktitle>Nature Climate Change</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4008,14 +3848,14 @@
 			<url hash="72225ff8">G23-80001</url>
 			<doi>10.1038/s41558-023-01785-3</doi>
 			<bibkey>Voigt-2023-Arctic</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="81">
 		<meta>
 			<booktitle>Ecohydrology, Volume 16, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4032,14 +3872,14 @@
 			<url hash="ca9e389d">G23-81001</url>
 			<doi>10.1002/eco.2516</doi>
 			<bibkey>Wang-2023-Effects</bibkey>
-			<project>prj6</project>
+			<project>prj3</project>
 		</paper>
 	</volume>
 	<volume id="82">
 		<meta>
 			<booktitle>The Cryosphere, Volume 17, Issue 1</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4073,14 +3913,14 @@
 			<pages>63-78</pages>
 			<doi>10.5194/tc-17-63-2023</doi>
 			<bibkey>Wang-2023-Significant</bibkey>
-			<project>prj6</project>
+			<project>prj17</project>
 		</paper>
 	</volume>
 	<volume id="83">
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4242,14 +4082,14 @@
 			<pages>1870-1889</pages>
 			<doi>10.1111/gcb.16553</doi>
 			<bibkey>Watts-2023-Carbon</bibkey>
-			<project>prj6</project>
+			<project>prj1</project>
 		</paper>
 	</volume>
 	<volume id="84">
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4270,14 +4110,14 @@
 			<url hash="fd40c8af">G23-84001</url>
 			<doi>10.1002/hyp.14938</doi>
 			<bibkey>Wiebe-2023-Quantifying</bibkey>
-			<project>prj6</project>
+			<project>prj13</project>
 		</paper>
 	</volume>
 	<volume id="85">
 		<meta>
 			<booktitle>Nature Climate Change, Volume 13, Issue 5</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4311,14 +4151,14 @@
 			<pages>456-461</pages>
 			<doi>10.1038/s41558-023-01657-w</doi>
 			<bibkey>Wilkinson-2023-Wildfire</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="86">
 		<meta>
 			<booktitle>Journal of Hydrologic Engineering, Volume 28, Issue 4</booktitle>
 			<publisher>American Society of Civil Engineers (ASCE)</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4343,14 +4183,14 @@
 			<url hash="57490024">G23-86001</url>
 			<doi>10.1061/jhyeff.heeng-5831</doi>
 			<bibkey>Yousfi-2023-Mixture</bibkey>
-			<project>prj6</project>
+			<project>prj46</project>
 		</paper>
 	</volume>
 	<volume id="87">
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 5</booktitle>
 			<publisher>Wiley</publisher>
-			<address/>
+			<address />
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4492,6 +4332,206 @@
 			<pages>1267-1281</pages>
 			<doi>10.1111/gcb.16487</doi>
 			<bibkey>Zona-2023-&lt;scp&gt;Pan‐Arctic&lt;/scp&gt;</bibkey>
+			<project>prj1</project>
+		</paper>
+	</volume>
+	<volume id="88">
+		<meta>
+			<booktitle>The Cryosphere Discussions, Volume 15</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address />
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The Ability of Hydrologic-Land Surface Models to Concurrently Simulate Permafrost and Hydrology</title>
+			<author>
+				<first>Mohamed S.</first>
+				<last>Abdelhamed</last>
+			</author>
+			<author>
+				<first>Mohamed</first>
+				<last>Elshamy</last>
+			</author>
+			<author>
+				<first>Saman</first>
+				<last>Razavi</last>
+			</author>
+			<author>
+				<first>H. S.</first>
+				<last>Wheater</last>
+			</author>
+			<abstract>Abstract. Hydrologic-land surface models (H-LSMs) provide physically-based understanding and predictions of the current and future states of the world’s vast high-latitude permafrost regions. Two major challenges, however, hamper their parametrization and validation when concurrently representing hydrology and permafrost. One is the high computational complexity, exacerbated by the need to include a deep soil profile to adequately capture the freeze/thaw cycles and heat storage. The other is that soil-temperature data are severely limited, and traditional model validation, based on streamflow, can show the right fit to these data for the wrong reasons. There are few observational sites for such vast, heterogeneous regions, and remote sensing provides only limited support. In light of these challenges, we develop 16 parametrizations of a Canadian H-LSM, MESH, for the sub-arctic Liard River Basin and validate them using three data sources: streamflows at multiple gauges, soil temperature profiles from few available boreholes, and multiple permafrost maps. The different parametrizations favor different sources of data and it is challenging to configure a model faithful to all three data sources, which are at times inconsistent with each other. Overall, the results show that: (1) surface insulation through snow cover primarily regulates permafrost dynamics after model initialization effects decay over, relatively long time and (2) different parametrizations yield different partitioning patterns of solid-vs-liquid soil-water and produce different low-flow but similar high-flow regimes. We conclude that, given data scarcity, an ensemble of model parametrizations is essential to provide a reliable picture of the current states and future spatio-temporal co-evolution of permafrost and hydrology.</abstract>
+			<url hash="32e8dd23">G23-2001</url>
+			<doi>10.5194/tc-2023-20</doi>
+			<bibkey>Abdelhamed-2023-The</bibkey>
+			<project>prj2</project>
+		</paper>
+	</volume>
+	<volume id="89">
+		<meta>
+			<booktitle>Sensors and Actuators A: Physical, Volume 362</booktitle>
+			<publisher>Elsevier</publisher>
+			<address />
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Real-Time Lead Detection Device Based on Nanomaterials Modified Microwave-Microfluidic Sensor</title>
+			<author>
+				<first>Weijia</first>
+				<last>Cui</last>
+			</author>
+			<author>
+				<first>Ren</first>
+				<last>Zhe</last>
+			</author>
+			<author>
+				<first>Zahra</first>
+				<last>Abbasi</last>
+			</author>
+			<author>
+				<first>Yongxin</first>
+				<last>Song</last>
+			</author>
+			<author>
+				<first>Carolyn L.</first>
+				<last>Ren</last>
+			</author>
+			<abstract>Lead contamination in drinking water has become an increasingly serious global risk because a small concentration of lead can cause serious health problems, particularly for children. It is critical to frequently monitor lead concentration in drinking water, which can be challenging when using traditional centralized systems. In this study, we present an inexpensive, portable detection system for point-of-care (POC) monitoring of lead concentration in drinking water. The sensing mechanism is based on the interaction between the water sample flowing through a microchannel and a planar microwave resonator-based sensor that is integrated with the microfluidic chip. The microwave sensor has a double-T structure with a gap in between through which the microchannel is aligned and can be coated with gold nanoparticles to enhance its sensing performance. For proof-of-concept, the sample under test (SUT) was a small volume of deionized (DI) water or tap water spiked with lead ions at different concentrations. Results show that the gold nanoparticle-coated microwave sensor presents a much higher sensitivity than bare sensors with a detectable frequency shift of 5 MHz for a Pb2+ solution with a concentration of 1 ppb. The success of the system for testing lead ions in typical tap water which contains many different mineral ions confirms its real-world application. To highlight the potential for POC applications, a low-cost, portable vector network analyzer is used to capture the frequency shift of the sensor. The developed method offers a promising approach for POC monitoring of lead contamination in drinking water impactful for environmental and public health protection.</abstract>
+			<url hash="abe18c99">G23-2002</url>
+			<doi>10.2139/ssrn.4483935</doi>
+			<bibkey>Cui-2023-Real-Time</bibkey>
+			<project>prj13</project>
+		</paper>
+	</volume>
+	<volume id="90">
+		<meta>
+			<booktitle>Earth System Science Data Discussions, Volume 2023</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address />
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Atmospheric and surface observations during the Saint John River Experiment on Cold Season Storms (SAJESS)</title>
+			<author>
+				<first>Hadleigh D.</first>
+				<last>Thompson</last>
+			</author>
+			<author>
+				<first>Julie M.</first>
+				<last>Thériault</last>
+			</author>
+			<author>
+				<first>Stephen J.</first>
+				<last>Déry</last>
+			</author>
+			<author>
+				<first>Ronald E.</first>
+				<last>Stewart</last>
+			</author>
+			<author>
+				<first>Dominique</first>
+				<last>Boisvert</last>
+			</author>
+			<author>
+				<first>Lisa</first>
+				<last>Rickard</last>
+			</author>
+			<author>
+				<first>Nicolas</first>
+				<last>Leroux</last>
+			</author>
+			<author>
+				<first>Matteo</first>
+				<last>Colli</last>
+			</author>
+			<author>
+				<first>Vincent</first>
+				<last>Vionnet</last>
+			</author>
+			<abstract>Abstract. The amount and phase of cold season precipitation accumulating in the upper Saint John River basin are critical factors in determining spring runoff, ice-jams, and flooding in downstream communities. To study the impact of winter and spring storms on the snowpack in the upper Saint John River (SJR) basin, the Saint John River Experiment on Cold Season Storms (SAJESS) utilized meteorological instrumentation, upper air soundings, human observations, and hydrometeor macrophotography during winter/spring 2020–21. Here, we provide an overview of the SAJESS study area, field campaign, and existing data networks surrounding the upper SJR basin. Initially, meteorological instrumentation was co-located with an Environment and Climate Change Canada station near Edmundston, New Brunswick, in early December 2020. This was followed by an intensive observation period that involved manual observations, upper-air soundings, a multi-angle snowflake camera, macrophotography of solid hydrometeors, and advanced automated instrumentation throughout March and April 2021. The resulting datasets include optical disdrometer size and velocity distributions of hydrometeors, micro rain radar output, near-surface meteorological observations, and wind speed, temperature, pressure and precipitation amounts from a K63 Hotplate precipitation gauge, the first one operating in Canada. These data are publicly available from the Federated Research Data Repository at https://doi.org/10.20383/103.0591 (Thompson et al., 2022). We also include a synopsis of the data management plan and data processing, and a brief assessment of the rewards and challenges of utilizing community volunteers for hydro-meteorological citizen science.</abstract>
+			<url hash="3585193a">G23-2005</url>
+			<doi>10.5194/essd-2023-59</doi>
+			<bibkey>Thompson-2023-Atmospheric</bibkey>
+			<project>prj46</project>
+		</paper>
+	</volume>
+	<volume id="91">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 27</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address />
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Hydrological, meteorological and watershed controls on the water balance of thermokarst lakes between Inuvik and Tuktoyaktuk, Northwest Territories, Canada</title>
+			<author>
+				<first>Evan J.</first>
+				<last>Wilcox</last>
+			</author>
+			<author>
+				<first>Brent B.</first>
+				<last>Wolfe</last>
+			</author>
+			<author>
+				<first>Philip</first>
+				<last>Marsh</last>
+			</author>
+			<abstract>Abstract. Thermokarst lake water balances are becoming increasingly vulnerable to change in the Arctic as air temperature increases and precipitation patterns shift. In the tundra uplands east of the Mackenzie Delta in the Northwest Territories, Canada, previous research has found that lakes responded non-uniformly to changes in precipitation, suggesting that lake and watershed properties moderate the response of lakes to climate change. To investigate how lake and watershed properties and meteoro5 logical conditions influence the water balance of thermokarst lakes in this region, we sampled 25 lakes for isotope analysis five times in 2018, beginning before snowmelt on May 1 and ending on September 3. Water isotope data were used to calculate the ratio of evaporation-to-inflow (E/I) and the average isotope composition of lake source water (δI). We identified four distinct water balance phases as lakes responded to seasonal shifts in meteorological conditions and hydrological processes. During the freshet phase from May 1 to June 15, the median E/I ratio of lakes decreased from 0.20 to 0.13 in response to freshet runoff 10 and limited evaporation due to lake ice presence that persisted for the duration of this phase. During the following warm, dry, and ice-free period from June 15 to July 26, designated the evaporation phase, the median E/I ratio increased to 0.19. During the brief soil wetting phase, E/I ratios did not respond to rainfall between July 26 and August 2, likely because watershed soils absorbed most of the precipitation which resulted in minimal runoff to lakes. The median E/I ratio decreased to 0.11 after an unseasonably cool and rainy August, identified as the recharge phase. Throughout the sampling period, δI remained relatively 15 stable and most lakes contained a greater amount of rainfall-sourced water than snow-sourced water, even after the freshet phase due to snowmelt bypass. The range of average E/I ratios we observed at lakes (0.00–0.43) was relatively narrow and low compared to thermokarst lakes in other regions, likely owing to the large watershed area to lake area (WA/LA), efficient preferential flow pathways for runoff, and a shorter ice-free season. WA/LA strongly predicted average lake E/I ratio (R2 = 0.74), as lakes with smaller WA/LA tended to have higher E/I ratios because they received relatively less inflow. We used this 20 relationship to predict the average E/I ratio of 7340 lakes in the region, finding that lakes are not vulnerable to desiccation in this region, given that all predicted average E/I values were &lt;0.33. If future permafrost thaw and warming cause less runoff to flow into lakes, we expect that lakes with smaller WA/LA will be more influenced by increasing evaporation, while lakes with larger WA/LA will be more resistant to lake-level drawdown. However under wetter conditions, lakes with larger WA/LA will likely experience greater increases in lake level and could be more susceptible to rapid drainage as a result.</abstract>
+			<url hash="ac8c4880">G23-2006</url>
+			<doi>10.5194/hess-2022-279</doi>
+			<bibkey>Wilcox-2023-Hydrological,</bibkey>
+			<project>prj1</project>
+		</paper>
+	</volume>
+	<volume id="92">
+		<meta>
+			<booktitle>Geoscientific Model Development, Volume 16</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address />
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Developing Spring Wheat in the Noah-MP LSM (v4.4) for Growing Season Dynamics and Responses to Temperature Stress</title>
+			<author>
+				<first>Zhe</first>
+				<last>Zhang</last>
+			</author>
+			<author>
+				<first>Yanping</first>
+				<last>Li</last>
+			</author>
+			<author>
+				<first>Fei</first>
+				<last>Chen</last>
+			</author>
+			<author>
+				<first>Phillip</first>
+				<last>Harder</last>
+			</author>
+			<author>
+				<first>Warren</first>
+				<last>Helgason</last>
+			</author>
+			<author>
+				<first>J. S.</first>
+				<last>Famiglietti</last>
+			</author>
+			<author>
+				<first>Prasanth</first>
+				<last>Valayamkunnath</last>
+			</author>
+			<author>
+				<first>Cenlin</first>
+				<last>He</last>
+			</author>
+			<author>
+				<first>Zhenhua</first>
+				<last>Li</last>
+			</author>
+			<abstract>Abstract. The US Northern Great Plains and the Canadian Prairies are known as the world’s breadbaskets for its large spring wheat production and exports to the world. It is essential to accurately represent spring wheat growing dynamics and final yield and improve our ability to predict food production under climate change. This study attempts to incorporate spring wheat growth dynamics into the Noah-MP crop model, for a long time period (13-year) and fine spatial scale (4-km). The study focuses on three aspects: (1) developing and calibrating the spring wheat model at point-scale, (2) applying a dynamic planting/harvest date to facilitate large-scale simulations, and (3) applying a temperature stress function to assess crop responses to heat stress amid extreme heat. Model results are evaluated using field observations, satellite leaf area index (LAI), and census data from Statistics Canada and the US Department of Agriculture (USDA). Results suggest that incorporating a dynamic planting/harvest threshold can better constrain the growing season, especially the peak timing and magnitude of wheat LAI, as well as obtain realistic yield compared to prescribing a static province/state-level map. Results also demonstrate an evident control of heat stress upon wheat yield in three Canadian Prairies Provinces, which are reasonably captured in the new temperature stress function. This study has important implications for estimating crop production, simulating the land-atmosphere interactions in croplands, and crop growth’s responses to the raising temperatures amid climate change.</abstract>
+			<url hash="db8b7816">G23-2007</url>
+			<doi>10.5194/gmd-2022-311</doi>
+			<bibkey>Zhang-2023-Developing</bibkey>
 			<project>prj6</project>
 		</paper>
 	</volume>
