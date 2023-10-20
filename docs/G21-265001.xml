@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sabur-2021-Effects">
+    <titleInfo>
+        <title>Effects of pH and Dissolved Silicate on Phosphate Mineral-Water Partitioning with Goethite</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Md</namePart>
+        <namePart type="given">Abdus</namePart>
+        <namePart type="family">Sabur</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Parsons</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Taylor</namePart>
+        <namePart type="family">Maavara</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ACS Earth and Space Chemistry, Volume 6, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Chemical Society (ACS)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Release of sorbed phosphate from ferric iron oxyhydroxides can contribute to excessive algal growth in surface water bodies. Dissolved silicate has been hypothesized to facilitate phosphate desorption by competing for mineral surface sites. Here, we conducted phosphate and silicate adsorption experiments with goethite under a wide pH range (3–11), both individually (P or Si) and simultaneously (P plus Si). The entire experimental data set was successfully reproduced by the charge distribution multisite surface complexation (CD-MUSIC) model. Phosphate adsorption was highest under acidic conditions and gradually decreased from near-neutral to alkaline pH conditions. Maximum silicate adsorption, in contrast, occurred under alkaline conditions, peaking around pH 10. The competitive effect of silicate on phosphate adsorption was negligible under acidic conditions, becoming more pronounced under alkaline conditions and elevated molar Si:P ratios (\textgreater4). In a subsequent experiment, desorption of phosphate with increasing pH was monitored, in the presence or absence of dissolved silicate. While, as expected, desorption of phosphate was observed during the transition from acidic to alkaline conditions, a fraction of phosphate remained irreversibly bound to goethite. Even at high Si:P ratios and alkaline pH, dissolved silicate did not affect phosphate desorption, implying that kinetic factors prevented silicate from displacing phosphate from goethite binding sites.</abstract>
+    <identifier type="citekey">Sabur-2021-Effects</identifier>
+    <identifier type="doi">10.1021/acsearthspacechem.1c00197</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G21-13001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>6</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>34</start>
+            <end>43</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

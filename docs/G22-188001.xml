@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mohammadlou-2022-Objective">
+    <titleInfo>
+        <title>Objective evaluation of the Global Environmental Multiscale Model (GEM) with precipitation and temperature for Iran</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mohammad</namePart>
+        <namePart type="family">Mohammadlou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Abdolreza</namePart>
+        <namePart type="family">Bahremand</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Princz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="family">Kinar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amin</namePart>
+        <namePart type="family">Haghnegahdar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Natural Resource Modeling, Volume 35, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract The Global Environmental Multiscale Model (GEM) is currently in operational use for data assimilation and forecasting at 25–15 km scales; regional 10 km scales over North America; and 2.5 km scales over Canada. To evaluate the GEM model for forecasting applications in Iran, global daily temperature and precipitation outputs of GEM at a 25 km scale were compared to data sets from hydrometeorological stations and the De Martonne climate classification method was used to demarcate climate zones for comparisons. GEM model outputs were compared to observations in each of these zones. The results show good agreement between GEM outputs and measured daily temperatures with Kling‐Gupta efficiencies of 0.76 for the arid, 0.71 for the semiarid, and 0.78 for the humid regions. There is also an agreement between GEM outputs and measured annual precipitation with differences of 50% for the arid, 36% for the semiarid, and 15% for the humid region. There is a ~13% systematic difference between the elevation of stations and the average elevation of corresponding GEM grid cells; differences in elevation associated with forcing data sets can be potentially corrected using environmental lapse rates. Compared with hydrometeorological data sets, the GEM model precipitation outputs are less accurate than temperature outputs, and this may influence the accuracy of potential Iranian forecasting operations utilizing GEM. The results of this study provide an understanding of the operation and limitations of the GEM model for climate change and hydro‐climatological studies.</abstract>
+    <identifier type="citekey">Mohammadlou-2022-Objective</identifier>
+    <identifier type="doi">10.1111/nrm.12343</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-83001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>3</number></detail>
+    </part>
+</mods>
+</modsCollection>

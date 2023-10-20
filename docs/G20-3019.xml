@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Chaudhuri-2020-InundatEd:">
+    <titleInfo>
+        <title>InundatEd: A Large-scale Flood Risk Modeling System on a Big-data – Discrete Global Grid System Framework</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Chiranjib</namePart>
+        <namePart type="family">Chaudhuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Annie</namePart>
+        <namePart type="family">Gray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Despite the high historical losses attributed to flood events, Canadian flood mitigation efforts have been hindered by a dearth of current, accessible flood extent/risk models and maps. Such resources often entail large datasets and high computational requirements. This study presents a novel, computationally efficient flood inundation modeling framework (InundatEd) using the height above the nearest drainage-based solution for Manning’s equation, implemented in a big-data discrete global grid systems-based architecture with a web-GIS platform. Specifically, this study aimed to develop, present, and validate InundatEd through binary classification comparisons to known flood extents. The framework is divided into multiple swappable modules including GIS pre-processing; regional regression; inundation model; and web-GIS visualization. Extent testing and processing speed results indicate the value of a DGGS-based architecture alongside a simple conceptual inundation model and a dynamic user interface.</abstract>
+    <identifier type="citekey">Chaudhuri-2020-InundatEd:</identifier>
+    <identifier type="doi">10.5194/gmd-2020-316</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G20-9003</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+</modsCollection>

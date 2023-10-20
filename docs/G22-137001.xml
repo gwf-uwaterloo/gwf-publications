@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Hwang-2022-Characteristics">
+    <titleInfo>
+        <title>Characteristics of the daytime and nighttime MCSs over the Canadian Prairies using an ERA5-forced convection-permitting climate model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yoon</namePart>
+        <namePart type="given">Jung</namePart>
+        <namePart type="family">Hwang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Atmospheric Research, Volume 279</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>This paper describes the occurrences and conditions before Mesoscale Convective Systems (MCSs) are initiated over the Canadian Prairies, using 10 years of observations and convection-permitting climate model simulations. The features of MCSs occurring in summer were analyzed using the Regional Deterministic Reforecast System (RDRS, hourly and 10-km grid spacing) and ECMWF Reanalysis v5 (ERA5)-forced Weather Research and Forecasting (WRF) model simulations (FSCT, 4-km grid spacing). MCSs were defined and tracked using the Method for Object-Based Diagnostic Evaluation-Time Domain (MTD). MTD-identified MCSs were divided into short−/long-lived and daytime/nighttime, considering the longevities and initiation times. FCST showed the skills to simulate MCSs but overestimated MCS features compared to RDRS. Fifteen meteorological parameters were calculated using sounding data from FCST to determine pre-conventional conditions of MCSs (at init. -9, −6, −3, and − 1 h). The distributions of parameters were tested to determine the significance of differences between short- and long-lived MCSs. The key findings are as follows: 1) long-lived daytime MCSs (LLM12) showed favorable thermodynamic processes and 2) long-lived nighttime MCSs (LLM00) were initiated based on dynamic processes. We also found that the most appropriate parameters (i.e., those that were statistically different in short- and long-lived MCSs) to determine the longevities of MCSs were 1) most unstable convective available potential energy and 2) vertical wind shear of 0–3 km.</abstract>
+    <identifier type="citekey">Hwang-2022-Characteristics</identifier>
+    <identifier type="doi">10.1016/j.atmosres.2022.106380</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-30001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>279</number></detail>
+        <detail type="page"><number>106380</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ahasanuzzaman-2018-Classifying">
+    <titleInfo>
+        <title>Classifying stack overflow posts on API issues</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Md</namePart>
+        <namePart type="family">Ahasanuzzaman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Muhammad</namePart>
+        <namePart type="family">Asaduzzaman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IEEE</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>The design and maintenance of APIs are complex tasks due to the constantly changing requirements of its users. Despite the efforts of its designers, APIs may suffer from a number of issues (such as incomplete or erroneous documentation, poor performance, and backward incompatibility). To maintain a healthy client base, API designers must learn these issues to fix them. Question answering sites, such as Stack Overflow (SO), has become a popular place for discussing API issues. These posts about API issues are invaluable to API designers, not only because they can help to learn more about the problem but also because they can facilitate learning the requirements of API users. However, the unstructured nature of posts and the abundance of non-issue posts make the task of detecting SO posts concerning API issues difficult and challenging. In this paper, we first develop a supervised learning approach using a Conditional Random Field (CRF), a statistical modeling method, to identify API issue-related sentences. We use the above information together with different features of posts and experience of users to build a technique, called CAPS, that can classify SO posts concerning API issues. Evaluation of CAPS using carefully curated SO posts on three popular API types reveals that the technique outperforms all three baseline approaches we consider in this study. We also conduct studies to test the generalizability of CAPS results and to understand the effects of different sources of information on it.</abstract>
+    <identifier type="citekey">Ahasanuzzaman-2018-Classifying</identifier>
+    <identifier type="doi">10.1109/saner.2018.8330213</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G18-5002</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>

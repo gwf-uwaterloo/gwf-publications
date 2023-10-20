@@ -1,0 +1,19 @@
+﻿%0 Journal Article
+%T Sensitivity of remotely sensed pigment concentration via Mixture Density Networks (MDNs) to uncertainties from atmospheric correction
+%A Zolfaghari, Kiana
+%A Pahlevan, Nima
+%A Simis, Stefan
+%A O’Shea, Ryan
+%A Duguay, Claude R.
+%J Journal of Great Lakes Research, Volume 49, Issue 2
+%D 2023
+%V 49
+%N 2
+%I Elsevier BV
+%F Zolfaghari-2023-Sensitivity
+%X Lake Erie, the shallowest of the five North American Laurentian Great Lakes, exhibits degraded water quality associated with recurrent phytoplankton blooms. Optical remote sensing of these optically complex inland waters is challenging due to the uncertainties stemming from atmospheric correction (AC) procedures. In this study, the accuracy of remote sensing reflectance (Rrs) derived from three different AC algorithms applied to Ocean and Land Colour Instrument (OLCI) observations of western Lake Erie (WLE) is evaluated through comparison to a regional radiometric dataset. The effects of uncertainties in Rrs products on the retrieval of near-surface concentration of pigments, including chlorophyll-a (Chla) and phycocyanin (PC), from Mixture Density Networks (MDNs) are subsequently investigated. Results show that iCOR contained the fewest number of processed (unflagged) days per pixel, compared to ACOLITE and POLYMER, for parts of the lake. Limiting results to the matchup dataset in common between the three AC algorithms shows that iCOR and ACOLITE performed closely at 665 nm, while outperforming POLYMER, with the Median Symmetric Accuracy (MdSA) of ∼30 %, 28 %, and 53 %, respectively. MDN applied to iCOR- and ACOLITE-corrected data (MdSA \textless 37 %) outperformed MDN applied to POLYMER-corrected data in estimating Chla. Large uncertainties in satellite-derived Rrs propagated to uncertainties ∼100 % in PC estimates, although the model was able to recover concentrations along the 1:1 line. Despite the need for improvements in its cloud-masking scheme, we conclude that iCOR combined with MDNs produces adequate OLCI pigment products for studying and monitoring Chla across WLE.
+%R 10.1016/j.jglr.2022.12.010
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-8001
+%U https://doi.org/10.1016/j.jglr.2022.12.010
+%P 341-356
+

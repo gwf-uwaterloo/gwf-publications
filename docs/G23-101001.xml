@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Murray-2023-The">
+    <titleInfo>
+        <title>The impact of climate change on monthly baseflow trends across Canada</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Murray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jessica</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Ayers</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrea</namePart>
+        <namePart type="given">E</namePart>
+        <namePart type="family">Brookfield</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 618</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Baseflow, the groundwater contribution to streamflow, sustains surface water between precipitation events and is an important indicator of groundwater availability. Although many site-specific studies have been completed, there are few studies of long-term Canada-wide baseflow trends. In this work, we detected monthly baseflow trends across Canada and related them to changes to climatic predictors (precipitation, temperature, and antecedent wetness) using streamflow data from 1275 hydrometer stations from 1989 to 2019. Lyne and Hollick’s one-parameter digital filter is used to obtain a baseflow time series and monotonic trends are identified using the Mann-Kendall Trend Test. Historical baseflow is related to climate parameters by means of Generalised Additive Models for Location, Scale and Shape (GAMLSS) statistical analysis. Results based on trend analysis detected no significant trends for most stations (85.7% of all stations and months). However, notable increasing trends were observed across most of southern Canada during the winter and spring months (October–April). Conversely, negative trends were detected from June to September in Alberta and British Columbia and in southern Northwest Territories. Model selection identified antecedent wetness most often as a climate predictor over the same period as trend analysis. Our results highlight that warmer temperatures and increased snow cover across much of Canada have contributed to increased baseflow likely from shifts in snow melt timing and volumes. During warmer months (June–August), results indicate that increases in temperature were related to decreased baseflow, likely through increased evapotranspiration. Many trends in baseflow were not related to any climate predictors. Furthermore, non-reference basins were twice as likely to have no climate predictor, indicating that anthropogenic activities may be driving changes in baseflow. The results of this work can inform water resources management to identify the direction of change in groundwater availability across Canada and regions where mitigation may be necessary.</abstract>
+    <identifier type="citekey">Murray-2023-The</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2023.129254</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-9001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>618</number></detail>
+        <detail type="page"><number>129254</number></detail>
+    </part>
+</mods>
+</modsCollection>

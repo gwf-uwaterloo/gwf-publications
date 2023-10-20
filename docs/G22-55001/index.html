@@ -9,71 +9,71 @@ if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]")
 if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
 else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
 if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
-$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>The ABCflux database: Arctic–boreal CO&lt;sub>2&lt;/sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems" name=citation_title><meta content="Anna-Maria Virkkala" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Jennifer D. Watts" name=citation_author><meta content="K. E. Savage" name=citation_author><meta content="Sara June Connon" name=citation_author><meta content="Marguerite Mauritz" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="D. L. Peter" name=citation_author><meta content="C. Minions" name=citation_author><meta content="Julia Nojeim" name=citation_author><meta content="R. Commane" name=citation_author><meta content="Craig A. Emmerton" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="David Holl" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Pasi Kolari" name=citation_author><meta content="Efrén López-Blanco" name=citation_author><meta content="Maija E. Marushchak" name=citation_author><meta content="Mikhail Mastepanov" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Frans-Jan W. Parmentier" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Carolina Voigt" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Namyi Chae" name=citation_author><meta content="T. R. Christensen" name=citation_author><meta content="M. Syndonia Bret-Harte" name=citation_author><meta content="Sigrid Dengel" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="C. Edgar" name=citation_author><meta content="Bo Elberling" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Achim Grelle" name=citation_author><meta content="Juha Hatakka" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Järvi Järveoja" name=citation_author><meta content="Ayumi Kotani" name=citation_author><meta content="Lars Kutzbach" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Yukiko Matsuura" name=citation_author><meta content="Gesa Meyer" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Steven F. Oberbauer" name=citation_author><meta content="Sang Jong Park" name=citation_author><meta content="Roman E. Petrov" name=citation_author><meta content="A. S. Prokushkin" name=citation_author><meta content="Christopher Schulze" name=citation_author><meta content="Vincent L. St. Louis" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Juha-Pekka Tuovinen" name=citation_author><meta content="W. L. Quinton" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Viacheslav I. Zyryanov" name=citation_author><meta content="Earth System Science Data, Volume 14, Issue 1" name=citation_journal_title><meta content="14" name=citation_volume><meta content="1" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.5194/essd-14-179-2022" name=citation_pdf_url><meta content="179" name=citation_firstpage><meta content="208" name=citation_lastpage><meta content="10.5194/essd-14-179-2022" name=citation_doi><meta property="og:title" content="The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-55001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-55001"><meta property="og:description" content="Anna-Maria Virkkala, Susan M. Natali, Brendan M. Rogers, Jennifer D. Watts, K. E. Savage, Sara June Connon, Marguerite Mauritz, Edward A. G. Schuur, D. L. Peter, C. Minions, Julia Nojeim, R. Commane, Craig A. Emmerton, Mathias Goeckede, Manuel Helbig, David Holl, Hiroyasu Iwata, Hideki Kobayashi, Pasi Kolari, Efrén López-Blanco, Maija E. Marushchak, Mikhail Mastepanov, Lutz Merbold, Frans-Jan W. Parmentier, Matthias Peichl, Torsten Sachs, Oliver Sonnentag, Masahito Ueyama, Carolina Voigt, Mika Aurela, Julia Boike, Gerardo Celis, Namyi Chae, T. R. Christensen, M. Syndonia Bret-Harte, Sigrid Dengel, A. J. Dolman, C. Edgar, Bo Elberling, Eugénie S. Euskirchen, Achim Grelle, Juha Hatakka, Elyn Humphreys, Järvi Järveoja, Ayumi Kotani, Lars Kutzbach, Tuomas Laurila, Annalea Lohila, Ivan Mammarella, Yukiko Matsuura, Gesa Meyer, Mats Nilsson, Steven F. Oberbauer, Sang Jong Park, Roman E. Petrov, A. S. Prokushkin, Christopher Schulze, Vincent L. St. Louis, Eeva-Stiina Tuittila, Juha-Pekka Tuovinen, W. L. Quinton, Andrej Varlagin, Donatella Zona, Viacheslav I. Zyryanov. Earth System Science Data, Volume 14, Issue 1. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-55001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-55001>The ABCflux database: Arctic–boreal CO&lt;sub>2&lt;/sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems</a></h2><p class=lead><a href=/gwf-publications/people/A/Anna-Maria-Virkkala/ data-uni=uni0016>Anna-Maria Virkkala</a>,
-<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0016>Susan M. Natali</a>,
-<a href=/gwf-publications/people/B/Brendan-M-Rogers/ data-uni=uni0016>Brendan M. Rogers</a>,
-<a href=/gwf-publications/people/J/Jennifer-D-Watts/ data-uni=uni0016>Jennifer D. Watts</a>,
-<a href=/gwf-publications/people/K/K-E-Savage/ data-uni=uni0016>K. E. Savage</a>,
-<a href=/gwf-publications/people/S/Sara-June-Connon/ data-uni=uni0203>Sara June Connon</a>,
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>The ABCflux database: Arctic–boreal CO&lt;sub>2&lt;/sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems" name=citation_title><meta content="Anna-Maria Virkkala" name=citation_author><meta content="Susan M. Natali" name=citation_author><meta content="Brendan M. Rogers" name=citation_author><meta content="Jennifer D. Watts" name=citation_author><meta content="K. E. Savage" name=citation_author><meta content="Sara June Connon" name=citation_author><meta content="Marguerite Mauritz" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="D. L. Peter" name=citation_author><meta content="C. Minions" name=citation_author><meta content="Julia Nojeim" name=citation_author><meta content="R. Commane" name=citation_author><meta content="Craig A. Emmerton" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="David Holl" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Pasi Kolari" name=citation_author><meta content="Efrén López‐Blanco" name=citation_author><meta content="Maija E. Marushchak" name=citation_author><meta content="Mikhail Mastepanov" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Frans‐Jan W. Parmentier" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Carolina Voigt" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Namyi Chae" name=citation_author><meta content="Torben R. Christensen" name=citation_author><meta content="M. Syndonia Bret‐Harte" name=citation_author><meta content="Sigrid Dengel" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="C. Edgar" name=citation_author><meta content="Bo Elberling" name=citation_author><meta content="Eugénie Euskirchen" name=citation_author><meta content="Achim Grelle" name=citation_author><meta content="Juha Hatakka" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Järvi Järveoja" name=citation_author><meta content="Ayumi Kotani" name=citation_author><meta content="Lars Kutzbach" name=citation_author><meta content="Tuomas Laurila" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Yukiko Matsuura" name=citation_author><meta content="Gesa Meyer" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Steven F. Oberbauer" name=citation_author><meta content="Sang Jong Park" name=citation_author><meta content="Roman E. Petrov" name=citation_author><meta content="А. С. Прокушкин" name=citation_author><meta content="Christopher Schulze" name=citation_author><meta content="Vincent L. St. Louis" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Juha‐Pekka Tuovinen" name=citation_author><meta content="William L. Quinton" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Viacheslav I. Zyryanov" name=citation_author><meta content="Earth System Science Data, Volume 14, Issue 1" name=citation_journal_title><meta content="14" name=citation_volume><meta content="1" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.5194/essd-14-179-2022" name=citation_pdf_url><meta content="179" name=citation_firstpage><meta content="208" name=citation_lastpage><meta content="10.5194/essd-14-179-2022" name=citation_doi><meta property="og:title" content="The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-55001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-55001"><meta property="og:description" content="Anna-Maria Virkkala, Susan M. Natali, Brendan M. Rogers, Jennifer D. Watts, K. E. Savage, Sara June Connon, Marguerite Mauritz, Edward A. G. Schuur, D. L. Peter, C. Minions, Julia Nojeim, R. Commane, Craig A. Emmerton, Mathias Goeckede, Manuel Helbig, David Holl, Hiroyasu Iwata, Hideki Kobayashi, Pasi Kolari, Efrén López‐Blanco, Maija E. Marushchak, Mikhail Mastepanov, Lutz Merbold, Frans‐Jan W. Parmentier, Matthias Peichl, Torsten Sachs, Oliver Sonnentag, Masahito Ueyama, Carolina Voigt, Mika Aurela, Julia Boike, Gerardo Celis, Namyi Chae, Torben R. Christensen, M. Syndonia Bret‐Harte, Sigrid Dengel, A. J. Dolman, C. Edgar, Bo Elberling, Eugénie Euskirchen, Achim Grelle, Juha Hatakka, Elyn Humphreys, Järvi Järveoja, Ayumi Kotani, Lars Kutzbach, Tuomas Laurila, Annalea Lohila, Ivan Mammarella, Yukiko Matsuura, Gesa Meyer, Mats Nilsson, Steven F. Oberbauer, Sang Jong Park, Roman E. Petrov, А. С. Прокушкин, Christopher Schulze, Vincent L. St. Louis, Eeva‐Stiina Tuittila, Juha‐Pekka Tuovinen, William L. Quinton, Andrej Varlagin, Donatella Zona, Viacheslav I. Zyryanov. Earth System Science Data, Volume 14, Issue 1. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-55001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-55001>The ABCflux database: Arctic–boreal CO&lt;sub>2&lt;/sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems</a></h2><p class=lead><a href=/gwf-publications/people/A/Anna-Maria-Virkkala/ data-uni=uni0018>Anna-Maria Virkkala</a>,
+<a href=/gwf-publications/people/S/Susan-M-Natali/ data-uni=uni0018>Susan M. Natali</a>,
+<a href=/gwf-publications/people/B/Brendan-M-Rogers/ data-uni=uni0018>Brendan M. Rogers</a>,
+<a href=/gwf-publications/people/J/Jennifer-D-Watts/ data-uni=uni0018>Jennifer D. Watts</a>,
+<a href=/gwf-publications/people/K/K-E-Savage/ data-uni=uni0018>K. E. Savage</a>,
+<a href=/gwf-publications/people/S/Sara-June-Connon/ data-uni=uni0212>Sara June Connon</a>,
 <a href=/gwf-publications/people/M/Marguerite-Mauritz/ data-uni=uni0236>Marguerite Mauritz</a>,
-<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0013>Edward A. G. Schuur</a>,
-<a href=/gwf-publications/people/D/D-L-Peter/ data-uni=uni0016>D. L. Peter</a>,
-<a href=/gwf-publications/people/C/C-Minions/ data-uni=uni0016>C. Minions</a>,
-<a href=/gwf-publications/people/J/Julia-Nojeim/ data-uni=uni0016>Julia Nojeim</a>,
-<a href=/gwf-publications/people/R/R-Commane/ data-uni=uni0141>R. Commane</a>,
-<a href=/gwf-publications/people/C/Craig-A-Emmerton/ data-uni=uni0448>Craig A. Emmerton</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0011>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/D/D-L-Peter/ data-uni=uni0018>D. L. Peter</a>,
+<a href=/gwf-publications/people/C/C-Minions/ data-uni=uni0018>C. Minions</a>,
+<a href=/gwf-publications/people/J/Julia-Nojeim/ data-uni=uni0018>Julia Nojeim</a>,
+<a href=/gwf-publications/people/R/R-Commane/ data-uni=uni0152>R. Commane</a>,
+<a href=/gwf-publications/people/C/Craig-A-Emmerton/ data-uni=uni0410>Craig A. Emmerton</a>,
 <a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0034>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0037>Manuel Helbig</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0041>Manuel Helbig</a>,
 <a href=/gwf-publications/people/D/David-Holl/ data-uni=uni0144>David Holl</a>,
-<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0159>Hiroyasu Iwata</a>,
-<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0174>Hideki Kobayashi</a>,
-<a href=/gwf-publications/people/P/Pasi-Kolari/ data-uni=uni0030>Pasi Kolari</a>,
-<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pez-Blanco/ data-uni=uni0038>Efrén López-Blanco</a>,
-<a href=/gwf-publications/people/M/Maija-E-Marushchak/ data-uni=uni0217>Maija E. Marushchak</a>,
-<a href=/gwf-publications/people/M/Mikhail-Mastepanov/ data-uni=uni0038>Mikhail Mastepanov</a>,
-<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0185>Lutz Merbold</a>,
-<a href=/gwf-publications/people/F/Frans-Jan-W-Parmentier/ data-uni=uni0044>Frans-Jan W. Parmentier</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0026>Matthias Peichl</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0031>Torsten Sachs</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0110>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/C/Carolina-Voigt/ data-uni=uni0217>Carolina Voigt</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
-<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0155>Julia Boike</a>,
-<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0129>Gerardo Celis</a>,
-<a href=/gwf-publications/people/N/Namyi-Chae/ data-uni=uni0346>Namyi Chae</a>,
-<a href=/gwf-publications/people/T/T-R-Christensen/ data-uni=uni0038>T. R. Christensen</a>,
-<a href=/gwf-publications/people/M/M-Syndonia-Bret-Harte/ data-uni=uni0021>M. Syndonia Bret-Harte</a>,
-<a href=/gwf-publications/people/S/Sigrid-Dengel/ data-uni=uni0025>Sigrid Dengel</a>,
-<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0199>A. J. Dolman</a>,
-<a href=/gwf-publications/people/C/C-Edgar/ data-uni=uni0021>C. Edgar</a>,
-<a href=/gwf-publications/people/B/Bo-Elberling/ data-uni=uni0057>Bo Elberling</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0021>Eugénie S. Euskirchen</a>,
-<a href=/gwf-publications/people/A/Achim-Grelle/ data-uni=uni0594>Achim Grelle</a>,
-<a href=/gwf-publications/people/J/Juha-Hatakka/ data-uni=uni0018>Juha Hatakka</a>,
-<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0084>Elyn Humphreys</a>,
-<a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/ data-uni=uni0026>Järvi Järveoja</a>,
-<a href=/gwf-publications/people/A/Ayumi-Kotani/ data-uni=uni0546>Ayumi Kotani</a>,
+<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0141>Hiroyasu Iwata</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0184>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/P/Pasi-Kolari/ data-uni=uni0031>Pasi Kolari</a>,
+<a href=/gwf-publications/people/E/Efr%C3%A9n-L%C3%B3pezBlanco/ data-uni=uni0039>Efrén López‐Blanco</a>,
+<a href=/gwf-publications/people/M/Maija-E-Marushchak/ data-uni=uni0091>Maija E. Marushchak</a>,
+<a href=/gwf-publications/people/M/Mikhail-Mastepanov/ data-uni=uni0039>Mikhail Mastepanov</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0172>Lutz Merbold</a>,
+<a href=/gwf-publications/people/F/FransJan-W-Parmentier/ data-uni=uni0046>Frans‐Jan W. Parmentier</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0025>Matthias Peichl</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0026>Torsten Sachs</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0009>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0106>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/C/Carolina-Voigt/ data-uni=uni0091>Carolina Voigt</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0021>Mika Aurela</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0062>Julia Boike</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0115>Gerardo Celis</a>,
+<a href=/gwf-publications/people/N/Namyi-Chae/ data-uni=uni0367>Namyi Chae</a>,
+<a href=/gwf-publications/people/T/Torben-R-Christensen/ data-uni=uni0039>Torben R. Christensen</a>,
+<a href=/gwf-publications/people/M/M-Syndonia-BretHarte/ data-uni=uni0023>M. Syndonia Bret‐Harte</a>,
+<a href=/gwf-publications/people/S/Sigrid-Dengel/ data-uni=uni0024>Sigrid Dengel</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0230>A. J. Dolman</a>,
+<a href=/gwf-publications/people/C/C-Edgar/ data-uni=uni0023>C. Edgar</a>,
+<a href=/gwf-publications/people/B/Bo-Elberling/ data-uni=uni0052>Bo Elberling</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-Euskirchen/ data-uni=uni0023>Eugénie Euskirchen</a>,
+<a href=/gwf-publications/people/A/Achim-Grelle/ data-uni=uni0421>Achim Grelle</a>,
+<a href=/gwf-publications/people/J/Juha-Hatakka/ data-uni=uni0021>Juha Hatakka</a>,
+<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0081>Elyn Humphreys</a>,
+<a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/ data-uni=uni0025>Järvi Järveoja</a>,
+<a href=/gwf-publications/people/A/Ayumi-Kotani/ data-uni=uni0650>Ayumi Kotani</a>,
 <a href=/gwf-publications/people/L/Lars-Kutzbach/ data-uni=uni0144>Lars Kutzbach</a>,
-<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0018>Tuomas Laurila</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0030>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/Y/Yukiko-Matsuura/ data-uni=uni0610>Yukiko Matsuura</a>,
+<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0021>Tuomas Laurila</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0021>Annalea Lohila</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0031>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/Y/Yukiko-Matsuura/ data-uni=uni0757>Yukiko Matsuura</a>,
 <a href=/gwf-publications/people/G/Gesa-Meyer/ data-uni=uni0005>Gesa Meyer</a>,
-<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0026>Mats Nilsson</a>,
-<a href=/gwf-publications/people/S/Steven-F-Oberbauer/ data-uni=uni0197>Steven F. Oberbauer</a>,
-<a href=/gwf-publications/people/S/Sang-Jong-Park/ data-uni=uni0630>Sang Jong Park</a>,
-<a href=/gwf-publications/people/R/Roman-E-Petrov/ data-uni=uni0288>Roman E. Petrov</a>,
-<a href=/gwf-publications/people/A/A-S-Prokushkin/ data-uni=uni0512>A. S. Prokushkin</a>,
-<a href=/gwf-publications/people/C/Christopher-Schulze/ data-uni=uni0017>Christopher Schulze</a>,
-<a href=/gwf-publications/people/V/Vincent-L-St-Louis/ data-uni=uni0017>Vincent L. St. Louis</a>,
-<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/ data-uni=uni0088>Eeva-Stiina Tuittila</a>,
-<a href=/gwf-publications/people/J/Juha-Pekka-Tuovinen/ data-uni=uni0018>Juha-Pekka Tuovinen</a>,
-<a href=/gwf-publications/people/W/W-L-Quinton/ data-uni=uni0006>W. L. Quinton</a>,
-<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0064>Andrej Varlagin</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0036>Donatella Zona</a>,
-<a href=/gwf-publications/people/V/Viacheslav-I-Zyryanov/ data-uni=uni0312>Viacheslav I. Zyryanov</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Past efforts to synthesize and quantify the magnitude and change in carbon dioxide (CO2) fluxes in terrestrial ecosystems across the rapidly warming Arctic–boreal zone (ABZ) have provided valuable information but were limited in their geographical and temporal coverage. Furthermore, these efforts have been based on data aggregated over varying time periods, often with only minimal site ancillary data, thus limiting their potential to be used in large-scale carbon budget assessments. To bridge these gaps, we developed a standardized monthly database of Arctic–boreal CO2 fluxes (ABCflux) that aggregates in situ measurements of terrestrial net ecosystem CO2 exchange and its derived partitioned component fluxes: gross primary productivity and ecosystem respiration. The data span from 1989 to 2020 with over 70 supporting variables that describe key site conditions (e.g., vegetation and disturbance type), micrometeorological and environmental measurements (e.g., air and soil temperatures), and flux measurement techniques. Here, we describe these variables, the spatial and temporal distribution of observations, the main strengths and limitations of the database, and the potential research opportunities it enables. In total, ABCflux includes 244 sites and 6309 monthly observations; 136 sites and 2217 monthly observations represent tundra, and 108 sites and 4092 observations represent the boreal biome. The database includes fluxes estimated with chamber (19 % of the monthly observations), snow diffusion (3 %) and eddy covariance (78 %) techniques. The largest number of observations were collected during the climatological summer (June–August; 32 %), and fewer observations were available for autumn (September–October; 25 %), winter (December–February; 18 %), and spring (March–May; 25 %). ABCflux can be used in a wide array of empirical, remote sensing and modeling studies to improve understanding of the regional and temporal variability in CO2 fluxes and to better estimate the terrestrial ABZ CO2 budget. ABCflux is openly and freely available online (Virkkala et al., 2021b, https://doi.org/10.3334/ORNLDAAC/1934).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Anna-Maria Virkkala, Susan M. Natali, Brendan M. Rogers, Jennifer D. Watts, K. E. Savage, Sara June Connon, Marguerite Mauritz, Edward A. G. Schuur, D. L. Peter, C. Minions, Julia Nojeim, R. Commane, Craig A. Emmerton, Mathias Goeckede, Manuel Helbig, David Holl, Hiroyasu Iwata, Hideki Kobayashi, Pasi Kolari, et al.. 2022. The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems. <i>Earth System Science Data, Volume 14, Issue 1</i>, 14(1):179–208.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0025>Mats Nilsson</a>,
+<a href=/gwf-publications/people/S/Steven-F-Oberbauer/ data-uni=uni0204>Steven F. Oberbauer</a>,
+<a href=/gwf-publications/people/S/Sang-Jong-Park/ data-uni=uni0822>Sang Jong Park</a>,
+<a href=/gwf-publications/people/R/Roman-E-Petrov/ data-uni=uni0552>Roman E. Petrov</a>,
+<a href=/gwf-publications/people/%D0%90/%D0%90-%D0%A1-%D0%9F%D1%80%D0%BE%D0%BA%D1%83%D1%88%D0%BA%D0%B8%D0%BD/ data-uni=uni0338>А. С. Прокушкин</a>,
+<a href=/gwf-publications/people/C/Christopher-Schulze/ data-uni=uni0010>Christopher Schulze</a>,
+<a href=/gwf-publications/people/V/Vincent-L-St-Louis/ data-uni=uni0010>Vincent L. St. Louis</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0091>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/J/JuhaPekka-Tuovinen/ data-uni=uni0021>Juha‐Pekka Tuovinen</a>,
+<a href=/gwf-publications/people/W/William-L-Quinton/ data-uni=uni0006>William L. Quinton</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0074>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0040>Donatella Zona</a>,
+<a href=/gwf-publications/people/V/Viacheslav-I-Zyryanov/ data-uni=uni0338>Viacheslav I. Zyryanov</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Past efforts to synthesize and quantify the magnitude and change in carbon dioxide (CO2) fluxes in terrestrial ecosystems across the rapidly warming Arctic–boreal zone (ABZ) have provided valuable information but were limited in their geographical and temporal coverage. Furthermore, these efforts have been based on data aggregated over varying time periods, often with only minimal site ancillary data, thus limiting their potential to be used in large-scale carbon budget assessments. To bridge these gaps, we developed a standardized monthly database of Arctic–boreal CO2 fluxes (ABCflux) that aggregates in situ measurements of terrestrial net ecosystem CO2 exchange and its derived partitioned component fluxes: gross primary productivity and ecosystem respiration. The data span from 1989 to 2020 with over 70 supporting variables that describe key site conditions (e.g., vegetation and disturbance type), micrometeorological and environmental measurements (e.g., air and soil temperatures), and flux measurement techniques. Here, we describe these variables, the spatial and temporal distribution of observations, the main strengths and limitations of the database, and the potential research opportunities it enables. In total, ABCflux includes 244 sites and 6309 monthly observations; 136 sites and 2217 monthly observations represent tundra, and 108 sites and 4092 observations represent the boreal biome. The database includes fluxes estimated with chamber (19 % of the monthly observations), snow diffusion (3 %) and eddy covariance (78 %) techniques. The largest number of observations were collected during the climatological summer (June–August; 32 %), and fewer observations were available for autumn (September–October; 25 %), winter (December–February; 18 %), and spring (March–May; 25 %). ABCflux can be used in a wide array of empirical, remote sensing and modeling studies to improve understanding of the regional and temporal variability in CO2 fluxes and to better estimate the terrestrial ABZ CO2 budget. ABCflux is openly and freely available online (Virkkala et al., 2021b, https://doi.org/10.3334/ORNLDAAC/1934).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Anna-Maria Virkkala, Susan M. Natali, Brendan M. Rogers, Jennifer D. Watts, K. E. Savage, Sara June Connon, Marguerite Mauritz, Edward A. G. Schuur, D. L. Peter, C. Minions, Julia Nojeim, R. Commane, Craig A. Emmerton, Mathias Goeckede, Manuel Helbig, David Holl, Hiroyasu Iwata, Hideki Kobayashi, Pasi Kolari, et al.. 2022. The ABCflux database: Arctic–boreal CO<sub>2</sub> flux observations and ancillary information aggregated to monthly time steps across terrestrial ecosystems. <i>Earth System Science Data, Volume 14, Issue 1</i>, 14(1):179–208.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -100,11 +100,11 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Iwata, Hiroyasu  and
       Kobayashi, Hideki  and
       Kolari, Pasi  and
-      L{\&#39;o}pez-Blanco, Efr{\&#39;e}n  and
+      L{\&#39;o}pez‐Blanco, Efr{\&#39;e}n  and
       Marushchak, Maija E.  and
       Mastepanov, Mikhail  and
       Merbold, Lutz  and
-      Parmentier, Frans-Jan W.  and
+      Parmentier, Frans‐Jan W.  and
       Peichl, Matthias  and
       Sachs, Torsten  and
       Sonnentag, Oliver  and
@@ -114,13 +114,13 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Boike, Julia  and
       Celis, Gerardo  and
       Chae, Namyi  and
-      Christensen, T. R.  and
-      Bret-Harte, M. Syndonia  and
+      Christensen, Torben R.  and
+      Bret‐Harte, M. Syndonia  and
       Dengel, Sigrid  and
       Dolman, A. J.  and
       Edgar, C.  and
       Elberling, Bo  and
-      Euskirchen, Eug{\&#39;e}nie S.  and
+      Euskirchen, Eug{\&#39;e}nie  and
       Grelle, Achim  and
       Hatakka, Juha  and
       Humphreys, Elyn  and
@@ -136,12 +136,12 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Oberbauer, Steven F.  and
       Park, Sang Jong  and
       Petrov, Roman E.  and
-      Prokushkin, A. S.  and
+      Прокушкин, А. С.  and
       Schulze, Christopher  and
       Louis, Vincent L. St.  and
-      Tuittila, Eeva-Stiina  and
-      Tuovinen, Juha-Pekka  and
-      Quinton, W. L.  and
+      Tuittila, Eeva‐Stiina  and
+      Tuovinen, Juha‐Pekka  and
+      Quinton, William L.  and
       Varlagin, Andrej  and
       Zona, Donatella  and
       Zyryanov, Viacheslav I.},
@@ -306,7 +306,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Efrén&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;López-Blanco&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;López‐Blanco&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -334,7 +334,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Frans-Jan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frans‐Jan&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Parmentier&lt;/namePart&gt;
         &lt;role&gt;
@@ -405,7 +405,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torben&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Christensen&lt;/namePart&gt;
         &lt;role&gt;
@@ -415,7 +415,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;Syndonia&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Bret-Harte&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bret‐Harte&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -451,7 +451,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -566,9 +565,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Prokushkin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;А.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;С.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Прокушкин&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -590,21 +589,21 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eeva-Stiina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva‐Stiina&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Juha-Pekka&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juha‐Pekka&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuovinen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Quinton&lt;/namePart&gt;
         &lt;role&gt;
@@ -688,11 +687,11 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Iwata, Hiroyasu
 %A Kobayashi, Hideki
 %A Kolari, Pasi
-%A López-Blanco, Efrén
+%A López‐Blanco, Efrén
 %A Marushchak, Maija E.
 %A Mastepanov, Mikhail
 %A Merbold, Lutz
-%A Parmentier, Frans-Jan W.
+%A Parmentier, Frans‐Jan W.
 %A Peichl, Matthias
 %A Sachs, Torsten
 %A Sonnentag, Oliver
@@ -702,13 +701,13 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Boike, Julia
 %A Celis, Gerardo
 %A Chae, Namyi
-%A Christensen, T. R.
-%A Bret-Harte, M. Syndonia
+%A Christensen, Torben R.
+%A Bret‐Harte, M. Syndonia
 %A Dengel, Sigrid
 %A Dolman, A. J.
 %A Edgar, C.
 %A Elberling, Bo
-%A Euskirchen, Eugénie S.
+%A Euskirchen, Eugénie
 %A Grelle, Achim
 %A Hatakka, Juha
 %A Humphreys, Elyn
@@ -724,12 +723,12 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Oberbauer, Steven F.
 %A Park, Sang Jong
 %A Petrov, Roman E.
-%A Prokushkin, A. S.
+%A Прокушкин, А. С.
 %A Schulze, Christopher
 %A Louis, Vincent L. St.
-%A Tuittila, Eeva-Stiina
-%A Tuovinen, Juha-Pekka
-%A Quinton, W. L.
+%A Tuittila, Eeva‐Stiina
+%A Tuovinen, Juha‐Pekka
+%A Quinton, William L.
 %A Varlagin, Andrej
 %A Zona, Donatella
 %A Zyryanov, Viacheslav I.

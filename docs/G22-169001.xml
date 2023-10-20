@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Scheff-2022-Why">
+    <titleInfo>
+        <title>Why do the Global Warming Responses of Land‐Surface Models and Climatic Dryness Metrics Disagree?</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jacob</namePart>
+        <namePart type="family">Scheff</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sloan</namePart>
+        <namePart type="family">Coats</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Marysa</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Laguë</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth’s Future, Volume 10, Issue 8</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Earth System Models’ complex land components simulate a patchwork of increases and decreases in surface water availability when driven by projected future climate changes. Yet, commonly‐used simple theories for surface water availability, such as the Aridity Index (P/E0) and Palmer Drought Severity Index (PDSI), obtain severe, globally dominant drying when driven by those same climate changes, leading to disagreement among published studies. In this work, we use a common modeling framework to show that Earth System Model (ESM) simulated runoff‐ratio and soil‐moisture responses become much more consistent with the P/E0 and PDSI responses when several previously known factors that the latter do not account for are cut out of the simulations. This reconciles the disagreement and makes the full ESM responses more understandable. For ESM runoff ratio, the most important factor causing the more positive global response compared to P/E0 is the concentration of precipitation in time with greenhouse warming. For ESM soil moisture, the most important factor causing the more positive global response compared to PDSI is the effect of increasing carbon dioxide on plant physiology, which also drives most of the spatial variation in the runoff ratio enhancement. The effect of increasing vapor‐pressure deficit on plant physiology is a key secondary factor for both. Future work will assess the utility of both the ESMs and the simple indices for understanding observed, historical trends.</abstract>
+    <identifier type="citekey">Scheff-2022-Why</identifier>
+    <identifier type="doi">10.1029/2022ef002814</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-63001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>10</number></detail>
+        <detail type="issue"><number>8</number></detail>
+    </part>
+</mods>
+</modsCollection>

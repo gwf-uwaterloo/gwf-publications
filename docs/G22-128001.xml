@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Chakroborti-2022-Release">
+    <titleInfo>
+        <title>Release conventions of open‐source software: An exploratory study</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Debasish</namePart>
+        <namePart type="family">Chakroborti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sristy</namePart>
+        <namePart type="given">Sumana</namePart>
+        <namePart type="family">Nath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Software: Evolution and Process, Volume 35, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Software engineering (SE) methodologies are widely used in both academia and industry to manage the software development life cycle. A number of studies of SE methodologies involve interviewing stakeholders to explore the real‐world practice. Although these interview‐based studies provide us with a user’s perspective of an organization’s practice, they do not describe the concrete summary of releases in open‐source social coding platforms. In particular, no existing studies investigated how releases are evolved in open‐source coding platforms, which assist release planners to a large extent. This study explores software development patterns followed in open‐source projects to see the overall management’s reflection on software release decisions rather than concentrating on a particular methodology. Our experiments on 51 software origins (with 1777k revisions and 12k releases) from the Software Heritage Graph Dataset (SWHGD) and their GitHub project boards (with 23k cards) reveal reasonably active project management with phase simplicity can release software versions more frequently and can follow the small release conventions of Extreme Programming. Additionally, the study also reveals that a combination of development and management activities can be applied to predict the possible number of software releases in a month ( ).</abstract>
+    <identifier type="citekey">Chakroborti-2022-Release</identifier>
+    <identifier type="doi">10.1002/smr.2499</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-21001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>35</number></detail>
+        <detail type="issue"><number>1</number></detail>
+    </part>
+</mods>
+</modsCollection>

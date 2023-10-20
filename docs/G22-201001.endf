@@ -1,0 +1,14 @@
+﻿%0 Journal Article
+%T Backports
+%A Chakroborti, Debasish
+%A Schneider, Kevin A.
+%A Roy, Chanchal K.
+%J Proceedings of the 30th IEEE/ACM International Conference on Program Comprehension
+%D 2022
+%I ACM
+%F Chakroborti-2022-Backports
+%X Source code repositories allow developers to manage multiple versions (or branches) of a software system. Pull-requests are used to modify a branch, and backporting is a regular activity used to port changes from a current development branch to other versions. In open-source software, backports are common and often need to be adapted by hand, which motivates us to explore backports and backporting challenges and strategies. In our exploration of 68,424 backports from 10 GitHub projects, we found that bug, test, document, and feature changes are commonly backported. We identified a number of backporting challenges, including that backports were inconsistently linked to their original pull-request (49%), that backports had incompatible code (13%), that backports failed to be accepted (10%), and that there were backporting delays (16 days to create, 5 days to merge). We identified some general strategies for addressing backporting issues. We also noted that backporting strategies depend on the project type and that further investigation is needed to determine their suitability. Furthermore, we created the first-ever backports dataset that can be used by other researchers and practitioners for investigating backports and backporting.
+%R 10.1145/3524610.3527920
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-98001
+%U https://doi.org/10.1145/3524610.3527920
+

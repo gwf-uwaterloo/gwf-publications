@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Moore-2019-Assessing">
+    <titleInfo>
+        <title>Assessing the peatland hummock–hollow classification framework using high-resolution elevation models: implications for appropriate complexity ecosystem modeling</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Paul</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Moore</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Max</namePart>
+        <namePart type="family">Lukenbach</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dan</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Thompson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nicholas</namePart>
+        <namePart type="family">Kettridge</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Gustaf</namePart>
+        <namePart type="family">Granath</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Waddington</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Biogeosciences, Volume 16, Issue 18</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. The hummock–hollow classification framework used to categorize peatland ecosystem microtopography is pervasive throughout peatland experimental designs and current peatland ecosystem modeling approaches. However, identifying what constitutes a representative hummock–hollow pair within a site and characterizing hummock–hollow variability within or between peatlands remains largely unassessed. Using structure from motion (SfM), high-resolution digital elevation models (DEMs) of hummock–hollow microtopography were used to (1) examine how much area needs to be sampled to characterize site-level microtopographic variation; and (2) examine the potential role of microtopographic shape/structure on biogeochemical fluxes using plot-level data from nine northern peatlands. To capture 95 % of site-level microtopographic variability, on average, an aggregate sampling area of 32 m2 composed of 10 randomly located plots was required. Both site- (i.e. transect data) and plot-level (i.e. SfM-derived DEM) results show that microtopographic variability can be described as a fractal at the submeter scale, where contributions to total variance are very small below a 0.5 m length scale. Microtopography at the plot level was often found to be non-bimodal, as assessed using a Gaussian mixture model (GMM). Our findings suggest that the non-bimodal distribution of microtopography at the plot level may result in an undersampling of intermediate topographic positions. Extended to the modeling domain, an underrepresentation of intermediate microtopographic positions is shown to lead to potentially large flux biases over a wide range of water table positions for ecosystem processes which are non-linearly related to water and energy availability at the moss surface. Moreover, our simple modeling results suggest that much of the bias can be eliminated by representing microtopography with several classes rather than the traditional two (i.e. hummock/hollow). A range of tools examined herein can be used to easily parameterize peatland models, from GMMs used as simple transfer functions to spatially explicit fractal landscapes based on simple power-law relations between microtopographic variability and scale.</abstract>
+    <identifier type="citekey">Moore-2019-Assessing</identifier>
+    <identifier type="doi">10.5194/bg-16-3491-2019</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G19-9001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>18</number></detail>
+        <extent unit="page">
+            <start>3491</start>
+            <end>3506</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

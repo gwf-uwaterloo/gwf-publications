@@ -1,0 +1,25 @@
+﻿%0 Journal Article
+%T Community Workflows to Advance Reproducibility in Hydrologic Modeling: Separating Model‐Agnostic and Model‐Specific Configuration Steps in Applications of Large‐Domain Hydrologic Models
+%A Knoben, Wouter
+%A Clark, Martyn P.
+%A Bales, Jerad D.
+%A Bennett, Andrew
+%A Gharari, Shervan
+%A Marsh, Christopher B.
+%A Nijssen, Bart
+%A Pietroniro, Alain
+%A Spiteri, Raymond J.
+%A Tang, Guoqiang
+%A Tarboton, David G.
+%A Wood, A. W.
+%J Water Resources Research, Volume 58, Issue 11
+%D 2022
+%V 58
+%N 11
+%I American Geophysical Union (AGU)
+%F Knoben-2022-Community
+%X Despite the proliferation of computer-based research on hydrology and water resources, such research is typically poorly reproducible. Published studies have low reproducibility due to incomplete availability of data and computer code, and a lack of documentation of workflow processes. This leads to a lack of transparency and efficiency because existing code can neither be quality controlled nor reused. Given the commonalities between existing process-based hydrologic models in terms of their required input data and preprocessing steps, open sharing of code can lead to large efficiency gains for the modeling community. Here, we present a model configuration workflow that provides full reproducibility of the resulting model instantiations in a way that separates the model-agnostic preprocessing of specific data sets from the model-specific requirements that models impose on their input files. We use this workflow to create large-domain (global and continental) and local configurations of the Structure for Unifying Multiple Modeling Alternatives (SUMMA) hydrologic model connected to the mizuRoute routing model. These examples show how a relatively complex model setup over a large domain can be organized in a reproducible and structured way that has the potential to accelerate advances in hydrologic modeling for the community as a whole. We provide a tentative blueprint of how community modeling initiatives can be built on top of workflows such as this. We term our workflow the “Community Workflows to Advance Reproducibility in Hydrologic Modeling” (CWARHM; pronounced “swarm”).
+%R 10.1029/2021wr031753
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-60001
+%U https://doi.org/10.1029/2021wr031753
+

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ferdous-2019-Workflow">
+    <titleInfo>
+        <title>Workflow Provenance for Big Data: From Modelling to Reporting</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Rayhan</namePart>
+        <namePart type="family">Ferdous</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Studies in Big Data</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Springer International Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Scientific workflow management system (SWFMS) is one of the inherent parts of Big Data analytics systems. Analyses in such data intensive research using workflows are very costly. SWFMSs or workflows keep track of every bit of executions through logs, which later could be used on demand. For example, in the case of errors, security breaches, or even any conditions, we may need to trace back to the previous steps or look at the intermediate data elements. Such fashion of logging is known as workflow provenance. However, prominent workflows being domain specific and developed following different programming paradigms, their architectures, logging mechanisms, information in the logs, provenance queries, and so on differ significantly. So, provenance technology of one workflow from a certain domain is not easily applicable in another domain. Facing the lack of a general workflow provenance standard, we propose a programming model for automated workflow logging. The programming model is easy to implement and easily configurable by domain experts independent of workflow users. We implement our workflow programming model on Bioinformatics research—for evaluation and collect workflow logs from various scientific pipelines’ executions. Then we focus on some fundamental provenance questions inspired by recent literature that can derive many other complex provenance questions. Finally, the end users are provided with discovered insights from the workflow provenance through online data visualization as a separate web service.</abstract>
+    <identifier type="citekey">Ferdous-2019-Workflow</identifier>
+    <identifier type="doi">10.1007/978-3-030-32587-9_11</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G19-4001</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <extent unit="page">
+            <start>185</start>
+            <end>200</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

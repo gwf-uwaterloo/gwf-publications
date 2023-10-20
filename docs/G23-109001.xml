@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="VanMeter-2023-Memory">
+    <titleInfo>
+        <title>Memory and Management: Competing Controls on Long‐Term Nitrate Trajectories in U.S. Rivers</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Meter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">D</namePart>
+        <namePart type="family">Byrnes</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nandita</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Global Biogeochemical Cycles, Volume 37, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Excess nitrogen from intensive agricultural production, atmospheric N deposition, and urban point sources elevates stream nitrate concentrations, leading to problems of eutrophication and ecosystem degradation in coastal waters. A major emphasis of current US‐scale analysis of water quality is to better our understanding of the relationship between changes in anthropogenic N inputs within watersheds and subsequent changes in riverine N loads. While most water quality modeling assumes a positive linear correlation between watershed N inputs and riverine N, many efforts to reduce riverine N through improved nutrient management practices result in little or no short‐term improvements in water quality. Here, we use nitrate concentration and load data from 478 US watersheds, along with developed N input trajectories for these watersheds, to quantify time‐varying relationships between N inputs and riverine N export. Our results show substantial variations in watershed N import‐export relationships over time, with quantifiable hysteresis effects. Our results show that more population‐dense urban watersheds in the northeastern U.S. more frequently show clockwise hysteresis relationships between N imports and riverine N export, with accelerated improvements in water quality being achieved through the implementation of point‐source controls. In contrast, counterclockwise hysteresis dynamics are more common in agricultural watersheds, where time lags occur between the implementation of nutrient management practices and water‐quality improvements. Finally, we find higher tile‐drainage densities to be associated with more linear relationships between N inputs and riverine N. The empirical analysis in this study is bolstered by modeled simulations to reproduce and further explain drivers behind the hysteretic relationships commonly observed in the monitored watersheds.</abstract>
+    <identifier type="citekey">Van Meter-2023-Memory</identifier>
+    <identifier type="doi">10.1029/2022gb007651</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-17001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>37</number></detail>
+        <detail type="issue"><number>4</number></detail>
+    </part>
+</mods>
+</modsCollection>

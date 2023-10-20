@@ -1,0 +1,19 @@
+﻿%0 Journal Article
+%T A Data Management Scheme for Micro-Level Modular Computation-Intensive Programs in Big Data Platforms
+%A Chakroborti, Debasish
+%A Roy, Banani
+%A Mondal, Amit Kumar
+%A Mostaeen, Golam
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%A Deters, Ralph
+%J Studies in Big Data
+%D 2019
+%I Springer International Publishing
+%F Chakroborti-2019-A
+%X Big Data analytics or systems developed with parallel distributed processing frameworks (e.g., Hadoop and Spark) are becoming popular for finding important insights from a huge amount of heterogeneous data (e.g., image, text, and sensor data). These systems offer a wide range of tools and connect them to form workflows for processing Big Data. Independent schemes from different studies for managing programs and data of workflows have been already proposed by many researchers and most of the systems have been presented with data or metadata management. However, to the best of our knowledge, no study particularly discusses the performance implications of utilizing intermediate states of data and programs generated at various execution steps of a workflow in distributed platforms. In order to address the shortcomings, we propose a scheme of Big Data management for micro-level modular computation-intensive programs in a Spark and Hadoop-based platform. In this paper, we investigate whether management of the intermediate states can speed up the execution of an image processing pipeline consisting of various image processing tools/APIs in Hadoop Distributed File System (HDFS) while ensuring appropriate reusability and error monitoring. From our experiments, we obtained prominent results, e.g., we have reported that with the intermediate data management, we can gain up to 87% computation time for an image processing job.
+%R 10.1007/978-3-030-32587-9_9
+%U https://gwf-uwaterloo.github.io/gwf-publications/G19-4002
+%U https://doi.org/10.1007/978-3-030-32587-9_9
+%P 135-153
+

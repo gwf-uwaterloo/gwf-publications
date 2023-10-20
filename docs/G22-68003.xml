@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ambadan-2022-Evaluation">
+    <titleInfo>
+        <title>Evaluation of SMAP Soil Moisture Retrieval Accuracy Over a Boreal Forest Region</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jaison</namePart>
+        <namePart type="given">Thomas</namePart>
+        <namePart type="family">Ambadan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Heather</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">MacRae</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andreas</namePart>
+        <namePart type="family">Colliander</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Erica</namePart>
+        <namePart type="family">Tetlock</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Warren</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ze’ev</namePart>
+        <namePart type="family">Gedalof</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Transactions on Geoscience and Remote Sensing, Volume 60</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Estimating soil moisture (SM) over the circumpolar boreal forest would have numerous applications including wildfire risk detection, and weather prediction. Evaluation of satellite derived SM retrievals in boreal ecoregions is hindered by available in situ SM observation networks. To address this, an SM monitoring network was established in a boreal forest region in Saskatchewan, Canada. The network is unique as there are no other SM network of similar size in the boreal forest. The network consisted of 17 SM stations within a single Soil Moisture Active Passive (SMAP) satellite observation pixel ( \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$33\textbackslashtimes 33$ \textless/tex-math\textgreater\textless/inline-formula\textgreater km). We present an analysis of the sensitivity and accuracy of SMAP SM products in a boreal forest environment over a two-year period in 2018 and 2019. Results show current SMAP radiometer-based L2 SM products have higher correlation with the in situ lower mineral layer SM than with the top organic layer, although the overall correlation is low. Correlations between in situ mineral layer SM and SMAP brightness-temperature (TB) products are higher than those observed with the SMAP SM product, suggesting current SMAP SM retrieval from the TB using the \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashtau $ \textless/tex-math\textgreater\textless/inline-formula\textgreater – \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashomega $ \textless/tex-math\textgreater\textless/inline-formula\textgreater model introduces large uncertainties in the SM estimation, possibly from uncertain vegetation and surface parameters in the retrieval model. Results show SM can be retrieved using the \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashtau $ \textless/tex-math\textgreater\textless/inline-formula\textgreater – \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashomega $ \textless/tex-math\textgreater\textless/inline-formula\textgreater model with reasonable accuracy over the boreal forest provided the vegetation and soil parameters are optimized. The SM retrieval using a dual channel \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashtau $ \textless/tex-math\textgreater\textless/inline-formula\textgreater – \textlessinline-formula xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater \textlesstex-math notation=“LaTeX”\textgreater$\textbackslashomega $ \textless/tex-math\textgreater\textless/inline-formula\textgreater model, which utilize both horizontally and vertically polarized SMAP TB, performs better than that with a single channel algorithm (SCA), using optimized parameters.</abstract>
+    <identifier type="citekey">Ambadan-2022-Evaluation</identifier>
+    <identifier type="doi">10.1109/tgrs.2022.3212934</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-78001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>60</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>11</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

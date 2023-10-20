@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Pradhananga-2022-Recent">
+    <titleInfo>
+        <title>Recent hydrological response of glaciers in the Canadian Rockies to changing climate and glacier configuration</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Dhiraj</namePart>
+        <namePart type="family">Pradhananga</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 26, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Mountain snow and ice greatly influence the hydrological cycle of alpine regions by regulating both the quantity of and seasonal variations in water availability downstream. This study considers the combined impacts of climate and glacier changes due to recession on the hydrology and water balance of two high-elevation basins in the Canadian Rockies. A distributed, physically based, uncalibrated glacier hydrology model developed in the Cold Regions Hydrological Modelling platform (CRHM) was used to simulate the glacier mass balance and basin hydrology of the Peyto and Athabasca glacier basins in Alberta, Canada. Bias-corrected reanalysis data were used to drive the model. The model calculates the water balance of glacierized basins, influenced by the surface energy and mass balance, and considers the redistribution of snow by wind and avalanches. It was set up using hydrological response units based on elevation bands, surface slope, and aspect, as well as changing land cover. Aerial photos, satellite images and digital elevation models (DEMs) were assimilated to represent the changing configurations of glacier area and the exposure of ice and firn. Observations of glacier mass balance, snow, and glacier ice surface elevation changes at glacier and alpine tundra meteorological stations and streamflow discharge at the glacier outlets were used to evaluate the model performance. Basin hydrology was simulated over two periods, 1965–1975 and 2008–2018, using the observed glacier configurations for those time periods. Both basins have undergone continuous glacier loss over the last 3 to 5 decades, leading to a 6 %–31 % reduction in glacierized area, a 78 %–109 % increase in ice exposure, and changes to the elevation and slope of the glacier surfaces. Air temperatures are increasing, mainly due to increasing winter maximum and summer minimum daily temperatures. Annual precipitation has increased by less than 11 %, but rainfall ratios have increased by 29 %–44 %. The results show that changes in both climate and glacier configuration have influenced the melt rates and runoff and a shift of peak flows in the Peyto Glacier basin from August to July. Glacier melt contributions increased/decreased from 27 %–61 % to 43 %–59 % of the annual discharges. Recent discharges were 3 %–19 % higher than in the 1960s and 1970s. The results suggest that increased exposure of glacier ice and lower surface elevation due to glacier thinning were less influential than climate warming in increasing streamflow. Streamflow from these glaciers continues to increase.</abstract>
+    <identifier type="citekey">Pradhananga-2022-Recent</identifier>
+    <identifier type="doi">10.5194/hess-26-2605-2022</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-103001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>26</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <extent unit="page">
+            <start>2605</start>
+            <end>2616</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

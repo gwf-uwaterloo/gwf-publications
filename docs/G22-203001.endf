@@ -1,0 +1,24 @@
+﻿%0 Journal Article
+%T Evaluating a reservoir parametrization in the vector-based global routing model mizuRoute (v2.0.1) for Earth system model coupling
+%A Vanderkelen, Inne
+%A Gharari, Shervan
+%A Mizukami, Naoki
+%A Clark, Martyn P.
+%A Lawrence, David M.
+%A Swenson, Sean
+%A Pokhrel, Yadu
+%A Hanasaki, Naota
+%A Griensven, Ann van
+%A Thiery, Wim
+%J Geoscientific Model Development, Volume 15, Issue 10
+%D 2022
+%V 15
+%N 10
+%I Copernicus GmbH
+%F Vanderkelen-Gharari-2022-Evaluating-a
+%X Abstract. Human-controlled reservoirs have a large influence on the global water cycle. While global hydrological models use generic parameterizations to model dam operations, the representation of reservoir regulation is still lacking in many Earth system models. Here we implement and evaluate a widely used reservoir parametrization in the global river-routing model mizuRoute, which operates on a vector-based river network resolving individual lakes and reservoirs and is currently being coupled to an Earth system model. We develop an approach to determine the downstream area over which to aggregate irrigation water demand per reservoir. The implementation of managed reservoirs is evaluated by comparing them to simulations ignoring inland waters and simulations with reservoirs represented as natural lakes using (i) local simulations for 26 individual reservoirs driven by observed inflows and (ii) global-domain simulations driven by runoff from the Community Land Model. The local simulations show the clear added value of the reservoir parametrization, especially for simulating storage for large reservoirs with a multi-year storage capacity. In the global-domain application, the implementation of reservoirs shows an improvement in outflow and storage compared to the no-reservoir simulation, but a similar performance is found compared to the natural lake parametrization. The limited impact of reservoirs on skill statistics could be attributed to biases in simulated river discharge, mainly originating from biases in simulated runoff from the Community Land Model. Finally, the comparison of modelled monthly streamflow indices against observations highlights that including dam operations improves the streamflow simulation compared to ignoring lakes and reservoirs. This study overall underlines the need to further develop and test runoff simulations and water management parameterizations in order to improve the representation of anthropogenic interference of the terrestrial water cycle in Earth system models.
+%R 10.5194/gmd-15-4163-2022
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-101001
+%U https://doi.org/10.5194/gmd-15-4163-2022
+%P 4163-4192
+

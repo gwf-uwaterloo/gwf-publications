@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mara&apos;Beh-2023-3-additive">
+    <titleInfo>
+        <title>3-additive linear multi-step methods for diffusion-reaction-advection models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Raed</namePart>
+        <namePart type="given">Ali</namePart>
+        <namePart type="family">Mara’Beh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pedro</namePart>
+        <namePart type="family">González</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">José</namePart>
+        <namePart type="given">Miguel</namePart>
+        <namePart type="family">Mantas</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Applied Numerical Mathematics, Volume 183</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Some systems of differential equations that model problems in science and engineering have natural splittings of the right-hand side into the sum of three parts, in particular, diffusion, reaction, and advection. Implicit-explicit (IMEX) methods treat these three terms with only two numerical methods, and this may not be desirable. Accordingly, this work gives a detailed study of 3-additive linear multi-step methods for the solution of diffusion-reaction-advection systems. Specifically, we construct new 3-additive linear multi-step methods that treat diffusion, reaction, and advection with separate methods. The stability of the new methods is investigated, and the order of convergence is tested numerically. A comparison of the new methods is made with some popular IMEX methods in terms of stability and performance. It is found that the new 3-additive methods have larger stability regions than the IMEX methods tested in some cases and generally outperform in terms of computational efficiency.</abstract>
+    <identifier type="citekey">Mara&apos;Beh-2023-3-additive</identifier>
+    <identifier type="doi">10.1016/j.apnum.2022.08.015</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-5001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>183</number></detail>
+        <extent unit="page">
+            <start>15</start>
+            <end>38</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,260 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById('expand-proj').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});document.getElementById('expand-uni').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});};</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Ralf Kiese - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><h2 id=title><span class=font-weight-normal>Ralf</span> <span class=font-weight-bold>Kiese</span></h2><hr><div class=row><div class=col-lg-9><h4>2018</h4><div data-prj><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1515/intag-2017-0039 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>ref
+</a><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G18-146001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G18-146001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G18-146001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G18-146001/>Towards long-term standardised carbon and greenhouse gas observations for monitoring Europe’s terrestrial ecosystems: a review</a></strong><br><a href=/gwf-publications/people/D/Daniela-Franz/ data-uni=uni0436>Daniela Franz</a>,
+<a href=/gwf-publications/people/M/Manuel-Acosta/ data-uni=uni0076>Manuel Acosta</a>,
+<a href=/gwf-publications/people/N/N%C3%BAria-Altimir/ data-uni=uni0885>Núria Altimir</a>,
+<a href=/gwf-publications/people/N/Nicola-Arriga/ data-uni=uni0073>Nicola Arriga</a>,
+<a href=/gwf-publications/people/D/Dominique-Arrouays/ data-uni=uni0890>Dominique Arrouays</a>,
+<a href=/gwf-publications/people/M/Marc-Aubinet/ data-uni=uni0122>Marc Aubinet</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0021>Mika Aurela</a>,
+<a href=/gwf-publications/people/E/Edward-Ayres/ data-uni=uni0287>Edward Ayres</a>,
+<a href=/gwf-publications/people/A/Ana-L%C3%B3pezBallesteros/ data-uni=uni0619>Ana López‐Ballesteros</a>,
+<a href=/gwf-publications/people/M/Mireille-Barbaste/ data-uni=uni0000>Mireille Barbaste</a>,
+<a href=/gwf-publications/people/D/Daniel-Berveiller/ data-uni=uni0432>Daniel Berveiller</a>,
+<a href=/gwf-publications/people/S/S-Biraud/ data-uni=uni0024>S. Biraud</a>,
+<a href=/gwf-publications/people/H/Hakima-Boukir/ data-uni=uni1661>Hakima Boukir</a>,
+<a href=/gwf-publications/people/T/Thomas-S-Brown/ data-uni=uni0487>Thomas S. Brown</a>,
+<a href=/gwf-publications/people/C/Christian-Br%C3%BCmmer/ data-uni=uni0259>Christian Brümmer</a>,
+<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni0044>Nina Buchmann</a>,
+<a href=/gwf-publications/people/G/George-Burba/ data-uni=uni0417>George Burba</a>,
+<a href=/gwf-publications/people/A/Arnaud-Carrara/ data-uni=uni1660>Arnaud Carrara</a>,
+<a href=/gwf-publications/people/A/A-Cescatti/ data-uni=uni0073>A. Cescatti</a>,
+<a href=/gwf-publications/people/%C3%89/%C3%89ric-Ceschia/ data-uni=uni0080>Éric Ceschia</a>,
+<a href=/gwf-publications/people/R/Robert-Clement/ data-uni=uni0182>Robert Clement</a>,
+<a href=/gwf-publications/people/E/Edoardo-Cremonese/ data-uni=uni0143>Edoardo Cremonese</a>,
+<a href=/gwf-publications/people/P/Patrick-Crill/ data-uni=uni0119>Patrick Crill</a>,
+<a href=/gwf-publications/people/E/Eva-Da%C5%99enov%C3%A1/ data-uni=uni0076>Eva Dařenová</a>,
+<a href=/gwf-publications/people/S/Sigrid-Dengel/ data-uni=uni0024>Sigrid Dengel</a>,
+<a href=/gwf-publications/people/P/Petra-DOdorico/ data-uni=uni0036>Petra D’Odorico</a>,
+<a href=/gwf-publications/people/G/Gianluca-Filippa/ data-uni=uni0143>Gianluca Filippa</a>,
+<a href=/gwf-publications/people/S/Stefan-Fleck/ data-uni=uni0868>Stefan Fleck</a>,
+<a href=/gwf-publications/people/G/Gerardo-Fratini/ data-uni=uni0417>Gerardo Fratini</a>,
+<a href=/gwf-publications/people/R/Roland-Fu%C3%9F/ data-uni=uni0259>Roland Fuß</a>,
+<a href=/gwf-publications/people/B/Bert-Gielen/ data-uni=uni0156>Bert Gielen</a>,
+<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ data-uni=uni0424>Sébastien Gogo</a>,
+<a href=/gwf-publications/people/J/J-Grace/ data-uni=uni0076>J. Grace</a>,
+<a href=/gwf-publications/people/A/Alexander-Graf/ data-uni=uni0227>Alexander Graf</a>,
+<a href=/gwf-publications/people/A/Achim-Grelle/ data-uni=uni0421>Achim Grelle</a>,
+<a href=/gwf-publications/people/P/Patrick-Gross/ data-uni=uni0088>Patrick Gross</a>,
+<a href=/gwf-publications/people/T/Thomas-Gr%C3%BCnwald/ data-uni=uni0159>Thomas Grünwald</a>,
+<a href=/gwf-publications/people/S/Sami-Haapanala/ data-uni=uni1644>Sami Haapanala</a>,
+<a href=/gwf-publications/people/M/Markus-Hehn/ data-uni=uni0159>Markus Hehn</a>,
+<a href=/gwf-publications/people/B/Bernard-Heinesch/ data-uni=uni0122>Bernard Heinesch</a>,
+<a href=/gwf-publications/people/J/Jouni-Heiskanen/ data-uni=uni0031>Jouni Heiskanen</a>,
+<a href=/gwf-publications/people/M/Mathias-Herbst/ data-uni=uni0419>Mathias Herbst</a>,
+<a href=/gwf-publications/people/C/Christine-Herschlein/ data-uni=uni0085>Christine Herschlein</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0044>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/K/Koen-Hufkens/ data-uni=uni0036>Koen Hufkens</a>,
+<a href=/gwf-publications/people/A/Andreas-Ibrom/ data-uni=uni0320>Andreas Ibrom</a>,
+<a href=/gwf-publications/people/C/Claudy-Jolivet/ data-uni=uni0890>Claudy Jolivet</a>,
+<a href=/gwf-publications/people/L/Lilian-Joly/ data-uni=uni0075>Lilian Joly</a>,
+<a href=/gwf-publications/people/M/Michael-B-Jones/ data-uni=uni1631>Michael B. Jones</a>,
+<a href=/gwf-publications/people/R/Ralf-Kiese/ data-uni=uni0085>Ralf Kiese</a>,
+<a href=/gwf-publications/people/L/Leif-Klemedtsson/ data-uni=uni0327>Leif Klemedtsson</a>,
+<a href=/gwf-publications/people/N/Natascha-Kljun/ data-uni=uni0046>Natascha Kljun</a>,
+<a href=/gwf-publications/people/K/Katja-Klumpp/ data-uni=uni0088>Katja Klumpp</a>,
+<a href=/gwf-publications/people/P/Pasi-Kolari/ data-uni=uni0031>Pasi Kolari</a>,
+<a href=/gwf-publications/people/O/Olaf-Kolle/ data-uni=uni0034>Olaf Kolle</a>,
+<a href=/gwf-publications/people/A/Andrew-S-Kowalski/ data-uni=uni0209>Andrew S. Kowalski</a>,
+<a href=/gwf-publications/people/W/Werner-L-Kutsch/ data-uni=uni0436>Werner L. Kutsch</a>,
+<a href=/gwf-publications/people/T/Tuomas-Laurila/ data-uni=uni0021>Tuomas Laurila</a>,
+<a href=/gwf-publications/people/A/Anne-De-Ligne/ data-uni=uni0122>Anne De Ligne</a>,
+<a href=/gwf-publications/people/S/Sune-Linder/ data-uni=uni0025>Sune Linder</a>,
+<a href=/gwf-publications/people/A/Anders-Lindroth/ data-uni=uni0046>Anders Lindroth</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0021>Annalea Lohila</a>,
+<a href=/gwf-publications/people/B/Bernhard-Longdoz/ data-uni=uni0122>Bernhard Longdoz</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0031>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/T/Tanguy-Manise/ data-uni=uni0122>Tanguy Manise</a>,
+<a href=/gwf-publications/people/S/Sara-Mara%C3%B1%C3%B3n-Jim%C3%A9nez/ data-uni=uni0186>Sara Marañón-Jiménez</a>,
+<a href=/gwf-publications/people/G/Giorgio-Matteucci/ data-uni=uni0045>Giorgio Matteucci</a>,
+<a href=/gwf-publications/people/M/Matthias-Mauder/ data-uni=uni0159>Matthias Mauder</a>,
+<a href=/gwf-publications/people/P/Philip-Meier/ data-uni=uni0844>Philip Meier</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0172>Lutz Merbold</a>,
+<a href=/gwf-publications/people/S/Simone-Mereu/ data-uni=uni0045>Simone Mereu</a>,
+<a href=/gwf-publications/people/S/Stefan-Metzger/ data-uni=uni0800>Stefan Metzger</a>,
+<a href=/gwf-publications/people/M/Mirco-Migliavacca/ data-uni=uni0073>Mirco Migliavacca</a>,
+<a href=/gwf-publications/people/M/Meelis-M%C3%B6lder/ data-uni=uni0046>Meelis Mölder</a>,
+<a href=/gwf-publications/people/L/Leonardo-Montagnani/ data-uni=uni0175>Leonardo Montagnani</a>,
+<a href=/gwf-publications/people/C/Christine-Moureaux/ data-uni=uni0122>Christine Moureaux</a>,
+<a href=/gwf-publications/people/D/David-D-Nelson/ data-uni=uni0846>David D. Nelson</a>,
+<a href=/gwf-publications/people/E/Eiko-Nemitz/ data-uni=uni0055>Eiko Nemitz</a>,
+<a href=/gwf-publications/people/G/Giacomo-Nicolini/ data-uni=uni0095>Giacomo Nicolini</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0025>Mats Nilsson</a>,
+<a href=/gwf-publications/people/M/Maarten-Op-de-Beeck/ data-uni=uni0156>Maarten Op de Beeck</a>,
+<a href=/gwf-publications/people/B/Bruce-Osborne/ data-uni=uni0372>Bruce Osborne</a>,
+<a href=/gwf-publications/people/M/Mikaell-Ottosson-L%C3%B6fvenius/ data-uni=uni0025>Mikaell Ottosson Löfvenius</a>,
+<a href=/gwf-publications/people/M/Mari%C3%A1n-Pavelka/ data-uni=uni0076>Marián Pavelka</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0025>Matthias Peichl</a>,
+<a href=/gwf-publications/people/O/Olli-Peltola/ data-uni=uni0078>Olli Peltola</a>,
+<a href=/gwf-publications/people/M/Mari-Pihlatie/ data-uni=uni0031>Mari Pihlatie</a>,
+<a href=/gwf-publications/people/A/Andrea-Pitacco/ data-uni=uni1597>Andrea Pitacco</a>,
+<a href=/gwf-publications/people/R/Radek-Pokorn%C3%BD/ data-uni=uni0522>Radek Pokorný</a>,
+<a href=/gwf-publications/people/J/Jukka-Pumpanen/ data-uni=uni0155>Jukka Pumpanen</a>,
+<a href=/gwf-publications/people/C/C%C3%A9line-Rati%C3%A9/ data-uni=uni0088>Céline Ratié</a>,
+<a href=/gwf-publications/people/C/Corinna-Rebmann/ data-uni=uni0121>Corinna Rebmann</a>,
+<a href=/gwf-publications/people/M/Marilyn-Roland/ data-uni=uni0156>Marilyn Roland</a>,
+<a href=/gwf-publications/people/S/Simone-Sabbatini/ data-uni=uni0095>Simone Sabbatini</a>,
+<a href=/gwf-publications/people/N/Nicolas-Saby/ data-uni=uni0088>Nicolas Saby</a>,
+<a href=/gwf-publications/people/M/Matthew-Saunders/ data-uni=uni0256>Matthew Saunders</a>,
+<a href=/gwf-publications/people/H/Hans-Peter-Schmid/ data-uni=uni0085>Hans Peter Schmid</a>,
+<a href=/gwf-publications/people/M/Marion-Schrumpf/ data-uni=uni0034>Marion Schrumpf</a>,
+<a href=/gwf-publications/people/P/Pavel-Sedl%C3%A1k/ data-uni=uni0597>Pavel Sedlák</a>,
+<a href=/gwf-publications/people/P/Pen%C3%A9lope-Serrano-Ortiz/ data-uni=uni0209>Penélope Serrano-Ortiz</a>,
+<a href=/gwf-publications/people/L/Lukas-Siebicke/ data-uni=uni0134>Lukas Siebicke</a>,
+<a href=/gwf-publications/people/L/Ladislav-%C5%A0igut/ data-uni=uni0076>Ladislav Šigut</a>,
+<a href=/gwf-publications/people/H/Hanna-Silvennoinen/ data-uni=uni1630>Hanna Silvennoinen</a>,
+<a href=/gwf-publications/people/G/Guillaume-Simioni/ data-uni=uni0599>Guillaume Simioni</a>,
+<a href=/gwf-publications/people/U/U-Skiba/ data-uni=uni0055>U. Skiba</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0009>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/K/Kamel-Soudani/ data-uni=uni0853>Kamel Soudani</a>,
+<a href=/gwf-publications/people/P/Patrice-Soul%C3%A9/ data-uni=uni1606>Patrice Soulé</a>,
+<a href=/gwf-publications/people/R/R-Steinbrecher/ data-uni=uni0099>R. Steinbrecher</a>,
+<a href=/gwf-publications/people/T/Tiphaine-Tallec/ data-uni=uni0075>Tiphaine Tallec</a>,
+<a href=/gwf-publications/people/A/Anne-Thimonier/ data-uni=uni0036>Anne Thimonier</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0091>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/J/JuhaPekka-Tuovinen/ data-uni=uni0021>Juha‐Pekka Tuovinen</a>,
+<a href=/gwf-publications/people/P/Patrik-Vestin/ data-uni=uni0046>Patrik Vestin</a>,
+<a href=/gwf-publications/people/G/Ga%C3%ABlle-Vincent/ data-uni=uni0857>Gaëlle Vincent</a>,
+<a href=/gwf-publications/people/C/Caroline-Vincke/ data-uni=uni0387>Caroline Vincke</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0238>Domenico Vitale</a>,
+<a href=/gwf-publications/people/P/Peter-Waldner/ data-uni=uni0036>Peter Waldner</a>,
+<a href=/gwf-publications/people/P/Per-Weslien/ data-uni=uni0327>Per Weslien</a>,
+<a href=/gwf-publications/people/L/Lisa-Wingate/ data-uni=uni0858>Lisa Wingate</a>,
+<a href=/gwf-publications/people/G/Georg-Wohlfahrt/ data-uni=uni0020>Georg Wohlfahrt</a>,
+<a href=/gwf-publications/people/M/M-S-Zahniser/ data-uni=uni0846>M. S. Zahniser</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0031>Timo Vesala</a><br><a href=/gwf-publications/volumes/G18-146/ class=text-muted>International Agrophysics, Volume 32, Issue 4</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G18-146001><div class="card-body p-3 small">Abstract Research infrastructures play a key role in launching a new generation of integrated long-term, geographically distributed observation programmes designed to monitor climate change, better understand its impacts on global ecosystems, and evaluate possible mitigation and adaptation strategies. The pan-European Integrated Carbon Observation System combines carbon and greenhouse gas (GHG; CO 2 , CH 4 , N 2 O, H 2 O) observations within the atmosphere, terrestrial ecosystems and oceans. High-precision measurements are obtained using standardised methodologies, are centrally processed and openly available in a traceable and verifiable fashion in combination with detailed metadata. The Integrated Carbon Observation System ecosystem station network aims to sample climate and land-cover variability across Europe. In addition to GHG flux measurements, a large set of complementary data (including management practices, vegetation and soil characteristics) is collected to support the interpretation, spatial upscaling and modelling of observed ecosystem carbon and GHG dynamics. The applied sampling design was developed and formulated in protocols by the scientific community, representing a trade-off between an ideal dataset and practical feasibility. The use of open-access, high-quality and multi-level data products by different user communities is crucial for the Integrated Carbon Observation System in order to achieve its scientific potential and societal value.</div></div></div><div class=col-lg-3><a class="btn btn-lg btn-secondary btn-block mb-2" href="https://www.semanticscholar.org/search?q=Ralf+Kiese" title="Search for 'Ralf Kiese' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class=pl-sm-2>Search</span></a><div class=row><div class="col-12 col-md-6 col-lg-12"><div class=card><h5 class=card-header>Co-authors</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/people/D/Daniela-Franz/ class=align-middle data-uni=uni0436>Daniela Franz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Manuel-Acosta/ class=align-middle data-uni=uni0076>Manuel Acosta</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/N%C3%BAria-Altimir/ class=align-middle data-uni=uni0885>Núria Altimir</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nicola-Arriga/ class=align-middle data-uni=uni0073>Nicola Arriga</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dominique-Arrouays/ class=align-middle data-uni=uni0890>Dominique Arrouays</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class="list-group-item list-group-toggle-btn py-1" data-toggle=collapse data-target=#more-coauthors aria-expanded=false aria-controls=more-coauthors>show all...</li><div class="collapse border-top" id=more-coauthors><li class=list-group-item><a href=/gwf-publications/people/M/Marc-Aubinet/ class=align-middle data-uni=uni0122>Marc Aubinet</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mika-Aurela/ class=align-middle data-uni=uni0021>Mika Aurela</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Edward-Ayres/ class=align-middle data-uni=uni0287>Edward Ayres</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Ana-L%C3%B3pezBallesteros/ class=align-middle data-uni=uni0619>Ana López‐Ballesteros</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mireille-Barbaste/ class=align-middle data-uni=uni0000>Mireille Barbaste</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Daniel-Berveiller/ class=align-middle data-uni=uni0432>Daniel Berveiller</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S-Biraud/ class=align-middle data-uni=uni0024>S. Biraud</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hakima-Boukir/ class=align-middle data-uni=uni1661>Hakima Boukir</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-S-Brown/ class=align-middle data-uni=uni0487>Thomas S. Brown</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christian-Br%C3%BCmmer/ class=align-middle data-uni=uni0259>Christian Brümmer</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nina-Buchmann/ class=align-middle data-uni=uni0044>Nina Buchmann</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/George-Burba/ class=align-middle data-uni=uni0417>George Burba</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Arnaud-Carrara/ class=align-middle data-uni=uni1660>Arnaud Carrara</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/A-Cescatti/ class=align-middle data-uni=uni0073>A. Cescatti</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%C3%89/%C3%89ric-Ceschia/ class=align-middle data-uni=uni0080>Éric Ceschia</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Robert-Clement/ class=align-middle data-uni=uni0182>Robert Clement</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Edoardo-Cremonese/ class=align-middle data-uni=uni0143>Edoardo Cremonese</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrick-Crill/ class=align-middle data-uni=uni0119>Patrick Crill</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eva-Da%C5%99enov%C3%A1/ class=align-middle data-uni=uni0076>Eva Dařenová</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sigrid-Dengel/ class=align-middle data-uni=uni0024>Sigrid Dengel</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Petra-DOdorico/ class=align-middle data-uni=uni0036>Petra D’Odorico</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gianluca-Filippa/ class=align-middle data-uni=uni0143>Gianluca Filippa</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Stefan-Fleck/ class=align-middle data-uni=uni0868>Stefan Fleck</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gerardo-Fratini/ class=align-middle data-uni=uni0417>Gerardo Fratini</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Roland-Fu%C3%9F/ class=align-middle data-uni=uni0259>Roland Fuß</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bert-Gielen/ class=align-middle data-uni=uni0156>Bert Gielen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ class=align-middle data-uni=uni0424>Sébastien Gogo</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/J-Grace/ class=align-middle data-uni=uni0076>J. Grace</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alexander-Graf/ class=align-middle data-uni=uni0227>Alexander Graf</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Achim-Grelle/ class=align-middle data-uni=uni0421>Achim Grelle</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrick-Gross/ class=align-middle data-uni=uni0088>Patrick Gross</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-Gr%C3%BCnwald/ class=align-middle data-uni=uni0159>Thomas Grünwald</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sami-Haapanala/ class=align-middle data-uni=uni1644>Sami Haapanala</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Markus-Hehn/ class=align-middle data-uni=uni0159>Markus Hehn</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bernard-Heinesch/ class=align-middle data-uni=uni0122>Bernard Heinesch</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jouni-Heiskanen/ class=align-middle data-uni=uni0031>Jouni Heiskanen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mathias-Herbst/ class=align-middle data-uni=uni0419>Mathias Herbst</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christine-Herschlein/ class=align-middle data-uni=uni0085>Christine Herschlein</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ class=align-middle data-uni=uni0044>Lukas Hörtnagl</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Koen-Hufkens/ class=align-middle data-uni=uni0036>Koen Hufkens</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andreas-Ibrom/ class=align-middle data-uni=uni0320>Andreas Ibrom</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claudy-Jolivet/ class=align-middle data-uni=uni0890>Claudy Jolivet</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lilian-Joly/ class=align-middle data-uni=uni0075>Lilian Joly</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-B-Jones/ class=align-middle data-uni=uni1631>Michael B. Jones</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Leif-Klemedtsson/ class=align-middle data-uni=uni0327>Leif Klemedtsson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Natascha-Kljun/ class=align-middle data-uni=uni0046>Natascha Kljun</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Katja-Klumpp/ class=align-middle data-uni=uni0088>Katja Klumpp</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pasi-Kolari/ class=align-middle data-uni=uni0031>Pasi Kolari</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Olaf-Kolle/ class=align-middle data-uni=uni0034>Olaf Kolle</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andrew-S-Kowalski/ class=align-middle data-uni=uni0209>Andrew S. Kowalski</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Werner-L-Kutsch/ class=align-middle data-uni=uni0436>Werner L. Kutsch</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tuomas-Laurila/ class=align-middle data-uni=uni0021>Tuomas Laurila</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anne-De-Ligne/ class=align-middle data-uni=uni0122>Anne De Ligne</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sune-Linder/ class=align-middle data-uni=uni0025>Sune Linder</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anders-Lindroth/ class=align-middle data-uni=uni0046>Anders Lindroth</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Annalea-Lohila/ class=align-middle data-uni=uni0021>Annalea Lohila</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bernhard-Longdoz/ class=align-middle data-uni=uni0122>Bernhard Longdoz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Ivan-Mammarella/ class=align-middle data-uni=uni0031>Ivan Mammarella</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tanguy-Manise/ class=align-middle data-uni=uni0122>Tanguy Manise</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sara-Mara%C3%B1%C3%B3n-Jim%C3%A9nez/ class=align-middle data-uni=uni0186>Sara Marañón-Jiménez</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giorgio-Matteucci/ class=align-middle data-uni=uni0045>Giorgio Matteucci</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthias-Mauder/ class=align-middle data-uni=uni0159>Matthias Mauder</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Philip-Meier/ class=align-middle data-uni=uni0844>Philip Meier</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lutz-Merbold/ class=align-middle data-uni=uni0172>Lutz Merbold</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Simone-Mereu/ class=align-middle data-uni=uni0045>Simone Mereu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Stefan-Metzger/ class=align-middle data-uni=uni0800>Stefan Metzger</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mirco-Migliavacca/ class=align-middle data-uni=uni0073>Mirco Migliavacca</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Meelis-M%C3%B6lder/ class=align-middle data-uni=uni0046>Meelis Mölder</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Leonardo-Montagnani/ class=align-middle data-uni=uni0175>Leonardo Montagnani</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christine-Moureaux/ class=align-middle data-uni=uni0122>Christine Moureaux</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-D-Nelson/ class=align-middle data-uni=uni0846>David D. Nelson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eiko-Nemitz/ class=align-middle data-uni=uni0055>Eiko Nemitz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giacomo-Nicolini/ class=align-middle data-uni=uni0095>Giacomo Nicolini</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mats-Nilsson/ class=align-middle data-uni=uni0025>Mats Nilsson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maarten-Op-de-Beeck/ class=align-middle data-uni=uni0156>Maarten Op de Beeck</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bruce-Osborne/ class=align-middle data-uni=uni0372>Bruce Osborne</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mikaell-Ottosson-L%C3%B6fvenius/ class=align-middle data-uni=uni0025>Mikaell Ottosson Löfvenius</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mari%C3%A1n-Pavelka/ class=align-middle data-uni=uni0076>Marián Pavelka</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthias-Peichl/ class=align-middle data-uni=uni0025>Matthias Peichl</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Olli-Peltola/ class=align-middle data-uni=uni0078>Olli Peltola</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mari-Pihlatie/ class=align-middle data-uni=uni0031>Mari Pihlatie</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andrea-Pitacco/ class=align-middle data-uni=uni1597>Andrea Pitacco</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Radek-Pokorn%C3%BD/ class=align-middle data-uni=uni0522>Radek Pokorný</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jukka-Pumpanen/ class=align-middle data-uni=uni0155>Jukka Pumpanen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/C%C3%A9line-Rati%C3%A9/ class=align-middle data-uni=uni0088>Céline Ratié</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Corinna-Rebmann/ class=align-middle data-uni=uni0121>Corinna Rebmann</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marilyn-Roland/ class=align-middle data-uni=uni0156>Marilyn Roland</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Simone-Sabbatini/ class=align-middle data-uni=uni0095>Simone Sabbatini</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nicolas-Saby/ class=align-middle data-uni=uni0088>Nicolas Saby</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthew-Saunders/ class=align-middle data-uni=uni0256>Matthew Saunders</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hans-Peter-Schmid/ class=align-middle data-uni=uni0085>Hans Peter Schmid</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marion-Schrumpf/ class=align-middle data-uni=uni0034>Marion Schrumpf</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pavel-Sedl%C3%A1k/ class=align-middle data-uni=uni0597>Pavel Sedlák</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pen%C3%A9lope-Serrano-Ortiz/ class=align-middle data-uni=uni0209>Penélope Serrano-Ortiz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lukas-Siebicke/ class=align-middle data-uni=uni0134>Lukas Siebicke</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Ladislav-%C5%A0igut/ class=align-middle data-uni=uni0076>Ladislav Šigut</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hanna-Silvennoinen/ class=align-middle data-uni=uni1630>Hanna Silvennoinen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guillaume-Simioni/ class=align-middle data-uni=uni0599>Guillaume Simioni</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/U/U-Skiba/ class=align-middle data-uni=uni0055>U. Skiba</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Oliver-Sonnentag/ class=align-middle data-uni=uni0009>Oliver Sonnentag</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kamel-Soudani/ class=align-middle data-uni=uni0853>Kamel Soudani</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrice-Soul%C3%A9/ class=align-middle data-uni=uni1606>Patrice Soulé</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/R-Steinbrecher/ class=align-middle data-uni=uni0099>R. Steinbrecher</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tiphaine-Tallec/ class=align-middle data-uni=uni0075>Tiphaine Tallec</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anne-Thimonier/ class=align-middle data-uni=uni0036>Anne Thimonier</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/EevaStiina-Tuittila/ class=align-middle data-uni=uni0091>Eeva‐Stiina Tuittila</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/JuhaPekka-Tuovinen/ class=align-middle data-uni=uni0021>Juha‐Pekka Tuovinen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrik-Vestin/ class=align-middle data-uni=uni0046>Patrik Vestin</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Ga%C3%ABlle-Vincent/ class=align-middle data-uni=uni0857>Gaëlle Vincent</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Caroline-Vincke/ class=align-middle data-uni=uni0387>Caroline Vincke</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Domenico-Vitale/ class=align-middle data-uni=uni0238>Domenico Vitale</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Peter-Waldner/ class=align-middle data-uni=uni0036>Peter Waldner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Per-Weslien/ class=align-middle data-uni=uni0327>Per Weslien</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lisa-Wingate/ class=align-middle data-uni=uni0858>Lisa Wingate</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Georg-Wohlfahrt/ class=align-middle data-uni=uni0020>Georg Wohlfahrt</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-S-Zahniser/ class=align-middle data-uni=uni0846>M. S. Zahniser</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Timo-Vesala/ class=align-middle data-uni=uni0031>Timo Vesala</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li></div></ul></div></div><div class="col-12 col-md-6 col-lg-12"><div class="card my-2 my-md-0 my-lg-2"><h5 class=card-header>Venues</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/venues/gwf/ class=align-middle>GWF</a><span class="badge badge-secondary align-middle ml-2">1</span></li></ul></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script></body></html>

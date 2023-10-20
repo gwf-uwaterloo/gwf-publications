@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <collection id="G23">
 	<volume id="1">
 		<meta>
 			<booktitle>Journal of Advances in Modeling Earth Systems, Volume 15, Issue 3</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -25,18 +25,34 @@
 				<first>H. S.</first>
 				<last>Wheater</last>
 			</author>
+			<author>
+				<first>Mohamed S.</first>
+				<last>Abdelhamed</last>
+			</author>
+			<author>
+				<first>Mohamed</first>
+				<last>Elshamy</last>
+			</author>
+			<author>
+				<first>Saman</first>
+				<last>Razavi</last>
+			</author>
+			<author>
+				<first>H. S.</first>
+				<last>Wheater</last>
+			</author>
 			<abstract>Permafrost thaw/degradation in the Northern Hemisphere due to global warming is projected to accelerate in coming decades. Assessment of this trend requires improved understanding of the evolution and dynamics of permafrost areas. Land surface models (LSMs) are well-suited for this due to their physical basis and large-scale applicability. However, LSM application is challenging because (a) LSMs demand extensive and accurate meteorological forcing data, which are not readily available for historic conditions and only available with significant biases for future climate, (b) LSMs possess a large number of model parameters, and (c) observations of thermal/hydraulic regimes to constrain those parameters are severely limited. This study addresses these challenges by applying the MESH-CLASS modeling framework (Modélisation Environmenntale communautaire—Surface et Hydrology embedding the Canadian Land Surface Scheme) to three regions within the Mackenzie River Basin, Canada, under various meteorological forcing data sets, using the variogram analysis of response surfaces framework for sensitivity analysis and threshold-based identifiability analysis. The study shows that the modeler may face complex trade-offs when choosing a forcing data set; for current and future scenarios, forcing data require multi-variate bias correction, and some data sets enable the representation of some aspects of permafrost dynamics, but are inadequate for others. The results identify the most influential model parameters and show that permafrost simulation is most sensitive to parameters controlling surface insulation and runoff generation. But the identifiability analysis reveals that many of the most influential parameters are unidentifiable. These conclusions can inform future efforts for data collection and model parameterization.</abstract>
 			<url hash="205d72cd">G23-1001</url>
 			<doi>10.1029/2022ms003013</doi>
 			<bibkey>Abdelhamed-2023-Challenges</bibkey>
-			<project>prj46</project>			
-		</paper>
+			<project>prj46</project>
+		</paper>		
 	</volume>
 	<volume id="2">
 		<meta>
 			<booktitle>Hydrology and Earth System Sciences Discussions, Volume 2023</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -92,11 +108,19 @@
 		<meta>
 			<booktitle>Journal of Climate, Volume 36, Issue 9</booktitle>
 			<publisher>American Meteorological Society</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Changes of Extreme Precipitation in CMIP6 Projections: Should We Use Stationary or Nonstationary Models?</title>
+			<author>
+				<first>Hebatallah Mohamed</first>
+				<last>Abdelmoaty</last>
+			</author>
+			<author>
+				<first>Simon Michael</first>
+				<last>Papalexiou</last>
+			</author>
 			<author>
 				<first>Hebatallah Mohamed</first>
 				<last>Abdelmoaty</last>
@@ -111,17 +135,17 @@
 			<doi>10.1175/jcli-d-22-0467.1</doi>
 			<bibkey>Abdelmoaty-2023-Changes</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="4">
 		<meta>
 			<booktitle>Quarterly Journal of the Royal Meteorological Society, Volume 149, Issue 752</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
-			<title>Projected changes in the hotspots for agriculturally relevant compound events in Western Canada cropping regions under the &lt;scp&gt;RCP8&lt;/scp&gt;.5 scenario</title>
+			<title>Projected changes in the hotspots for agriculturally relevant compound events in Western Canada cropping regions under the RCP8.5 scenario</title>
 			<author>
 				<first>Richard Yao Kuma</first>
 				<last>Agyeman</last>
@@ -150,7 +174,7 @@
 		<meta>
 			<booktitle>Ecological Indicators, Volume 146</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -168,7 +192,7 @@
 				<last>Azadi</last>
 			</author>
 			<author>
-				<first>Ju-Hyoung</first>
+				<first>Ju‐Hyoung</first>
 				<last>Lee</last>
 			</author>
 			<author>
@@ -187,7 +211,7 @@
 		<meta>
 			<booktitle>Journal of Flood Risk Management</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -238,12 +262,91 @@
 			<bibkey>Arnal-2023-Towards</bibkey>
 			<project>prj2</project>
 		</paper>
+		<paper id="2">
+			<title>Connecting hydrological modelling and forecasting from global to local scales: Perspectives from an international joint virtual workshop</title>
+			<author>
+				<first>Antara</first>
+				<last>Dasgupta</last>
+			</author>
+			<author>
+				<first>Louise</first>
+				<last>Arnal</last>
+			</author>
+			<author>
+				<first>Rebecca</first>
+				<last>Emerton</last>
+			</author>
+			<author>
+				<first>Shaun</first>
+				<last>Harrigan</last>
+			</author>
+			<author>
+				<first>Gwyneth</first>
+				<last>Matthews</last>
+			</author>
+			<author>
+				<first>Ameer</first>
+				<last>Muhammad</last>
+			</author>
+			<author>
+				<first>Karen</first>
+				<last>O'Regan</last>
+			</author>
+			<author>
+				<first>Teresa</first>
+				<last>Pérez‐Ciria</last>
+			</author>
+			<author>
+				<first>Emixi</first>
+				<last>Valdez</last>
+			</author>
+			<author>
+				<first>Bart van</first>
+				<last>Osnabrugge</last>
+			</author>
+			<author>
+				<first>Micha</first>
+				<last>Werner</last>
+			</author>
+			<author>
+				<first>Carlo</first>
+				<last>Buontempo</last>
+			</author>
+			<author>
+				<first>Hannah</first>
+				<last>Cloke</last>
+			</author>
+			<author>
+				<first>Florian</first>
+				<last>Pappenberger</last>
+			</author>
+			<author>
+				<first>Ilias</first>
+				<last>Pechlivanidis</last>
+			</author>
+			<author>
+				<first>Christel</first>
+				<last>Prudhomme</last>
+			</author>
+			<author>
+				<first>Maria‐Helena</first>
+				<last>Ramos</last>
+			</author>
+			<author>
+				<first>Peter</first>
+				<last>Salamon</last>
+			</author>
+			<abstract>Abstract The unprecedented progress in ensemble hydro‐meteorological modelling and forecasting on a range of temporal and spatial scales, raises a variety of new challenges which formed the theme of the Joint Virtual Workshop, ‘Connecting global to local hydrological modelling and forecasting: challenges and scientific advances’. Held from 29 June to 1 July 2021, this workshop was co‐organised by the European Centre for Medium‐Range Weather Forecasts (ECMWF), the Copernicus Emergency Management (CEMS) and Climate Change (C3S) Services, the Hydrological Ensemble Prediction EXperiment (HEPEX), and the Global Flood Partnership (GFP). This article aims to summarise the state‐of‐the‐art presented at the workshop and provide an early career perspective. Recent advances in hydrological modelling and forecasting, reflections on the use of forecasts for decision‐making across scales, and means to minimise new barriers to communication in the virtual format are also discussed. Thematic foci of the workshop included hydrological model development and skill assessment, uncertainty communication, forecasts for early action, co‐production of services and incorporation of local knowledge, Earth observation, and data assimilation. Connecting hydrological services to societal needs and local decision‐making through effective communication, capacity‐building and co‐production was identified as critical. Multidisciplinary collaborations emerged as crucial to effectively bring newly developed tools to practice.</abstract>
+			<url hash="98255650">G23-37001</url>
+			<doi>10.1111/jfr3.12880</doi>
+			<bibkey>Dasgupta-2023-Connecting</bibkey>
+		</paper>
 	</volume>
 	<volume id="7">
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 876</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -357,7 +460,7 @@
 		<meta>
 			<booktitle>Earth System Science Data, Volume 15, Issue 3</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -421,7 +524,7 @@
 			</author>
 			<author>
 				<first>Jens</first>
-				<last>Strauss</last>
+				<last>Strauß</last>
 			</author>
 			<author>
 				<first>C.</first>
@@ -447,7 +550,7 @@
 		<meta>
 			<booktitle>Journal of Hydrology: Regional Studies, Volume 47</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -480,11 +583,47 @@
 		<meta>
 			<booktitle>Methods in Ecology and Evolution, Volume 14, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
-			<title>Empowering ecological modellers with a &lt;scp&gt;PERFICT&lt;/scp&gt; workflow: Seamlessly linking data, parameterisation, prediction, validation and visualisation</title>
+			<title>Empowering ecological modellers with a PERFICT workflow: Seamlessly linking data, parameterisation, prediction, validation and visualisation</title>
+			<author>
+				<first>Ceres</first>
+				<last>Barros</last>
+			</author>
+			<author>
+				<first>Yong</first>
+				<last>Luo</last>
+			</author>
+			<author>
+				<first>Alex M</first>
+				<last>Chubaty</last>
+			</author>
+			<author>
+				<first>Ian M. S.</first>
+				<last>Eddy</last>
+			</author>
+			<author>
+				<first>Tatiane</first>
+				<last>Micheletti</last>
+			</author>
+			<author>
+				<first>Céline</first>
+				<last>Boisvenue</last>
+			</author>
+			<author>
+				<first>David</first>
+				<last>Andison</last>
+			</author>
+			<author>
+				<first>Steven G.</first>
+				<last>Cumming</last>
+			</author>
+			<author>
+				<first>Eliot J. B.</first>
+				<last>McIntire</last>
+			</author>
 			<author>
 				<first>Ceres</first>
 				<last>Barros</last>
@@ -533,14 +672,26 @@
 		<meta>
 			<booktitle>Earth's Future, Volume 10, Issue 4</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Fire and Ice: The Impact of Wildfire‐Affected Albedo and Irradiance on Glacier Melt</title>
 			<author>
 				<first>Caroline</first>
-				<last>Aubry-Wake</last>
+				<last>Aubry‐Wake</last>
+			</author>
+			<author>
+				<first>André</first>
+				<last>Bertoncini</last>
+			</author>
+			<author>
+				<first>John W.</first>
+				<last>Pomeroy</last>
+			</author>
+			<author>
+				<first>Caroline</first>
+				<last>Aubry‐Wake</last>
 			</author>
 			<author>
 				<first>André</first>
@@ -561,14 +712,14 @@
 		<meta>
 			<booktitle>Hydrological Processes, Volume 36, Issue 10</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Hydrological process controls on streamflow variability in a glacierized headwater basin</title>
 			<author>
 				<first>Caroline</first>
-				<last>Aubry-Wake</last>
+				<last>Aubry‐Wake</last>
 			</author>
 			<author>
 				<first>Dhiraj</first>
@@ -589,7 +740,7 @@
 		<meta>
 			<booktitle>Ecosystems</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -608,7 +759,7 @@
 			</author>
 			<author>
 				<first>Geneviève É.</first>
-				<last>Degré-Timmons</last>
+				<last>Degré‐Timmons</last>
 			</author>
 			<author>
 				<first>Michelle C.</first>
@@ -641,7 +792,7 @@
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -673,13 +824,13 @@
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 895</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>A comparative analysis of the partitioning behaviour of SARS-CoV-2 RNA in liquid and solid fractions of wastewater</title>
 			<author>
-				<first>Patrick</first>
+				<first>Patrick R.</first>
 				<last>Breadner</last>
 			</author>
 			<author>
@@ -738,7 +889,7 @@
 		<meta>
 			<booktitle>Agricultural Water Management, Volume 284</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -756,7 +907,7 @@
 				<last>Pluer</last>
 			</author>
 			<author>
-				<first>W. Vito</first>
+				<first>W.V.</first>
 				<last>Lam</last>
 			</author>
 			<author>
@@ -791,7 +942,7 @@
 		<meta>
 			<booktitle>Cold Regions Science and Technology, Volume 209</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -824,7 +975,7 @@
 		<meta>
 			<booktitle>Canadian Journal of Remote Sensing, Volume 49, Issue 1</booktitle>
 			<publisher>Informa UK Limited</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -868,7 +1019,7 @@
 		<meta>
 			<booktitle>Environmental Research Letters, Volume 17, Issue 11</booktitle>
 			<publisher>IOP Publishing</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -899,10 +1050,10 @@
 			</author>
 			<author>
 				<first>M. Syndonia</first>
-				<last>Bret-Harte</last>
+				<last>Bret‐Harte</last>
 			</author>
 			<author>
-				<first>Eugénie S.</first>
+				<first>Eugénie</first>
 				<last>Euskirchen</last>
 			</author>
 			<author>
@@ -949,7 +1100,7 @@
 		<meta>
 			<booktitle>Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval</booktitle>
 			<publisher>ACM</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -989,7 +1140,7 @@
 		<meta>
 			<booktitle>Environmental Reviews, Volume 31, Issue 1</booktitle>
 			<publisher>Canadian Science Publishing</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1038,7 +1189,7 @@
 		<meta>
 			<booktitle>Comparative Biochemistry and Physiology Part B: Biochemistry and Molecular Biology, Volume 269</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1075,7 +1226,7 @@
 		<meta>
 			<booktitle>Frontiers in Public Health, Volume 11</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1122,7 +1273,7 @@
 			</author>
 			<author>
 				<first>Dominika</first>
-				<last>Celmer-Repin</last>
+				<last>Celmer‐Repin</last>
 			</author>
 			<author>
 				<first>Arianne M.</first>
@@ -1155,7 +1306,7 @@
 		<meta>
 			<booktitle>Emerging Infectious Diseases, Volume 29, Issue 8</booktitle>
 			<publisher>Centers for Disease Control and Prevention (CDC)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1235,11 +1386,23 @@
 		<meta>
 			<booktitle>Water Economics and Policy, Volume 09, Issue 01</booktitle>
 			<publisher>World Scientific Pub Co Pte Ltd</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Testing the Predictive Power of Hydro-Economic Supply-Side Input–Output Models Under Different Water Availability and Economic Conditions Over Time in a Transboundary River Basin</title>
+			<author>
+				<first>Leila</first>
+				<last>Eamen</last>
+			</author>
+			<author>
+				<first>Roy</first>
+				<last>Brouwer</last>
+			</author>
+			<author>
+				<first>Saman</first>
+				<last>Razavi</last>
+			</author>
 			<author>
 				<first>Leila</first>
 				<last>Eamen</last>
@@ -1257,13 +1420,13 @@
 			<doi>10.1142/s2382624x23400040</doi>
 			<bibkey>Eamen-2023-Testing</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="26">
 		<meta>
 			<booktitle>Chemosphere, Volume 334</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1312,7 +1475,7 @@
 		<meta>
 			<booktitle>Science of The Total Environment, Volume 881</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1389,7 +1552,7 @@
 		<meta>
 			<booktitle>Hydrology and Earth System Sciences, Volume 27, Issue 5</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1430,7 +1593,7 @@
 		<meta>
 			<booktitle>Ecohydrology, Volume 16, Issue 4</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1470,7 +1633,7 @@
 		<meta>
 			<booktitle>River Research and Applications, Volume 39, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1503,11 +1666,27 @@
 		<meta>
 			<booktitle>Physical Review Fluids, Volume 8, Issue 1</booktitle>
 			<publisher>American Physical Society (APS)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Gravity currents in the cabbeling regime</title>
+			<author>
+				<first>Andrew</first>
+				<last>Grace</last>
+			</author>
+			<author>
+				<first>Marek</first>
+				<last>Stastna</last>
+			</author>
+			<author>
+				<first>Kevin G.</first>
+				<last>Lamb</last>
+			</author>
+			<author>
+				<first>K. Andrea</first>
+				<last>Scott</last>
+			</author>
 			<author>
 				<first>Andrew</first>
 				<last>Grace</last>
@@ -1529,13 +1708,13 @@
 			<doi>10.1103/physrevfluids.8.014502</doi>
 			<bibkey>Grace-2023-Gravity</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="32">
 		<meta>
 			<booktitle>International Journal of Wildland Fire</booktitle>
 			<publisher>CSIRO Publishing</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1550,7 +1729,35 @@
 			</author>
 			<author>
 				<first>Laura</first>
-				<last>Bourgeau-Chavez</last>
+				<last>Bourgeau‐Chavez</last>
+			</author>
+			<author>
+				<first>Douglas G.</first>
+				<last>Woolford</last>
+			</author>
+			<author>
+				<first>Stéphane</first>
+				<last>Bélair</last>
+			</author>
+			<author>
+				<first>David L.</first>
+				<last>Martell</last>
+			</author>
+			<author>
+				<first>Mike D.</first>
+				<last>Flannigan</last>
+			</author>
+			<author>
+				<first>Chelene C.</first>
+				<last>Hanes</last>
+			</author>
+			<author>
+				<first>Mike</first>
+				<last>Wotton</last>
+			</author>
+			<author>
+				<first>Laura</first>
+				<last>Bourgeau‐Chavez</last>
 			</author>
 			<author>
 				<first>Douglas G.</first>
@@ -1579,7 +1786,7 @@
 		<meta>
 			<booktitle>Agricultural and Forest Meteorology, Volume 341</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1612,7 +1819,7 @@
 		<meta>
 			<booktitle>The Cryosphere, Volume 14, Issue 6</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1653,7 +1860,7 @@
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 5</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1677,7 +1884,7 @@
 		<meta>
 			<booktitle>Aquatic Toxicology, Volume 261</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1738,13 +1945,13 @@
 		<meta>
 			<booktitle>Angewandte Chemie International Edition, Volume 62, Issue 12</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Simultaneous Detection of L‐Lactate and D‐Glucose Using DNA Aptamers in Human Blood Serum**</title>
 			<author>
-				<first>Po-Jung Jimmy</first>
+				<first>Po‐Jung Jimmy</first>
 				<last>Huang</last>
 			</author>
 			<author>
@@ -1762,11 +1969,19 @@
 		<meta>
 			<booktitle>Water Resources Research</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Numerical study of coupled water and vapour flow, heat transfer, and solute transport in variably‐saturated deformable soil during freeze‐thaw cycles</title>
+			<author>
+				<first>Xiang</first>
+				<last>Huang</last>
+			</author>
+			<author>
+				<first>David L.</first>
+				<last>Rudolph</last>
+			</author>
 			<author>
 				<first>Xiang</first>
 				<last>Huang</last>
@@ -1786,7 +2001,7 @@
 		<meta>
 			<booktitle>Geoscientific Model Development, Volume 16, Issue 2</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1819,7 +2034,7 @@
 		<meta>
 			<booktitle>Ecosphere, Volume 14, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1830,7 +2045,7 @@
 			</author>
 			<author>
 				<first>Raquel</first>
-				<last>Alfaro-Sánchez</last>
+				<last>Alfaro‐Sánchez</last>
 			</author>
 			<author>
 				<first>Steven G.</first>
@@ -1842,7 +2057,7 @@
 			</author>
 			<author>
 				<first>Geneviève É.</first>
-				<last>Degré-Timmons</last>
+				<last>Degré‐Timmons</last>
 			</author>
 			<author>
 				<first>Nicola J.</first>
@@ -1875,7 +2090,7 @@
 		<meta>
 			<booktitle>Environmental Research, Volume 216</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -1897,7 +2112,7 @@
 				<last>Wiklund</last>
 			</author>
 			<author>
-				<first>Jelle</first>
+				<first>Jelle A.</first>
 				<last>Faber</last>
 			</author>
 			<author>
@@ -1936,13 +2151,13 @@
 		<meta>
 			<booktitle>Water, Volume 15, Issue 1</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Assessing and Mitigating Ice-Jam Flood Hazards and Risks: A European Perspective</title>
 			<author>
-				<first>Karl-Erich</first>
+				<first>Karl‐Erich</first>
 				<last>Lindenschmidt</last>
 			</author>
 			<author>
@@ -1958,8 +2173,8 @@
 				<last>Choryński</last>
 			</author>
 			<author>
-				<first>Gustafsson,</first>
-				<last>David</last>
+				<first>David</first>
+				<last>Gustafsson</last>
 			</author>
 			<author>
 				<first>Michał</first>
@@ -2081,13 +2296,13 @@
 		<meta>
 			<booktitle>Hydrology Research, Volume 54, Issue 2</booktitle>
 			<publisher>IWA Publishing</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Extension and refinement of a stochastic modelling approach to assess ice-jam flood hazard</title>
 			<author>
-				<first>Karl-Erich</first>
+				<first>Karl‐Erich</first>
 				<last>Lindenschmidt</last>
 			</author>
 			<abstract>Abstract In the spring of 2020, the town of Fort McMurray, which lies on the banks of the Athabasca River, experienced an ice-jam flood event that was the most severe in approximately 60 years. In order to capture the severity of the event, a stochastic modelling approach, previously developed by the author for ice-jam flood forecasting, has been refined for ice-jam flood hazard and risk assessments and ice-jam mitigation feasibility studies, which is the subject of this paper. Scenarios of artificial breakage demonstrate the applicability of the revised modelling framework.</abstract>
@@ -2102,13 +2317,13 @@
 		<meta>
 			<booktitle>Water, Volume 15, Issue 4</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Surface Water Quality Modelling</title>
 			<author>
-				<first>Karl-Erich</first>
+				<first>Karl‐Erich</first>
 				<last>Lindenschmidt</last>
 			</author>
 			<abstract>Surface water quality modelling has become an important means of better understanding aquatic and riparian ecosystem processes at all scales, from the micro-scale (e [...]</abstract>
@@ -2123,7 +2338,7 @@
 		<meta>
 			<booktitle>Contemporary Economic Policy, Volume 41, Issue 1</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2148,7 +2363,7 @@
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 56, Issue 20</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2237,7 +2452,7 @@
 		<meta>
 			<booktitle>Journal of Environmental Management, Volume 341</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2286,7 +2501,7 @@
 		<meta>
 			<booktitle>Aquatic Toxicology, Volume 257</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2323,7 +2538,7 @@
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 57, Issue 10</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2352,7 +2567,7 @@
 				<first>Markus</first>
 				<last>Brinkmann</last>
 			</author>
-			<abstract>Perfluoroethylcyclohexanesulfonate (PFECHS) is an emerging perfluoroalkyl substance (PFAS) that has been considered a potential replacement for perfluorooctanesulfonic acid (PFOS). However, there is little information characterizing the toxic potency of PFECHS to zebrafish embryos and its potential for effects in aquatic environments. This study assessed toxic potency of PFECHS in vivo during both acute (96-hour postfertilization) and chronic (21-day posthatch) exposures and tested concentrations of PFECHS from 500 ng/L to 2 mg/L. PFECHS was less likely to cause mortalities than PFOS for both the acute and chronic experiments based on previously published values for PFOS exposure, but exposure resulted in a similar incidence of deformities. Exposure to PFECHS also resulted in significantly increased abundance of transcripts of peroxisome proliferator activated receptor alpha (pparα), cytochrome p450 1a1 (cyp1a1), and apolipoprotein IV (apoaIV) at concentrations nearing those of environmental relevance. Overall, these results provide further insight into the safety of an emerging PFAS alternative in the aquatic environment and raise awareness that previously considered "safer" alternatives may show similar effects as legacy PFASs.</abstract>
+			<abstract>Perfluoroethylcyclohexanesulfonate (PFECHS) is an emerging perfluoroalkyl substance (PFAS) that has been considered a potential replacement for perfluorooctanesulfonic acid (PFOS). However, there is little information characterizing the toxic potency of PFECHS to zebrafish embryos and its potential for effects in aquatic environments. This study assessed toxic potency of PFECHS in vivo during both acute (96-hour postfertilization) and chronic (21-day posthatch) exposures and tested concentrations of PFECHS from 500 ng/L to 2 mg/L. PFECHS was less likely to cause mortalities than PFOS for both the acute and chronic experiments based on previously published values for PFOS exposure, but exposure resulted in a similar incidence of deformities. Exposure to PFECHS also resulted in significantly increased abundance of transcripts of peroxisome proliferator activated receptor alpha (pparα), cytochrome p450 1a1 (cyp1a1), and apolipoprotein IV (apoaIV) at concentrations nearing those of environmental relevance. Overall, these results provide further insight into the safety of an emerging PFAS alternative in the aquatic environment and raise awareness that previously considered &quot;safer&quot; alternatives may show similar effects as legacy PFASs.</abstract>
 			<url hash="cadafd73">G23-49001</url>
 			<pages>4199-4207</pages>
 			<doi>10.1021/acs.est.2c08463</doi>
@@ -2364,7 +2579,7 @@
 		<meta>
 			<booktitle>Climate Dynamics, Volume 60, Issue 5-6</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2405,7 +2620,7 @@
 		<meta>
 			<booktitle>Advances in Water Resources, Volume 173</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2434,7 +2649,7 @@
 		<meta>
 			<booktitle>Environmental Research Communications, Volume 5, Issue 3</booktitle>
 			<publisher>IOP Publishing</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2463,11 +2678,23 @@
 		<meta>
 			<booktitle>Water Resources Research, Volume 59, Issue 3</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Windmapper: An Efficient Wind Downscaling Method for Hydrological Models</title>
+			<author>
+				<first>Christopher B.</first>
+				<last>Marsh</last>
+			</author>
+			<author>
+				<first>Vincent</first>
+				<last>Vionnet</last>
+			</author>
+			<author>
+				<first>John W.</first>
+				<last>Pomeroy</last>
+			</author>
 			<author>
 				<first>Christopher B.</first>
 				<last>Marsh</last>
@@ -2500,18 +2727,30 @@
 				<first>Martyn P.</first>
 				<last>Clark</last>
 			</author>
+			<author>
+				<first>S.</first>
+				<last>Papalexiou</last>
+			</author>
+			<author>
+				<first>Francesco</first>
+				<last>Serinaldi</last>
+			</author>
+			<author>
+				<first>Martyn P.</first>
+				<last>Clark</last>
+			</author>
 			<abstract>Abstract Stochastic simulations of spatiotemporal patterns of hydroclimatic processes, such as precipitation, are needed to build alternative but equally plausible inputs for water‐related design and management, and to estimate uncertainty and assess risks. However, while existing stochastic simulation methods are mature enough to deal with relatively small domains and coarse spatiotemporal scales, additional work is required to develop simulation tools for large‐domain analyses, which are more and more common in an increasingly interconnected world. This study proposes a methodological advancement in the CoSMoS framework, which is a flexible simulation framework preserving arbitrary marginal distributions and correlations, to dramatically decrease the computational burden and make the algorithm fast enough to perform large‐domain simulations in short time. The proposed approach focuses on correlated processes with mixed (zero‐inflated) Uniform marginal distributions. These correlated processes act as intermediates between the target process to simulate (precipitation) and parent Gaussian processes that are the core of the simulation algorithm. Working in the mixed‐Uniform space enables a substantial simplification of the so‐called correlation transformation functions, which represent a computational bottle neck in the original CoSMoS formulation. As a proof of concept, we simulate 40 years of daily precipitation records from 1,000 gauging stations in the Mississippi River basin. Moreover, we extend CoSMoS incorporating parent non‐Gaussian processes with different degrees of tail dependence and suggest potential improvements including the separate simulation of occurrence and intensity processes, and the use of advection, anisotropy, and nonstationary spatiotemporal correlation functions.</abstract>
 			<url hash="010e651d">G23-53002</url>
 			<doi>10.1029/2022wr034094</doi>
 			<bibkey>Papalexiou-2023-Large‐Domain</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>				
 	</volume>
 	<volume id="54">
 		<meta>
 			<booktitle>Environmental Research, Volume 217</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2552,7 +2791,7 @@
 		<meta>
 			<booktitle>Frontiers in Artificial Intelligence, Volume 5</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2570,7 +2809,7 @@
 				<last>Beck</last>
 			</author>
 			<author>
-				<first>C. P.</first>
+				<first>Christopher P.</first>
 				<last>Bidinosti</last>
 			</author>
 			<author>
@@ -2592,7 +2831,7 @@
 		<meta>
 			<booktitle>Agricultural and Forest Meteorology, Volume 331</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2649,7 +2888,7 @@
 		<meta>
 			<booktitle>Citizen Science: Theory and Practice, Volume 8, Issue 1</booktitle>
 			<publisher>Ubiquity Press, Ltd.</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2671,7 +2910,7 @@
 				<last>Markle</last>
 			</author>
 			<author>
-				<first>Hope</first>
+				<first>Hope C. A.</first>
 				<last>Freeman</last>
 			</author>
 			<author>
@@ -2702,7 +2941,7 @@
 		<meta>
 			<booktitle>Chemosphere, Volume 333</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2755,7 +2994,7 @@
 		<meta>
 			<booktitle>Ecosphere, Volume 14, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2783,7 +3022,7 @@
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 2</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2811,7 +3050,7 @@
 		<meta>
 			<booktitle>Environmental Science &amp; Technology, Volume 57, Issue 1</booktitle>
 			<publisher>American Chemical Society (ACS)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2860,7 +3099,7 @@
 		<meta>
 			<booktitle>Water, Volume 15, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2878,7 +3117,7 @@
 				<last>Brinkmann</last>
 			</author>
 			<author>
-				<first>Karl-Erich</first>
+				<first>Karl‐Erich</first>
 				<last>Lindenschmidt</last>
 			</author>
 			<abstract>The South Saskatchewan River (SSR) is one of the most important river systems in Saskatchewan and, arguably, in Canada. Most of the Saskatchewan residents, industries, and powerplants depend on the SSR for their water requirements. An established 1D modelling approach was chosen and coupled with the Hydrologic Engineering Center’s River Analysis System (HEC-RAS). The WASP (Water Quality Analysis Simulation Program) stream transport module, TOXI, is coupled with flow routing for free-flow streams, ponded segments, and backwater reaches and is capable of calculating the flow of water, sediment, and dissolved constituents across branched and ponded segments. Copper and nickel were chosen as two metals with predominantly anthropogenic (agriculture, mining, and municipal and industrial waste management) and geogenic (natural weathering and erosion) sources, respectively. Analysis was carried out at ten different sites along the South Saskatchewan River, both upstream and downstream of the City of Saskatoon, in the years 2020 and 2021. Model performance was evaluated by comparing model predictions with concentrations of copper and nickel measured in a previously published study. The model performed well in estimating the concentrations of copper and nickel in water samples and worked reasonably well for sediment samples. The model underestimated the concentration values at certain segments in both water and sediment samples. In order to calibrate the model more accurately, extra diffusive contaminant loads were added. While several default parameter values had to be used due to the unavailability of primary historical data, our study demonstrates the predictive power of combining WASP—TOXI and HEC-RAS models for the prediction of contaminant loading. Future studies, including those on the impacts of global climate change on water quality on the Canadian prairies, will benefit from this proof-of-concept study.</abstract>
@@ -2893,7 +3132,7 @@
 		<meta>
 			<booktitle>Cold Regions Science and Technology, Volume 210</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -2930,11 +3169,19 @@
 		<meta>
 			<booktitle>Earth and Space Science, Volume 10, Issue 4</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Precipitation Bias Correction: A Novel Semi‐parametric Quantile Mapping Method</title>
+			<author>
+				<first>Chandra Rupa</first>
+				<last>Rajulapati</last>
+			</author>
+			<author>
+				<first>S.</first>
+				<last>Papalexiou</last>
+			</author>
 			<author>
 				<first>Chandra Rupa</first>
 				<last>Rajulapati</last>
@@ -2948,13 +3195,13 @@
 			<doi>10.1029/2023ea002823</doi>
 			<bibkey>Rajulapati-2023-Precipitation</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="65">
 		<meta>
 			<booktitle>Chemosphere, Volume 325</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3007,7 +3254,7 @@
 		<meta>
 			<booktitle>Microorganisms, Volume 11, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3056,7 +3303,7 @@
 		<meta>
 			<booktitle>Science, Volume 379, Issue 6627</booktitle>
 			<publisher>American Association for the Advancement of Science (AAAS)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3086,7 +3333,7 @@
 				<last>Huss</last>
 			</author>
 			<author>
-				<first>Etienne</first>
+				<first>Étienne</first>
 				<last>Berthier</last>
 			</author>
 			<author>
@@ -3125,7 +3372,7 @@
 		<meta>
 			<booktitle>Frontiers in Microbiology, Volume 14</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3144,7 +3391,7 @@
 			</author>
 			<author>
 				<first>Patrick M.</first>
-				<last>D'Aoust</last>
+				<last>D’Aoust</last>
 			</author>
 			<author>
 				<first>Robert</first>
@@ -3194,7 +3441,7 @@
 				<first>Monica B.</first>
 				<last>Emelko</last>
 			</author>
-			<abstract>The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain "non-standard" data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.</abstract>
+			<abstract>The real-time polymerase chain reaction (PCR), commonly known as quantitative PCR (qPCR), is increasingly common in environmental microbiology applications. During the COVID-19 pandemic, qPCR combined with reverse transcription (RT-qPCR) has been used to detect and quantify SARS-CoV-2 in clinical diagnoses and wastewater monitoring of local trends. Estimation of concentrations using qPCR often features a log-linear standard curve model calibrating quantification cycle (Cq) values obtained from underlying fluorescence measurements to standard concentrations. This process works well at high concentrations within a linear dynamic range but has diminishing reliability at low concentrations because it cannot explain &quot;non-standard&quot; data such as Cq values reflecting increasing variability at low concentrations or non-detects that do not yield Cq values at all. Here, fundamental probabilistic modeling concepts from classical quantitative microbiology were integrated into standard curve modeling approaches by reflecting well-understood mechanisms for random error in microbial data. This work showed that data diverging from the log-linear regression model at low concentrations as well as non-detects can be seamlessly integrated into enhanced standard curve analysis. The newly developed model provides improved representation of standard curve data at low concentrations while converging asymptotically upon conventional log-linear regression at high concentrations and adding no fitting parameters. Such modeling facilitates exploration of the effects of various random error mechanisms in experiments generating standard curve data, enables quantification of uncertainty in standard curve parameters, and is an important step toward quantifying uncertainty in qPCR-based concentration estimates. Improving understanding of the random error in qPCR data and standard curve modeling is especially important when low concentrations are of particular interest and inappropriate analysis can unduly affect interpretation, conclusions regarding lab performance, reported concentration estimates, and associated decision-making.</abstract>
 			<url hash="08a6c976">G23-68001</url>
 			<doi>10.3389/fmicb.2023.1048661</doi>
 			<bibkey>Schmidt-2023-Realizing</bibkey>
@@ -3205,7 +3452,7 @@
 		<meta>
 			<booktitle>Water Resources and Economics, Volume 41</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3234,7 +3481,7 @@
 		<meta>
 			<booktitle>Irrigation Science, Volume 41, Issue 1</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3267,7 +3514,7 @@
 		<meta>
 			<booktitle>Hydrobiologia</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3303,7 +3550,7 @@
 		<meta>
 			<booktitle>Environmental Pollution, Volume 318</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3372,7 +3619,7 @@
 		<meta>
 			<booktitle>International Journal of Climatology</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3396,7 +3643,7 @@
 		<meta>
 			<booktitle>Ecological Economics, Volume 205</booktitle>
 			<publisher>Elsevier BV</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3407,11 +3654,11 @@
 			</author>
 			<author>
 				<first>Corinne J.</first>
-				<last>Schuster-Wallace</last>
+				<last>Schuster‐Wallace</last>
 			</author>
 			<author>
 				<first>Patrick</first>
-				<last>Lloyd-Smith</last>
+				<last>Lloyd‐Smith</last>
 			</author>
 			<abstract>Differential impacts of policies or changes in environmental conditions on people is a growing area of interest to decision-makers, yet remains an often neglected area of study for the environmental valuation literature. Using data from a large national survey of over 24,000 people conducted in Canada, this paper implements a latent class Kuhn-Tucker recreation demand model to assess differences in preferences and values for nature-based activities. Preferences are disaggregated by self-reported Indigeneity, immigration status, and gender. We find that Indigenous people receive 63% greater benefits from participating in nature-based activities compared to non-Indigenous people living in Canada. Immigrants have the lowest participation in, and benefits associated with, nature-based activities. Similarly, women receive 21% lesser benefits associated with nature-based activities when compared to men. These results demonstrate that Indigenous peoples may be more vulnerable to adverse impacts on nature-based activities such as land-use changes, climate change, and government policies. The study also highlights the importance of disaggregated data and incorporating aspects of identity in the ecosystem service literature towards more equitable decision-making and reconciliation.</abstract>
 			<url hash="7f105f7e">G23-74001</url>
@@ -3425,7 +3672,7 @@
 		<meta>
 			<booktitle>Frontiers in Sustainable Food Systems, Volume 6</booktitle>
 			<publisher>Frontiers Media SA</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3461,11 +3708,27 @@
 		<meta>
 			<booktitle>Journal of Geophysical Research: Atmospheres, Volume 128, Issue 6</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>The Occurrence of Near‐0°C Surface Air Temperatures in the Current and Pseudo‐Global Warming Future Over Southern Canada</title>
+			<author>
+				<first>Ronald E.</first>
+				<last>Stewart</last>
+			</author>
+			<author>
+				<first>Z.</first>
+				<last>Liu</last>
+			</author>
+			<author>
+				<first>Julie M.</first>
+				<last>Thériault</last>
+			</author>
+			<author>
+				<first>C. J.</first>
+				<last>Ruman</last>
+			</author>
 			<author>
 				<first>Ronald E.</first>
 				<last>Stewart</last>
@@ -3487,13 +3750,13 @@
 			<doi>10.1029/2022jd037981</doi>
 			<bibkey>Stewart-2023-The</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="77">
 		<meta>
 			<booktitle>Atmosphere, Volume 14, Issue 2</booktitle>
 			<publisher>MDPI AG</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3530,11 +3793,47 @@
 		<meta>
 			<booktitle>Water Resources Research, Volume 58, Issue 12</booktitle>
 			<publisher>American Geophysical Union (AGU)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Snow Level From Post‐Processing of Atmospheric Model Improves Snowfall Estimate and Snowpack Prediction in Mountains</title>
+			<author>
+				<first>Vincent</first>
+				<last>Vionnet</last>
+			</author>
+			<author>
+				<first>M.</first>
+				<last>Verville</last>
+			</author>
+			<author>
+				<first>Vincent</first>
+				<last>Fortin</last>
+			</author>
+			<author>
+				<first>Melinda M.</first>
+				<last>Brugman</last>
+			</author>
+			<author>
+				<first>Maria</first>
+				<last>Abrahamowicz</last>
+			</author>
+			<author>
+				<first>François</first>
+				<last>Lemay</last>
+			</author>
+			<author>
+				<first>Julie M.</first>
+				<last>Thériault</last>
+			</author>
+			<author>
+				<first>Matthieu</first>
+				<last>Lafaysse</last>
+			</author>
+			<author>
+				<first>Jason A.</first>
+				<last>Milbrandt</last>
+			</author>
 			<author>
 				<first>Vincent</first>
 				<last>Vionnet</last>
@@ -3618,7 +3917,7 @@
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 8</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3657,11 +3956,11 @@
 			</author>
 			<author>
 				<first>K. V.</first>
-				<last>Schafer</last>
+				<last>Schäfer</last>
 			</author>
 			<author>
 				<first>Lisamarie</first>
-				<last>Windham-Myers</last>
+				<last>Windham‐Myers</last>
 			</author>
 			<author>
 				<first>Benjamin</first>
@@ -3672,7 +3971,7 @@
 				<last>Jackson</last>
 			</author>
 			<author>
-				<first>Kuang-Yu</first>
+				<first>Kuang‐Yu</first>
 				<last>Chang</last>
 			</author>
 			<author>
@@ -3712,7 +4011,7 @@
 				<last>Sonnentag</last>
 			</author>
 			<author>
-				<first>Eeva-Stiina</first>
+				<first>Eeva‐Stiina</first>
 				<last>Tuittila</last>
 			</author>
 			<author>
@@ -3720,7 +4019,7 @@
 				<last>Ryu</last>
 			</author>
 			<author>
-				<first>Eugénie S.</first>
+				<first>Eugénie</first>
 				<last>Euskirchen</last>
 			</author>
 			<author>
@@ -3751,7 +4050,7 @@
 		<meta>
 			<booktitle>Nature Climate Change</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3855,7 +4154,7 @@
 		<meta>
 			<booktitle>Ecohydrology, Volume 16, Issue 3</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3879,7 +4178,7 @@
 		<meta>
 			<booktitle>The Cryosphere, Volume 17, Issue 1</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3920,7 +4219,7 @@
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -3958,7 +4257,7 @@
 				<last>Ballantyne</last>
 			</author>
 			<author>
-				<first>Eugénie S.</first>
+				<first>Eugénie</first>
 				<last>Euskirchen</last>
 			</author>
 			<author>
@@ -4007,10 +4306,10 @@
 			</author>
 			<author>
 				<first>Marcin</first>
-				<last>Jackowicz-Korczynski</last>
+				<last>Jackowicz-Korczyński</last>
 			</author>
 			<author>
-				<first>Anna-Maria</first>
+				<first>Anna‐Maria</first>
 				<last>Virkkala</last>
 			</author>
 			<author>
@@ -4089,7 +4388,7 @@
 		<meta>
 			<booktitle>Hydrological Processes, Volume 37, Issue 7</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4117,7 +4416,7 @@
 		<meta>
 			<booktitle>Nature Climate Change, Volume 13, Issue 5</booktitle>
 			<publisher>Springer Science and Business Media LLC</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4158,11 +4457,27 @@
 		<meta>
 			<booktitle>Journal of Hydrologic Engineering, Volume 28, Issue 4</booktitle>
 			<publisher>American Society of Civil Engineers (ASCE)</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
 			<title>Mixture Probability Models with Covariates: Applications in Estimating Risk of Hydroclimatic Extremes</title>
+			<author>
+				<first>Nawres</first>
+				<last>Yousfi</last>
+			</author>
+			<author>
+				<first>Salaheddine El</first>
+				<last>Adlouni</last>
+			</author>
+			<author>
+				<first>S.</first>
+				<last>Papalexiou</last>
+			</author>
+			<author>
+				<first>Philippe</first>
+				<last>Gachon</last>
+			</author>
 			<author>
 				<first>Nawres</first>
 				<last>Yousfi</last>
@@ -4184,17 +4499,17 @@
 			<doi>10.1061/jhyeff.heeng-5831</doi>
 			<bibkey>Yousfi-2023-Mixture</bibkey>
 			<project>prj46</project>
-		</paper>
+		</paper>		
 	</volume>
 	<volume id="87">
 		<meta>
 			<booktitle>Global Change Biology, Volume 29, Issue 5</booktitle>
 			<publisher>Wiley</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
-			<title>&lt;scp&gt;Pan‐Arctic&lt;/scp&gt; soil moisture control on tundra carbon sequestration and plant productivity</title>
+			<title>Pan‐Arctic soil moisture control on tundra carbon sequestration and plant productivity</title>
 			<author>
 				<first>Donatella</first>
 				<last>Zona</last>
@@ -4220,7 +4535,7 @@
 				<last>Burba</last>
 			</author>
 			<author>
-				<first>Eugénie S.</first>
+				<first>Eugénie</first>
 				<last>Euskirchen</last>
 			</author>
 			<author>
@@ -4261,7 +4576,7 @@
 			</author>
 			<author>
 				<first>Efrén</first>
-				<last>López-Blanco</last>
+				<last>López‐Blanco</last>
 			</author>
 			<author>
 				<first>A.J.</first>
@@ -4331,7 +4646,7 @@
 			<url hash="eff56741">G23-87001</url>
 			<pages>1267-1281</pages>
 			<doi>10.1111/gcb.16487</doi>
-			<bibkey>Zona-2023-&lt;scp&gt;Pan‐Arctic&lt;/scp&gt;</bibkey>
+			<bibkey>Zona-2023-Pan‐Arctic</bibkey>
 			<project>prj1</project>
 		</paper>
 	</volume>
@@ -4339,7 +4654,7 @@
 		<meta>
 			<booktitle>The Cryosphere Discussions, Volume 15</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4371,7 +4686,7 @@
 		<meta>
 			<booktitle>Sensors and Actuators A: Physical, Volume 362</booktitle>
 			<publisher>Elsevier</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4407,7 +4722,7 @@
 		<meta>
 			<booktitle>Earth System Science Data Discussions, Volume 2023</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4459,7 +4774,7 @@
 		<meta>
 			<booktitle>Hydrology and Earth System Sciences, Volume 27</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4487,7 +4802,7 @@
 		<meta>
 			<booktitle>Geoscientific Model Development, Volume 16</booktitle>
 			<publisher>Copernicus GmbH</publisher>
-			<address />
+			<address/>
 			<year>2023</year>
 		</meta>
 		<paper id="1">
@@ -4535,4 +4850,1640 @@
 			<project>prj6</project>
 		</paper>
 	</volume>
+	<volume id="93">
+		<meta>
+			<booktitle>Annals of Forest Science, Volume 80, Issue 1</booktitle>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Black spruce (Picea mariana) seed availability and viability in boreal forests after large wildfires</title>
+			<author>
+				<first>Kirsten A.</first>
+				<last>Reid</last>
+			</author>
+			<author>
+				<first>Nicola J.</first>
+				<last>Day</last>
+			</author>
+			<author>
+				<first>Raquel</first>
+				<last>Alfaro‐Sánchez</last>
+			</author>
+			<author>
+				<first>Jill F.</first>
+				<last>Johnstone</last>
+			</author>
+			<author>
+				<first>Steven G.</first>
+				<last>Cumming</last>
+			</author>
+			<author>
+				<first>Michelle C.</first>
+				<last>Mack</last>
+			</author>
+			<author>
+				<first>M. R.</first>
+				<last>Turetsky</last>
+			</author>
+			<author>
+				<first>Xanthe J.</first>
+				<last>Walker</last>
+			</author>
+			<author>
+				<first>Jennifer L.</first>
+				<last>Baltzer</last>
+			</author>
+			<abstract>Abstract Key message Black spruce ( Picea mariana (Mill.) B.S.P.) has historically self-replaced following wildfire, but recent evidence suggests that this is changing. One factor could be negative impacts of intensifying fire activity on black spruce seed rain. We investigated this by measuring black spruce seed rain and seedling establishment. Our results suggest that increases in fire activity could reduce seed rain meaning reductions in black spruce establishment. Context Black spruce is an important conifer in boreal North America that develops a semi-serotinous, aerial seedbank and releases a pulse of seeds after fire. Variation in postfire seed rain has important consequences for black spruce regeneration and stand composition. Aims We explore the possible effects of changes in fire regime on the abundance and viability of black spruce seeds following a very large wildfire season in the Northwest Territories, Canada (NWT). Methods We measured postfire seed rain over 2 years at 25 black spruce-dominated sites and evaluated drivers of stand characteristics and environmental conditions on total black spruce seed rain and viability. Results We found a positive relationship between black spruce basal area and total seed rain. However, at high basal areas, this increasing rate of seed rain was not maintained. Viable seed rain was greater in stands that were older, closer to unburned edges, and where canopy combustion was less severe. Finally, we demonstrated positive relationships between seed rain and seedling establishment, confirming our measures of seed rain were key drivers of postfire forest regeneration. Conclusion These results indicate that projected increases in fire activity will reduce levels of black spruce recruitment following fire.</abstract>
+			<url hash="205d72cd">G23-1001</url>
+			<doi>10.1186/s13595-022-01166-4</doi>
+			<bibkey>Reid-2023-Black</bibkey>
+		</paper>
+	</volume>
+	<volume id="94">
+		<meta>
+			<booktitle>Aquatic Toxicology, Volume 255</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Wild fish responses to wastewater treatment plant upgrades in the Grand River, Ontario</title>
+			<author>
+				<first>Kirsten E.</first>
+				<last>Nikel</last>
+			</author>
+			<abstract>Municipal wastewater treatment plant (WWTP) effluent is one of several point sources of contaminants (nutrients, pharmaceuticals, estrogens, etc.) which can lead to adverse responses in aquatic life. Studies of WWTP effluent impacts on rainbow darter (Etheostoma caeruleum) collected downstream of WWTPs in the Grand River, Ontario have reported disruption at multiple levels of biological organization, including altered vitellogenin gene expression, lower levels of in vitro steroid production, and high frequency of intersex. However, major upgrades have occurred at treatment plants in the central Grand River over the last decade. Treatment upgrades to the Waterloo WWTP were initiated in 2009 but due to construction delays, the upgrades came fully on-line in 2017/2018. Responses in rainbow darter have been followed at sites associated with the outfall consistently over this entire time period. The treatment plant upgrade resulted in nitrification of effluent, and once complete there was a major reduction in effluent ammonia, selected pharmaceuticals, and estrogenicity. This study compared several key responses in rainbow darter associated with the Waterloo WWTP outfall prior to and post upgrades. Stable isotopes signatures in fish were used to track exposure to effluent and changed dramatically over time, corresponding to the effluent quality. Disruptions in in vitro steroid production and intersex in the darters that had been identified prior to the upgrades were no longer statistically different from the upstream reference sites after the upgrades. Although annual variations in water temperature and flow can potentially mask or exacerbate the effects of the WWTP effluent, major capital investments in wastewater treatment targeted at improving effluent quality have corresponded with the reduction of adverse responses in fish in the receiving environment.</abstract>
+			<url hash="32e8dd23">G23-2001</url>
+			<pages>106375</pages>
+			<doi>10.1016/j.aquatox.2022.106375</doi>
+			<bibkey>Nikel-2023-Wild</bibkey>
+		</paper>
+	</volume>
+	<volume id="95">
+		<meta>
+			<booktitle>Journal of Environmental Quality, Volume 52, Issue 5</booktitle>
+			<publisher>Wiley</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Trade‐offs in nutrient and sediment losses in tile drainage from no‐till versus conventional conservation‐till cropping systems</title>
+			<author>
+				<first>Merrin L.</first>
+				<last>Macrae</last>
+			</author>
+			<author>
+				<first>Janina M.</first>
+				<last>Plach</last>
+			</author>
+			<author>
+				<first>R.</first>
+				<last>Carlow</last>
+			</author>
+			<author>
+				<first>Christopher R.</first>
+				<last>Little</last>
+			</author>
+			<author>
+				<first>Helen P.</first>
+				<last>Jarvie</last>
+			</author>
+			<author>
+				<first>Kevin</first>
+				<last>McKague</last>
+			</author>
+			<author>
+				<first>William T.</first>
+				<last>Pluer</last>
+			</author>
+			<author>
+				<first>Pamela</first>
+				<last>Joosse</last>
+			</author>
+			<abstract>Abstract Nutrient and soil loss from agricultural areas impairs surface water quality globally. In the Great Lakes region, increases in the frequency and magnitude of harmful and nuisance algal blooms in freshwater lakes have been linked to elevated phosphorus (P) losses from agricultural fields, some of which are transported via tile drainage. This study examined whether concentrations and loads of P fractions, total suspended sediments (TSS), nitrate (NO 3 − ), and ammonium (NH 4 + ) in tile drainage in a clay soil differed between a continuous no‐till system combining cover crops and surface broadcast fertilizer (no‐till cover crop [NTCC]), and a more conventional tillage system with shallow tillage, fertilizer incorporation and limited use of cover crops (conventional conservation‐till, CT). Both sites had modest soil fertility levels. Year‐round, high‐frequency observations of tile drainage flow and chemistry are described over 4 full water years and related to management practices on the associated fields. There were similar water yields in tile drainage between the two systems; however, losses of TSS, particulate P (PP), and NO 3 − were consistently greater from the CT site, which received larger quantities of fertilizer. In contrast, dissolved reactive P (DRP) losses were considerably greater from the NTCC site, offsetting the lower PP losses, such that there was little difference in TP losses between sites. Approximately 60% of the DRP losses from the NTCC site over the 4 years were associated with incidental losses following surface application of fertilizer in fall. This study provides insight into trade‐offs in controlling losses of different nutrient fractions using different management systems.</abstract>
+			<url hash="8a54ba46">G23-3001</url>
+			<pages>1011-1023</pages>
+			<doi>10.1002/jeq2.20502</doi>
+			<bibkey>Macrae-2023-Trade‐offs</bibkey>
+		</paper>
+	</volume>
+	<volume id="96">
+		<meta>
+			<booktitle>Hydrogeology Journal</booktitle>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Vulnerabilidad de las aguas subterráneas en el Yukón y Northwest Territories (Canadá)</title>
+			<author>
+				<first>Andrew J.</first>
+				<last>Wiebe</last>
+			</author>
+			<author>
+				<first>Jeffrey M.</first>
+				<last>McKenzie</last>
+			</author>
+			<author>
+				<first>Edith</first>
+				<last>Hamel</last>
+			</author>
+			<author>
+				<first>David L.</first>
+				<last>Rudolph</last>
+			</author>
+			<author>
+				<first>Brendan</first>
+				<last>Mulligan</last>
+			</author>
+			<author>
+				<first>Isabelle de</first>
+				<last>Grandpré</last>
+			</author>
+			<abstract/>
+			<url hash="178382ff">G23-4001</url>
+			<doi>10.1007/s10040-023-02720-8</doi>
+			<bibkey>Wiebe-2023-Vulnerabilidad</bibkey>
+		</paper>
+	</volume>
+	<volume id="97">
+		<meta>
+			<booktitle>Applied Numerical Mathematics, Volume 183</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>3-additive linear multi-step methods for diffusion-reaction-advection models</title>
+			<author>
+				<first>Raed Ali</first>
+				<last>Mara'Beh</last>
+			</author>
+			<author>
+				<first>Raymond J.</first>
+				<last>Spiteri</last>
+			</author>
+			<author>
+				<first>Pedro</first>
+				<last>González</last>
+			</author>
+			<author>
+				<first>José Miguel</first>
+				<last>Mantas</last>
+			</author>
+			<abstract>Some systems of differential equations that model problems in science and engineering have natural splittings of the right-hand side into the sum of three parts, in particular, diffusion, reaction, and advection. Implicit-explicit (IMEX) methods treat these three terms with only two numerical methods, and this may not be desirable. Accordingly, this work gives a detailed study of 3-additive linear multi-step methods for the solution of diffusion-reaction-advection systems. Specifically, we construct new 3-additive linear multi-step methods that treat diffusion, reaction, and advection with separate methods. The stability of the new methods is investigated, and the order of convergence is tested numerically. A comparison of the new methods is made with some popular IMEX methods in terms of stability and performance. It is found that the new 3-additive methods have larger stability regions than the IMEX methods tested in some cases and generally outperform in terms of computational efficiency.</abstract>
+			<url hash="af3fe59a">G23-5001</url>
+			<pages>15-38</pages>
+			<doi>10.1016/j.apnum.2022.08.015</doi>
+			<bibkey>Mara'Beh-2023-3-additive</bibkey>
+		</paper>
+	</volume>
+	<volume id="98">
+		<meta>
+			<booktitle>Current Developments in Nutrition, Volume 7, Issue 5</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Dietary Intake Estimated From a 24-Hour Recall Questionnaire in the Dene and Métis Communities of the Northwest Territories, Canada</title>
+			<author>
+				<first>Mylène</first>
+				<last>Ratelle</last>
+			</author>
+			<author>
+				<first>Kelly</first>
+				<last>Skinner</last>
+			</author>
+			<author>
+				<first>Maria Ramirez</first>
+				<last>Prieto</last>
+			</author>
+			<author>
+				<first>Brian</first>
+				<last>Laird</last>
+			</author>
+			<abstract>Food security and nutrient deficiencies are frequent issues for people living in northern remote regions of Canada.The objective of this study is to describe the nutrient intake of residents living in the Dene/Métis communities of the Dehcho and Sahtú regions of the Northwest Territories.A 24-h dietary recall survey was used to collect information from participants of a study completed in 9 communities during the winter seasons of January 2016 to March 2018. Intakes for food groups, vitamins, macroelements, and microelements were calculated. Nutrient intakes were compared with the available DRIs.In total, there were 197 participants. On average, 37% of their energy was consumed from fat, and fruit/vegetable consumption was low (2.8 servings). Some vitamin levels (i.e., folate and vitamins A, B-6, C, and D) indicated a risk of nutritional deficiency for at least half of the participants. Of the nutrients examined, the nutrients least likely to meet the DRIs, according to the age/sex category of respondents were vitamin D (6%-20%), fiber (0%-11%), and calcium (4%-30%). Males tended to have a higher rate of nutrient adequacy above the DRIs. Importantly, 52% of the childbearing age female participants appeared deficient in folate, 48% deficient in zinc, 41% deficient in B12, and 22% deficient in iron, which might affect pregnancy and children's development.A focus on supporting a higher intake of nutrient-dense foods would benefit the health of these communities. Nutrition and health promotion programs should be implemented to improve public health efforts in the region.</abstract>
+			<url hash="bd8a4a74">G23-6001</url>
+			<pages>100055</pages>
+			<doi>10.1016/j.cdnut.2023.100055</doi>
+			<bibkey>Ratelle-2023-Dietary</bibkey>
+		</paper>
+	</volume>
+	<volume id="99">
+		<meta>
+			<booktitle>Journal of Computational Physics, Volume 476</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Fractional-step Runge–Kutta methods: Representation and linear stability analysis</title>
+			<author>
+				<first>Raymond J.</first>
+				<last>Spiteri</last>
+			</author>
+			<author>
+				<first>Siqi</first>
+				<last>Wei</last>
+			</author>
+			<abstract>Fractional-step methods are a popular and powerful divide-and-conquer approach for the numerical solution of differential equations. When the integrators of the fractional steps are Runge--Kutta methods, such methods can be written as generalized additive Runge--Kutta (GARK) methods, and thus the representation and analysis of such methods can be done through the GARK framework. We show how the general Butcher tableau representation and linear stability of such methods are related to the coefficients of the splitting method, the individual sub-integrators, and the order in which they are applied. We use this framework to explain some observations in the literature about fractional-step methods such as the choice of sub-integrators, the order in which they are applied, and the role played by negative splitting coefficients in the stability of the method.</abstract>
+			<url hash="05362d11">G23-7001</url>
+			<pages>111900</pages>
+			<doi>10.1016/j.jcp.2022.111900</doi>
+			<bibkey>Spiteri-2023-Fractional-step</bibkey>
+		</paper>
+	</volume>
+	<volume id="100">
+		<meta>
+			<booktitle>Journal of Great Lakes Research, Volume 49, Issue 2</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Sensitivity of remotely sensed pigment concentration via Mixture Density Networks (MDNs) to uncertainties from atmospheric correction</title>
+			<author>
+				<first>Kiana</first>
+				<last>Zolfaghari</last>
+			</author>
+			<author>
+				<first>Nima</first>
+				<last>Pahlevan</last>
+			</author>
+			<author>
+				<first>Stefan</first>
+				<last>Simis</last>
+			</author>
+			<author>
+				<first>Ryan</first>
+				<last>O'Shea</last>
+			</author>
+			<author>
+				<first>Claude R.</first>
+				<last>Duguay</last>
+			</author>
+			<abstract>Lake Erie, the shallowest of the five North American Laurentian Great Lakes, exhibits degraded water quality associated with recurrent phytoplankton blooms. Optical remote sensing of these optically complex inland waters is challenging due to the uncertainties stemming from atmospheric correction (AC) procedures. In this study, the accuracy of remote sensing reflectance (Rrs) derived from three different AC algorithms applied to Ocean and Land Colour Instrument (OLCI) observations of western Lake Erie (WLE) is evaluated through comparison to a regional radiometric dataset. The effects of uncertainties in Rrs products on the retrieval of near-surface concentration of pigments, including chlorophyll-a (Chla) and phycocyanin (PC), from Mixture Density Networks (MDNs) are subsequently investigated. Results show that iCOR contained the fewest number of processed (unflagged) days per pixel, compared to ACOLITE and POLYMER, for parts of the lake. Limiting results to the matchup dataset in common between the three AC algorithms shows that iCOR and ACOLITE performed closely at 665 nm, while outperforming POLYMER, with the Median Symmetric Accuracy (MdSA) of ∼30 %, 28 %, and 53 %, respectively. MDN applied to iCOR- and ACOLITE-corrected data (MdSA &lt; 37 %) outperformed MDN applied to POLYMER-corrected data in estimating Chla. Large uncertainties in satellite-derived Rrs propagated to uncertainties ∼100 % in PC estimates, although the model was able to recover concentrations along the 1:1 line. Despite the need for improvements in its cloud-masking scheme, we conclude that iCOR combined with MDNs produces adequate OLCI pigment products for studying and monitoring Chla across WLE.</abstract>
+			<url hash="5d553d47">G23-8001</url>
+			<pages>341-356</pages>
+			<doi>10.1016/j.jglr.2022.12.010</doi>
+			<bibkey>Zolfaghari-2023-Sensitivity</bibkey>
+		</paper>
+	</volume>
+	<volume id="101">
+		<meta>
+			<booktitle>Journal of Hydrology, Volume 618</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The impact of climate change on monthly baseflow trends across Canada</title>
+			<author>
+				<first>J.</first>
+				<last>Murray</last>
+			</author>
+			<author>
+				<first>Jessica R.</first>
+				<last>Ayers</last>
+			</author>
+			<author>
+				<first>Andrea E.</first>
+				<last>Brookfield</last>
+			</author>
+			<abstract>Baseflow, the groundwater contribution to streamflow, sustains surface water between precipitation events and is an important indicator of groundwater availability. Although many site-specific studies have been completed, there are few studies of long-term Canada-wide baseflow trends. In this work, we detected monthly baseflow trends across Canada and related them to changes to climatic predictors (precipitation, temperature, and antecedent wetness) using streamflow data from 1275 hydrometer stations from 1989 to 2019. Lyne and Hollick’s one-parameter digital filter is used to obtain a baseflow time series and monotonic trends are identified using the Mann-Kendall Trend Test. Historical baseflow is related to climate parameters by means of Generalised Additive Models for Location, Scale and Shape (GAMLSS) statistical analysis. Results based on trend analysis detected no significant trends for most stations (85.7% of all stations and months). However, notable increasing trends were observed across most of southern Canada during the winter and spring months (October–April). Conversely, negative trends were detected from June to September in Alberta and British Columbia and in southern Northwest Territories. Model selection identified antecedent wetness most often as a climate predictor over the same period as trend analysis. Our results highlight that warmer temperatures and increased snow cover across much of Canada have contributed to increased baseflow likely from shifts in snow melt timing and volumes. During warmer months (June–August), results indicate that increases in temperature were related to decreased baseflow, likely through increased evapotranspiration. Many trends in baseflow were not related to any climate predictors. Furthermore, non-reference basins were twice as likely to have no climate predictor, indicating that anthropogenic activities may be driving changes in baseflow. The results of this work can inform water resources management to identify the direction of change in groundwater availability across Canada and regions where mitigation may be necessary.</abstract>
+			<url hash="e5e95a22">G23-9001</url>
+			<pages>129254</pages>
+			<doi>10.1016/j.jhydrol.2023.129254</doi>
+			<bibkey>Murray-2023-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="102">
+		<meta>
+			<booktitle>Journal of Hydrology, Volume 620</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Ten strategies towards successful calibration of environmental models</title>
+			<author>
+				<first>Juliane</first>
+				<last>Mai</last>
+			</author>
+			<abstract>Model calibration is the procedure of finding model settings such that simulated model outputs best match the observed data. Model calibration is necessary when the model parameters cannot directly be measured as is the case with a wide range of environmental models where parameters are conceptually describing upscaled and effective physical processes. Model calibration is therefore an important step of environmental modeling as the model might otherwise provide random outputs if never compared to a ground truth. Model calibration itself is often referred to be an art due to its plenitude of intertwined steps and necessary decisions along the way before a calibration can be carried out or can be regarded successful. This work provides a general guide specifying which steps a modeler needs to undertake, how to diagnose the success of each step, and how to identify the right action to revise steps that were not successful. The procedure is formalized into ten iterative steps generally appearing in calibration experiments. Each step of this “calibration life cycle” is either illustrated with an exemplary calibration experiment or providing an explicit checklist the modeler can follow. These ten strategies are: (1) using sensitivity information to guide the calibration, (2) handling of parameters with constraints, (3) handling of data ranging orders of magnitude, (4) choosing the data to base the calibration on, (5) presenting various methods to sample model parameters, (6) finding appropriate parameter ranges, (7) choosing objective functions, (8) selecting a calibration algorithm, (9) determining the success and quality of a multi-objective calibration, and (10) providing a checklist to diagnose calibration performance using ideas introduced in the previous steps. The formal definition of strategies through the calibration process is providing an overview while shedding a light on connections between these main ingredients to calibrate an environmental model and will therefore enable especially novice modelers to succeed.</abstract>
+			<url hash="7f323d89">G23-10001</url>
+			<pages>129414</pages>
+			<doi>10.1016/j.jhydrol.2023.129414</doi>
+			<bibkey>Mai-2023-Ten</bibkey>
+		</paper>
+	</volume>
+	<volume id="103">
+		<meta>
+			<booktitle>Journal of Hydrology, Volume 623</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Learning from hydrological models’ challenges: A case study from the Nelson basin model intercomparison project</title>
+			<author>
+				<first>Mansoor</first>
+				<last>Ahmed</last>
+			</author>
+			<author>
+				<first>Tricia A.</first>
+				<last>Stadnyk</last>
+			</author>
+			<author>
+				<first>Alain</first>
+				<last>Pietroniro</last>
+			</author>
+			<author>
+				<first>Hervé</first>
+				<last>Awoye</last>
+			</author>
+			<author>
+				<first>A. R.</first>
+				<last>Bajracharya</last>
+			</author>
+			<author>
+				<first>Juliane</first>
+				<last>Mai</last>
+			</author>
+			<author>
+				<first>Bryan A.</first>
+				<last>Tolson</last>
+			</author>
+			<author>
+				<first>Helen C.</first>
+				<last>Shen</last>
+			</author>
+			<author>
+				<first>James R.</first>
+				<last>Craig</last>
+			</author>
+			<author>
+				<first>Melissa</first>
+				<last>Gervais</last>
+			</author>
+			<author>
+				<first>Kevin</first>
+				<last>Sagan</last>
+			</author>
+			<author>
+				<first>Shane G.</first>
+				<last>Wruth</last>
+			</author>
+			<author>
+				<first>Kristina</first>
+				<last>Koenig</last>
+			</author>
+			<author>
+				<first>Rajtantra</first>
+				<last>Lilhare</last>
+			</author>
+			<author>
+				<first>Stephen J.</first>
+				<last>Déry</last>
+			</author>
+			<author>
+				<first>Scott</first>
+				<last>Pokorny</last>
+			</author>
+			<author>
+				<first>Henry David</first>
+				<last>Venema</last>
+			</author>
+			<author>
+				<first>Ameer</first>
+				<last>Muhammad</last>
+			</author>
+			<author>
+				<first>Mahkameh</first>
+				<last>Taheri</last>
+			</author>
+			<abstract>Intercomparison studies play an important, but limited role in understanding the usefulness and limitations of currently available hydrological models. Comparison studies are often limited to well-behaved hydrological regimes, where rainfall-runoff processes dominate the hydrological response. These efforts have not covered western Canada due to the difficulty in simulating that region’s complex cold region hydrology with varying spatiotemporal contributing areas. This intercomparison study is the first of a series of studies under the intercomparison project of the international and interprovincial transboundary Nelson-Churchill River Basin (NCRB) in North America (Nelson-MIP), which encompasses different ecozones with major areas of the non-contributing Prairie potholes, forests, glaciers, mountains, and permafrost. The performance of eight hydrological and land surface models is compared at different unregulated watersheds within the NCRB. This is done to assess the models’ streamflow performance and overall fidelity without and with calibration, to capture the underlying physics of the region and to better understand why models struggle to accurately simulate its hydrology. Results show that some of the participating models have difficulties in simulating streamflow and/or internal hydrological variables (e.g., evapotranspiration) over Prairie watersheds but most models performed well elsewhere. This stems from model structural deficiencies, despite the various models being well calibrated to observed streamflow. Some model structural changes are identified for the participating models for future improvement. The outcomes of this study offer guidance for practitioners for the accurate prediction of NCRB streamflow, and for increasing confidence in future projections of water resources supply and management.</abstract>
+			<url hash="c78e5aec">G23-11001</url>
+			<pages>129820</pages>
+			<doi>10.1016/j.jhydrol.2023.129820</doi>
+			<bibkey>Ahmed-2023-Learning</bibkey>
+		</paper>
+	</volume>
+	<volume id="104">
+		<meta>
+			<booktitle>One Earth, Volume 6, Issue 2</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+	</volume>
+	<volume id="105">
+		<meta>
+			<booktitle>Science of The Total Environment, Volume 857</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Modelling Subarctic watershed dissolved organic carbon response to hydroclimatic regime</title>
+			<author>
+				<first>Sumit</first>
+				<last>Sharma</last>
+			</author>
+			<author>
+				<first>Martyn N.</first>
+				<last>Futter</last>
+			</author>
+			<author>
+				<first>Christopher</first>
+				<last>Spence</last>
+			</author>
+			<author>
+				<first>Jason J.</first>
+				<last>Venkiteswaran</last>
+			</author>
+			<author>
+				<first>Colin J.</first>
+				<last>Whitfield</last>
+			</author>
+			<abstract>Shifts in hydroclimatic regimes associated with global climate change may impact freshwater availability and quality. In high latitudes of the northern hemisphere, where vast quantities of carbon are stored terrestrially, explaining landscape-scale carbon (C) budgets and associated pollutant transfer is necessary for understanding the impact of changing hydroclimatic regimes. We used a dynamic modelling approach to simulate streamflow, DOC concentration, and DOC export in a northern Canadian catchment that has undergone notable climate warming, and will continue to for the remainder of this century. The Integrated Catchment model for Carbon (INCA-C) was successfully calibrated to a multi-year period (2012–2016) that represents a range in hydrologic conditions. The model was subsequently run over 30-year periods representing baseline and two future climate scenarios. Average discharge is predicted to decrease under an elevated temperature scenario (22–27 % of baseline) but increase (116–175 % of baseline) under an elevated temperature and precipitation scenario. In the latter scenario the nival hydroclimatic regime is expected to shift to a combined nival and pluvial regime. Average DOC flux over 30 years is predicted to decrease (24–27 % of baseline) under the elevated temperature scenario, as higher DOC concentrations are offset by lower runoff. Under the elevated temperature and precipitation scenario, results suggest an increase in carbon export of 64–81 % above baseline. These increases are attributed to greater connectivity of the catchment. The largest increase in DOC export is expected to occur in early winter. These predicted changes in DOC export, particularly under a climate that is warmer and wetter could be part of larger ecosystem change and warrant additional monitoring efforts in the region.</abstract>
+			<url hash="6d879267">G23-13001</url>
+			<pages>159382</pages>
+			<doi>10.1016/j.scitotenv.2022.159382</doi>
+			<bibkey>Sharma-2023-Modelling</bibkey>
+		</paper>
+	</volume>
+	<volume id="106">
+		<meta>
+			<booktitle>Science of The Total Environment, Volume 859</booktitle>
+			<publisher>Elsevier BV</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Sorption behaviour and toxicity of an herbicide safener “cyprosulfamide”</title>
+			<author>
+				<first>Oluwabunmi P.</first>
+				<last>Femi-Oloye</last>
+			</author>
+			<author>
+				<first>Femi Francis</first>
+				<last>Oloye</last>
+			</author>
+			<author>
+				<first>Paul D.</first>
+				<last>Jones</last>
+			</author>
+			<author>
+				<first>John P.</first>
+				<last>Giesy</last>
+			</author>
+			<abstract>Cyprosulfamide is a herbicide safener that works against the injurious effects of herbicides such as isoxaflutole, dicamba, nicosulfuron, tembotrione, thiencarbazone-methyl. However, its sorption behaviour in soils and toxicity to aquatic organisms are yet to be thoroughly examined. This study determined the octanol-water partition coefficient, sorption properties, acute and chronic toxic effects, and potency of cyprosulfamide to the cladoceran water flea (Daphnia magna). The influence of soil properties such as organic carbon content, cation exchange capacity, pH, and field capacity on adsorption and desorption properties were also examined. The Log Kow (0.55) of cyprosulfamide was less than that of some other safeners, such as benoxacor or furilazole, found in aquatic environments. The sorption of cyprosulfamide to the soil was driven by pH, so sorption decreased with an increase in pH. Other characteristics, such as cation exchange capacity (CEC), organic carbon content, and field capacity, do not directly correlate with the distribution coefficient. Cyprosulfamide generally has a low affinity for soil and is thus mobile and prone to transport to surrounding surface waters. No lethality was observed at the highest concentration (120 mg/L) tested for acute toxicity to D. magna; hence the LC50 will be &gt;120 mg/L. During chronic exposures, cyprosulfamide caused adverse effects at a concentration of 120 mg/L on the number of neonates and brood size. The death rate for the chronic study was a function of concentration and increased with days of exposure. Cyprosulfamide is unlikely to cause lethality to D. magna at relevant environmental concentrations.</abstract>
+			<url hash="f050aade">G23-14001</url>
+			<pages>160077</pages>
+			<doi>10.1016/j.scitotenv.2022.160077</doi>
+			<bibkey>Femi-Oloye-2023-Sorption</bibkey>
+		</paper>
+	</volume>
+	<volume id="107">
+		<meta>
+			<booktitle>Cambridge Prisms: Coastal Futures, Volume 1</booktitle>
+			<publisher>Cambridge University Press (CUP)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Blue justice: A review of emerging scholarship and resistance movements</title>
+			<author>
+				<first>Jessica</first>
+				<last>Blythe</last>
+			</author>
+			<author>
+				<first>David</first>
+				<last>Gill</last>
+			</author>
+			<author>
+				<first>Joachim</first>
+				<last>Claudet</last>
+			</author>
+			<author>
+				<first>Nathan</first>
+				<last>Bennett</last>
+			</author>
+			<author>
+				<first>Georgina G.</first>
+				<last>Gurney</last>
+			</author>
+			<author>
+				<first>Jacopo A.</first>
+				<last>Baggio</last>
+			</author>
+			<author>
+				<first>Natalie C.</first>
+				<last>Ban</last>
+			</author>
+			<author>
+				<first>Miranda</first>
+				<last>Bernard</last>
+			</author>
+			<author>
+				<first>Victor</first>
+				<last>Brun</last>
+			</author>
+			<author>
+				<first>Emily S.</first>
+				<last>Darling</last>
+			</author>
+			<author>
+				<first>Antonio</first>
+				<last>Franco</last>
+			</author>
+			<author>
+				<first>Graham</first>
+				<last>Epstein</last>
+			</author>
+			<author>
+				<first>Phil</first>
+				<last>Franks</last>
+			</author>
+			<author>
+				<first>Rebecca</first>
+				<last>Horan</last>
+			</author>
+			<author>
+				<first>Stacy D.</first>
+				<last>Jupiter</last>
+			</author>
+			<author>
+				<first>Jacqueline</first>
+				<last>Lau</last>
+			</author>
+			<author>
+				<first>Lucia</first>
+				<last>Natali</last>
+			</author>
+			<author>
+				<first>Shauna L.</first>
+				<last>Mahajan</last>
+			</author>
+			<author>
+				<first>Sangeeta</first>
+				<last>Mangubhai</last>
+			</author>
+			<author>
+				<first>Josheena</first>
+				<last>Naggea</last>
+			</author>
+			<author>
+				<first>Rachel</first>
+				<last>Turner</last>
+			</author>
+			<author>
+				<first>Noelia</first>
+				<last>Zafra‐Calvo</last>
+			</author>
+			<abstract>Abstract The term “blue justice” was coined in 2018 during the 3rd World Small-Scale Fisheries Congress. Since then, academic engagement with the concept has grown rapidly. This article reviews 5 years of blue justice scholarship and synthesizes some of the key perspectives, developments, and gaps. We then connect this literature to wider relevant debates by reviewing two key areas of research – first on blue injustices and second on grassroots resistance to these injustices. Much of the early scholarship on blue justice focused on injustices experienced by small-scale fishers in the context of the blue economy. In contrast, more recent writing and the empirical cases reviewed here suggest that intersecting forms of oppression render certain coastal individuals and groups vulnerable to blue injustices. These developments signal an expansion of the blue justice literature to a broader set of affected groups and underlying causes of injustice. Our review also suggests that while grassroots resistance efforts led by coastal communities have successfully stopped unfair exposure to environmental harms, preserved their livelihoods and ways of life, defended their culture and customary rights, renegotiated power distributions, and proposed alternative futures, these efforts have been underemphasized in the blue justice scholarship, and from marine and coastal literature more broadly. We conclude with some suggestions for understanding and supporting blue justice now and into the future.</abstract>
+			<url hash="48eccdbb">G23-15001</url>
+			<doi>10.1017/cft.2023.4</doi>
+			<bibkey>Blythe-2023-Blue</bibkey>
+		</paper>
+	</volume>
+	<volume id="108">
+		<meta>
+			<booktitle>Earth's Future, Volume 11, Issue 4</booktitle>
+			<publisher>American Geophysical Union (AGU)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>A Random Forest in the Great Lakes: Stream Nutrient Concentrations Across the Transboundary Great Lakes Basin</title>
+			<author>
+				<first>Nandita B.</first>
+				<last>Basu</last>
+			</author>
+			<author>
+				<first>J.</first>
+				<last>Dony</last>
+			</author>
+			<author>
+				<first>K. J. Van</first>
+				<last>Meter</last>
+			</author>
+			<author>
+				<first>Samuel J.</first>
+				<last>Johnston</last>
+			</author>
+			<author>
+				<first>Anita T.</first>
+				<last>Layton</last>
+			</author>
+			<abstract>Abstract Excess nutrient inputs from agricultural and urban sources have accelerated eutrophication and increased the incidence of algal blooms in the Great Lakes Basin (GLB). Lake basin management to address these threats relies on understanding the key drivers of pollution. Here, we use a random forest machine learning model to leverage information from 202 monitored streams in the GLB to predict seasonal and annual flow‐weighted concentrations of nitrogen and phosphorus, as well as nutrient ratios across the GLB. Land use (agricultural and urban land) and land management (tile drainage and wetland density) emerge as the two most important predictors for dissolved inorganic nitrogen (DIN; NO 3 − + NO 2 − ) and soluble reactive phosphorus (SRP; PO 4 3 ), while soil type and wetland density are more important for particulate P (PP). Partial dependence plots demonstrate increasing nutrient concentrations with increasing tile density and decreasing wetland density. In addition, increasing tile and livestock densities and decreasing forest cover correspond to higher SRP:Total Phosphorus (TP) ratios. Seasonally, the highest proportions of SRP occur in summer and fall. Higher livestock densities are also correlated with increasing N:P (DIN:TP) ratios. Livestock operations can contribute to the buildup of soil nutrients from excess manure application, while increasing subsurface drainage can provide transport pathways for dissolved nutrients. Given that both SRP:TP and the N:P ratios are strong predictors of harmful algal blooms, our study highlights the importance of livestock management, drainage management, and wetland restoration in efforts to address eutrophication in intensively managed landscapes.</abstract>
+			<url hash="5a596255">G23-16001</url>
+			<doi>10.1029/2021ef002571</doi>
+			<bibkey>Basu-2023-A</bibkey>
+		</paper>
+	</volume>
+	<volume id="109">
+		<meta>
+			<booktitle>Global Biogeochemical Cycles, Volume 37, Issue 4</booktitle>
+			<publisher>American Geophysical Union (AGU)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Memory and Management: Competing Controls on Long‐Term Nitrate Trajectories in U.S. Rivers</title>
+			<author>
+				<first>K. J. Van</first>
+				<last>Meter</last>
+			</author>
+			<author>
+				<first>D.</first>
+				<last>Byrnes</last>
+			</author>
+			<author>
+				<first>Nandita B.</first>
+				<last>Basu</last>
+			</author>
+			<abstract>Abstract Excess nitrogen from intensive agricultural production, atmospheric N deposition, and urban point sources elevates stream nitrate concentrations, leading to problems of eutrophication and ecosystem degradation in coastal waters. A major emphasis of current US‐scale analysis of water quality is to better our understanding of the relationship between changes in anthropogenic N inputs within watersheds and subsequent changes in riverine N loads. While most water quality modeling assumes a positive linear correlation between watershed N inputs and riverine N, many efforts to reduce riverine N through improved nutrient management practices result in little or no short‐term improvements in water quality. Here, we use nitrate concentration and load data from 478 US watersheds, along with developed N input trajectories for these watersheds, to quantify time‐varying relationships between N inputs and riverine N export. Our results show substantial variations in watershed N import‐export relationships over time, with quantifiable hysteresis effects. Our results show that more population‐dense urban watersheds in the northeastern U.S. more frequently show clockwise hysteresis relationships between N imports and riverine N export, with accelerated improvements in water quality being achieved through the implementation of point‐source controls. In contrast, counterclockwise hysteresis dynamics are more common in agricultural watersheds, where time lags occur between the implementation of nutrient management practices and water‐quality improvements. Finally, we find higher tile‐drainage densities to be associated with more linear relationships between N inputs and riverine N. The empirical analysis in this study is bolstered by modeled simulations to reproduce and further explain drivers behind the hysteretic relationships commonly observed in the monitored watersheds.</abstract>
+			<url hash="e2e50530">G23-17001</url>
+			<doi>10.1029/2022gb007651</doi>
+			<bibkey>Van Meter-2023-Memory</bibkey>
+		</paper>
+	</volume>
+	<volume id="110">
+		<meta>
+			<booktitle>Geochemistry, Geophysics, Geosystems, Volume 24, Issue 4</booktitle>
+			<publisher>American Geophysical Union (AGU)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Manufacturing an Exact Solution for 2D Thermochemical Mantle Convection Models</title>
+			<author>
+				<first>S. J.</first>
+				<last>Trim</last>
+			</author>
+			<author>
+				<first>S. L.</first>
+				<last>Butler</last>
+			</author>
+			<author>
+				<first>Shawn S.C.</first>
+				<last>McAdam</last>
+			</author>
+			<author>
+				<first>Raymond J.</first>
+				<last>Spiteri</last>
+			</author>
+			<abstract>Abstract In this study, we manufacture an exact solution for a set of 2D thermochemical mantle convection problems. The derivation begins with the specification of a stream function corresponding to a non‐stationary velocity field. The method of characteristics is then applied to determine an expression for composition consistent with the velocity field. The stream function formulation of the Stokes equation is then applied to solve for temperature. The derivation concludes with the application of the advection‐diffusion equation for temperature to solve for the internal heating rate consistent with the velocity, composition, and temperature solutions. Due to the large number of terms, the internal heating rate is computed using Maple™, and code is also made available in Fortran and Python. Using the method of characteristics allows the compositional transport equation to be solved without the addition of diffusion or source terms. As a result, compositional interfaces remain sharp throughout time and space in the exact solution. The exact solution presented allows for precision testing of thermochemical convection codes for correctness and accuracy.</abstract>
+			<url hash="ba861566">G23-18001</url>
+			<doi>10.1029/2022gc010807</doi>
+			<bibkey>Trim-2023-Manufacturing</bibkey>
+		</paper>
+	</volume>
+	<volume id="111">
+		<meta>
+			<booktitle>Journal of Geophysical Research: Biogeosciences, Volume 128, Issue 2</booktitle>
+			<publisher>American Geophysical Union (AGU)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Reduced Net CO&lt;sub&gt;2&lt;/sub&gt; Uptake During Dry Summers in a Boreal Shield Peatland</title>
+			<author>
+				<first>R.M.</first>
+				<last>McDonald</last>
+			</author>
+			<author>
+				<first>Paul A.</first>
+				<last>Moore</last>
+			</author>
+			<author>
+				<first>Manuel</first>
+				<last>Helbig</last>
+			</author>
+			<author>
+				<first>J. M.</first>
+				<last>Waddington</last>
+			</author>
+			<abstract>Abstract Peatlands are globally important long‐term sinks of atmospheric carbon dioxide (CO 2 ). However, there is concern that climate change‐mediated drying will reduce gross primary productivity (GPP) and increase ecosystem respiration (ER) making peatlands vulnerable to a weaker carbon sink function and potential net carbon loss. While large and deep peatlands are usually resilient to moderate summer drying, CO 2 exchange in shallow Boreal Shield peatlands is likely more sensitive to drying given the reduced groundwater connectivity and water storage potential. To better understand the carbon cycling responses of Boreal Shield peatlands to meteorological conditions, we examined ecohydrological controls on CO 2 fluxes using the eddy covariance technique at a shallow peatland during the summer season for 5 years, from 2016–2020. We found lower GPP in dry summer years. Mean summer water table depth (WTD) was found to be significantly correlated with summer total net ecosystem CO 2 exchange ( R 2 = 0.78; p value = 0.046) and GPP ( R 2 = 0.83; p value = 0.03), where wet summers with a WT close to the peat surface sequestered more than twice the amount of CO 2 than dry summers. Our findings suggest that shallow Boreal Shield peatland GPP may be sensitive to climate‐mediated drying as they may switch to a net CO 2 source in the summer season when WTDs exceed a critical ecohydrological threshold for a prolonged period of time.</abstract>
+			<url hash="38924759">G23-20001</url>
+			<doi>10.1029/2022jg006923</doi>
+			<bibkey>McDonald-2023-Reduced</bibkey>
+		</paper>
+	</volume>
+	<volume id="112">
+		<meta>
+			<booktitle>Paleoceanography and Paleoclimatology, Volume 38, Issue 4</booktitle>
+			<publisher>American Geophysical Union (AGU)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The Zonal Patterns in Late Quaternary Tropical South American Precipitation</title>
+			<author>
+				<first>Tyler</first>
+				<last>Kukla</last>
+			</author>
+			<author>
+				<first>Matthew J.</first>
+				<last>Winnick</last>
+			</author>
+			<author>
+				<first>Marysa M.</first>
+				<last>Laguë</last>
+			</author>
+			<author>
+				<first>Zhengyu</first>
+				<last>Xia</last>
+			</author>
+			<abstract>Abstract Speleothem oxygen isotope records (δ 18 O) of tropical South American rainfall in the late Quaternary show a zonal “South American Precipitation Dipole” (SAPD). The dipole is characterized by opposing east‐west precipitation anomalies compared to the present—wetter in the east and drier in the west at the mid‐Holocene (∼7 ka), and drier in the east and wetter in the west at the Last Glacial Maximum (∼21 ka). However, the SAPD remains enigmatic because it is expressed differently in western versus eastern δ 18 O records and isotope‐enabled climate model simulations usually misrepresent the magnitude and/or spatial pattern of δ 18 O change. Here, we address the SAPD enigma in two parts. First, we re‐interpret the δ 18 O data to account for upwind rainout effects that are known to be pervasive in tropical South America, but are not always considered in Quaternary paleoclimate studies. Our revised interpretation reconciles the δ 18 O data with cave infiltration and other proxy records, and indicates that the centroid of tropical South American rainfall has migrated zonally over time. Second, using an energy balance model of tropical atmospheric circulation, we hypothesize that zonal migration of the precipitation centroid can be explained by regional energy budget shifts, such as changing Saharan albedo associated with the African Humid Period, that have not been modeled in previous SAPD studies. This hypothesis of a migrating precipitation centroid presents a new framework for interpreting δ 18 O records from tropical South America and may help explain the zonal rainfall anomalies that predate the late Quaternary.</abstract>
+			<url hash="929b8fd2">G23-22001</url>
+			<doi>10.1029/2022pa004498</doi>
+			<bibkey>Kukla-2023-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="113">
+		<meta>
+			<booktitle>The Cryosphere, Volume 17, Issue 6</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Mapping snow depth on Canadian sub-arctic lakes using ground-penetrating radar</title>
+			<abstract>Abstract. Ice thickness across lake ice is mainly influenced by the presence of snow and its distribution, which affects the rate of lake ice growth. The distribution of snow depth over lake ice varies due to wind redistribution and snowpack metamorphism, affecting the variability of lake ice thickness. Accurate and consistent snow depth data on lake ice are sparse and challenging to obtain. However, high spatial resolution lake snow depth observations are necessary for the next generation of thermodynamic lake ice models to improve the understanding of how the varying distribution of snow depth influences lake ice formation and growth. This study was conducted using ground-penetrating radar (GPR) acquisitions with ∼9 cm sampling resolution along transects totalling ∼44 km to map snow depth over four Canadian sub-arctic freshwater lakes. The lake snow depth derived from GPR two-way travel time (TWT) resulted in an average relative error of under 10 % when compared to 2430 in situ snow depth observations for the early and late winter season. The snow depth derived from GPR TWTs for the early winter season was estimated with a root mean square error (RMSE) of 1.6 cm and a mean bias error of 0.01 cm, while the accuracy for the late winter season on a deeper snowpack was estimated with a RMSE of 2.9 cm and a mean bias error of 0.4 cm. The GPR-derived snow depths were interpolated to create 1 m spatial resolution snow depth maps. The findings showed improved lake snow depth retrieval accuracy and introduced a fast and efficient method to obtain high spatial resolution snow depth information. The results suggest that GPR acquisitions can be used to derive lake snow depth, providing a viable alternative to manual snow depth monitoring methods. The findings can lead to an improved understanding of snow and lake ice interactions, which is essential for northern communities' safety and wellbeing and the scientific modelling community.</abstract>
+			<url hash="320efc2c">G23-51001</url>
+			<pages>2367-2385</pages>
+			<doi>10.5194/tc-17-2367-2023</doi>
+			<bibkey>Pouw-2023-Mapping</bibkey>
+		</paper>
+	</volume>
+	<volume id="114">
+		<meta>
+			<booktitle>Nature, Volume 615, Issue 7952</booktitle>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Arctic science: resuming action without Russia</title>
+			<author>
+				<first>Jan</first>
+				<last>Písek</last>
+			</author>
+			<author>
+				<first>Oliver</first>
+				<last>Sonnentag</last>
+			</author>
+			<author>
+				<first>Torben R.</first>
+				<last>Christensen</last>
+			</author>
+			<abstract/>
+			<url hash="1df91885">G23-26001</url>
+			<pages>394-394</pages>
+			<doi>10.1038/d41586-023-00768-w</doi>
+			<bibkey>Pisek-2023-Arctic</bibkey>
+		</paper>
+	</volume>
+	<volume id="115">
+		<meta>
+			<booktitle>Nature Reviews Earth &amp; Environment, Volume 4, Issue 8</booktitle>
+			<publisher>Springer Science and Business Media LLC</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Differentiable modelling to unify machine learning and physical models for geosciences</title>
+			<author>
+				<first>Chaopeng</first>
+				<last>Shen</last>
+			</author>
+			<author>
+				<first>Alison P.</first>
+				<last>Appling</last>
+			</author>
+			<author>
+				<first>Pierre</first>
+				<last>Gentine</last>
+			</author>
+			<author>
+				<first>Toshiyuki</first>
+				<last>Bandai</last>
+			</author>
+			<author>
+				<first>Hoshin</first>
+				<last>Gupta</last>
+			</author>
+			<author>
+				<first>Alexandre M.</first>
+				<last>Tartakovsky</last>
+			</author>
+			<author>
+				<first>Marco</first>
+				<last>Baity‐Jesi</last>
+			</author>
+			<author>
+				<first>Fabrizio</first>
+				<last>Fenicia</last>
+			</author>
+			<author>
+				<first>Daniel</first>
+				<last>Kifer</last>
+			</author>
+			<author>
+				<first>Li</first>
+				<last>Li</last>
+			</author>
+			<author>
+				<first>Xiaofeng</first>
+				<last>Liu</last>
+			</author>
+			<author>
+				<first>Wei</first>
+				<last>Ren</last>
+			</author>
+			<author>
+				<first>Yi</first>
+				<last>Zheng</last>
+			</author>
+			<author>
+				<first>C. J.</first>
+				<last>Harman</last>
+			</author>
+			<author>
+				<first>Martyn P.</first>
+				<last>Clark</last>
+			</author>
+			<author>
+				<first>Matthew W.</first>
+				<last>Farthing</last>
+			</author>
+			<author>
+				<first>Dapeng</first>
+				<last>Feng</last>
+			</author>
+			<author>
+				<first>Kumar</first>
+				<last>Prabhash</last>
+			</author>
+			<author>
+				<first>Doaa</first>
+				<last>Aboelyazeed</last>
+			</author>
+			<author>
+				<first>Farshid</first>
+				<last>Rahmani</last>
+			</author>
+			<author>
+				<first>Yalan</first>
+				<last>Song</last>
+			</author>
+			<author>
+				<first>Hylke E.</first>
+				<last>Beck</last>
+			</author>
+			<author>
+				<first>Tadd</first>
+				<last>Bindas</last>
+			</author>
+			<author>
+				<first>Dipankar</first>
+				<last>Dwivedi</last>
+			</author>
+			<author>
+				<first>Kuai</first>
+				<last>Fang</last>
+			</author>
+			<author>
+				<first>Marvin</first>
+				<last>Höge</last>
+			</author>
+			<author>
+				<first>Chris</first>
+				<last>Rackauckas</last>
+			</author>
+			<author>
+				<first>Binayak P.</first>
+				<last>Mohanty</last>
+			</author>
+			<author>
+				<first>Tirthankar</first>
+				<last>Roy</last>
+			</author>
+			<author>
+				<first>Chonggang</first>
+				<last>Xu</last>
+			</author>
+			<author>
+				<first>Kathryn</first>
+				<last>Lawson</last>
+			</author>
+			<abstract>Process-based modelling offers interpretability and physical consistency in many domains of geosciences but struggles to leverage large datasets efficiently. Machine-learning methods, especially deep networks, have strong predictive skills yet are unable to answer specific scientific questions. In this Perspective, we explore differentiable modelling as a pathway to dissolve the perceived barrier between process-based modelling and machine learning in the geosciences and demonstrate its potential with examples from hydrological modelling. ‘Differentiable’ refers to accurately and efficiently calculating gradients with respect to model variables or parameters, enabling the discovery of high-dimensional unknown relationships. Differentiable modelling involves connecting (flexible amounts of) prior physical knowledge to neural networks, pushing the boundary of physics-informed machine learning. It offers better interpretability, generalizability, and extrapolation capabilities than purely data-driven machine learning, achieving a similar level of accuracy while requiring less training data. Additionally, the performance and efficiency of differentiable models scale well with increasing data volumes. Under data-scarce scenarios, differentiable models have outperformed machine-learning models in producing short-term dynamics and decadal-scale trends owing to the imposed physical constraints. Differentiable modelling approaches are primed to enable geoscientists to ask questions, test hypotheses, and discover unrecognized physical relationships. Future work should address computational challenges, reduce uncertainty, and verify the physical significance of outputs. Differentiable modelling is an approach that flexibly integrates the learning capability of machine learning with the interpretability of process-based models. This Perspective highlights the potential of differentiable modelling to improve the representation of processes, parameter estimation, and predictive accuracy in the geosciences.</abstract>
+			<url hash="a5457fe0">G23-27001</url>
+			<pages>552-567</pages>
+			<doi>10.1038/s43017-023-00450-9</doi>
+			<bibkey>Shen-2023-Differentiable</bibkey>
+		</paper>
+	</volume>
+	<volume id="116">
+		<meta>
+			<booktitle>Canadian Water Resources Journal / Revue canadienne des ressources hydriques, Volume 48, Issue 3</booktitle>
+			<publisher>Informa UK Limited</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Commentary: Towards a new era of environmental prediction in Canada</title>
+			<author>
+				<first>Martyn P.</first>
+				<last>Clark</last>
+			</author>
+			<author>
+				<first>Alain</first>
+				<last>Pietroniro</last>
+			</author>
+			<author>
+				<first>Robert</first>
+				<last>Sandford</last>
+			</author>
+			<abstract/>
+			<url hash="05f26ee9">G23-30001</url>
+			<pages>280-282</pages>
+			<doi>10.1080/07011784.2023.2173658</doi>
+			<bibkey>Clark-2023-Commentary:</bibkey>
+		</paper>
+		<paper id="2">
+			<title>Phosphorus dynamics in agricultural surface runoff at the edge of the field and in ditches during overbank flooding conditions in the Red River Valley</title>
+			<author>
+				<first>Vivekananthan</first>
+				<last>Kokulan</last>
+			</author>
+			<author>
+				<first>Matthew Q.</first>
+				<last>Morison</last>
+			</author>
+			<author>
+				<first>Janina M.</first>
+				<last>Plach</last>
+			</author>
+			<author>
+				<first>Genevieve</first>
+				<last>Ali</last>
+			</author>
+			<author>
+				<first>David A.</first>
+				<last>Lobb</last>
+			</author>
+			<author>
+				<first>Merrin L.</first>
+				<last>Macrae</last>
+			</author>
+			<abstract>Agricultural fields in the Red River Valley of the Northern Great Plains are located on flat clay soils, often drained by shallow, roadside ditches that are not graded and lacking relief. These conditions can result in flow reversals and subsequent flooding of adjacent fields during large runoff events, which can mobilize phosphorus (P). Surface runoff from two agricultural fields and their adjacent ditches was monitored from 2015 to 2017 in southern Manitoba, Canada. Overbank flooding of fields adjacent to ditches was observed in 5 of 21 hydrologic events, and such events dominated annual runoff and P budgets (&gt;83% of losses over the 3-year study period). Flooding events were often dominated by soluble P fractions (57–67%) relative to events where flooding was not observed (39–63%). Concentrations of soluble reactive P in water standing on fields increased with time during flooding events, suggesting that P was mobilized during such events; however, the source of the soluble reactive P is not clear. This study has highlighted temporal differences in hydrologic and biogeochemical interactions between fields and ditches and demonstrated the need for an improved understanding of mechanisms of P mobilization in the landscape, which has direct implications for predicting P mobility in agricultural watersheds.</abstract>
+			<url hash="9cfb3f53">G23-30002</url>
+			<pages>327-339</pages>
+			<doi>10.1080/07011784.2023.2194867</doi>
+			<bibkey>Kokulan-2023-Phosphorus</bibkey>
+		</paper>
+	</volume>
+	<volume id="117">
+		<meta>
+			<booktitle>Canadian Water Resources Journal / Revue canadienne des ressources hydriques</booktitle>
+			<publisher>Informa UK Limited</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Statistical modeling of ice cover impact on flow conveyance in the Nelson River West Channel</title>
+			<author>
+				<first>Hamid</first>
+				<last>Gozini</last>
+			</author>
+			<author>
+				<first>Samantha M.</first>
+				<last>Wilson</last>
+			</author>
+			<author>
+				<first>Masoud</first>
+				<last>Asadzadeh</last>
+			</author>
+			<author>
+				<first>Kevin</first>
+				<last>Lees</last>
+			</author>
+			<author>
+				<first>S. J.</first>
+				<last>Kim</last>
+			</author>
+			<abstract>For cold regions, an ice cover reduces channel conveyance and hydroelectricity generation potential. Therefore, predicting the impact of ice cover on a river-reservoir system is of critical importance for hydro producers. Ice impact can be described using historical records, where typical conditions are characterized by a daily median ice factor (IF) curve. The daily median IF curve works well only for past years with typical climatic conditions. Moreover, the median curve would not respond to climate-induced changes in the ice cover. In this research, a novel statistical (ST) model, named ST-IF, is developed to simulate the impact of river ice on the conveyance of the Nelson River West Channel (NRWC) as a function of daily air temperature. ST-IF uses a series of statistically based functions, including regression and threshold functions to estimate different characteristics of IF, such as its initial and peak values, and its daily distribution during ice-on period. Model performance was evaluated against historical records and the daily median value of the ice cover impact. Results showed that ST-IF significantly improved the simulation of each year-specific IF curve in NRWC compared to the daily median curve. Moreover, the model was used to predict the impact of ice cover under future climate conditions using 19 climate simulations. Results showed that, due to the predicted warmer future, ice cover is expected to take longer to fully form. This leads to longer Ice Stabilization Program duration, higher program implementation cost, and potential additional downstream stakeholder impacts. In addition, earlier ice impact peak date, shorter ice impact duration, and lower ice impact magnitude leading to overall higher winter hydroelectricity generation potential for Manitoba Hydro are expected in the future. Such future alterations intensify from near to far future time periods.</abstract>
+			<url hash="bd4e098c">G23-31001</url>
+			<pages>1-21</pages>
+			<doi>10.1080/07011784.2023.2218328</doi>
+			<bibkey>Gozini-2023-Statistical</bibkey>
+		</paper>
+	</volume>
+	<volume id="118">
+		<meta>
+			<booktitle>Atmosphere-Ocean</booktitle>
+			<publisher>Informa UK Limited</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Characteristics of Rain-Snow Transitions Over the Canadian Rockies and their Changes in Warmer Climate Conditions</title>
+			<author>
+				<first>Julie M.</first>
+				<last>Thériault</last>
+			</author>
+			<author>
+				<first>Nicolas</first>
+				<last>Leroux</last>
+			</author>
+			<author>
+				<first>Obert Tchuem</first>
+				<last>Tchuente</last>
+			</author>
+			<author>
+				<first>Ronald E.</first>
+				<last>Stewart</last>
+			</author>
+			<abstract>The southern Canadian Rockies are prone to extreme precipitation that often leads to high streamflow, deep snowpacks, and avalanche risks. Many of these precipitation events are associated with rain–snow transitions, which are highly variable in time and space due to the complex topography. A warming climate will certainly affect these extremes and the associated rain–snow transitions. The goal of this study is to investigate the characteristics and variability of rain–snow transitions aloft and how they will change in the future. Weather Research and Forecasting (WRF) simulations were conducted from 2000 to 2013 and these were repeated in a warmer pseudo-global warming (PGW) future. Rain–snow transitions occurred aloft throughout the year over the southern Canadian Rockies, but their elevations and depths were highly variable, especially across the continental divide. In PGW conditions, with future air temperatures up to 4–5°C higher on average over the Canadian Rockies, rain–snow transitions are projected to occur more often throughout the year, except during summer. The near-0°C conditions associated with rain–snow transitions are expected to increase in elevation by more than 500 m, resulting in more rain reaching the surface. Overall, this study illustrates the variability of rain–snow transitions, which often impact the location of the snowline. This study also demonstrates the non-uniform changes under PGW conditions, due in part to differences in the types of weather patterns that generate rain–snow transitions across the region.</abstract>
+			<url hash="affba662">G23-32001</url>
+			<pages>1-16</pages>
+			<doi>10.1080/07055900.2023.2251938</doi>
+			<bibkey>Thériault-2023-Characteristics</bibkey>
+		</paper>
+	</volume>
+	<volume id="119">
+		<meta>
+			<booktitle>Environmental Research Letters, Volume 18, Issue 2</booktitle>
+			<publisher>IOP Publishing</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Disconnectivity matters: the outsized role of small ephemeral wetlands in landscape-scale nutrient retention</title>
+			<author>
+				<first>F. Y.</first>
+				<last>Cheng</last>
+			</author>
+			<author>
+				<first>Junehyeong</first>
+				<last>Park</last>
+			</author>
+			<author>
+				<first>Mukesh</first>
+				<last>Kumar</last>
+			</author>
+			<author>
+				<first>N. B.</first>
+				<last>Basu</last>
+			</author>
+			<abstract>Abstract Wetlands protect downstream waters by filtering excess nitrogen (N) generated from agricultural and urban activities. Many small ephemeral wetlands, also known as geographically isolated wetlands (GIWs), are hotspots of N retention but have received fewer legal protections due to their apparent isolation from jurisdictional waters. Here, we hypothesize that the isolation of the GIWs make them more efficient N filters, especially when considering transient hydrologic dynamics. We use a reduced complexity model with 30 years of remotely sensed monthly wetland inundation levels in 3700 GIWs across eight wetlandscapes in the US to show how consideration of transient hydrologic dynamics can increase N retention estimates by up to 130%, with greater retention magnification for the smaller wetlands. This effect is more pronounced in semi-arid systems such as the prairies in North Dakota, where transient assumptions lead to 1.8 times more retention, compared to humid landscapes like the North Carolina Pocosins where transient assumptions only lead to 1.4 times more retention. Our results highlight how GIWs have an outsized role in retaining nutrients, and this service is enhanced due to their hydrologic disconnectivity which must be protected to maintain the integrity of downstream waters.</abstract>
+			<url hash="1747c107">G23-33001</url>
+			<pages>024018</pages>
+			<doi>10.1088/1748-9326/acab17</doi>
+			<bibkey>Cheng-2023-Disconnectivity</bibkey>
+		</paper>
+	</volume>
+	<volume id="120">
+		<meta>
+			<booktitle>Environmental Research Letters, Volume 18, Issue 3</booktitle>
+			<publisher>IOP Publishing</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Oil and natural gas wells across the NASA ABoVE domain: fugitive methane emissions and broader environmental impacts</title>
+			<author>
+				<first>Louise Anne</first>
+				<last>Klotz</last>
+			</author>
+			<author>
+				<first>Oliver</first>
+				<last>Sonnentag</last>
+			</author>
+			<author>
+				<first>Ziming</first>
+				<last>Wang</last>
+			</author>
+			<author>
+				<first>Jonathan</first>
+				<last>Wang</last>
+			</author>
+			<author>
+				<first>Mary</first>
+				<last>Kang</last>
+			</author>
+			<abstract>Abstract Arctic-boreal regions are experiencing major anthropogenic disturbances in addition to intensifying natural disturbance regimes as a consequence of climate change. Oil and natural gas (OG) activities are extensive in the Arctic-boreal region of western North America, a large portion of which is underlain by permafrost. The total number and distribution of OG wells and their potential fate remain unclear. Consequently, the collective impacts of OG wells on natural and cultural resources, human health and emissions of methane (CH 4 ), are poorly understood. Using public OG well databases, we analysed the distribution of OG wells drilled between 1984 and 2018 across the Core Domain of the NASA Arctic-Boreal Vulnerability Experiment (‘ABoVE domain’). We identified 242 007 OG wells drilled as of 2018 in the ABoVE domain, of which almost two thirds are now inactive or abandoned OG wells. We found that annual drilling has increased from 269 to 8599 OG wells from 1984 to 2014 with around 1000, 700 and 1800 OG wells drilled annually in evergreen forest, deciduous forest and herbaceous land cover types, respectively. 65 588 OG well sites were underlain by permafrost in 2012. Fugitive CH 4 emissions from active and abandoned OG wells drilled in the Canadian portion of the ABoVE domain accounted for approximately 13% of the total anthropogenic CH 4 emissions in Canada in 2018. Our analysis identified OG wells as an anthropogenic disturbance in the ABoVE domain with potentially non-negligible consequences to local populations, ecosystems, and the climate system.</abstract>
+			<url hash="8a90f9be">G23-34001</url>
+			<pages>035008</pages>
+			<doi>10.1088/1748-9326/acbe52</doi>
+			<bibkey>Klotz-2023-Oil</bibkey>
+		</paper>
+	</volume>
+	<volume id="121">
+		<meta>
+			<booktitle>Global Change Biology, Volume 29, Issue 18</booktitle>
+			<publisher>Wiley</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Permafrost thaw induces short‐term increase in vegetation productivity in northwestern Canada</title>
+			<author>
+				<first>Emily L</first>
+				<last>Ogden</last>
+			</author>
+			<author>
+				<first>Steven G.</first>
+				<last>Cumming</last>
+			</author>
+			<author>
+				<first>Sharon L.</first>
+				<last>Smith</last>
+			</author>
+			<author>
+				<first>M. R.</first>
+				<last>Turetsky</last>
+			</author>
+			<author>
+				<first>Jennifer L.</first>
+				<last>Baltzer</last>
+			</author>
+			<abstract>Abstract Over the past several decades, various trends in vegetation productivity, from increases to decreases, have been observed throughout Arctic–Boreal ecosystems. While some of this variation can be explained by recent climate warming and increased disturbance, very little is known about the impacts of permafrost thaw on productivity across diverse vegetation communities. Active layer thickness data from 135 permafrost monitoring sites along a 10° latitudinal transect of the Northwest Territories, Canada, paired with a Landsat time series of normalized difference vegetation index from 1984 to 2019, were used to quantify the impacts of changing permafrost conditions on vegetation productivity. We found that active layer thickness contributed to the observed variation in vegetation productivity in recent decades in the northwestern Arctic–Boreal, with the highest rates of greening occurring at sites where the near‐surface permafrost recently had thawed. However, the greening associated with permafrost thaw was not sustained after prolonged periods of thaw and appeared to diminish after the thaw front extended outside the plants' rooting zone. Highest rates of greening were found at the mid‐transect sites, between 62.4° N and 65.2° N, suggesting that more southernly sites may have already surpassed the period of beneficial permafrost thaw, while more northern sites may have yet to reach a level of thaw that supports enhanced vegetation productivity. These results indicate that the response of vegetation productivity to permafrost thaw is highly dependent on the extent of active layer thickening and that increases in productivity may not continue in the coming decades.</abstract>
+			<url hash="20993135">G23-36001</url>
+			<pages>5352-5366</pages>
+			<doi>10.1111/gcb.16812</doi>
+			<bibkey>Ogden-2023-Permafrost</bibkey>
+		</paper>
+	</volume>
+	<volume id="122">
+		<meta>
+			<booktitle>Arctic Science</booktitle>
+			<publisher>Canadian Science Publishing</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The Northwest Territories Thermokarst Mapping Collective: A northern-driven mapping collaborative toward understanding the effects of permafrost thaw</title>
+			<author>
+				<first>Steven V.</first>
+				<last>Kokelj</last>
+			</author>
+			<author>
+				<first>Tristan</first>
+				<last>Gingras-Hill</last>
+			</author>
+			<author>
+				<first>Seamus V</first>
+				<last>Daly</last>
+			</author>
+			<author>
+				<first>P D</first>
+				<last>Morse</last>
+			</author>
+			<author>
+				<first>S A</first>
+				<last>Wolfe</last>
+			</author>
+			<author>
+				<first>Ashley</first>
+				<last>Rudy</last>
+			</author>
+			<author>
+				<first>Jurjen van der</first>
+				<last>Sluijs</last>
+			</author>
+			<author>
+				<first>Niels</first>
+				<last>Weiss</last>
+			</author>
+			<author>
+				<first>H B</first>
+				<last>O'Neill</last>
+			</author>
+			<author>
+				<first>Jennifer L.</first>
+				<last>Baltzer</last>
+			</author>
+			<author>
+				<first>Trevor C.</first>
+				<last>Lantz</last>
+			</author>
+			<author>
+				<first>Carolyn</first>
+				<last>Gibson</last>
+			</author>
+			<author>
+				<first>Dieter</first>
+				<last>Cazon</last>
+			</author>
+			<author>
+				<first>Robert</first>
+				<last>Fraser</last>
+			</author>
+			<author>
+				<first>Duane G.</first>
+				<last>Froese</last>
+			</author>
+			<author>
+				<first>Garfield</first>
+				<last>Giff</last>
+			</author>
+			<author>
+				<first>Charles</first>
+				<last>Klengenberg</last>
+			</author>
+			<author>
+				<first>Scott F.</first>
+				<last>Lamoureux</last>
+			</author>
+			<author>
+				<first>William L.</first>
+				<last>Quinton</last>
+			</author>
+			<author>
+				<first>M. R.</first>
+				<last>Turetsky</last>
+			</author>
+			<author>
+				<first>Alexandre</first>
+				<last>Chiasson</last>
+			</author>
+			<author>
+				<first>C.C.</first>
+				<last>Ferguson</last>
+			</author>
+			<author>
+				<first>Michael</first>
+				<last>Newton</last>
+			</author>
+			<author>
+				<first>Mike</first>
+				<last>Pope</last>
+			</author>
+			<author>
+				<first>Jason</first>
+				<last>Paul</last>
+			</author>
+			<author>
+				<first>A E</first>
+				<last>Wilson</last>
+			</author>
+			<author>
+				<first>Joseph M.</first>
+				<last>Young</last>
+			</author>
+			<abstract>This paper documents the first comprehensive inventory of thermokarst and thaw-sensitive terrain indicators for a 2 million km2 region of northwestern Canada. This is accomplished through the Thermokarst Mapping Collective (TMC), a research collaborative to systematically inventory indicators of permafrost thaw sensitivity by mapping and aerial assessments across the Northwest Territories (NT), Canada. The increase in NT-based permafrost capacity has fostered science leadership and collaboration with government, academic, and community researchers to enable project implementation. Ongoing communications and outreach have informed study design and strengthened Indigenous and stakeholder relationships. Documentation of theme-based methods supported mapper training, and flexible data infrastructure facilitated progress by Canada-wide researchers throughout the COVID-19 pandemic. The TMC inventory of thermokarst and thaw-sensitive landforms agree well with fine-scale empirical mapping (69% to 84% accuracy) and aerial inventory (74% to 96% accuracy) datasets. National- and circumpolar-scale modelling of sensitive permafrost terrain contrasts significantly with TMC outputs, highlighting their limitations and the value of empirically-based mapping approaches. We demonstrate that the multi-parameter TMC outputs support a holistic understanding and refined depictions of permafrost terrain sensitivity, provide novel opportunities for syntheses, and inform future modelling approaches, which are urgently required to comprehend better what permafrost thaw means for Canada’s North.</abstract>
+			<url hash="c0464606">G23-38001</url>
+			<doi>10.1139/as-2023-0009</doi>
+			<bibkey>Kokelj-2023-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="123">
+		<meta>
+			<booktitle>ACM Transactions on Information Systems, Volume 41, Issue 4</booktitle>
+			<publisher>Association for Computing Machinery (ACM)</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>A Dense Representation Framework for Lexical and Semantic Matching</title>
+			<author>
+				<first>Sheng-Chieh</first>
+				<last>Lin</last>
+			</author>
+			<author>
+				<first>Jimmy</first>
+				<last>Lin</last>
+			</author>
+			<abstract>Lexical and semantic matching capture different successful approaches to text retrieval and the fusion of their results has proven to be more effective and robust than either alone. Prior work performs hybrid retrieval by conducting lexical and semantic matching using different systems (e.g., Lucene and Faiss, respectively) and then fusing their model outputs. In contrast, our work integrates lexical representations with dense semantic representations by densifying high-dimensional lexical representations into what we call low-dimensional dense lexical representations (DLRs). Our experiments show that DLRs can effectively approximate the original lexical representations, preserving effectiveness while improving query latency. Furthermore, we can combine dense lexical and semantic representations to generate dense hybrid representations (DHRs) that are more flexible and yield faster retrieval compared to existing hybrid techniques. In addition, we explore jointly training lexical and semantic representations in a single model and empirically show that the resulting DHRs are able to combine the advantages of the individual components. Our best DHR model is competitive with state-of-the-art single-vector and multi-vector dense retrievers in both in-domain and zero-shot evaluation settings. Furthermore, our model is both faster and requires smaller indexes, making our dense representation framework an attractive approach to text retrieval. Our code is available at https://github.com/castorini/dhr .</abstract>
+			<url hash="b7d2b2f9">G23-40001</url>
+			<pages>1-29</pages>
+			<doi>10.1145/3582426</doi>
+			<bibkey>Lin-2023-A</bibkey>
+		</paper>
+	</volume>
+	<volume id="124">
+		<meta>
+			<booktitle>Journal of Climate, Volume 36, Issue 6</booktitle>
+			<publisher>American Meteorological Society</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Understanding Responses of Summer Continental Daily Temperature Variance to Perturbations in the Land Surface Evaporative Resistance</title>
+			<author>
+				<first>Wenwen</first>
+				<last>Kong</last>
+			</author>
+			<author>
+				<first>Karen A.</first>
+				<last>McKinnon</last>
+			</author>
+			<author>
+				<first>Isla R.</first>
+				<last>Simpson</last>
+			</author>
+			<author>
+				<first>Marysa M.</first>
+				<last>Laguë</last>
+			</author>
+			<abstract>Abstract Understanding the roles of land surface conditions and atmospheric circulation on continental daily temperature variance is key to improving predictions of temperature extremes. Evaporative resistance ( r s , hereafter), a function of the land cover type, reflects the ease with which water can be evaporated or transpired and is a strong control on land–atmosphere interactions. This study explores the effects of r s perturbations on summer daily temperature variance using the Simple Land Interface Model (SLIM) by mimicking, for r s only, a global land cover conversion from forest to crop/grassland. Decreasing r s causes a global cooling. The cooling is larger in wetter areas and weaker in drier areas, and primarily results from perturbations in shortwave radiation (SW) and latent heat flux (LH). Decreasing r s enhances cloud cover due to greater land surface evaporation and thus reduces incoming SW over most land areas. When r s decreases, wetter areas experience strong evaporative cooling, while drier areas become more moisture-limited and thus experience less cooling. Thermal advection further shapes the temperature response by damping the combined impacts of SW and LH. Temperature variance increases in drier areas and decreases in wetter areas as r s decreases. The temperature variance changes can be largely explained from changes in the combined variance of SW and LH, including an important contribution of changes in the covariance of SW and LH. In contrast, the effects of changes in thermal advection variance mainly affect the Northern Hemisphere midlatitudes. Significance Statement This study aims to better understand processes governing daily near-surface air temperature variance over land. We use an idealized modeling framework to explore the effects of land surface evaporative resistance (a parameter that controls how hard it is to evaporate water from the surface) on summer daily temperature variance. We find that a uniform decrease of evaporative resistance across the global land surface causes changes in the temperature variance that can be predicted from changes in the combined variance of shortwave radiation and latent heat flux. The variance of horizontal advection is important in altering the temperature variance in the Northern Hemisphere midlatitudes. Our findings shed light on predicting the characteristics of temperature variability as a function of surface conditions.</abstract>
+			<url hash="0f6ed59c">G23-41001</url>
+			<pages>1653-1678</pages>
+			<doi>10.1175/jcli-d-21-1011.1</doi>
+			<bibkey>Kong-2023-Understanding</bibkey>
+		</paper>
+	</volume>
+	<volume id="125">
+		<meta>
+			<booktitle>Journal of Climate, Volume 36, Issue 18</booktitle>
+			<publisher>American Meteorological Society</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>The Effect of Greenhouse Gas–Induced Warming on the Impact of El Niño and La Niña Events on Daily Precipitation Extremes in the Boreal Cold Season</title>
+			<author>
+				<first>Qing</first>
+				<last>Sun</last>
+			</author>
+			<author>
+				<first>Francis W.</first>
+				<last>Zwiers</last>
+			</author>
+			<author>
+				<first>Xuebin</first>
+				<last>Zhang</last>
+			</author>
+			<author>
+				<first>Yaheng</first>
+				<last>Tan</last>
+			</author>
+			<abstract>Abstract El Niño–Southern Oscillation (ENSO) has a profound influence on the occurrence of extreme precipitation events at local and regional scales in the present-day climate, and thus it is important to understand how that influence may change under future global warming. We consider this question using the large-ensemble simulations of CESM2, which simulates ENSO well historically. CESM2 projects that the influence of ENSO on extreme precipitation will strengthen further under the SSP3–7.0 scenario in most regions whose extreme precipitation regimes are strongly affected by ENSO in the boreal cold season. Extreme precipitation in the boreal cold season that exceeds historical thresholds is projected to become more common throughout the ENSO cycle. The difference in the intensity of extreme precipitation events that occur under El Niño and La Niña conditions will increase, resulting in “more extreme and more variable hydroclimate extremes.” We also consider the processes that affect the future intensity of extreme precipitation and how it varies with the ENSO cycle by partitioning changes into thermodynamic and dynamic components. The thermodynamic component, which reflects increases in atmospheric moisture content, results in a relatively uniform intensification of ENSO-driven extreme precipitation variation. In contrast, the dynamic component, which reflects changes in vertical motion, produces a strong regional difference in the response to forcing. In some regions, this component amplifies the thermodynamic-induced changes, while in others, it offsets them or even results in reduction in extreme precipitation variation.</abstract>
+			<url hash="a5671d17">G23-43001</url>
+			<pages>6393-6407</pages>
+			<doi>10.1175/jcli-d-22-0713.1</doi>
+			<bibkey>Sun-2023-The</bibkey>
+		</paper>
+	</volume>
+	<volume id="126">
+		<meta>
+			<booktitle>Canadian Food Studies / La Revue canadienne des études sur l'alimentation, Volume 10, Issue 1</booktitle>
+			<publisher>University of Waterloo</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Characterizing the development and dissemination of dietary messaging in the Inuvialuit Settlement Region, Northwest Territories</title>
+			<author>
+				<first>Julia</first>
+				<last>Gyapay</last>
+			</author>
+			<author>
+				<first>Sonja K.</first>
+				<last>Ostertag</last>
+			</author>
+			<author>
+				<first>Sonia</first>
+				<last>Wesche</last>
+			</author>
+			<author>
+				<first>Brian B.</first>
+				<last>Laird</last>
+			</author>
+			<author>
+				<first>Kelly</first>
+				<last>Skinner</last>
+			</author>
+			<abstract>Public health communication about diet in Inuit communities must balance the benefits and risks associated with both country and store-bought food choices and processes to support Inuit well-being. An understanding of how dietary messages—public health communication addressing the health and safety of country and store-bought food—are developed and disseminated in the Arctic is currently lacking. As part of the Country Foods for Good Health study, this participatory research sought to characterize dietary messaging in the Inuvialuit Settlement Region (ISR), Northwest Territories (NWT), from the perspective of territorial, regional and local dietary message disseminators to further improve message communication in the region. We conducted an in-person interview (n=1) (February 2020), telephone interviews (n=13) (May-June 2020), and follow-up telephone interviews (n=5) (June 2021) with key informants about their involvement in developing and/or disseminating dietary messages about the health benefits and risks of country foods and/or store-bought foods in/for the ISR. Key informants interviewed included health professionals (n=5), government employees (n=6) and community nutrition or food program coordinators (n=3) located in Inuvik, Tuktoyaktuk, Paulatuk and Yellowknife, NWT. We conducted a thematic analysis on the 19 interviews. Our findings indicate that publicly disseminated dietary messages in the ISR are developed at all scales and communicated through a variety of methods. Dietary messages focus predominantly on encouraging healthy store-bought food choices and conveying nutritional advice about store-bought and country foods. As federal and territorial messaging is seldom tailored to the ISR, representation of the Inuvialuit food system and consideration of local food realities is generally lacking. There is a need to evaluate dietary messages and improve collaborations among Inuvialuit country food knowledge holders, researchers, and public health dietary message disseminators at all scales to develop more locally tailored and culturally relevant messaging in the ISR. We recommend utilizing a participatory, collaborative, culture-centered approach to dietary message development and dissemination in northern Indigenous contexts.</abstract>
+			<url hash="38b025ae">G23-44001</url>
+			<pages>103-129</pages>
+			<doi>10.15353/cfs-rcea.v10i1.569</doi>
+			<bibkey>Gyapay-2023-Characterizing</bibkey>
+		</paper>
+	</volume>
+	<volume id="127">
+		<meta>
+			<booktitle> </booktitle>
+			<publisher>Authorea, Inc.</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Low cobalt limits cyanobacteria heterocyst frequency in culture but potential for cobalt limitation of frequency in nitrogen-limited surface waters is unclear</title>
+			<author>
+				<first>Purnank</first>
+				<last>Shah</last>
+			</author>
+			<author>
+				<first>Jason J.</first>
+				<last>Venkiteswaran</last>
+			</author>
+			<author>
+				<first>Lewis A.</first>
+				<last>Molot</last>
+			</author>
+			<author>
+				<first>Scott N.</first>
+				<last>Higgins</last>
+			</author>
+			<author>
+				<first>Sherry L.</first>
+				<last>Schiff</last>
+			</author>
+			<author>
+				<first>Helen M.</first>
+				<last>Baulch</last>
+			</author>
+			<author>
+				<first>R. Allen</first>
+				<last>Curry</last>
+			</author>
+			<author>
+				<first>Karen A.</first>
+				<last>Kidd</last>
+			</author>
+			<author>
+				<first>Jennifer B.</first>
+				<last>Korosi</last>
+			</author>
+			<author>
+				<first>Andrew M.</first>
+				<last>Paterson</last>
+			</author>
+			<author>
+				<first>Frances R.</first>
+				<last>Pick</last>
+			</author>
+			<author>
+				<first>Dan</first>
+				<last>Walters</last>
+			</author>
+			<author>
+				<first>Susan B.</first>
+				<last>Watson</last>
+			</author>
+			<author>
+				<first>Arthur</first>
+				<last>Zastepa</last>
+			</author>
+			<abstract/>
+			<url hash="800c42cb">G23-45001</url>
+			<doi>10.22541/essoar.169143854.47061989/v1</doi>
+			<bibkey>Shah-2023-Low</bibkey>
+		</paper>
+		<paper id="2">
+			<title>Environmental controls of non-growing season carbon dioxide fluxes in boreal and tundra environments</title>
+			<author>
+				<first>Alex</first>
+				<last>Mavrovic</last>
+			</author>
+			<author>
+				<first>Oliver</first>
+				<last>Sonnentag</last>
+			</author>
+			<author>
+				<first>Juha</first>
+				<last>Lemmetyinen</last>
+			</author>
+			<author>
+				<first>Carolina</first>
+				<last>Voigt</last>
+			</author>
+			<author>
+				<first>Nick</first>
+				<last>Rutter</last>
+			</author>
+			<author>
+				<first>P.</first>
+				<last>Mann</last>
+			</author>
+			<author>
+				<first>Jean‐Daniel</first>
+				<last>Sylvain</last>
+			</author>
+			<author>
+				<first>Alexandre</first>
+				<last>Roy</last>
+			</author>
+			<abstract>Abstract. The carbon cycle in Arctic-boreal regions (ABR) is an important component of the planetary carbon balance, with growing concerns about the consequences of ABR warming on the global climate system. The greatest uncertainty in annual carbon dioxide (CO2) budgets exists during the non-growing season, primarily due to challenges with data availability and limited spatial coverage in measurements. The goal of this study was to determine the main environmental controls of non-growing season CO2 fluxes in ABR over a latitudinal gradient (45° N to 69° N) featuring four different ecosystem types: closed-crown coniferous boreal forest, open-crown coniferous boreal forest, erect-shrub tundra, and prostrate-shrub tundra. CO2 fluxes calculated using a snowpack diffusion gradient method (n = 560) ranged from 0 to 1.05 gC m2 day-1. To assess the dominant environmental controls governing CO2 fluxes, a Random Forest machine learning approach was used. We identified that soil temperature as the main control of non-growing season CO2 fluxes with 68 % of relative model importance, except when soil liquid water occurred during zero degree Celsius curtain conditions (Tsoil ≈ 0 °C and liquid water coexists with ice in soil pores). Under zero-curtain conditions, liquid water content became the main control of CO2 fluxes with 87 % of relative model importance. We observed exponential regressions between CO2 fluxes and soil temperature (RMSE = 0.024 gC m-2 day-1) in frozen soils, as well as liquid water content (RMSE = 0.137 gC m-2 day-1) in zero-curtain conditions. This study is showing the role of several variables on the spatio-temporal variability of CO2 fluxes in ABR during the non-growing season and highlight that the complex vegetation-snow-soil interactions in northern environments must be considered when studying what drives the spatial variability of soil carbon emission during the non-growing season.</abstract>
+			<url hash="19051371">G23-45002</url>
+			<doi>10.5194/bg-2023-92</doi>
+			<bibkey>Mavrovic-2023-Environmental</bibkey>
+		</paper>
+		<paper id="3">
+			<title>Developing a tile drainage module for Cold Regions Hydrological Model: Lessons from a farm in Southern Ontario, Canada</title>
+			<author>
+				<first>Mazda</first>
+				<last>Kompani-Zare</last>
+			</author>
+			<author>
+				<first>Diogo</first>
+				<last>Costa</last>
+			</author>
+			<author>
+				<first>Merrin L.</first>
+				<last>Macrae</last>
+			</author>
+			<author>
+				<first>John W.</first>
+				<last>Pomeroy</last>
+			</author>
+			<author>
+				<first>Richard M.</first>
+				<last>Petrone</last>
+			</author>
+			<abstract>Abstract. Systematic tile drainage is used extensively in agricultural lands to remove excess water and improve crop growth; however, tiles can also transfer nutrients from farmlands to downstream surface water bodies, leading to water quality problems. There is a need to simulate the hydrological behaviour of tile drains to understand the impacts of climate or land management change on agricultural runoff. The Cold Regions Hydrological Model (CRHM) is a physically based, modular modelling system that enables the creation of comprehensive models appropriate for cold regions by including a full suite of winter, spring, and summer season processes and coupling these together via mass and energy balances. A new tile drainage module was developed for CRHM to account for this process in tile-drained landscapes that are increasingly common in cultivated basins of the Great Lakes and northern Prairies regions of North America. A robust multi-variable, multi-criteria model performance evaluation strategy was deployed to examine the ability of the module with CRHM to capture tile discharge under both winter and summer conditions. Results showed that soil moisture is largely regulated by tile flow and lateral flow from adjacent fields. The explicit representation of capillary rise for moisture interactions between the rooting zone and groundwater greatly improved model simulations, demonstrating its significance in the hydrology of tile drains in loam soils. Water level patterns revealed a bimodal behaviour that depended on the positioning of the capillary fringe relative to the tile. A novel aspect of this module is the use of field capacity and its corresponding pressure head to provide an estimate of drainable water and thickness of the capillary fringe, rather than a detailed soil retention curve that may not always be available. Understanding the bimodal nature of soil water levels provides better insight into the significance of dynamic water exchange between soil layers below drains to improve tile drainage representation in models.</abstract>
+			<url hash="6e0223e7">G23-45003</url>
+			<doi>10.5194/egusphere-2023-142</doi>
+			<bibkey>Kompanizare-2023-Developing</bibkey>
+		</paper>
+	</volume>
+	<volume id="128">
+		<meta>
+			<booktitle>Biogeosciences, Volume 20, Issue 14</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Reviews and syntheses: Recent advances in microwave  remote sensing in support of terrestrial carbon cycle  science in Arctic–boreal regions</title>
+			<abstract/>
+			<url hash="92b9ed25">G23-46001</url>
+			<pages>2941-2970</pages>
+			<doi>10.5194/bg-20-2941-2023</doi>
+			<bibkey>Mavrovic-2023-Reviews</bibkey>
+		</paper>
+	</volume>
+	<volume id="129">
+		<meta>
+			<booktitle>Geoscientific Model Development, Volume 16, Issue 13</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Developing spring wheat in the Noah-MP land surface model (v4.4) for growing season dynamics and responses to temperature stress</title>
+			<abstract>Abstract. The US Northern Great Plains and the Canadian Prairies are known as the world's breadbaskets for their large spring wheat production and exports to the world. It is essential to accurately represent spring wheat growing dynamics and final yield and improve our ability to predict food production under climate change. This study attempts to incorporate spring wheat growth dynamics into the Noah-MP crop model for a long time period (13 years) and fine spatial scale (4 km). The study focuses on three aspects: (1) developing and calibrating the spring wheat model at a point scale, (2) applying a dynamic planting and harvest date to facilitate large-scale simulations, and (3) applying a temperature stress function to assess crop responses to heat stress amid extreme heat. Model results are evaluated using field observations, satellite leaf area index (LAI), and census data from Statistics Canada and the United States Department of Agriculture (USDA). Results suggest that incorporating a dynamic planting and harvest threshold can better constrain the growing season, especially the peak timing and magnitude of wheat LAI, as well as obtain realistic yield compared to prescribing a static province/state-level map. Results also demonstrate an evident control of heat stress upon wheat yield in three Canadian Prairies Provinces, which are reasonably captured in the new temperature stress function. This study has important implications in terms of estimating crop yields, modeling the land–atmosphere interactions in agricultural areas, and predicting crop growth responses to increasing temperatures amidst climate change.</abstract>
+			<url hash="2a058a40">G23-47001</url>
+			<pages>3809-3825</pages>
+			<doi>10.5194/gmd-16-3809-2023</doi>
+			<bibkey>Zhang-Li-2023-Developing-spring</bibkey>
+		</paper>
+	</volume>
+	<volume id="130">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 27, Issue 9</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Hybrid forecasting: blending climate predictions with AI models</title>
+			<abstract>Abstract. Hybrid hydroclimatic forecasting systems employ data-driven (statistical or machine learning) methods to harness and integrate a broad variety of predictions from dynamical, physics-based models – such as numerical weather prediction, climate, land, hydrology, and Earth system models – into a final prediction product. They are recognized as a promising way of enhancing the prediction skill of meteorological and hydroclimatic variables and events, including rainfall, temperature, streamflow, floods, droughts, tropical cyclones, or atmospheric rivers. Hybrid forecasting methods are now receiving growing attention due to advances in weather and climate prediction systems at subseasonal to decadal scales, a better appreciation of the strengths of AI, and expanding access to computational resources and methods. Such systems are attractive because they may avoid the need to run a computationally expensive offline land model, can minimize the effect of biases that exist within dynamical outputs, benefit from the strengths of machine learning, and can learn from large datasets, while combining different sources of predictability with varying time horizons. Here we review recent developments in hybrid hydroclimatic forecasting and outline key challenges and opportunities for further research. These include obtaining physically explainable results, assimilating human influences from novel data sources, integrating new ensemble techniques to improve predictive skill, creating seamless prediction schemes that merge short to long lead times, incorporating initial land surface and ocean/ice conditions, acknowledging spatial variability in landscape and atmospheric forcing, and increasing the operational uptake of hybrid prediction schemes.</abstract>
+			<url hash="72669a16">G23-48001</url>
+			<pages>1865-1889</pages>
+			<doi>10.5194/hess-27-1865-2023</doi>
+			<bibkey>Slater-2023-Hybrid</bibkey>
+		</paper>
+	</volume>
+	<volume id="131">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 27, Issue 11</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Hydrological, meteorological, and watershed controls on  the water balance of thermokarst lakes between Inuvik  and Tuktoyaktuk, Northwest Territories, Canada</title>
+			<abstract>Abstract. Thermokarst lake water balances are becoming increasingly vulnerable to change in the Arctic as air temperature increases and precipitation patterns shift. In the tundra uplands east of the Mackenzie Delta in the Northwest Territories, Canada, previous research has found that lakes responded non-uniformly to year-to-year changes in precipitation, suggesting that lake and watershed properties mediate the response of lakes to climate change. To investigate how lake and watershed properties and meteorological conditions influence the water balance of thermokarst lakes in this region, we sampled 25 lakes for isotope analysis five times in 2018, beginning before snowmelt on 1 May and sampling throughout the remainder of the ice-free season. Water isotope data were used to calculate the average isotope composition of lake source water (δI) and the ratio of evaporation to inflow (E/I). We identified four distinct water balance phases as lakes responded to seasonal shifts in meteorological conditions and hydrological processes. During the freshet phase from 1 May to 15 June, the median E/I ratio of lakes decreased from 0.20 to 0.13 in response to freshet runoff and limited evaporation due to lake ice presence that persisted for the duration of this phase. During the following warm, dry, and ice-free period from 15 June to 26 July, designated the evaporation phase, the median E/I ratio increased to 0.19. During the brief soil wetting phase, E/I ratios did not respond to rainfall between 26 July and 2 August, likely because watershed soils absorbed most of the precipitation which resulted in minimal runoff to lakes. The median E/I ratio decreased to 0.11 after a cool and rainy August, identified as the recharge phase. Throughout the sampling period, δI remained relatively stable and most lakes contained a greater amount of rainfall-sourced water than snow-sourced water, even after the freshet phase, due to snowmelt bypass. The range of average E/I ratios that we observed at lakes (0.00–0.43) was relatively narrow and low compared with thermokarst lakes in other regions, likely owing to the large ratio of watershed area to lake area (WA/LA), efficient preferential flow pathways for runoff, and a shorter ice-free season. Lakes with smaller WA/LA tended to have higher E/I ratios (R2 = 0.74). An empirical relationship between WA/LA and E/I was derived and used to predict the average E/I ratio of 7340 lakes in the region, which identified that these lakes are not vulnerable to desiccation, given that E/I ratios were &lt; 0.33. If future permafrost thaw and warming cause less runoff to flow into lakes, we expect that lakes with a smaller WA/LA will be more influenced by increasing evaporation, while lakes with a larger WA/LA will be more resistant to lake-level drawdown. However under wetter conditions, lakes with a larger WA/LA will likely experience a greater increases in lake level and could be more susceptible to rapid drainage.</abstract>
+			<url hash="cadafd73">G23-49001</url>
+			<pages>2173-2188</pages>
+			<doi>10.5194/hess-27-2173-2023</doi>
+			<bibkey>Wilcox-Wolfe-2023-Hydrological,-meteorological,</bibkey>
+		</paper>
+	</volume>
+	<volume id="132">
+		<meta>
+			<booktitle>Hydrology and Earth System Sciences, Volume 27, Issue 19</booktitle>
+			<publisher>Copernicus GmbH</publisher>
+			<address/>
+			<year>2023</year>
+		</meta>
+		<paper id="1">
+			<title>Modelling the regional sensitivity of snowmelt, soil moisture,  and streamflow generation to climate over the Canadian  Prairies using a basin classification approach</title>
+			<abstract>Abstract. This study evaluated the effects of climate perturbations on snowmelt, soil moisture, and streamflow generation in small Canadian Prairies basins using a modelling approach based on classification of basin biophysical characteristics. Seven basin classes that encompass the entirety of the Prairies Ecozone in Canada were determined by cluster analysis of these characteristics. Individual semi-distributed virtual basin (VB) models representing these classes were parameterized in the Cold Regions Hydrological Model (CRHM) platform, which includes modules for snowmelt and sublimation, soil freezing and thawing, actual evapotranspiration (ET), soil moisture dynamics, groundwater recharge, and depressional storage dynamics including fill and spill runoff generation and variable connected areas. Precipitation (P) and temperature (T) perturbation scenarios covering the range of climate model predictions for the 21st century were used to evaluate climate sensitivity of hydrological processes in individual land cover and basin types across the Prairies Ecozone. Results indicated that snow accumulation in wetlands had a greater sensitivity to P and T than that in croplands and grasslands in all basin types. Wetland soil moisture was also more sensitive to T than the cropland and grassland soil moisture. Jointly influenced by land cover distribution and local climate, basin-average snow accumulation was more sensitive to T in the drier and grassland-characterized basins than in the wetter basins dominated by cropland, whilst basin-average soil moisture was most sensitive to T and P perturbations in basins typified by pothole depressions and broad river valleys. Annual streamflow had the greatest sensitivities to T and P in the dry and poorly connected Interior Grasslands (See Fig. 1) basins but the smallest in the wet and well-connected Southern Manitoba basins. The ability of P to compensate for warming-induced reductions in snow accumulation and streamflow was much higher in the wetter and cropland-dominated basins than in the drier and grassland-characterized basins, whilst decreases in cropland soil moisture induced by the maximum expected warming of 6 ∘C could be fully offset by a P increase of 11 % in all basins. These results can be used to (1) identify locations which had the largest hydrological sensitivities to changing climate and (2) diagnose underlying processes responsible for hydrological responses to expected climate change. Variations of hydrological sensitivity in land cover and basin types suggest that different water management and adaptation methods are needed to address enhanced water stress due to expected climate change in different regions of the Prairies Ecozone.</abstract>
+			<url hash="8ab29b49">G23-50001</url>
+			<pages>3525-3546</pages>
+			<doi>10.5194/hess-27-3525-2023</doi>
+			<bibkey>He-2023-Modelling</bibkey>
+		</paper>
+	</volume>	
 </collection>

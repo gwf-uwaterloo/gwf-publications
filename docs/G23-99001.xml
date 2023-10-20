@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Spiteri-2023-Fractional-step">
+    <titleInfo>
+        <title>Fractional-step Runge–Kutta methods: Representation and linear stability analysis</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Siqi</namePart>
+        <namePart type="family">Wei</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Computational Physics, Volume 476</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Fractional-step methods are a popular and powerful divide-and-conquer approach for the numerical solution of differential equations. When the integrators of the fractional steps are Runge–Kutta methods, such methods can be written as generalized additive Runge–Kutta (GARK) methods, and thus the representation and analysis of such methods can be done through the GARK framework. We show how the general Butcher tableau representation and linear stability of such methods are related to the coefficients of the splitting method, the individual sub-integrators, and the order in which they are applied. We use this framework to explain some observations in the literature about fractional-step methods such as the choice of sub-integrators, the order in which they are applied, and the role played by negative splitting coefficients in the stability of the method.</abstract>
+    <identifier type="citekey">Spiteri-2023-Fractional-step</identifier>
+    <identifier type="doi">10.1016/j.jcp.2022.111900</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-7001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>476</number></detail>
+        <detail type="page"><number>111900</number></detail>
+    </part>
+</mods>
+</modsCollection>

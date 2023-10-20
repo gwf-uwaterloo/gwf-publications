@@ -1,0 +1,1041 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById('expand-proj').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});document.getElementById('expand-uni').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});};</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>The challenge of unprecedented floods and droughts in risk management - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="The challenge of unprecedented floods and droughts in risk management" name=citation_title><meta content="Heidi Kreibich" name=citation_author><meta content="Anne F. Van Loon" name=citation_author><meta content="Kai Schröter" name=citation_author><meta content="Philip J. Ward" name=citation_author><meta content="Maurizio Mazzoleni" name=citation_author><meta content="N. Sairam" name=citation_author><meta content="Guta Wakbulcho Abeshu" name=citation_author><meta content="Svetlana Agafonova" name=citation_author><meta content="Amir AghaKouchak" name=citation_author><meta content="Hafzullah Aksoy" name=citation_author><meta content="Camila Álvarez-Garretón" name=citation_author><meta content="Blanca Aznar" name=citation_author><meta content="Laila Balkhi" name=citation_author><meta content="Marlies Barendrecht" name=citation_author><meta content="Sylvain Biancamaria" name=citation_author><meta content="Liduin Bos-Burgering" name=citation_author><meta content="Chris Bradley" name=citation_author><meta content="Yus Budiyono" name=citation_author><meta content="Wouter Buytaert" name=citation_author><meta content="Lucinda Capewell" name=citation_author><meta content="Hayley Carlson" name=citation_author><meta content="Yonca Cavus" name=citation_author><meta content="Anaïs Couasnon" name=citation_author><meta content="Gemma Coxon" name=citation_author><meta content="Ioannis Ν. Daliakopoulos" name=citation_author><meta content="Marleen de Ruiter" name=citation_author><meta content="Claire Delus" name=citation_author><meta content="Mathilde Erfurt" name=citation_author><meta content="Giuseppe Esposito" name=citation_author><meta content="François Dagognet" name=citation_author><meta content="Frédéric Frappart" name=citation_author><meta content="Jim Freer" name=citation_author><meta content="Natalia Frolova" name=citation_author><meta content="Animesh K. Gain" name=citation_author><meta content="Manolis Grillakis" name=citation_author><meta content="Jordi Oriol Grima" name=citation_author><meta content="Diego Alejandro Guzmán Arias" name=citation_author><meta content="Laurie S. Huning" name=citation_author><meta content="Monica Ionita" name=citation_author><meta content="М. А. Харламов" name=citation_author><meta content="Đào Nguyên Khôi" name=citation_author><meta content="Natalie Kieboom" name=citation_author><meta content="Maria Kireeva" name=citation_author><meta content="Aristeidis Koutroulis" name=citation_author><meta content="Waldo Lavado‐Casimiro" name=citation_author><meta content="Hong Yi Li" name=citation_author><meta content="M. C. Llasat" name=citation_author><meta content="David Macdonald" name=citation_author><meta content="Johanna Mård" name=citation_author><meta content="Hannah Mathew-Richards" name=citation_author><meta content="Andrew McKenzie" name=citation_author><meta content="Alfonso Mejía" name=citation_author><meta content="Eduardo Mário Mendiondo" name=citation_author><meta content="Marjolein Mens" name=citation_author><meta content="Shifteh Mobini" name=citation_author><meta content="Guilherme Samprogna Mohor" name=citation_author><meta content="Viorica Nagavciuc" name=citation_author><meta content="Thanh Ngo‐Duc" name=citation_author><meta content="Thi Thao Nguyen Huynh" name=citation_author><meta content="Pham Thi Thao Nhi" name=citation_author><meta content="Olga Petrucci" name=citation_author><meta content="Hồng Quân Nguyễn" name=citation_author><meta content="Pere Quintana-Seguí" name=citation_author><meta content="Saman Razavi" name=citation_author><meta content="Elena Ridolfi" name=citation_author><meta content="Jannik Riegel" name=citation_author><meta content="Md. Shibly Sadik" name=citation_author><meta content="Elisa Savelli" name=citation_author><meta content="А. А. Сазонов" name=citation_author><meta content="Sanjib Sharma" name=citation_author><meta content="Johanna Sörensen" name=citation_author><meta content="Felipe Augusto Arguello Souza" name=citation_author><meta content="Kerstin Stahl" name=citation_author><meta content="Max Steinhausen" name=citation_author><meta content="Michael Stoelzle" name=citation_author><meta content="Wiwiana Szalińska" name=citation_author><meta content="Qiuhong Tang" name=citation_author><meta content="Fuqiang Tian" name=citation_author><meta content="Tamara Tokarczyk" name=citation_author><meta content="Carolina Tovar" name=citation_author><meta content="Thi Van Thu Tran" name=citation_author><meta content="M.H.J. van Huijgevoort" name=citation_author><meta content="Michelle T. H. van Vliet" name=citation_author><meta content="Sergiy Vorogushyn" name=citation_author><meta content="Thorsten Wagener" name=citation_author><meta content="Yueling Wang" name=citation_author><meta content="Doris Wendt" name=citation_author><meta content="Elliot Wickham" name=citation_author><meta content="Long Yang" name=citation_author><meta content="Mauricio Zambrano‐Bigiarini" name=citation_author><meta content="Günter Blöschl" name=citation_author><meta content="Giuliano Di Baldassarre" name=citation_author><meta content="Nature, Volume 608, Issue 7921" name=citation_journal_title><meta content="608" name=citation_volume><meta content="7921" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.1038/s41586-022-04917-5" name=citation_pdf_url><meta content="80" name=citation_firstpage><meta content="86" name=citation_lastpage><meta content="10.1038/s41586-022-04917-5" name=citation_doi><meta property="og:title" content="The challenge of unprecedented floods and droughts in risk management"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-174001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-68001"><meta property="og:description" content="Heidi Kreibich, Anne F. Van Loon, Kai Schröter, Philip J. Ward, Maurizio Mazzoleni, N. Sairam, Guta Wakbulcho Abeshu, Svetlana Agafonova, Amir AghaKouchak, Hafzullah Aksoy, Camila Álvarez-Garretón, Blanca Aznar, Laila Balkhi, Marlies Barendrecht, Sylvain Biancamaria, Liduin Bos-Burgering, Chris Bradley, Yus Budiyono, Wouter Buytaert, Lucinda Capewell, Hayley Carlson, Yonca Cavus, Anaïs Couasnon, Gemma Coxon, Ioannis Ν. Daliakopoulos, Marleen de Ruiter, Claire Delus, Mathilde Erfurt, Giuseppe Esposito, François Dagognet, Frédéric Frappart, Jim Freer, Natalia Frolova, Animesh K. Gain, Manolis Grillakis, Jordi Oriol Grima, Diego Alejandro Guzmán Arias, Laurie S. Huning, Monica Ionita, М. А. Харламов, Đào Nguyên Khôi, Natalie Kieboom, Maria Kireeva, Aristeidis Koutroulis, Waldo Lavado‐Casimiro, Hong Yi Li, M. C. Llasat, David Macdonald, Johanna Mård, Hannah Mathew-Richards, Andrew McKenzie, Alfonso Mejía, Eduardo Mário Mendiondo, Marjolein Mens, Shifteh Mobini, Guilherme Samprogna Mohor, Viorica Nagavciuc, Thanh Ngo‐Duc, Thi Thao Nguyen Huynh, Pham Thi Thao Nhi, Olga Petrucci, Hồng Quân Nguyễn, Pere Quintana-Seguí, Saman Razavi, Elena Ridolfi, Jannik Riegel, Md. Shibly Sadik, Elisa Savelli, А. А. Сазонов, Sanjib Sharma, Johanna Sörensen, Felipe Augusto Arguello Souza, Kerstin Stahl, Max Steinhausen, Michael Stoelzle, Wiwiana Szalińska, Qiuhong Tang, Fuqiang Tian, Tamara Tokarczyk, Carolina Tovar, Thi Van Thu Tran, M.H.J. van Huijgevoort, Michelle T. H. van Vliet, Sergiy Vorogushyn, Thorsten Wagener, Yueling Wang, Doris Wendt, Elliot Wickham, Long Yang, Mauricio Zambrano‐Bigiarini, Günter Blöschl, Giuliano Di Baldassarre. Nature, Volume 608, Issue 7921. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-68001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-68001>The challenge of unprecedented floods and droughts in risk management</a></h2><p class=lead><a href=/gwf-publications/people/H/Heidi-Kreibich/ data-uni=uni0026>Heidi Kreibich</a>,
+<a href=/gwf-publications/people/A/Anne-F-Van-Loon/ data-uni=uni0051>Anne F. Van Loon</a>,
+<a href=/gwf-publications/people/K/Kai-Schr%C3%B6ter/ data-uni=uni0026>Kai Schröter</a>,
+<a href=/gwf-publications/people/P/Philip-J-Ward/ data-uni=uni0051>Philip J. Ward</a>,
+<a href=/gwf-publications/people/M/Maurizio-Mazzoleni/ data-uni=uni0051>Maurizio Mazzoleni</a>,
+<a href=/gwf-publications/people/N/N-Sairam/ data-uni=uni0026>N. Sairam</a>,
+<a href=/gwf-publications/people/G/Guta-Wakbulcho-Abeshu/ data-uni=uni0703>Guta Wakbulcho Abeshu</a>,
+<a href=/gwf-publications/people/S/Svetlana-Agafonova/ data-uni=uni0274>Svetlana Agafonova</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0205>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/H/Hafzullah-Aksoy/ data-uni=uni0936>Hafzullah Aksoy</a>,
+<a href=/gwf-publications/people/C/Camila-%C3%81lvarez-Garret%C3%B3n/ data-uni=uni0683>Camila Álvarez-Garretón</a>,
+<a href=/gwf-publications/people/B/Blanca-Aznar/ data-uni=uni0000>Blanca Aznar</a>,
+<a href=/gwf-publications/people/L/Laila-Balkhi/ data-uni=uni0003>Laila Balkhi</a>,
+<a href=/gwf-publications/people/M/Marlies-Barendrecht/ data-uni=uni0051>Marlies Barendrecht</a>,
+<a href=/gwf-publications/people/S/Sylvain-Biancamaria/ data-uni=uni0620>Sylvain Biancamaria</a>,
+<a href=/gwf-publications/people/L/Liduin-Bos-Burgering/ data-uni=uni0317>Liduin Bos-Burgering</a>,
+<a href=/gwf-publications/people/C/Chris-Bradley/ data-uni=uni0224>Chris Bradley</a>,
+<a href=/gwf-publications/people/Y/Yus-Budiyono/ data-uni=uni1144>Yus Budiyono</a>,
+<a href=/gwf-publications/people/W/Wouter-Buytaert/ data-uni=uni0282>Wouter Buytaert</a>,
+<a href=/gwf-publications/people/L/Lucinda-Capewell/ data-uni=uni0224>Lucinda Capewell</a>,
+<a href=/gwf-publications/people/H/Hayley-Carlson/ data-uni=uni0003>Hayley Carlson</a>,
+<a href=/gwf-publications/people/Y/Yonca-Cavus/ data-uni=uni0253>Yonca Cavus</a>,
+<a href=/gwf-publications/people/A/Ana%C3%AFs-Couasnon/ data-uni=uni0051>Anaïs Couasnon</a>,
+<a href=/gwf-publications/people/G/Gemma-Coxon/ data-uni=uni0067>Gemma Coxon</a>,
+<a href=/gwf-publications/people/I/Ioannis-%CE%9D-Daliakopoulos/ data-uni=uni1145>Ioannis Ν. Daliakopoulos</a>,
+<a href=/gwf-publications/people/M/Marleen-de-Ruiter/ data-uni=uni0051>Marleen de Ruiter</a>,
+<a href=/gwf-publications/people/C/Claire-Delus/ data-uni=uni0828>Claire Delus</a>,
+<a href=/gwf-publications/people/M/Mathilde-Erfurt/ data-uni=uni0253>Mathilde Erfurt</a>,
+<a href=/gwf-publications/people/G/Giuseppe-Esposito/ data-uni=uni0045>Giuseppe Esposito</a>,
+<a href=/gwf-publications/people/F/Fran%C3%A7ois-Dagognet/ data-uni=uni0075>François Dagognet</a>,
+<a href=/gwf-publications/people/F/Fr%C3%A9d%C3%A9ric-Frappart/ data-uni=uni1146>Frédéric Frappart</a>,
+<a href=/gwf-publications/people/J/Jim-Freer/ data-uni=uni0067>Jim Freer</a>,
+<a href=/gwf-publications/people/N/Natalia-Frolova/ data-uni=uni0274>Natalia Frolova</a>,
+<a href=/gwf-publications/people/A/Animesh-K-Gain/ data-uni=uni1147>Animesh K. Gain</a>,
+<a href=/gwf-publications/people/M/Manolis-Grillakis/ data-uni=uni0686>Manolis Grillakis</a>,
+<a href=/gwf-publications/people/J/Jordi-Oriol-Grima/ data-uni=uni0000>Jordi Oriol Grima</a>,
+<a href=/gwf-publications/people/D/Diego-Alejandro-Guzm%C3%A1n-Arias/ data-uni=uni1148>Diego Alejandro Guzmán Arias</a>,
+<a href=/gwf-publications/people/L/Laurie-S-Huning/ data-uni=uni0114>Laurie S. Huning</a>,
+<a href=/gwf-publications/people/M/Monica-Ionita/ data-uni=uni0062>Monica Ionita</a>,
+<a href=/gwf-publications/people/%D0%9C/%D0%9C-%D0%90-%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BE%D0%B2/ data-uni=uni0170>М. А. Харламов</a>,
+<a href=/gwf-publications/people/%C4%90/%C4%90%C3%A0o-Nguy%C3%AAn-Kh%C3%B4i/ data-uni=uni0500>Đào Nguyên Khôi</a>,
+<a href=/gwf-publications/people/N/Natalie-Kieboom/ data-uni=uni0618>Natalie Kieboom</a>,
+<a href=/gwf-publications/people/M/Maria-Kireeva/ data-uni=uni1150>Maria Kireeva</a>,
+<a href=/gwf-publications/people/A/Aristeidis-Koutroulis/ data-uni=uni0686>Aristeidis Koutroulis</a>,
+<a href=/gwf-publications/people/W/Waldo-LavadoCasimiro/ data-uni=uni1129>Waldo Lavado‐Casimiro</a>,
+<a href=/gwf-publications/people/H/Hong-Yi-Li/ data-uni=uni0703>Hong Yi Li</a>,
+<a href=/gwf-publications/people/M/M-C-Llasat/ data-uni=uni1128>M. C. Llasat</a>,
+<a href=/gwf-publications/people/D/David-Macdonald/ data-uni=uni0234>David Macdonald</a>,
+<a href=/gwf-publications/people/J/Johanna-M%C3%A5rd/ data-uni=uni0247>Johanna Mård</a>,
+<a href=/gwf-publications/people/H/Hannah-Mathew-Richards/ data-uni=uni0618>Hannah Mathew-Richards</a>,
+<a href=/gwf-publications/people/A/Andrew-McKenzie/ data-uni=uni0234>Andrew McKenzie</a>,
+<a href=/gwf-publications/people/A/Alfonso-Mej%C3%ADa/ data-uni=uni0087>Alfonso Mejía</a>,
+<a href=/gwf-publications/people/E/Eduardo-M%C3%A1rio-Mendiondo/ data-uni=uni1127>Eduardo Mário Mendiondo</a>,
+<a href=/gwf-publications/people/M/Marjolein-Mens/ data-uni=uni0317>Marjolein Mens</a>,
+<a href=/gwf-publications/people/S/Shifteh-Mobini/ data-uni=uni1126>Shifteh Mobini</a>,
+<a href=/gwf-publications/people/G/Guilherme-Samprogna-Mohor/ data-uni=uni0099>Guilherme Samprogna Mohor</a>,
+<a href=/gwf-publications/people/V/Viorica-Nagavciuc/ data-uni=uni0062>Viorica Nagavciuc</a>,
+<a href=/gwf-publications/people/T/Thanh-NgoDuc/ data-uni=uni1104>Thanh Ngo‐Duc</a>,
+<a href=/gwf-publications/people/T/Thi-Thao-Nguyen-Huynh/ data-uni=uni0500>Thi Thao Nguyen Huynh</a>,
+<a href=/gwf-publications/people/P/Pham-Thi-Thao-Nhi/ data-uni=uni0500>Pham Thi Thao Nhi</a>,
+<a href=/gwf-publications/people/O/Olga-Petrucci/ data-uni=uni1105>Olga Petrucci</a>,
+<a href=/gwf-publications/people/H/H%E1%BB%93ng-Qu%C3%A2n-Nguy%E1%BB%85n/ data-uni=uni1106>Hồng Quân Nguyễn</a>,
+<a href=/gwf-publications/people/P/Pere-Quintana-Segu%C3%AD/ data-uni=uni1107>Pere Quintana-Seguí</a>,
+<a href=/gwf-publications/people/S/Saman-Razavi/ data-uni=uni0012>Saman Razavi</a>,
+<a href=/gwf-publications/people/E/Elena-Ridolfi/ data-uni=uni0238>Elena Ridolfi</a>,
+<a href=/gwf-publications/people/J/Jannik-Riegel/ data-uni=uni1108>Jannik Riegel</a>,
+<a href=/gwf-publications/people/M/Md-Shibly-Sadik/ data-uni=uni1109>Md. Shibly Sadik</a>,
+<a href=/gwf-publications/people/E/Elisa-Savelli/ data-uni=uni0193>Elisa Savelli</a>,
+<a href=/gwf-publications/people/%D0%90/%D0%90-%D0%90-%D0%A1%D0%B0%D0%B7%D0%BE%D0%BD%D0%BE%D0%B2/ data-uni=uni0170>А. А. Сазонов</a>,
+<a href=/gwf-publications/people/S/Sanjib-Sharma/ data-uni=uni1110>Sanjib Sharma</a>,
+<a href=/gwf-publications/people/J/Johanna-S%C3%B6rensen/ data-uni=uni0046>Johanna Sörensen</a>,
+<a href=/gwf-publications/people/F/Felipe-Augusto-Arguello-Souza/ data-uni=uni0711>Felipe Augusto Arguello Souza</a>,
+<a href=/gwf-publications/people/K/Kerstin-Stahl/ data-uni=uni0253>Kerstin Stahl</a>,
+<a href=/gwf-publications/people/M/Max-Steinhausen/ data-uni=uni0026>Max Steinhausen</a>,
+<a href=/gwf-publications/people/M/Michael-Stoelzle/ data-uni=uni0253>Michael Stoelzle</a>,
+<a href=/gwf-publications/people/W/Wiwiana-Szali%C5%84ska/ data-uni=uni0311>Wiwiana Szalińska</a>,
+<a href=/gwf-publications/people/Q/Qiuhong-Tang/ data-uni=uni0038>Qiuhong Tang</a>,
+<a href=/gwf-publications/people/F/Fuqiang-Tian/ data-uni=uni0157>Fuqiang Tian</a>,
+<a href=/gwf-publications/people/T/Tamara-Tokarczyk/ data-uni=uni0311>Tamara Tokarczyk</a>,
+<a href=/gwf-publications/people/C/Carolina-Tovar/ data-uni=uni1111>Carolina Tovar</a>,
+<a href=/gwf-publications/people/T/Thi-Van-Thu-Tran/ data-uni=uni0500>Thi Van Thu Tran</a>,
+<a href=/gwf-publications/people/M/MHJ-van-Huijgevoort/ data-uni=uni0843>M.H.J. van Huijgevoort</a>,
+<a href=/gwf-publications/people/M/Michelle-T-H-van-Vliet/ data-uni=uni0146>Michelle T. H. van Vliet</a>,
+<a href=/gwf-publications/people/S/Sergiy-Vorogushyn/ data-uni=uni0026>Sergiy Vorogushyn</a>,
+<a href=/gwf-publications/people/T/Thorsten-Wagener/ data-uni=uni0099>Thorsten Wagener</a>,
+<a href=/gwf-publications/people/Y/Yueling-Wang/ data-uni=uni1112>Yueling Wang</a>,
+<a href=/gwf-publications/people/D/Doris-Wendt/ data-uni=uni0067>Doris Wendt</a>,
+<a href=/gwf-publications/people/E/Elliot-Wickham/ data-uni=uni0057>Elliot Wickham</a>,
+<a href=/gwf-publications/people/L/Long-Yang/ data-uni=uni1113>Long Yang</a>,
+<a href=/gwf-publications/people/M/Mauricio-ZambranoBigiarini/ data-uni=uni0683>Mauricio Zambrano‐Bigiarini</a>,
+<a href=/gwf-publications/people/G/G%C3%BCnter-Bl%C3%B6schl/ data-uni=uni0269>Günter Blöschl</a>,
+<a href=/gwf-publications/people/G/Giuliano-Di-Baldassarre/ data-uni=uni0247>Giuliano Di Baldassarre</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Heidi Kreibich, Anne F. Van Loon, Kai Schröter, Philip J. Ward, Maurizio Mazzoleni, N. Sairam, Guta Wakbulcho Abeshu, Svetlana Agafonova, Amir AghaKouchak, Hafzullah Aksoy, Camila Álvarez-Garretón, Blanca Aznar, Laila Balkhi, Marlies Barendrecht, Sylvain Biancamaria, Liduin Bos-Burgering, Chris Bradley, Yus Budiyono, Wouter Buytaert, et al.. 2022. The challenge of unprecedented floods and droughts in risk management. <i>Nature, Volume 608, Issue 7921</i>, 608(7921):80–86.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=The+challenge+of+unprecedented+floods+and+droughts+in+risk+management" title="Search for 'The challenge of unprecedented floods and droughts in risk management' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Kreibich-2022-The,
+    title = &#34;The challenge of unprecedented floods and droughts in risk management&#34;,
+    author = {Kreibich, Heidi  and
+      Loon, Anne F. Van  and
+      Schr{\&#34;o}ter, Kai  and
+      Ward, Philip J.  and
+      Mazzoleni, Maurizio  and
+      Sairam, N.  and
+      Abeshu, Guta Wakbulcho  and
+      Agafonova, Svetlana  and
+      AghaKouchak, Amir  and
+      Aksoy, Hafzullah  and
+      {\&#39;A}lvarez-Garret{\&#39;o}n, Camila  and
+      Aznar, Blanca  and
+      Balkhi, Laila  and
+      Barendrecht, Marlies  and
+      Biancamaria, Sylvain  and
+      Bos-Burgering, Liduin  and
+      Bradley, Chris  and
+      Budiyono, Yus  and
+      Buytaert, Wouter  and
+      Capewell, Lucinda  and
+      Carlson, Hayley  and
+      Cavus, Yonca  and
+      Couasnon, Ana{\&#34;\i}s  and
+      Coxon, Gemma  and
+      Daliakopoulos, Ioannis Ν.  and
+      Ruiter, Marleen de  and
+      Delus, Claire  and
+      Erfurt, Mathilde  and
+      Esposito, Giuseppe  and
+      Dagognet, Fran{\c{c}}ois  and
+      Frappart, Fr{\&#39;e}d{\&#39;e}ric  and
+      Freer, Jim  and
+      Frolova, Natalia  and
+      Gain, Animesh K.  and
+      Grillakis, Manolis  and
+      Grima, Jordi Oriol  and
+      Arias, Diego Alejandro Guzm{\&#39;a}n  and
+      Huning, Laurie S.  and
+      Ionita, Monica  and
+      Харламов, М. А.  and
+      Kh{\^o}i, {\DJ}{\`a}o Nguy{\^e}n  and
+      Kieboom, Natalie  and
+      Kireeva, Maria  and
+      Koutroulis, Aristeidis  and
+      Lavado‐Casimiro, Waldo  and
+      Li, Hong Yi  and
+      Llasat, M. C.  and
+      Macdonald, David  and
+      M{\aa}rd, Johanna  and
+      Mathew-Richards, Hannah  and
+      McKenzie, Andrew  and
+      Mej{\&#39;\i}a, Alfonso  and
+      Mendiondo, Eduardo M{\&#39;a}rio  and
+      Mens, Marjolein  and
+      Mobini, Shifteh  and
+      Mohor, Guilherme Samprogna  and
+      Nagavciuc, Viorica  and
+      Ngo‐Duc, Thanh  and
+      Huynh, Thi Thao Nguyen  and
+      Nhi, Pham Thi Thao  and
+      Petrucci, Olga  and
+      Nguyễn, Hồng Qu{\^a}n  and
+      Quintana-Segu{\&#39;\i}, Pere  and
+      Razavi, Saman  and
+      Ridolfi, Elena  and
+      Riegel, Jannik  and
+      Sadik, Md. Shibly  and
+      Savelli, Elisa  and
+      Сазонов, А. А.  and
+      Sharma, Sanjib  and
+      S{\&#34;o}rensen, Johanna  and
+      Souza, Felipe Augusto Arguello  and
+      Stahl, Kerstin  and
+      Steinhausen, Max  and
+      Stoelzle, Michael  and
+      Szali{\&#39;n}ska, Wiwiana  and
+      Tang, Qiuhong  and
+      Tian, Fuqiang  and
+      Tokarczyk, Tamara  and
+      Tovar, Carolina  and
+      Tran, Thi Van Thu  and
+      Huijgevoort, M.H.J. van  and
+      Vliet, Michelle T. H. van  and
+      Vorogushyn, Sergiy  and
+      Wagener, Thorsten  and
+      Wang, Yueling  and
+      Wendt, Doris  and
+      Wickham, Elliot  and
+      Yang, Long  and
+      Zambrano‐Bigiarini, Mauricio  and
+      Bl{\&#34;o}schl, G{\&#34;u}nter  and
+      Baldassarre, Giuliano Di},
+    journal = &#34;Nature, Volume 608, Issue 7921&#34;,
+    volume = &#34;608&#34;,
+    number = &#34;7921&#34;,
+    year = &#34;2022&#34;,
+    publisher = &#34;Springer Science and Business Media LLC&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G22-68001&#34;,
+    doi = &#34;10.1038/s41586-022-04917-5&#34;,
+    pages = &#34;80--86&#34;,
+    abstract = &#34;Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-174001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Kreibich-2022-The&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;The challenge of unprecedented floods and droughts in risk management&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Heidi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kreibich&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anne&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Van&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Loon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kai&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schröter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Philip&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ward&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Maurizio&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mazzoleni&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;N&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sairam&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guta&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wakbulcho&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Abeshu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Svetlana&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Agafonova&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Amir&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;AghaKouchak&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hafzullah&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aksoy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Camila&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Álvarez-Garretón&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Blanca&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aznar&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Laila&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Balkhi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marlies&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Barendrecht&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sylvain&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Biancamaria&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Liduin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bos-Burgering&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Chris&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bradley&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yus&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Budiyono&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wouter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Buytaert&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lucinda&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Capewell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hayley&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Carlson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yonca&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cavus&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Anaïs&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Couasnon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gemma&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Coxon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ioannis&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ν.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Daliakopoulos&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marleen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;de&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ruiter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Claire&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Delus&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mathilde&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Erfurt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Giuseppe&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Esposito&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;François&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Dagognet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frédéric&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Frappart&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jim&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Freer&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Natalia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Frolova&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Animesh&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gain&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Manolis&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Grillakis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jordi&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oriol&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Grima&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Diego&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alejandro&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guzmán&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arias&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Laurie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Huning&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Monica&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ionita&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;М.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;А.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Харламов&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Đào&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nguyên&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Khôi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Natalie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kieboom&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Maria&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kireeva&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Aristeidis&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Koutroulis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Waldo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lavado‐Casimiro&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hong&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Li&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Llasat&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Macdonald&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Johanna&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mård&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hannah&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mathew-Richards&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McKenzie&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alfonso&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mejía&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eduardo&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mário&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mendiondo&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Marjolein&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mens&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shifteh&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mobini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guilherme&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Samprogna&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mohor&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Viorica&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nagavciuc&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thanh&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ngo‐Duc&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thi&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thao&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nguyen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Huynh&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pham&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thi&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thao&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nhi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Olga&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Petrucci&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hồng&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Quân&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nguyễn&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pere&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Quintana-Seguí&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Saman&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Razavi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elena&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ridolfi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jannik&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Riegel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Md.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Shibly&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sadik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elisa&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Savelli&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;А.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;А.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Сазонов&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sanjib&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sharma&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Johanna&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sörensen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Felipe&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Augusto&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Arguello&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Souza&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kerstin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Stahl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Max&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Steinhausen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Stoelzle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Wiwiana&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Szalińska&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Qiuhong&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Fuqiang&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tian&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tamara&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tokarczyk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Carolina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tovar&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thi&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Van&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thu&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tran&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M.H.J.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;van&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Huijgevoort&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michelle&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;H&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;van&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vliet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sergiy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vorogushyn&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Thorsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wagener&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Yueling&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Doris&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wendt&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Elliot&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wickham&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Long&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Yang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mauricio&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zambrano‐Bigiarini&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Günter&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Blöschl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Giuliano&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Di&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Baldassarre&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2022&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Nature, Volume 608, Issue 7921&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;Springer Science and Business Media LLC&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Kreibich-2022-The&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1038/s41586-022-04917-5&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G22-68001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2022&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;608&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;7921&lt;/number&gt;&lt;/detail&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;80&lt;/start&gt;
+            &lt;end&gt;86&lt;/end&gt;
+        &lt;/extent&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-174001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T The challenge of unprecedented floods and droughts in risk management
+%A Kreibich, Heidi
+%A Loon, Anne F. Van
+%A Schröter, Kai
+%A Ward, Philip J.
+%A Mazzoleni, Maurizio
+%A Sairam, N.
+%A Abeshu, Guta Wakbulcho
+%A Agafonova, Svetlana
+%A AghaKouchak, Amir
+%A Aksoy, Hafzullah
+%A Álvarez-Garretón, Camila
+%A Aznar, Blanca
+%A Balkhi, Laila
+%A Barendrecht, Marlies
+%A Biancamaria, Sylvain
+%A Bos-Burgering, Liduin
+%A Bradley, Chris
+%A Budiyono, Yus
+%A Buytaert, Wouter
+%A Capewell, Lucinda
+%A Carlson, Hayley
+%A Cavus, Yonca
+%A Couasnon, Anaïs
+%A Coxon, Gemma
+%A Daliakopoulos, Ioannis Ν.
+%A Ruiter, Marleen de
+%A Delus, Claire
+%A Erfurt, Mathilde
+%A Esposito, Giuseppe
+%A Dagognet, François
+%A Frappart, Frédéric
+%A Freer, Jim
+%A Frolova, Natalia
+%A Gain, Animesh K.
+%A Grillakis, Manolis
+%A Grima, Jordi Oriol
+%A Arias, Diego Alejandro Guzmán
+%A Huning, Laurie S.
+%A Ionita, Monica
+%A Харламов, М. А.
+%A Khôi, Đào Nguyên
+%A Kieboom, Natalie
+%A Kireeva, Maria
+%A Koutroulis, Aristeidis
+%A Lavado‐Casimiro, Waldo
+%A Li, Hong Yi
+%A Llasat, M. C.
+%A Macdonald, David
+%A Mård, Johanna
+%A Mathew-Richards, Hannah
+%A McKenzie, Andrew
+%A Mejía, Alfonso
+%A Mendiondo, Eduardo Mário
+%A Mens, Marjolein
+%A Mobini, Shifteh
+%A Mohor, Guilherme Samprogna
+%A Nagavciuc, Viorica
+%A Ngo‐Duc, Thanh
+%A Huynh, Thi Thao Nguyen
+%A Nhi, Pham Thi Thao
+%A Petrucci, Olga
+%A Nguyễn, Hồng Quân
+%A Quintana-Seguí, Pere
+%A Razavi, Saman
+%A Ridolfi, Elena
+%A Riegel, Jannik
+%A Sadik, Md. Shibly
+%A Savelli, Elisa
+%A Сазонов, А. А.
+%A Sharma, Sanjib
+%A Sörensen, Johanna
+%A Souza, Felipe Augusto Arguello
+%A Stahl, Kerstin
+%A Steinhausen, Max
+%A Stoelzle, Michael
+%A Szalińska, Wiwiana
+%A Tang, Qiuhong
+%A Tian, Fuqiang
+%A Tokarczyk, Tamara
+%A Tovar, Carolina
+%A Tran, Thi Van Thu
+%A Huijgevoort, M.H.J. van
+%A Vliet, Michelle T. H. van
+%A Vorogushyn, Sergiy
+%A Wagener, Thorsten
+%A Wang, Yueling
+%A Wendt, Doris
+%A Wickham, Elliot
+%A Yang, Long
+%A Zambrano‐Bigiarini, Mauricio
+%A Blöschl, Günter
+%A Baldassarre, Giuliano Di
+%J Nature, Volume 608, Issue 7921
+%D 2022
+%V 608
+%N 7921
+%I Springer Science and Business Media LLC
+%F Kreibich-2022-The
+%X Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .
+%R 10.1038/s41586-022-04917-5
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-68001
+%U https://doi.org/10.1038/s41586-022-04917-5
+%P 80-86
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-174001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[The challenge of unprecedented floods and droughts in risk management](https://gwf-uwaterloo.github.io/gwf-publications/G22-68001) (Kreibich et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-68001>The challenge of unprecedented floods and droughts in risk management</a> (Kreibich et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Heidi Kreibich, Anne F. Van Loon, Kai Schröter, Philip J. Ward, Maurizio Mazzoleni, N. Sairam, Guta Wakbulcho Abeshu, Svetlana Agafonova, Amir AghaKouchak, Hafzullah Aksoy, Camila Álvarez-Garretón, Blanca Aznar, Laila Balkhi, Marlies Barendrecht, Sylvain Biancamaria, Liduin Bos-Burgering, Chris Bradley, Yus Budiyono, Wouter Buytaert, et al.. 2022. The challenge of unprecedented floods and droughts in risk management. <i>Nature, Volume 608, Issue 7921</i>, 608(7921):80–86.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

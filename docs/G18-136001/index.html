@@ -9,64 +9,64 @@ if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]")
 if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
 else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
 if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
-$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks" name=citation_title><meta content="Gerhard Krinner" name=citation_author><meta content="Chris Derksen" name=citation_author><meta content="Richard Essery" name=citation_author><meta content="M. Flanner" name=citation_author><meta content="Stefan Hagemann" name=citation_author><meta content="Martyn P. Clark" name=citation_author><meta content="Alex Hall" name=citation_author><meta content="Helmut Rott" name=citation_author><meta content="Claire Brutel-Vuilmet" name=citation_author><meta content="Hyungjun Kim" name=citation_author><meta content="Cécile B. Ménard" name=citation_author><meta content="Lawrence Mudryk" name=citation_author><meta content="Chad W. Thackeray" name=citation_author><meta content="Libo Wang" name=citation_author><meta content="Gabriele Arduini" name=citation_author><meta content="Gianpaolo Balsamo" name=citation_author><meta content="Paul Bartlett" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Aaron Boone" name=citation_author><meta content="F. Cheruy" name=citation_author><meta content="Jeanne Colin" name=citation_author><meta content="Matthias Cuntz" name=citation_author><meta content="Yongjiu Dai" name=citation_author><meta content="Bertrand Decharme" name=citation_author><meta content="Jeff Derry" name=citation_author><meta content="Agnès Ducharne" name=citation_author><meta content="Emanuel Dutra" name=citation_author><meta content="Xing Fang" name=citation_author><meta content="Charles Fierz" name=citation_author><meta content="Josephine Ghattas" name=citation_author><meta content="Yeugeniy M. Gusev" name=citation_author><meta content="Vanessa Haverd" name=citation_author><meta content="Anna Kontu" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="R. M. Law" name=citation_author><meta content="David M. Lawrence" name=citation_author><meta content="Weiping Li" name=citation_author><meta content="Thomas Marke" name=citation_author><meta content="Danny Marks" name=citation_author><meta content="Martin Ménégoz" name=citation_author><meta content="O. N. Nasonova" name=citation_author><meta content="Tomoko Nitta" name=citation_author><meta content="Michio Niwano" name=citation_author><meta content="John W. Pomeroy" name=citation_author><meta content="M. S. Raleigh" name=citation_author><meta content="Gerd Schaedler" name=citation_author><meta content="V. A. Semenov" name=citation_author><meta content="Tanya Smirnova" name=citation_author><meta content="Tobias Stacke" name=citation_author><meta content="Ulrich Strasser" name=citation_author><meta content="Sean Svenson" name=citation_author><meta content="Dmitry Turkov" name=citation_author><meta content="Tao Wang" name=citation_author><meta content="Nander Wever" name=citation_author><meta content="Hua Yuan" name=citation_author><meta content="Wenyan Zhou" name=citation_author><meta content="Dan Zhu" name=citation_author><meta content="Geoscientific Model Development, Volume 11, Issue 12" name=citation_journal_title><meta content="11" name=citation_volume><meta content="12" name=citation_issue><meta content="2018" name=citation_publication_date><meta content="https://www.doi.org/10.5194/gmd-11-5027-2018" name=citation_pdf_url><meta content="5027" name=citation_firstpage><meta content="5049" name=citation_lastpage><meta content="10.5194/gmd-11-5027-2018" name=citation_doi><meta property="og:title" content="ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G18-136001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G18-136001"><meta property="og:description" content="Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel-Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, F. Cheruy, Jeanne Colin, Matthias Cuntz, Yongjiu Dai, Bertrand Decharme, Jeff Derry, Agnès Ducharne, Emanuel Dutra, Xing Fang, Charles Fierz, Josephine Ghattas, Yeugeniy M. Gusev, Vanessa Haverd, Anna Kontu, Matthieu Lafaysse, R. M. Law, David M. Lawrence, Weiping Li, Thomas Marke, Danny Marks, Martin Ménégoz, O. N. Nasonova, Tomoko Nitta, Michio Niwano, John W. Pomeroy, M. S. Raleigh, Gerd Schaedler, V. A. Semenov, Tanya Smirnova, Tobias Stacke, Ulrich Strasser, Sean Svenson, Dmitry Turkov, Tao Wang, Nander Wever, Hua Yuan, Wenyan Zhou, Dan Zhu. Geoscientific Model Development, Volume 11, Issue 12. 2018."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks</a></h2><p class=lead><a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0261>Gerhard Krinner</a>,
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks" name=citation_title><meta content="Gerhard Krinner" name=citation_author><meta content="Chris Derksen" name=citation_author><meta content="Richard Essery" name=citation_author><meta content="M. Flanner" name=citation_author><meta content="Stefan Hagemann" name=citation_author><meta content="Martyn P. Clark" name=citation_author><meta content="Alex Hall" name=citation_author><meta content="Helmut Rott" name=citation_author><meta content="Claire Brutel‐Vuilmet" name=citation_author><meta content="Hyungjun Kim" name=citation_author><meta content="Cécile B. Ménard" name=citation_author><meta content="Lawrence Mudryk" name=citation_author><meta content="Chad W. Thackeray" name=citation_author><meta content="Libo Wang" name=citation_author><meta content="Gabriele Arduini" name=citation_author><meta content="Gianpaolo Balsamo" name=citation_author><meta content="Paul Bartlett" name=citation_author><meta content="Julia Boike" name=citation_author><meta content="Aaron Boone" name=citation_author><meta content="F. Chéruy" name=citation_author><meta content="Jeanne Colin" name=citation_author><meta content="Matthias Cuntz" name=citation_author><meta content="Yongjiu Dai" name=citation_author><meta content="Bertrand Decharme" name=citation_author><meta content="Jeff Derry" name=citation_author><meta content="Agnès Ducharne" name=citation_author><meta content="Emanuel Dutra" name=citation_author><meta content="Xing Fang" name=citation_author><meta content="Charles Fierz" name=citation_author><meta content="Josephine Ghattas" name=citation_author><meta content="Yeugeniy M. Gusev" name=citation_author><meta content="Vanessa Haverd" name=citation_author><meta content="Anna Kontu" name=citation_author><meta content="Matthieu Lafaysse" name=citation_author><meta content="R. M. Law" name=citation_author><meta content="David M. Lawrence" name=citation_author><meta content="Weiping Li" name=citation_author><meta content="Thomas Marke" name=citation_author><meta content="Danny Marks" name=citation_author><meta content="Martin Ménégoz" name=citation_author><meta content="О. Н. Насонова" name=citation_author><meta content="Tomoko Nitta" name=citation_author><meta content="Michio Niwano" name=citation_author><meta content="John W. Pomeroy" name=citation_author><meta content="M. S. Raleigh" name=citation_author><meta content="Gerd Schaedler" name=citation_author><meta content="В. А. Семенов" name=citation_author><meta content="Tanya Smirnova" name=citation_author><meta content="Tobias Stacke" name=citation_author><meta content="Ulrich Strasser" name=citation_author><meta content="Sean Svenson" name=citation_author><meta content="Dmitry Turkov" name=citation_author><meta content="Tao Wang" name=citation_author><meta content="Nander Wever" name=citation_author><meta content="Hua Yuan" name=citation_author><meta content="Wenyan Zhou" name=citation_author><meta content="Dan Zhu" name=citation_author><meta content="Geoscientific Model Development, Volume 11, Issue 12" name=citation_journal_title><meta content="11" name=citation_volume><meta content="12" name=citation_issue><meta content="2018" name=citation_publication_date><meta content="https://www.doi.org/10.5194/gmd-11-5027-2018" name=citation_pdf_url><meta content="5027" name=citation_firstpage><meta content="5049" name=citation_lastpage><meta content="10.5194/gmd-11-5027-2018" name=citation_doi><meta property="og:title" content="ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G18-136001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G18-136001"><meta property="og:description" content="Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel‐Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, F. Chéruy, Jeanne Colin, Matthias Cuntz, Yongjiu Dai, Bertrand Decharme, Jeff Derry, Agnès Ducharne, Emanuel Dutra, Xing Fang, Charles Fierz, Josephine Ghattas, Yeugeniy M. Gusev, Vanessa Haverd, Anna Kontu, Matthieu Lafaysse, R. M. Law, David M. Lawrence, Weiping Li, Thomas Marke, Danny Marks, Martin Ménégoz, О. Н. Насонова, Tomoko Nitta, Michio Niwano, John W. Pomeroy, M. S. Raleigh, Gerd Schaedler, В. А. Семенов, Tanya Smirnova, Tobias Stacke, Ulrich Strasser, Sean Svenson, Dmitry Turkov, Tao Wang, Nander Wever, Hua Yuan, Wenyan Zhou, Dan Zhu. Geoscientific Model Development, Volume 11, Issue 12. 2018."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks</a></h2><p class=lead><a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0268>Gerhard Krinner</a>,
 <a href=/gwf-publications/people/C/Chris-Derksen/ data-uni=uni0005>Chris Derksen</a>,
-<a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0065>Richard Essery</a>,
-<a href=/gwf-publications/people/M/M-Flanner/ data-uni=uni0069>M. Flanner</a>,
-<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0380>Stefan Hagemann</a>,
-<a href=/gwf-publications/people/M/Martyn-P-Clark/ data-uni=uni0009>Martyn P. Clark</a>,
-<a href=/gwf-publications/people/A/Alex-Hall/ data-uni=uni0083>Alex Hall</a>,
-<a href=/gwf-publications/people/H/Helmut-Rott/ data-uni=uni0822>Helmut Rott</a>,
-<a href=/gwf-publications/people/C/Claire-Brutel-Vuilmet/ data-uni=uni0118>Claire Brutel-Vuilmet</a>,
-<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0346>Hyungjun Kim</a>,
-<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0065>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0069>Richard Essery</a>,
+<a href=/gwf-publications/people/M/M-Flanner/ data-uni=uni0090>M. Flanner</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0502>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/M/Martyn-P-Clark/ data-uni=uni0001>Martyn P. Clark</a>,
+<a href=/gwf-publications/people/A/Alex-Hall/ data-uni=uni0234>Alex Hall</a>,
+<a href=/gwf-publications/people/H/Helmut-Rott/ data-uni=uni0872>Helmut Rott</a>,
+<a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ data-uni=uni0103>Claire Brutel‐Vuilmet</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0389>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0069>Cécile B. Ménard</a>,
 <a href=/gwf-publications/people/L/Lawrence-Mudryk/ data-uni=uni0005>Lawrence Mudryk</a>,
-<a href=/gwf-publications/people/C/Chad-W-Thackeray/ data-uni=uni0083>Chad W. Thackeray</a>,
+<a href=/gwf-publications/people/C/Chad-W-Thackeray/ data-uni=uni0101>Chad W. Thackeray</a>,
 <a href=/gwf-publications/people/L/Libo-Wang/ data-uni=uni0005>Libo Wang</a>,
-<a href=/gwf-publications/people/G/Gabriele-Arduini/ data-uni=uni0592>Gabriele Arduini</a>,
-<a href=/gwf-publications/people/G/Gianpaolo-Balsamo/ data-uni=uni0592>Gianpaolo Balsamo</a>,
+<a href=/gwf-publications/people/G/Gabriele-Arduini/ data-uni=uni0226>Gabriele Arduini</a>,
+<a href=/gwf-publications/people/G/Gianpaolo-Balsamo/ data-uni=uni0226>Gianpaolo Balsamo</a>,
 <a href=/gwf-publications/people/P/Paul-Bartlett/ data-uni=uni0005>Paul Bartlett</a>,
-<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0155>Julia Boike</a>,
-<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0281>Aaron Boone</a>,
-<a href=/gwf-publications/people/F/F-Cheruy/ data-uni=uni1320>F. Cheruy</a>,
-<a href=/gwf-publications/people/J/Jeanne-Colin/ data-uni=uni0086>Jeanne Colin</a>,
-<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0263>Matthias Cuntz</a>,
-<a href=/gwf-publications/people/Y/Yongjiu-Dai/ data-uni=uni0191>Yongjiu Dai</a>,
-<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0086>Bertrand Decharme</a>,
-<a href=/gwf-publications/people/J/Jeff-Derry/ data-uni=uni0828>Jeff Derry</a>,
-<a href=/gwf-publications/people/A/Agn%C3%A8s-Ducharne/ data-uni=uni0548>Agnès Ducharne</a>,
-<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0386>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0062>Julia Boike</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0056>Aaron Boone</a>,
+<a href=/gwf-publications/people/F/F-Ch%C3%A9ruy/ data-uni=uni1533>F. Chéruy</a>,
+<a href=/gwf-publications/people/J/Jeanne-Colin/ data-uni=uni0056>Jeanne Colin</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0298>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/Y/Yongjiu-Dai/ data-uni=uni0176>Yongjiu Dai</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0075>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/J/Jeff-Derry/ data-uni=uni1521>Jeff Derry</a>,
+<a href=/gwf-publications/people/A/Agn%C3%A8s-Ducharne/ data-uni=uni0628>Agnès Ducharne</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0518>Emanuel Dutra</a>,
 <a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0001>Xing Fang</a>,
-<a href=/gwf-publications/people/C/Charles-Fierz/ data-uni=uni0049>Charles Fierz</a>,
-<a href=/gwf-publications/people/J/Josephine-Ghattas/ data-uni=uni0812>Josephine Ghattas</a>,
-<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0186>Yeugeniy M. Gusev</a>,
-<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0283>Vanessa Haverd</a>,
-<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0018>Anna Kontu</a>,
-<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0039>Matthieu Lafaysse</a>,
-<a href=/gwf-publications/people/R/R-M-Law/ data-uni=uni1321>R. M. Law</a>,
-<a href=/gwf-publications/people/D/David-M-Lawrence/ data-uni=uni0027>David M. Lawrence</a>,
-<a href=/gwf-publications/people/W/Weiping-Li/ data-uni=uni0069>Weiping Li</a>,
-<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0015>Thomas Marke</a>,
-<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0406>Danny Marks</a>,
-<a href=/gwf-publications/people/M/Martin-M%C3%A9n%C3%A9goz/ data-uni=uni0261>Martin Ménégoz</a>,
-<a href=/gwf-publications/people/O/O-N-Nasonova/ data-uni=uni0186>O. N. Nasonova</a>,
-<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0195>Tomoko Nitta</a>,
-<a href=/gwf-publications/people/M/Michio-Niwano/ data-uni=uni0796>Michio Niwano</a>,
+<a href=/gwf-publications/people/C/Charles-Fierz/ data-uni=uni0036>Charles Fierz</a>,
+<a href=/gwf-publications/people/J/Josephine-Ghattas/ data-uni=uni0894>Josephine Ghattas</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0170>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0336>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0021>Anna Kontu</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0056>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/R/R-M-Law/ data-uni=uni1520>R. M. Law</a>,
+<a href=/gwf-publications/people/D/David-M-Lawrence/ data-uni=uni0054>David M. Lawrence</a>,
+<a href=/gwf-publications/people/W/Weiping-Li/ data-uni=uni1517>Weiping Li</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0020>Thomas Marke</a>,
+<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0521>Danny Marks</a>,
+<a href=/gwf-publications/people/M/Martin-M%C3%A9n%C3%A9goz/ data-uni=uni0268>Martin Ménégoz</a>,
+<a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni0170>О. Н. Насонова</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0221>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/M/Michio-Niwano/ data-uni=uni0841>Michio Niwano</a>,
 <a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
-<a href=/gwf-publications/people/M/M-S-Raleigh/ data-uni=uni0085>M. S. Raleigh</a>,
-<a href=/gwf-publications/people/G/Gerd-Schaedler/ data-uni=uni0096>Gerd Schaedler</a>,
-<a href=/gwf-publications/people/V/V-A-Semenov/ data-uni=uni0336>V. A. Semenov</a>,
-<a href=/gwf-publications/people/T/Tanya-Smirnova/ data-uni=uni1322>Tanya Smirnova</a>,
-<a href=/gwf-publications/people/T/Tobias-Stacke/ data-uni=uni0342>Tobias Stacke</a>,
-<a href=/gwf-publications/people/U/Ulrich-Strasser/ data-uni=uni0015>Ulrich Strasser</a>,
-<a href=/gwf-publications/people/S/Sean-Svenson/ data-uni=uni0336>Sean Svenson</a>,
-<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0367>Dmitry Turkov</a>,
-<a href=/gwf-publications/people/T/Tao-Wang/ data-uni=uni0798>Tao Wang</a>,
-<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0058>Nander Wever</a>,
-<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0191>Hua Yuan</a>,
-<a href=/gwf-publications/people/W/Wenyan-Zhou/ data-uni=uni0799>Wenyan Zhou</a>,
-<a href=/gwf-publications/people/D/Dan-Zhu/ data-uni=uni1323>Dan Zhu</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. This paper describes ESM-SnowMIP, an international coordinated modelling effort to evaluate current snow schemes, including snow schemes that are included in Earth system models, in a wide variety of settings against local and global observations. The project aims to identify crucial processes and characteristics that need to be improved in snow models in the context of local- and global-scale modelling. A further objective of ESM-SnowMIP is to better quantify snow-related feedbacks in the Earth system. Although it is not part of the sixth phase of the Coupled Model Intercomparison Project (CMIP6), ESM-SnowMIP is tightly linked to the CMIP6-endorsed Land Surface, Snow and Soil Moisture Model Intercomparison (LS3MIP).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel-Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, et al.. 2018. ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks. <i>Geoscientific Model Development, Volume 11, Issue 12</i>, 11(12):5027–5049.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/M/M-S-Raleigh/ data-uni=uni0092>M. S. Raleigh</a>,
+<a href=/gwf-publications/people/G/Gerd-Schaedler/ data-uni=uni0085>Gerd Schaedler</a>,
+<a href=/gwf-publications/people/%D0%92/%D0%92-%D0%90-%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2/ data-uni=uni0349>В. А. Семенов</a>,
+<a href=/gwf-publications/people/T/Tanya-Smirnova/ data-uni=uni1648>Tanya Smirnova</a>,
+<a href=/gwf-publications/people/T/Tobias-Stacke/ data-uni=uni0374>Tobias Stacke</a>,
+<a href=/gwf-publications/people/U/Ulrich-Strasser/ data-uni=uni0020>Ulrich Strasser</a>,
+<a href=/gwf-publications/people/S/Sean-Svenson/ data-uni=uni0349>Sean Svenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0511>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/T/Tao-Wang/ data-uni=uni0621>Tao Wang</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0060>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0229>Hua Yuan</a>,
+<a href=/gwf-publications/people/W/Wenyan-Zhou/ data-uni=uni0913>Wenyan Zhou</a>,
+<a href=/gwf-publications/people/D/Dan-Zhu/ data-uni=uni1645>Dan Zhu</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. This paper describes ESM-SnowMIP, an international coordinated modelling effort to evaluate current snow schemes, including snow schemes that are included in Earth system models, in a wide variety of settings against local and global observations. The project aims to identify crucial processes and characteristics that need to be improved in snow models in the context of local- and global-scale modelling. A further objective of ESM-SnowMIP is to better quantify snow-related feedbacks in the Earth system. Although it is not part of the sixth phase of the Coupled Model Intercomparison Project (CMIP6), ESM-SnowMIP is tightly linked to the CMIP6-endorsed Land Surface, Snow and Soil Moisture Model Intercomparison (LS3MIP).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel‐Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, et al.. 2018. ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks. <i>Geoscientific Model Development, Volume 11, Issue 12</i>, 11(12):5027–5049.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -82,7 +82,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Clark, Martyn P.  and
       Hall, Alex  and
       Rott, Helmut  and
-      Brutel-Vuilmet, Claire  and
+      Brutel‐Vuilmet, Claire  and
       Kim, Hyungjun  and
       M{\&#39;e}nard, C{\&#39;e}cile B.  and
       Mudryk, Lawrence  and
@@ -93,7 +93,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Bartlett, Paul  and
       Boike, Julia  and
       Boone, Aaron  and
-      Cheruy, F.  and
+      Ch{\&#39;e}ruy, F.  and
       Colin, Jeanne  and
       Cuntz, Matthias  and
       Dai, Yongjiu  and
@@ -114,13 +114,13 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Marke, Thomas  and
       Marks, Danny  and
       M{\&#39;e}n{\&#39;e}goz, Martin  and
-      Nasonova, O. N.  and
+      Насонова, О. Н.  and
       Nitta, Tomoko  and
       Niwano, Michio  and
       Pomeroy, John W.  and
       Raleigh, M. S.  and
       Schaedler, Gerd  and
-      Semenov, V. A.  and
+      Семенов, В. А.  and
       Smirnova, Tanya  and
       Stacke, Tobias  and
       Strasser, Ulrich  and
@@ -207,7 +207,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Claire&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Brutel-Vuilmet&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Brutel‐Vuilmet&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -286,7 +286,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;F&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Cheruy&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chéruy&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -435,9 +435,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;O&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;N&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Nasonova&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;О.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Н.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Насонова&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -480,9 +480,9 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;V&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Semenov&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;В.&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;А.&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Семенов&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -601,7 +601,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Clark, Martyn P.
 %A Hall, Alex
 %A Rott, Helmut
-%A Brutel-Vuilmet, Claire
+%A Brutel‐Vuilmet, Claire
 %A Kim, Hyungjun
 %A Ménard, Cécile B.
 %A Mudryk, Lawrence
@@ -612,7 +612,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Bartlett, Paul
 %A Boike, Julia
 %A Boone, Aaron
-%A Cheruy, F.
+%A Chéruy, F.
 %A Colin, Jeanne
 %A Cuntz, Matthias
 %A Dai, Yongjiu
@@ -633,13 +633,13 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Marke, Thomas
 %A Marks, Danny
 %A Ménégoz, Martin
-%A Nasonova, O. N.
+%A Насонова, О. Н.
 %A Nitta, Tomoko
 %A Niwano, Michio
 %A Pomeroy, John W.
 %A Raleigh, M. S.
 %A Schaedler, Gerd
-%A Semenov, V. A.
+%A Семенов, В. А.
 %A Smirnova, Tanya
 %A Stacke, Tobias
 %A Strasser, Ulrich
@@ -663,6 +663,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %P 5027-5049
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G18-136001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks](https://gwf-uwaterloo.github.io/gwf-publications/G18-136001) (Krinner et al., GWF 2018)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks</a> (Krinner et al., GWF 2018)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel-Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, et al.. 2018. ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks. <i>Geoscientific Model Development, Volume 11, Issue 12</i>, 11(12):5027–5049.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks](https://gwf-uwaterloo.github.io/gwf-publications/G18-136001) (Krinner et al., GWF 2018)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G18-136001>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks</a> (Krinner et al., GWF 2018)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Gerhard Krinner, Chris Derksen, Richard Essery, M. Flanner, Stefan Hagemann, Martyn P. Clark, Alex Hall, Helmut Rott, Claire Brutel‐Vuilmet, Hyungjun Kim, Cécile B. Ménard, Lawrence Mudryk, Chad W. Thackeray, Libo Wang, Gabriele Arduini, Gianpaolo Balsamo, Paul Bartlett, Julia Boike, Aaron Boone, et al.. 2018. ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks. <i>Geoscientific Model Development, Volume 11, Issue 12</i>, 11(12):5027–5049.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

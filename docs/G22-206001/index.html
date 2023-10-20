@@ -1,0 +1,298 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById('expand-proj').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});document.getElementById('expand-uni').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});};</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL) - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)" name=citation_title><meta content="Juliane Mai" name=citation_author><meta content="Helen C. Shen" name=citation_author><meta content="Bryan A. Tolson" name=citation_author><meta content="Étienne Gaborit" name=citation_author><meta content="R.J. Arsenault" name=citation_author><meta content="James R. Craig" name=citation_author><meta content="Vincent Fortin" name=citation_author><meta content="Lauren M. Fry" name=citation_author><meta content="Martin Gauch" name=citation_author><meta content="Daniel Klotz" name=citation_author><meta content="Frederik Kratzert" name=citation_author><meta content="Nicole O'Brien" name=citation_author><meta content="Daniel Princz" name=citation_author><meta content="Sinan Rasiya Koya" name=citation_author><meta content="Tirthankar Roy" name=citation_author><meta content="Frank Seglenieks" name=citation_author><meta content="Narayan Kumar Shrestha" name=citation_author><meta content="André Guy Tranquille Temgoua" name=citation_author><meta content="Vincent Vionnet" name=citation_author><meta content="Jonathan W. Waddell" name=citation_author><meta content="Hydrology and Earth System Sciences, Volume 26, Issue 13" name=citation_journal_title><meta content="26" name=citation_volume><meta content="13" name=citation_issue><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.5194/hess-26-3537-2022" name=citation_pdf_url><meta content="3537" name=citation_firstpage><meta content="3572" name=citation_lastpage><meta content="10.5194/hess-26-3537-2022" name=citation_doi><meta property="og:title" content="The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-206001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-104001"><meta property="og:description" content="Juliane Mai, Helen C. Shen, Bryan A. Tolson, Étienne Gaborit, R.J. Arsenault, James R. Craig, Vincent Fortin, Lauren M. Fry, Martin Gauch, Daniel Klotz, Frederik Kratzert, Nicole O'Brien, Daniel Princz, Sinan Rasiya Koya, Tirthankar Roy, Frank Seglenieks, Narayan Kumar Shrestha, André Guy Tranquille Temgoua, Vincent Vionnet, Jonathan W. Waddell. Hydrology and Earth System Sciences, Volume 26, Issue 13. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-104001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-104001>The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)</a></h2><p class=lead><a href=/gwf-publications/people/J/Juliane-Mai/ data-uni=uni0002>Juliane Mai</a>,
+<a href=/gwf-publications/people/H/Helen-C-Shen/ data-uni=uni0002>Helen C. Shen</a>,
+<a href=/gwf-publications/people/B/Bryan-A-Tolson/ data-uni=uni0002>Bryan A. Tolson</a>,
+<a href=/gwf-publications/people/%C3%89/%C3%89tienne-Gaborit/ data-uni=uni0005>Étienne Gaborit</a>,
+<a href=/gwf-publications/people/R/RJ-Arsenault/ data-uni=uni0252>R.J. Arsenault</a>,
+<a href=/gwf-publications/people/J/James-R-Craig/ data-uni=uni0002>James R. Craig</a>,
+<a href=/gwf-publications/people/V/Vincent-Fortin/ data-uni=uni0032>Vincent Fortin</a>,
+<a href=/gwf-publications/people/L/Lauren-M-Fry/ data-uni=uni0333>Lauren M. Fry</a>,
+<a href=/gwf-publications/people/M/Martin-Gauch/ data-uni=uni0139>Martin Gauch</a>,
+<a href=/gwf-publications/people/D/Daniel-Klotz/ data-uni=uni0470>Daniel Klotz</a>,
+<a href=/gwf-publications/people/F/Frederik-Kratzert/ data-uni=uni0139>Frederik Kratzert</a>,
+<a href=/gwf-publications/people/N/Nicole-OBrien/ data-uni=uni0005>Nicole O'Brien</a>,
+<a href=/gwf-publications/people/D/Daniel-Princz/ data-uni=uni0005>Daniel Princz</a>,
+<a href=/gwf-publications/people/S/Sinan-Rasiya-Koya/ data-uni=uni0057>Sinan Rasiya Koya</a>,
+<a href=/gwf-publications/people/T/Tirthankar-Roy/ data-uni=uni0557>Tirthankar Roy</a>,
+<a href=/gwf-publications/people/F/Frank-Seglenieks/ data-uni=uni0005>Frank Seglenieks</a>,
+<a href=/gwf-publications/people/N/Narayan-Kumar-Shrestha/ data-uni=uni0008>Narayan Kumar Shrestha</a>,
+<a href=/gwf-publications/people/A/Andr%C3%A9-Guy-Tranquille-Temgoua/ data-uni=uni0005>André Guy Tranquille Temgoua</a>,
+<a href=/gwf-publications/people/V/Vincent-Vionnet/ data-uni=uni0005>Vincent Vionnet</a>,
+<a href=/gwf-publications/people/J/Jonathan-W-Waddell/ data-uni=uni0635>Jonathan W. Waddell</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract. Model intercomparison studies are carried out to test and compare the simulated outputs of various model setups over the same study domain. The Great Lakes region is such a domain of high public interest as it not only resembles a challenging region to model with its transboundary location, strong lake effects, and regions of strong human impact but is also one of the most densely populated areas in the USA and Canada. This study brought together a wide range of researchers setting up their models of choice in a highly standardized experimental setup using the same geophysical datasets, forcings, common routing product, and locations of performance evaluation across the 1×106 km2 study domain. The study comprises 13 models covering a wide range of model types from machine-learning-based, basin-wise, subbasin-based, and gridded models that are either locally or globally calibrated or calibrated for one of each of the six predefined regions of the watershed. Unlike most hydrologically focused model intercomparisons, this study not only compares models regarding their capability to simulate streamflow (Q) but also evaluates the quality of simulated actual evapotranspiration (AET), surface soil moisture (SSM), and snow water equivalent (SWE). The latter three outputs are compared against gridded reference datasets. The comparisons are performed in two ways – either by aggregating model outputs and the reference to basin level or by regridding all model outputs to the reference grid and comparing the model simulations at each grid-cell. The main results of this study are as follows: The comparison of models regarding streamflow reveals the superior quality of the machine-learning-based model in the performance of all experiments; even for the most challenging spatiotemporal validation, the machine learning (ML) model outperforms any other physically based model. While the locally calibrated models lead to good performance in calibration and temporal validation (even outperforming several regionally calibrated models), they lose performance when they are transferred to locations that the model has not been calibrated on. This is likely to be improved with more advanced strategies to transfer these models in space. The regionally calibrated models – while losing less performance in spatial and spatiotemporal validation than locally calibrated models – exhibit low performances in highly regulated and urban areas and agricultural regions in the USA. Comparisons of additional model outputs (AET, SSM, and SWE) against gridded reference datasets show that aggregating model outputs and the reference dataset to the basin scale can lead to different conclusions than a comparison at the native grid scale. The latter is deemed preferable, especially for variables with large spatial variability such as SWE. A multi-objective-based analysis of the model performances across all variables (Q, AET, SSM, and SWE) reveals overall well-performing locally calibrated models (i.e., HYMOD2-lumped) and regionally calibrated models (i.e., MESH-SVS-Raven and GEM-Hydro-Watroute) due to varying reasons. The machine-learning-based model was not included here as it is not set up to simulate AET, SSM, and SWE. All basin-aggregated model outputs and observations for the model variables evaluated in this study are available on an interactive website that enables users to visualize results and download the data and model outputs.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Juliane Mai, Helen C. Shen, Bryan A. Tolson, Étienne Gaborit, R.J. Arsenault, James R. Craig, Vincent Fortin, Lauren M. Fry, Martin Gauch, Daniel Klotz, Frederik Kratzert, Nicole O'Brien, Daniel Princz, Sinan Rasiya Koya, Tirthankar Roy, Frank Seglenieks, Narayan Kumar Shrestha, André Guy Tranquille Temgoua, Vincent Vionnet, et al.. 2022. The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL). <i>Hydrology and Earth System Sciences, Volume 26, Issue 13</i>, 26(13):3537–3572.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=The+Great+Lakes+Runoff+Intercomparison+Project+Phase+4%3A+the+Great+Lakes+%28GRIP-GL%29" title="Search for 'The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Mai-Shen-2022-The-Great,
+    title = &#34;The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)&#34;,
+    author = &#34;Mai, Juliane  and
+      Shen, Helen C.  and
+      Tolson, Bryan A.  and
+      Gaborit, {\&#39;E}tienne  and
+      Arsenault, R.J.  and
+      Craig, James R.  and
+      Fortin, Vincent  and
+      Fry, Lauren M.  and
+      Gauch, Martin  and
+      Klotz, Daniel  and
+      Kratzert, Frederik  and
+      O&#39;Brien, Nicole  and
+      Princz, Daniel  and
+      Koya, Sinan Rasiya  and
+      Roy, Tirthankar  and
+      Seglenieks, Frank  and
+      Shrestha, Narayan Kumar  and
+      Temgoua, Andr{\&#39;e} Guy Tranquille  and
+      Vionnet, Vincent  and
+      Waddell, Jonathan W.&#34;,
+    journal = &#34;Hydrology and Earth System Sciences, Volume 26, Issue 13&#34;,
+    volume = &#34;26&#34;,
+    number = &#34;13&#34;,
+    year = &#34;2022&#34;,
+    publisher = &#34;Copernicus GmbH&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G22-104001&#34;,
+    doi = &#34;10.5194/hess-26-3537-2022&#34;,
+    pages = &#34;3537--3572&#34;,
+    abstract = &#34;Abstract. Model intercomparison studies are carried out to test and compare the simulated outputs of various model setups over the same study domain. The Great Lakes region is such a domain of high public interest as it not only resembles a challenging region to model with its transboundary location, strong lake effects, and regions of strong human impact but is also one of the most densely populated areas in the USA and Canada. This study brought together a wide range of researchers setting up their models of choice in a highly standardized experimental setup using the same geophysical datasets, forcings, common routing product, and locations of performance evaluation across the 1{\mbox{$\times$}}106 km2 study domain. The study comprises 13 models covering a wide range of model types from machine-learning-based, basin-wise, subbasin-based, and gridded models that are either locally or globally calibrated or calibrated for one of each of the six predefined regions of the watershed. Unlike most hydrologically focused model intercomparisons, this study not only compares models regarding their capability to simulate streamflow (Q) but also evaluates the quality of simulated actual evapotranspiration (AET), surface soil moisture (SSM), and snow water equivalent (SWE). The latter three outputs are compared against gridded reference datasets. The comparisons are performed in two ways {--} either by aggregating model outputs and the reference to basin level or by regridding all model outputs to the reference grid and comparing the model simulations at each grid-cell. The main results of this study are as follows: The comparison of models regarding streamflow reveals the superior quality of the machine-learning-based model in the performance of all experiments; even for the most challenging spatiotemporal validation, the machine learning (ML) model outperforms any other physically based model. While the locally calibrated models lead to good performance in calibration and temporal validation (even outperforming several regionally calibrated models), they lose performance when they are transferred to locations that the model has not been calibrated on. This is likely to be improved with more advanced strategies to transfer these models in space. The regionally calibrated models {--} while losing less performance in spatial and spatiotemporal validation than locally calibrated models {--} exhibit low performances in highly regulated and urban areas and agricultural regions in the USA. Comparisons of additional model outputs (AET, SSM, and SWE) against gridded reference datasets show that aggregating model outputs and the reference dataset to the basin scale can lead to different conclusions than a comparison at the native grid scale. The latter is deemed preferable, especially for variables with large spatial variability such as SWE. A multi-objective-based analysis of the model performances across all variables (Q, AET, SSM, and SWE) reveals overall well-performing locally calibrated models (i.e., HYMOD2-lumped) and regionally calibrated models (i.e., MESH-SVS-Raven and GEM-Hydro-Watroute) due to varying reasons. The machine-learning-based model was not included here as it is not set up to simulate AET, SSM, and SWE. All basin-aggregated model outputs and observations for the model variables evaluated in this study are available on an interactive website that enables users to visualize results and download the data and model outputs.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-206001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Mai-Shen-2022-The-Great&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juliane&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Helen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bryan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tolson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Étienne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gaborit&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Arsenault&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;James&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Craig&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vincent&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fortin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lauren&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fry&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Martin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gauch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Klotz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frederik&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kratzert&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Nicole&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;O’Brien&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Daniel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Princz&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sinan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rasiya&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Koya&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tirthankar&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Roy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Frank&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Seglenieks&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Narayan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kumar&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Shrestha&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;André&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tranquille&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Temgoua&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Vincent&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vionnet&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jonathan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Waddell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2022&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Hydrology and Earth System Sciences, Volume 26, Issue 13&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;Copernicus GmbH&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Abstract. Model intercomparison studies are carried out to test and compare the simulated outputs of various model setups over the same study domain. The Great Lakes region is such a domain of high public interest as it not only resembles a challenging region to model with its transboundary location, strong lake effects, and regions of strong human impact but is also one of the most densely populated areas in the USA and Canada. This study brought together a wide range of researchers setting up their models of choice in a highly standardized experimental setup using the same geophysical datasets, forcings, common routing product, and locations of performance evaluation across the 1\times106 km2 study domain. The study comprises 13 models covering a wide range of model types from machine-learning-based, basin-wise, subbasin-based, and gridded models that are either locally or globally calibrated or calibrated for one of each of the six predefined regions of the watershed. Unlike most hydrologically focused model intercomparisons, this study not only compares models regarding their capability to simulate streamflow (Q) but also evaluates the quality of simulated actual evapotranspiration (AET), surface soil moisture (SSM), and snow water equivalent (SWE). The latter three outputs are compared against gridded reference datasets. The comparisons are performed in two ways – either by aggregating model outputs and the reference to basin level or by regridding all model outputs to the reference grid and comparing the model simulations at each grid-cell. The main results of this study are as follows: The comparison of models regarding streamflow reveals the superior quality of the machine-learning-based model in the performance of all experiments; even for the most challenging spatiotemporal validation, the machine learning (ML) model outperforms any other physically based model. While the locally calibrated models lead to good performance in calibration and temporal validation (even outperforming several regionally calibrated models), they lose performance when they are transferred to locations that the model has not been calibrated on. This is likely to be improved with more advanced strategies to transfer these models in space. The regionally calibrated models – while losing less performance in spatial and spatiotemporal validation than locally calibrated models – exhibit low performances in highly regulated and urban areas and agricultural regions in the USA. Comparisons of additional model outputs (AET, SSM, and SWE) against gridded reference datasets show that aggregating model outputs and the reference dataset to the basin scale can lead to different conclusions than a comparison at the native grid scale. The latter is deemed preferable, especially for variables with large spatial variability such as SWE. A multi-objective-based analysis of the model performances across all variables (Q, AET, SSM, and SWE) reveals overall well-performing locally calibrated models (i.e., HYMOD2-lumped) and regionally calibrated models (i.e., MESH-SVS-Raven and GEM-Hydro-Watroute) due to varying reasons. The machine-learning-based model was not included here as it is not set up to simulate AET, SSM, and SWE. All basin-aggregated model outputs and observations for the model variables evaluated in this study are available on an interactive website that enables users to visualize results and download the data and model outputs.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Mai-Shen-2022-The-Great&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.5194/hess-26-3537-2022&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G22-104001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2022&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;26&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;13&lt;/number&gt;&lt;/detail&gt;
+        &lt;extent unit=&#34;page&#34;&gt;
+            &lt;start&gt;3537&lt;/start&gt;
+            &lt;end&gt;3572&lt;/end&gt;
+        &lt;/extent&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-206001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)
+%A Mai, Juliane
+%A Shen, Helen C.
+%A Tolson, Bryan A.
+%A Gaborit, Étienne
+%A Arsenault, R. J.
+%A Craig, James R.
+%A Fortin, Vincent
+%A Fry, Lauren M.
+%A Gauch, Martin
+%A Klotz, Daniel
+%A Kratzert, Frederik
+%A O’Brien, Nicole
+%A Princz, Daniel
+%A Koya, Sinan Rasiya
+%A Roy, Tirthankar
+%A Seglenieks, Frank
+%A Shrestha, Narayan Kumar
+%A Temgoua, André Guy Tranquille
+%A Vionnet, Vincent
+%A Waddell, Jonathan W.
+%J Hydrology and Earth System Sciences, Volume 26, Issue 13
+%D 2022
+%V 26
+%N 13
+%I Copernicus GmbH
+%F Mai-Shen-2022-The-Great
+%X Abstract. Model intercomparison studies are carried out to test and compare the simulated outputs of various model setups over the same study domain. The Great Lakes region is such a domain of high public interest as it not only resembles a challenging region to model with its transboundary location, strong lake effects, and regions of strong human impact but is also one of the most densely populated areas in the USA and Canada. This study brought together a wide range of researchers setting up their models of choice in a highly standardized experimental setup using the same geophysical datasets, forcings, common routing product, and locations of performance evaluation across the 1\times106 km2 study domain. The study comprises 13 models covering a wide range of model types from machine-learning-based, basin-wise, subbasin-based, and gridded models that are either locally or globally calibrated or calibrated for one of each of the six predefined regions of the watershed. Unlike most hydrologically focused model intercomparisons, this study not only compares models regarding their capability to simulate streamflow (Q) but also evaluates the quality of simulated actual evapotranspiration (AET), surface soil moisture (SSM), and snow water equivalent (SWE). The latter three outputs are compared against gridded reference datasets. The comparisons are performed in two ways – either by aggregating model outputs and the reference to basin level or by regridding all model outputs to the reference grid and comparing the model simulations at each grid-cell. The main results of this study are as follows: The comparison of models regarding streamflow reveals the superior quality of the machine-learning-based model in the performance of all experiments; even for the most challenging spatiotemporal validation, the machine learning (ML) model outperforms any other physically based model. While the locally calibrated models lead to good performance in calibration and temporal validation (even outperforming several regionally calibrated models), they lose performance when they are transferred to locations that the model has not been calibrated on. This is likely to be improved with more advanced strategies to transfer these models in space. The regionally calibrated models – while losing less performance in spatial and spatiotemporal validation than locally calibrated models – exhibit low performances in highly regulated and urban areas and agricultural regions in the USA. Comparisons of additional model outputs (AET, SSM, and SWE) against gridded reference datasets show that aggregating model outputs and the reference dataset to the basin scale can lead to different conclusions than a comparison at the native grid scale. The latter is deemed preferable, especially for variables with large spatial variability such as SWE. A multi-objective-based analysis of the model performances across all variables (Q, AET, SSM, and SWE) reveals overall well-performing locally calibrated models (i.e., HYMOD2-lumped) and regionally calibrated models (i.e., MESH-SVS-Raven and GEM-Hydro-Watroute) due to varying reasons. The machine-learning-based model was not included here as it is not set up to simulate AET, SSM, and SWE. All basin-aggregated model outputs and observations for the model variables evaluated in this study are available on an interactive website that enables users to visualize results and download the data and model outputs.
+%R 10.5194/hess-26-3537-2022
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-104001
+%U https://doi.org/10.5194/hess-26-3537-2022
+%P 3537-3572
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-206001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)](https://gwf-uwaterloo.github.io/gwf-publications/G22-104001) (Mai et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-104001>The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL)</a> (Mai et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Juliane Mai, Helen C. Shen, Bryan A. Tolson, Étienne Gaborit, R.J. Arsenault, James R. Craig, Vincent Fortin, Lauren M. Fry, Martin Gauch, Daniel Klotz, Frederik Kratzert, Nicole O'Brien, Daniel Princz, Sinan Rasiya Koya, Tirthankar Roy, Frank Seglenieks, Narayan Kumar Shrestha, André Guy Tranquille Temgoua, Vincent Vionnet, et al.. 2022. The Great Lakes Runoff Intercomparison Project Phase 4: the Great Lakes (GRIP-GL). <i>Hydrology and Earth System Sciences, Volume 26, Issue 13</i>, 26(13):3537–3572.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Chakroborti-2019-A">
+    <titleInfo>
+        <title>A Data Management Scheme for Micro-Level Modular Computation-Intensive Programs in Big Data Platforms</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Debasish</namePart>
+        <namePart type="family">Chakroborti</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Amit</namePart>
+        <namePart type="given">Kumar</namePart>
+        <namePart type="family">Mondal</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Golam</namePart>
+        <namePart type="family">Mostaeen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ralph</namePart>
+        <namePart type="family">Deters</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2019</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Studies in Big Data</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Springer International Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Big Data analytics or systems developed with parallel distributed processing frameworks (e.g., Hadoop and Spark) are becoming popular for finding important insights from a huge amount of heterogeneous data (e.g., image, text, and sensor data). These systems offer a wide range of tools and connect them to form workflows for processing Big Data. Independent schemes from different studies for managing programs and data of workflows have been already proposed by many researchers and most of the systems have been presented with data or metadata management. However, to the best of our knowledge, no study particularly discusses the performance implications of utilizing intermediate states of data and programs generated at various execution steps of a workflow in distributed platforms. In order to address the shortcomings, we propose a scheme of Big Data management for micro-level modular computation-intensive programs in a Spark and Hadoop-based platform. In this paper, we investigate whether management of the intermediate states can speed up the execution of an image processing pipeline consisting of various image processing tools/APIs in Hadoop Distributed File System (HDFS) while ensuring appropriate reusability and error monitoring. From our experiments, we obtained prominent results, e.g., we have reported that with the intermediate data management, we can gain up to 87% computation time for an image processing job.</abstract>
+    <identifier type="citekey">Chakroborti-2019-A</identifier>
+    <identifier type="doi">10.1007/978-3-030-32587-9_9</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G19-4002</url>
+    </location>
+    <part>
+        <date>2019</date>
+        <extent unit="page">
+            <start>135</start>
+            <end>153</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

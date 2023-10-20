@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Hobbi-2022-Detailed">
+    <titleInfo>
+        <title>Detailed investigation of discrepancies in Köppen-Geiger climate classification using seven global gridded products</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Salma</namePart>
+        <namePart type="family">Hobbi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chandra</namePart>
+        <namePart type="given">Rupa</namePart>
+        <namePart type="family">Rajulapati</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sofia</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Nerantzaki</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yannis</namePart>
+        <namePart type="family">Markonis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 612</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>The Köppen-Geiger (KG) climate classification has been widely used to determine the climate at global and regional scales using precipitation and temperature data. KG maps are typically developed using a single product; however, uncertainties in KG climate types resulting from different precipitation and temperature datasets have not been explored in detail. Here, we assess seven global datasets to show uncertainties in KG classification from 1980 to 2017. Using a pairwise comparison at global and zonal scales, we quantify the similarity among the seven KG maps. Gauge- and reanalysis-based KG maps have a notable difference. Spatially, the highest and lowest similarity is observed for the North and South Temperate zones, respectively. Notably, 17% of grids among the seven maps show variations even in the major KG climate types, while 35% of grids are described by more than one KG climate subtype. Strong uncertainty is observed in south Asia, central and south Africa, western America, and northeastern Australia. We created two KG master maps (0.5° resolution) by merging the climate maps directly and by combining the precipitation and temperature data from the seven datasets. These master maps are more robust than the individual ones showing coherent spatial patterns. This study reveals the large uncertainty in climate classification and offers two robust KG maps that may help to better evaluate historical climate and quantify future climate shifts.</abstract>
+    <identifier type="citekey">Hobbi-2022-Detailed</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.128121</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-42001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>612</number></detail>
+        <detail type="page"><number>128121</number></detail>
+    </part>
+</mods>
+</modsCollection>

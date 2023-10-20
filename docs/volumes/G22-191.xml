@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Yang-2022-Integration">
+    <titleInfo>
+        <title>Integration of text and geospatial search for hydrographic datasets using the lucene search library</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="given">Y</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Siwen</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the 22nd ACM/IEEE Joint Conference on Digital Libraries</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>ACM</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Yang-2022-Integration</identifier>
+    <identifier type="doi">10.1145/3529372.3533280</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-86001</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

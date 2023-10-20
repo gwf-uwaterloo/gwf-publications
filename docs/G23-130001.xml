@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Slater-2023-Hybrid">
+    <titleInfo>
+        <title>Hybrid forecasting: blending climate predictions with AI models</title>
+    </titleInfo>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 27, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Hybrid hydroclimatic forecasting systems employ data-driven (statistical or machine learning) methods to harness and integrate a broad variety of predictions from dynamical, physics-based models – such as numerical weather prediction, climate, land, hydrology, and Earth system models – into a final prediction product. They are recognized as a promising way of enhancing the prediction skill of meteorological and hydroclimatic variables and events, including rainfall, temperature, streamflow, floods, droughts, tropical cyclones, or atmospheric rivers. Hybrid forecasting methods are now receiving growing attention due to advances in weather and climate prediction systems at subseasonal to decadal scales, a better appreciation of the strengths of AI, and expanding access to computational resources and methods. Such systems are attractive because they may avoid the need to run a computationally expensive offline land model, can minimize the effect of biases that exist within dynamical outputs, benefit from the strengths of machine learning, and can learn from large datasets, while combining different sources of predictability with varying time horizons. Here we review recent developments in hybrid hydroclimatic forecasting and outline key challenges and opportunities for further research. These include obtaining physically explainable results, assimilating human influences from novel data sources, integrating new ensemble techniques to improve predictive skill, creating seamless prediction schemes that merge short to long lead times, incorporating initial land surface and ocean/ice conditions, acknowledging spatial variability in landscape and atmospheric forcing, and increasing the operational uptake of hybrid prediction schemes.</abstract>
+    <identifier type="citekey">Slater-2023-Hybrid</identifier>
+    <identifier type="doi">10.5194/hess-27-1865-2023</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-48001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>1865</start>
+            <end>1889</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,15 @@
+﻿%0 Journal Article
+%T Precipitation Bias Correction: A Novel Semi‐parametric Quantile Mapping Method
+%A Rajulapati, Chandra Rupa
+%A Papalexiou, S.
+%J Earth and Space Science, Volume 10, Issue 4
+%D 2023
+%V 10
+%N 4
+%I American Geophysical Union (AGU)
+%F Rajulapati-Papalexiou-2023-Precipitation-Bias
+%X Abstract Bias correction methods are used to adjust simulations from global and regional climate models to use them in informed decision‐making. Here we introduce a semi‐parametric quantile mapping (SPQM) method to bias‐correct daily precipitation. This method uses a parametric probability distribution to describe observations and an empirical distribution for simulations. Bias‐correction techniques typically adjust the bias between observation and historical simulations to correct projections. The SPQM however corrects simulations based only on observations assuming the detrended simulations have the same distribution as the observations. Thus, the bias‐corrected simulations preserve the climate change signal, including changes in the magnitude and probability dry, and guarantee a smooth transition from observations to future simulations. The results are compared with popular quantile mapping techniques, that is, the quantile delta mapping (QDM) and the statistical transformation of the CDF using splines (SSPLINE). The SPQM performed well in reproducing the observed statistics, marginal distribution, and wet and dry spells. Comparatively, it performed at least equally well as the QDM and SSPLINE, specifically in reproducing observed wet spells and extreme quantiles. The method is further tested in a basin‐scale region. The spatial variability and statistics of the observed precipitation are reproduced well in the bias‐corrected simulations. Overall, the SPQM is easy to apply, yet robust in bias‐correcting daily precipitation simulations.
+%R 10.1029/2023ea002823
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-25001
+%U https://doi.org/10.1029/2023ea002823
+

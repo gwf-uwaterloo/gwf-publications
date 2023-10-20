@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Lin-2023-A">
+    <titleInfo>
+        <title>A Dense Representation Framework for Lexical and Semantic Matching</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Sheng-Chieh</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ACM Transactions on Information Systems, Volume 41, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Association for Computing Machinery (ACM)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Lexical and semantic matching capture different successful approaches to text retrieval and the fusion of their results has proven to be more effective and robust than either alone. Prior work performs hybrid retrieval by conducting lexical and semantic matching using different systems (e.g., Lucene and Faiss, respectively) and then fusing their model outputs. In contrast, our work integrates lexical representations with dense semantic representations by densifying high-dimensional lexical representations into what we call low-dimensional dense lexical representations (DLRs). Our experiments show that DLRs can effectively approximate the original lexical representations, preserving effectiveness while improving query latency. Furthermore, we can combine dense lexical and semantic representations to generate dense hybrid representations (DHRs) that are more flexible and yield faster retrieval compared to existing hybrid techniques. In addition, we explore jointly training lexical and semantic representations in a single model and empirically show that the resulting DHRs are able to combine the advantages of the individual components. Our best DHR model is competitive with state-of-the-art single-vector and multi-vector dense retrievers in both in-domain and zero-shot evaluation settings. Furthermore, our model is both faster and requires smaller indexes, making our dense representation framework an attractive approach to text retrieval. Our code is available at https://github.com/castorini/dhr .</abstract>
+    <identifier type="citekey">Lin-2023-A</identifier>
+    <identifier type="doi">10.1145/3582426</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-40001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>41</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>29</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

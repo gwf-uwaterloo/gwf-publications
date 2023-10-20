@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Li-2022-Development">
+    <titleInfo>
+        <title>Development of a physics-informed data-driven model for gaining insights into hydrological processes in irrigated watersheds</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kailong</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guohe</namePart>
+        <namePart type="family">Huang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shuo</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 613</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Data-driven hydrological modeling has seen rapid development in recent years owing to its flexibility to approximate the complex relationships between driving forces and hydrological fluxes. However, traditional data-driven models typically cannot simultaneously capture the processes that pose both chronic and acute impacts on streamflow, thus impeding further inference. Therefore, this study presents a baseflow-filtered hydrological inference model to gain insights into hydrological processes in irrigated watersheds. The proposed model starts with separating the streamflow process into two sub-processes using a process-based baseflow separation method. Each sub-process is simulated through a new interpretable data-driven model. The resulting hydrological inferences facilitate the identification of the dominant factors influencing flows in saturated and unsaturated zones. The proposed model is applied to three irrigated watersheds, and the evaluation metrics show that the proposed model outperforms two conventional data-driven models. Our findings reveal that predictors associated with air temperature and long-term (i.e., monthly) irrigation are mainly responsible for characterizing baseflow dynamics, while precipitation and short-term (i.e., semi-weekly or weekly) irrigation are primarily responsible for describing overland flow and interflow dynamics. The fidelity of the derived hydrological inference is further demonstrated through sensitivity analysis. The results show that the relative importance of predictors not only reflects their significance on model performance, but also influence the changes on streamflow.</abstract>
+    <identifier type="citekey">Li-2022-Development</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.128323</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-12002</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>613</number></detail>
+        <detail type="page"><number>128323</number></detail>
+    </part>
+</mods>
+</modsCollection>

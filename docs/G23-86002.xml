@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Yousfi-ElAdlouni-2023-Mixture-Probability">
+    <titleInfo>
+        <title>Mixture Probability Models with Covariates: Applications in Estimating Risk of Hydroclimatic Extremes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nawres</namePart>
+        <namePart type="family">Yousfi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Salaheddine</namePart>
+        <namePart type="given">El</namePart>
+        <namePart type="family">Adlouni</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="family">Gachon</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrologic Engineering, Volume 28, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Society of Civil Engineers (ASCE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Modeling of extreme events is important in many scientific fields, including environmental and civil engineering, and impacts and risk assessments. Among available methods, statistical models that allow estimating extremes’ frequency and intensity are regularly used in procedures to anticipate potential changes in extreme events. Extreme value theory provides a theoretical basis for statistical estimation of extreme events using frequency analysis. The challenge in modeling is knowing when to use the block maxima method or the peaks-over-threshold (POT) method. Each has its drawbacks. POT describes the main characteristics of the observed extreme series; the threshold selection is always challenging and might affect the accuracy of the simulated results and the credibility of changes in extreme values. To encompass this challenge, mixture models offer more flexibility to represent samples with nonhomogeneous data. This study presents the gamma generalized Pareto (GGP) mixture model for estimating risk occurrence of hydroclimatic extremes. The model was developed in its general form, whereas the observed hydrometeorological extreme events depend on multidimensional covariates. A maximum likelihood algorithm is proposed to estimate the parameters with a constraint on the shape parameter of the generalized Pareto (GP) distribution. A Monte Carlo (MC) simulation compared the proposed model with the classical POT approach, with a fixed threshold, and the annual maximum series of streamflow. The approach was applied using a daily hydrological data set from an observed station located in the Saint John River at Fort Kent (01AD002), New Brunswick, Canada. The results show a flexibility to model extremes for dependent or nonstationary time series and adequately describes the central part of the observed frequencies, as well as the tails.</abstract>
+    <identifier type="citekey">Yousfi-El Adlouni-2023-Mixture-Probability</identifier>
+    <identifier type="doi">10.1061/jhyeff.heeng-5831</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-28001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>28</number></detail>
+        <detail type="issue"><number>4</number></detail>
+    </part>
+</mods>
+</modsCollection>

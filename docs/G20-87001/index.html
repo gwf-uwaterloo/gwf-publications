@@ -9,66 +9,66 @@ if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]")
 if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
 else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
 if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
-$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Increasing contribution of peatlands to boreal evapotranspiration in a warming climate" name=citation_title><meta content="Manuel Helbig" name=citation_author><meta content="J. M. Waddington" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="B.D. Amiro" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Alan G. Barr" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="Peter D. Blanken" name=citation_author><meta content="Sean K. Carey" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Jinshu Chi" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Allison L. Dunn" name=citation_author><meta content="Eugénie S. Euskirchen" name=citation_author><meta content="Lawrence B. Flanagan" name=citation_author><meta content="Inke Forbrich" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Achim Grelle" name=citation_author><meta content="Silvie Harder" name=citation_author><meta content="Michal Heliasz" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Pierre-Erik Isabelle" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Rachhpal S. Jassal" name=citation_author><meta content="Mika Korkiakoski" name=citation_author><meta content="Juliya Kurbatova" name=citation_author><meta content="Lars Kutzbach" name=citation_author><meta content="Anders Lindroth" name=citation_author><meta content="Mikaell Ottosson Löfvenius" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Philip Marsh" name=citation_author><meta content="Trofim C. Maximov" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="Paul A. Moore" name=citation_author><meta content="Daniel F. Nadeau" name=citation_author><meta content="Erin M. Nicholls" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Takeshi Ohta" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Richard M. Petrone" name=citation_author><meta content="Roman E. Petrov" name=citation_author><meta content="Anatoly Prokushkin" name=citation_author><meta content="W. L. Quinton" name=citation_author><meta content="David E. Reed" name=citation_author><meta content="Nigel T. Roulet" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="I. B. Strachan" name=citation_author><meta content="Pierre Taillardat" name=citation_author><meta content="Eeva-Stiina Tuittila" name=citation_author><meta content="Juha-Pekka Tuovinen" name=citation_author><meta content="J. Turner" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Martin Wilmking" name=citation_author><meta content="Steven C. Wofsy" name=citation_author><meta content="Vyacheslav Zyrianov" name=citation_author><meta content="Nature Climate Change, Volume 10, Issue 6" name=citation_journal_title><meta content="10" name=citation_volume><meta content="6" name=citation_issue><meta content="2020" name=citation_publication_date><meta content="https://www.doi.org/10.1038/s41558-020-0763-7" name=citation_pdf_url><meta content="555" name=citation_firstpage><meta content="560" name=citation_lastpage><meta content="10.1038/s41558-020-0763-7" name=citation_doi><meta property="og:title" content="Increasing contribution of peatlands to boreal evapotranspiration in a warming climate"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G20-87001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G20-87001"><meta property="og:description" content="Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie S. Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, Michal Heliasz, Elyn Humphreys, Hiroki Ikawa, Pierre-Erik Isabelle, Hiroyasu Iwata, Rachhpal S. Jassal, Mika Korkiakoski, Juliya Kurbatova, Lars Kutzbach, Anders Lindroth, Mikaell Ottosson Löfvenius, Annalea Lohila, Ivan Mammarella, Philip Marsh, Trofim C. Maximov, Joe R. Melton, Paul A. Moore, Daniel F. Nadeau, Erin M. Nicholls, Mats Nilsson, Takeshi Ohta, Matthias Peichl, Richard M. Petrone, Roman E. Petrov, Anatoly Prokushkin, W. L. Quinton, David E. Reed, Nigel T. Roulet, Benjamin R. K. Runkle, Oliver Sonnentag, I. B. Strachan, Pierre Taillardat, Eeva-Stiina Tuittila, Juha-Pekka Tuovinen, J. Turner, Masahito Ueyama, Andrej Varlagin, Martin Wilmking, Steven C. Wofsy, Vyacheslav Zyrianov. Nature Climate Change, Volume 10, Issue 6. 2020."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
-<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate</a></h2><p class=lead><a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0037>Manuel Helbig</a>,
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Increasing contribution of peatlands to boreal evapotranspiration in a warming climate" name=citation_title><meta content="Manuel Helbig" name=citation_author><meta content="J. M. Waddington" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="B.D. Amiro" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Alan G. Barr" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="Peter D. Blanken" name=citation_author><meta content="Sean K. Carey" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Jinshu Chi" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Allison L. Dunn" name=citation_author><meta content="Eugénie Euskirchen" name=citation_author><meta content="Lawrence B. Flanagan" name=citation_author><meta content="Inke Forbrich" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Achim Grelle" name=citation_author><meta content="Silvie Harder" name=citation_author><meta content="Michal Heliasz" name=citation_author><meta content="Elyn Humphreys" name=citation_author><meta content="Hiroki Ikawa" name=citation_author><meta content="Pierre‐Érik Isabelle" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Rachhpal S. Jassal" name=citation_author><meta content="Mika Korkiakoski" name=citation_author><meta content="Juliya Kurbatova" name=citation_author><meta content="Lars Kutzbach" name=citation_author><meta content="Anders Lindroth" name=citation_author><meta content="Mikaell Ottosson Löfvenius" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Philip Marsh" name=citation_author><meta content="Trofim C. Maximov" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="Paul A. Moore" name=citation_author><meta content="Daniel F. Nadeau" name=citation_author><meta content="Erin M. Nicholls" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Takeshi Ohta" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Richard M. Petrone" name=citation_author><meta content="Roman E. Petrov" name=citation_author><meta content="Anatoly Prokushkin" name=citation_author><meta content="William L. Quinton" name=citation_author><meta content="David E. Reed" name=citation_author><meta content="Nigel T. Roulet" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="I. B. Strachan" name=citation_author><meta content="Pierre Taillardat" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Juha‐Pekka Tuovinen" name=citation_author><meta content="J. Turner" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Martin Wilmking" name=citation_author><meta content="Steven C. Wofsy" name=citation_author><meta content="Vyacheslav Zyrianov" name=citation_author><meta content="Nature Climate Change, Volume 10, Issue 6" name=citation_journal_title><meta content="10" name=citation_volume><meta content="6" name=citation_issue><meta content="2020" name=citation_publication_date><meta content="https://www.doi.org/10.1038/s41558-020-0763-7" name=citation_pdf_url><meta content="555" name=citation_firstpage><meta content="560" name=citation_lastpage><meta content="10.1038/s41558-020-0763-7" name=citation_doi><meta property="og:title" content="Increasing contribution of peatlands to boreal evapotranspiration in a warming climate"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G20-87001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G20-87001"><meta property="og:description" content="Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, Michal Heliasz, Elyn Humphreys, Hiroki Ikawa, Pierre‐Érik Isabelle, Hiroyasu Iwata, Rachhpal S. Jassal, Mika Korkiakoski, Juliya Kurbatova, Lars Kutzbach, Anders Lindroth, Mikaell Ottosson Löfvenius, Annalea Lohila, Ivan Mammarella, Philip Marsh, Trofim C. Maximov, Joe R. Melton, Paul A. Moore, Daniel F. Nadeau, Erin M. Nicholls, Mats Nilsson, Takeshi Ohta, Matthias Peichl, Richard M. Petrone, Roman E. Petrov, Anatoly Prokushkin, William L. Quinton, David E. Reed, Nigel T. Roulet, Benjamin R. K. Runkle, Oliver Sonnentag, I. B. Strachan, Pierre Taillardat, Eeva‐Stiina Tuittila, Juha‐Pekka Tuovinen, J. Turner, Masahito Ueyama, Andrej Varlagin, Martin Wilmking, Steven C. Wofsy, Vyacheslav Zyrianov. Nature Climate Change, Volume 10, Issue 6. 2020."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate</a></h2><p class=lead><a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0041>Manuel Helbig</a>,
 <a href=/gwf-publications/people/J/J-M-Waddington/ data-uni=uni0004>J. M. Waddington</a>,
-<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0079>Pavel Alekseychik</a>,
-<a href=/gwf-publications/people/B/BD-Amiro/ data-uni=uni0020>B.D. Amiro</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0078>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/B/BD-Amiro/ data-uni=uni0013>B.D. Amiro</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0021>Mika Aurela</a>,
 <a href=/gwf-publications/people/A/Alan-G-Barr/ data-uni=uni0003>Alan G. Barr</a>,
-<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0012>T. Andrew Black</a>,
-<a href=/gwf-publications/people/P/Peter-D-Blanken/ data-uni=uni0058>Peter D. Blanken</a>,
+<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0019>T. Andrew Black</a>,
+<a href=/gwf-publications/people/P/Peter-D-Blanken/ data-uni=uni0060>Peter D. Blanken</a>,
 <a href=/gwf-publications/people/S/Sean-K-Carey/ data-uni=uni0004>Sean K. Carey</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0098>Jiquan Chen</a>,
-<a href=/gwf-publications/people/J/Jinshu-Chi/ data-uni=uni0026>Jinshu Chi</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0050>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/A/Allison-L-Dunn/ data-uni=uni0412>Allison L. Dunn</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-S-Euskirchen/ data-uni=uni0021>Eugénie S. Euskirchen</a>,
-<a href=/gwf-publications/people/L/Lawrence-B-Flanagan/ data-uni=uni0091>Lawrence B. Flanagan</a>,
-<a href=/gwf-publications/people/I/Inke-Forbrich/ data-uni=uni0664>Inke Forbrich</a>,
-<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0057>Thomas Friborg</a>,
-<a href=/gwf-publications/people/A/Achim-Grelle/ data-uni=uni0594>Achim Grelle</a>,
-<a href=/gwf-publications/people/S/Silvie-Harder/ data-uni=uni0078>Silvie Harder</a>,
-<a href=/gwf-publications/people/M/Michal-Heliasz/ data-uni=uni0044>Michal Heliasz</a>,
-<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0084>Elyn Humphreys</a>,
-<a href=/gwf-publications/people/H/Hiroki-Ikawa/ data-uni=uni0252>Hiroki Ikawa</a>,
-<a href=/gwf-publications/people/P/Pierre-Erik-Isabelle/ data-uni=uni0651>Pierre-Erik Isabelle</a>,
-<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0159>Hiroyasu Iwata</a>,
-<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0012>Rachhpal S. Jassal</a>,
-<a href=/gwf-publications/people/M/Mika-Korkiakoski/ data-uni=uni0018>Mika Korkiakoski</a>,
-<a href=/gwf-publications/people/J/Juliya-Kurbatova/ data-uni=uni0064>Juliya Kurbatova</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0107>Jiquan Chen</a>,
+<a href=/gwf-publications/people/J/Jinshu-Chi/ data-uni=uni0025>Jinshu Chi</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0049>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/A/Allison-L-Dunn/ data-uni=uni0440>Allison L. Dunn</a>,
+<a href=/gwf-publications/people/E/Eug%C3%A9nie-Euskirchen/ data-uni=uni0023>Eugénie Euskirchen</a>,
+<a href=/gwf-publications/people/L/Lawrence-B-Flanagan/ data-uni=uni0100>Lawrence B. Flanagan</a>,
+<a href=/gwf-publications/people/I/Inke-Forbrich/ data-uni=uni0836>Inke Forbrich</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0052>Thomas Friborg</a>,
+<a href=/gwf-publications/people/A/Achim-Grelle/ data-uni=uni0421>Achim Grelle</a>,
+<a href=/gwf-publications/people/S/Silvie-Harder/ data-uni=uni0059>Silvie Harder</a>,
+<a href=/gwf-publications/people/M/Michal-Heliasz/ data-uni=uni0046>Michal Heliasz</a>,
+<a href=/gwf-publications/people/E/Elyn-Humphreys/ data-uni=uni0081>Elyn Humphreys</a>,
+<a href=/gwf-publications/people/H/Hiroki-Ikawa/ data-uni=uni0235>Hiroki Ikawa</a>,
+<a href=/gwf-publications/people/P/Pierre%C3%89rik-Isabelle/ data-uni=uni0834>Pierre‐Érik Isabelle</a>,
+<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0141>Hiroyasu Iwata</a>,
+<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0019>Rachhpal S. Jassal</a>,
+<a href=/gwf-publications/people/M/Mika-Korkiakoski/ data-uni=uni0021>Mika Korkiakoski</a>,
+<a href=/gwf-publications/people/J/Juliya-Kurbatova/ data-uni=uni0074>Juliya Kurbatova</a>,
 <a href=/gwf-publications/people/L/Lars-Kutzbach/ data-uni=uni0144>Lars Kutzbach</a>,
-<a href=/gwf-publications/people/A/Anders-Lindroth/ data-uni=uni0044>Anders Lindroth</a>,
-<a href=/gwf-publications/people/M/Mikaell-Ottosson-L%C3%B6fvenius/ data-uni=uni0026>Mikaell Ottosson Löfvenius</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0030>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/A/Anders-Lindroth/ data-uni=uni0046>Anders Lindroth</a>,
+<a href=/gwf-publications/people/M/Mikaell-Ottosson-L%C3%B6fvenius/ data-uni=uni0025>Mikaell Ottosson Löfvenius</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0021>Annalea Lohila</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0031>Ivan Mammarella</a>,
 <a href=/gwf-publications/people/P/Philip-Marsh/ data-uni=uni0006>Philip Marsh</a>,
-<a href=/gwf-publications/people/T/Trofim-C-Maximov/ data-uni=uni0288>Trofim C. Maximov</a>,
+<a href=/gwf-publications/people/T/Trofim-C-Maximov/ data-uni=uni0428>Trofim C. Maximov</a>,
 <a href=/gwf-publications/people/J/Joe-R-Melton/ data-uni=uni0005>Joe R. Melton</a>,
-<a href=/gwf-publications/people/P/Paul-A-Moore/ data-uni=uni0103>Paul A. Moore</a>,
-<a href=/gwf-publications/people/D/Daniel-F-Nadeau/ data-uni=uni0394>Daniel F. Nadeau</a>,
+<a href=/gwf-publications/people/P/Paul-A-Moore/ data-uni=uni0110>Paul A. Moore</a>,
+<a href=/gwf-publications/people/D/Daniel-F-Nadeau/ data-uni=uni0429>Daniel F. Nadeau</a>,
 <a href=/gwf-publications/people/E/Erin-M-Nicholls/ data-uni=uni0004>Erin M. Nicholls</a>,
-<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0026>Mats Nilsson</a>,
-<a href=/gwf-publications/people/T/Takeshi-Ohta/ data-uni=uni0660>Takeshi Ohta</a>,
-<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0026>Matthias Peichl</a>,
+<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0025>Mats Nilsson</a>,
+<a href=/gwf-publications/people/T/Takeshi-Ohta/ data-uni=uni0832>Takeshi Ohta</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0025>Matthias Peichl</a>,
 <a href=/gwf-publications/people/R/Richard-M-Petrone/ data-uni=uni0002>Richard M. Petrone</a>,
-<a href=/gwf-publications/people/R/Roman-E-Petrov/ data-uni=uni0288>Roman E. Petrov</a>,
-<a href=/gwf-publications/people/A/Anatoly-Prokushkin/ data-uni=uni0312>Anatoly Prokushkin</a>,
-<a href=/gwf-publications/people/W/W-L-Quinton/ data-uni=uni0006>W. L. Quinton</a>,
-<a href=/gwf-publications/people/D/David-E-Reed/ data-uni=uni0459>David E. Reed</a>,
-<a href=/gwf-publications/people/N/Nigel-T-Roulet/ data-uni=uni0078>Nigel T. Roulet</a>,
-<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0129>Benjamin R. K. Runkle</a>,
-<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0011>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/I/I-B-Strachan/ data-uni=uni0053>I. B. Strachan</a>,
-<a href=/gwf-publications/people/P/Pierre-Taillardat/ data-uni=uni0227>Pierre Taillardat</a>,
-<a href=/gwf-publications/people/E/Eeva-Stiina-Tuittila/ data-uni=uni0088>Eeva-Stiina Tuittila</a>,
-<a href=/gwf-publications/people/J/Juha-Pekka-Tuovinen/ data-uni=uni0018>Juha-Pekka Tuovinen</a>,
-<a href=/gwf-publications/people/J/J-Turner/ data-uni=uni0050>J. Turner</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0110>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0064>Andrej Varlagin</a>,
-<a href=/gwf-publications/people/M/Martin-Wilmking/ data-uni=uni0270>Martin Wilmking</a>,
-<a href=/gwf-publications/people/S/Steven-C-Wofsy/ data-uni=uni0242>Steven C. Wofsy</a>,
-<a href=/gwf-publications/people/V/Vyacheslav-Zyrianov/ data-uni=uni0312>Vyacheslav Zyrianov</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>The response of evapotranspiration (ET) to warming is of critical importance to the water and carbon cycle of the boreal biome, a mosaic of land cover types dominated by forests and peatlands. The effect of warming-induced vapour pressure deficit (VPD) increases on boreal ET remains poorly understood because peatlands are not specifically represented as plant functional types in Earth system models. Here we show that peatland ET increases more than forest ET with increasing VPD using observations from 95 eddy covariance tower sites. At high VPD of more than 2 kPa, peatland ET exceeds forest ET by up to 30%. Future (2091–2100) mid-growing season peatland ET is estimated to exceed forest ET by over 20% in about one-third of the boreal biome for RCP4.5 and about two-thirds for RCP8.5. Peatland-specific ET responses to VPD should therefore be included in Earth system models to avoid biases in water and carbon cycle projections.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie S. Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, et al.. 2020. Increasing contribution of peatlands to boreal evapotranspiration in a warming climate. <i>Nature Climate Change, Volume 10, Issue 6</i>, 10(6):555–560.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/R/Roman-E-Petrov/ data-uni=uni0552>Roman E. Petrov</a>,
+<a href=/gwf-publications/people/A/Anatoly-Prokushkin/ data-uni=uni0338>Anatoly Prokushkin</a>,
+<a href=/gwf-publications/people/W/William-L-Quinton/ data-uni=uni0006>William L. Quinton</a>,
+<a href=/gwf-publications/people/D/David-E-Reed/ data-uni=uni0478>David E. Reed</a>,
+<a href=/gwf-publications/people/N/Nigel-T-Roulet/ data-uni=uni0059>Nigel T. Roulet</a>,
+<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0115>Benjamin R. K. Runkle</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0009>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/I/I-B-Strachan/ data-uni=uni0047>I. B. Strachan</a>,
+<a href=/gwf-publications/people/P/Pierre-Taillardat/ data-uni=uni0228>Pierre Taillardat</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0091>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/J/JuhaPekka-Tuovinen/ data-uni=uni0021>Juha‐Pekka Tuovinen</a>,
+<a href=/gwf-publications/people/J/J-Turner/ data-uni=uni0049>J. Turner</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0106>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0074>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/M/Martin-Wilmking/ data-uni=uni0831>Martin Wilmking</a>,
+<a href=/gwf-publications/people/S/Steven-C-Wofsy/ data-uni=uni0291>Steven C. Wofsy</a>,
+<a href=/gwf-publications/people/V/Vyacheslav-Zyrianov/ data-uni=uni0338>Vyacheslav Zyrianov</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>The response of evapotranspiration (ET) to warming is of critical importance to the water and carbon cycle of the boreal biome, a mosaic of land cover types dominated by forests and peatlands. The effect of warming-induced vapour pressure deficit (VPD) increases on boreal ET remains poorly understood because peatlands are not specifically represented as plant functional types in Earth system models. Here we show that peatland ET increases more than forest ET with increasing VPD using observations from 95 eddy covariance tower sites. At high VPD of more than 2 kPa, peatland ET exceeds forest ET by up to 30%. Future (2091–2100) mid-growing season peatland ET is estimated to exceed forest ET by over 20% in about one-third of the boreal biome for RCP4.5 and about two-thirds for RCP8.5. Peatland-specific ET responses to VPD should therefore be included in Earth system models to avoid biases in water and carbon cycle projections.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, et al.. 2020. Increasing contribution of peatlands to boreal evapotranspiration in a warming climate. <i>Nature Climate Change, Volume 10, Issue 6</i>, 10(6):555–560.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -89,7 +89,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Chi, Jinshu  and
       Desai, Ankur R.  and
       Dunn, Allison L.  and
-      Euskirchen, Eug{\&#39;e}nie S.  and
+      Euskirchen, Eug{\&#39;e}nie  and
       Flanagan, Lawrence B.  and
       Forbrich, Inke  and
       Friborg, Thomas  and
@@ -98,7 +98,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Heliasz, Michal  and
       Humphreys, Elyn  and
       Ikawa, Hiroki  and
-      Isabelle, Pierre-Erik  and
+      Isabelle, Pierre‐{\&#39;E}rik  and
       Iwata, Hiroyasu  and
       Jassal, Rachhpal S.  and
       Korkiakoski, Mika  and
@@ -120,15 +120,15 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
       Petrone, Richard M.  and
       Petrov, Roman E.  and
       Prokushkin, Anatoly  and
-      Quinton, W. L.  and
+      Quinton, William L.  and
       Reed, David E.  and
       Roulet, Nigel T.  and
       Runkle, Benjamin R. K.  and
       Sonnentag, Oliver  and
       Strachan, I. B.  and
       Taillardat, Pierre  and
-      Tuittila, Eeva-Stiina  and
-      Tuovinen, Juha-Pekka  and
+      Tuittila, Eeva‐Stiina  and
+      Tuovinen, Juha‐Pekka  and
       Turner, J.  and
       Ueyama, Masahito  and
       Varlagin, Andrej  and
@@ -253,7 +253,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -317,7 +316,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Pierre-Erik&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pierre‐Érik&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Isabelle&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -480,7 +479,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Quinton&lt;/namePart&gt;
         &lt;role&gt;
@@ -535,14 +534,14 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eeva-Stiina&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva‐Stiina&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Juha-Pekka&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Juha‐Pekka&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Tuovinen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -640,7 +639,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Chi, Jinshu
 %A Desai, Ankur R.
 %A Dunn, Allison L.
-%A Euskirchen, Eugénie S.
+%A Euskirchen, Eugénie
 %A Flanagan, Lawrence B.
 %A Forbrich, Inke
 %A Friborg, Thomas
@@ -649,7 +648,7 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Heliasz, Michal
 %A Humphreys, Elyn
 %A Ikawa, Hiroki
-%A Isabelle, Pierre-Erik
+%A Isabelle, Pierre‐Érik
 %A Iwata, Hiroyasu
 %A Jassal, Rachhpal S.
 %A Korkiakoski, Mika
@@ -671,15 +670,15 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %A Petrone, Richard M.
 %A Petrov, Roman E.
 %A Prokushkin, Anatoly
-%A Quinton, W. L.
+%A Quinton, William L.
 %A Reed, David E.
 %A Roulet, Nigel T.
 %A Runkle, Benjamin R. K.
 %A Sonnentag, Oliver
 %A Strachan, I. B.
 %A Taillardat, Pierre
-%A Tuittila, Eeva-Stiina
-%A Tuovinen, Juha-Pekka
+%A Tuittila, Eeva‐Stiina
+%A Tuovinen, Juha‐Pekka
 %A Turner, J.
 %A Ueyama, Masahito
 %A Varlagin, Andrej
@@ -699,6 +698,6 @@ $("#project_list li:first-child").prop('style',"display:none !important");$('div
 %P 555-560
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G20-87001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Increasing contribution of peatlands to boreal evapotranspiration in a warming climate](https://gwf-uwaterloo.github.io/gwf-publications/G20-87001) (Helbig et al., GWF 2020)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate</a> (Helbig et al., GWF 2020)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie S. Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, et al.. 2020. Increasing contribution of peatlands to boreal evapotranspiration in a warming climate. <i>Nature Climate Change, Volume 10, Issue 6</i>, 10(6):555–560.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Increasing contribution of peatlands to boreal evapotranspiration in a warming climate](https://gwf-uwaterloo.github.io/gwf-publications/G20-87001) (Helbig et al., GWF 2020)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G20-87001>Increasing contribution of peatlands to boreal evapotranspiration in a warming climate</a> (Helbig et al., GWF 2020)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Manuel Helbig, J. M. Waddington, Pavel Alekseychik, B.D. Amiro, Mika Aurela, Alan G. Barr, T. Andrew Black, Peter D. Blanken, Sean K. Carey, Jiquan Chen, Jinshu Chi, Ankur R. Desai, Allison L. Dunn, Eugénie Euskirchen, Lawrence B. Flanagan, Inke Forbrich, Thomas Friborg, Achim Grelle, Silvie Harder, et al.. 2020. Increasing contribution of peatlands to boreal evapotranspiration in a warming climate. <i>Nature Climate Change, Volume 10, Issue 6</i>, 10(6):555–560.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
 target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

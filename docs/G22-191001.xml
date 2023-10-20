@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Yang-2022-Integration">
+    <titleInfo>
+        <title>Integration of text and geospatial search for hydrographic datasets using the lucene search library</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Matthew</namePart>
+        <namePart type="given">Y</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Siwen</namePart>
+        <namePart type="family">Yang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the 22nd ACM/IEEE Joint Conference on Digital Libraries</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>ACM</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>We present a hybrid text and geospatial search application for hydrographic datasets built on the open-source Lucene search library. Our goal is to demonstrate that it is possible to build custom GIS applications by integrating existing open-source components and data sources, which contrasts with existing approaches based on monolithic platforms such as ArcGIS and QGIS. Lucene provides rich index structures and search capabilities for free text and geometries; the former has already been integrated and exposed via our group’s Anserini and Pyserini IR toolkits. In this work, we extend these toolkits to include geospatial capabilities. Combining knowledge extracted from Wikidata with the HydroSHEDS dataset, our application enables text and geospatial search of rivers worldwide.</abstract>
+    <identifier type="citekey">Yang-2022-Integration</identifier>
+    <identifier type="doi">10.1145/3529372.3533280</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-86001</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

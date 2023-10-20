@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Svajlenko-2018-Fast">
+    <titleInfo>
+        <title>Fast, scalable and user-guided clone detection</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="family">Svajlenko</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchai</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2018</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>ACM</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Despite the great number of clone detection approaches proposed in the literature, few have the scalability and speed to analyze large inter-project source datasets, where clone detection has many potential applications. Furthermore, because of the many uses of clone detection, an approach is needed that can adapt to the needs of the user to detect any kind of clone. We propose a clone detection approach designed for user-guided clone detection by exploiting the power of source transformation in a plugin based source processing pipeline. Clones are detected using a simple Jaccard-based clone similarity metric, and users customize the representation of their source code as sets of terms to target particular types or kinds of clones. Fast and scalable clone detection is achieved with indexing, sub-block filtering and input partitioning.</abstract>
+    <identifier type="citekey">Svajlenko-2018-Fast</identifier>
+    <identifier type="doi">10.1145/3183440.3195005</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G18-7002</url>
+    </location>
+    <part>
+        <date>2018</date>
+    </part>
+</mods>
+</modsCollection>
