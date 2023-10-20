@@ -1,0 +1,17 @@
+﻿%0 Journal Article
+%T Manufacturing an Exact Solution for 2D Thermochemical Mantle Convection Models
+%A Trim, S. J.
+%A Butler, S. L.
+%A McAdam, Shawn S.C.
+%A Spiteri, Raymond J.
+%J Geochemistry, Geophysics, Geosystems, Volume 24, Issue 4
+%D 2023
+%V 24
+%N 4
+%I American Geophysical Union (AGU)
+%F Trim-2023-Manufacturing
+%X Abstract In this study, we manufacture an exact solution for a set of 2D thermochemical mantle convection problems. The derivation begins with the specification of a stream function corresponding to a non‐stationary velocity field. The method of characteristics is then applied to determine an expression for composition consistent with the velocity field. The stream function formulation of the Stokes equation is then applied to solve for temperature. The derivation concludes with the application of the advection‐diffusion equation for temperature to solve for the internal heating rate consistent with the velocity, composition, and temperature solutions. Due to the large number of terms, the internal heating rate is computed using Maple™, and code is also made available in Fortran and Python. Using the method of characteristics allows the compositional transport equation to be solved without the addition of diffusion or source terms. As a result, compositional interfaces remain sharp throughout time and space in the exact solution. The exact solution presented allows for precision testing of thermochemical convection codes for correctness and accuracy.
+%R 10.1029/2022gc010807
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-18001
+%U https://doi.org/10.1029/2022gc010807
+

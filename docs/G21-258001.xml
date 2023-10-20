@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ghunowa-2021-Stream">
+    <titleInfo>
+        <title>Stream power index for networks (SPIN) toolbox for decision support in urbanizing watersheds</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kimisha</namePart>
+        <namePart type="family">Ghunowa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bruce</namePart>
+        <namePart type="family">MacVicar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Peter</namePart>
+        <namePart type="family">Ashmore</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Environmental Modelling &amp; Software, Volume 144</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Urbanization typically leads to erosion and instability in rivers, and many management and restoration strategies have been developed to dampen the worst impacts. Stream power, defined as the rate of energy expenditure in a river, is a promising metric for analyzing cumulative effects. In this paper we describe a spatial decision support system called the Stream Power Index for Networks (SPIN) toolbox that can be used to assess urban river stability at a watershed scale. The objectives of the paper are to: a) describe the toolbox algorithms and procedures and b) demonstrate the utility of the approach. SPIN is written in Python and packaged as an ArcGIS toolbox. The toolbox combines existing landscape analysis algorithms with new algorithms to model river confluences, channel sinuosity, and threshold sediment particle sizes. Data can also be ingested from a standard hydraulic model. Two case studies demonstrate use of the toolbox to: i) anticipate current morphology; ii) predict urban morphologic change; and iii) analyze the benefits for stormwater management and channel restoration scenarios on channel stability.</abstract>
+    <identifier type="citekey">Ghunowa-2021-Stream</identifier>
+    <identifier type="doi">10.1016/j.envsoft.2021.105185</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G21-4001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>144</number></detail>
+        <detail type="page"><number>105185</number></detail>
+    </part>
+</mods>
+</modsCollection>

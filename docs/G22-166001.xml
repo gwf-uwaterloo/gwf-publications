@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Knoben-2022-Community">
+    <titleInfo>
+        <title>Community Workflows to Advance Reproducibility in Hydrologic Modeling: Separating Model‐Agnostic and Model‐Specific Configuration Steps in Applications of Large‐Domain Hydrologic Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Wouter</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jerad</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">Bales</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="family">Bennett</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shervan</namePart>
+        <namePart type="family">Gharari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Marsh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bart</namePart>
+        <namePart type="family">Nijssen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain</namePart>
+        <namePart type="family">Pietroniro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guoqiang</namePart>
+        <namePart type="family">Tang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">David</namePart>
+        <namePart type="given">G</namePart>
+        <namePart type="family">Tarboton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 58, Issue 11</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Despite the proliferation of computer-based research on hydrology and water resources, such research is typically poorly reproducible. Published studies have low reproducibility due to incomplete availability of data and computer code, and a lack of documentation of workflow processes. This leads to a lack of transparency and efficiency because existing code can neither be quality controlled nor reused. Given the commonalities between existing process-based hydrologic models in terms of their required input data and preprocessing steps, open sharing of code can lead to large efficiency gains for the modeling community. Here, we present a model configuration workflow that provides full reproducibility of the resulting model instantiations in a way that separates the model-agnostic preprocessing of specific data sets from the model-specific requirements that models impose on their input files. We use this workflow to create large-domain (global and continental) and local configurations of the Structure for Unifying Multiple Modeling Alternatives (SUMMA) hydrologic model connected to the mizuRoute routing model. These examples show how a relatively complex model setup over a large domain can be organized in a reproducible and structured way that has the potential to accelerate advances in hydrologic modeling for the community as a whole. We provide a tentative blueprint of how community modeling initiatives can be built on top of workflows such as this. We term our workflow the “Community Workflows to Advance Reproducibility in Hydrologic Modeling” (CWARHM; pronounced “swarm”).</abstract>
+    <identifier type="citekey">Knoben-2022-Community</identifier>
+    <identifier type="doi">10.1029/2021wr031753</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-60001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>58</number></detail>
+        <detail type="issue"><number>11</number></detail>
+    </part>
+</mods>
+</modsCollection>

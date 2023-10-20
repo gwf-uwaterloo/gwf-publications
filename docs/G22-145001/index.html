@@ -1,0 +1,207 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById('expand-proj').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});document.getElementById('expand-uni').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});};</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css><meta content="Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment" name=citation_title><meta content="Giles Exley" name=citation_author><meta content="Trevor Page" name=citation_author><meta content="Stephen J. Thackeray" name=citation_author><meta content="Andrew M. Folkard" name=citation_author><meta content="Raoul-Marie Couture" name=citation_author><meta content="Rebecca R. Hernandez" name=citation_author><meta content="Alexander E. Cagle" name=citation_author><meta content="Kateri R. Salk" name=citation_author><meta content="Lucie Clous" name=citation_author><meta content="Peet Whittaker" name=citation_author><meta content="Michael Chipps" name=citation_author><meta content="Alona Armstrong" name=citation_author><meta content="Journal of Environmental Management, Volume 324" name=citation_journal_title><meta content="324" name=citation_volume><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.1016/j.jenvman.2022.116410" name=citation_pdf_url><meta content="10.1016/j.jenvman.2022.116410" name=citation_doi><meta property="og:title" content="Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-145001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-38001"><meta property="og:description" content="Giles Exley, Trevor Page, Stephen J. Thackeray, Andrew M. Folkard, Raoul-Marie Couture, Rebecca R. Hernandez, Alexander E. Cagle, Kateri R. Salk, Lucie Clous, Peet Whittaker, Michael Chipps, Alona Armstrong. Journal of Environmental Management, Volume 324. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-38001></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-38001>Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment</a></h2><p class=lead><a href=/gwf-publications/people/G/Giles-Exley/ data-uni=uni0216>Giles Exley</a>,
+<a href=/gwf-publications/people/T/Trevor-Page/ data-uni=uni0216>Trevor Page</a>,
+<a href=/gwf-publications/people/S/Stephen-J-Thackeray/ data-uni=uni0055>Stephen J. Thackeray</a>,
+<a href=/gwf-publications/people/A/Andrew-M-Folkard/ data-uni=uni0216>Andrew M. Folkard</a>,
+<a href=/gwf-publications/people/R/Raoul-Marie-Couture/ data-uni=uni0068>Raoul-Marie Couture</a>,
+<a href=/gwf-publications/people/R/Rebecca-R-Hernandez/ data-uni=uni0195>Rebecca R. Hernandez</a>,
+<a href=/gwf-publications/people/A/Alexander-E-Cagle/ data-uni=uni0195>Alexander E. Cagle</a>,
+<a href=/gwf-publications/people/K/Kateri-R-Salk/ data-uni=uni0659>Kateri R. Salk</a>,
+<a href=/gwf-publications/people/L/Lucie-Clous/ data-uni=uni0720>Lucie Clous</a>,
+<a href=/gwf-publications/people/P/Peet-Whittaker/ data-uni=uni0720>Peet Whittaker</a>,
+<a href=/gwf-publications/people/M/Michael-Chipps/ data-uni=uni1300>Michael Chipps</a>,
+<a href=/gwf-publications/people/A/Alona-Armstrong/ data-uni=uni0216>Alona Armstrong</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Floating solar photovoltaic (FPV) deployments are increasing globally as the switch to renewable energy intensifies, representing a considerable water surface transformation. FPV installations can potentially impact aquatic ecosystem function, either positively or negatively. However, these impacts are poorly resolved given the challenges of collecting empirical data for field or modelling experiments. In particular, there is limited evidence on the response of phytoplankton to changes in water body thermal dynamics and light climate with FPV. Given the importance of understanding phytoplankton biomass and species composition for managing ecosystem services, we use an uncertainty estimation approach to simulate the effect of FPV coverage and array siting location on a UK reservoir. FPV coverage was modified in 10% increments from a baseline with 0% coverage to 100% coverage for three different FPV array siting locations based on reservoir circulation patterns. Results showed that FPV coverage significantly impacted thermal properties, resulting in highly variable impacts on phytoplankton biomass and species composition. The impacts on phytoplankton were often dependent on array siting location as well as surface coverage. Changes to phytoplankton species composition were offset by the decrease in phytoplankton biomass associated with increasing FPV coverage. We identified that similar phytoplankton biomass reductions could be achieved with less FPV coverage by deploying the FPV array on the water body's faster-flowing area than the central or slower flowing areas. The difference in response dependent on siting location could be used to tailor phytoplankton management in water bodies. Simulation of water body-FPV interactions efficiently using an uncertainty approach is an essential tool to rapidly develop understanding and ultimately inform FPV developers and water body managers looking to minimise negative impacts and maximise co-benefits.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Giles Exley, Trevor Page, Stephen J. Thackeray, Andrew M. Folkard, Raoul-Marie Couture, Rebecca R. Hernandez, Alexander E. Cagle, Kateri R. Salk, Lucie Clous, Peet Whittaker, Michael Chipps, and Alona Armstrong. 2022. Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment. <i>Journal of Environmental Management, Volume 324</i>, 324:116410.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span></a>
+<a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Floating+solar+panels+on+reservoirs+impact+phytoplankton+populations%3A+A+modelling+experiment" title="Search for 'Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Exley-2022-Floating,
+    title = &#34;Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment&#34;,
+    author = &#34;Exley, Giles  and
+      Page, Trevor  and
+      Thackeray, Stephen J.  and
+      Folkard, Andrew M.  and
+      Couture, Raoul-Marie  and
+      Hernandez, Rebecca R.  and
+      Cagle, Alexander E.  and
+      Salk, Kateri R.  and
+      Clous, Lucie  and
+      Whittaker, Peet  and
+      Chipps, Michael  and
+      Armstrong, Alona&#34;,
+    journal = &#34;Journal of Environmental Management, Volume 324&#34;,
+    volume = &#34;324&#34;,
+    year = &#34;2022&#34;,
+    publisher = &#34;Elsevier BV&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G22-38001&#34;,
+    doi = &#34;10.1016/j.jenvman.2022.116410&#34;,
+    pages = &#34;116410&#34;,
+    abstract = &#34;Floating solar photovoltaic (FPV) deployments are increasing globally as the switch to renewable energy intensifies, representing a considerable water surface transformation. FPV installations can potentially impact aquatic ecosystem function, either positively or negatively. However, these impacts are poorly resolved given the challenges of collecting empirical data for field or modelling experiments. In particular, there is limited evidence on the response of phytoplankton to changes in water body thermal dynamics and light climate with FPV. Given the importance of understanding phytoplankton biomass and species composition for managing ecosystem services, we use an uncertainty estimation approach to simulate the effect of FPV coverage and array siting location on a UK reservoir. FPV coverage was modified in 10{\%} increments from a baseline with 0{\%} coverage to 100{\%} coverage for three different FPV array siting locations based on reservoir circulation patterns. Results showed that FPV coverage significantly impacted thermal properties, resulting in highly variable impacts on phytoplankton biomass and species composition. The impacts on phytoplankton were often dependent on array siting location as well as surface coverage. Changes to phytoplankton species composition were offset by the decrease in phytoplankton biomass associated with increasing FPV coverage. We identified that similar phytoplankton biomass reductions could be achieved with less FPV coverage by deploying the FPV array on the water body&#39;s faster-flowing area than the central or slower flowing areas. The difference in response dependent on siting location could be used to tailor phytoplankton management in water bodies. Simulation of water body-FPV interactions efficiently using an uncertainty approach is an essential tool to rapidly develop understanding and ultimately inform FPV developers and water body managers looking to minimise negative impacts and maximise co-benefits.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-145001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Exley-2022-Floating&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Giles&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Exley&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Trevor&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Page&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Stephen&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Thackeray&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Folkard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Raoul-Marie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Couture&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rebecca&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hernandez&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alexander&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cagle&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kateri&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Salk&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Lucie&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Clous&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Peet&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Whittaker&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Michael&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chipps&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alona&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Armstrong&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2022&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Journal of Environmental Management, Volume 324&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;Elsevier BV&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Floating solar photovoltaic (FPV) deployments are increasing globally as the switch to renewable energy intensifies, representing a considerable water surface transformation. FPV installations can potentially impact aquatic ecosystem function, either positively or negatively. However, these impacts are poorly resolved given the challenges of collecting empirical data for field or modelling experiments. In particular, there is limited evidence on the response of phytoplankton to changes in water body thermal dynamics and light climate with FPV. Given the importance of understanding phytoplankton biomass and species composition for managing ecosystem services, we use an uncertainty estimation approach to simulate the effect of FPV coverage and array siting location on a UK reservoir. FPV coverage was modified in 10% increments from a baseline with 0% coverage to 100% coverage for three different FPV array siting locations based on reservoir circulation patterns. Results showed that FPV coverage significantly impacted thermal properties, resulting in highly variable impacts on phytoplankton biomass and species composition. The impacts on phytoplankton were often dependent on array siting location as well as surface coverage. Changes to phytoplankton species composition were offset by the decrease in phytoplankton biomass associated with increasing FPV coverage. We identified that similar phytoplankton biomass reductions could be achieved with less FPV coverage by deploying the FPV array on the water body’s faster-flowing area than the central or slower flowing areas. The difference in response dependent on siting location could be used to tailor phytoplankton management in water bodies. Simulation of water body-FPV interactions efficiently using an uncertainty approach is an essential tool to rapidly develop understanding and ultimately inform FPV developers and water body managers looking to minimise negative impacts and maximise co-benefits.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Exley-2022-Floating&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1016/j.jenvman.2022.116410&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G22-38001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2022&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;324&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;page&#34;&gt;&lt;number&gt;116410&lt;/number&gt;&lt;/detail&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-145001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment
+%A Exley, Giles
+%A Page, Trevor
+%A Thackeray, Stephen J.
+%A Folkard, Andrew M.
+%A Couture, Raoul-Marie
+%A Hernandez, Rebecca R.
+%A Cagle, Alexander E.
+%A Salk, Kateri R.
+%A Clous, Lucie
+%A Whittaker, Peet
+%A Chipps, Michael
+%A Armstrong, Alona
+%J Journal of Environmental Management, Volume 324
+%D 2022
+%V 324
+%I Elsevier BV
+%F Exley-2022-Floating
+%X Floating solar photovoltaic (FPV) deployments are increasing globally as the switch to renewable energy intensifies, representing a considerable water surface transformation. FPV installations can potentially impact aquatic ecosystem function, either positively or negatively. However, these impacts are poorly resolved given the challenges of collecting empirical data for field or modelling experiments. In particular, there is limited evidence on the response of phytoplankton to changes in water body thermal dynamics and light climate with FPV. Given the importance of understanding phytoplankton biomass and species composition for managing ecosystem services, we use an uncertainty estimation approach to simulate the effect of FPV coverage and array siting location on a UK reservoir. FPV coverage was modified in 10% increments from a baseline with 0% coverage to 100% coverage for three different FPV array siting locations based on reservoir circulation patterns. Results showed that FPV coverage significantly impacted thermal properties, resulting in highly variable impacts on phytoplankton biomass and species composition. The impacts on phytoplankton were often dependent on array siting location as well as surface coverage. Changes to phytoplankton species composition were offset by the decrease in phytoplankton biomass associated with increasing FPV coverage. We identified that similar phytoplankton biomass reductions could be achieved with less FPV coverage by deploying the FPV array on the water body’s faster-flowing area than the central or slower flowing areas. The difference in response dependent on siting location could be used to tailor phytoplankton management in water bodies. Simulation of water body-FPV interactions efficiently using an uncertainty approach is an essential tool to rapidly develop understanding and ultimately inform FPV developers and water body managers looking to minimise negative impacts and maximise co-benefits.
+%R 10.1016/j.jenvman.2022.116410
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-38001
+%U https://doi.org/10.1016/j.jenvman.2022.116410
+%P 116410
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/gwf-publications/G22-145001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment](https://gwf-uwaterloo.github.io/gwf-publications/G22-38001) (Exley et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-38001>Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment</a> (Exley et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Giles Exley, Trevor Page, Stephen J. Thackeray, Andrew M. Folkard, Raoul-Marie Couture, Rebecca R. Hernandez, Alexander E. Cagle, Kateri R. Salk, Lucie Clous, Peet Whittaker, Michael Chipps, and Alona Armstrong. 2022. Floating solar panels on reservoirs impact phytoplankton populations: A modelling experiment. <i>Journal of Environmental Management, Volume 324</i>, 324:116410.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script><script src=/gwf-publications/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var src=$(e.trigger);src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");e.clearSelection();setTimeout(function(){src.toggleClass("btn-success");src.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check");},2000);};var clipboard=new ClipboardJS(".btn-clipboard");clipboard.on('success',success_fn);$(".btn-clipboard").removeClass("d-none");var clipboard_outside=new ClipboardJS(".btn-clipboard-outside",{text:function(trigger){var target=trigger.getAttribute("data-clipboard-target");return $(target).text();}});clipboard_outside.on('success',success_fn);$(".btn-clipboard-outside").removeClass("d-none");}});</script></body></html>

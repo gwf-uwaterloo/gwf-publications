@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Sedighkia-2022-A">
+    <titleInfo>
+        <title>A simulation–optimization framework for reducing thermal pollution downstream of reservoirs</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mahdi</namePart>
+        <namePart type="family">Sedighkia</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bithin</namePart>
+        <namePart type="family">Datta</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Quality Research Journal, Volume 57, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IWA Publishing</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Thermal pollution is an environmental impact of large dams altering the natural temperature regime of downstream river ecosystems. The present study proposes a simulation–optimization framework to reduce thermal pollution downstream from reservoirs and tests it on a real-world case study. This framework attempts to simultaneously minimize the environmental impacts as well as losses to reservoir objectives for water supply. A hybrid machine-learning model is applied to simulate water temperature downstream of the reservoir under various operation scenarios. This model is shown to be robust and achieves acceptable predictive accuracy. The results of simulation–optimization indicate that the reservoir could be operated in such a way that the natural temperature regime is reasonably preserved to protect downstream habitats. Doing so, however, would result in significant trade-offs for reservoir storage and water supply objectives. Such trade-offs can undermine the benefits of reservoirs and need to be carefully considered in reservoir design and operation.</abstract>
+    <identifier type="citekey">Sedighkia-2022-A</identifier>
+    <identifier type="doi">10.2166/wqrj.2022.018</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-94001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>57</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>291</start>
+            <end>303</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

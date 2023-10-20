@@ -1,0 +1,15 @@
+﻿%0 Journal Article
+%T Developing a tile drainage module for Cold Regions Hydrological Model: Lessons from a farm in Southern Ontario, Canada
+%A Kompani-Zare, Mazda
+%A Costa, Diogo
+%A Macrae, Merrin L.
+%A Pomeroy, John W.
+%A Petrone, Richard M.
+%D 2023
+%I Authorea, Inc.
+%F Kompanizare-2023-Developing
+%X Abstract. Systematic tile drainage is used extensively in agricultural lands to remove excess water and improve crop growth; however, tiles can also transfer nutrients from farmlands to downstream surface water bodies, leading to water quality problems. There is a need to simulate the hydrological behaviour of tile drains to understand the impacts of climate or land management change on agricultural runoff. The Cold Regions Hydrological Model (CRHM) is a physically based, modular modelling system that enables the creation of comprehensive models appropriate for cold regions by including a full suite of winter, spring, and summer season processes and coupling these together via mass and energy balances. A new tile drainage module was developed for CRHM to account for this process in tile-drained landscapes that are increasingly common in cultivated basins of the Great Lakes and northern Prairies regions of North America. A robust multi-variable, multi-criteria model performance evaluation strategy was deployed to examine the ability of the module with CRHM to capture tile discharge under both winter and summer conditions. Results showed that soil moisture is largely regulated by tile flow and lateral flow from adjacent fields. The explicit representation of capillary rise for moisture interactions between the rooting zone and groundwater greatly improved model simulations, demonstrating its significance in the hydrology of tile drains in loam soils. Water level patterns revealed a bimodal behaviour that depended on the positioning of the capillary fringe relative to the tile. A novel aspect of this module is the use of field capacity and its corresponding pressure head to provide an estimate of drainable water and thickness of the capillary fringe, rather than a detailed soil retention curve that may not always be available. Understanding the bimodal nature of soil water levels provides better insight into the significance of dynamic water exchange between soil layers below drains to improve tile drainage representation in models.
+%R 10.5194/egusphere-2023-142
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-45003
+%U https://doi.org/10.5194/egusphere-2023-142
+

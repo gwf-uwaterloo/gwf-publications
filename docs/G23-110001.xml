@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Trim-2023-Manufacturing">
+    <titleInfo>
+        <title>Manufacturing an Exact Solution for 2D Thermochemical Mantle Convection Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Trim</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Butler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shawn</namePart>
+        <namePart type="given">S.C.</namePart>
+        <namePart type="family">McAdam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geochemistry, Geophysics, Geosystems, Volume 24, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract In this study, we manufacture an exact solution for a set of 2D thermochemical mantle convection problems. The derivation begins with the specification of a stream function corresponding to a non‐stationary velocity field. The method of characteristics is then applied to determine an expression for composition consistent with the velocity field. The stream function formulation of the Stokes equation is then applied to solve for temperature. The derivation concludes with the application of the advection‐diffusion equation for temperature to solve for the internal heating rate consistent with the velocity, composition, and temperature solutions. Due to the large number of terms, the internal heating rate is computed using Maple™, and code is also made available in Fortran and Python. Using the method of characteristics allows the compositional transport equation to be solved without the addition of diffusion or source terms. As a result, compositional interfaces remain sharp throughout time and space in the exact solution. The exact solution presented allows for precision testing of thermochemical convection codes for correctness and accuracy.</abstract>
+    <identifier type="citekey">Trim-2023-Manufacturing</identifier>
+    <identifier type="doi">10.1029/2022gc010807</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-18001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>24</number></detail>
+        <detail type="issue"><number>4</number></detail>
+    </part>
+</mods>
+</modsCollection>

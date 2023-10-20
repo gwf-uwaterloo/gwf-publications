@@ -1,0 +1,14 @@
+﻿%0 Journal Article
+%T Micro-clones in evolving software
+%A Mondai, Manishankar
+%A Roy, Chanchal K.
+%A Schneider, Kevin A.
+%J 2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering (SANER)
+%D 2018
+%I IEEE
+%F Mondai-2018-Micro-clones
+%X Detection, tracking, and refactoring of code clones (i.e., identical or nearly similar code fragments in the code-base of a software system) have been extensively investigated by a great many studies. Code clones have often been considered bad smells. While clone refactoring is important for removing code clones from the code-base, clone tracking is important for consistently updating code clones that are not suitable for refactoring. In this research we investigate the importance of micro-clones (i.e., code clones of less than five lines of code) in consistent updating of the code-base. While the existing clone detectors and trackers have ignored micro clones, our investigation on thousands of commits from six subject systems imply that around 80% of all consistent updates during system evolution occur in micro clones. The percentage of consistent updates occurring in micro clones is significantly higher than that in regular clones according to our statistical significance tests. Also, the consistent updates occurring in micro-clones can be up to 23% of all updates during the whole period of evolution. According to our manual analysis, around 83% of the consistent updates in micro-clones are non-trivial. As micro-clones also require consistent updates like the regular clones, tracking or refactoring micro-clones can help us considerably minimize effort for consistently updating such clones. Thus, micro-clones should also be taken into proper consideration when making clone management decisions.
+%R 10.1109/saner.2018.8330196
+%U https://gwf-uwaterloo.github.io/gwf-publications/G18-5001
+%U https://doi.org/10.1109/saner.2018.8330196
+

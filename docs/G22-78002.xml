@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="McCray-2022-Quantifying">
+    <titleInfo>
+        <title>Quantifying the Impact of Precipitation-Type Algorithm Selection on the Representation of Freezing Rain in an Ensemble of Regional Climate Model Simulations</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">D</namePart>
+        <namePart type="family">McCray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julie</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Thériault</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Dominique</namePart>
+        <namePart type="family">Paquin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Émilie</namePart>
+        <namePart type="family">Bresson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Applied Meteorology and Climatology, Volume 61, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Given their potentially severe impacts, understanding how freezing rain events may change as the climate changes is of great importance to stakeholders including electrical utility companies and local governments. Identification of freezing rain in climate models requires the use of precipitation-type algorithms, and differences between algorithms may lead to differences in the types of precipitation identified for a given thermodynamic profile. We explore the uncertainty associated with algorithm selection by applying four algorithms (Cantin and Bachand, Baldwin, Ramer, and Bourgouin) offline to an ensemble of simulations of the fifth-generation Canadian Regional Climate Model (CRCM5) at 0.22° grid spacing. First, we examine results for the CRCM5 driven by ERA-Interim reanalysis to analyze how well the algorithms reproduce the recent climatology of freezing rain and how results vary depending on algorithm parameters and the characteristics of available model output. We find that while the Ramer and Baldwin algorithms tend to be better correlated with observations than Cantin and Bachand or Bourgouin, their results are highly sensitive to algorithm parameters and to the number of pressure levels used. We also apply the algorithms to four CRCM5 simulations driven by different global climate models (GCMs) and find that the uncertainty associated with algorithm selection is generally similar to or greater than that associated with choice of driving GCM for the recent past climate. Our results provide guidance for future studies on freezing rain in climate simulations and demonstrate the importance of accounting for uncertainty between algorithms when identifying precipitation type from climate model output. Significance Statement Freezing rain events and ice storms can have major consequences, including power outages and dangerous road conditions. It is therefore important to understand how climate change might affect the frequency and severity of these events. One source of uncertainty in climate studies of these events is related to the choice of algorithm used to detect freezing rain in model output. We compare the frequency of freezing rain identified using four different algorithms and find sometimes large differences depending on the algorithm chosen over some regions. Our findings highlight the importance of taking this source of uncertainty into account and will provide researchers with guidance as to which algorithms are best suited for climate studies of freezing rain.</abstract>
+    <identifier type="citekey">McCray-2022-Quantifying</identifier>
+    <identifier type="doi">10.1175/jamc-d-21-0202.1</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-3002</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>61</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <extent unit="page">
+            <start>1107</start>
+            <end>1122</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

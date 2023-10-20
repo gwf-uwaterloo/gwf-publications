@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Bertoncini-2022-Large-area">
+    <titleInfo>
+        <title>Large-area high spatial resolution albedo retrievals from remote sensing for use in assessing the impact of wildfire soot deposition on high mountain snow and ice melt</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">André</namePart>
+        <namePart type="family">Bertoncini</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Caroline</namePart>
+        <namePart type="family">Aubry‐Wake</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing of Environment, Volume 278</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Soot deposition from wildfires decreases snow and ice albedo and increases the absorption of shortwave radiation, which advances and accelerates melt. Soot deposition also induces algal growth, which further decreases snow and ice albedo. In recent years, increasingly severe and widespread wildfire activity has occurred in western Canada in association with climate change. In the summers of 2017 and 2018, westerly winds transported smoke from extensive record-breaking wildfires in British Columbia eastward to the Canadian Rockies, where substantial amounts of soot were deposited on high mountain glaciers, snowfields, and icefields. Several studies have addressed the problem of soot deposition on snow and ice, but the spatiotemporal resolution applied has not been compatible with studying mountain icefields that are extensive but contain substantial internal variability and have dynamical albedos. This study evaluates spatial patterns in the albedo decrease and net shortwave radiation (K*) increase caused by soot from intense wildfires in Western Canada deposited on the Columbia Icefield (151 km2), Canadian Rockies, during 2017 and 2018. Twelve Sentinel-2 images were used to generate high spatial resolution albedo retrievals during four summers (2017 to 2020) using a MODIS bidirectional reflectance distribution function (BRDF) model, which was employed to model the snow and ice reflectance anisotropy. Remote sensing estimates were evaluated using site-measured albedo on the icefield’s Athabasca Glacier tongue, resulting in a R2, mean bias, and root mean square error (RMSE) of 0.68, 0.019, and 0.026, respectively. The biggest inter-annual spatially averaged soot-induced albedo declines were of 0.148 and 0.050 (2018 to 2020) for southeast-facing glaciers and the snow plateau, respectively. The highest inter-annual spatially-averaged soot-induced shortwave radiative forcing was 203 W/m2 for southeast-facing glaciers (2018 to 2020) and 106 W/m2 for the snow plateau (2017 to 2020). These findings indicate that snow albedo responded rapidly to and recovered rapidly from soot deposition. However, ice albedo remained low the year after fire, and this was likely related to a bio-albedo feedback involving microorganisms. Snow and ice K* were highest during low albedo years, especially for south-facing glaciers. These large-scale effects accelerated melt of the Columbia Icefield. The findings highlight the importance of using large-area high spatial resolution albedo estimates to analyze the effect of wildfire soot deposition on snow and ice albedo and K* on icefields, which is not possible using other approaches.</abstract>
+    <identifier type="citekey">Bertoncini-2022-Large-area</identifier>
+    <identifier type="doi">10.1016/j.rse.2022.113101</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-44001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>278</number></detail>
+        <detail type="page"><number>113101</number></detail>
+    </part>
+</mods>
+</modsCollection>

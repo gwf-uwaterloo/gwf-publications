@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Lin-2023-A">
+    <titleInfo>
+        <title>A Dense Representation Framework for Lexical and Semantic Matching</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Sheng-Chieh</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>ACM Transactions on Information Systems, Volume 41, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Association for Computing Machinery (ACM)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Lin-2023-A</identifier>
+    <identifier type="doi">10.1145/3582426</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-40001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>41</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>1</start>
+            <end>29</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

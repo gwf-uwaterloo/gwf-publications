@@ -1,0 +1,14 @@
+﻿%0 Journal Article
+%T Rainfall Generation Revisited: Introducing CoSMoS‐2s and Advancing Copula‐Based Intermittent Time Series Modeling
+%A Papalexiou, S.
+%J Water Resources Research, Volume 58, Issue 6
+%D 2022
+%V 58
+%N 6
+%I American Geophysical Union (AGU)
+%F Papalexiou-2022-Rainfall
+%X Abstract What elements should a parsimonious model reproduce at a single scale to precisely simulate rainfall at many scales? We posit these elements are: (a) the probability of dry and linear correlation structure of the wet/dry sequence as a proxy reproducing the distribution of wet/dry spells, and (b) the marginal distribution of nonzero rainfall and its correlation structure. We build a two‐state rainfall model, the CoSMoS‐2s, that explicitly reproduces these elements and is easily applicable at any timescale. Additionally, the paper: (a) introduces the Generalized Exponential ( ) distribution system comprising six flexible distributions with desired properties to describe nonzero rainfall and facilitate time series generation; (b) extends the CoSMoS framework to allow simulations with negative correlations; (c) simplifies the generation of binary sequences with any correlation structure by analytical approximations; (d) introduces the rank‐based CoSMoS‐2s that preserves Spearman’s correlations, has an analytical formulation, and is also applicable for infinite variance time series, (e) introduces the copula‐based CoSMoS‐2s enabling intermittent times series generation with nonzero values having the dependence structure of any desired copula, and (f) offers conceptual generalizations for rainfall modeling and beyond, with specific ideas for future improvements and extensions. The CoSMoS‐2s is tested using four long hourly rainfall records; the simulations reproduce rainfall properties at multiple scales including the wet/dry spells, probability of dry, characteristics of nonzero rainfall, and the behavior of extremes.
+%R 10.1029/2021wr031641
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-59002
+%U https://doi.org/10.1029/2021wr031641
+

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Mavrovic-2023-Environmental">
+    <titleInfo>
+        <title>Environmental controls of non-growing season carbon dioxide fluxes in boreal and tundra environments</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Alex</namePart>
+        <namePart type="family">Mavrovic</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Oliver</namePart>
+        <namePart type="family">Sonnentag</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Juha</namePart>
+        <namePart type="family">Lemmetyinen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Carolina</namePart>
+        <namePart type="family">Voigt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Nick</namePart>
+        <namePart type="family">Rutter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">P</namePart>
+        <namePart type="family">Mann</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jean‐Daniel</namePart>
+        <namePart type="family">Sylvain</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Authorea, Inc.</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. The carbon cycle in Arctic-boreal regions (ABR) is an important component of the planetary carbon balance, with growing concerns about the consequences of ABR warming on the global climate system. The greatest uncertainty in annual carbon dioxide (CO2) budgets exists during the non-growing season, primarily due to challenges with data availability and limited spatial coverage in measurements. The goal of this study was to determine the main environmental controls of non-growing season CO2 fluxes in ABR over a latitudinal gradient (45° N to 69° N) featuring four different ecosystem types: closed-crown coniferous boreal forest, open-crown coniferous boreal forest, erect-shrub tundra, and prostrate-shrub tundra. CO2 fluxes calculated using a snowpack diffusion gradient method (n = 560) ranged from 0 to 1.05 gC m2 day-1. To assess the dominant environmental controls governing CO2 fluxes, a Random Forest machine learning approach was used. We identified that soil temperature as the main control of non-growing season CO2 fluxes with 68 % of relative model importance, except when soil liquid water occurred during zero degree Celsius curtain conditions (Tsoil \approx 0 °C and liquid water coexists with ice in soil pores). Under zero-curtain conditions, liquid water content became the main control of CO2 fluxes with 87 % of relative model importance. We observed exponential regressions between CO2 fluxes and soil temperature (RMSE = 0.024 gC m-2 day-1) in frozen soils, as well as liquid water content (RMSE = 0.137 gC m-2 day-1) in zero-curtain conditions. This study is showing the role of several variables on the spatio-temporal variability of CO2 fluxes in ABR during the non-growing season and highlight that the complex vegetation-snow-soil interactions in northern environments must be considered when studying what drives the spatial variability of soil carbon emission during the non-growing season.</abstract>
+    <identifier type="citekey">Mavrovic-2023-Environmental</identifier>
+    <identifier type="doi">10.5194/bg-2023-92</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-45002</url>
+    </location>
+    <part>
+        <date>2023</date>
+    </part>
+</mods>
+</modsCollection>

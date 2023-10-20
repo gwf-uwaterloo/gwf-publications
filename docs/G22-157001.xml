@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Aubry-Wake-2022-Using">
+    <titleInfo>
+        <title>Using ground-based thermal imagery to estimate debris thickness over glacial ice: fieldwork considerations to improve the effectiveness</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Caroline</namePart>
+        <namePart type="family">Aubry‐Wake</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Pierrick</namePart>
+        <namePart type="family">Lamontagne‐Hallé</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Michel</namePart>
+        <namePart type="family">Baraër</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">McKenzie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Glaciology, Volume 69, Issue 274</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Cambridge University Press (CUP)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Debris-covered glaciers are an important component of the mountain cryosphere and influence the hydrological contribution of glacierized basins to downstream rivers. This study examines the potential to make estimates of debris thickness, a critical variable to calculate the sub-debris melt, using ground-based thermal infrared radiometry (TIR) images. Over four days in August 2019, a ground-based, time-lapse TIR digital imaging radiometer recorded sequential thermal imagery of a debris-covered region of Peyto Glacier, Canadian Rockies, in conjunction with 44 manual excavations of debris thickness ranging from 10 to 110 cm, and concurrent meteorological observations. Inferring the correlation between measured debris thickness and TIR surface temperature as a base, the effectiveness of linear and exponential regression models for debris thickness estimation from surface temperature was explored. Optimal model performance ( R 2 of 0.7, RMSE of 10.3 cm) was obtained with a linear model applied to measurements taken on clear nights just before sunrise, but strong model performances were also obtained under complete cloud cover during daytime or nighttime with an exponential model. This work presents insights into the use of surface temperature and TIR observations to estimate debris thickness and gain knowledge of the state of debris-covered glacial ice and its potential hydrological contribution.</abstract>
+    <identifier type="citekey">Aubry-Wake-2022-Using</identifier>
+    <identifier type="doi">10.1017/jog.2022.67</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-51001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>69</number></detail>
+        <detail type="issue"><number>274</number></detail>
+        <extent unit="page">
+            <start>353</start>
+            <end>369</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

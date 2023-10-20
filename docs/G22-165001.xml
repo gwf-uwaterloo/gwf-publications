@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Li-Huang-2022-Development-of">
+    <titleInfo>
+        <title>Development of a Joint Probabilistic Rainfall‐Runoff Model for High‐to‐Extreme Flow Projections Under Changing Climatic Conditions</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kailong</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Guohe</namePart>
+        <namePart type="family">Huang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shuo</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Saman</namePart>
+        <namePart type="family">Razavi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaoyue</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 58, Issue 6</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Machine learning (ML) models have been widely used for hydrological simulation. Previous studies have reported that conventional ML models fail to accurately simulate extreme flows which are crucial for design flood estimation and associated risk analysis in the context of climate change. Therefore, this study proposes a joint probabilistic rainfall‐runoff model (JPRR) for improving high‐to‐extreme flow projection. With the aid of paired copula constructions, bootstrap aggregation, and multi‐model ensemble approaches, the proposed model is able to effectively characterize the dependence relationships of predictors (i.e., precipitation time series with different moving sums) with various probability distributions. JPRR has been applied to four pristine basins in China, representing different climate zones and landscapes. The results reveal that JPRR significantly outperforms three well‐known ML models (i.e., random forest, artificial neural networks, and long short‐term memory) in high‐to‐extreme flow simulations. In JPRR, the copulas exhibiting the right tail dependence play a more important role in streamflow simulations at mountainous basins. Moreover, a significant difference in streamflow projections (from 2030 to 2099) derived from JPRR and benchmark models imply that flood risks from conventional ML models may be underestimated under changing climatic conditions.</abstract>
+    <identifier type="citekey">Li-Huang-2022-Development-of</identifier>
+    <identifier type="doi">10.1029/2021wr031557</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-59001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>58</number></detail>
+        <detail type="issue"><number>6</number></detail>
+    </part>
+</mods>
+</modsCollection>

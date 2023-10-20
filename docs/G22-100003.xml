@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Liu-2022-Hazard">
+    <titleInfo>
+        <title>Hazard assessment and prediction of ice-jam flooding for a river regulated by reservoirs using an integrated probabilistic modelling approach</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mingwen</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Haishen</namePart>
+        <namePart type="family">Lü</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl‐Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kaili</namePart>
+        <namePart type="family">Xü</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Y</namePart>
+        <namePart type="family">Zhu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chaolu</namePart>
+        <namePart type="family">He</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Xiaoyi</namePart>
+        <namePart type="family">Wang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Bingqi</namePart>
+        <namePart type="family">Xie</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology, Volume 615</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>\bullet A real-time ice-jam risk assessment system was developed to better regulate reservoir discharges. \bullet The modelling system improves ice-jam flood predictions considering the influence of reservoir regulation. \bullet Machine learning with deterministic modelling provides more accurate ice-jam flood predictions of regulated rivers. \bullet The modelling system was successfully verified for the Sanhuhekou bend reach regulated by the Sanshenggong reservoir. To effectively alleviate ice-jam flood disasters, it is necessary to carry out hazard assessments and predictions of ice-jam flooding influenced by the operational scheme of a reservoir. However, traditional hydrologic flood routing techniques cannot effectively address the huge uncertainties caused by the many factors that lead to ice-jam flooding. In this paper, a hazard assessment system for regulating flood discharge schemes is developed; it is composed of a machine learning (ML) model, Long Short-Term Memory (LSTM), and a river-ice dynamic model (RIVICE) within a probabilistic method. The modelling system is to aid in the challenge of predicting ice-jam flooding downstream of reservoirs. The LSTM model forecasts the downstream flow under the operational discharge scheme and, combined with the RIVICE model, the backwater level profile of ice jams can be forecasted. Furthermore, a set of backwater level profiles can be provided by probabilistic modelling, and the probability of ice-jam flood inundation can be calculated by comparing backwater levels with the elevation of the river bank; this information can be used to warn of the hazard induced by operational discharges to better aid in the preparedness and mitigation of ice-jam floods. This system was tested successfully for the ice-cover breakup period in the spring of 2008 and 2018 along the Sanhuhekou bend reach of the Yellow River in China.</abstract>
+    <identifier type="citekey">Liu-2022-Hazard</identifier>
+    <identifier type="doi">10.1016/j.jhydrol.2022.128611</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-43002</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>615</number></detail>
+        <detail type="page"><number>128611</number></detail>
+    </part>
+</mods>
+</modsCollection>

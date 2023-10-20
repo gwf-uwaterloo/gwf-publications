@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Gauch-2021-Rainfall–runoff">
+    <titleInfo>
+        <title>Rainfall–runoff prediction at multiple timescales with a single Long Short-Term Memory network</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Martin</namePart>
+        <namePart type="family">Gauch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Frederik</namePart>
+        <namePart type="family">Kratzert</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Daniel</namePart>
+        <namePart type="family">Klotz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Grey</namePart>
+        <namePart type="family">Nearing</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jimmy</namePart>
+        <namePart type="family">Lin</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Sepp</namePart>
+        <namePart type="family">Hochreiter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2021</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 25, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. Long Short-Term Memory (LSTM) networks have been applied to daily discharge prediction with remarkable success. Many practical applications, however, require predictions at more granular timescales. For instance, accurate prediction of short but extreme flood peaks can make a lifesaving difference, yet such peaks may escape the coarse temporal resolution of daily predictions. Naively training an LSTM on hourly data, however, entails very long input sequences that make learning difficult and computationally expensive. In this study, we propose two multi-timescale LSTM (MTS-LSTM) architectures that jointly predict multiple timescales within one model, as they process long-past inputs at a different temporal resolution than more recent inputs. In a benchmark on 516 basins across the continental United States, these models achieved significantly higher Nash–Sutcliffe efficiency (NSE) values than the US National Water Model. Compared to naive prediction with distinct LSTMs per timescale, the multi-timescale architectures are computationally more efficient with no loss in accuracy. Beyond prediction quality, the multi-timescale LSTM can process different input variables at different timescales, which is especially relevant to operational applications where the lead time of meteorological forcings depends on their temporal resolution.</abstract>
+    <identifier type="citekey">Gauch-2021-Rainfall–runoff</identifier>
+    <identifier type="doi">10.5194/hess-25-2045-2021</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G21-12001</url>
+    </location>
+    <part>
+        <date>2021</date>
+        <detail type="volume"><number>25</number></detail>
+        <detail type="issue"><number>4</number></detail>
+        <extent unit="page">
+            <start>2045</start>
+            <end>2062</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

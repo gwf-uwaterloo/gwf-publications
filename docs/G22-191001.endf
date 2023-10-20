@@ -1,0 +1,14 @@
+﻿%0 Journal Article
+%T Integration of text and geospatial search for hydrographic datasets using the lucene search library
+%A Yang, Matthew Y. R.
+%A Yang, Siwen
+%A Lin, Jimmy
+%J Proceedings of the 22nd ACM/IEEE Joint Conference on Digital Libraries
+%D 2022
+%I ACM
+%F Yang-2022-Integration
+%X We present a hybrid text and geospatial search application for hydrographic datasets built on the open-source Lucene search library. Our goal is to demonstrate that it is possible to build custom GIS applications by integrating existing open-source components and data sources, which contrasts with existing approaches based on monolithic platforms such as ArcGIS and QGIS. Lucene provides rich index structures and search capabilities for free text and geometries; the former has already been integrated and exposed via our group’s Anserini and Pyserini IR toolkits. In this work, we extend these toolkits to include geospatial capabilities. Combining knowledge extracted from Wikidata with the HydroSHEDS dataset, our application enables text and geospatial search of rivers worldwide.
+%R 10.1145/3529372.3533280
+%U https://gwf-uwaterloo.github.io/gwf-publications/G22-86001
+%U https://doi.org/10.1145/3529372.3533280
+

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Bunn-2022-Improving">
+    <titleInfo>
+        <title>Improving station-based ensemble surface meteorological analyses using numerical weather prediction: A case study of the Oroville Dam crisis precipitation event</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Patrick</namePart>
+        <namePart type="family">Bunn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Wood</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Andrew</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Newman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Hsin</namePart>
+        <namePart type="given">I</namePart>
+        <namePart type="family">Chang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Christopher</namePart>
+        <namePart type="given">L</namePart>
+        <namePart type="family">Castro</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jeffrey</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Arnold</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrometeorology</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Meteorological Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Surface meteorological analyses serve a wide range of research and applications, including forcing inputs for hydrological and ecological models, climate analysis, and resource and emergency management. Quantifying uncertainty in such analyses would extend their utility for probabilistic hydrologic prediction and climate risk applications. With this motivation, we enhance and evaluate an approach for generating ensemble analyses of precipitation and temperature through the fusion of station observations, terrain information, and numerical weather prediction simulations of surface climate fields. In particular, we expand a spatial regression in which static terrain attributes serve as predictors for spatially distributed 1/16th degree daily surface precipitation and temperature by including forecast outputs from the High-Resolution Rapid Refresh (HRRR) numerical weather prediction model as additional predictors. We demonstrate the approach for a case study domain of California, focusing on the meteorological conditions leading to the 2017 flood and spillway failure event at Lake Oroville. The approach extends the spatial regression capability of the Gridded Meteorological Ensemble Tool (GMET) and also adds cross-validation to the uncertainty estimation component, enabling the use of predictive rather than calibration uncertainty. In evaluation against out-of-sample station observations, the HRRR-based predictors alone are found to be skillful for the study setting, leading to overall improvements in the enhanced GMET meteorological analyses. The methodology and associated tool represent a promising method for generating meteorological surface analyses for both research-oriented and operational applications, as well as a general strategy for merging in situ and gridded observations.</abstract>
+    <identifier type="citekey">Bunn-2022-Improving</identifier>
+    <identifier type="doi">10.1175/jhm-d-21-0193.1</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-89001</url>
+    </location>
+    <part>
+        <date>2022</date>
+    </part>
+</mods>
+</modsCollection>

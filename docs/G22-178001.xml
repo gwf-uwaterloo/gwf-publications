@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Alijani-2022-A">
+    <titleInfo>
+        <title>A comparison of three surface roughness characterization techniques: photogrammetry, pin profiler, and smartphone-based LiDAR</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Zohreh</namePart>
+        <namePart type="family">Alijani</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Julien</namePart>
+        <namePart type="family">Meloche</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexander</namePart>
+        <namePart type="family">McLaren</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Lindsay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alexandre</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>International Journal of Digital Earth, Volume 15, Issue 1</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Informa UK Limited</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Surface roughness plays an important role in microwave remote sensing. In the agricultural domain, surface roughness is crucial for soil moisture retrieval methods that use electromagnetic surface scattering or microwave radiative transfer models. Therefore, improved characterization of Soil Surface Roughness (SSR) is of considerable importance. In this study, three approaches, including a standard pin profiler, a LiDAR point cloud generated from an iPhone 12 Pro, and a Structure from Motion (SfM) photogrammetric point cloud, were applied over 24 surface profiles with different roughness variations to measure surface roughness. The objective of this study was to evaluate the capability of smartphone-based LiDAR technology to measure surface roughness parameters and compare the results of this technique with the more common approaches. Results showed that the iPhone LiDAR technology, when point cloud data is captured in a fine-resolution mode, has a significant correlation with SfM photogrammetry (R2 = 0.70) and a relatively close agreement with pin profiler (R2 = 0.60). However, this accuracy tends to be greater for random surfaces and rough profiles with row structure orientations. The results of this study confirm that smartphone-based LiDAR can be used as a cost-effective, fast, and time-efficient alternative tool for measuring surface roughness, especially for rough, wide, and inaccessible areas.</abstract>
+    <identifier type="citekey">Alijani-2022-A</identifier>
+    <identifier type="doi">10.1080/17538947.2022.2160842</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-72001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>1</number></detail>
+        <extent unit="page">
+            <start>2422</start>
+            <end>2439</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

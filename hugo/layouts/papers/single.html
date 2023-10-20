@@ -82,7 +82,7 @@
 {{ $has_endf := fileExists (printf "/data-export/%s.endf" $anthology_id) }}
 <section id="main">
   <div {{ if or $paper.retracted $paper.removed }} style="text-decoration: line-through" {{ end }}>
-  <h2 id="title">
+  <h2 id="title" style="padding-top: 20px !important;">
     {{ with $paper.pdf }}
     <a href="{{ $paper.url }}">{{ $paper.title_html | safeHTML }}</a>
     {{ else }}

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="AghaKouchak-2022-Status">
+    <titleInfo>
+        <title>Status and prospects for drought forecasting: opportunities in artificial intelligence and hybrid physical–statistical forecasting</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Amir</namePart>
+        <namePart type="family">AghaKouchak</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Baoxiang</namePart>
+        <namePart type="family">Pan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Omid</namePart>
+        <namePart type="family">Mazdiyasni</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Mojtaba</namePart>
+        <namePart type="family">Sadegh</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shakil</namePart>
+        <namePart type="family">Jiwa</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wenkai</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">C</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Love</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shahrbanou</namePart>
+        <namePart type="family">Madadgar</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Steven</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Davis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="family">Hsü</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Soroosh</namePart>
+        <namePart type="family">Sorooshian</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, Volume 380, Issue 2238</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>The Royal Society</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Despite major improvements in weather and climate modelling and substantial increases in remotely sensed observations, drought prediction remains a major challenge. After a review of the existing methods, we discuss major research gaps and opportunities to improve drought prediction. We argue that current approaches are top-down, assuming that the process(es) and/or driver(s) are known—i.e. starting with a model and then imposing it on the observed events (reality). With the help of an experiment, we show that there are opportunities to develop bottom-up drought prediction models—i.e. starting from the reality (here, observed events) and searching for model(s) and driver(s) that work. Recent advances in artificial intelligence and machine learning provide significant opportunities for developing bottom-up drought forecasting models. Regardless of the type of drought forecasting model (e.g. machine learning, dynamical simulations, analogue based), we need to shift our attention to robustness of theories and outputs rather than event-based verification. A shift in our focus towards quantifying the stability of uncertainty in drought prediction models, rather than the goodness of fit or reproducing the past, could be the first step towards this goal. Finally, we highlight the advantages of hybrid dynamical and statistical models for improving current drought prediction models. This article is part of the Royal Society Science+ meeting issue ‘Drought risk in the Anthropocene’.</abstract>
+    <identifier type="citekey">AghaKouchak-2022-Status</identifier>
+    <identifier type="doi">10.1098/rsta.2021.0288</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-76001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>380</number></detail>
+        <detail type="issue"><number>2238</number></detail>
+    </part>
+</mods>
+</modsCollection>

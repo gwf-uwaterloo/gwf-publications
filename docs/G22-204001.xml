@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Trotter-2022-Modular">
+    <titleInfo>
+        <title>Modular Assessment of Rainfall–Runoff Models Toolbox (MARRMoT) v2.1: an object-oriented implementation of 47 established hydrological models for improved speed and readability</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Luca</namePart>
+        <namePart type="family">Trotter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Wouter</namePart>
+        <namePart type="family">Knoben</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Keirnan</namePart>
+        <namePart type="family">Fowler</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Margarita</namePart>
+        <namePart type="family">Saft</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Murray</namePart>
+        <namePart type="given">C</namePart>
+        <namePart type="family">Peel</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2022</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Geoscientific Model Development, Volume 15, Issue 16</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. The Modular Assessment of Rainfall–Runoff Models Toolbox (MARRMoT) is a flexible modelling framework reproducing the behaviour of 47 established hydrological models. This toolbox can be used to calibrate and run models in a user-friendly and consistent way and is designed to facilitate the sharing of model code for reproducibility and to support intercomparison between hydrological models. Additionally, it allows users to create or modify models using components of existing ones. We present a new MARRMoT release (v2.1) designed for improved speed and ease of use. While improved computational efficiency was the main driver for this redevelopment, MARRMoT v2.1 also succeeds in drastically reducing the verbosity and repetitiveness of the code, which improves readability and facilitates debugging. The process to create new models or modify existing ones within the toolbox is also simplified in this version, making MARRMoT v2.1 accessible for researchers and practitioners at all levels of expertise. These improvements were achieved by implementing an object-oriented structure and aggregating all common model operations into a single class definition from which all models inherit. The new modelling framework maintains and improves on several good practices built into the original MARRMoT and includes a number of new features such as the possibility of retrieving more output in different formats that simplifies troubleshooting, and a new functionality that simplifies the calibration process. We compare outputs of 36 of the models in the framework to an earlier published analysis and demonstrate that MARRMoT v2.1 is highly consistent with the previous version of MARRMoT (v1.4), while achieving a 3.6-fold improvement in runtime on average. The new version of the toolbox and user manual, including several workflow examples for common application, are available from GitHub (https://github.com/wknoben/MARRMoT, last access: 12 May 2022; https://doi.org/10.5281/zenodo.6484372, Trotter and Knoben, 2022b).</abstract>
+    <identifier type="citekey">Trotter-2022-Modular</identifier>
+    <identifier type="doi">10.5194/gmd-15-6359-2022</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G22-102001</url>
+    </location>
+    <part>
+        <date>2022</date>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>16</number></detail>
+        <extent unit="page">
+            <start>6359</start>
+            <end>6369</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

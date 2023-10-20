@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Basu-2023-A">
+    <titleInfo>
+        <title>A Random Forest in the Great Lakes: Stream Nutrient Concentrations Across the Transboundary Great Lakes Basin</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Nandita</namePart>
+        <namePart type="given">B</namePart>
+        <namePart type="family">Basu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">J</namePart>
+        <namePart type="family">Dony</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Meter</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Samuel</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Johnston</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Anita</namePart>
+        <namePart type="given">T</namePart>
+        <namePart type="family">Layton</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth’s Future, Volume 11, Issue 4</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Excess nutrient inputs from agricultural and urban sources have accelerated eutrophication and increased the incidence of algal blooms in the Great Lakes Basin (GLB). Lake basin management to address these threats relies on understanding the key drivers of pollution. Here, we use a random forest machine learning model to leverage information from 202 monitored streams in the GLB to predict seasonal and annual flow‐weighted concentrations of nitrogen and phosphorus, as well as nutrient ratios across the GLB. Land use (agricultural and urban land) and land management (tile drainage and wetland density) emerge as the two most important predictors for dissolved inorganic nitrogen (DIN; NO 3 − + NO 2 − ) and soluble reactive phosphorus (SRP; PO 4 3 ), while soil type and wetland density are more important for particulate P (PP). Partial dependence plots demonstrate increasing nutrient concentrations with increasing tile density and decreasing wetland density. In addition, increasing tile and livestock densities and decreasing forest cover correspond to higher SRP:Total Phosphorus (TP) ratios. Seasonally, the highest proportions of SRP occur in summer and fall. Higher livestock densities are also correlated with increasing N:P (DIN:TP) ratios. Livestock operations can contribute to the buildup of soil nutrients from excess manure application, while increasing subsurface drainage can provide transport pathways for dissolved nutrients. Given that both SRP:TP and the N:P ratios are strong predictors of harmful algal blooms, our study highlights the importance of livestock management, drainage management, and wetland restoration in efforts to address eutrophication in intensively managed landscapes.</abstract>
+    <identifier type="citekey">Basu-2023-A</identifier>
+    <identifier type="doi">10.1029/2021ef002571</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-16001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>11</number></detail>
+        <detail type="issue"><number>4</number></detail>
+    </part>
+</mods>
+</modsCollection>

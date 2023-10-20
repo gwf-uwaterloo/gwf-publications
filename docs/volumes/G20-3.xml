@@ -161,7 +161,7 @@
     </name>
     <name type="personal">
         <namePart type="given">Caroline</namePart>
-        <namePart type="family">Aubry-Wake</namePart>
+        <namePart type="family">Aubry‐Wake</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -278,7 +278,7 @@
     </name>
     <name type="personal">
         <namePart type="given">Claire</namePart>
-        <namePart type="family">Brutel-Vuilmet</namePart>
+        <namePart type="family">Brutel‐Vuilmet</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -399,9 +399,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">O</namePart>
-        <namePart type="given">N</namePart>
-        <namePart type="family">Nasonova</namePart>
+        <namePart type="given">О.</namePart>
+        <namePart type="given">Н.</namePart>
+        <namePart type="family">Насонова</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -429,9 +429,9 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">V</namePart>
-        <namePart type="given">A</namePart>
-        <namePart type="family">Semenov</namePart>
+        <namePart type="given">В.</namePart>
+        <namePart type="given">А.</namePart>
+        <namePart type="family">Семенов</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -614,7 +614,7 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Oldrich</namePart>
+        <namePart type="given">Oldřich</namePart>
         <namePart type="family">Rakovec</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -1176,7 +1176,7 @@
     </titleInfo>
     <name type="personal">
         <namePart type="given">Esteban</namePart>
-        <namePart type="family">Alonso-González</namePart>
+        <namePart type="family">Alonso‐González</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
         </role>
@@ -1347,7 +1347,7 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Hans-Peter</namePart>
+        <namePart type="given">Hans‐Peter</namePart>
         <namePart type="family">Marshall</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -1362,7 +1362,6 @@
     </name>
     <name type="personal">
         <namePart type="given">Justin</namePart>
-        <namePart type="given">M</namePart>
         <namePart type="family">Pflug</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -1449,6 +1448,7 @@
     </name>
     <name type="personal">
         <namePart type="given">Carlo</namePart>
+        <namePart type="given">Maria</namePart>
         <namePart type="family">Carmagnola</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -1654,7 +1654,7 @@
         </role>
     </name>
     <name type="personal">
-        <namePart type="given">Jean-Michel</namePart>
+        <namePart type="given">Jean‐Michel</namePart>
         <namePart type="family">Soubeyroux</namePart>
         <role>
             <roleTerm authority="marcrelator" type="text">author</roleTerm>
@@ -1708,6 +1708,172 @@
     <identifier type="doi">10.5194/tc-2020-289</identifier>
     <location>
         <url>https://gwf-uwaterloo.github.io/gwf-publications/G20-75006</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+<mods ID="Sheikholeslami-2020-VISCOUS:">
+    <titleInfo>
+        <title>VISCOUS: A Variance-Based Sensitivity Analysis Using Copulas for Efficient Identification of Dominant Hydrological Processes</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Razi</namePart>
+        <namePart type="family">Sheikholeslami</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shervan</namePart>
+        <namePart type="family">Gharari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">S</namePart>
+        <namePart type="family">Papalexiou</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="given">P</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Sheikholeslami-2020-VISCOUS:</identifier>
+    <identifier type="doi">10.1002/essoar.10505333.1</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G20-9001</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+<mods ID="Gharasoo-2020-Soil">
+    <titleInfo>
+        <title>Soil heterotrophic respiration as a function of water content and temperature in a mechanistic pore-scale model</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mehdi</namePart>
+        <namePart type="family">Gharasoo</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Linden</namePart>
+        <namePart type="family">Fairbairn</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fereidoun</namePart>
+        <namePart type="family">Rezanezhad</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Gharasoo-2020-Soil</identifier>
+    <identifier type="doi">10.5194/egusphere-egu2020-20943</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G20-9002</url>
+    </location>
+    <part>
+        <date>2020</date>
+    </part>
+</mods>
+<mods ID="Chaudhuri-2020-InundatEd:">
+    <titleInfo>
+        <title>InundatEd: A Large-scale Flood Risk Modeling System on a Big-data – Discrete Global Grid System Framework</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Chiranjib</namePart>
+        <namePart type="family">Chaudhuri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Annie</namePart>
+        <namePart type="family">Gray</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Colin</namePart>
+        <namePart type="family">Robertson</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2020</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title/>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Chaudhuri-2020-InundatEd:</identifier>
+    <identifier type="doi">10.5194/gmd-2020-316</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G20-9003</url>
     </location>
     <part>
         <date>2020</date>

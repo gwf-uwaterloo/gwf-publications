@@ -1,0 +1,45 @@
+﻿%0 Journal Article
+%T Differentiable modelling to unify machine learning and physical models for geosciences
+%A Shen, Chaopeng
+%A Appling, Alison P.
+%A Gentine, Pierre
+%A Bandai, Toshiyuki
+%A Gupta, Hoshin
+%A Tartakovsky, Alexandre M.
+%A Baity‐Jesi, Marco
+%A Fenicia, Fabrizio
+%A Kifer, Daniel
+%A Li, Li
+%A Liu, Xiaofeng
+%A Ren, Wei
+%A Zheng, Yi
+%A Harman, C. J.
+%A Clark, Martyn P.
+%A Farthing, Matthew W.
+%A Feng, Dapeng
+%A Prabhash, Kumar
+%A Aboelyazeed, Doaa
+%A Rahmani, Farshid
+%A Song, Yalan
+%A Beck, Hylke E.
+%A Bindas, Tadd
+%A Dwivedi, Dipankar
+%A Fang, Kuai
+%A Höge, Marvin
+%A Rackauckas, Chris
+%A Mohanty, Binayak P.
+%A Roy, Tirthankar
+%A Xu, Chonggang
+%A Lawson, Kathryn
+%J Nature Reviews Earth & Environment, Volume 4, Issue 8
+%D 2023
+%V 4
+%N 8
+%I Springer Science and Business Media LLC
+%F Shen-2023-Differentiable
+%X Process-based modelling offers interpretability and physical consistency in many domains of geosciences but struggles to leverage large datasets efficiently. Machine-learning methods, especially deep networks, have strong predictive skills yet are unable to answer specific scientific questions. In this Perspective, we explore differentiable modelling as a pathway to dissolve the perceived barrier between process-based modelling and machine learning in the geosciences and demonstrate its potential with examples from hydrological modelling. ‘Differentiable’ refers to accurately and efficiently calculating gradients with respect to model variables or parameters, enabling the discovery of high-dimensional unknown relationships. Differentiable modelling involves connecting (flexible amounts of) prior physical knowledge to neural networks, pushing the boundary of physics-informed machine learning. It offers better interpretability, generalizability, and extrapolation capabilities than purely data-driven machine learning, achieving a similar level of accuracy while requiring less training data. Additionally, the performance and efficiency of differentiable models scale well with increasing data volumes. Under data-scarce scenarios, differentiable models have outperformed machine-learning models in producing short-term dynamics and decadal-scale trends owing to the imposed physical constraints. Differentiable modelling approaches are primed to enable geoscientists to ask questions, test hypotheses, and discover unrecognized physical relationships. Future work should address computational challenges, reduce uncertainty, and verify the physical significance of outputs. Differentiable modelling is an approach that flexibly integrates the learning capability of machine learning with the interpretability of process-based models. This Perspective highlights the potential of differentiable modelling to improve the representation of processes, parameter estimation, and predictive accuracy in the geosciences.
+%R 10.1038/s43017-023-00450-9
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-27001
+%U https://doi.org/10.1038/s43017-023-00450-9
+%P 552-567
+

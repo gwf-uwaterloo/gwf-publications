@@ -1,0 +1,233 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById('expand-proj').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});document.getElementById('expand-uni').addEventListener('click',function(){if(this.textContent=='show less...'){this.textContent='show all...';}else{this.textContent='show less...';}});};</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var any_checked=$(':input[id^="check_year"]').map(function(){return $(this).prop('checked');}).get().includes(true);const collection=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=='none'){$("#year_list li:first-child").prop('style',"display:initial !important");$('div[id^="year_"]').prop('style','display:none !important');}
+if(any_checked){for(child of collection)
+{if(child.id.startsWith(this.id.slice(-9)))
+{this.checked?child.style.display="initial":child.style.display="none";}}}else{$("#year_list li:first-child").prop('style',"display:none !important")
+for(child of collection)
+{child.style.display="initial";}}}else if(this.id.startsWith("uni")){console.log("Hi2")
+var any_checked=$(':input[id^="uni"]').map(function(){return $(this).prop('checked');}).get().includes(true);var uni=this.id.slice(-7);if(unis[uni]==undefined)unis[uni]=true;this.checked?(unis[uni]=true):(unis[uni]=false);if($("#university_list li:first-child").css("display")=='none'){$("#university_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-uni="+uni+"]");for(child of collection){if(this.checked){child.parentNode.parentNode.setAttribute("style","display:flex !important")}else{disp_off_flag=true;for(child of child.parentNode.querySelectorAll("[data-uni]")){if(unis[child.getAttribute("data-uni")]==undefined)unis[child.getAttribute("data-uni")]=true;if(unis[child.getAttribute("data-uni")]==true){disp_off_flag=false;break;}}
+if(disp_off_flag){child.parentNode.parentNode.setAttribute("style","display:none !important");}}}}else{$("#university_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});}}
+else if(this.id.startsWith("prj")){var any_checked=$(':input[id^="prj"]').map(function(){return $(this).prop('checked');}).get().includes(true);var prj=this.id.slice(4);if($("#project_list li:first-child").css("display")=='none'){$("#project_list li:first-child").prop('style',"display:initial !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important");});}
+if(any_checked){const collection=document.querySelectorAll("[data-prj="+prj+"]");for(child of collection){(this.checked)?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}}else{console.log("all unckecked")
+$("#project_list li:first-child").prop('style',"display:none !important");$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});}}});function clearAll(t){if(t=='year'){$(':input[id^="check_year"]').prop('checked',false);$('div[id^="year_"]').prop('style','display:initial;');$("#year_list li:first-child").prop('style',"display:none !important")}else if(t=='uni'){$(':input[id^="uni"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important");});$("#university_list li:first-child").prop('style',"display:none !important")}else if(t=='prj'){$(':input[id^="prj"]').prop('checked',false);$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important");});$("#project_list li:first-child").prop('style',"display:none !important")}}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>В. А. Семенов - GWF Publications</title><meta name=generator content="Hugo 0.68.3"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.8976777c0832d068a49d330764e507857027f1efa3b8501cf349b0e2db7410fc.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/gwf-publications/css/academicons.min.css></head><body><header style="display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><div id=navbar-container style="height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,.09)0 1px 0;box-shadow:rgba(0,0,0,.09)0 1px 0;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"><a href=/gwf-publications/ style="color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent"><img src=/gwf-publications/images/gwf-logo.png alt="ACL Logo" style="margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%"></a>
+<a href=/gwf-publications/ style="text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px">Global Water Futures</a></div></header><div id=main-container class=container><section id=main><h2 id=title><span class=font-weight-normal>В. А.</span> <span class=font-weight-bold>Семенов</span></h2><hr><div class=row><div class=col-lg-9><h4>2021</h4><div data-prj=prj2><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1175/bams-d-19-0329.1 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>ref
+</a><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G21-241001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-241001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-241001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-241001/>Scientific and Human Errors in a Snow Model Intercomparison</a></strong><br><a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0069>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0069>Richard Essery</a>,
+<a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0268>Gerhard Krinner</a>,
+<a href=/gwf-publications/people/G/Gabriele-Arduini/ data-uni=uni0226>Gabriele Arduini</a>,
+<a href=/gwf-publications/people/P/Paul-Bartlett/ data-uni=uni0005>Paul Bartlett</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0056>Aaron Boone</a>,
+<a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ data-uni=uni0103>Claire Brutel‐Vuilmet</a>,
+<a href=/gwf-publications/people/E/Eleanor-J-Burke/ data-uni=uni0285>Eleanor J. Burke</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0298>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/Y/Yongjiu-Dai/ data-uni=uni0176>Yongjiu Dai</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0075>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0518>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0001>Xing Fang</a>,
+<a href=/gwf-publications/people/C/Charles-Fierz/ data-uni=uni0036>Charles Fierz</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0170>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0502>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0336>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0389>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0056>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0020>Thomas Marke</a>,
+<a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni0170>О. Н. Насонова</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0221>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/M/Michio-Niwano/ data-uni=uni0841>Michio Niwano</a>,
+<a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
+<a href=/gwf-publications/people/G/Gerd-Sch%C3%A4dler/ data-uni=uni0085>Gerd Schädler</a>,
+<a href=/gwf-publications/people/%D0%92/%D0%92-%D0%90-%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2/ data-uni=uni0349>В. А. Семенов</a>,
+<a href=/gwf-publications/people/T/Tatiana-G-Smirnova/ data-uni=uni0060>Tatiana G. Smirnova</a>,
+<a href=/gwf-publications/people/U/Ulrich-Strasser/ data-uni=uni0020>Ulrich Strasser</a>,
+<a href=/gwf-publications/people/S/Sean-Swenson/ data-uni=uni0017>Sean Swenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0511>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0060>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0229>Hua Yuan</a><br><a href=/gwf-publications/volumes/G21-241/ class=text-muted>Bulletin of the American Meteorological Society, Volume 102, Issue 1</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-241001><div class="card-body p-3 small">Abstract Twenty-seven models participated in the Earth System Model–Snow Model Intercomparison Project (ESM-SnowMIP), the most data-rich MIP dedicated to snow modeling. Our findings do not support the hypothesis advanced by previous snow MIPs: evaluating models against more variables and providing evaluation datasets extended temporally and spatially does not facilitate identification of key new processes requiring improvement to model snow mass and energy budgets, even at point scales. In fact, the same modeling issues identified by previous snow MIPs arose: albedo is a major source of uncertainty, surface exchange parameterizations are problematic, and individual model performance is inconsistent. This lack of progress is attributed partly to the large number of human errors that led to anomalous model behavior and to numerous resubmissions. It is unclear how widespread such errors are in our field and others; dedicated time and resources will be needed to tackle this issue to prevent highly sophisticated models and their research outputs from being vulnerable because of avoidable human mistakes. The design of and the data available to successive snow MIPs were also questioned. Evaluation of models against bulk snow properties was found to be sufficient for some but inappropriate for more complex snow models whose skills at simulating internal snow properties remained untested. Discussions between the authors of this paper on the purpose of MIPs revealed varied, and sometimes contradictory, motivations behind their participation. These findings started a collaborative effort to adapt future snow MIPs to respond to the diverse needs of the community.</div></div><h4>2020</h4><div data-prj=prj46><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.5194/tc-2020-182 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>ref
+</a><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G20-3004.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-3004 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-3004 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-3004/>Snow cover duration trends observed at sites and predicted bymultiple models</a></strong><br><a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0069>Richard Essery</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0389>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/L/Libo-Wang/ data-uni=uni0005>Libo Wang</a>,
+<a href=/gwf-publications/people/P/Paul-Bartlett/ data-uni=uni0005>Paul Bartlett</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0056>Aaron Boone</a>,
+<a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ data-uni=uni0103>Claire Brutel‐Vuilmet</a>,
+<a href=/gwf-publications/people/E/Eleanor-J-Burke/ data-uni=uni0285>Eleanor J. Burke</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0298>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0075>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0518>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0001>Xing Fang</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0170>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0502>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0336>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0021>Anna Kontu</a>,
+<a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0268>Gerhard Krinner</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0056>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/Y/Yves-Lejeune/ data-uni=uni0075>Yves Lejeune</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0020>Thomas Marke</a>,
+<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0521>Danny Marks</a>,
+<a href=/gwf-publications/people/C/Christoph-Marty/ data-uni=uni0517>Christoph Marty</a>,
+<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0069>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni0170>О. Н. Насонова</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0221>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
+<a href=/gwf-publications/people/G/Gerd-Schaedler/ data-uni=uni0085>Gerd Schaedler</a>,
+<a href=/gwf-publications/people/%D0%92/%D0%92-%D0%90-%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2/ data-uni=uni0349>В. А. Семенов</a>,
+<a href=/gwf-publications/people/T/Tatiana-G-Smirnova/ data-uni=uni0060>Tatiana G. Smirnova</a>,
+<a href=/gwf-publications/people/S/Sean-Swenson/ data-uni=uni0017>Sean Swenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0511>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0060>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0229>Hua Yuan</a><br><a href=/gwf-publications/volumes/G20-3/ class=text-muted></a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-3004><div class="card-body p-3 small">Abstract. Thirty-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.</div></div><div data-prj=prj3><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.5194/tc-14-4687-2020 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>ref
+</a><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G20-240002.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-240002 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-240002 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-240002/>Snow cover duration trends observed at sites and predicted by multiple models</a></strong><br><a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0069>Richard Essery</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0389>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/L/Libo-Wang/ data-uni=uni0005>Libo Wang</a>,
+<a href=/gwf-publications/people/P/Paul-Bartlett/ data-uni=uni0005>Paul Bartlett</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0056>Aaron Boone</a>,
+<a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ data-uni=uni0103>Claire Brutel‐Vuilmet</a>,
+<a href=/gwf-publications/people/E/Eleanor-J-Burke/ data-uni=uni0285>Eleanor J. Burke</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0298>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0075>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0518>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0001>Xing Fang</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0170>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0502>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0336>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0021>Anna Kontu</a>,
+<a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0268>Gerhard Krinner</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0056>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/Y/Yves-Lejeune/ data-uni=uni0075>Yves Lejeune</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0020>Thomas Marke</a>,
+<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0521>Danny Marks</a>,
+<a href=/gwf-publications/people/C/Christoph-Marty/ data-uni=uni0517>Christoph Marty</a>,
+<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0069>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni0170>О. Н. Насонова</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0221>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
+<a href=/gwf-publications/people/G/Gerd-Sch%C3%A4dler/ data-uni=uni0085>Gerd Schädler</a>,
+<a href=/gwf-publications/people/%D0%92/%D0%92-%D0%90-%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2/ data-uni=uni0349>В. А. Семенов</a>,
+<a href=/gwf-publications/people/T/Tatiana-G-Smirnova/ data-uni=uni0060>Tatiana G. Smirnova</a>,
+<a href=/gwf-publications/people/S/Sean-Swenson/ data-uni=uni0017>Sean Swenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0511>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0060>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0229>Hua Yuan</a><br><a href=/gwf-publications/volumes/G20-240/ class=text-muted>The Cryosphere, Volume 14, Issue 12</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-240002><div class="card-body p-3 small">Abstract. The 30-year simulations of seasonal snow cover in 22 physically based models driven with bias-corrected meteorological reanalyses are examined at four sites with long records of snow observations. Annual snow cover durations differ widely between models, but interannual variations are strongly correlated because of the common driving data. No significant trends are observed in starting dates for seasonal snow cover, but there are significant trends towards snow cover ending earlier at two of the sites in observations and most of the models. A simplified model with just two parameters controlling solar radiation and sensible heat contributions to snowmelt spans the ranges of snow cover durations and trends. This model predicts that sites where snow persists beyond annual peaks in solar radiation and air temperature will experience rapid decreases in snow cover duration with warming as snow begins to melt earlier and at times of year with more energy available for melting.</div></div><h4>2018</h4><div data-prj=prj5><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.5194/gmd-11-5027-2018 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>ref
+</a><a class="badge badge-secondary align-middle mr-1" href=/gwf-publications/G18-136001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G18-136001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G18-136001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G18-136001/>ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks</a></strong><br><a href=/gwf-publications/people/G/Gerhard-Krinner/ data-uni=uni0268>Gerhard Krinner</a>,
+<a href=/gwf-publications/people/C/Chris-Derksen/ data-uni=uni0005>Chris Derksen</a>,
+<a href=/gwf-publications/people/R/Richard-Essery/ data-uni=uni0069>Richard Essery</a>,
+<a href=/gwf-publications/people/M/M-Flanner/ data-uni=uni0090>M. Flanner</a>,
+<a href=/gwf-publications/people/S/Stefan-Hagemann/ data-uni=uni0502>Stefan Hagemann</a>,
+<a href=/gwf-publications/people/M/Martyn-P-Clark/ data-uni=uni0001>Martyn P. Clark</a>,
+<a href=/gwf-publications/people/A/Alex-Hall/ data-uni=uni0234>Alex Hall</a>,
+<a href=/gwf-publications/people/H/Helmut-Rott/ data-uni=uni0872>Helmut Rott</a>,
+<a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ data-uni=uni0103>Claire Brutel‐Vuilmet</a>,
+<a href=/gwf-publications/people/H/Hyungjun-Kim/ data-uni=uni0389>Hyungjun Kim</a>,
+<a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ data-uni=uni0069>Cécile B. Ménard</a>,
+<a href=/gwf-publications/people/L/Lawrence-Mudryk/ data-uni=uni0005>Lawrence Mudryk</a>,
+<a href=/gwf-publications/people/C/Chad-W-Thackeray/ data-uni=uni0101>Chad W. Thackeray</a>,
+<a href=/gwf-publications/people/L/Libo-Wang/ data-uni=uni0005>Libo Wang</a>,
+<a href=/gwf-publications/people/G/Gabriele-Arduini/ data-uni=uni0226>Gabriele Arduini</a>,
+<a href=/gwf-publications/people/G/Gianpaolo-Balsamo/ data-uni=uni0226>Gianpaolo Balsamo</a>,
+<a href=/gwf-publications/people/P/Paul-Bartlett/ data-uni=uni0005>Paul Bartlett</a>,
+<a href=/gwf-publications/people/J/Julia-Boike/ data-uni=uni0062>Julia Boike</a>,
+<a href=/gwf-publications/people/A/Aaron-Boone/ data-uni=uni0056>Aaron Boone</a>,
+<a href=/gwf-publications/people/F/F-Ch%C3%A9ruy/ data-uni=uni1533>F. Chéruy</a>,
+<a href=/gwf-publications/people/J/Jeanne-Colin/ data-uni=uni0056>Jeanne Colin</a>,
+<a href=/gwf-publications/people/M/Matthias-Cuntz/ data-uni=uni0298>Matthias Cuntz</a>,
+<a href=/gwf-publications/people/Y/Yongjiu-Dai/ data-uni=uni0176>Yongjiu Dai</a>,
+<a href=/gwf-publications/people/B/Bertrand-Decharme/ data-uni=uni0075>Bertrand Decharme</a>,
+<a href=/gwf-publications/people/J/Jeff-Derry/ data-uni=uni1521>Jeff Derry</a>,
+<a href=/gwf-publications/people/A/Agn%C3%A8s-Ducharne/ data-uni=uni0628>Agnès Ducharne</a>,
+<a href=/gwf-publications/people/E/Emanuel-Dutra/ data-uni=uni0518>Emanuel Dutra</a>,
+<a href=/gwf-publications/people/X/Xing-Fang/ data-uni=uni0001>Xing Fang</a>,
+<a href=/gwf-publications/people/C/Charles-Fierz/ data-uni=uni0036>Charles Fierz</a>,
+<a href=/gwf-publications/people/J/Josephine-Ghattas/ data-uni=uni0894>Josephine Ghattas</a>,
+<a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ data-uni=uni0170>Yeugeniy M. Gusev</a>,
+<a href=/gwf-publications/people/V/Vanessa-Haverd/ data-uni=uni0336>Vanessa Haverd</a>,
+<a href=/gwf-publications/people/A/Anna-Kontu/ data-uni=uni0021>Anna Kontu</a>,
+<a href=/gwf-publications/people/M/Matthieu-Lafaysse/ data-uni=uni0056>Matthieu Lafaysse</a>,
+<a href=/gwf-publications/people/R/R-M-Law/ data-uni=uni1520>R. M. Law</a>,
+<a href=/gwf-publications/people/D/David-M-Lawrence/ data-uni=uni0054>David M. Lawrence</a>,
+<a href=/gwf-publications/people/W/Weiping-Li/ data-uni=uni1517>Weiping Li</a>,
+<a href=/gwf-publications/people/T/Thomas-Marke/ data-uni=uni0020>Thomas Marke</a>,
+<a href=/gwf-publications/people/D/Danny-Marks/ data-uni=uni0521>Danny Marks</a>,
+<a href=/gwf-publications/people/M/Martin-M%C3%A9n%C3%A9goz/ data-uni=uni0268>Martin Ménégoz</a>,
+<a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni0170>О. Н. Насонова</a>,
+<a href=/gwf-publications/people/T/Tomoko-Nitta/ data-uni=uni0221>Tomoko Nitta</a>,
+<a href=/gwf-publications/people/M/Michio-Niwano/ data-uni=uni0841>Michio Niwano</a>,
+<a href=/gwf-publications/people/J/John-W-Pomeroy/ data-uni=uni0001>John W. Pomeroy</a>,
+<a href=/gwf-publications/people/M/M-S-Raleigh/ data-uni=uni0092>M. S. Raleigh</a>,
+<a href=/gwf-publications/people/G/Gerd-Schaedler/ data-uni=uni0085>Gerd Schaedler</a>,
+<a href=/gwf-publications/people/%D0%92/%D0%92-%D0%90-%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2/ data-uni=uni0349>В. А. Семенов</a>,
+<a href=/gwf-publications/people/T/Tanya-Smirnova/ data-uni=uni1648>Tanya Smirnova</a>,
+<a href=/gwf-publications/people/T/Tobias-Stacke/ data-uni=uni0374>Tobias Stacke</a>,
+<a href=/gwf-publications/people/U/Ulrich-Strasser/ data-uni=uni0020>Ulrich Strasser</a>,
+<a href=/gwf-publications/people/S/Sean-Svenson/ data-uni=uni0349>Sean Svenson</a>,
+<a href=/gwf-publications/people/D/Dmitry-Turkov/ data-uni=uni0511>Dmitry Turkov</a>,
+<a href=/gwf-publications/people/T/Tao-Wang/ data-uni=uni0621>Tao Wang</a>,
+<a href=/gwf-publications/people/N/Nander-Wever/ data-uni=uni0060>Nander Wever</a>,
+<a href=/gwf-publications/people/H/Hua-Yuan/ data-uni=uni0229>Hua Yuan</a>,
+<a href=/gwf-publications/people/W/Wenyan-Zhou/ data-uni=uni0913>Wenyan Zhou</a>,
+<a href=/gwf-publications/people/D/Dan-Zhu/ data-uni=uni1645>Dan Zhu</a><br><a href=/gwf-publications/volumes/G18-136/ class=text-muted>Geoscientific Model Development, Volume 11, Issue 12</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G18-136001><div class="card-body p-3 small">Abstract. This paper describes ESM-SnowMIP, an international coordinated modelling effort to evaluate current snow schemes, including snow schemes that are included in Earth system models, in a wide variety of settings against local and global observations. The project aims to identify crucial processes and characteristics that need to be improved in snow models in the context of local- and global-scale modelling. A further objective of ESM-SnowMIP is to better quantify snow-related feedbacks in the Earth system. Although it is not part of the sixth phase of the Coupled Model Intercomparison Project (CMIP6), ESM-SnowMIP is tightly linked to the CMIP6-endorsed Land Surface, Snow and Soil Moisture Model Intercomparison (LS3MIP).</div></div></div><div class=col-lg-3><a class="btn btn-lg btn-secondary btn-block mb-2" href="https://www.semanticscholar.org/search?q=%D0%92.+%D0%90.+%D0%A1%D0%B5%D0%BC%D0%B5%D0%BD%D0%BE%D0%B2" title="Search for 'В. А. Семенов' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class=pl-sm-2>Search</span></a><div class=row><div class="col-12 col-md-6 col-lg-12"><div class=card><h5 class=card-header>Co-authors</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/people/G/Gerhard-Krinner/ class=align-middle data-uni=uni0268>Gerhard Krinner</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Richard-Essery/ class=align-middle data-uni=uni0069>Richard Essery</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Stefan-Hagemann/ class=align-middle data-uni=uni0502>Stefan Hagemann</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-BrutelVuilmet/ class=align-middle data-uni=uni0103>Claire Brutel‐Vuilmet</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hyungjun-Kim/ class=align-middle data-uni=uni0389>Hyungjun Kim</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class="list-group-item list-group-toggle-btn py-1" data-toggle=collapse data-target=#more-coauthors aria-expanded=false aria-controls=more-coauthors>show all...</li><div class="collapse border-top" id=more-coauthors><li class=list-group-item><a href=/gwf-publications/people/C/C%C3%A9cile-B-M%C3%A9nard/ class=align-middle data-uni=uni0069>Cécile B. Ménard</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Paul-Bartlett/ class=align-middle data-uni=uni0005>Paul Bartlett</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Aaron-Boone/ class=align-middle data-uni=uni0056>Aaron Boone</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthias-Cuntz/ class=align-middle data-uni=uni0298>Matthias Cuntz</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bertrand-Decharme/ class=align-middle data-uni=uni0075>Bertrand Decharme</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Emanuel-Dutra/ class=align-middle data-uni=uni0518>Emanuel Dutra</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/X/Xing-Fang/ class=align-middle data-uni=uni0001>Xing Fang</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yeugeniy-M-Gusev/ class=align-middle data-uni=uni0170>Yeugeniy M. Gusev</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/V/Vanessa-Haverd/ class=align-middle data-uni=uni0336>Vanessa Haverd</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthieu-Lafaysse/ class=align-middle data-uni=uni0056>Matthieu Lafaysse</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-Marke/ class=align-middle data-uni=uni0020>Thomas Marke</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/%D0%9E/%D0%9E-%D0%9D-%D0%9D%D0%B0%D1%81%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ class=align-middle data-uni=uni0170>О. Н. Насонова</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tomoko-Nitta/ class=align-middle data-uni=uni0221>Tomoko Nitta</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/J/John-W-Pomeroy/ class=align-middle data-uni=uni0001>John W. Pomeroy</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dmitry-Turkov/ class=align-middle data-uni=uni0511>Dmitry Turkov</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nander-Wever/ class=align-middle data-uni=uni0060>Nander Wever</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hua-Yuan/ class=align-middle data-uni=uni0229>Hua Yuan</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Libo-Wang/ class=align-middle data-uni=uni0005>Libo Wang</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anna-Kontu/ class=align-middle data-uni=uni0021>Anna Kontu</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Danny-Marks/ class=align-middle data-uni=uni0521>Danny Marks</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eleanor-J-Burke/ class=align-middle data-uni=uni0285>Eleanor J. Burke</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tatiana-G-Smirnova/ class=align-middle data-uni=uni0060>Tatiana G. Smirnova</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sean-Swenson/ class=align-middle data-uni=uni0017>Sean Swenson</a>
+<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gabriele-Arduini/ class=align-middle data-uni=uni0226>Gabriele Arduini</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yongjiu-Dai/ class=align-middle data-uni=uni0176>Yongjiu Dai</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Charles-Fierz/ class=align-middle data-uni=uni0036>Charles Fierz</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michio-Niwano/ class=align-middle data-uni=uni0841>Michio Niwano</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gerd-Schaedler/ class=align-middle data-uni=uni0085>Gerd Schaedler</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/U/Ulrich-Strasser/ class=align-middle data-uni=uni0020>Ulrich Strasser</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yves-Lejeune/ class=align-middle data-uni=uni0075>Yves Lejeune</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christoph-Marty/ class=align-middle data-uni=uni0517>Christoph Marty</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gerd-Sch%C3%A4dler/ class=align-middle data-uni=uni0085>Gerd Schädler</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chris-Derksen/ class=align-middle data-uni=uni0005>Chris Derksen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-Flanner/ class=align-middle data-uni=uni0090>M. Flanner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Martyn-P-Clark/ class=align-middle data-uni=uni0001>Martyn P. Clark</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alex-Hall/ class=align-middle data-uni=uni0234>Alex Hall</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Helmut-Rott/ class=align-middle data-uni=uni0872>Helmut Rott</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lawrence-Mudryk/ class=align-middle data-uni=uni0005>Lawrence Mudryk</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chad-W-Thackeray/ class=align-middle data-uni=uni0101>Chad W. Thackeray</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gianpaolo-Balsamo/ class=align-middle data-uni=uni0226>Gianpaolo Balsamo</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Julia-Boike/ class=align-middle data-uni=uni0062>Julia Boike</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/F-Ch%C3%A9ruy/ class=align-middle data-uni=uni1533>F. Chéruy</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jeanne-Colin/ class=align-middle data-uni=uni0056>Jeanne Colin</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jeff-Derry/ class=align-middle data-uni=uni1521>Jeff Derry</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Agn%C3%A8s-Ducharne/ class=align-middle data-uni=uni0628>Agnès Ducharne</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Josephine-Ghattas/ class=align-middle data-uni=uni0894>Josephine Ghattas</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/R-M-Law/ class=align-middle data-uni=uni1520>R. M. Law</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-M-Lawrence/ class=align-middle data-uni=uni0054>David M. Lawrence</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Weiping-Li/ class=align-middle data-uni=uni1517>Weiping Li</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Martin-M%C3%A9n%C3%A9goz/ class=align-middle data-uni=uni0268>Martin Ménégoz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-S-Raleigh/ class=align-middle data-uni=uni0092>M. S. Raleigh</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tanya-Smirnova/ class=align-middle data-uni=uni1648>Tanya Smirnova</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tobias-Stacke/ class=align-middle data-uni=uni0374>Tobias Stacke</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sean-Svenson/ class=align-middle data-uni=uni0349>Sean Svenson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tao-Wang/ class=align-middle data-uni=uni0621>Tao Wang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wenyan-Zhou/ class=align-middle data-uni=uni0913>Wenyan Zhou</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dan-Zhu/ class=align-middle data-uni=uni1645>Dan Zhu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li></div></ul></div></div><div class="col-12 col-md-6 col-lg-12"><div class="card my-2 my-md-0 my-lg-2"><h5 class=card-header>Venues</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/venues/gwf/ class=align-middle>GWF</a><span class="badge badge-secondary align-middle ml-2">4</span></li></ul></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip();if($("#toggle-all-abstracts")){$("#toggle-all-abstracts").click(function(){var target=$("#toggle-all-abstracts");target.attr("disabled",true);if(target.attr("data-toggle-state")=="hide"){$(".abstract-collapse").collapse('show');target.attr("data-toggle-state","show");}else{$(".abstract-collapse").collapse('hide');target.attr("data-toggle-state","hide");}
+target.attr("disabled",false);});$("#toggle-all-abstracts").attr("disabled",false);}})</script></body></html>
