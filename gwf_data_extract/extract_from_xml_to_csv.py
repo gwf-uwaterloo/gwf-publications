@@ -3,7 +3,7 @@ import xml.etree.ElementTree as et
 import html
 
 def extract_to_files():
-    sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey"])
+    sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey", "project"])
     file = 'G23'
     input = 'data/xml/'+ file +'.xml'
     output = 'gwf_data_extract/'+file+'.csv'
@@ -22,14 +22,21 @@ def extract_to_files():
         paper_dict["pages"] = paper.find("pages").text if paper.find("pages") is not None else ""
         paper_dict["doi"] = paper.find("doi").text
         paper_dict["bibkey"] = paper.find("bibkey").text
+        paper_dict["project"] = paper.find("project").text
         
         sheet = pd.concat([sheet, pd.DataFrame([paper_dict.values()], columns=sheet.columns)], ignore_index=True)
+
+    doi_prj_df = pd.read_excel('gwf_data_extract/doi2projects1.xlsx')
+    doi_prj_df = doi_prj_df.drop('DOI', axis=1)
+    doi_prj_df = doi_prj_df.drop_duplicates()
+    doi_prj_df = doi_prj_df.append({'Project Name':'Others','prj':'prj46'}, ignore_index=True)
+    sheet['project'] = sheet['project'].map(doi_prj_df.set_index('prj')['Project Name'].to_dict())
 
     sheet.to_csv(output, index=False)
 
 def extract_to_one_file():
     files = ['G16','G17','G18','G19','G20','G21','G22','G23']
-    sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey"])        
+    sheet = pd.DataFrame(columns=["title", "author", "abstract", "url", "pages", "doi", "bibkey", "project"])        
     for file in files:        
         input = 'data/xml/'+ file +'.xml'
         output = 'gwf_data_extract/csv_all.csv'
@@ -48,11 +55,16 @@ def extract_to_one_file():
             paper_dict["pages"] = paper.find("pages").text if paper.find("pages") is not None else ""
             paper_dict["doi"] = paper.find("doi").text
             paper_dict["bibkey"] = paper.find("bibkey").text
+            paper_dict["project"] = paper.find("project").text
             
-            sheet = pd.concat([sheet, pd.DataFrame([paper_dict.values()], columns=sheet.columns)], ignore_index=True)
+            sheet = pd.concat([sheet, pd.DataFrame([paper_dict.values()], columns=sheet.columns)], ignore_index=True)    
 
-    
+    doi_prj_df = pd.read_excel('gwf_data_extract/doi2projects1.xlsx')
+    doi_prj_df = doi_prj_df.drop('DOI', axis=1)
+    doi_prj_df = doi_prj_df.drop_duplicates()
+    doi_prj_df = doi_prj_df.append({'Project Name':'Others','prj':'prj46'}, ignore_index=True)
+    sheet['project'] = sheet['project'].map(doi_prj_df.set_index('prj')['Project Name'].to_dict())
     sheet.to_csv(output, index=False)
 
-extract_to_files()
+extract_to_one_file()
 
