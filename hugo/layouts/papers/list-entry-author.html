@@ -5,7 +5,7 @@
   <span class="d-block mr-2 text-nowrap list-button-row">
     {{- with $paper.pdf -}}
     <a class="badge badge-primary align-middle mr-1" href="{{ . }}" data-toggle="tooltip" data-placement="top" title="Publisher's Website" target="_blank">
-      ref
+      DOI
     </a>
     {{- end -}}
     {{- if (fileExists (printf "/data-export/%s.bib" .Params.anthology_id)) -}}
