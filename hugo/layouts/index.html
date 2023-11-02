@@ -14,6 +14,12 @@
       </div> -->
       <div class="col-12 col-md-6 col-lg-12">
         <div class="card my-2 my-md-0 my-lg-2">
+          <a class="btn btn-block btn-info" href="{{ "/anthology.bib.gz" | relURL }}">Full Anthology as BibTeX</a>
+          <a class="btn btn-block btn-info" href="{{ "/anthology+abstracts.bib.gz" | relURL }}">…with abstracts</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-12">
+        <div class="card my-2 my-md-0 my-lg-2">
           <h5 class="card-header card-header-custom" href="#year_list" data-toggle="collapse" aria-expanded="false" aria-controls="year_list">Year</h5>
           <ul class="list-group list-group-flush list-group-compact collapse abstract-collapse" id="year_list">
             <li class="list-group-item"><div class="badge badge-secondary clear-widget" onclick="clearAll('year')">Clear All</div></li>

@@ -299,4 +299,4 @@ def assign_prj(in_file: str, out_file: str, doi2prj_file: str):
 
 # handle_HTML_entities("data/xml/G21.xml")
 # add_abstract_to_missing("data/xml/G17.xml", "data/xml/G17.xml")
-assign_prj("data/xml/G23.xml", "data/xml/G23.xml", "gwf_data_extract/doi2projects.xlsx")
+assign_prj("data/xml/G16.xml", "data/xml/G16.xml", "gwf_data_extract/doi2projects.xlsx")
