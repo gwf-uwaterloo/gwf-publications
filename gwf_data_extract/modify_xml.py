@@ -297,6 +297,6 @@ def assign_prj(in_file: str, out_file: str, doi2prj_file: str):
 # add_doi_to_xml('extra_publication_cleaned.csv', 'data/xml/', 'data/yaml/')
 # add_doi_to_xml('DOI_extra.csv', 'data/xml/', 'data/yaml/')
 
-# handle_HTML_entities("data/xml/G23.xml")
+# handle_HTML_entities("data/xml/G21.xml")
 # add_abstract_to_missing("data/xml/G17.xml", "data/xml/G17.xml")
-assign_prj("data/xml/G16.xml", "data/xml/G16.xml", "gwf_data_extract/doi2projects1.xlsx")
+assign_prj("data/xml/G23.xml", "data/xml/G23.xml", "gwf_data_extract/doi2projects.xlsx")
