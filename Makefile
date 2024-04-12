@@ -115,9 +115,9 @@ sitemap: build/.sitemap
 
 build/.sitemap: venv/bin/activate build/.hugo
 	. $(VENV) && python3 bin/split_sitemap.py build/website/$(ANTHOLOGYDIR)/sitemap.xml
-	@rm -f build/website/$(ANTHOLOGYDIR)/sitemap_*.xml.gz
-	@gzip -9n build/website/$(ANTHOLOGYDIR)/sitemap_*.xml
-	@bin/create_sitemapindex.sh `ls build/website/$(ANTHOLOGYDIR)/ | grep 'sitemap_.*xml.gz'` > build/website/$(ANTHOLOGYDIR)/sitemapindex.xml
+	@rm -f build/website/$(ANTHOLOGYDIR)/sitemap*.xml.gz
+	@gzip -9n build/website/$(ANTHOLOGYDIR)/sitemap*.xml
+	@bin/create_sitemapindex.sh `ls build/website/$(ANTHOLOGYDIR)/ | grep 'sitemap*.xml.gz'` > build/website/$(ANTHOLOGYDIR)/sitemapindex.xml
 	@touch build/.sitemap
 
 .PHONY: venv
