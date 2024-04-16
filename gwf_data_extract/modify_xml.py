@@ -1,4 +1,5 @@
 import os
+from argparse import ArgumentParser
 import pandas as pd
 import xml.etree.ElementTree as et
 import html
@@ -179,21 +180,32 @@ def add_doi_to_xml(new_doi_file:str, xml_folder: str, yaml_folder: str):
     bibkey_list = get_website_bibkeys()
 
     for year, year_dict in paper_dict.items():
-        if year<2016: continue # we don't have any paper befor 2016
-        tree = et.parse(xml_folder+"G"+str(year)[-2:]+".xml")
-        root = tree.getroot()
+        if year<2016: 
+            continue # we don't have any paper befor 2016
+
+        # Handle an xml file that doesn't exist
+        file_name = xml_folder+"G"+str(year)[-2:]+".xml"
+        if not os.path.exists(file_name):
+            root = et.Element("collection")
+            root.set('id', "G"+str(year)[-2:])
+        else:
+            tree = et.parse(file_name)
+            root = tree.getroot()
 
         for index, (volume, item) in enumerate(year_dict.items()):
             first_item = list(item.items())[0][1]
             booktitle = (first_item['container-title'][0] if first_item['container-title'] else ' ')+((', Volume '+first_item['volume']) if 'volume' in first_item else '')+((', Issue '+first_item['issue']) if 'issue' in first_item else '')
-
+            
             tag_vol = root.find('.//booktitle[.="'+booktitle+'"]/....')
             if tag_vol: # check if volume has existed
                 paper_id_ofs = int(tag_vol.findall("./paper")[-1].get('id')) if tag_vol.findall("./paper") else 0
             else:
                 tag_vol = et.Element("volume")
                 root.append(tag_vol)
-                tag_vol.set('id', str(int(root.findall("./volume")[-2].get('id'))+1))
+                if root.findall("./volume")[0].get('id') is None:
+                    tag_vol.set('id', str(index+1))
+                else:
+                    tag_vol.set('id', str(int(root.findall("./volume")[-2].get('id'))+1))
 
                 tag_meta = et.Element("meta")
                 tag_vol.append(tag_meta)
@@ -242,11 +254,13 @@ def add_doi_to_xml(new_doi_file:str, xml_folder: str, yaml_folder: str):
                 bibkey = generate_bibkey(tmep_dict_item['title'][0], tmep_dict_item['author'], year, bibkey_list)
                 tag_subelement.text = bibkey
                 bibkey_list.append(bibkey)
+                tag_subelement = et.SubElement(tag_paper, "project")
+                tag_subelement.text = ""
 
         print(year)
 
-        tree = et.ElementTree(root)    
-        file_name = xml_folder+"G"+str(year)[-2:]+".xml"   
+        tree = et.ElementTree(root)   
+        # file_name = xml_folder+"G"+str(year)[-2:]+".xml"
         with open(file_name, "w", encoding="UTF-8") as f:
             f.write(etree.tostring(etree.XML(et.tostring(root, encoding="UTF-8", xml_declaration=True), parser=etree.XMLParser(remove_blank_text=True))).decode())
 
@@ -289,14 +303,51 @@ def assign_prj(in_file: str, out_file: str, doi2prj_file: str):
     with open (out_file, "wb") as files :
         tree.write(files, encoding='UTF-8', xml_declaration=True, method='xml')
 
-get_new_doi_data('DOI_extra.csv')
+# get_new_doi_data('check/Dois_2024.csv')
 # get_new_doi_data('non_doi_titles.csv')
 # find_doi_diffs('gwf_data_extract/doi_from_USask.csv')
 
-add_doi_to_xml('non_doi_titles.csv', 'data/xml/', 'data/yaml/')
+# add_doi_to_xml('check/Dois_2024.csv', 'data/xml/', 'data/yaml/')
 # add_doi_to_xml('extra_publication_cleaned.csv', 'data/xml/', 'data/yaml/')
 # add_doi_to_xml('DOI_extra.csv', 'data/xml/', 'data/yaml/')
 
 # handle_HTML_entities("data/xml/G21.xml")
 # add_abstract_to_missing("data/xml/G17.xml", "data/xml/G17.xml")
-# assign_prj("data/xml/G16.xml", "data/xml/G16.xml", "gwf_data_extract/doi2projects.xlsx")
+# assign_prj("data/xml/G24.xml", "data/xml/G24.xml", "gwf_data_extract/check/doi2projects.xlsx")
+
+if __name__ == "__main__":
+
+    parser = ArgumentParser(description="Modify XML files")
+    parser.add_argument("--get_new_doi", action="store_true", 
+                        help="Arg to get details for new dois to json file")
+    parser.add_argument("--add_doi_to_xml", action="store_true", 
+                        help="Modify of generate xml files for new dois")
+    parser.add_argument("--doi_file", type=str, 
+                        help="Path to new doi .csv file")
+    parser.add_argument("--assign_project", action="store_true", 
+                        help="Assign project to new dois")
+    parser.add_argument("--xml_file", type=str, 
+                        help="xml file e.g G23.xml")
+    parser.add_argument("--doi2project", type=str, 
+                        help="Path to doi2projects.xlsx with new doi papers")
+    args = parser.parse_args()
+
+    xml_path = "data/xml/"
+    yaml_path = "data/yaml/"
+
+    if args.get_new_doi:
+        get_new_doi_data(args.doi_file)
+    if args.add_doi_to_xml:
+        add_doi_to_xml(args.doi_file, 
+                       xml_path,
+                       yaml_path)
+        
+    if args.assign_project:
+        xml_file_path = os.path.join(
+            xml_path, args.xml_file
+        )
+        assign_prj(
+            xml_file_path,
+            xml_file_path,
+            args.doi2project
+        )
