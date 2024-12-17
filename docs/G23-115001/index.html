@@ -1,36 +1,67 @@
 <!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Differentiable modelling to unify machine learning and physical models for geosciences - GWF Publications</title>
-<meta name=generator content="Hugo 0.124.1"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Differentiable modelling to unify machine learning and physical models for geosciences" name=citation_title><meta content="Chaopeng Shen" name=citation_author><meta content="Alison P. Appling" name=citation_author><meta content="Pierre Gentine" name=citation_author><meta content="Toshiyuki Bandai" name=citation_author><meta content="Hoshin Gupta" name=citation_author><meta content="Alexandre M. Tartakovsky" name=citation_author><meta content="Marco Baity‐Jesi" name=citation_author><meta content="Fabrizio Fenicia" name=citation_author><meta content="Daniel Kifer" name=citation_author><meta content="Li Li" name=citation_author><meta content="Xiaofeng Liu" name=citation_author><meta content="Wei Ren" name=citation_author><meta content="Yi Zheng" name=citation_author><meta content="C. J. Harman" name=citation_author><meta content="Martyn P. Clark" name=citation_author><meta content="Matthew W. Farthing" name=citation_author><meta content="Dapeng Feng" name=citation_author><meta content="Kumar Prabhash" name=citation_author><meta content="Doaa Aboelyazeed" name=citation_author><meta content="Farshid Rahmani" name=citation_author><meta content="Yalan Song" name=citation_author><meta content="Hylke E. Beck" name=citation_author><meta content="Tadd Bindas" name=citation_author><meta content="Dipankar Dwivedi" name=citation_author><meta content="Kuai Fang" name=citation_author><meta content="Marvin Höge" name=citation_author><meta content="Chris Rackauckas" name=citation_author><meta content="Binayak P. Mohanty" name=citation_author><meta content="Tirthankar Roy" name=citation_author><meta content="Chonggang Xu" name=citation_author><meta content="Kathryn Lawson" name=citation_author><meta content="Nature Reviews Earth & Environment, Volume 4, Issue 8" name=citation_journal_title><meta content="4" name=citation_volume><meta content="8" name=citation_issue><meta content="2023" name=citation_publication_date><meta content="https://www.doi.org/10.1038/s43017-023-00450-9" name=citation_pdf_url><meta content="552" name=citation_firstpage><meta content="567" name=citation_lastpage><meta content="10.1038/s43017-023-00450-9" name=citation_doi><meta property="og:title" content="Differentiable modelling to unify machine learning and physical models for geosciences"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G23-115001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G23-27001"><meta property="og:description" content="Chaopeng Shen, Alison P. Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn P. Clark, Matthew W. Farthing, Dapeng Feng, Kumar Prabhash, Doaa Aboelyazeed, Farshid Rahmani, Yalan Song, Hylke E. Beck, Tadd Bindas, Dipankar Dwivedi, Kuai Fang, Marvin Höge, Chris Rackauckas, Binayak P. Mohanty, Tirthankar Roy, Chonggang Xu, Kathryn Lawson. Nature Reviews Earth & Environment, Volume 4, Issue 8. 2023."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
-</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001>Differentiable modelling to unify machine learning and physical models for geosciences</a></h2><p class=lead><a href=/gwf-publications/people/C/Chaopeng-Shen/ data-uni=uni0044>Chaopeng Shen</a>,
-<a href=/gwf-publications/people/A/Alison-P-Appling/ data-uni=uni0046>Alison P. Appling</a>,
-<a href=/gwf-publications/people/P/Pierre-Gentine/ data-uni=uni0521>Pierre Gentine</a>,
-<a href=/gwf-publications/people/T/Toshiyuki-Bandai/ data-uni=uni0026>Toshiyuki Bandai</a>,
-<a href=/gwf-publications/people/H/Hoshin-Gupta/ data-uni=uni0029>Hoshin Gupta</a>,
-<a href=/gwf-publications/people/A/Alexandre-M-Tartakovsky/ data-uni=uni0079>Alexandre M. Tartakovsky</a>,
-<a href=/gwf-publications/people/M/Marco-BaityJesi/ data-uni=uni0170>Marco Baity‐Jesi</a>,
-<a href=/gwf-publications/people/F/Fabrizio-Fenicia/ data-uni=uni0170>Fabrizio Fenicia</a>,
-<a href=/gwf-publications/people/D/Daniel-Kifer/ data-uni=uni1219>Daniel Kifer</a>,
-<a href=/gwf-publications/people/L/Li-Li/ data-uni=uni0046>Li Li</a>,
-<a href=/gwf-publications/people/X/Xiaofeng-Liu/ data-uni=uni0044>Xiaofeng Liu</a>,
-<a href=/gwf-publications/people/W/Wei-Ren/ data-uni=uni1231>Wei Ren</a>,
-<a href=/gwf-publications/people/Y/Yi-Zheng/ data-uni=uni0180>Yi Zheng</a>,
-<a href=/gwf-publications/people/C/C-J-Harman/ data-uni=uni0482>C. J. Harman</a>,
-<a href=/gwf-publications/people/M/Martyn-P-Clark/ data-uni=uni0007>Martyn P. Clark</a>,
-<a href=/gwf-publications/people/M/Matthew-W-Farthing/ data-uni=uni0493>Matthew W. Farthing</a>,
-<a href=/gwf-publications/people/D/Dapeng-Feng/ data-uni=uni0044>Dapeng Feng</a>,
-<a href=/gwf-publications/people/K/Kumar-Prabhash/ data-uni=uni1217>Kumar Prabhash</a>,
-<a href=/gwf-publications/people/D/Doaa-Aboelyazeed/ data-uni=uni0044>Doaa Aboelyazeed</a>,
-<a href=/gwf-publications/people/F/Farshid-Rahmani/ data-uni=uni0044>Farshid Rahmani</a>,
-<a href=/gwf-publications/people/Y/Yalan-Song/ data-uni=uni0044>Yalan Song</a>,
-<a href=/gwf-publications/people/H/Hylke-E-Beck/ data-uni=uni0252>Hylke E. Beck</a>,
-<a href=/gwf-publications/people/T/Tadd-Bindas/ data-uni=uni0044>Tadd Bindas</a>,
-<a href=/gwf-publications/people/D/Dipankar-Dwivedi/ data-uni=uni0026>Dipankar Dwivedi</a>,
-<a href=/gwf-publications/people/K/Kuai-Fang/ data-uni=uni0530>Kuai Fang</a>,
-<a href=/gwf-publications/people/M/Marvin-H%C3%B6ge/ data-uni=uni0170>Marvin Höge</a>,
-<a href=/gwf-publications/people/C/Chris-Rackauckas/ data-uni=uni0246>Chris Rackauckas</a>,
-<a href=/gwf-publications/people/B/Binayak-P-Mohanty/ data-uni=uni0839>Binayak P. Mohanty</a>,
-<a href=/gwf-publications/people/T/Tirthankar-Roy/ data-uni=uni0547>Tirthankar Roy</a>,
-<a href=/gwf-publications/people/C/Chonggang-Xu/ data-uni=uni0175>Chonggang Xu</a>,
-<a href=/gwf-publications/people/K/Kathryn-Lawson/ data-uni=uni0044>Kathryn Lawson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Process-based modelling offers interpretability and physical consistency in many domains of geosciences but struggles to leverage large datasets efficiently. Machine-learning methods, especially deep networks, have strong predictive skills yet are unable to answer specific scientific questions. In this Perspective, we explore differentiable modelling as a pathway to dissolve the perceived barrier between process-based modelling and machine learning in the geosciences and demonstrate its potential with examples from hydrological modelling. ‘Differentiable’ refers to accurately and efficiently calculating gradients with respect to model variables or parameters, enabling the discovery of high-dimensional unknown relationships. Differentiable modelling involves connecting (flexible amounts of) prior physical knowledge to neural networks, pushing the boundary of physics-informed machine learning. It offers better interpretability, generalizability, and extrapolation capabilities than purely data-driven machine learning, achieving a similar level of accuracy while requiring less training data. Additionally, the performance and efficiency of differentiable models scale well with increasing data volumes. Under data-scarce scenarios, differentiable models have outperformed machine-learning models in producing short-term dynamics and decadal-scale trends owing to the imposed physical constraints. Differentiable modelling approaches are primed to enable geoscientists to ask questions, test hypotheses, and discover unrecognized physical relationships. Future work should address computational challenges, reduce uncertainty, and verify the physical significance of outputs. Differentiable modelling is an approach that flexibly integrates the learning capability of machine learning with the interpretability of process-based models. This Perspective highlights the potential of differentiable modelling to improve the representation of processes, parameter estimation, and predictive accuracy in the geosciences.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Chaopeng Shen, Alison P. Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn P. Clark, Matthew W. Farthing, Dapeng Feng, Kumar Prabhash, Doaa Aboelyazeed, et al.. 2023. Differentiable modelling to unify machine learning and physical models for geosciences. <i>Nature Reviews Earth & Environment, Volume 4, Issue 8</i>, 4(8):552–567.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Differentiable modelling to unify machine learning and physical models for geosciences" name=citation_title><meta content="Chaopeng Shen" name=citation_author><meta content="Alison Appling" name=citation_author><meta content="Pierre Gentine" name=citation_author><meta content="Toshiyuki Bandai" name=citation_author><meta content="Hoshin V. Gupta" name=citation_author><meta content="Alexandre M. Tartakovsky" name=citation_author><meta content="Marco Baity‐Jesi" name=citation_author><meta content="Fabrizio Fenicia" name=citation_author><meta content="Daniel Kifer" name=citation_author><meta content="Li Li" name=citation_author><meta content="Xiaofeng Liu" name=citation_author><meta content="Wei Ren" name=citation_author><meta content="Yi Zheng" name=citation_author><meta content="C. J. Harman" name=citation_author><meta content="Martyn Clark" name=citation_author><meta content="Matthew W. Farthing" name=citation_author><meta content="Dapeng Feng" name=citation_author><meta content="Praveen Kumar" name=citation_author><meta content="Doaa Aboelyazeed" name=citation_author><meta content="Farshid Rahmani" name=citation_author><meta content="Yalan Song" name=citation_author><meta content="Hylke E. Beck" name=citation_author><meta content="Tadd Bindas" name=citation_author><meta content="Dipankar Dwivedi" name=citation_author><meta content="Kuai Fang" name=citation_author><meta content="Marvin Höge" name=citation_author><meta content="Christopher Rackauckas" name=citation_author><meta content="Binayak P. Mohanty" name=citation_author><meta content="Tirthankar Roy" name=citation_author><meta content="Chonggang Xu" name=citation_author><meta content="Kathryn Lawson" name=citation_author><meta content="Chaopeng Shen" name=citation_author><meta content="Alison Appling" name=citation_author><meta content="Pierre Gentine" name=citation_author><meta content="Toshiyuki Bandai" name=citation_author><meta content="Hoshin V. Gupta" name=citation_author><meta content="Alexandre M. Tartakovsky" name=citation_author><meta content="Marco Baity‐Jesi" name=citation_author><meta content="Fabrizio Fenicia" name=citation_author><meta content="Daniel Kifer" name=citation_author><meta content="Li Li" name=citation_author><meta content="Xiaofeng Liu" name=citation_author><meta content="Wei Ren" name=citation_author><meta content="Yi Zheng" name=citation_author><meta content="C. J. Harman" name=citation_author><meta content="Martyn Clark" name=citation_author><meta content="Matthew W. Farthing" name=citation_author><meta content="Dapeng Feng" name=citation_author><meta content="Praveen Kumar" name=citation_author><meta content="Doaa Aboelyazeed" name=citation_author><meta content="Farshid Rahmani" name=citation_author><meta content="Yalan Song" name=citation_author><meta content="Hylke E. Beck" name=citation_author><meta content="Tadd Bindas" name=citation_author><meta content="Dipankar Dwivedi" name=citation_author><meta content="Kuai Fang" name=citation_author><meta content="Marvin Höge" name=citation_author><meta content="Christopher Rackauckas" name=citation_author><meta content="Binayak P. Mohanty" name=citation_author><meta content="Tirthankar Roy" name=citation_author><meta content="Chonggang Xu" name=citation_author><meta content="Kathryn Lawson" name=citation_author><meta content="Nature Reviews Earth & Environment, Volume 4, Issue 8" name=citation_journal_title><meta content="4" name=citation_volume><meta content="8" name=citation_issue><meta content="2023" name=citation_publication_date><meta content="https://www.doi.org/10.1038/s43017-023-00450-9" name=citation_pdf_url><meta content="552" name=citation_firstpage><meta content="567" name=citation_lastpage><meta content="10.1038/s43017-023-00450-9" name=citation_doi><meta property="og:title" content="Differentiable modelling to unify machine learning and physical models for geosciences"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G23-115001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G23-27001"><meta property="og:description" content="Chaopeng Shen, Alison Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin V. Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn Clark, Matthew W. Farthing, Dapeng Feng, Praveen Kumar, Doaa Aboelyazeed, Farshid Rahmani, Yalan Song, Hylke E. Beck, Tadd Bindas, Dipankar Dwivedi, Kuai Fang, Marvin Höge, Christopher Rackauckas, Binayak P. Mohanty, Tirthankar Roy, Chonggang Xu, Kathryn Lawson, Chaopeng Shen, Alison Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin V. Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn Clark, Matthew W. Farthing, Dapeng Feng, Praveen Kumar, Doaa Aboelyazeed, Farshid Rahmani, Yalan Song, Hylke E. Beck, Tadd Bindas, Dipankar Dwivedi, Kuai Fang, Marvin Höge, Christopher Rackauckas, Binayak P. Mohanty, Tirthankar Roy, Chonggang Xu, Kathryn Lawson. Nature Reviews Earth & Environment, Volume 4, Issue 8. 2023."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001>Differentiable modelling to unify machine learning and physical models for geosciences</a></h2><p class=lead><a href=/gwf-publications/people/C/Chaopeng-Shen/ data-uni=uni0051>Chaopeng Shen</a>,
+<a href=/gwf-publications/people/A/Alison-Appling/ data-uni=uni0024>Alison Appling</a>,
+<a href=/gwf-publications/people/P/Pierre-Gentine/ data-uni=uni0349>Pierre Gentine</a>,
+<a href=/gwf-publications/people/T/Toshiyuki-Bandai/ data-uni=uni0012>Toshiyuki Bandai</a>,
+<a href=/gwf-publications/people/H/Hoshin-V-Gupta/ data-uni=uni0045>Hoshin V. Gupta</a>,
+<a href=/gwf-publications/people/A/Alexandre-M-Tartakovsky/ data-uni=uni0077>Alexandre M. Tartakovsky</a>,
+<a href=/gwf-publications/people/M/Marco-BaityJesi/ data-uni=uni0143>Marco Baity‐Jesi</a>,
+<a href=/gwf-publications/people/F/Fabrizio-Fenicia/ data-uni=uni0143>Fabrizio Fenicia</a>,
+<a href=/gwf-publications/people/D/Daniel-Kifer/ data-uni=uni0051>Daniel Kifer</a>,
+<a href=/gwf-publications/people/L/Li-Li/ data-uni=uni0051>Li Li</a>,
+<a href=/gwf-publications/people/X/Xiaofeng-Liu/ data-uni=uni0251>Xiaofeng Liu</a>,
+<a href=/gwf-publications/people/W/Wei-Ren/ data-uni=uni0513>Wei Ren</a>,
+<a href=/gwf-publications/people/Y/Yi-Zheng/ data-uni=uni0465>Yi Zheng</a>,
+<a href=/gwf-publications/people/C/C-J-Harman/ data-uni=uni0348>C. J. Harman</a>,
+<a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/M/Matthew-W-Farthing/ data-uni=uni1080>Matthew W. Farthing</a>,
+<a href=/gwf-publications/people/D/Dapeng-Feng/ data-uni=uni1081>Dapeng Feng</a>,
+<a href=/gwf-publications/people/P/Praveen-Kumar/ data-uni=uni1082>Praveen Kumar</a>,
+<a href=/gwf-publications/people/D/Doaa-Aboelyazeed/ data-uni=uni0051>Doaa Aboelyazeed</a>,
+<a href=/gwf-publications/people/F/Farshid-Rahmani/ data-uni=uni0051>Farshid Rahmani</a>,
+<a href=/gwf-publications/people/Y/Yalan-Song/ data-uni=uni0051>Yalan Song</a>,
+<a href=/gwf-publications/people/H/Hylke-E-Beck/ data-uni=uni0606>Hylke E. Beck</a>,
+<a href=/gwf-publications/people/T/Tadd-Bindas/ data-uni=uni0051>Tadd Bindas</a>,
+<a href=/gwf-publications/people/D/Dipankar-Dwivedi/ data-uni=uni0012>Dipankar Dwivedi</a>,
+<a href=/gwf-publications/people/K/Kuai-Fang/ data-uni=uni0525>Kuai Fang</a>,
+<a href=/gwf-publications/people/M/Marvin-H%C3%B6ge/ data-uni=uni0143>Marvin Höge</a>,
+<a href=/gwf-publications/people/C/Christopher-Rackauckas/ data-uni=uni0428>Christopher Rackauckas</a>,
+<a href=/gwf-publications/people/B/Binayak-P-Mohanty/ data-uni=uni0099>Binayak P. Mohanty</a>,
+<a href=/gwf-publications/people/T/Tirthankar-Roy/ data-uni=uni0041>Tirthankar Roy</a>,
+<a href=/gwf-publications/people/C/Chonggang-Xu/ data-uni=uni0262>Chonggang Xu</a>,
+<a href=/gwf-publications/people/K/Kathryn-Lawson/ data-uni=uni0051>Kathryn Lawson</a>,
+<a href=/gwf-publications/people/C/Chaopeng-Shen/ data-uni=uni0051>Chaopeng Shen</a>,
+<a href=/gwf-publications/people/A/Alison-Appling/ data-uni=uni0024>Alison Appling</a>,
+<a href=/gwf-publications/people/P/Pierre-Gentine/ data-uni=uni0349>Pierre Gentine</a>,
+<a href=/gwf-publications/people/T/Toshiyuki-Bandai/ data-uni=uni0012>Toshiyuki Bandai</a>,
+<a href=/gwf-publications/people/H/Hoshin-V-Gupta/ data-uni=uni0045>Hoshin V. Gupta</a>,
+<a href=/gwf-publications/people/A/Alexandre-M-Tartakovsky/ data-uni=uni0077>Alexandre M. Tartakovsky</a>,
+<a href=/gwf-publications/people/M/Marco-BaityJesi/ data-uni=uni0143>Marco Baity‐Jesi</a>,
+<a href=/gwf-publications/people/F/Fabrizio-Fenicia/ data-uni=uni0143>Fabrizio Fenicia</a>,
+<a href=/gwf-publications/people/D/Daniel-Kifer/ data-uni=uni0051>Daniel Kifer</a>,
+<a href=/gwf-publications/people/L/Li-Li/ data-uni=uni0051>Li Li</a>,
+<a href=/gwf-publications/people/X/Xiaofeng-Liu/ data-uni=uni0251>Xiaofeng Liu</a>,
+<a href=/gwf-publications/people/W/Wei-Ren/ data-uni=uni0513>Wei Ren</a>,
+<a href=/gwf-publications/people/Y/Yi-Zheng/ data-uni=uni0465>Yi Zheng</a>,
+<a href=/gwf-publications/people/C/C-J-Harman/ data-uni=uni0348>C. J. Harman</a>,
+<a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/M/Matthew-W-Farthing/ data-uni=uni1080>Matthew W. Farthing</a>,
+<a href=/gwf-publications/people/D/Dapeng-Feng/ data-uni=uni1081>Dapeng Feng</a>,
+<a href=/gwf-publications/people/P/Praveen-Kumar/ data-uni=uni1082>Praveen Kumar</a>,
+<a href=/gwf-publications/people/D/Doaa-Aboelyazeed/ data-uni=uni0051>Doaa Aboelyazeed</a>,
+<a href=/gwf-publications/people/F/Farshid-Rahmani/ data-uni=uni0051>Farshid Rahmani</a>,
+<a href=/gwf-publications/people/Y/Yalan-Song/ data-uni=uni0051>Yalan Song</a>,
+<a href=/gwf-publications/people/H/Hylke-E-Beck/ data-uni=uni0606>Hylke E. Beck</a>,
+<a href=/gwf-publications/people/T/Tadd-Bindas/ data-uni=uni0051>Tadd Bindas</a>,
+<a href=/gwf-publications/people/D/Dipankar-Dwivedi/ data-uni=uni0012>Dipankar Dwivedi</a>,
+<a href=/gwf-publications/people/K/Kuai-Fang/ data-uni=uni0525>Kuai Fang</a>,
+<a href=/gwf-publications/people/M/Marvin-H%C3%B6ge/ data-uni=uni0143>Marvin Höge</a>,
+<a href=/gwf-publications/people/C/Christopher-Rackauckas/ data-uni=uni0428>Christopher Rackauckas</a>,
+<a href=/gwf-publications/people/B/Binayak-P-Mohanty/ data-uni=uni0099>Binayak P. Mohanty</a>,
+<a href=/gwf-publications/people/T/Tirthankar-Roy/ data-uni=uni0041>Tirthankar Roy</a>,
+<a href=/gwf-publications/people/C/Chonggang-Xu/ data-uni=uni0262>Chonggang Xu</a>,
+<a href=/gwf-publications/people/K/Kathryn-Lawson/ data-uni=uni0051>Kathryn Lawson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Process-based modelling offers interpretability and physical consistency in many domains of geosciences but struggles to leverage large datasets efficiently. Machine-learning methods, especially deep networks, have strong predictive skills yet are unable to answer specific scientific questions. In this Perspective, we explore differentiable modelling as a pathway to dissolve the perceived barrier between process-based modelling and machine learning in the geosciences and demonstrate its potential with examples from hydrological modelling. ‘Differentiable’ refers to accurately and efficiently calculating gradients with respect to model variables or parameters, enabling the discovery of high-dimensional unknown relationships. Differentiable modelling involves connecting (flexible amounts of) prior physical knowledge to neural networks, pushing the boundary of physics-informed machine learning. It offers better interpretability, generalizability, and extrapolation capabilities than purely data-driven machine learning, achieving a similar level of accuracy while requiring less training data. Additionally, the performance and efficiency of differentiable models scale well with increasing data volumes. Under data-scarce scenarios, differentiable models have outperformed machine-learning models in producing short-term dynamics and decadal-scale trends owing to the imposed physical constraints. Differentiable modelling approaches are primed to enable geoscientists to ask questions, test hypotheses, and discover unrecognized physical relationships. Future work should address computational challenges, reduce uncertainty, and verify the physical significance of outputs. Differentiable modelling is an approach that flexibly integrates the learning capability of machine learning with the interpretability of process-based models. This Perspective highlights the potential of differentiable modelling to improve the representation of processes, parameter estimation, and predictive accuracy in the geosciences.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Chaopeng Shen, Alison Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin V. Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn Clark, Matthew W. Farthing, Dapeng Feng, Praveen Kumar, Doaa Aboelyazeed, et al.. 2023. Differentiable modelling to unify machine learning and physical models for geosciences. <i>Nature Reviews Earth & Environment, Volume 4, Issue 8</i>, 4(8):552–567.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -39,10 +70,10 @@
 <span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Shen-2023-Differentiable,
     title = &#34;Differentiable modelling to unify machine learning and physical models for geosciences&#34;,
     author = {Shen, Chaopeng  and
-      Appling, Alison P.  and
+      Appling, Alison  and
       Gentine, Pierre  and
       Bandai, Toshiyuki  and
-      Gupta, Hoshin  and
+      Gupta, Hoshin V.  and
       Tartakovsky, Alexandre M.  and
       Baity‐Jesi, Marco  and
       Fenicia, Fabrizio  and
@@ -52,10 +83,10 @@
       Ren, Wei  and
       Zheng, Yi  and
       Harman, C. J.  and
-      Clark, Martyn P.  and
+      Clark, Martyn  and
       Farthing, Matthew W.  and
       Feng, Dapeng  and
-      Prabhash, Kumar  and
+      Kumar, Praveen  and
       Aboelyazeed, Doaa  and
       Rahmani, Farshid  and
       Song, Yalan  and
@@ -64,7 +95,38 @@
       Dwivedi, Dipankar  and
       Fang, Kuai  and
       H{\&#34;o}ge, Marvin  and
-      Rackauckas, Chris  and
+      Rackauckas, Christopher  and
+      Mohanty, Binayak P.  and
+      Roy, Tirthankar  and
+      Xu, Chonggang  and
+      Lawson, Kathryn  and
+      Shen, Chaopeng  and
+      Appling, Alison  and
+      Gentine, Pierre  and
+      Bandai, Toshiyuki  and
+      Gupta, Hoshin V.  and
+      Tartakovsky, Alexandre M.  and
+      Baity‐Jesi, Marco  and
+      Fenicia, Fabrizio  and
+      Kifer, Daniel  and
+      Li, Li  and
+      Liu, Xiaofeng  and
+      Ren, Wei  and
+      Zheng, Yi  and
+      Harman, C. J.  and
+      Clark, Martyn  and
+      Farthing, Matthew W.  and
+      Feng, Dapeng  and
+      Kumar, Praveen  and
+      Aboelyazeed, Doaa  and
+      Rahmani, Farshid  and
+      Song, Yalan  and
+      Beck, Hylke E.  and
+      Bindas, Tadd  and
+      Dwivedi, Dipankar  and
+      Fang, Kuai  and
+      H{\&#34;o}ge, Marvin  and
+      Rackauckas, Christopher  and
       Mohanty, Binayak P.  and
       Roy, Tirthankar  and
       Xu, Chonggang  and
@@ -95,7 +157,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Alison&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Appling&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -117,6 +178,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Hoshin&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;V&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Gupta&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -189,7 +251,6 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Martyn&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Clark&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -211,8 +272,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Kumar&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Prabhash&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Praveen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kumar&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -275,7 +336,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Chris&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Rackauckas&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -347,10 +408,10 @@
 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
 %T Differentiable modelling to unify machine learning and physical models for geosciences
 %A Shen, Chaopeng
-%A Appling, Alison P.
+%A Appling, Alison
 %A Gentine, Pierre
 %A Bandai, Toshiyuki
-%A Gupta, Hoshin
+%A Gupta, Hoshin V.
 %A Tartakovsky, Alexandre M.
 %A Baity‐Jesi, Marco
 %A Fenicia, Fabrizio
@@ -360,10 +421,10 @@
 %A Ren, Wei
 %A Zheng, Yi
 %A Harman, C. J.
-%A Clark, Martyn P.
+%A Clark, Martyn
 %A Farthing, Matthew W.
 %A Feng, Dapeng
-%A Prabhash, Kumar
+%A Kumar, Praveen
 %A Aboelyazeed, Doaa
 %A Rahmani, Farshid
 %A Song, Yalan
@@ -372,7 +433,7 @@
 %A Dwivedi, Dipankar
 %A Fang, Kuai
 %A Höge, Marvin
-%A Rackauckas, Chris
+%A Rackauckas, Christopher
 %A Mohanty, Binayak P.
 %A Roy, Tirthankar
 %A Xu, Chonggang
@@ -390,5 +451,5 @@
 %P 552-567
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-115001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Differentiable modelling to unify machine learning and physical models for geosciences](https://gwf-uwaterloo.github.io/gwf-publications/G23-27001) (Shen et al., GWF 2023)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001>Differentiable modelling to unify machine learning and physical models for geosciences</a> (Shen et al., GWF 2023)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Chaopeng Shen, Alison P. Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn P. Clark, Matthew W. Farthing, Dapeng Feng, Kumar Prabhash, Doaa Aboelyazeed, et al.. 2023. Differentiable modelling to unify machine learning and physical models for geosciences. <i>Nature Reviews Earth & Environment, Volume 4, Issue 8</i>, 4(8):552–567.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Differentiable modelling to unify machine learning and physical models for geosciences](https://gwf-uwaterloo.github.io/gwf-publications/G23-27001) (Shen et al., GWF 2023)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-27001>Differentiable modelling to unify machine learning and physical models for geosciences</a> (Shen et al., GWF 2023)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Chaopeng Shen, Alison Appling, Pierre Gentine, Toshiyuki Bandai, Hoshin V. Gupta, Alexandre M. Tartakovsky, Marco Baity‐Jesi, Fabrizio Fenicia, Daniel Kifer, Li Li, Xiaofeng Liu, Wei Ren, Yi Zheng, C. J. Harman, Martyn Clark, Matthew W. Farthing, Dapeng Feng, Praveen Kumar, Doaa Aboelyazeed, et al.. 2023. Differentiable modelling to unify machine learning and physical models for geosciences. <i>Nature Reviews Earth & Environment, Volume 4, Issue 8</i>, 4(8):552–567.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>

@@ -1,6 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>List of all info pages on GWF Publications</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/</link><description>Recent content in List of all info pages on GWF Publications</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gwf-uwaterloo.github.io/gwf-publications/info/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthology Identifiers</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/ids/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/ids/</guid><description>Every item in the Anthology is assigned an identifier, called the &amp;ldquo;Anthology ID&amp;rdquo;. These identifiers are used together with the Anthology domain name to form a canonical URL for each of these items, for easy location and reference.
-Modern identifier format Everything /ingested/ into the Anthology after 2020 (including volumes from prior years) has been assigned an identifier of the form YEAR.VENUE-VOLUME.NUMBER, where:
-YEAR is the 4-digit year (e.g., &amp;ldquo;2020&amp;rdquo;) VENUE is a lowercased, alphanumeric ([a-z0-9]+) identifier (e.</description></item><item><title>Announcements and blog posts</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/posts/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/posts/</guid><description>Blog posts and other kinds of announcements have been moved here.</description></item><item><title>Requesting Corrections</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/corrections/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/corrections/</guid><description>Types of corrections The staff of the ACL Anthology can process requests for many types of corrections. We generally distinguish five types, loosely following the ACM Publications Policy:
-Corrections to metadata do not require changing the PDF. Examples include correcting the spelling of a name or the title. These kinds of corrections are typically made to bring the metadata in line with what is on the PDF, which is taken to be authoritative.</description></item><item><title>Information for Submitters</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/contrib/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/contrib/</guid><description>This page contains general information about submitting the proceedings of a conference to the ACL Anthology. (For information about the complete conference management process, particularly for ACL conference publications chairs, please refer to the official documentation.) It is intended for publication chairs of main conferences and standalone events, who have the responsibility of delivering the proceedings for all main conference and workshop volumes to the Anthology director. Chairs of workshops attached to a larger conference should also read this page, but should work through their main conference publication chair instead of directly with the Anthology.</description></item><item><title>Anthology development and API</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/development/</link><pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/development/</guid><description>API All Anthology data is stored under the data directory. In the xml directory are the files that contain all the Anthology metadata, in a format described below. The yaml directory contains various other important information.
-In addition, we have a Python API that defines objects for papers, authors, volumes, and so on. This is all accessible by an Anthology object that can be access in the following manner. First, clone the Anthology Github repo and setup your environment:</description></item><item><title>Credits</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/credits/</guid><description>The ACL Anthology is largely a volunteer-run organization. We are grateful to all our contributors whose work makes this collection of scholarly papers freely available to all.
-Active Volunteers Indexing Lead: A. Seza Doğruöz (Universiteit Gent) Site Development Lead: Marcel Bollmann (Jönköping University) David Chiang (University of Notre Dame) Arne Köhn (New Work SE) Daniel Gildea (University of Rochester) Kilian Gebhardt (TU Dresden) Nathan Schneider (Georgetown University) Marc Schulder (Institute for German Sign Language, Hamburg University) Past Volunteers Animesh Prasad (National University of Singapore) Anoop Sarkar (Simon Fraser University) Christian Federmann (Microsoft Research) Christoph Teichmann (Bloomberg LLC) Hien Linh Nguyen (Facebook Singapore) Nitin Madnani (Educational Testing Services) Martín Villalba (Saarland University) Simone Teufel (Cambridge) Tao Chen (Google) Namratha Urs (University of North Texas) Chenliang Li (Wuhan University) Authors of anthology introductions: John Nerbonne, Julia Hirschberg, Donia Scott, Diane Litman, Sergei Nirenburg, Karen Spärck Jones, and Aravind Joshi.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>List of all info pages on GWF Publications</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/</link><description>Recent content in List of all info pages on GWF Publications</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gwf-uwaterloo.github.io/gwf-publications/info/index.xml" rel="self" type="application/rss+xml"/><item><title>Anthology Identifiers</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/ids/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/ids/</guid><description>&lt;p>Every item in the Anthology is assigned an identifier, called the &amp;ldquo;Anthology ID&amp;rdquo;.
+These identifiers are used together with the Anthology domain name to form a canonical URL for each of these items, for easy location and reference.&lt;/p>
+&lt;h2 id="modern-identifier-format">Modern identifier format&lt;/h2>
+&lt;p>Everything /ingested/ into the Anthology after 2020 (including volumes from prior years) has been assigned an identifier of the form &lt;code>YEAR.VENUE-VOLUME.NUMBER&lt;/code>, where:&lt;/p>
+&lt;ul>
+&lt;li>YEAR is the 4-digit year (e.g., &amp;ldquo;2020&amp;rdquo;)&lt;/li>
+&lt;li>VENUE is a lowercased, alphanumeric ([a-z0-9]+) identifier (e.g., &amp;ldquo;acl&amp;rdquo; or &amp;ldquo;repl4nlp&amp;rdquo;)&lt;/li>
+&lt;li>VOLUME is a volume name (e.g., &amp;ldquo;1&amp;rdquo; or &amp;ldquo;long&amp;rdquo;)&lt;/li>
+&lt;li>NUMBER is a paper number&lt;/li>
+&lt;/ul>
+&lt;p>An example is &lt;code>2020.acl-1.12&lt;/code> for the twelth paper in the first volume.
+Its canonical page can be accessed at &lt;a href="https://aclanthology.org/2020.acl-main.12">https://aclanthology.org/2020.acl-main.12&lt;/a>.&lt;/p></description></item><item><title>Announcements and blog posts</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/posts/</link><pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/posts/</guid><description>&lt;p>Blog posts and other kinds of announcements have been moved &lt;a href="../../posts">here&lt;/a>.&lt;/p></description></item><item><title>Requesting Corrections</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/corrections/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/corrections/</guid><description>&lt;h3 id="types-of-corrections">Types of corrections&lt;/h3>
+&lt;p>The staff of the ACL Anthology can process requests for many types of corrections.
+We generally distinguish five types, loosely following the &lt;a href="https://www.acm.org/publications/policies/">ACM Publications Policy&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>Corrections to &lt;strong>metadata&lt;/strong> do not require changing the PDF.
+Examples include correcting the spelling of a name or the title.
+These kinds of corrections are typically made to bring the metadata in line with what is on the PDF, which is taken to be authoritative.
+If changes to the metadata also require a change to the PDF (e.g., changing an author&amp;rsquo;s name), a revision must also be supplied.&lt;/li>
+&lt;li>An &lt;strong>erratum&lt;/strong> clarifies errors made in the original scholarly work.
+Usually these are just short notes, corrective statements, or changes to equations or other problems in the original, which need to be read alongside the original work.&lt;/li>
+&lt;li>A &lt;strong>revision&lt;/strong> is a versioned replacement of the original scholarly work.
+This format allows a corrected paper to be read in place of the original scholarly work, and typically does not highlight the original&amp;rsquo;s errors.&lt;/li>
+&lt;li>A &lt;strong>retraction&lt;/strong> occurs when serious, unrecoverable errors are discovered, which drastically affect the findings of the original work.&lt;/li>
+&lt;li>A &lt;strong>removal&lt;/strong> occurs in rare circumstances where serious ethical or legal issues arise, such as plagiarism.&lt;/li>
+&lt;/ul>
+&lt;p>Please take note of the following points regarding revisions and retractions.&lt;/p></description></item><item><title>Information for Submitters</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/contrib/</link><pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/contrib/</guid><description>&lt;p>This page contains general information about submitting the proceedings of a conference to the ACL Anthology.
+(For information about the complete conference management process, particularly for ACL conference publications chairs, please refer to &lt;a href="https://acl-org.github.io/ACLPUB/">the official documentation&lt;/a>.)
+It is intended for publication chairs of main conferences and standalone events, who have the responsibility of delivering the proceedings for all main conference and workshop volumes to the Anthology director.
+&lt;strong>Chairs of workshops&lt;/strong> attached to a larger conference should also read this page, but should work through their main conference publication chair instead of directly with the Anthology.&lt;/p></description></item><item><title>Anthology development and API</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/development/</link><pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/development/</guid><description>&lt;h3 id="api">API&lt;/h3>
+&lt;p>All Anthology data is stored under &lt;a href="https://github.com/acl-org/acl-anthology/tree/master/data">the data directory&lt;/a>.
+In the &lt;code>xml&lt;/code> directory are the files that contain all the Anthology metadata, in a format described below.
+The &lt;code>yaml&lt;/code> directory contains various other important information.&lt;/p>
+&lt;p>In addition, we have a Python API that defines objects for papers, authors, volumes, and so on.
+This is all accessible by an &lt;code>Anthology&lt;/code> object that can be access in the following manner.
+First, clone &lt;a href="https://github.com/acl-org/acl-anthology">the Anthology Github repo&lt;/a> and setup your environment:&lt;/p></description></item><item><title>Credits</title><link>https://gwf-uwaterloo.github.io/gwf-publications/info/credits/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gwf-uwaterloo.github.io/gwf-publications/info/credits/</guid><description>&lt;p>The ACL Anthology is largely a volunteer-run organization.
+We are grateful to all our contributors whose work makes this collection of scholarly papers freely available to all.&lt;/p>
+&lt;h3 id="active-volunteers">Active Volunteers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Indexing Lead&lt;/strong>: &lt;a href="https://lt3.ugent.be/people/as-dogruoz/">A. Seza Doğruöz&lt;/a> (Universiteit Gent)&lt;/li>
+&lt;li>&lt;strong>Site Development Lead&lt;/strong>: &lt;a href="https://marcel.bollmann.me/">Marcel Bollmann&lt;/a> (Jönköping University)&lt;/li>
+&lt;li>&lt;a href="https://www3.nd.edu/~dchiang/">David Chiang&lt;/a> (University of Notre Dame)&lt;/li>
+&lt;li>&lt;a href="https://arne.chark.eu">Arne Köhn&lt;/a> (New Work SE)&lt;/li>
+&lt;li>&lt;a href="https://www.cs.rochester.edu/u/gildea/">Daniel Gildea&lt;/a> (University of Rochester)&lt;/li>
+&lt;li>&lt;a href="https://wwwtcs.inf.tu-dresden.de/~kilian/">Kilian Gebhardt&lt;/a> (TU Dresden)&lt;/li>
+&lt;li>&lt;a href="http://people.cs.georgetown.edu/nschneid/">Nathan Schneider&lt;/a> (Georgetown University)&lt;/li>
+&lt;li>&lt;a href="https://marc.schulder.info/">Marc Schulder&lt;/a> (Institute for German Sign Language, Hamburg University)&lt;/li>
+&lt;/ul>
+&lt;h3 id="past-volunteers">Past Volunteers&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://wing.comp.nus.edu.sg/~animesh/">Animesh Prasad&lt;/a> (National University of Singapore)&lt;/li>
+&lt;li>&lt;a href="https://www.cs.sfu.ca/~anoop/">Anoop Sarkar&lt;/a> (Simon Fraser University)&lt;/li>
+&lt;li>&lt;a href="https://www.microsoft.com/en-us/research/people/chrife/">Christian Federmann&lt;/a> (Microsoft Research)&lt;/li>
+&lt;li>&lt;a href="https://www.cteichmann.com/">Christoph Teichmann&lt;/a> (Bloomberg LLC)&lt;/li>
+&lt;li>&lt;a href="https://sg.linkedin.com/in/linhhienng">Hien Linh Nguyen&lt;/a> (Facebook Singapore)&lt;/li>
+&lt;li>&lt;a href="https://desilinguist.org/">Nitin Madnani&lt;/a> (Educational Testing Services)&lt;/li>
+&lt;li>&lt;a href="http://www.coli.uni-saarland.de/~villalba/">Martín Villalba&lt;/a> (Saarland University)&lt;/li>
+&lt;li>&lt;a href="https://www.cl.cam.ac.uk/~sht25/">Simone Teufel&lt;/a> (Cambridge)&lt;/li>
+&lt;li>&lt;a href="http://www.cs.jhu.edu/~taochen/">Tao Chen&lt;/a> (Google)&lt;/li>
+&lt;li>Namratha Urs (University of North Texas)&lt;/li>
+&lt;li>&lt;a href="http://www.lichenliang.net/">Chenliang Li&lt;/a> (Wuhan University)&lt;/li>
+&lt;li>Authors of anthology introductions: John Nerbonne, Julia Hirschberg, Donia Scott, Diane Litman, Sergei Nirenburg, Karen Spärck Jones, and Aravind Joshi.&lt;/li>
+&lt;/ul>
+&lt;h3 id="directors">Directors&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="http://waypost.net/">Matt Post&lt;/a> (2019–)&lt;/li>
+&lt;li>&lt;a href="http://www.comp.nus.edu.sg/~kanmy/">Min-Yen Kan&lt;/a> (2008–2018)&lt;/li>
+&lt;li>&lt;a href="http://stevenbird.net/">Steven Bird&lt;/a> (2001–2007)&lt;/li>
+&lt;li>Eduard Hovy, John Nerbonne, Mike Rosner, Nicoletta Calzolari and Doug Arnold (Past Associate Editors)&lt;/li>
+&lt;/ul>
+&lt;h3 id="assistants">Assistants&lt;/h3>
+&lt;ul>
+&lt;li>Xinru Yan (2020–)&lt;/li>
+&lt;li>&lt;a href="https://davidstap.github.io">David Stap&lt;/a> (2020–)&lt;/li>
+&lt;/ul>
+&lt;h3 id="donors">Donors&lt;/h3>
+&lt;p>We are indebted to the following individuals who generously supplied copies of out-of-print volumes for destructive scanning. Thank you!&lt;/p></description></item></channel></rss>

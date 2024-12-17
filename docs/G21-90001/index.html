@@ -1,98 +1,191 @@
 <!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands - GWF Publications</title>
-<meta name=generator content="Hugo 0.124.1"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands" name=citation_title><meta content="Jeremy Irvin" name=citation_author><meta content="Sharon Zhou" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Fred Lu" name=citation_author><meta content="Vincent Liu" name=citation_author><meta content="Etienne Fluet‐Chouinard" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Anand Avati" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Eugénie Euskirchen" name=citation_author><meta content="Sarah Féron" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Andrew Kondrich" name=citation_author><meta content="Derrick Y.F. Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="Andrew Y. Ng" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Camilo Rey‐Sánchez" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Karina V. R. Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Ellen Stuart-Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Ma. Carmelita R. Alberto" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="Han Dolman" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Kathrin Fuchs" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Kuno Kasak" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Timothy H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Kaori Ono" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Robert Shortt" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Daphne Szutu" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joeseph G. Verfaillie" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Lisamarie Windham‐Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Agricultural and Forest Meteorology, Volume 308-309" name=citation_journal_title><meta content="308" name=citation_volume><meta content="2021" name=citation_publication_date><meta content="https://www.doi.org/10.1016/j.agrformet.2021.108528" name=citation_pdf_url><meta content="10.1016/j.agrformet.2021.108528" name=citation_doi><meta property="og:title" content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-90001"><meta property="og:description" content="Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, David I. Campbell, Jiquan Chen, Housen Chu, Higo J. Dalmagro, Kyle Delwiche, Ankur R. Desai, Eugénie Euskirchen, Sarah Féron, Mathias Goeckede, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S. Hemes, Takashi Hirano, Hiroyasu Iwata, Gerald Jurasinski, Aram Kalhori, Andrew Kondrich, Derrick Y.F. Lai, Annalea Lohila, Avni Malhotra, Lutz Merbold, Bhaskar Mitra, Andrew Y. Ng, Mats Nilsson, Asko Noormets, Matthias Peichl, Camilo Rey‐Sánchez, Andrew D. Richardson, Benjamin R. K. Runkle, Karina V. R. Schäfer, Oliver Sonnentag, Ellen Stuart-Haëntjens, Cove Sturtevant, Masahito Ueyama, Alex Valach, Rodrigo Vargas, George L. Vourlitis, Eric J. Ward, Guan Xhuan Wong, Donatella Zona, Ma. Carmelita R. Alberto, David P. Billesbach, Gerardo Celis, Han Dolman, Thomas Friborg, Kathrin Fuchs, Sébastien Gogo, Mangaliso J. Gondwe, Jordan P. Goodrich, Pia Gottschalk, Lukas Hörtnagl, Adrien Jacotot, Franziska Koebsch, Kuno Kasak, Regine Maier, Timothy H. Morin, Eiko Nemitz, Walter C. Oechel, Patricia Y. Oikawa, Kaori Ono, Torsten Sachs, Ayaka Sakabe, Edward A. G. Schuur, Robert Shortt, Ryan C. Sullivan, Daphne Szutu, Eeva‐Stiina Tuittila, Andrej Varlagin, Joeseph G. Verfaillie, Christian Wille, Lisamarie Windham‐Myers, Benjamin Poulter, Robert B. Jackson. Agricultural and Forest Meteorology, Volume 308-309. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
-</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a></h2><p class=lead><a href=/gwf-publications/people/J/Jeremy-Irvin/ data-uni=uni0086>Jeremy Irvin</a>,
-<a href=/gwf-publications/people/S/Sharon-Zhou/ data-uni=uni1031>Sharon Zhou</a>,
-<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0177>Gavin McNicol</a>,
-<a href=/gwf-publications/people/F/Fred-Lu/ data-uni=uni0497>Fred Lu</a>,
-<a href=/gwf-publications/people/V/Vincent-Liu/ data-uni=uni0086>Vincent Liu</a>,
-<a href=/gwf-publications/people/E/Etienne-FluetChouinard/ data-uni=uni0090>Etienne Fluet‐Chouinard</a>,
-<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0220>Zutao Ouyang</a>,
-<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0017>Sara Knox</a>,
-<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/ data-uni=uni0450>Antje Lucas-Moffat</a>,
-<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0129>Carlo Trotta</a>,
-<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0037>Dario Papale</a>,
-<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0204>Domenico Vitale</a>,
-<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0038>Ivan Mammarella</a>,
-<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0068>Pavel Alekseychik</a>,
-<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0020>Mika Aurela</a>,
-<a href=/gwf-publications/people/A/Anand-Avati/ data-uni=uni0086>Anand Avati</a>,
-<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0030>Dennis Baldocchi</a>,
-<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0046>Sheel Bansal</a>,
-<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0087>Gil Bohrer</a>,
-<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0164>David I. Campbell</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0016>Jiquan Chen</a>,
-<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0026>Housen Chu</a>,
-<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=uni0589>Higo J. Dalmagro</a>,
-<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0030>Kyle Delwiche</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0095>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-Euskirchen/ data-uni=uni0021>Eugénie Euskirchen</a>,
-<a href=/gwf-publications/people/S/Sarah-F%C3%A9ron/ data-uni=uni0502>Sarah Féron</a>,
-<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0032>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/M/Martin-Heimann/ data-uni=uni0032>Martin Heimann</a>,
-<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0045>Manuel Helbig</a>,
-<a href=/gwf-publications/people/C/Carole-Helfter/ data-uni=uni0062>Carole Helfter</a>,
-<a href=/gwf-publications/people/K/Kyle-S-Hemes/ data-uni=uni0597>Kyle S. Hemes</a>,
-<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0126>Takashi Hirano</a>,
-<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0141>Hiroyasu Iwata</a>,
-<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0333>Gerald Jurasinski</a>,
-<a href=/gwf-publications/people/A/Aram-Kalhori/ data-uni=uni0034>Aram Kalhori</a>,
-<a href=/gwf-publications/people/A/Andrew-Kondrich/ data-uni=uni0086>Andrew Kondrich</a>,
-<a href=/gwf-publications/people/D/Derrick-YF-Lai/ data-uni=uni0219>Derrick Y.F. Lai</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0020>Annalea Lohila</a>,
-<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0090>Avni Malhotra</a>,
-<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0250>Lutz Merbold</a>,
-<a href=/gwf-publications/people/B/Bhaskar-Mitra/ data-uni=uni0015>Bhaskar Mitra</a>,
-<a href=/gwf-publications/people/A/Andrew-Y-Ng/ data-uni=uni0086>Andrew Y. Ng</a>,
-<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0023>Mats Nilsson</a>,
-<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0158>Asko Noormets</a>,
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands" name=citation_title><meta content="Jeremy Irvin" name=citation_author><meta content="Sharon Zhou" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Fred Lu" name=citation_author><meta content="Vincent Liu" name=citation_author><meta content="Etienne Fluet‐Chouinard" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Anand Avati" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="Sarah Féron" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Andrew Kondrich" name=citation_author><meta content="Derrick Y.F. Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="Andrew Y. Ng" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Camilo Rey‐Sánchez" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Karina VR Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Ellen Stuart‐Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Ma. Carmelita Alberto" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Kathrin Fuchs" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Kuno Kasak" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Timothy H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Robert Shortt" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Daphne Szutu" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joeseph G Verfaillie" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="L. Windham‐Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Jeremy Irvin" name=citation_author><meta content="Sharon Zhou" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Fred Lu" name=citation_author><meta content="Vincent Liu" name=citation_author><meta content="Etienne Fluet‐Chouinard" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Antje Lucas-Moffat" name=citation_author><meta content="Carlo Trotta" name=citation_author><meta content="Dario Papale" name=citation_author><meta content="Domenico Vitale" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="Anand Avati" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Higo J. Dalmagro" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="Sarah Féron" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Martin Heimann" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Carole Helfter" name=citation_author><meta content="Kyle S. Hemes" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Aram Kalhori" name=citation_author><meta content="Andrew Kondrich" name=citation_author><meta content="Derrick Y.F. Lai" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Lutz Merbold" name=citation_author><meta content="Bhaskar Mitra" name=citation_author><meta content="Andrew Y. Ng" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Camilo Rey‐Sánchez" name=citation_author><meta content="Andrew D. Richardson" name=citation_author><meta content="Benjamin R. K. Runkle" name=citation_author><meta content="Karina VR Schäfer" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Ellen Stuart‐Haëntjens" name=citation_author><meta content="Cove Sturtevant" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Alex Valach" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="George L. Vourlitis" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Ma. Carmelita Alberto" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="Gerardo Celis" name=citation_author><meta content="A. J. Dolman" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Kathrin Fuchs" name=citation_author><meta content="Sébastien Gogo" name=citation_author><meta content="Mangaliso J. Gondwe" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Pia Gottschalk" name=citation_author><meta content="Lukas Hörtnagl" name=citation_author><meta content="Adrien Jacotot" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Kuno Kasak" name=citation_author><meta content="Regine Maier" name=citation_author><meta content="Timothy H. Morin" name=citation_author><meta content="Eiko Nemitz" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Patricia Y. Oikawa" name=citation_author><meta content="Keisuke Ono" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Edward A. G. Schuur" name=citation_author><meta content="Robert Shortt" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Daphne Szutu" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Andrej Varlagin" name=citation_author><meta content="Joeseph G Verfaillie" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="L. Windham‐Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Agricultural and Forest Meteorology, Volume 308-309" name=citation_journal_title><meta content="308" name=citation_volume><meta content="2021" name=citation_publication_date><meta content="https://www.doi.org/10.1016/j.agrformet.2021.108528" name=citation_pdf_url><meta content="10.1016/j.agrformet.2021.108528" name=citation_doi><meta property="og:title" content="Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G21-90001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G21-90001"><meta property="og:description" content="Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, David I. Campbell, Jiquan Chen, Housen Chu, Higo J. Dalmagro, Kyle Delwiche, Ankur R. Desai, E. S. Euskirchen, Sarah Féron, Mathias Goeckede, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S. Hemes, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, Aram Kalhori, Andrew Kondrich, Derrick Y.F. Lai, Annalea Lohila, Avni Malhotra, Lutz Merbold, Bhaskar Mitra, Andrew Y. Ng, Mats B. Nilsson, Asko Noormets, Matthias Peichl, Camilo Rey‐Sánchez, Andrew D. Richardson, Benjamin R. K. Runkle, Karina VR Schäfer, Oliver Sonnentag, Ellen Stuart‐Haëntjens, Cove Sturtevant, Masahito Ueyama, Alex Valach, Rodrigo Vargas, George L. Vourlitis, Eric J. Ward, Guan Xhuan Wong, Donatella Zona, Ma. Carmelita Alberto, David P. Billesbach, Gerardo Celis, A. J. Dolman, Thomas Friborg, Kathrin Fuchs, Sébastien Gogo, Mangaliso J. Gondwe, Jordan P. Goodrich, Pia Gottschalk, Lukas Hörtnagl, Adrien Jacotot, Franziska Koebsch, Kuno Kasak, Regine Maier, Timothy H. Morin, Eiko Nemitz, Walter C. Oechel, Patricia Y. Oikawa, Keisuke Ono, Torsten Sachs, Ayaka Sakabe, Edward A. G. Schuur, Robert Shortt, Ryan C. Sullivan, Daphne Szutu, Eeva‐Stiina Tuittila, Andrej Varlagin, Joeseph G Verfaillie, Christian Wille, L. Windham‐Myers, Benjamin Poulter, Robert B. Jackson, Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, David I. Campbell, Jiquan Chen, Housen Chu, Higo J. Dalmagro, Kyle Delwiche, Ankur R. Desai, E. S. Euskirchen, Sarah Féron, Mathias Goeckede, Martin Heimann, Manuel Helbig, Carole Helfter, Kyle S. Hemes, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, Aram Kalhori, Andrew Kondrich, Derrick Y.F. Lai, Annalea Lohila, Avni Malhotra, Lutz Merbold, Bhaskar Mitra, Andrew Y. Ng, Mats B. Nilsson, Asko Noormets, Matthias Peichl, Camilo Rey‐Sánchez, Andrew D. Richardson, Benjamin R. K. Runkle, Karina VR Schäfer, Oliver Sonnentag, Ellen Stuart‐Haëntjens, Cove Sturtevant, Masahito Ueyama, Alex Valach, Rodrigo Vargas, George L. Vourlitis, Eric J. Ward, Guan Xhuan Wong, Donatella Zona, Ma. Carmelita Alberto, David P. Billesbach, Gerardo Celis, A. J. Dolman, Thomas Friborg, Kathrin Fuchs, Sébastien Gogo, Mangaliso J. Gondwe, Jordan P. Goodrich, Pia Gottschalk, Lukas Hörtnagl, Adrien Jacotot, Franziska Koebsch, Kuno Kasak, Regine Maier, Timothy H. Morin, Eiko Nemitz, Walter C. Oechel, Patricia Y. Oikawa, Keisuke Ono, Torsten Sachs, Ayaka Sakabe, Edward A. G. Schuur, Robert Shortt, Ryan C. Sullivan, Daphne Szutu, Eeva‐Stiina Tuittila, Andrej Varlagin, Joeseph G Verfaillie, Christian Wille, L. Windham‐Myers, Benjamin Poulter, Robert B. Jackson. Agricultural and Forest Meteorology, Volume 308-309. 2021."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G21-90001>Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands</a></h2><p class=lead><a href=/gwf-publications/people/J/Jeremy-Irvin/ data-uni=uni0072>Jeremy Irvin</a>,
+<a href=/gwf-publications/people/S/Sharon-Zhou/ data-uni=uni0072>Sharon Zhou</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0103>Gavin McNicol</a>,
+<a href=/gwf-publications/people/F/Fred-Lu/ data-uni=uni0656>Fred Lu</a>,
+<a href=/gwf-publications/people/V/Vincent-Liu/ data-uni=uni0072>Vincent Liu</a>,
+<a href=/gwf-publications/people/E/Etienne-FluetChouinard/ data-uni=uni0067>Etienne Fluet‐Chouinard</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0200>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0013>Sara Knox</a>,
+<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/ data-uni=uni0440>Antje Lucas-Moffat</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0112>Carlo Trotta</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0071>Dario Papale</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0193>Domenico Vitale</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0025>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0064>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
+<a href=/gwf-publications/people/A/Anand-Avati/ data-uni=uni0072>Anand Avati</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0038>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0024>Sheel Bansal</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0061>Gil Bohrer</a>,
+<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0239>David I. Campbell</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0054>Jiquan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0012>Housen Chu</a>,
+<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=uni0441>Higo J. Dalmagro</a>,
+<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0038>Kyle Delwiche</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0046>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/E/E-S-Euskirchen/ data-uni=uni0010>E. S. Euskirchen</a>,
+<a href=/gwf-publications/people/S/Sarah-F%C3%A9ron/ data-uni=uni0357>Sarah Féron</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0037>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/M/Martin-Heimann/ data-uni=uni0025>Martin Heimann</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0017>Manuel Helbig</a>,
+<a href=/gwf-publications/people/C/Carole-Helfter/ data-uni=uni0065>Carole Helfter</a>,
+<a href=/gwf-publications/people/K/Kyle-S-Hemes/ data-uni=uni0435>Kyle S. Hemes</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0122>Takashi Hirano</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni0118>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0255>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/A/Aram-Kalhori/ data-uni=uni0017>Aram Kalhori</a>,
+<a href=/gwf-publications/people/A/Andrew-Kondrich/ data-uni=uni0072>Andrew Kondrich</a>,
+<a href=/gwf-publications/people/D/Derrick-YF-Lai/ data-uni=uni0444>Derrick Y.F. Lai</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0067>Avni Malhotra</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0130>Lutz Merbold</a>,
+<a href=/gwf-publications/people/B/Bhaskar-Mitra/ data-uni=uni0016>Bhaskar Mitra</a>,
+<a href=/gwf-publications/people/A/Andrew-Y-Ng/ data-uni=uni0072>Andrew Y. Ng</a>,
+<a href=/gwf-publications/people/M/Mats-B-Nilsson/ data-uni=uni0023>Mats B. Nilsson</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0099>Asko Noormets</a>,
 <a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0023>Matthias Peichl</a>,
-<a href=/gwf-publications/people/C/Camilo-ReyS%C3%A1nchez/ data-uni=uni0136>Camilo Rey‐Sánchez</a>,
-<a href=/gwf-publications/people/A/Andrew-D-Richardson/ data-uni=uni0015>Andrew D. Richardson</a>,
-<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0108>Benjamin R. K. Runkle</a>,
-<a href=/gwf-publications/people/K/Karina-V-R-Sch%C3%A4fer/ data-uni=uni0397>Karina V. R. Schäfer</a>,
+<a href=/gwf-publications/people/C/Camilo-ReyS%C3%A1nchez/ data-uni=uni0121>Camilo Rey‐Sánchez</a>,
+<a href=/gwf-publications/people/A/Andrew-D-Richardson/ data-uni=uni0016>Andrew D. Richardson</a>,
+<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0082>Benjamin R. K. Runkle</a>,
+<a href=/gwf-publications/people/K/Karina-VR-Sch%C3%A4fer/ data-uni=uni0563>Karina VR Schäfer</a>,
 <a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0008>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/E/Ellen-Stuart-Ha%C3%ABntjens/ data-uni=uni0185>Ellen Stuart-Haëntjens</a>,
-<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0278>Cove Sturtevant</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0094>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/A/Alex-Valach/ data-uni=uni0487>Alex Valach</a>,
-<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0322>Rodrigo Vargas</a>,
-<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=uni0605>George L. Vourlitis</a>,
-<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0228>Eric J. Ward</a>,
-<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0126>Guan Xhuan Wong</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0042>Donatella Zona</a>,
-<a href=/gwf-publications/people/M/Ma-Carmelita-R-Alberto/ data-uni=uni0753>Ma. Carmelita R. Alberto</a>,
-<a href=/gwf-publications/people/D/David-P-Billesbach/ data-uni=uni0065>David P. Billesbach</a>,
-<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0108>Gerardo Celis</a>,
-<a href=/gwf-publications/people/H/Han-Dolman/ data-uni=uni0234>Han Dolman</a>,
-<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0060>Thomas Friborg</a>,
-<a href=/gwf-publications/people/K/Kathrin-Fuchs/ data-uni=uni0088>Kathrin Fuchs</a>,
-<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ data-uni=uni0307>Sébastien Gogo</a>,
-<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/ data-uni=uni0781>Mangaliso J. Gondwe</a>,
-<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0164>Jordan P. Goodrich</a>,
-<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=uni0034>Pia Gottschalk</a>,
-<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0035>Lukas Hörtnagl</a>,
-<a href=/gwf-publications/people/A/Adrien-Jacotot/ data-uni=uni0433>Adrien Jacotot</a>,
-<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0091>Franziska Koebsch</a>,
-<a href=/gwf-publications/people/K/Kuno-Kasak/ data-uni=uni0419>Kuno Kasak</a>,
-<a href=/gwf-publications/people/R/Regine-Maier/ data-uni=uni0035>Regine Maier</a>,
-<a href=/gwf-publications/people/T/Timothy-H-Morin/ data-uni=uni0083>Timothy H. Morin</a>,
-<a href=/gwf-publications/people/E/Eiko-Nemitz/ data-uni=uni0062>Eiko Nemitz</a>,
-<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0042>Walter C. Oechel</a>,
-<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/ data-uni=uni0625>Patricia Y. Oikawa</a>,
-<a href=/gwf-publications/people/K/Kaori-Ono/ data-uni=uni0623>Kaori Ono</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0034>Torsten Sachs</a>,
-<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0445>Ayaka Sakabe</a>,
-<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0015>Edward A. G. Schuur</a>,
-<a href=/gwf-publications/people/R/Robert-Shortt/ data-uni=uni0030>Robert Shortt</a>,
-<a href=/gwf-publications/people/R/Ryan-C-Sullivan/ data-uni=uni0162>Ryan C. Sullivan</a>,
-<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0030>Daphne Szutu</a>,
-<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0061>Eeva‐Stiina Tuittila</a>,
-<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0069>Andrej Varlagin</a>,
-<a href=/gwf-publications/people/J/Joeseph-G-Verfaillie/ data-uni=uni0000>Joeseph G. Verfaillie</a>,
-<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni0314>Christian Wille</a>,
-<a href=/gwf-publications/people/L/Lisamarie-WindhamMyers/ data-uni=uni0404>Lisamarie Windham‐Myers</a>,
-<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0063>Benjamin Poulter</a>,
-<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0086>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>• We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands • New methods for generating realistic artificial gaps and uncertainties are proposed • Decision tree algorithms perform slightly better than neural networks on average • Soil temperature and generic seasonality are the most important predictors • Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, et al.. 2021. Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands. <i>Agricultural and Forest Meteorology, Volume 308-309</i>, 308:108528.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/E/Ellen-StuartHa%C3%ABntjens/ data-uni=uni0024>Ellen Stuart‐Haëntjens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0206>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/Alex-Valach/ data-uni=uni0384>Alex Valach</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0204>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=uni0442>George L. Vourlitis</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0024>Eric J. Ward</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0018>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0070>Donatella Zona</a>,
+<a href=/gwf-publications/people/M/Ma-Carmelita-Alberto/ data-uni=uni0628>Ma. Carmelita Alberto</a>,
+<a href=/gwf-publications/people/D/David-P-Billesbach/ data-uni=uni0041>David P. Billesbach</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0082>Gerardo Celis</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0047>A. J. Dolman</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0271>Thomas Friborg</a>,
+<a href=/gwf-publications/people/K/Kathrin-Fuchs/ data-uni=uni0086>Kathrin Fuchs</a>,
+<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ data-uni=uni0299>Sébastien Gogo</a>,
+<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/ data-uni=uni0630>Mangaliso J. Gondwe</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0270>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=uni0017>Pia Gottschalk</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0036>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/A/Adrien-Jacotot/ data-uni=uni0150>Adrien Jacotot</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0081>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/K/Kuno-Kasak/ data-uni=uni0365>Kuno Kasak</a>,
+<a href=/gwf-publications/people/R/Regine-Maier/ data-uni=uni0036>Regine Maier</a>,
+<a href=/gwf-publications/people/T/Timothy-H-Morin/ data-uni=uni0631>Timothy H. Morin</a>,
+<a href=/gwf-publications/people/E/Eiko-Nemitz/ data-uni=uni0065>Eiko Nemitz</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0053>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/ data-uni=uni0446>Patricia Y. Oikawa</a>,
+<a href=/gwf-publications/people/K/Keisuke-Ono/ data-uni=uni0443>Keisuke Ono</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0017>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0306>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0016>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/R/Robert-Shortt/ data-uni=uni0038>Robert Shortt</a>,
+<a href=/gwf-publications/people/R/Ryan-C-Sullivan/ data-uni=uni0164>Ryan C. Sullivan</a>,
+<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0038>Daphne Szutu</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0044>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0084>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/J/Joeseph-G-Verfaillie/ data-uni=uni0018>Joeseph G Verfaillie</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni0017>Christian Wille</a>,
+<a href=/gwf-publications/people/L/L-WindhamMyers/ data-uni=uni0024>L. Windham‐Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0042>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0072>Robert B. Jackson</a>,
+<a href=/gwf-publications/people/J/Jeremy-Irvin/ data-uni=uni0072>Jeremy Irvin</a>,
+<a href=/gwf-publications/people/S/Sharon-Zhou/ data-uni=uni0072>Sharon Zhou</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0103>Gavin McNicol</a>,
+<a href=/gwf-publications/people/F/Fred-Lu/ data-uni=uni0656>Fred Lu</a>,
+<a href=/gwf-publications/people/V/Vincent-Liu/ data-uni=uni0072>Vincent Liu</a>,
+<a href=/gwf-publications/people/E/Etienne-FluetChouinard/ data-uni=uni0067>Etienne Fluet‐Chouinard</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0200>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0013>Sara Knox</a>,
+<a href=/gwf-publications/people/A/Antje-Lucas-Moffat/ data-uni=uni0440>Antje Lucas-Moffat</a>,
+<a href=/gwf-publications/people/C/Carlo-Trotta/ data-uni=uni0112>Carlo Trotta</a>,
+<a href=/gwf-publications/people/D/Dario-Papale/ data-uni=uni0071>Dario Papale</a>,
+<a href=/gwf-publications/people/D/Domenico-Vitale/ data-uni=uni0193>Domenico Vitale</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0025>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0064>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
+<a href=/gwf-publications/people/A/Anand-Avati/ data-uni=uni0072>Anand Avati</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0038>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0024>Sheel Bansal</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0061>Gil Bohrer</a>,
+<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0239>David I. Campbell</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0054>Jiquan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0012>Housen Chu</a>,
+<a href=/gwf-publications/people/H/Higo-J-Dalmagro/ data-uni=uni0441>Higo J. Dalmagro</a>,
+<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0038>Kyle Delwiche</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0046>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/E/E-S-Euskirchen/ data-uni=uni0010>E. S. Euskirchen</a>,
+<a href=/gwf-publications/people/S/Sarah-F%C3%A9ron/ data-uni=uni0357>Sarah Féron</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0037>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/M/Martin-Heimann/ data-uni=uni0025>Martin Heimann</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0017>Manuel Helbig</a>,
+<a href=/gwf-publications/people/C/Carole-Helfter/ data-uni=uni0065>Carole Helfter</a>,
+<a href=/gwf-publications/people/K/Kyle-S-Hemes/ data-uni=uni0435>Kyle S. Hemes</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0122>Takashi Hirano</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni0118>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0255>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/A/Aram-Kalhori/ data-uni=uni0017>Aram Kalhori</a>,
+<a href=/gwf-publications/people/A/Andrew-Kondrich/ data-uni=uni0072>Andrew Kondrich</a>,
+<a href=/gwf-publications/people/D/Derrick-YF-Lai/ data-uni=uni0444>Derrick Y.F. Lai</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0067>Avni Malhotra</a>,
+<a href=/gwf-publications/people/L/Lutz-Merbold/ data-uni=uni0130>Lutz Merbold</a>,
+<a href=/gwf-publications/people/B/Bhaskar-Mitra/ data-uni=uni0016>Bhaskar Mitra</a>,
+<a href=/gwf-publications/people/A/Andrew-Y-Ng/ data-uni=uni0072>Andrew Y. Ng</a>,
+<a href=/gwf-publications/people/M/Mats-B-Nilsson/ data-uni=uni0023>Mats B. Nilsson</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0099>Asko Noormets</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0023>Matthias Peichl</a>,
+<a href=/gwf-publications/people/C/Camilo-ReyS%C3%A1nchez/ data-uni=uni0121>Camilo Rey‐Sánchez</a>,
+<a href=/gwf-publications/people/A/Andrew-D-Richardson/ data-uni=uni0016>Andrew D. Richardson</a>,
+<a href=/gwf-publications/people/B/Benjamin-R-K-Runkle/ data-uni=uni0082>Benjamin R. K. Runkle</a>,
+<a href=/gwf-publications/people/K/Karina-VR-Sch%C3%A4fer/ data-uni=uni0563>Karina VR Schäfer</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0008>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/E/Ellen-StuartHa%C3%ABntjens/ data-uni=uni0024>Ellen Stuart‐Haëntjens</a>,
+<a href=/gwf-publications/people/C/Cove-Sturtevant/ data-uni=uni0206>Cove Sturtevant</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/A/Alex-Valach/ data-uni=uni0384>Alex Valach</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0204>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/G/George-L-Vourlitis/ data-uni=uni0442>George L. Vourlitis</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0024>Eric J. Ward</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0018>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0070>Donatella Zona</a>,
+<a href=/gwf-publications/people/M/Ma-Carmelita-Alberto/ data-uni=uni0628>Ma. Carmelita Alberto</a>,
+<a href=/gwf-publications/people/D/David-P-Billesbach/ data-uni=uni0041>David P. Billesbach</a>,
+<a href=/gwf-publications/people/G/Gerardo-Celis/ data-uni=uni0082>Gerardo Celis</a>,
+<a href=/gwf-publications/people/A/A-J-Dolman/ data-uni=uni0047>A. J. Dolman</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0271>Thomas Friborg</a>,
+<a href=/gwf-publications/people/K/Kathrin-Fuchs/ data-uni=uni0086>Kathrin Fuchs</a>,
+<a href=/gwf-publications/people/S/S%C3%A9bastien-Gogo/ data-uni=uni0299>Sébastien Gogo</a>,
+<a href=/gwf-publications/people/M/Mangaliso-J-Gondwe/ data-uni=uni0630>Mangaliso J. Gondwe</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0270>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/P/Pia-Gottschalk/ data-uni=uni0017>Pia Gottschalk</a>,
+<a href=/gwf-publications/people/L/Lukas-H%C3%B6rtnagl/ data-uni=uni0036>Lukas Hörtnagl</a>,
+<a href=/gwf-publications/people/A/Adrien-Jacotot/ data-uni=uni0150>Adrien Jacotot</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0081>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/K/Kuno-Kasak/ data-uni=uni0365>Kuno Kasak</a>,
+<a href=/gwf-publications/people/R/Regine-Maier/ data-uni=uni0036>Regine Maier</a>,
+<a href=/gwf-publications/people/T/Timothy-H-Morin/ data-uni=uni0631>Timothy H. Morin</a>,
+<a href=/gwf-publications/people/E/Eiko-Nemitz/ data-uni=uni0065>Eiko Nemitz</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0053>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/P/Patricia-Y-Oikawa/ data-uni=uni0446>Patricia Y. Oikawa</a>,
+<a href=/gwf-publications/people/K/Keisuke-Ono/ data-uni=uni0443>Keisuke Ono</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0017>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0306>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/E/Edward-A-G-Schuur/ data-uni=uni0016>Edward A. G. Schuur</a>,
+<a href=/gwf-publications/people/R/Robert-Shortt/ data-uni=uni0038>Robert Shortt</a>,
+<a href=/gwf-publications/people/R/Ryan-C-Sullivan/ data-uni=uni0164>Ryan C. Sullivan</a>,
+<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0038>Daphne Szutu</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0044>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/A/Andrej-Varlagin/ data-uni=uni0084>Andrej Varlagin</a>,
+<a href=/gwf-publications/people/J/Joeseph-G-Verfaillie/ data-uni=uni0018>Joeseph G Verfaillie</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni0017>Christian Wille</a>,
+<a href=/gwf-publications/people/L/L-WindhamMyers/ data-uni=uni0024>L. Windham‐Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0042>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0072>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>• We evaluate methane flux gap-filling methods across 17 boreal-to-tropical wetlands • New methods for generating realistic artificial gaps and uncertainties are proposed • Decision tree algorithms perform slightly better than neural networks on average • Soil temperature and generic seasonality are the most important predictors • Open-source code is released for gap-filling steps and uncertainty evaluation Time series of wetland methane fluxes measured by eddy covariance require gap-filling to estimate daily, seasonal, and annual emissions. Gap-filling methane fluxes is challenging because of high variability and complex responses to multiple drivers. To date, there is no widely established gap-filling standard for wetland methane fluxes, with regards both to the best model algorithms and predictors. This study synthesizes results of different gap-filling methods systematically applied at 17 wetland sites spanning boreal to tropical regions and including all major wetland classes and two rice paddies. Procedures are proposed for: 1) creating realistic artificial gap scenarios, 2) training and evaluating gap-filling models without overstating performance, and 3) predicting half-hourly methane fluxes and annual emissions with realistic uncertainty estimates. Performance is compared between a conventional method (marginal distribution sampling) and four machine learning algorithms. The conventional method achieved similar median performance as the machine learning models but was worse than the best machine learning models and relatively insensitive to predictor choices. Of the machine learning models, decision tree algorithms performed the best in cross-validation experiments, even with a baseline predictor set, and artificial neural networks showed comparable performance when using all predictors. Soil temperature was frequently the most important predictor whilst water table depth was important at sites with substantial water table fluctuations, highlighting the value of data on wetland soil conditions. Raw gap-filling uncertainties from the machine learning models were underestimated and we propose a method to calibrate uncertainties to observations. The python code for model development, evaluation, and uncertainty estimation is publicly available. This study outlines a modular and robust machine learning workflow and makes recommendations for, and evaluates an improved baseline of, methane gap-filling models that can be implemented in multi-site syntheses or standardized products from regional and global flux networks (e.g., FLUXNET).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Jeremy Irvin, Sharon Zhou, Gavin McNicol, Fred Lu, Vincent Liu, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Antje Lucas-Moffat, Carlo Trotta, Dario Papale, Domenico Vitale, Ivan Mammarella, Pavel Alekseychik, Mika Aurela, Anand Avati, Dennis Baldocchi, Sheel Bansal, Gil Bohrer, et al.. 2021. Gap-filling eddy covariance methane fluxes: Comparison of machine learning model predictions and uncertainties at FLUXNET-CH4 wetlands. <i>Agricultural and Forest Meteorology, Volume 308-309</i>, 308:108528.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -125,7 +218,7 @@
       Dalmagro, Higo J.  and
       Delwiche, Kyle  and
       Desai, Ankur R.  and
-      Euskirchen, Eug{\&#39;e}nie  and
+      Euskirchen, E. S.  and
       F{\&#39;e}ron, Sarah  and
       Goeckede, Mathias  and
       Heimann, Martin  and
@@ -133,7 +226,7 @@
       Helfter, Carole  and
       Hemes, Kyle S.  and
       Hirano, Takashi  and
-      Iwata, Hiroyasu  and
+      Iwata, Hiroki  and
       Jurasinski, Gerald  and
       Kalhori, Aram  and
       Kondrich, Andrew  and
@@ -143,15 +236,15 @@
       Merbold, Lutz  and
       Mitra, Bhaskar  and
       Ng, Andrew Y.  and
-      Nilsson, Mats  and
+      Nilsson, Mats B.  and
       Noormets, Asko  and
       Peichl, Matthias  and
       Rey‐S{\&#39;a}nchez, Camilo  and
       Richardson, Andrew D.  and
       Runkle, Benjamin R. K.  and
-      Sch{\&#34;a}fer, Karina V. R.  and
+      Sch{\&#34;a}fer, Karina VR  and
       Sonnentag, Oliver  and
-      Stuart-Ha{\&#34;e}ntjens, Ellen  and
+      Stuart‐Ha{\&#34;e}ntjens, Ellen  and
       Sturtevant, Cove  and
       Ueyama, Masahito  and
       Valach, Alex  and
@@ -160,10 +253,10 @@
       Ward, Eric J.  and
       Wong, Guan Xhuan  and
       Zona, Donatella  and
-      Alberto, Ma. Carmelita R.  and
+      Alberto, Ma. Carmelita  and
       Billesbach, David P.  and
       Celis, Gerardo  and
-      Dolman, Han  and
+      Dolman, A. J.  and
       Friborg, Thomas  and
       Fuchs, Kathrin  and
       Gogo, S{\&#39;e}bastien  and
@@ -179,7 +272,7 @@
       Nemitz, Eiko  and
       Oechel, Walter C.  and
       Oikawa, Patricia Y.  and
-      Ono, Kaori  and
+      Ono, Keisuke  and
       Sachs, Torsten  and
       Sakabe, Ayaka  and
       Schuur, Edward A. G.  and
@@ -188,9 +281,102 @@
       Szutu, Daphne  and
       Tuittila, Eeva‐Stiina  and
       Varlagin, Andrej  and
-      Verfaillie, Joeseph G.  and
+      Verfaillie, Joeseph G  and
       Wille, Christian  and
-      Windham‐Myers, Lisamarie  and
+      Windham‐Myers, L.  and
+      Poulter, Benjamin  and
+      Jackson, Robert B.  and
+      Irvin, Jeremy  and
+      Zhou, Sharon  and
+      McNicol, Gavin  and
+      Lu, Fred  and
+      Liu, Vincent  and
+      Fluet‐Chouinard, Etienne  and
+      Ouyang, Zutao  and
+      Knox, Sara  and
+      Lucas-Moffat, Antje  and
+      Trotta, Carlo  and
+      Papale, Dario  and
+      Vitale, Domenico  and
+      Mammarella, Ivan  and
+      Alekseychik, Pavel  and
+      Aurela, Mika  and
+      Avati, Anand  and
+      Baldocchi, Dennis  and
+      Bansal, Sheel  and
+      Bohrer, Gil  and
+      Campbell, David I.  and
+      Chen, Jiquan  and
+      Chu, Housen  and
+      Dalmagro, Higo J.  and
+      Delwiche, Kyle  and
+      Desai, Ankur R.  and
+      Euskirchen, E. S.  and
+      F{\&#39;e}ron, Sarah  and
+      Goeckede, Mathias  and
+      Heimann, Martin  and
+      Helbig, Manuel  and
+      Helfter, Carole  and
+      Hemes, Kyle S.  and
+      Hirano, Takashi  and
+      Iwata, Hiroki  and
+      Jurasinski, Gerald  and
+      Kalhori, Aram  and
+      Kondrich, Andrew  and
+      Lai, Derrick Y.F.  and
+      Lohila, Annalea  and
+      Malhotra, Avni  and
+      Merbold, Lutz  and
+      Mitra, Bhaskar  and
+      Ng, Andrew Y.  and
+      Nilsson, Mats B.  and
+      Noormets, Asko  and
+      Peichl, Matthias  and
+      Rey‐S{\&#39;a}nchez, Camilo  and
+      Richardson, Andrew D.  and
+      Runkle, Benjamin R. K.  and
+      Sch{\&#34;a}fer, Karina VR  and
+      Sonnentag, Oliver  and
+      Stuart‐Ha{\&#34;e}ntjens, Ellen  and
+      Sturtevant, Cove  and
+      Ueyama, Masahito  and
+      Valach, Alex  and
+      Vargas, Rodrigo  and
+      Vourlitis, George L.  and
+      Ward, Eric J.  and
+      Wong, Guan Xhuan  and
+      Zona, Donatella  and
+      Alberto, Ma. Carmelita  and
+      Billesbach, David P.  and
+      Celis, Gerardo  and
+      Dolman, A. J.  and
+      Friborg, Thomas  and
+      Fuchs, Kathrin  and
+      Gogo, S{\&#39;e}bastien  and
+      Gondwe, Mangaliso J.  and
+      Goodrich, Jordan P.  and
+      Gottschalk, Pia  and
+      H{\&#34;o}rtnagl, Lukas  and
+      Jacotot, Adrien  and
+      Koebsch, Franziska  and
+      Kasak, Kuno  and
+      Maier, Regine  and
+      Morin, Timothy H.  and
+      Nemitz, Eiko  and
+      Oechel, Walter C.  and
+      Oikawa, Patricia Y.  and
+      Ono, Keisuke  and
+      Sachs, Torsten  and
+      Sakabe, Ayaka  and
+      Schuur, Edward A. G.  and
+      Shortt, Robert  and
+      Sullivan, Ryan C.  and
+      Szutu, Daphne  and
+      Tuittila, Eeva‐Stiina  and
+      Varlagin, Andrej  and
+      Verfaillie, Joeseph G  and
+      Wille, Christian  and
+      Windham‐Myers, L.  and
       Poulter, Benjamin  and
       Jackson, Robert B.},
     journal = &#34;Agricultural and Forest Meteorology, Volume 308-309&#34;,
@@ -388,7 +574,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -445,7 +632,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Hiroyasu&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hiroki&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Iwata&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -518,6 +705,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -563,8 +751,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Karina&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;V&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;VR&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Schäfer&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -579,7 +766,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Ellen&lt;/namePart&gt;
-        &lt;namePart type=&#34;family&#34;&gt;Stuart-Haëntjens&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Stuart‐Haëntjens&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
         &lt;/role&gt;
@@ -646,7 +833,6 @@
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Ma.&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;Carmelita&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Alberto&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -668,7 +854,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Han&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;A&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Dolman&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -785,7 +972,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Kaori&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Keisuke&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ono&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -866,7 +1053,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Lisamarie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Windham‐Myers&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -944,7 +1131,7 @@
 %A Dalmagro, Higo J.
 %A Delwiche, Kyle
 %A Desai, Ankur R.
-%A Euskirchen, Eugénie
+%A Euskirchen, E. S.
 %A Féron, Sarah
 %A Goeckede, Mathias
 %A Heimann, Martin
@@ -952,7 +1139,7 @@
 %A Helfter, Carole
 %A Hemes, Kyle S.
 %A Hirano, Takashi
-%A Iwata, Hiroyasu
+%A Iwata, Hiroki
 %A Jurasinski, Gerald
 %A Kalhori, Aram
 %A Kondrich, Andrew
@@ -962,15 +1149,15 @@
 %A Merbold, Lutz
 %A Mitra, Bhaskar
 %A Ng, Andrew Y.
-%A Nilsson, Mats
+%A Nilsson, Mats B.
 %A Noormets, Asko
 %A Peichl, Matthias
 %A Rey‐Sánchez, Camilo
 %A Richardson, Andrew D.
 %A Runkle, Benjamin R. K.
-%A Schäfer, Karina V. R.
+%A Schäfer, Karina VR
 %A Sonnentag, Oliver
-%A Stuart-Haëntjens, Ellen
+%A Stuart‐Haëntjens, Ellen
 %A Sturtevant, Cove
 %A Ueyama, Masahito
 %A Valach, Alex
@@ -979,10 +1166,10 @@
 %A Ward, Eric J.
 %A Wong, Guan Xhuan
 %A Zona, Donatella
-%A Alberto, Ma. Carmelita R.
+%A Alberto, Ma. Carmelita
 %A Billesbach, David P.
 %A Celis, Gerardo
-%A Dolman, Han
+%A Dolman, A. J.
 %A Friborg, Thomas
 %A Fuchs, Kathrin
 %A Gogo, Sébastien
@@ -998,7 +1185,7 @@
 %A Nemitz, Eiko
 %A Oechel, Walter C.
 %A Oikawa, Patricia Y.
-%A Ono, Kaori
+%A Ono, Keisuke
 %A Sachs, Torsten
 %A Sakabe, Ayaka
 %A Schuur, Edward A. G.
@@ -1009,7 +1196,7 @@
 %A Varlagin, Andrej
 %A Verfaillie, Joeseph G.
 %A Wille, Christian
-%A Windham‐Myers, Lisamarie
+%A Windham‐Myers, L.
 %A Poulter, Benjamin
 %A Jackson, Robert B.
 %J Agricultural and Forest Meteorology, Volume 308-309

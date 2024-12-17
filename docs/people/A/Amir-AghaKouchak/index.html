@@ -1,443 +1,495 @@
 <!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Amir AghaKouchak - GWF Publications</title>
-<meta name=generator content="Hugo 0.124.1"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
-</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><h2 id=title><span class=font-weight-normal>Amir</span> <span class=font-weight-bold>AghaKouchak</span></h2><hr><div class=row><div class=col-lg-9><h4>2022</h4><div data-prj=prj20><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1038/s41586-022-04917-5 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><h2 id=title><span class=font-weight-normal>Amir</span> <span class=font-weight-bold>AghaKouchak</span></h2><hr><div class=row><div class=col-lg-9><h4>2022</h4><div data-prj=prj31><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.5194/egusphere-egu22-1376 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-secondary align-middle mr-1" href=/G22-18010.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G22-18010 data-toggle=collapse aria-expanded=false aria-controls=abstract-G22-18010 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G22-18010/>A global investigation of CMIP6 simulated extreme precipitation beyond biases in means</a></strong><br><a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0014>Chandra Rupa Rajulapati</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a><br><a href=/gwf-publications/volumes/G22-18/ class=text-muted></a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G22-18010><div class="card-body p-3 small">&amp;lt;p&amp;gt;Climate models are the available tools to assess risks of extreme precipitation events due to climate change. Models simulating historical climate successfully are often reliable to simulate future climate. Here, we assess the performance of CMIP6 models in reproducing the observed annual maxima of daily precipitation (AMP) beyond the commonly used methods. This assessment takes three scales: (1) univariate comparison based on L-moments and relative difference measures; (2) bivariate comparison using Kernel densities of mean and L-variation, and of L-skewness and L-kurtosis, and (3) comparison of the entire distribution function using the Generalized Extreme Value () distribution coupled with a novel application of the Anderson-Darling Goodness-of-fit test. The results depict that 70% of simulations have mean and variation of AMP with a percentage difference within 10&amp;amp;#160;from the observations. Also, the statistical shape properties, defining the frequency and magnitude of AMP, of simulations match well with observations. However, biases are observed in the mean and variation bivariate properties. Several models perform well with the HadGEM3-GC31-MM model performing well in all three scales when compared to the ground-based Global Precipitation Climatology (GPCC) data. Finally, the study highlights biases of CMIP6 models in simulating extreme precipitation in the Arctic, Tropics, arid and semi-arid regions.&amp;lt;/p&amp;gt;</div></div><div data-prj=prj20><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1038/s41586-022-04917-5 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G22-174001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
-</a><a class="badge badge-info align-middle mr-1" href=#abstract-G22-174001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G22-174001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G22-174001/>The challenge of unprecedented floods and droughts in risk management</a></strong><br><a href=/gwf-publications/people/H/Heidi-Kreibich/ data-uni=uni0034>Heidi Kreibich</a>,
-<a href=/gwf-publications/people/A/Anne-F-Van-Loon/ data-uni=uni0072>Anne F. Van Loon</a>,
-<a href=/gwf-publications/people/K/Kai-Schr%C3%B6ter/ data-uni=uni1159>Kai Schröter</a>,
-<a href=/gwf-publications/people/P/Philip-J-Ward/ data-uni=uni0336>Philip J. Ward</a>,
-<a href=/gwf-publications/people/M/Maurizio-Mazzoleni/ data-uni=uni0072>Maurizio Mazzoleni</a>,
-<a href=/gwf-publications/people/N/N-Sairam/ data-uni=uni0034>N. Sairam</a>,
-<a href=/gwf-publications/people/G/Guta-Wakbulcho-Abeshu/ data-uni=uni0090>Guta Wakbulcho Abeshu</a>,
-<a href=/gwf-publications/people/S/Svetlana-Agafonova/ data-uni=uni0301>Svetlana Agafonova</a>,
-<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a>,
-<a href=/gwf-publications/people/H/Hafzullah-Aksoy/ data-uni=uni0863>Hafzullah Aksoy</a>,
-<a href=/gwf-publications/people/C/Camila-%C3%81lvarez-Garret%C3%B3n/ data-uni=uni0797>Camila Álvarez-Garretón</a>,
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G22-174001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G22-174001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G22-174001/>The challenge of unprecedented floods and droughts in risk management</a></strong><br><a href=/gwf-publications/people/H/Heidi-Kreibich/ data-uni=uni0017>Heidi Kreibich</a>,
+<a href=/gwf-publications/people/A/Anne-F-Van-Loon/ data-uni=uni0047>Anne F. Van Loon</a>,
+<a href=/gwf-publications/people/K/Kai-Schr%C3%B6ter/ data-uni=uni0696>Kai Schröter</a>,
+<a href=/gwf-publications/people/P/Philip-J-Ward/ data-uni=uni0047>Philip J. Ward</a>,
+<a href=/gwf-publications/people/M/Maurizio-Mazzoleni/ data-uni=uni0047>Maurizio Mazzoleni</a>,
+<a href=/gwf-publications/people/N/Nivedita-Sairam/ data-uni=uni0017>Nivedita Sairam</a>,
+<a href=/gwf-publications/people/G/Guta-Wakbulcho-Abeshu/ data-uni=uni0067>Guta Wakbulcho Abeshu</a>,
+<a href=/gwf-publications/people/%D0%A1/%D0%A1-%D0%90-%D0%90%D0%B3%D0%B0%D1%84%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ data-uni=uni1541>С. А. Агафонова</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/H/Hafzullah-Aksoy/ data-uni=uni1043>Hafzullah Aksoy</a>,
+<a href=/gwf-publications/people/C/Camila-%C3%81lvarez-Garret%C3%B3n/ data-uni=uni1542>Camila Álvarez-Garretón</a>,
 <a href=/gwf-publications/people/B/Blanca-Aznar/ data-uni=uni0000>Blanca Aznar</a>,
-<a href=/gwf-publications/people/L/Laila-Balkhi/ data-uni=uni0003>Laila Balkhi</a>,
-<a href=/gwf-publications/people/M/Marlies-Barendrecht/ data-uni=uni0072>Marlies Barendrecht</a>,
-<a href=/gwf-publications/people/S/Sylvain-Biancamaria/ data-uni=uni0911>Sylvain Biancamaria</a>,
-<a href=/gwf-publications/people/L/Liduin-Bos-Burgering/ data-uni=uni0336>Liduin Bos-Burgering</a>,
-<a href=/gwf-publications/people/C/Chris-Bradley/ data-uni=uni0218>Chris Bradley</a>,
-<a href=/gwf-publications/people/Y/Yus-Budiyono/ data-uni=uni1161>Yus Budiyono</a>,
-<a href=/gwf-publications/people/W/Wouter-Buytaert/ data-uni=uni0033>Wouter Buytaert</a>,
-<a href=/gwf-publications/people/L/Lucinda-Capewell/ data-uni=uni0218>Lucinda Capewell</a>,
+<a href=/gwf-publications/people/L/Laila-Balkhi/ data-uni=uni0001>Laila Balkhi</a>,
+<a href=/gwf-publications/people/M/Marlies-Barendrecht/ data-uni=uni1012>Marlies Barendrecht</a>,
+<a href=/gwf-publications/people/S/Sylvain-Biancamaria/ data-uni=uni0282>Sylvain Biancamaria</a>,
+<a href=/gwf-publications/people/L/Liduin-Bos-Burgering/ data-uni=uni0158>Liduin Bos-Burgering</a>,
+<a href=/gwf-publications/people/C/Chris-Bradley/ data-uni=uni0110>Chris Bradley</a>,
+<a href=/gwf-publications/people/Y/Yus-Budiyono/ data-uni=uni1543>Yus Budiyono</a>,
+<a href=/gwf-publications/people/W/Wouter-Buytaert/ data-uni=uni0374>Wouter Buytaert</a>,
+<a href=/gwf-publications/people/L/Lucinda-Capewell/ data-uni=uni0110>Lucinda Capewell</a>,
 <a href=/gwf-publications/people/H/Hayley-Carlson/ data-uni=uni0003>Hayley Carlson</a>,
-<a href=/gwf-publications/people/Y/Yonca-Cavus/ data-uni=uni0345>Yonca Cavus</a>,
-<a href=/gwf-publications/people/A/Ana%C3%AFs-Couasnon/ data-uni=uni0336>Anaïs Couasnon</a>,
-<a href=/gwf-publications/people/G/Gemma-Coxon/ data-uni=uni0116>Gemma Coxon</a>,
-<a href=/gwf-publications/people/I/Ioannis-%CE%9D-Daliakopoulos/ data-uni=uni1162>Ioannis Ν. Daliakopoulos</a>,
-<a href=/gwf-publications/people/M/Marleen-de-Ruiter/ data-uni=uni0072>Marleen de Ruiter</a>,
-<a href=/gwf-publications/people/C/Claire-Delus/ data-uni=uni1163>Claire Delus</a>,
-<a href=/gwf-publications/people/M/Mathilde-Erfurt/ data-uni=uni0345>Mathilde Erfurt</a>,
-<a href=/gwf-publications/people/G/Giuseppe-Esposito/ data-uni=uni1164>Giuseppe Esposito</a>,
-<a href=/gwf-publications/people/F/Fran%C3%A7ois-Dagognet/ data-uni=uni0036>François Dagognet</a>,
-<a href=/gwf-publications/people/F/Fr%C3%A9d%C3%A9ric-Frappart/ data-uni=uni0405>Frédéric Frappart</a>,
-<a href=/gwf-publications/people/J/Jim-Freer/ data-uni=uni0001>Jim Freer</a>,
-<a href=/gwf-publications/people/N/Natalia-Frolova/ data-uni=uni1165>Natalia Frolova</a>,
-<a href=/gwf-publications/people/A/Animesh-K-Gain/ data-uni=uni1166>Animesh K. Gain</a>,
-<a href=/gwf-publications/people/M/Manolis-Grillakis/ data-uni=uni0783>Manolis Grillakis</a>,
+<a href=/gwf-publications/people/Y/Yonca-Cavus/ data-uni=uni1553>Yonca Cavus</a>,
+<a href=/gwf-publications/people/A/Ana%C3%AFs-Couasnon/ data-uni=uni0047>Anaïs Couasnon</a>,
+<a href=/gwf-publications/people/G/Gemma-Coxon/ data-uni=uni0059>Gemma Coxon</a>,
+<a href=/gwf-publications/people/I/Ioannis-%CE%9D-Daliakopoulos/ data-uni=uni1522>Ioannis Ν. Daliakopoulos</a>,
+<a href=/gwf-publications/people/M/Marleen-de-Ruiter/ data-uni=uni0047>Marleen de Ruiter</a>,
+<a href=/gwf-publications/people/C/Claire-Delus/ data-uni=uni1523>Claire Delus</a>,
+<a href=/gwf-publications/people/M/Mathilde-Erfurt/ data-uni=uni0289>Mathilde Erfurt</a>,
+<a href=/gwf-publications/people/G/Giuseppe-Esposito/ data-uni=uni1028>Giuseppe Esposito</a>,
+<a href=/gwf-publications/people/D/Didier-Fran%C3%A7ois/ data-uni=uni0461>Didier François</a>,
+<a href=/gwf-publications/people/F/Fr%C3%A9d%C3%A9ric-Frappart/ data-uni=uni0150>Frédéric Frappart</a>,
+<a href=/gwf-publications/people/J/Jim-Freer/ data-uni=uni0059>Jim Freer</a>,
+<a href=/gwf-publications/people/%D0%9D/%D0%9D-%D0%9B-%D0%A4%D1%80%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0/ data-uni=uni0310>Н. Л. Фролова</a>,
+<a href=/gwf-publications/people/A/Animesh-K-Gain/ data-uni=uni1096>Animesh K. Gain</a>,
+<a href=/gwf-publications/people/M/Manolis-Grillakis/ data-uni=uni1036>Manolis Grillakis</a>,
 <a href=/gwf-publications/people/J/Jordi-Oriol-Grima/ data-uni=uni0000>Jordi Oriol Grima</a>,
-<a href=/gwf-publications/people/D/Diego-Alejandro-Guzm%C3%A1n-Arias/ data-uni=uni1167>Diego Alejandro Guzmán Arias</a>,
-<a href=/gwf-publications/people/L/Laurie-S-Huning/ data-uni=uni0121>Laurie S. Huning</a>,
-<a href=/gwf-publications/people/M/Monica-Ionita/ data-uni=uni0100>Monica Ionita</a>,
-<a href=/gwf-publications/people/%D0%9C/%D0%9C-%D0%90-%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BE%D0%B2/ data-uni=uni0147>М. А. Харламов</a>,
-<a href=/gwf-publications/people/%C4%90/%C4%90%C3%A0o-Nguy%C3%AAn-Kh%C3%B4i/ data-uni=uni1170>Đào Nguyên Khôi</a>,
-<a href=/gwf-publications/people/N/Natalie-Kieboom/ data-uni=uni0610>Natalie Kieboom</a>,
-<a href=/gwf-publications/people/M/Maria-Kireeva/ data-uni=uni0301>Maria Kireeva</a>,
-<a href=/gwf-publications/people/A/Aristeidis-Koutroulis/ data-uni=uni0783>Aristeidis Koutroulis</a>,
-<a href=/gwf-publications/people/W/Waldo-LavadoCasimiro/ data-uni=uni1158>Waldo Lavado‐Casimiro</a>,
-<a href=/gwf-publications/people/H/Hong-Yi-Li/ data-uni=uni1143>Hong Yi Li</a>,
-<a href=/gwf-publications/people/M/M-C-Llasat/ data-uni=uni0880>M. C. Llasat</a>,
-<a href=/gwf-publications/people/D/David-Macdonald/ data-uni=uni0294>David Macdonald</a>,
-<a href=/gwf-publications/people/J/Johanna-M%C3%A5rd/ data-uni=uni0388>Johanna Mård</a>,
-<a href=/gwf-publications/people/H/Hannah-Mathew-Richards/ data-uni=uni0610>Hannah Mathew-Richards</a>,
-<a href=/gwf-publications/people/A/Andrew-McKenzie/ data-uni=uni0294>Andrew McKenzie</a>,
-<a href=/gwf-publications/people/A/Alfonso-Mej%C3%ADa/ data-uni=uni0044>Alfonso Mejía</a>,
-<a href=/gwf-publications/people/E/Eduardo-M%C3%A1rio-Mendiondo/ data-uni=uni0481>Eduardo Mário Mendiondo</a>,
-<a href=/gwf-publications/people/M/Marjolein-Mens/ data-uni=uni0336>Marjolein Mens</a>,
-<a href=/gwf-publications/people/S/Shifteh-Mobini/ data-uni=uni1141>Shifteh Mobini</a>,
-<a href=/gwf-publications/people/G/Guilherme-Samprogna-Mohor/ data-uni=uni0093>Guilherme Samprogna Mohor</a>,
-<a href=/gwf-publications/people/V/Viorica-Nagavciuc/ data-uni=uni0100>Viorica Nagavciuc</a>,
-<a href=/gwf-publications/people/T/Thanh-NgoDuc/ data-uni=uni1115>Thanh Ngo‐Duc</a>,
-<a href=/gwf-publications/people/T/Thi-Thao-Nguyen-Huynh/ data-uni=uni0189>Thi Thao Nguyen Huynh</a>,
-<a href=/gwf-publications/people/P/Pham-Thi-Thao-Nhi/ data-uni=uni0546>Pham Thi Thao Nhi</a>,
-<a href=/gwf-publications/people/O/Olga-Petrucci/ data-uni=uni1116>Olga Petrucci</a>,
-<a href=/gwf-publications/people/H/H%E1%BB%93ng-Qu%C3%A2n-Nguy%E1%BB%85n/ data-uni=uni0546>Hồng Quân Nguyễn</a>,
-<a href=/gwf-publications/people/P/Pere-Quintana-Segu%C3%AD/ data-uni=uni1117>Pere Quintana-Seguí</a>,
-<a href=/gwf-publications/people/S/Saman-Razavi/ data-uni=uni0001>Saman Razavi</a>,
-<a href=/gwf-publications/people/E/Elena-Ridolfi/ data-uni=uni0204>Elena Ridolfi</a>,
-<a href=/gwf-publications/people/J/Jannik-Riegel/ data-uni=uni1119>Jannik Riegel</a>,
-<a href=/gwf-publications/people/M/Md-Shibly-Sadik/ data-uni=uni1120>Md. Shibly Sadik</a>,
-<a href=/gwf-publications/people/E/Elisa-Savelli/ data-uni=uni0263>Elisa Savelli</a>,
-<a href=/gwf-publications/people/%D0%90/%D0%90-%D0%90-%D0%A1%D0%B0%D0%B7%D0%BE%D0%BD%D0%BE%D0%B2/ data-uni=uni0147>А. А. Сазонов</a>,
-<a href=/gwf-publications/people/S/Sanjib-Sharma/ data-uni=uni1123>Sanjib Sharma</a>,
-<a href=/gwf-publications/people/J/Johanna-S%C3%B6rensen/ data-uni=uni0067>Johanna Sörensen</a>,
-<a href=/gwf-publications/people/F/Felipe-Augusto-Arguello-Souza/ data-uni=uni0903>Felipe Augusto Arguello Souza</a>,
-<a href=/gwf-publications/people/K/Kerstin-Stahl/ data-uni=uni0345>Kerstin Stahl</a>,
-<a href=/gwf-publications/people/M/Max-Steinhausen/ data-uni=uni0034>Max Steinhausen</a>,
-<a href=/gwf-publications/people/M/Michael-Stoelzle/ data-uni=uni0345>Michael Stoelzle</a>,
-<a href=/gwf-publications/people/W/Wiwiana-Szali%C5%84ska/ data-uni=uni0319>Wiwiana Szalińska</a>,
-<a href=/gwf-publications/people/Q/Qiuhong-Tang/ data-uni=uni0254>Qiuhong Tang</a>,
-<a href=/gwf-publications/people/F/Fuqiang-Tian/ data-uni=uni0850>Fuqiang Tian</a>,
-<a href=/gwf-publications/people/T/Tamara-Tokarczyk/ data-uni=uni0319>Tamara Tokarczyk</a>,
-<a href=/gwf-publications/people/C/Carolina-Tovar/ data-uni=uni1124>Carolina Tovar</a>,
-<a href=/gwf-publications/people/T/Thi-Van-Thu-Tran/ data-uni=uni0546>Thi Van Thu Tran</a>,
-<a href=/gwf-publications/people/M/MHJ-van-Huijgevoort/ data-uni=uni0774>M.H.J. van Huijgevoort</a>,
-<a href=/gwf-publications/people/M/Michelle-T-H-van-Vliet/ data-uni=uni0123>Michelle T. H. van Vliet</a>,
-<a href=/gwf-publications/people/S/Sergiy-Vorogushyn/ data-uni=uni0034>Sergiy Vorogushyn</a>,
-<a href=/gwf-publications/people/T/Thorsten-Wagener/ data-uni=uni0093>Thorsten Wagener</a>,
-<a href=/gwf-publications/people/Y/Yueling-Wang/ data-uni=uni1128>Yueling Wang</a>,
-<a href=/gwf-publications/people/D/Doris-Wendt/ data-uni=uni0116>Doris Wendt</a>,
-<a href=/gwf-publications/people/E/Elliot-Wickham/ data-uni=uni0065>Elliot Wickham</a>,
-<a href=/gwf-publications/people/L/Long-Yang/ data-uni=uni0658>Long Yang</a>,
-<a href=/gwf-publications/people/M/Mauricio-ZambranoBigiarini/ data-uni=uni0797>Mauricio Zambrano‐Bigiarini</a>,
-<a href=/gwf-publications/people/G/G%C3%BCnter-Bl%C3%B6schl/ data-uni=uni0276>Günter Blöschl</a>,
-<a href=/gwf-publications/people/G/Giuliano-Di-Baldassarre/ data-uni=uni0388>Giuliano Di Baldassarre</a><br><a href=/gwf-publications/volumes/G22-174/ class=text-muted>Nature, Volume 608, Issue 7921</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G22-174001><div class="card-body p-3 small">Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .</div></div><div data-prj=prj32><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1098/rsta.2021.0288 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+<a href=/gwf-publications/people/D/Diego-Alejandro-Guzm%C3%A1n-Arias/ data-uni=uni1524>Diego Alejandro Guzmán Arias</a>,
+<a href=/gwf-publications/people/L/Laurie-S-Huning/ data-uni=uni0958>Laurie S. Huning</a>,
+<a href=/gwf-publications/people/M/Monica-Ionita/ data-uni=uni0058>Monica Ionita</a>,
+<a href=/gwf-publications/people/M/Maxim-Kharlamov/ data-uni=uni1525>Maxim Kharlamov</a>,
+<a href=/gwf-publications/people/%C4%90/%C4%90%C3%A0o-Nguy%C3%AAn-Kh%C3%B4i/ data-uni=uni1056>Đào Nguyên Khôi</a>,
+<a href=/gwf-publications/people/N/Natalie-Kieboom/ data-uni=uni0655>Natalie Kieboom</a>,
+<a href=/gwf-publications/people/M/Maria-Kireeva/ data-uni=uni0310>Maria Kireeva</a>,
+<a href=/gwf-publications/people/A/Aristeidis-Koutroulis/ data-uni=uni1036>Aristeidis Koutroulis</a>,
+<a href=/gwf-publications/people/W/Waldo-LavadoCasimiro/ data-uni=uni1557>Waldo Lavado‐Casimiro</a>,
+<a href=/gwf-publications/people/H/HongYi-Li/ data-uni=uni0649>Hong‐Yi Li</a>,
+<a href=/gwf-publications/people/M/M-C-Llasat/ data-uni=uni0782>M. C. Llasat</a>,
+<a href=/gwf-publications/people/D/David-Macdonald/ data-uni=uni0359>David Macdonald</a>,
+<a href=/gwf-publications/people/J/Johanna-M%C3%A5rd/ data-uni=uni1558>Johanna Mård</a>,
+<a href=/gwf-publications/people/H/Hannah-Mathew-Richards/ data-uni=uni0655>Hannah Mathew-Richards</a>,
+<a href=/gwf-publications/people/A/Andrew-McKenzie/ data-uni=uni0359>Andrew McKenzie</a>,
+<a href=/gwf-publications/people/A/Alfonso-Mej%C3%ADa/ data-uni=uni0103>Alfonso Mejía</a>,
+<a href=/gwf-publications/people/E/Eduardo-M%C3%A1rio-Mendiondo/ data-uni=uni0292>Eduardo Mário Mendiondo</a>,
+<a href=/gwf-publications/people/M/Marjolein-Mens/ data-uni=uni0885>Marjolein Mens</a>,
+<a href=/gwf-publications/people/S/Shifteh-Mobini/ data-uni=uni0040>Shifteh Mobini</a>,
+<a href=/gwf-publications/people/G/Guilherme-Samprogna-Mohor/ data-uni=uni0243>Guilherme Samprogna Mohor</a>,
+<a href=/gwf-publications/people/V/Viorica-Nagavciuc/ data-uni=uni0058>Viorica Nagavciuc</a>,
+<a href=/gwf-publications/people/T/Thanh-NgoDuc/ data-uni=uni1559>Thanh Ngo‐Duc</a>,
+<a href=/gwf-publications/people/T/Thi-Thao-Nguyen-Huynh/ data-uni=uni0378>Thi Thao Nguyen Huynh</a>,
+<a href=/gwf-publications/people/P/Pham-Thi-Thao-Nhi/ data-uni=uni1056>Pham Thi Thao Nhi</a>,
+<a href=/gwf-publications/people/O/Olga-Petrucci/ data-uni=uni1028>Olga Petrucci</a>,
+<a href=/gwf-publications/people/H/H%E1%BB%93ng-Qu%C3%A2n-Nguy%E1%BB%85n/ data-uni=uni1057>Hồng Quân Nguyễn</a>,
+<a href=/gwf-publications/people/P/Pere-QuintanaSegu%C3%AD/ data-uni=uni1560>Pere Quintana‐Seguí</a>,
+<a href=/gwf-publications/people/S/Saman-Razavi/ data-uni=uni0003>Saman Razavi</a>,
+<a href=/gwf-publications/people/E/Elena-Ridolfi/ data-uni=uni0193>Elena Ridolfi</a>,
+<a href=/gwf-publications/people/J/Jannik-Riegel/ data-uni=uni1561>Jannik Riegel</a>,
+<a href=/gwf-publications/people/M/Md-Shibly-Sadik/ data-uni=uni1562>Md. Shibly Sadik</a>,
+<a href=/gwf-publications/people/E/Elisa-Savelli/ data-uni=uni0285>Elisa Savelli</a>,
+<a href=/gwf-publications/people/A/Alexey-Sazonov/ data-uni=uni0234>Alexey Sazonov</a>,
+<a href=/gwf-publications/people/S/Sanjib-Sharma/ data-uni=uni1563>Sanjib Sharma</a>,
+<a href=/gwf-publications/people/J/Johanna-S%C3%B6rensen/ data-uni=uni0040>Johanna Sörensen</a>,
+<a href=/gwf-publications/people/F/Felipe-Augusto-Arguello-Souza/ data-uni=uni0292>Felipe Augusto Arguello Souza</a>,
+<a href=/gwf-publications/people/K/Kerstin-Stahl/ data-uni=uni0289>Kerstin Stahl</a>,
+<a href=/gwf-publications/people/M/Max-Steinhausen/ data-uni=uni0696>Max Steinhausen</a>,
+<a href=/gwf-publications/people/M/Michael-Stoelzle/ data-uni=uni0289>Michael Stoelzle</a>,
+<a href=/gwf-publications/people/W/Wiwiana-Szali%C5%84ska/ data-uni=uni0227>Wiwiana Szalińska</a>,
+<a href=/gwf-publications/people/Q/Qiuhong-Tang/ data-uni=uni0055>Qiuhong Tang</a>,
+<a href=/gwf-publications/people/F/Fuqiang-Tian/ data-uni=uni0345>Fuqiang Tian</a>,
+<a href=/gwf-publications/people/T/Tamara-Tokarczyk/ data-uni=uni0227>Tamara Tokarczyk</a>,
+<a href=/gwf-publications/people/C/Carolina-Tovar/ data-uni=uni1564>Carolina Tovar</a>,
+<a href=/gwf-publications/people/T/Thi-Van-Thu-Tran/ data-uni=uni1057>Thi Van Thu Tran</a>,
+<a href=/gwf-publications/people/M/MHJ-van-Huijgevoort/ data-uni=uni0969>M.H.J. van Huijgevoort</a>,
+<a href=/gwf-publications/people/M/Michelle-T-H-van-Vliet/ data-uni=uni0078>Michelle T. H. van Vliet</a>,
+<a href=/gwf-publications/people/S/Sergiy-Vorogushyn/ data-uni=uni0017>Sergiy Vorogushyn</a>,
+<a href=/gwf-publications/people/T/Thorsten-Wagener/ data-uni=uni0243>Thorsten Wagener</a>,
+<a href=/gwf-publications/people/Y/Yueling-Wang/ data-uni=uni0102>Yueling Wang</a>,
+<a href=/gwf-publications/people/D/Doris-E-Wendt/ data-uni=uni0059>Doris E. Wendt</a>,
+<a href=/gwf-publications/people/E/Elliot-Wickham/ data-uni=uni0041>Elliot Wickham</a>,
+<a href=/gwf-publications/people/L/Long-Yang/ data-uni=uni1565>Long Yang</a>,
+<a href=/gwf-publications/people/M/Mauricio-ZambranoBigiarini/ data-uni=uni0536>Mauricio Zambrano‐Bigiarini</a>,
+<a href=/gwf-publications/people/G/G%C3%BCnter-Bl%C3%B6schl/ data-uni=uni0259>Günter Blöschl</a>,
+<a href=/gwf-publications/people/G/Giuliano-Di-Baldassarre/ data-uni=uni0285>Giuliano Di Baldassarre</a><br><a href=/gwf-publications/volumes/G22-174/ class=text-muted>Nature, Volume 608, Issue 7921</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G22-174001><div class="card-body p-3 small">Abstract Risk management has reduced vulnerability to floods and droughts globally 1,2 , yet their impacts are still increasing 3 . An improved understanding of the causes of changing impacts is therefore needed, but has been hampered by a lack of empirical data 4,5 . On the basis of a global dataset of 45 pairs of events that occurred within the same area, we show that risk management generally reduces the impacts of floods and droughts but faces difficulties in reducing the impacts of unprecedented events of a magnitude not previously experienced. If the second event was much more hazardous than the first, its impact was almost always higher. This is because management was not designed to deal with such extreme events: for example, they exceeded the design levels of levees and reservoirs. In two success stories, the impact of the second, more hazardous, event was lower, as a result of improved risk management governance and high investment in integrated management. The observed difficulty of managing unprecedented events is alarming, given that more extreme hydrological events are projected owing to climate change 3 .</div></div><div data-prj=prj32><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1098/rsta.2021.0288 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G22-182001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
-</a><a class="badge badge-info align-middle mr-1" href=#abstract-G22-182001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G22-182001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G22-182001/>Status and prospects for drought forecasting: opportunities in artificial intelligence and hybrid physical–statistical forecasting</a></strong><br><a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a>,
-<a href=/gwf-publications/people/B/Baoxiang-Pan/ data-uni=uni1133>Baoxiang Pan</a>,
-<a href=/gwf-publications/people/O/Omid-Mazdiyasni/ data-uni=uni0161>Omid Mazdiyasni</a>,
-<a href=/gwf-publications/people/M/Mojtaba-Sadegh/ data-uni=uni0131>Mojtaba Sadegh</a>,
-<a href=/gwf-publications/people/S/Shakil-Jiwa/ data-uni=uni0121>Shakil Jiwa</a>,
-<a href=/gwf-publications/people/W/Wenkai-Zhang/ data-uni=uni0121>Wenkai Zhang</a>,
-<a href=/gwf-publications/people/C/Charlotte-Love/ data-uni=uni0121>Charlotte Love</a>,
-<a href=/gwf-publications/people/S/Shahrbanou-Madadgar/ data-uni=uni1134>Shahrbanou Madadgar</a>,
-<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0024>Simon Michael Papalexiou</a>,
-<a href=/gwf-publications/people/S/Steven-J-Davis/ data-uni=uni0121>Steven J. Davis</a>,
-<a href=/gwf-publications/people/K/Kuolin-Hsu/ data-uni=uni0121>Kuolin Hsu</a>,
-<a href=/gwf-publications/people/S/Soroosh-Sorooshian/ data-uni=uni0161>Soroosh Sorooshian</a><br><a href=/gwf-publications/volumes/G22-182/ class=text-muted>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, Volume 380, Issue 2238</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G22-182001><div class="card-body p-3 small">Despite major improvements in weather and climate modelling and substantial increases in remotely sensed observations, drought prediction remains a major challenge. After a review of the existing methods, we discuss major research gaps and opportunities to improve drought prediction. We argue that current approaches are top-down, assuming that the process(es) and/or driver(s) are known—i.e. starting with a model and then imposing it on the observed events (reality). With the help of an experiment, we show that there are opportunities to develop bottom-up drought prediction models—i.e. starting from the reality (here, observed events) and searching for model(s) and driver(s) that work. Recent advances in artificial intelligence and machine learning provide significant opportunities for developing bottom-up drought forecasting models. Regardless of the type of drought forecasting model (e.g. machine learning, dynamical simulations, analogue based), we need to shift our attention to robustness of theories and outputs rather than event-based verification. A shift in our focus towards quantifying the stability of uncertainty in drought prediction models, rather than the goodness of fit or reproducing the past, could be the first step towards this goal. Finally, we highlight the advantages of hybrid dynamical and statistical models for improving current drought prediction models. This article is part of the Royal Society Science+ meeting issue ‘Drought risk in the Anthropocene’.</div></div><h4>2021</h4><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2020wr029480 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G22-182001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G22-182001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G22-182001/>Status and prospects for drought forecasting: opportunities in artificial intelligence and hybrid physical–statistical forecasting</a></strong><br><a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/B/Baoxiang-Pan/ data-uni=uni1566>Baoxiang Pan</a>,
+<a href=/gwf-publications/people/O/Omid-Mazdiyasni/ data-uni=uni0106>Omid Mazdiyasni</a>,
+<a href=/gwf-publications/people/M/Mojtaba-Sadegh/ data-uni=uni0145>Mojtaba Sadegh</a>,
+<a href=/gwf-publications/people/S/Shakil-Jiwa/ data-uni=uni0263>Shakil Jiwa</a>,
+<a href=/gwf-publications/people/W/Wenkai-Zhang/ data-uni=uni0592>Wenkai Zhang</a>,
+<a href=/gwf-publications/people/C/Charlotte-A-Love/ data-uni=uni0263>Charlotte A. Love</a>,
+<a href=/gwf-publications/people/S/Shahrbanou-Madadgar/ data-uni=uni1567>Shahrbanou Madadgar</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/S/Steven-J-Davis/ data-uni=uni0263>Steven J. Davis</a>,
+<a href=/gwf-publications/people/K/Kuolin-Hsu/ data-uni=uni0106>Kuolin Hsu</a>,
+<a href=/gwf-publications/people/S/Soroosh-Sorooshian/ data-uni=uni0106>Soroosh Sorooshian</a><br><a href=/gwf-publications/volumes/G22-182/ class=text-muted>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, Volume 380, Issue 2238</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G22-182001><div class="card-body p-3 small">Despite major improvements in weather and climate modelling and substantial increases in remotely sensed observations, drought prediction remains a major challenge. After a review of the existing methods, we discuss major research gaps and opportunities to improve drought prediction. We argue that current approaches are top-down, assuming that the process(es) and/or driver(s) are known—i.e. starting with a model and then imposing it on the observed events (reality). With the help of an experiment, we show that there are opportunities to develop bottom-up drought prediction models—i.e. starting from the reality (here, observed events) and searching for model(s) and driver(s) that work. Recent advances in artificial intelligence and machine learning provide significant opportunities for developing bottom-up drought forecasting models. Regardless of the type of drought forecasting model (e.g. machine learning, dynamical simulations, analogue based), we need to shift our attention to robustness of theories and outputs rather than event-based verification. A shift in our focus towards quantifying the stability of uncertainty in drought prediction models, rather than the goodness of fit or reproducing the past, could be the first step towards this goal. Finally, we highlight the advantages of hybrid dynamical and statistical models for improving current drought prediction models. This article is part of the Royal Society Science+ meeting issue ‘Drought risk in the Anthropocene’.</div></div><h4>2021</h4><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2020wr029480 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G21-32002.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
-</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-32002 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-32002 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-32002/>Open Science: Open Data, Open Models, …and Open Publications?</a></strong><br><a href=/gwf-publications/people/M/Martyn-P-Clark/ data-uni=uni0007>Martyn P. Clark</a>,
-<a href=/gwf-publications/people/C/Charles-H-Luce/ data-uni=uni0292>Charles H. Luce</a>,
-<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a>,
-<a href=/gwf-publications/people/W/Wouter-Berghuijs/ data-uni=uni0869>Wouter Berghuijs</a>,
-<a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ data-uni=uni0019>Cédric H. David</a>,
-<a href=/gwf-publications/people/Q/Qingyun-Duan/ data-uni=uni0497>Qingyun Duan</a>,
-<a href=/gwf-publications/people/S/Shemin-Ge/ data-uni=uni0351>Shemin Ge</a>,
-<a href=/gwf-publications/people/I/Ilja-van-Meerveld/ data-uni=uni0122>Ilja van Meerveld</a>,
-<a href=/gwf-publications/people/K/Kewei-Chen/ data-uni=uni1563>Kewei Chen</a>,
-<a href=/gwf-publications/people/M/M-B-Parlange/ data-uni=uni0325>M. B. Parlange</a>,
-<a href=/gwf-publications/people/S/S-W-Tyler/ data-uni=uni0579>S. W. Tyler</a><br><a href=/gwf-publications/volumes/G21-32/ class=text-muted>Water Resources Research, Volume 57, Issue 4</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-32002><div class="card-body p-3 small">This commentary explores the challenges and opportunities associated with a possible transition of Water Resources Research to a publication model where all articles are freely available upon publication (“Gold” open access). It provides a review of the status of open access publishing models, a summary of community input, and a path forward for AGU leadership. The decision to convert to open access is framed by a mix of finances and values. On the one hand, the challenge is to define who pays, and how, and what we can do to improve the affordability of publishing. On the other hand, the challenge is to increase the extent to which science is open and accessible. The next steps for the community include an incisive analysis of the financial feasibility of different cost models, and weighing the financial burden for open access against the desire to further advance open science.</div></div><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2021ef002196 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-32002 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-32002 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-32002/>Open Science: Open Data, Open Models, …and Open Publications?</a></strong><br><a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/C/Charles-H-Luce/ data-uni=uni0223>Charles H. Luce</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/W/Wouter-R-Berghuijs/ data-uni=uni0036>Wouter R. Berghuijs</a>,
+<a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ data-uni=uni0026>Cédric H. David</a>,
+<a href=/gwf-publications/people/Q/Qingyun-Duan/ data-uni=uni0307>Qingyun Duan</a>,
+<a href=/gwf-publications/people/S/Shemin-Ge/ data-uni=uni1016>Shemin Ge</a>,
+<a href=/gwf-publications/people/I/Ilja-van-Meerveld/ data-uni=uni0089>Ilja van Meerveld</a>,
+<a href=/gwf-publications/people/C/Chunmiao-Zheng/ data-uni=uni1017>Chunmiao Zheng</a>,
+<a href=/gwf-publications/people/M/M-B-Parlange/ data-uni=uni1018>M. B. Parlange</a>,
+<a href=/gwf-publications/people/S/S-W-Tyler/ data-uni=uni0189>S. W. Tyler</a>,
+<a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/C/Charles-H-Luce/ data-uni=uni0223>Charles H. Luce</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/W/Wouter-R-Berghuijs/ data-uni=uni0036>Wouter R. Berghuijs</a>,
+<a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ data-uni=uni0026>Cédric H. David</a>,
+<a href=/gwf-publications/people/Q/Qingyun-Duan/ data-uni=uni0307>Qingyun Duan</a>,
+<a href=/gwf-publications/people/S/Shemin-Ge/ data-uni=uni1016>Shemin Ge</a>,
+<a href=/gwf-publications/people/I/Ilja-van-Meerveld/ data-uni=uni0089>Ilja van Meerveld</a>,
+<a href=/gwf-publications/people/C/Chunmiao-Zheng/ data-uni=uni1017>Chunmiao Zheng</a>,
+<a href=/gwf-publications/people/M/M-B-Parlange/ data-uni=uni1018>M. B. Parlange</a>,
+<a href=/gwf-publications/people/S/S-W-Tyler/ data-uni=uni0189>S. W. Tyler</a><br><a href=/gwf-publications/volumes/G21-32/ class=text-muted>Water Resources Research, Volume 57, Issue 4</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-32002><div class="card-body p-3 small">This commentary explores the challenges and opportunities associated with a possible transition of Water Resources Research to a publication model where all articles are freely available upon publication (“Gold” open access). It provides a review of the status of open access publishing models, a summary of community input, and a path forward for AGU leadership. The decision to convert to open access is framed by a mix of finances and values. On the one hand, the challenge is to define who pays, and how, and what we can do to improve the affordability of publishing. On the other hand, the challenge is to increase the extent to which science is open and accessible. The next steps for the community include an incisive analysis of the financial feasibility of different cost models, and weighing the financial burden for open access against the desire to further advance open science.</div></div><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2020wr029480 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-secondary align-middle mr-1" href=/G21-32002.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-32002 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-32002 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-32002/>Open Science: Open Data, Open Models, …and Open Publications?</a></strong><br><a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/C/Charles-H-Luce/ data-uni=uni0223>Charles H. Luce</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/W/Wouter-R-Berghuijs/ data-uni=uni0036>Wouter R. Berghuijs</a>,
+<a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ data-uni=uni0026>Cédric H. David</a>,
+<a href=/gwf-publications/people/Q/Qingyun-Duan/ data-uni=uni0307>Qingyun Duan</a>,
+<a href=/gwf-publications/people/S/Shemin-Ge/ data-uni=uni1016>Shemin Ge</a>,
+<a href=/gwf-publications/people/I/Ilja-van-Meerveld/ data-uni=uni0089>Ilja van Meerveld</a>,
+<a href=/gwf-publications/people/C/Chunmiao-Zheng/ data-uni=uni1017>Chunmiao Zheng</a>,
+<a href=/gwf-publications/people/M/M-B-Parlange/ data-uni=uni1018>M. B. Parlange</a>,
+<a href=/gwf-publications/people/S/S-W-Tyler/ data-uni=uni0189>S. W. Tyler</a>,
+<a href=/gwf-publications/people/M/Martyn-Clark/ data-uni=uni0007>Martyn Clark</a>,
+<a href=/gwf-publications/people/C/Charles-H-Luce/ data-uni=uni0223>Charles H. Luce</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/W/Wouter-R-Berghuijs/ data-uni=uni0036>Wouter R. Berghuijs</a>,
+<a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ data-uni=uni0026>Cédric H. David</a>,
+<a href=/gwf-publications/people/Q/Qingyun-Duan/ data-uni=uni0307>Qingyun Duan</a>,
+<a href=/gwf-publications/people/S/Shemin-Ge/ data-uni=uni1016>Shemin Ge</a>,
+<a href=/gwf-publications/people/I/Ilja-van-Meerveld/ data-uni=uni0089>Ilja van Meerveld</a>,
+<a href=/gwf-publications/people/C/Chunmiao-Zheng/ data-uni=uni1017>Chunmiao Zheng</a>,
+<a href=/gwf-publications/people/M/M-B-Parlange/ data-uni=uni1018>M. B. Parlange</a>,
+<a href=/gwf-publications/people/S/S-W-Tyler/ data-uni=uni0189>S. W. Tyler</a><br><a href=/gwf-publications/volumes/G21-32/ class=text-muted>Water Resources Research, Volume 57, Issue 4</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-32002><div class="card-body p-3 small">This commentary explores the challenges and opportunities associated with a possible transition of Water Resources Research to a publication model where all articles are freely available upon publication (“Gold” open access). It provides a review of the status of open access publishing models, a summary of community input, and a path forward for AGU leadership. The decision to convert to open access is framed by a mix of finances and values. On the one hand, the challenge is to define who pays, and how, and what we can do to improve the affordability of publishing. On the other hand, the challenge is to increase the extent to which science is open and accessible. The next steps for the community include an incisive analysis of the financial feasibility of different cost models, and weighing the financial burden for open access against the desire to further advance open science.</div></div><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2021ef002196 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G21-54001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
 </a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-54001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-54001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-54001/>Biases Beyond the Mean in CMIP6 Extreme Precipitation: A Global Investigation</a></strong><br><a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>,
-<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0024>Simon Michael Papalexiou</a>,
-<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0011>Chandra Rupa Rajulapati</a>,
-<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a><br><a href=/gwf-publications/volumes/G21-54/ class=text-muted>Earth's Future, Volume 9, Issue 10</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-54001><div class="card-body p-3 small">Climate models are crucial for assessing climate variability and change. A reliable model for future climate should reasonably simulate the historical climate. Here, we assess the performance of CMIP6 models in reproducing statistical properties of observed annual maxima of daily precipitation. We go beyond the commonly used methods and assess CMIP6 simulations on three scales by performing: (a) univariate comparison based on L-moments and relative difference measures; (b) bivariate comparison using Kernel densities of mean and L-variation, and of L-skewness and L-kurtosis, and (c) comparison of the entire distribution function using the Generalized Extreme Value () distribution coupled with a novel application of the Anderson-Darling Goodness-of-fit test. The results reveal that the statistical shape properties (related to the frequency and magnitude of extremes) of CMIP6 simulations match well with the observational datasets. The simulated mean and variation differ among the models with 70% of simulations having a difference within 10% from the observations. Biases are observed in the bivariate investigation of mean and variation. Several models perform well with the HadGEM3-GC31-MM model performing well in all three scales when compared to the ground-based Global Precipitation Climatology Centre data. Finally, the study highlights biases of CMIP6 models in simulating extreme precipitation in the Arctic, Tropics, arid and semi-arid regions.</div></div><h4>2020</h4><div data-prj=prj32><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1146/annurev-earth-071719-055228 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0014>Chandra Rupa Rajulapati</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0014>Chandra Rupa Rajulapati</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a><br><a href=/gwf-publications/volumes/G21-54/ class=text-muted>Earth's Future, Volume 9, Issue 10</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-54001><div class="card-body p-3 small">Climate models are crucial for assessing climate variability and change. A reliable model for future climate should reasonably simulate the historical climate. Here, we assess the performance of CMIP6 models in reproducing statistical properties of observed annual maxima of daily precipitation. We go beyond the commonly used methods and assess CMIP6 simulations on three scales by performing: (a) univariate comparison based on L-moments and relative difference measures; (b) bivariate comparison using Kernel densities of mean and L-variation, and of L-skewness and L-kurtosis, and (c) comparison of the entire distribution function using the Generalized Extreme Value () distribution coupled with a novel application of the Anderson-Darling Goodness-of-fit test. The results reveal that the statistical shape properties (related to the frequency and magnitude of extremes) of CMIP6 simulations match well with the observational datasets. The simulated mean and variation differ among the models with 70% of simulations having a difference within 10% from the observations. Biases are observed in the bivariate investigation of mean and variation. Several models perform well with the HadGEM3-GC31-MM model performing well in all three scales when compared to the ground-based Global Precipitation Climatology Centre data. Finally, the study highlights biases of CMIP6 models in simulating extreme precipitation in the Arctic, Tropics, arid and semi-arid regions.</div></div><div data-prj=prj9><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1029/2021ef002196 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-secondary align-middle mr-1" href=/G21-54001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G21-54001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G21-54001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G21-54001/>Biases Beyond the Mean in CMIP6 Extreme Precipitation: A Global Investigation</a></strong><br><a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0014>Chandra Rupa Rajulapati</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ data-uni=uni0014>Chandra Rupa Rajulapati</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a><br><a href=/gwf-publications/volumes/G21-54/ class=text-muted>Earth's Future, Volume 9, Issue 10</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G21-54001><div class="card-body p-3 small">Climate models are crucial for assessing climate variability and change. A reliable model for future climate should reasonably simulate the historical climate. Here, we assess the performance of CMIP6 models in reproducing statistical properties of observed annual maxima of daily precipitation. We go beyond the commonly used methods and assess CMIP6 simulations on three scales by performing: (a) univariate comparison based on L-moments and relative difference measures; (b) bivariate comparison using Kernel densities of mean and L-variation, and of L-skewness and L-kurtosis, and (c) comparison of the entire distribution function using the Generalized Extreme Value () distribution coupled with a novel application of the Anderson-Darling Goodness-of-fit test. The results reveal that the statistical shape properties (related to the frequency and magnitude of extremes) of CMIP6 simulations match well with the observational datasets. The simulated mean and variation differ among the models with 70% of simulations having a difference within 10% from the observations. Biases are observed in the bivariate investigation of mean and variation. Several models perform well with the HadGEM3-GC31-MM model performing well in all three scales when compared to the ground-based Global Precipitation Climatology Centre data. Finally, the study highlights biases of CMIP6 models in simulating extreme precipitation in the Arctic, Tropics, arid and semi-arid regions.</div></div><h4>2020</h4><div data-prj=prj32><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1146/annurev-earth-071719-055228 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G20-37001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
-</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-37001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-37001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-37001/>Climate Extremes and Compound Hazards in a Warming World</a></strong><br><a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a>,
-<a href=/gwf-publications/people/F/Felicia-Chiang/ data-uni=uni1695>Felicia Chiang</a>,
-<a href=/gwf-publications/people/L/Laurie-S-Huning/ data-uni=uni0121>Laurie S. Huning</a>,
-<a href=/gwf-publications/people/C/Charlotte-Love/ data-uni=uni0121>Charlotte Love</a>,
-<a href=/gwf-publications/people/I/Iman-Mallakpour/ data-uni=uni0161>Iman Mallakpour</a>,
-<a href=/gwf-publications/people/O/Omid-Mazdiyasni/ data-uni=uni0161>Omid Mazdiyasni</a>,
-<a href=/gwf-publications/people/H/Hamed-Moftakhari/ data-uni=uni0251>Hamed Moftakhari</a>,
-<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0024>Simon Michael Papalexiou</a>,
-<a href=/gwf-publications/people/E/Elisa-Ragno/ data-uni=uni0156>Elisa Ragno</a>,
-<a href=/gwf-publications/people/M/Mojtaba-Sadegh/ data-uni=uni0131>Mojtaba Sadegh</a><br><a href=/gwf-publications/volumes/G20-37/ class=text-muted>Annual Review of Earth and Planetary Sciences, Volume 48, Issue 1</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-37001><div class="card-body p-3 small">Climate extremes threaten human health, economic stability, and the well-being of natural and built environments (e.g., 2003 European heat wave). As the world continues to warm, climate hazards are expected to increase in frequency and intensity. The impacts of extreme events will also be more severe due to the increased exposure (growing population and development) and vulnerability (aging infrastructure) of human settlements. Climate models attribute part of the projected increases in the intensity and frequency of natural disasters to anthropogenic emissions and changes in land use and land cover. Here, we review the impacts, historical and projected changes,and theoretical research gaps of key extreme events (heat waves, droughts, wildfires, precipitation, and flooding). We also highlight the need to improve our understanding of the dependence between individual and interrelated climate extremes because anthropogenic-induced warming increases the risk of not only individual climate extremes but also compound (co-occurring) and cascading hazards. ▪ Climate hazards are expected to increase in frequency and intensity in a warming world. ▪ Anthropogenic-induced warming increases the risk of compound and cascading hazards. ▪ We need to improve our understanding of causes and drivers of compound and cascading hazards.</div></div><div data-prj=prj41><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1111/gcb.15353 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-37001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-37001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-37001/>Climate Extremes and Compound Hazards in a Warming World</a></strong><br><a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/F/Felicia-Chiang/ data-uni=uni1241>Felicia Chiang</a>,
+<a href=/gwf-publications/people/L/Laurie-S-Huning/ data-uni=uni0958>Laurie S. Huning</a>,
+<a href=/gwf-publications/people/C/Charlotte-A-Love/ data-uni=uni0263>Charlotte A. Love</a>,
+<a href=/gwf-publications/people/I/Iman-Mallakpour/ data-uni=uni0263>Iman Mallakpour</a>,
+<a href=/gwf-publications/people/O/Omid-Mazdiyasni/ data-uni=uni0106>Omid Mazdiyasni</a>,
+<a href=/gwf-publications/people/H/Hamed-Moftakhari/ data-uni=uni0264>Hamed Moftakhari</a>,
+<a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ data-uni=uni0022>Simon Michael Papalexiou</a>,
+<a href=/gwf-publications/people/E/Elisa-Ragno/ data-uni=uni0158>Elisa Ragno</a>,
+<a href=/gwf-publications/people/M/Mojtaba-Sadegh/ data-uni=uni0145>Mojtaba Sadegh</a><br><a href=/gwf-publications/volumes/G20-37/ class=text-muted>Annual Review of Earth and Planetary Sciences, Volume 48, Issue 1</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-37001><div class="card-body p-3 small">Climate extremes threaten human health, economic stability, and the well-being of natural and built environments (e.g., 2003 European heat wave). As the world continues to warm, climate hazards are expected to increase in frequency and intensity. The impacts of extreme events will also be more severe due to the increased exposure (growing population and development) and vulnerability (aging infrastructure) of human settlements. Climate models attribute part of the projected increases in the intensity and frequency of natural disasters to anthropogenic emissions and changes in land use and land cover. Here, we review the impacts, historical and projected changes,and theoretical research gaps of key extreme events (heat waves, droughts, wildfires, precipitation, and flooding). We also highlight the need to improve our understanding of the dependence between individual and interrelated climate extremes because anthropogenic-induced warming increases the risk of not only individual climate extremes but also compound (co-occurring) and cascading hazards. ▪ Climate hazards are expected to increase in frequency and intensity in a warming world. ▪ Anthropogenic-induced warming increases the risk of compound and cascading hazards. ▪ We need to improve our understanding of causes and drivers of compound and cascading hazards.</div></div><div data-prj=prj41><p class="d-sm-flex align-items-stretch"><span class="d-block mr-2 text-nowrap list-button-row"><a class="badge badge-primary align-middle mr-1" href=https://www.doi.org/10.1111/gcb.15353 data-toggle=tooltip data-placement=top title="Publisher's Website" target=_blank>DOI
 </a><a class="badge badge-secondary align-middle mr-1" href=/G20-208001.bib data-toggle=tooltip data-placement=top title="Export to BibTeX">bib
-</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-208001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-208001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-208001/>COSORE: A community database for continuous soil respiration and other soil‐atmosphere greenhouse gas flux data</a></strong><br><a href=/gwf-publications/people/B/Ben-BondLamberty/ data-uni=uni1508>Ben Bond‐Lamberty</a>,
-<a href=/gwf-publications/people/D/Danielle-Christianson/ data-uni=uni0026>Danielle Christianson</a>,
-<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0090>Avni Malhotra</a>,
-<a href=/gwf-publications/people/S/Stephanie-Pennington/ data-uni=uni0090>Stephanie Pennington</a>,
-<a href=/gwf-publications/people/D/Debjani-Sihi/ data-uni=uni0789>Debjani Sihi</a>,
-<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0161>Amir AghaKouchak</a>,
-<a href=/gwf-publications/people/H/Hassan-Anjileli/ data-uni=uni0161>Hassan Anjileli</a>,
+</a><a class="badge badge-info align-middle mr-1" href=#abstract-G20-208001 data-toggle=collapse aria-expanded=false aria-controls=abstract-G20-208001 title="Show Abstract">abs</a><br class="d-none d-sm-inline-block"></span><span class=d-block><strong><a class=align-middle href=/gwf-publications/G20-208001/>COSORE: A community database for continuous soil respiration and other soil‐atmosphere greenhouse gas flux data</a></strong><br><a href=/gwf-publications/people/B/Ben-BondLamberty/ data-uni=uni1623>Ben Bond‐Lamberty</a>,
+<a href=/gwf-publications/people/D/Danielle-Christianson/ data-uni=uni0012>Danielle Christianson</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0067>Avni Malhotra</a>,
+<a href=/gwf-publications/people/S/Stephanie-Pennington/ data-uni=uni0067>Stephanie Pennington</a>,
+<a href=/gwf-publications/people/D/Debjani-Sihi/ data-uni=uni0121>Debjani Sihi</a>,
+<a href=/gwf-publications/people/A/Amir-AghaKouchak/ data-uni=uni0106>Amir AghaKouchak</a>,
+<a href=/gwf-publications/people/H/Hassan-Anjileli/ data-uni=uni0263>Hassan Anjileli</a>,
 <a href=/gwf-publications/people/M/M-Altaf-Arain/ data-uni=uni0004>M. Altaf Arain</a>,
-<a href=/gwf-publications/people/J/Juan-J-Armest%C3%B3/ data-uni=uni0969>Juan J. Armestó</a>,
-<a href=/gwf-publications/people/S/Samaneh-Ashraf/ data-uni=uni0524>Samaneh Ashraf</a>,
-<a href=/gwf-publications/people/M/Mioko-Ataka/ data-uni=uni0378>Mioko Ataka</a>,
-<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0030>Dennis Baldocchi</a>,
-<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0017>T. Andrew Black</a>,
-<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni0035>Nina Buchmann</a>,
-<a href=/gwf-publications/people/M/Mariah-S-Carbone/ data-uni=uni1509>Mariah S. Carbone</a>,
-<a href=/gwf-publications/people/S/Shih-Chieh-Chang/ data-uni=uni1510>Shih Chieh Chang</a>,
-<a href=/gwf-publications/people/P/Patrick-Crill/ data-uni=uni0089>Patrick Crill</a>,
-<a href=/gwf-publications/people/P/Peter-S-Curtis/ data-uni=uni0087>Peter S. Curtis</a>,
-<a href=/gwf-publications/people/E/Eric-A-Davidson/ data-uni=uni0153>Eric A. Davidson</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0095>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/J/John-E-Drake/ data-uni=uni0083>John E. Drake</a>,
-<a href=/gwf-publications/people/T/Tarek-S-ElMadany/ data-uni=uni0032>Tarek S. El‐Madany</a>,
-<a href=/gwf-publications/people/M/Michael-Gavazzi/ data-uni=uni1511>Michael Gavazzi</a>,
-<a href=/gwf-publications/people/C/Carolyn-Monika-G%C3%B6rres/ data-uni=uni1512>Carolyn-Monika Görres</a>,
-<a href=/gwf-publications/people/C/Christopher-M-Gough/ data-uni=uni0185>Christopher M. Gough</a>,
-<a href=/gwf-publications/people/M/Michael-L-Goulden/ data-uni=uni0121>Michael L. Goulden</a>,
-<a href=/gwf-publications/people/J/Jillian-W-Gregg/ data-uni=uni1513>Jillian W. Gregg</a>,
-<a href=/gwf-publications/people/O/O-Guti%C3%A9rrez-del-Arroyo/ data-uni=uni1514>O. Gutiérrez del Arroyo</a>,
-<a href=/gwf-publications/people/J/Jin-Sheng-He/ data-uni=uni1504>Jin Sheng He</a>,
-<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0126>Takashi Hirano</a>,
-<a href=/gwf-publications/people/A/Anya-M-Hopple/ data-uni=uni0915>Anya M. Hopple</a>,
-<a href=/gwf-publications/people/H/Holly-Hughes/ data-uni=uni0435>Holly Hughes</a>,
+<a href=/gwf-publications/people/J/Juan-J-Armest%C3%B3/ data-uni=uni1624>Juan J. Armestó</a>,
+<a href=/gwf-publications/people/S/Samaneh-Ashraf/ data-uni=uni0008>Samaneh Ashraf</a>,
+<a href=/gwf-publications/people/M/Mioko-Ataka/ data-uni=uni1139>Mioko Ataka</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0038>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0013>T. Andrew Black</a>,
+<a href=/gwf-publications/people/N/Nina-Buchmann/ data-uni=uni0036>Nina Buchmann</a>,
+<a href=/gwf-publications/people/M/Mariah-S-Carbone/ data-uni=uni0016>Mariah S. Carbone</a>,
+<a href=/gwf-publications/people/S/ShihChieh-Chang/ data-uni=uni1140>Shih‐Chieh Chang</a>,
+<a href=/gwf-publications/people/P/P-M-Crill/ data-uni=uni0168>P. M. Crill</a>,
+<a href=/gwf-publications/people/P/Peter-S-Curtis/ data-uni=uni0061>Peter S. Curtis</a>,
+<a href=/gwf-publications/people/E/Eric-A-Davidson/ data-uni=uni1141>Eric A. Davidson</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0046>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/J/John-E-Drake/ data-uni=uni0131>John E. Drake</a>,
+<a href=/gwf-publications/people/T/Tarek-S-ElMadany/ data-uni=uni0037>Tarek S. El‐Madany</a>,
+<a href=/gwf-publications/people/M/Michael-Gavazzi/ data-uni=uni0223>Michael Gavazzi</a>,
+<a href=/gwf-publications/people/C/CarolynMonika-G%C3%B6rres/ data-uni=uni1142>Carolyn‐Monika Görres</a>,
+<a href=/gwf-publications/people/C/Christopher-M-Gough/ data-uni=uni0308>Christopher M. Gough</a>,
+<a href=/gwf-publications/people/M/Michael-L-Goulden/ data-uni=uni0106>Michael L. Goulden</a>,
+<a href=/gwf-publications/people/J/Jillian-W-Gregg/ data-uni=uni1143>Jillian W. Gregg</a>,
+<a href=/gwf-publications/people/O/Omar-Guti%C3%A9rrez-del-Arroyo/ data-uni=uni1070>Omar Gutiérrez del Arroyo</a>,
+<a href=/gwf-publications/people/J/Jin-He/ data-uni=uni1144>Jin He</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0122>Takashi Hirano</a>,
+<a href=/gwf-publications/people/A/Anya-M-Hopple/ data-uni=uni1145>Anya M. Hopple</a>,
+<a href=/gwf-publications/people/H/Holly-Hughes/ data-uni=uni0672>Holly Hughes</a>,
 <a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/ data-uni=uni0023>Järvi Järveoja</a>,
-<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0017>Rachhpal S. Jassal</a>,
-<a href=/gwf-publications/people/J/Jinshi-Jian/ data-uni=uni1515>Jinshi Jian</a>,
-<a href=/gwf-publications/people/H/Haiming-Kan/ data-uni=uni0859>Haiming Kan</a>,
-<a href=/gwf-publications/people/J/Jason-P-Kaye/ data-uni=uni0044>Jason P. Kaye</a>,
-<a href=/gwf-publications/people/Y/Yuji-Kominami/ data-uni=uni0607>Yuji Kominami</a>,
-<a href=/gwf-publications/people/N/Naishen-Liang/ data-uni=uni0304>Naishen Liang</a>,
-<a href=/gwf-publications/people/D/David-A-Lipson/ data-uni=uni0042>David A. Lipson</a>,
-<a href=/gwf-publications/people/C/Catriona-A-Macdonald/ data-uni=uni0183>Catriona A. Macdonald</a>,
-<a href=/gwf-publications/people/K/Kadmiel-Maseyk/ data-uni=uni1517>Kadmiel Maseyk</a>,
-<a href=/gwf-publications/people/K/Kayla-Mathes/ data-uni=uni0185>Kayla Mathes</a>,
-<a href=/gwf-publications/people/M/Marguerite-Mauritz/ data-uni=uni0241>Marguerite Mauritz</a>,
-<a href=/gwf-publications/people/M/Melanie-A-Mayes/ data-uni=uni0080>Melanie A. Mayes</a>,
-<a href=/gwf-publications/people/S/Steven-G-McNulty/ data-uni=uni0282>Steven G. McNulty</a>,
-<a href=/gwf-publications/people/G/Guofang-Miao/ data-uni=uni1518>Guofang Miao</a>,
-<a href=/gwf-publications/people/M/Mirco-Migliavacca/ data-uni=uni0074>Mirco Migliavacca</a>,
+<a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ data-uni=uni0013>Rachhpal S. Jassal</a>,
+<a href=/gwf-publications/people/J/Jinshi-Jian/ data-uni=uni0959>Jinshi Jian</a>,
+<a href=/gwf-publications/people/H/Haiming-Kan/ data-uni=uni0650>Haiming Kan</a>,
+<a href=/gwf-publications/people/J/Jason-P-Kaye/ data-uni=uni0051>Jason P. Kaye</a>,
+<a href=/gwf-publications/people/Y/Yuji-Kominami/ data-uni=uni0362>Yuji Kominami</a>,
+<a href=/gwf-publications/people/N/Naishen-Liang/ data-uni=uni0437>Naishen Liang</a>,
+<a href=/gwf-publications/people/D/David-A-Lipson/ data-uni=uni0201>David A. Lipson</a>,
+<a href=/gwf-publications/people/C/Catriona-A-Macdonald/ data-uni=uni0131>Catriona A. Macdonald</a>,
+<a href=/gwf-publications/people/K/Kadmiel-Maseyk/ data-uni=uni0156>Kadmiel Maseyk</a>,
+<a href=/gwf-publications/people/K/Kayla-Mathes/ data-uni=uni0308>Kayla Mathes</a>,
+<a href=/gwf-publications/people/M/Marguerite-Mauritz/ data-uni=uni0281>Marguerite Mauritz</a>,
+<a href=/gwf-publications/people/M/Melanie-A-Mayes/ data-uni=uni0096>Melanie A. Mayes</a>,
+<a href=/gwf-publications/people/S/Steven-G-McNulty/ data-uni=uni0424>Steven G. McNulty</a>,
+<a href=/gwf-publications/people/G/Guofang-Miao/ data-uni=uni0185>Guofang Miao</a>,
+<a href=/gwf-publications/people/M/Mirco-Migliavacca/ data-uni=uni0434>Mirco Migliavacca</a>,
 <a href=/gwf-publications/people/S/S-D-Miller/ data-uni=uni0620>S. D. Miller</a>,
-<a href=/gwf-publications/people/C/Chelcy-Ford-Miniat/ data-uni=uni0282>Chelcy Ford Miniat</a>,
-<a href=/gwf-publications/people/J/Jennifer-Goedhart-Nietz/ data-uni=uni0087>Jennifer Goedhart Nietz</a>,
-<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0023>Mats Nilsson</a>,
-<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0158>Asko Noormets</a>,
-<a href=/gwf-publications/people/H/Hamidreza-Norouzi/ data-uni=uni1519>Hamidreza Norouzi</a>,
-<a href=/gwf-publications/people/C/Christine-OConnell/ data-uni=uni0198>Christine O’Connell</a>,
-<a href=/gwf-publications/people/B/Bruce-Osborne/ data-uni=uni0635>Bruce Osborne</a>,
-<a href=/gwf-publications/people/C/Cecilio-Oyonarte/ data-uni=uni1520>Cecilio Oyonarte</a>,
-<a href=/gwf-publications/people/Z/Zhuo-Pang/ data-uni=uni0859>Zhuo Pang</a>,
+<a href=/gwf-publications/people/C/Chelcy-Ford-Miniat/ data-uni=uni0424>Chelcy Ford Miniat</a>,
+<a href=/gwf-publications/people/J/Jennifer-Goedhart-Nietz/ data-uni=uni0061>Jennifer Goedhart Nietz</a>,
+<a href=/gwf-publications/people/M/Mats-B-Nilsson/ data-uni=uni0023>Mats B. Nilsson</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0099>Asko Noormets</a>,
+<a href=/gwf-publications/people/H/H-Norouzi/ data-uni=uni1151>H. Norouzi</a>,
+<a href=/gwf-publications/people/C/Christine-S-OConnell/ data-uni=uni1152>Christine S. O’Connell</a>,
+<a href=/gwf-publications/people/B/Bruce-Osborne/ data-uni=uni0490>Bruce Osborne</a>,
+<a href=/gwf-publications/people/C/Cecilio-Oyonarte/ data-uni=uni1153>Cecilio Oyonarte</a>,
+<a href=/gwf-publications/people/Z/Zhuo-Pang/ data-uni=uni0650>Zhuo Pang</a>,
 <a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0023>Matthias Peichl</a>,
-<a href=/gwf-publications/people/E/Elise-Pendall/ data-uni=uni0183>Elise Pendall</a>,
-<a href=/gwf-publications/people/J/Jorge-F-PerezQuezada/ data-uni=uni0969>Jorge F. Perez‐Quezada</a>,
-<a href=/gwf-publications/people/C/Claire-L-Phillips/ data-uni=uni0176>Claire L. Phillips</a>,
-<a href=/gwf-publications/people/R/Richard-P-Phillips/ data-uni=uni0326>Richard P. Phillips</a>,
-<a href=/gwf-publications/people/J/James-W-Raich/ data-uni=uni1521>James W. Raich</a>,
-<a href=/gwf-publications/people/A/Alexandre-A-Renchon/ data-uni=uni0162>Alexandre A. Renchon</a>,
-<a href=/gwf-publications/people/N/Nadine-K-Ruehr/ data-uni=uni0088>Nadine K. Ruehr</a>,
-<a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchezCa%C3%B1ete/ data-uni=uni0866>Enrique P. Sánchez‐Cañete</a>,
-<a href=/gwf-publications/people/M/Matthew-Saunders/ data-uni=uni0247>Matthew Saunders</a>,
-<a href=/gwf-publications/people/K/K-E-Savage/ data-uni=uni0014>K. E. Savage</a>,
-<a href=/gwf-publications/people/M/Marion-Schrumpf/ data-uni=uni0032>Marion Schrumpf</a>,
-<a href=/gwf-publications/people/R/Russell-L-Scott/ data-uni=uni0209>Russell L. Scott</a>,
-<a href=/gwf-publications/people/U/Ulli-Seibt/ data-uni=uni0109>Ulli Seibt</a>,
-<a href=/gwf-publications/people/W/Whendee-L-Silver/ data-uni=uni0030>Whendee L. Silver</a>,
-<a href=/gwf-publications/people/W/Wu-Sun/ data-uni=uni0312>Wu Sun</a>,
-<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0030>Daphne Szutu</a>,
-<a href=/gwf-publications/people/K/Kentaro-Takagi/ data-uni=uni0126>Kentaro Takagi</a>,
-<a href=/gwf-publications/people/M/Masahiro-Takagi/ data-uni=uni0868>Masahiro Takagi</a>,
-<a href=/gwf-publications/people/M/Masaaki-Teramoto/ data-uni=uni1522>Masaaki Teramoto</a>,
-<a href=/gwf-publications/people/M/Mark-G-Tjoelker/ data-uni=uni0183>Mark G. Tjoelker</a>,
-<a href=/gwf-publications/people/S/Susan-E-Trumbore/ data-uni=uni0032>Susan E. Trumbore</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0094>Masahito Ueyama</a>,
-<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0322>Rodrigo Vargas</a>,
-<a href=/gwf-publications/people/R/R-K-Varner/ data-uni=uni0315>R. K. Varner</a>,
-<a href=/gwf-publications/people/J/Joseph-Verfaillie/ data-uni=uni0030>Joseph Verfaillie</a>,
-<a href=/gwf-publications/people/C/Christoph-S-Vogel/ data-uni=uni0078>Christoph S. Vogel</a>,
-<a href=/gwf-publications/people/J/Jinsong-Wang/ data-uni=uni0897>Jinsong Wang</a>,
-<a href=/gwf-publications/people/G/G-Winston/ data-uni=uni1523>G. Winston</a>,
-<a href=/gwf-publications/people/T/Tana-E-Wood/ data-uni=uni0026>Tana E. Wood</a>,
-<a href=/gwf-publications/people/J/Juying-Wu/ data-uni=uni0867>Juying Wu</a>,
-<a href=/gwf-publications/people/T/Thomas-Wutzler/ data-uni=uni0032>Thomas Wutzler</a>,
-<a href=/gwf-publications/people/J/Jiye-Zeng/ data-uni=uni1524>Jiye Zeng</a>,
-<a href=/gwf-publications/people/T/Tianshan-Zha/ data-uni=uni0456>Tianshan Zha</a>,
-<a href=/gwf-publications/people/Q/Quan-Zhang/ data-uni=uni1525>Quan Zhang</a>,
-<a href=/gwf-publications/people/J/Junliang-Zou/ data-uni=uni0867>Junliang Zou</a><br><a href=/gwf-publications/volumes/G20-208/ class=text-muted>Global Change Biology, Volume 26, Issue 12</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-208001><div class="card-body p-3 small">Globally, soils store two to three times as much carbon as currently resides in the atmosphere, and it is critical to understand how soil greenhouse gas (GHG) emissions and uptake will respond to ongoing climate change. In particular, the soil-to-atmosphere CO2 flux, commonly though imprecisely termed soil respiration (RS ), is one of the largest carbon fluxes in the Earth system. An increasing number of high-frequency RS measurements (typically, from an automated system with hourly sampling) have been made over the last two decades; an increasing number of methane measurements are being made with such systems as well. Such high frequency data are an invaluable resource for understanding GHG fluxes, but lack a central database or repository. Here we describe the lightweight, open-source COSORE (COntinuous SOil REspiration) database and software, that focuses on automated, continuous and long-term GHG flux datasets, and is intended to serve as a community resource for earth sciences, climate change syntheses and model evaluation. Contributed datasets are mapped to a single, consistent standard, with metadata on contributors, geographic location, measurement conditions and ancillary data. The design emphasizes the importance of reproducibility, scientific transparency and open access to data. While being oriented towards continuously measured RS , the database design accommodates other soil-atmosphere measurements (e.g. ecosystem respiration, chamber-measured net ecosystem exchange, methane fluxes) as well as experimental treatments (heterotrophic only, etc.). We give brief examples of the types of analyses possible using this new community resource and describe its accompanying R software package.</div></div></div><div class=col-lg-3><a class="btn btn-lg btn-secondary btn-block mb-2" href="https://www.semanticscholar.org/search?q=Amir+AghaKouchak" title="Search for 'Amir AghaKouchak' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class=pl-sm-2>Search</span></a><div class=row><div class="col-12 col-md-6 col-lg-12"><div class=card><h5 class=card-header>Co-authors</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ class=align-middle data-uni=uni0024>Simon Michael Papalexiou</a>
-<span class="badge badge-secondary align-middle ml-2">3</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laurie-S-Huning/ class=align-middle data-uni=uni0121>Laurie S. Huning</a>
-<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Omid-Mazdiyasni/ class=align-middle data-uni=uni0161>Omid Mazdiyasni</a>
-<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mojtaba-Sadegh/ class=align-middle data-uni=uni0131>Mojtaba Sadegh</a>
-<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Charlotte-Love/ class=align-middle data-uni=uni0121>Charlotte Love</a>
-<span class="badge badge-secondary align-middle ml-2">2</span></li><li class="list-group-item list-group-toggle-btn py-1" data-toggle=collapse data-target=#more-coauthors aria-expanded=false aria-controls=more-coauthors>show all...</li><div class="collapse border-top" id=more-coauthors><li class=list-group-item><a href=/gwf-publications/people/H/Heidi-Kreibich/ class=align-middle data-uni=uni0034>Heidi Kreibich</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anne-F-Van-Loon/ class=align-middle data-uni=uni0072>Anne F. Van Loon</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kai-Schr%C3%B6ter/ class=align-middle data-uni=uni1159>Kai Schröter</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Philip-J-Ward/ class=align-middle data-uni=uni0336>Philip J. Ward</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maurizio-Mazzoleni/ class=align-middle data-uni=uni0072>Maurizio Mazzoleni</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/N-Sairam/ class=align-middle data-uni=uni0034>N. Sairam</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guta-Wakbulcho-Abeshu/ class=align-middle data-uni=uni0090>Guta Wakbulcho Abeshu</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Svetlana-Agafonova/ class=align-middle data-uni=uni0301>Svetlana Agafonova</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hafzullah-Aksoy/ class=align-middle data-uni=uni0863>Hafzullah Aksoy</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Camila-%C3%81lvarez-Garret%C3%B3n/ class=align-middle data-uni=uni0797>Camila Álvarez-Garretón</a>
+<a href=/gwf-publications/people/E/Elise-Pendall/ data-uni=uni0131>Elise Pendall</a>,
+<a href=/gwf-publications/people/J/Jorge-F-P%C3%A9rezQuezada/ data-uni=uni0536>Jorge F. Pérez‐Quezada</a>,
+<a href=/gwf-publications/people/C/Claire-L-Phillips/ data-uni=uni0390>Claire L. Phillips</a>,
+<a href=/gwf-publications/people/R/Richard-P-Phillips/ data-uni=uni0203>Richard P. Phillips</a>,
+<a href=/gwf-publications/people/J/James-W-Raich/ data-uni=uni0685>James W. Raich</a>,
+<a href=/gwf-publications/people/A/Alexandre-A-Renchon/ data-uni=uni0131>Alexandre A. Renchon</a>,
+<a href=/gwf-publications/people/N/Nadine-K-Ruehr/ data-uni=uni0086>Nadine K. Ruehr</a>,
+<a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchezCa%C3%B1ete/ data-uni=uni0182>Enrique P. Sánchez‐Cañete</a>,
+<a href=/gwf-publications/people/M/Matthew-Saunders/ data-uni=uni0236>Matthew Saunders</a>,
+<a href=/gwf-publications/people/K/K-E-Savage/ data-uni=uni0019>K. E. Savage</a>,
+<a href=/gwf-publications/people/M/Marion-Schrumpf/ data-uni=uni0037>Marion Schrumpf</a>,
+<a href=/gwf-publications/people/R/Russell-L-Scott/ data-uni=uni0198>Russell L. Scott</a>,
+<a href=/gwf-publications/people/U/Ulli-Seibt/ data-uni=uni0140>Ulli Seibt</a>,
+<a href=/gwf-publications/people/W/Whendee-L-Silver/ data-uni=uni0038>Whendee L. Silver</a>,
+<a href=/gwf-publications/people/W/Wu-Sun/ data-uni=uni0510>Wu Sun</a>,
+<a href=/gwf-publications/people/D/Daphne-Szutu/ data-uni=uni0038>Daphne Szutu</a>,
+<a href=/gwf-publications/people/K/Kentaro-Takagi/ data-uni=uni0122>Kentaro Takagi</a>,
+<a href=/gwf-publications/people/M/Masahiro-Takagi/ data-uni=uni1618>Masahiro Takagi</a>,
+<a href=/gwf-publications/people/M/Munemasa-Teramoto/ data-uni=uni0437>Munemasa Teramoto</a>,
+<a href=/gwf-publications/people/M/Mark-G-Tjoelker/ data-uni=uni0131>Mark G. Tjoelker</a>,
+<a href=/gwf-publications/people/S/Susan-Trumbore/ data-uni=uni0037>Susan Trumbore</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0204>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/R/R-K-Varner/ data-uni=uni0045>R. K. Varner</a>,
+<a href=/gwf-publications/people/J/Joseph-Verfaillie/ data-uni=uni0038>Joseph Verfaillie</a>,
+<a href=/gwf-publications/people/C/Christoph-S-Vogel/ data-uni=uni0093>Christoph S. Vogel</a>,
+<a href=/gwf-publications/people/J/Jinsong-Wang/ data-uni=uni0955>Jinsong Wang</a>,
+<a href=/gwf-publications/people/G/G-Winston/ data-uni=uni1619>G. Winston</a>,
+<a href=/gwf-publications/people/T/Tana-E-Wood/ data-uni=uni1070>Tana E. Wood</a>,
+<a href=/gwf-publications/people/Z/Zhenhua-Wu/ data-uni=uni1003>Zhenhua Wu</a>,
+<a href=/gwf-publications/people/T/Thomas-Wutzler/ data-uni=uni0037>Thomas Wutzler</a>,
+<a href=/gwf-publications/people/J/Jiye-Zeng/ data-uni=uni0437>Jiye Zeng</a>,
+<a href=/gwf-publications/people/T/Tianshan-Zha/ data-uni=uni0777>Tianshan Zha</a>,
+<a href=/gwf-publications/people/Q/Quan-Zhang/ data-uni=uni1620>Quan Zhang</a>,
+<a href=/gwf-publications/people/J/Junliang-Zou/ data-uni=uni1154>Junliang Zou</a><br><a href=/gwf-publications/volumes/G20-208/ class=text-muted>Global Change Biology, Volume 26, Issue 12</a></span></p></div><div class="card bg-light mb-2 mb-lg-3 collapse abstract-collapse" id=abstract-G20-208001><div class="card-body p-3 small">Globally, soils store two to three times as much carbon as currently resides in the atmosphere, and it is critical to understand how soil greenhouse gas (GHG) emissions and uptake will respond to ongoing climate change. In particular, the soil-to-atmosphere CO2 flux, commonly though imprecisely termed soil respiration (RS ), is one of the largest carbon fluxes in the Earth system. An increasing number of high-frequency RS measurements (typically, from an automated system with hourly sampling) have been made over the last two decades; an increasing number of methane measurements are being made with such systems as well. Such high frequency data are an invaluable resource for understanding GHG fluxes, but lack a central database or repository. Here we describe the lightweight, open-source COSORE (COntinuous SOil REspiration) database and software, that focuses on automated, continuous and long-term GHG flux datasets, and is intended to serve as a community resource for earth sciences, climate change syntheses and model evaluation. Contributed datasets are mapped to a single, consistent standard, with metadata on contributors, geographic location, measurement conditions and ancillary data. The design emphasizes the importance of reproducibility, scientific transparency and open access to data. While being oriented towards continuously measured RS , the database design accommodates other soil-atmosphere measurements (e.g. ecosystem respiration, chamber-measured net ecosystem exchange, methane fluxes) as well as experimental treatments (heterotrophic only, etc.). We give brief examples of the types of analyses possible using this new community resource and describe its accompanying R software package.</div></div></div><div class=col-lg-3><a class="btn btn-lg btn-secondary btn-block mb-2" href="https://www.semanticscholar.org/search?q=Amir+AghaKouchak" title="Search for 'Amir AghaKouchak' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class=pl-sm-2>Search</span></a><div class=row><div class="col-12 col-md-6 col-lg-12"><div class=card><h5 class=card-header>Co-authors</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/people/S/Simon-Michael-Papalexiou/ class=align-middle data-uni=uni0022>Simon Michael Papalexiou</a>
+<span class="badge badge-secondary align-middle ml-2">7</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ class=align-middle data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>
+<span class="badge badge-secondary align-middle ml-2">5</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ class=align-middle data-uni=uni0014>Chandra Rupa Rajulapati</a>
+<span class="badge badge-secondary align-middle ml-2">5</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Martyn-Clark/ class=align-middle data-uni=uni0007>Martyn Clark</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Charles-H-Luce/ class=align-middle data-uni=uni0223>Charles H. Luce</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class="list-group-item list-group-toggle-btn py-1" data-toggle=collapse data-target=#more-coauthors aria-expanded=false aria-controls=more-coauthors>show all...</li><div class="collapse border-top" id=more-coauthors><li class=list-group-item><a href=/gwf-publications/people/W/Wouter-R-Berghuijs/ class=align-middle data-uni=uni0036>Wouter R. Berghuijs</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ class=align-middle data-uni=uni0026>Cédric H. David</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Qingyun-Duan/ class=align-middle data-uni=uni0307>Qingyun Duan</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shemin-Ge/ class=align-middle data-uni=uni1016>Shemin Ge</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Ilja-van-Meerveld/ class=align-middle data-uni=uni0089>Ilja van Meerveld</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chunmiao-Zheng/ class=align-middle data-uni=uni1017>Chunmiao Zheng</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-B-Parlange/ class=align-middle data-uni=uni1018>M. B. Parlange</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S-W-Tyler/ class=align-middle data-uni=uni0189>S. W. Tyler</a>
+<span class="badge badge-secondary align-middle ml-2">4</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laurie-S-Huning/ class=align-middle data-uni=uni0958>Laurie S. Huning</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Omid-Mazdiyasni/ class=align-middle data-uni=uni0106>Omid Mazdiyasni</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mojtaba-Sadegh/ class=align-middle data-uni=uni0145>Mojtaba Sadegh</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Charlotte-A-Love/ class=align-middle data-uni=uni0263>Charlotte A. Love</a>
+<span class="badge badge-secondary align-middle ml-2">2</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Heidi-Kreibich/ class=align-middle data-uni=uni0017>Heidi Kreibich</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anne-F-Van-Loon/ class=align-middle data-uni=uni0047>Anne F. Van Loon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kai-Schr%C3%B6ter/ class=align-middle data-uni=uni0696>Kai Schröter</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Philip-J-Ward/ class=align-middle data-uni=uni0047>Philip J. Ward</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maurizio-Mazzoleni/ class=align-middle data-uni=uni0047>Maurizio Mazzoleni</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nivedita-Sairam/ class=align-middle data-uni=uni0017>Nivedita Sairam</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guta-Wakbulcho-Abeshu/ class=align-middle data-uni=uni0067>Guta Wakbulcho Abeshu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%D0%A1/%D0%A1-%D0%90-%D0%90%D0%B3%D0%B0%D1%84%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0/ class=align-middle data-uni=uni1541>С. А. Агафонова</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hafzullah-Aksoy/ class=align-middle data-uni=uni1043>Hafzullah Aksoy</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Camila-%C3%81lvarez-Garret%C3%B3n/ class=align-middle data-uni=uni1542>Camila Álvarez-Garretón</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Blanca-Aznar/ class=align-middle data-uni=uni0000>Blanca Aznar</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laila-Balkhi/ class=align-middle data-uni=uni0003>Laila Balkhi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marlies-Barendrecht/ class=align-middle data-uni=uni0072>Marlies Barendrecht</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sylvain-Biancamaria/ class=align-middle data-uni=uni0911>Sylvain Biancamaria</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Liduin-Bos-Burgering/ class=align-middle data-uni=uni0336>Liduin Bos-Burgering</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chris-Bradley/ class=align-middle data-uni=uni0218>Chris Bradley</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yus-Budiyono/ class=align-middle data-uni=uni1161>Yus Budiyono</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wouter-Buytaert/ class=align-middle data-uni=uni0033>Wouter Buytaert</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lucinda-Capewell/ class=align-middle data-uni=uni0218>Lucinda Capewell</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Laila-Balkhi/ class=align-middle data-uni=uni0001>Laila Balkhi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marlies-Barendrecht/ class=align-middle data-uni=uni1012>Marlies Barendrecht</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sylvain-Biancamaria/ class=align-middle data-uni=uni0282>Sylvain Biancamaria</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Liduin-Bos-Burgering/ class=align-middle data-uni=uni0158>Liduin Bos-Burgering</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chris-Bradley/ class=align-middle data-uni=uni0110>Chris Bradley</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yus-Budiyono/ class=align-middle data-uni=uni1543>Yus Budiyono</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wouter-Buytaert/ class=align-middle data-uni=uni0374>Wouter Buytaert</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Lucinda-Capewell/ class=align-middle data-uni=uni0110>Lucinda Capewell</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hayley-Carlson/ class=align-middle data-uni=uni0003>Hayley Carlson</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yonca-Cavus/ class=align-middle data-uni=uni0345>Yonca Cavus</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Ana%C3%AFs-Couasnon/ class=align-middle data-uni=uni0336>Anaïs Couasnon</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gemma-Coxon/ class=align-middle data-uni=uni0116>Gemma Coxon</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Ioannis-%CE%9D-Daliakopoulos/ class=align-middle data-uni=uni1162>Ioannis Ν. Daliakopoulos</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marleen-de-Ruiter/ class=align-middle data-uni=uni0072>Marleen de Ruiter</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-Delus/ class=align-middle data-uni=uni1163>Claire Delus</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mathilde-Erfurt/ class=align-middle data-uni=uni0345>Mathilde Erfurt</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giuseppe-Esposito/ class=align-middle data-uni=uni1164>Giuseppe Esposito</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fran%C3%A7ois-Dagognet/ class=align-middle data-uni=uni0036>François Dagognet</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fr%C3%A9d%C3%A9ric-Frappart/ class=align-middle data-uni=uni0405>Frédéric Frappart</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jim-Freer/ class=align-middle data-uni=uni0001>Jim Freer</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Natalia-Frolova/ class=align-middle data-uni=uni1165>Natalia Frolova</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Animesh-K-Gain/ class=align-middle data-uni=uni1166>Animesh K. Gain</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Manolis-Grillakis/ class=align-middle data-uni=uni0783>Manolis Grillakis</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yonca-Cavus/ class=align-middle data-uni=uni1553>Yonca Cavus</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Ana%C3%AFs-Couasnon/ class=align-middle data-uni=uni0047>Anaïs Couasnon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Gemma-Coxon/ class=align-middle data-uni=uni0059>Gemma Coxon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Ioannis-%CE%9D-Daliakopoulos/ class=align-middle data-uni=uni1522>Ioannis Ν. Daliakopoulos</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marleen-de-Ruiter/ class=align-middle data-uni=uni0047>Marleen de Ruiter</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-Delus/ class=align-middle data-uni=uni1523>Claire Delus</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mathilde-Erfurt/ class=align-middle data-uni=uni0289>Mathilde Erfurt</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giuseppe-Esposito/ class=align-middle data-uni=uni1028>Giuseppe Esposito</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Didier-Fran%C3%A7ois/ class=align-middle data-uni=uni0461>Didier François</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fr%C3%A9d%C3%A9ric-Frappart/ class=align-middle data-uni=uni0150>Frédéric Frappart</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jim-Freer/ class=align-middle data-uni=uni0059>Jim Freer</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%D0%9D/%D0%9D-%D0%9B-%D0%A4%D1%80%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0/ class=align-middle data-uni=uni0310>Н. Л. Фролова</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Animesh-K-Gain/ class=align-middle data-uni=uni1096>Animesh K. Gain</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Manolis-Grillakis/ class=align-middle data-uni=uni1036>Manolis Grillakis</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jordi-Oriol-Grima/ class=align-middle data-uni=uni0000>Jordi Oriol Grima</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Diego-Alejandro-Guzm%C3%A1n-Arias/ class=align-middle data-uni=uni1167>Diego Alejandro Guzmán Arias</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Monica-Ionita/ class=align-middle data-uni=uni0100>Monica Ionita</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%D0%9C/%D0%9C-%D0%90-%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BE%D0%B2/ class=align-middle data-uni=uni0147>М. А. Харламов</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%C4%90/%C4%90%C3%A0o-Nguy%C3%AAn-Kh%C3%B4i/ class=align-middle data-uni=uni1170>Đào Nguyên Khôi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Natalie-Kieboom/ class=align-middle data-uni=uni0610>Natalie Kieboom</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maria-Kireeva/ class=align-middle data-uni=uni0301>Maria Kireeva</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Aristeidis-Koutroulis/ class=align-middle data-uni=uni0783>Aristeidis Koutroulis</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Waldo-LavadoCasimiro/ class=align-middle data-uni=uni1158>Waldo Lavado‐Casimiro</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hong-Yi-Li/ class=align-middle data-uni=uni1143>Hong Yi Li</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-C-Llasat/ class=align-middle data-uni=uni0880>M. C. Llasat</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-Macdonald/ class=align-middle data-uni=uni0294>David Macdonald</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Johanna-M%C3%A5rd/ class=align-middle data-uni=uni0388>Johanna Mård</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hannah-Mathew-Richards/ class=align-middle data-uni=uni0610>Hannah Mathew-Richards</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andrew-McKenzie/ class=align-middle data-uni=uni0294>Andrew McKenzie</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alfonso-Mej%C3%ADa/ class=align-middle data-uni=uni0044>Alfonso Mejía</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eduardo-M%C3%A1rio-Mendiondo/ class=align-middle data-uni=uni0481>Eduardo Mário Mendiondo</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marjolein-Mens/ class=align-middle data-uni=uni0336>Marjolein Mens</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shifteh-Mobini/ class=align-middle data-uni=uni1141>Shifteh Mobini</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guilherme-Samprogna-Mohor/ class=align-middle data-uni=uni0093>Guilherme Samprogna Mohor</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/V/Viorica-Nagavciuc/ class=align-middle data-uni=uni0100>Viorica Nagavciuc</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thanh-NgoDuc/ class=align-middle data-uni=uni1115>Thanh Ngo‐Duc</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thi-Thao-Nguyen-Huynh/ class=align-middle data-uni=uni0189>Thi Thao Nguyen Huynh</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pham-Thi-Thao-Nhi/ class=align-middle data-uni=uni0546>Pham Thi Thao Nhi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Olga-Petrucci/ class=align-middle data-uni=uni1116>Olga Petrucci</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/H%E1%BB%93ng-Qu%C3%A2n-Nguy%E1%BB%85n/ class=align-middle data-uni=uni0546>Hồng Quân Nguyễn</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pere-Quintana-Segu%C3%AD/ class=align-middle data-uni=uni1117>Pere Quintana-Seguí</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Saman-Razavi/ class=align-middle data-uni=uni0001>Saman Razavi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elena-Ridolfi/ class=align-middle data-uni=uni0204>Elena Ridolfi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jannik-Riegel/ class=align-middle data-uni=uni1119>Jannik Riegel</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Md-Shibly-Sadik/ class=align-middle data-uni=uni1120>Md. Shibly Sadik</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elisa-Savelli/ class=align-middle data-uni=uni0263>Elisa Savelli</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%D0%90/%D0%90-%D0%90-%D0%A1%D0%B0%D0%B7%D0%BE%D0%BD%D0%BE%D0%B2/ class=align-middle data-uni=uni0147>А. А. Сазонов</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sanjib-Sharma/ class=align-middle data-uni=uni1123>Sanjib Sharma</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Johanna-S%C3%B6rensen/ class=align-middle data-uni=uni0067>Johanna Sörensen</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Felipe-Augusto-Arguello-Souza/ class=align-middle data-uni=uni0903>Felipe Augusto Arguello Souza</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kerstin-Stahl/ class=align-middle data-uni=uni0345>Kerstin Stahl</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Max-Steinhausen/ class=align-middle data-uni=uni0034>Max Steinhausen</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-Stoelzle/ class=align-middle data-uni=uni0345>Michael Stoelzle</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wiwiana-Szali%C5%84ska/ class=align-middle data-uni=uni0319>Wiwiana Szalińska</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Qiuhong-Tang/ class=align-middle data-uni=uni0254>Qiuhong Tang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fuqiang-Tian/ class=align-middle data-uni=uni0850>Fuqiang Tian</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tamara-Tokarczyk/ class=align-middle data-uni=uni0319>Tamara Tokarczyk</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Carolina-Tovar/ class=align-middle data-uni=uni1124>Carolina Tovar</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thi-Van-Thu-Tran/ class=align-middle data-uni=uni0546>Thi Van Thu Tran</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/MHJ-van-Huijgevoort/ class=align-middle data-uni=uni0774>M.H.J. van Huijgevoort</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michelle-T-H-van-Vliet/ class=align-middle data-uni=uni0123>Michelle T. H. van Vliet</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sergiy-Vorogushyn/ class=align-middle data-uni=uni0034>Sergiy Vorogushyn</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thorsten-Wagener/ class=align-middle data-uni=uni0093>Thorsten Wagener</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yueling-Wang/ class=align-middle data-uni=uni1128>Yueling Wang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Doris-Wendt/ class=align-middle data-uni=uni0116>Doris Wendt</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elliot-Wickham/ class=align-middle data-uni=uni0065>Elliot Wickham</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Long-Yang/ class=align-middle data-uni=uni0658>Long Yang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mauricio-ZambranoBigiarini/ class=align-middle data-uni=uni0797>Mauricio Zambrano‐Bigiarini</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/G%C3%BCnter-Bl%C3%B6schl/ class=align-middle data-uni=uni0276>Günter Blöschl</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giuliano-Di-Baldassarre/ class=align-middle data-uni=uni0388>Giuliano Di Baldassarre</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Baoxiang-Pan/ class=align-middle data-uni=uni1133>Baoxiang Pan</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shakil-Jiwa/ class=align-middle data-uni=uni0121>Shakil Jiwa</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wenkai-Zhang/ class=align-middle data-uni=uni0121>Wenkai Zhang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shahrbanou-Madadgar/ class=align-middle data-uni=uni1134>Shahrbanou Madadgar</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steven-J-Davis/ class=align-middle data-uni=uni0121>Steven J. Davis</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kuolin-Hsu/ class=align-middle data-uni=uni0121>Kuolin Hsu</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Soroosh-Sorooshian/ class=align-middle data-uni=uni0161>Soroosh Sorooshian</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Felicia-Chiang/ class=align-middle data-uni=uni1695>Felicia Chiang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Iman-Mallakpour/ class=align-middle data-uni=uni0161>Iman Mallakpour</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hamed-Moftakhari/ class=align-middle data-uni=uni0251>Hamed Moftakhari</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elisa-Ragno/ class=align-middle data-uni=uni0156>Elisa Ragno</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Ben-BondLamberty/ class=align-middle data-uni=uni1508>Ben Bond‐Lamberty</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Danielle-Christianson/ class=align-middle data-uni=uni0026>Danielle Christianson</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Avni-Malhotra/ class=align-middle data-uni=uni0090>Avni Malhotra</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Stephanie-Pennington/ class=align-middle data-uni=uni0090>Stephanie Pennington</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Debjani-Sihi/ class=align-middle data-uni=uni0789>Debjani Sihi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hassan-Anjileli/ class=align-middle data-uni=uni0161>Hassan Anjileli</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Diego-Alejandro-Guzm%C3%A1n-Arias/ class=align-middle data-uni=uni1524>Diego Alejandro Guzmán Arias</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Monica-Ionita/ class=align-middle data-uni=uni0058>Monica Ionita</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maxim-Kharlamov/ class=align-middle data-uni=uni1525>Maxim Kharlamov</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/%C4%90/%C4%90%C3%A0o-Nguy%C3%AAn-Kh%C3%B4i/ class=align-middle data-uni=uni1056>Đào Nguyên Khôi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Natalie-Kieboom/ class=align-middle data-uni=uni0655>Natalie Kieboom</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Maria-Kireeva/ class=align-middle data-uni=uni0310>Maria Kireeva</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Aristeidis-Koutroulis/ class=align-middle data-uni=uni1036>Aristeidis Koutroulis</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Waldo-LavadoCasimiro/ class=align-middle data-uni=uni1557>Waldo Lavado‐Casimiro</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/HongYi-Li/ class=align-middle data-uni=uni0649>Hong‐Yi Li</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-C-Llasat/ class=align-middle data-uni=uni0782>M. C. Llasat</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-Macdonald/ class=align-middle data-uni=uni0359>David Macdonald</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Johanna-M%C3%A5rd/ class=align-middle data-uni=uni1558>Johanna Mård</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hannah-Mathew-Richards/ class=align-middle data-uni=uni0655>Hannah Mathew-Richards</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Andrew-McKenzie/ class=align-middle data-uni=uni0359>Andrew McKenzie</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alfonso-Mej%C3%ADa/ class=align-middle data-uni=uni0103>Alfonso Mejía</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eduardo-M%C3%A1rio-Mendiondo/ class=align-middle data-uni=uni0292>Eduardo Mário Mendiondo</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marjolein-Mens/ class=align-middle data-uni=uni0885>Marjolein Mens</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shifteh-Mobini/ class=align-middle data-uni=uni0040>Shifteh Mobini</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guilherme-Samprogna-Mohor/ class=align-middle data-uni=uni0243>Guilherme Samprogna Mohor</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/V/Viorica-Nagavciuc/ class=align-middle data-uni=uni0058>Viorica Nagavciuc</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thanh-NgoDuc/ class=align-middle data-uni=uni1559>Thanh Ngo‐Duc</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thi-Thao-Nguyen-Huynh/ class=align-middle data-uni=uni0378>Thi Thao Nguyen Huynh</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pham-Thi-Thao-Nhi/ class=align-middle data-uni=uni1056>Pham Thi Thao Nhi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Olga-Petrucci/ class=align-middle data-uni=uni1028>Olga Petrucci</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/H%E1%BB%93ng-Qu%C3%A2n-Nguy%E1%BB%85n/ class=align-middle data-uni=uni1057>Hồng Quân Nguyễn</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Pere-QuintanaSegu%C3%AD/ class=align-middle data-uni=uni1560>Pere Quintana‐Seguí</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Saman-Razavi/ class=align-middle data-uni=uni0003>Saman Razavi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elena-Ridolfi/ class=align-middle data-uni=uni0193>Elena Ridolfi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jannik-Riegel/ class=align-middle data-uni=uni1561>Jannik Riegel</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Md-Shibly-Sadik/ class=align-middle data-uni=uni1562>Md. Shibly Sadik</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elisa-Savelli/ class=align-middle data-uni=uni0285>Elisa Savelli</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alexey-Sazonov/ class=align-middle data-uni=uni0234>Alexey Sazonov</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sanjib-Sharma/ class=align-middle data-uni=uni1563>Sanjib Sharma</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Johanna-S%C3%B6rensen/ class=align-middle data-uni=uni0040>Johanna Sörensen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Felipe-Augusto-Arguello-Souza/ class=align-middle data-uni=uni0292>Felipe Augusto Arguello Souza</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kerstin-Stahl/ class=align-middle data-uni=uni0289>Kerstin Stahl</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Max-Steinhausen/ class=align-middle data-uni=uni0696>Max Steinhausen</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-Stoelzle/ class=align-middle data-uni=uni0289>Michael Stoelzle</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wiwiana-Szali%C5%84ska/ class=align-middle data-uni=uni0227>Wiwiana Szalińska</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Qiuhong-Tang/ class=align-middle data-uni=uni0055>Qiuhong Tang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Fuqiang-Tian/ class=align-middle data-uni=uni0345>Fuqiang Tian</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tamara-Tokarczyk/ class=align-middle data-uni=uni0227>Tamara Tokarczyk</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Carolina-Tovar/ class=align-middle data-uni=uni1564>Carolina Tovar</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thi-Van-Thu-Tran/ class=align-middle data-uni=uni1057>Thi Van Thu Tran</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/MHJ-van-Huijgevoort/ class=align-middle data-uni=uni0969>M.H.J. van Huijgevoort</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michelle-T-H-van-Vliet/ class=align-middle data-uni=uni0078>Michelle T. H. van Vliet</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Sergiy-Vorogushyn/ class=align-middle data-uni=uni0017>Sergiy Vorogushyn</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thorsten-Wagener/ class=align-middle data-uni=uni0243>Thorsten Wagener</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yueling-Wang/ class=align-middle data-uni=uni0102>Yueling Wang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Doris-E-Wendt/ class=align-middle data-uni=uni0059>Doris E. Wendt</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elliot-Wickham/ class=align-middle data-uni=uni0041>Elliot Wickham</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/L/Long-Yang/ class=align-middle data-uni=uni1565>Long Yang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mauricio-ZambranoBigiarini/ class=align-middle data-uni=uni0536>Mauricio Zambrano‐Bigiarini</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/G%C3%BCnter-Bl%C3%B6schl/ class=align-middle data-uni=uni0259>Günter Blöschl</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Giuliano-Di-Baldassarre/ class=align-middle data-uni=uni0285>Giuliano Di Baldassarre</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Baoxiang-Pan/ class=align-middle data-uni=uni1566>Baoxiang Pan</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shakil-Jiwa/ class=align-middle data-uni=uni0263>Shakil Jiwa</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wenkai-Zhang/ class=align-middle data-uni=uni0592>Wenkai Zhang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shahrbanou-Madadgar/ class=align-middle data-uni=uni1567>Shahrbanou Madadgar</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steven-J-Davis/ class=align-middle data-uni=uni0263>Steven J. Davis</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kuolin-Hsu/ class=align-middle data-uni=uni0106>Kuolin Hsu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Soroosh-Sorooshian/ class=align-middle data-uni=uni0106>Soroosh Sorooshian</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/F/Felicia-Chiang/ class=align-middle data-uni=uni1241>Felicia Chiang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Iman-Mallakpour/ class=align-middle data-uni=uni0263>Iman Mallakpour</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hamed-Moftakhari/ class=align-middle data-uni=uni0264>Hamed Moftakhari</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elisa-Ragno/ class=align-middle data-uni=uni0158>Elisa Ragno</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Ben-BondLamberty/ class=align-middle data-uni=uni1623>Ben Bond‐Lamberty</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Danielle-Christianson/ class=align-middle data-uni=uni0012>Danielle Christianson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Avni-Malhotra/ class=align-middle data-uni=uni0067>Avni Malhotra</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Stephanie-Pennington/ class=align-middle data-uni=uni0067>Stephanie Pennington</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Debjani-Sihi/ class=align-middle data-uni=uni0121>Debjani Sihi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hassan-Anjileli/ class=align-middle data-uni=uni0263>Hassan Anjileli</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-Altaf-Arain/ class=align-middle data-uni=uni0004>M. Altaf Arain</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Juan-J-Armest%C3%B3/ class=align-middle data-uni=uni0969>Juan J. Armestó</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Samaneh-Ashraf/ class=align-middle data-uni=uni0524>Samaneh Ashraf</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mioko-Ataka/ class=align-middle data-uni=uni0378>Mioko Ataka</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dennis-Baldocchi/ class=align-middle data-uni=uni0030>Dennis Baldocchi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/T-Andrew-Black/ class=align-middle data-uni=uni0017>T. Andrew Black</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nina-Buchmann/ class=align-middle data-uni=uni0035>Nina Buchmann</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mariah-S-Carbone/ class=align-middle data-uni=uni1509>Mariah S. Carbone</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shih-Chieh-Chang/ class=align-middle data-uni=uni1510>Shih Chieh Chang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Patrick-Crill/ class=align-middle data-uni=uni0089>Patrick Crill</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Peter-S-Curtis/ class=align-middle data-uni=uni0087>Peter S. Curtis</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eric-A-Davidson/ class=align-middle data-uni=uni0153>Eric A. Davidson</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Ankur-R-Desai/ class=align-middle data-uni=uni0095>Ankur R. Desai</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/John-E-Drake/ class=align-middle data-uni=uni0083>John E. Drake</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tarek-S-ElMadany/ class=align-middle data-uni=uni0032>Tarek S. El‐Madany</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-Gavazzi/ class=align-middle data-uni=uni1511>Michael Gavazzi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Carolyn-Monika-G%C3%B6rres/ class=align-middle data-uni=uni1512>Carolyn-Monika Görres</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christopher-M-Gough/ class=align-middle data-uni=uni0185>Christopher M. Gough</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-L-Goulden/ class=align-middle data-uni=uni0121>Michael L. Goulden</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jillian-W-Gregg/ class=align-middle data-uni=uni1513>Jillian W. Gregg</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/O-Guti%C3%A9rrez-del-Arroyo/ class=align-middle data-uni=uni1514>O. Gutiérrez del Arroyo</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jin-Sheng-He/ class=align-middle data-uni=uni1504>Jin Sheng He</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Takashi-Hirano/ class=align-middle data-uni=uni0126>Takashi Hirano</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anya-M-Hopple/ class=align-middle data-uni=uni0915>Anya M. Hopple</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Holly-Hughes/ class=align-middle data-uni=uni0435>Holly Hughes</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Juan-J-Armest%C3%B3/ class=align-middle data-uni=uni1624>Juan J. Armestó</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Samaneh-Ashraf/ class=align-middle data-uni=uni0008>Samaneh Ashraf</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mioko-Ataka/ class=align-middle data-uni=uni1139>Mioko Ataka</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Dennis-Baldocchi/ class=align-middle data-uni=uni0038>Dennis Baldocchi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/T-Andrew-Black/ class=align-middle data-uni=uni0013>T. Andrew Black</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nina-Buchmann/ class=align-middle data-uni=uni0036>Nina Buchmann</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mariah-S-Carbone/ class=align-middle data-uni=uni0016>Mariah S. Carbone</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/ShihChieh-Chang/ class=align-middle data-uni=uni1140>Shih‐Chieh Chang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/P-M-Crill/ class=align-middle data-uni=uni0168>P. M. Crill</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/P/Peter-S-Curtis/ class=align-middle data-uni=uni0061>Peter S. Curtis</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Eric-A-Davidson/ class=align-middle data-uni=uni1141>Eric A. Davidson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Ankur-R-Desai/ class=align-middle data-uni=uni0046>Ankur R. Desai</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/John-E-Drake/ class=align-middle data-uni=uni0131>John E. Drake</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tarek-S-ElMadany/ class=align-middle data-uni=uni0037>Tarek S. El‐Madany</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-Gavazzi/ class=align-middle data-uni=uni0223>Michael Gavazzi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/CarolynMonika-G%C3%B6rres/ class=align-middle data-uni=uni1142>Carolyn‐Monika Görres</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christopher-M-Gough/ class=align-middle data-uni=uni0308>Christopher M. Gough</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Michael-L-Goulden/ class=align-middle data-uni=uni0106>Michael L. Goulden</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jillian-W-Gregg/ class=align-middle data-uni=uni1143>Jillian W. Gregg</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/O/Omar-Guti%C3%A9rrez-del-Arroyo/ class=align-middle data-uni=uni1070>Omar Gutiérrez del Arroyo</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jin-He/ class=align-middle data-uni=uni1144>Jin He</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Takashi-Hirano/ class=align-middle data-uni=uni0122>Takashi Hirano</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Anya-M-Hopple/ class=align-middle data-uni=uni1145>Anya M. Hopple</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Holly-Hughes/ class=align-middle data-uni=uni0672>Holly Hughes</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/J%C3%A4rvi-J%C3%A4rveoja/ class=align-middle data-uni=uni0023>Järvi Järveoja</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ class=align-middle data-uni=uni0017>Rachhpal S. Jassal</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jinshi-Jian/ class=align-middle data-uni=uni1515>Jinshi Jian</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Haiming-Kan/ class=align-middle data-uni=uni0859>Haiming Kan</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jason-P-Kaye/ class=align-middle data-uni=uni0044>Jason P. Kaye</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yuji-Kominami/ class=align-middle data-uni=uni0607>Yuji Kominami</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Naishen-Liang/ class=align-middle data-uni=uni0304>Naishen Liang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-A-Lipson/ class=align-middle data-uni=uni0042>David A. Lipson</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Catriona-A-Macdonald/ class=align-middle data-uni=uni0183>Catriona A. Macdonald</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kadmiel-Maseyk/ class=align-middle data-uni=uni1517>Kadmiel Maseyk</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kayla-Mathes/ class=align-middle data-uni=uni0185>Kayla Mathes</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marguerite-Mauritz/ class=align-middle data-uni=uni0241>Marguerite Mauritz</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Melanie-A-Mayes/ class=align-middle data-uni=uni0080>Melanie A. Mayes</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steven-G-McNulty/ class=align-middle data-uni=uni0282>Steven G. McNulty</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guofang-Miao/ class=align-middle data-uni=uni1518>Guofang Miao</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mirco-Migliavacca/ class=align-middle data-uni=uni0074>Mirco Migliavacca</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Rachhpal-S-Jassal/ class=align-middle data-uni=uni0013>Rachhpal S. Jassal</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jinshi-Jian/ class=align-middle data-uni=uni0959>Jinshi Jian</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Haiming-Kan/ class=align-middle data-uni=uni0650>Haiming Kan</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jason-P-Kaye/ class=align-middle data-uni=uni0051>Jason P. Kaye</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Y/Yuji-Kominami/ class=align-middle data-uni=uni0362>Yuji Kominami</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Naishen-Liang/ class=align-middle data-uni=uni0437>Naishen Liang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/David-A-Lipson/ class=align-middle data-uni=uni0201>David A. Lipson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Catriona-A-Macdonald/ class=align-middle data-uni=uni0131>Catriona A. Macdonald</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kadmiel-Maseyk/ class=align-middle data-uni=uni0156>Kadmiel Maseyk</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kayla-Mathes/ class=align-middle data-uni=uni0308>Kayla Mathes</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marguerite-Mauritz/ class=align-middle data-uni=uni0281>Marguerite Mauritz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Melanie-A-Mayes/ class=align-middle data-uni=uni0096>Melanie A. Mayes</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Steven-G-McNulty/ class=align-middle data-uni=uni0424>Steven G. McNulty</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/Guofang-Miao/ class=align-middle data-uni=uni0185>Guofang Miao</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mirco-Migliavacca/ class=align-middle data-uni=uni0434>Mirco Migliavacca</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S-D-Miller/ class=align-middle data-uni=uni0620>S. D. Miller</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chelcy-Ford-Miniat/ class=align-middle data-uni=uni0282>Chelcy Ford Miniat</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jennifer-Goedhart-Nietz/ class=align-middle data-uni=uni0087>Jennifer Goedhart Nietz</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mats-Nilsson/ class=align-middle data-uni=uni0023>Mats Nilsson</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Asko-Noormets/ class=align-middle data-uni=uni0158>Asko Noormets</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hamidreza-Norouzi/ class=align-middle data-uni=uni1519>Hamidreza Norouzi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christine-OConnell/ class=align-middle data-uni=uni0198>Christine O’Connell</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bruce-Osborne/ class=align-middle data-uni=uni0635>Bruce Osborne</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Cecilio-Oyonarte/ class=align-middle data-uni=uni1520>Cecilio Oyonarte</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Z/Zhuo-Pang/ class=align-middle data-uni=uni0859>Zhuo Pang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chelcy-Ford-Miniat/ class=align-middle data-uni=uni0424>Chelcy Ford Miniat</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jennifer-Goedhart-Nietz/ class=align-middle data-uni=uni0061>Jennifer Goedhart Nietz</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mats-B-Nilsson/ class=align-middle data-uni=uni0023>Mats B. Nilsson</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Asko-Noormets/ class=align-middle data-uni=uni0099>Asko Noormets</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/H-Norouzi/ class=align-middle data-uni=uni1151>H. Norouzi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christine-S-OConnell/ class=align-middle data-uni=uni1152>Christine S. O’Connell</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/B/Bruce-Osborne/ class=align-middle data-uni=uni0490>Bruce Osborne</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Cecilio-Oyonarte/ class=align-middle data-uni=uni1153>Cecilio Oyonarte</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Z/Zhuo-Pang/ class=align-middle data-uni=uni0650>Zhuo Pang</a>
 <span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthias-Peichl/ class=align-middle data-uni=uni0023>Matthias Peichl</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elise-Pendall/ class=align-middle data-uni=uni0183>Elise Pendall</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jorge-F-PerezQuezada/ class=align-middle data-uni=uni0969>Jorge F. Perez‐Quezada</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-L-Phillips/ class=align-middle data-uni=uni0176>Claire L. Phillips</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Richard-P-Phillips/ class=align-middle data-uni=uni0326>Richard P. Phillips</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/James-W-Raich/ class=align-middle data-uni=uni1521>James W. Raich</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alexandre-A-Renchon/ class=align-middle data-uni=uni0162>Alexandre A. Renchon</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nadine-K-Ruehr/ class=align-middle data-uni=uni0088>Nadine K. Ruehr</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchezCa%C3%B1ete/ class=align-middle data-uni=uni0866>Enrique P. Sánchez‐Cañete</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthew-Saunders/ class=align-middle data-uni=uni0247>Matthew Saunders</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/K-E-Savage/ class=align-middle data-uni=uni0014>K. E. Savage</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marion-Schrumpf/ class=align-middle data-uni=uni0032>Marion Schrumpf</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Russell-L-Scott/ class=align-middle data-uni=uni0209>Russell L. Scott</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/U/Ulli-Seibt/ class=align-middle data-uni=uni0109>Ulli Seibt</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Whendee-L-Silver/ class=align-middle data-uni=uni0030>Whendee L. Silver</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wu-Sun/ class=align-middle data-uni=uni0312>Wu Sun</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Daphne-Szutu/ class=align-middle data-uni=uni0030>Daphne Szutu</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kentaro-Takagi/ class=align-middle data-uni=uni0126>Kentaro Takagi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masahiro-Takagi/ class=align-middle data-uni=uni0868>Masahiro Takagi</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masaaki-Teramoto/ class=align-middle data-uni=uni1522>Masaaki Teramoto</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mark-G-Tjoelker/ class=align-middle data-uni=uni0183>Mark G. Tjoelker</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Susan-E-Trumbore/ class=align-middle data-uni=uni0032>Susan E. Trumbore</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masahito-Ueyama/ class=align-middle data-uni=uni0094>Masahito Ueyama</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Rodrigo-Vargas/ class=align-middle data-uni=uni0322>Rodrigo Vargas</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/R-K-Varner/ class=align-middle data-uni=uni0315>R. K. Varner</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Joseph-Verfaillie/ class=align-middle data-uni=uni0030>Joseph Verfaillie</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christoph-S-Vogel/ class=align-middle data-uni=uni0078>Christoph S. Vogel</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jinsong-Wang/ class=align-middle data-uni=uni0897>Jinsong Wang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/G-Winston/ class=align-middle data-uni=uni1523>G. Winston</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tana-E-Wood/ class=align-middle data-uni=uni0026>Tana E. Wood</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Juying-Wu/ class=align-middle data-uni=uni0867>Juying Wu</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-Wutzler/ class=align-middle data-uni=uni0032>Thomas Wutzler</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jiye-Zeng/ class=align-middle data-uni=uni1524>Jiye Zeng</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tianshan-Zha/ class=align-middle data-uni=uni0456>Tianshan Zha</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Quan-Zhang/ class=align-middle data-uni=uni1525>Quan Zhang</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Junliang-Zou/ class=align-middle data-uni=uni0867>Junliang Zou</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Martyn-P-Clark/ class=align-middle data-uni=uni0007>Martyn P. Clark</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Charles-H-Luce/ class=align-middle data-uni=uni0292>Charles H. Luce</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wouter-Berghuijs/ class=align-middle data-uni=uni0869>Wouter Berghuijs</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/C%C3%A9dric-H-David/ class=align-middle data-uni=uni0019>Cédric H. David</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Qingyun-Duan/ class=align-middle data-uni=uni0497>Qingyun Duan</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Shemin-Ge/ class=align-middle data-uni=uni0351>Shemin Ge</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/I/Ilja-van-Meerveld/ class=align-middle data-uni=uni0122>Ilja van Meerveld</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kewei-Chen/ class=align-middle data-uni=uni1563>Kewei Chen</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/M-B-Parlange/ class=align-middle data-uni=uni0325>M. B. Parlange</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/S-W-Tyler/ class=align-middle data-uni=uni0579>S. W. Tyler</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/H/Hebatallah-Mohamed-Abdelmoaty/ class=align-middle data-uni=uni0007>Hebatallah Mohamed Abdelmoaty</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Chandra-Rupa-Rajulapati/ class=align-middle data-uni=uni0011>Chandra Rupa Rajulapati</a>
-<span class="badge badge-secondary align-middle ml-2">1</span></li></div></ul></div></div><div class="col-12 col-md-6 col-lg-12"><div class="card my-2 my-md-0 my-lg-2"><h5 class=card-header>Venues</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/venues/gwf/ class=align-middle>GWF</a><span class="badge badge-secondary align-middle ml-2">6</span></li></ul></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script></body></html>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Elise-Pendall/ class=align-middle data-uni=uni0131>Elise Pendall</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jorge-F-P%C3%A9rezQuezada/ class=align-middle data-uni=uni0536>Jorge F. Pérez‐Quezada</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Claire-L-Phillips/ class=align-middle data-uni=uni0390>Claire L. Phillips</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Richard-P-Phillips/ class=align-middle data-uni=uni0203>Richard P. Phillips</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/James-W-Raich/ class=align-middle data-uni=uni0685>James W. Raich</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/A/Alexandre-A-Renchon/ class=align-middle data-uni=uni0131>Alexandre A. Renchon</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/N/Nadine-K-Ruehr/ class=align-middle data-uni=uni0086>Nadine K. Ruehr</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/E/Enrique-P-S%C3%A1nchezCa%C3%B1ete/ class=align-middle data-uni=uni0182>Enrique P. Sánchez‐Cañete</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Matthew-Saunders/ class=align-middle data-uni=uni0236>Matthew Saunders</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/K-E-Savage/ class=align-middle data-uni=uni0019>K. E. Savage</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Marion-Schrumpf/ class=align-middle data-uni=uni0037>Marion Schrumpf</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Russell-L-Scott/ class=align-middle data-uni=uni0198>Russell L. Scott</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/U/Ulli-Seibt/ class=align-middle data-uni=uni0140>Ulli Seibt</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Whendee-L-Silver/ class=align-middle data-uni=uni0038>Whendee L. Silver</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/W/Wu-Sun/ class=align-middle data-uni=uni0510>Wu Sun</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/D/Daphne-Szutu/ class=align-middle data-uni=uni0038>Daphne Szutu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/K/Kentaro-Takagi/ class=align-middle data-uni=uni0122>Kentaro Takagi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masahiro-Takagi/ class=align-middle data-uni=uni1618>Masahiro Takagi</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Munemasa-Teramoto/ class=align-middle data-uni=uni0437>Munemasa Teramoto</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Mark-G-Tjoelker/ class=align-middle data-uni=uni0131>Mark G. Tjoelker</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/S/Susan-Trumbore/ class=align-middle data-uni=uni0037>Susan Trumbore</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/M/Masahito-Ueyama/ class=align-middle data-uni=uni0010>Masahito Ueyama</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/Rodrigo-Vargas/ class=align-middle data-uni=uni0204>Rodrigo Vargas</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/R/R-K-Varner/ class=align-middle data-uni=uni0045>R. K. Varner</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Joseph-Verfaillie/ class=align-middle data-uni=uni0038>Joseph Verfaillie</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/C/Christoph-S-Vogel/ class=align-middle data-uni=uni0093>Christoph S. Vogel</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jinsong-Wang/ class=align-middle data-uni=uni0955>Jinsong Wang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/G/G-Winston/ class=align-middle data-uni=uni1619>G. Winston</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tana-E-Wood/ class=align-middle data-uni=uni1070>Tana E. Wood</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Z/Zhenhua-Wu/ class=align-middle data-uni=uni1003>Zhenhua Wu</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Thomas-Wutzler/ class=align-middle data-uni=uni0037>Thomas Wutzler</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Jiye-Zeng/ class=align-middle data-uni=uni0437>Jiye Zeng</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/T/Tianshan-Zha/ class=align-middle data-uni=uni0777>Tianshan Zha</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/Q/Quan-Zhang/ class=align-middle data-uni=uni1620>Quan Zhang</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li><li class=list-group-item><a href=/gwf-publications/people/J/Junliang-Zou/ class=align-middle data-uni=uni1154>Junliang Zou</a>
+<span class="badge badge-secondary align-middle ml-2">1</span></li></div></ul></div></div><div class="col-12 col-md-6 col-lg-12"><div class="card my-2 my-md-0 my-lg-2"><h5 class=card-header>Venues</h5><ul class="list-group list-group-flush list-group-compact"><li class=list-group-item><a href=/gwf-publications/venues/gwf/ class=align-middle>GWF</a><span class="badge badge-secondary align-middle ml-2">9</span></li></ul></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script></body></html>

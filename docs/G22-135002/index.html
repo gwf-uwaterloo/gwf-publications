@@ -1,43 +1,43 @@
 <!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Causality guided machine learning model on wetland CH4 emissions across global wetlands - GWF Publications</title>
-<meta name=generator content="Hugo 0.124.1"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Causality guided machine learning model on wetland CH4 emissions across global wetlands" name=citation_title><meta content="Kunxiaojia Yuan" name=citation_author><meta content="Qing Zhu" name=citation_author><meta content="Fa Li" name=citation_author><meta content="William J. Riley" name=citation_author><meta content="M. S. Torn" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Min Chen" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Huayi Wu" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Hengbo Ma" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Hans Peter Schmid" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Mats Nilsson" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Joachim Jansen" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="Eugénie Euskirchen" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Zhenong Jin" name=citation_author><meta content="Licheng Liu" name=citation_author><meta content="Hiroyasu Iwata" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Agricultural and Forest Meteorology, Volume 324" name=citation_journal_title><meta content="324" name=citation_volume><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.1016/j.agrformet.2022.109115" name=citation_pdf_url><meta content="10.1016/j.agrformet.2022.109115" name=citation_doi><meta property="og:title" content="Causality guided machine learning model on wetland CH4 emissions across global wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-135002.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-28002"><meta property="og:description" content="Kunxiaojia Yuan, Qing Zhu, Fa Li, William J. Riley, M. S. Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hengbo Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, Eeva‐Stiina Tuittila, Gerald Jurasinski, Franziska Koebsch, David I. Campbell, Hans Peter Schmid, Annalea Lohila, Mathias Goeckede, Mats Nilsson, Thomas Friborg, Joachim Jansen, Donatella Zona, Eugénie Euskirchen, Eric J. Ward, Gil Bohrer, Zhenong Jin, Licheng Liu, Hiroyasu Iwata, Jordan P. Goodrich, Robert B. Jackson. Agricultural and Forest Meteorology, Volume 324. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
-</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002>Causality guided machine learning model on wetland CH4 emissions across global wetlands</a></h2><p class=lead><a href=/gwf-publications/people/K/Kunxiaojia-Yuan/ data-uni=uni0026>Kunxiaojia Yuan</a>,
-<a href=/gwf-publications/people/Q/Qing-Zhu/ data-uni=uni0026>Qing Zhu</a>,
-<a href=/gwf-publications/people/F/Fa-Li/ data-uni=uni0114>Fa Li</a>,
-<a href=/gwf-publications/people/W/William-J-Riley/ data-uni=uni0026>William J. Riley</a>,
-<a href=/gwf-publications/people/M/M-S-Torn/ data-uni=uni0030>M. S. Torn</a>,
-<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0026>Housen Chu</a>,
-<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0177>Gavin McNicol</a>,
-<a href=/gwf-publications/people/M/Min-Chen/ data-uni=uni0309>Min Chen</a>,
-<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0017>Sara Knox</a>,
-<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0030>Kyle Delwiche</a>,
-<a href=/gwf-publications/people/H/Huayi-Wu/ data-uni=uni0328>Huayi Wu</a>,
-<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0030>Dennis Baldocchi</a>,
-<a href=/gwf-publications/people/H/Hengbo-Ma/ data-uni=uni1051>Hengbo Ma</a>,
-<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0095>Ankur R. Desai</a>,
-<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0016>Jiquan Chen</a>,
-<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0034>Torsten Sachs</a>,
-<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0094>Masahito Ueyama</a>,
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Causality guided machine learning model on wetland CH4 emissions across global wetlands" name=citation_title><meta content="Kunxiaojia Yuan" name=citation_author><meta content="Qing Zhu" name=citation_author><meta content="Fa Li" name=citation_author><meta content="W. J. Riley" name=citation_author><meta content="Margaret Torn" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Gavin McNicol" name=citation_author><meta content="Min Chen" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Huayi Wu" name=citation_author><meta content="Dennis Baldocchi" name=citation_author><meta content="Hongxu Ma" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Hans Peter Schmid" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Mats B. Nilsson" name=citation_author><meta content="Thomas Friborg" name=citation_author><meta content="Joachim Jansen" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Gil Bohrer" name=citation_author><meta content="Zhenong Jin" name=citation_author><meta content="Licheng Liu" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="Agricultural and Forest Meteorology, Volume 324" name=citation_journal_title><meta content="324" name=citation_volume><meta content="2022" name=citation_publication_date><meta content="https://www.doi.org/10.1016/j.agrformet.2022.109115" name=citation_pdf_url><meta content="10.1016/j.agrformet.2022.109115" name=citation_doi><meta property="og:title" content="Causality guided machine learning model on wetland CH4 emissions across global wetlands"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G22-135002.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G22-28002"><meta property="og:description" content="Kunxiaojia Yuan, Qing Zhu, Fa Li, W. J. Riley, Margaret Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hongxu Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, Eeva‐Stiina Tuittila, Gerald Jurasinski, Franziska Koebsch, David I. Campbell, Hans Peter Schmid, Annalea Lohila, Mathias Goeckede, Mats B. Nilsson, Thomas Friborg, Joachim Jansen, Donatella Zona, E. S. Euskirchen, Eric J. Ward, Gil Bohrer, Zhenong Jin, Licheng Liu, Hiroki Iwata, Jordan P. Goodrich, Robert B. Jackson. Agricultural and Forest Meteorology, Volume 324. 2022."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002>Causality guided machine learning model on wetland CH4 emissions across global wetlands</a></h2><p class=lead><a href=/gwf-publications/people/K/Kunxiaojia-Yuan/ data-uni=uni0012>Kunxiaojia Yuan</a>,
+<a href=/gwf-publications/people/Q/Qing-Zhu/ data-uni=uni0012>Qing Zhu</a>,
+<a href=/gwf-publications/people/F/Fa-Li/ data-uni=uni0046>Fa Li</a>,
+<a href=/gwf-publications/people/W/W-J-Riley/ data-uni=uni0012>W. J. Riley</a>,
+<a href=/gwf-publications/people/M/Margaret-Torn/ data-uni=uni0012>Margaret Torn</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0012>Housen Chu</a>,
+<a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0103>Gavin McNicol</a>,
+<a href=/gwf-publications/people/M/Min-Chen/ data-uni=uni1041>Min Chen</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0013>Sara Knox</a>,
+<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0038>Kyle Delwiche</a>,
+<a href=/gwf-publications/people/H/Huayi-Wu/ data-uni=uni1020>Huayi Wu</a>,
+<a href=/gwf-publications/people/D/Dennis-Baldocchi/ data-uni=uni0038>Dennis Baldocchi</a>,
+<a href=/gwf-publications/people/H/Hongxu-Ma/ data-uni=uni0191>Hongxu Ma</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0046>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0054>Jiquan Chen</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0017>Torsten Sachs</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
 <a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0008>Oliver Sonnentag</a>,
-<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0045>Manuel Helbig</a>,
-<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0061>Eeva‐Stiina Tuittila</a>,
-<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0333>Gerald Jurasinski</a>,
-<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0091>Franziska Koebsch</a>,
-<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0164>David I. Campbell</a>,
-<a href=/gwf-publications/people/H/Hans-Peter-Schmid/ data-uni=uni0088>Hans Peter Schmid</a>,
-<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0020>Annalea Lohila</a>,
-<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0032>Mathias Goeckede</a>,
-<a href=/gwf-publications/people/M/Mats-Nilsson/ data-uni=uni0023>Mats Nilsson</a>,
-<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0060>Thomas Friborg</a>,
-<a href=/gwf-publications/people/J/Joachim-Jansen/ data-uni=uni0008>Joachim Jansen</a>,
-<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0042>Donatella Zona</a>,
-<a href=/gwf-publications/people/E/Eug%C3%A9nie-Euskirchen/ data-uni=uni0021>Eugénie Euskirchen</a>,
-<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0228>Eric J. Ward</a>,
-<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0087>Gil Bohrer</a>,
-<a href=/gwf-publications/people/Z/Zhenong-Jin/ data-uni=uni1079>Zhenong Jin</a>,
-<a href=/gwf-publications/people/L/Licheng-Liu/ data-uni=uni0199>Licheng Liu</a>,
-<a href=/gwf-publications/people/H/Hiroyasu-Iwata/ data-uni=uni0141>Hiroyasu Iwata</a>,
-<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0164>Jordan P. Goodrich</a>,
-<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0086>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Wetland CH4 emissions are among the most uncertain components of the global CH4 budget. The complex nature of wetland CH4 processes makes it challenging to identify causal relationships for improving our understanding and predictability of CH4 emissions. In this study, we used the flux measurements of CH4 from eddy covariance towers (30 sites from 4 wetlands types: bog, fen, marsh, and wet tundra) to construct a causality-constrained machine learning (ML) framework to explain the regulative factors and to capture CH4 emissions at sub-seasonal scale. We found that soil temperature is the dominant factor for CH4 emissions in all studied wetland types. Ecosystem respiration (CO2) and gross primary productivity exert controls at bog, fen, and marsh sites with lagged responses of days to weeks. Integrating these asynchronous environmental and biological causal relationships in predictive models significantly improved model performance. More importantly, modeled CH4 emissions differed by up to a factor of 4 under a +1°C warming scenario when causality constraints were considered. These results highlight the significant role of causality in modeling wetland CH4 emissions especially under future warming conditions, while traditional data-driven ML models may reproduce observations for the wrong reasons. Our proposed causality-guided model could benefit predictive modeling, large-scale upscaling, data gap-filling, and surrogate modeling of wetland CH4 emissions within earth system land models.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Kunxiaojia Yuan, Qing Zhu, Fa Li, William J. Riley, M. S. Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hengbo Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, et al.. 2022. Causality guided machine learning model on wetland CH4 emissions across global wetlands. <i>Agricultural and Forest Meteorology, Volume 324</i>, 324:109115.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0017>Manuel Helbig</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0044>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0255>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0081>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0239>David I. Campbell</a>,
+<a href=/gwf-publications/people/H/Hans-Peter-Schmid/ data-uni=uni0086>Hans Peter Schmid</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0037>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/M/Mats-B-Nilsson/ data-uni=uni0023>Mats B. Nilsson</a>,
+<a href=/gwf-publications/people/T/Thomas-Friborg/ data-uni=uni0271>Thomas Friborg</a>,
+<a href=/gwf-publications/people/J/Joachim-Jansen/ data-uni=uni0285>Joachim Jansen</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0070>Donatella Zona</a>,
+<a href=/gwf-publications/people/E/E-S-Euskirchen/ data-uni=uni0010>E. S. Euskirchen</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0024>Eric J. Ward</a>,
+<a href=/gwf-publications/people/G/Gil-Bohrer/ data-uni=uni0061>Gil Bohrer</a>,
+<a href=/gwf-publications/people/Z/Zhenong-Jin/ data-uni=uni0181>Zhenong Jin</a>,
+<a href=/gwf-publications/people/L/Licheng-Liu/ data-uni=uni0295>Licheng Liu</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni0118>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0270>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0072>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Wetland CH4 emissions are among the most uncertain components of the global CH4 budget. The complex nature of wetland CH4 processes makes it challenging to identify causal relationships for improving our understanding and predictability of CH4 emissions. In this study, we used the flux measurements of CH4 from eddy covariance towers (30 sites from 4 wetlands types: bog, fen, marsh, and wet tundra) to construct a causality-constrained machine learning (ML) framework to explain the regulative factors and to capture CH4 emissions at sub-seasonal scale. We found that soil temperature is the dominant factor for CH4 emissions in all studied wetland types. Ecosystem respiration (CO2) and gross primary productivity exert controls at bog, fen, and marsh sites with lagged responses of days to weeks. Integrating these asynchronous environmental and biological causal relationships in predictive models significantly improved model performance. More importantly, modeled CH4 emissions differed by up to a factor of 4 under a +1°C warming scenario when causality constraints were considered. These results highlight the significant role of causality in modeling wetland CH4 emissions especially under future warming conditions, while traditional data-driven ML models may reproduce observations for the wrong reasons. Our proposed causality-guided model could benefit predictive modeling, large-scale upscaling, data gap-filling, and surrogate modeling of wetland CH4 emissions within earth system land models.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Kunxiaojia Yuan, Qing Zhu, Fa Li, W. J. Riley, Margaret Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hongxu Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, et al.. 2022. Causality guided machine learning model on wetland CH4 emissions across global wetlands. <i>Agricultural and Forest Meteorology, Volume 324</i>, 324:109115.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
 <button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
@@ -48,8 +48,8 @@
     author = &#34;Yuan, Kunxiaojia  and
       Zhu, Qing  and
       Li, Fa  and
-      Riley, William J.  and
-      Torn, M. S.  and
+      Riley, W. J.  and
+      Torn, Margaret  and
       Chu, Housen  and
       McNicol, Gavin  and
       Chen, Min  and
@@ -57,7 +57,7 @@
       Delwiche, Kyle  and
       Wu, Huayi  and
       Baldocchi, Dennis  and
-      Ma, Hengbo  and
+      Ma, Hongxu  and
       Desai, Ankur R.  and
       Chen, Jiquan  and
       Sachs, Torsten  and
@@ -71,16 +71,16 @@
       Schmid, Hans Peter  and
       Lohila, Annalea  and
       Goeckede, Mathias  and
-      Nilsson, Mats  and
+      Nilsson, Mats B.  and
       Friborg, Thomas  and
       Jansen, Joachim  and
       Zona, Donatella  and
-      Euskirchen, Eug{\&#39;e}nie  and
+      Euskirchen, E. S.  and
       Ward, Eric J.  and
       Bohrer, Gil  and
       Jin, Zhenong  and
       Liu, Licheng  and
-      Iwata, Hiroyasu  and
+      Iwata, Hiroki  and
       Goodrich, Jordan P.  and
       Jackson, Robert B.&#34;,
     journal = &#34;Agricultural and Forest Meteorology, Volume 324&#34;,
@@ -121,7 +121,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;William&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
         &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Riley&lt;/namePart&gt;
         &lt;role&gt;
@@ -129,8 +129,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;M&lt;/namePart&gt;
-        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Margaret&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Torn&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -186,7 +185,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Hengbo&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hongxu&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Ma&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -288,6 +287,7 @@
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
         &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Nilsson&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -315,7 +315,8 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Eugénie&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -351,7 +352,7 @@
         &lt;/role&gt;
     &lt;/name&gt;
     &lt;name type=&#34;personal&#34;&gt;
-        &lt;namePart type=&#34;given&#34;&gt;Hiroyasu&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hiroki&lt;/namePart&gt;
         &lt;namePart type=&#34;family&#34;&gt;Iwata&lt;/namePart&gt;
         &lt;role&gt;
             &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
@@ -408,8 +409,8 @@
 %A Yuan, Kunxiaojia
 %A Zhu, Qing
 %A Li, Fa
-%A Riley, William J.
-%A Torn, M. S.
+%A Riley, W. J.
+%A Torn, Margaret
 %A Chu, Housen
 %A McNicol, Gavin
 %A Chen, Min
@@ -417,7 +418,7 @@
 %A Delwiche, Kyle
 %A Wu, Huayi
 %A Baldocchi, Dennis
-%A Ma, Hengbo
+%A Ma, Hongxu
 %A Desai, Ankur R.
 %A Chen, Jiquan
 %A Sachs, Torsten
@@ -431,16 +432,16 @@
 %A Schmid, Hans Peter
 %A Lohila, Annalea
 %A Goeckede, Mathias
-%A Nilsson, Mats
+%A Nilsson, Mats B.
 %A Friborg, Thomas
 %A Jansen, Joachim
 %A Zona, Donatella
-%A Euskirchen, Eugénie
+%A Euskirchen, E. S.
 %A Ward, Eric J.
 %A Bohrer, Gil
 %A Jin, Zhenong
 %A Liu, Licheng
-%A Iwata, Hiroyasu
+%A Iwata, Hiroki
 %A Goodrich, Jordan P.
 %A Jackson, Robert B.
 %J Agricultural and Forest Meteorology, Volume 324
@@ -455,5 +456,5 @@
 %P 109115
 
 </pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G22-135002.endf><i class="fas fa-download pr-2"></i>Download as File</a>
-<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Causality guided machine learning model on wetland CH4 emissions across global wetlands](https://gwf-uwaterloo.github.io/gwf-publications/G22-28002) (Yuan et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002>Causality guided machine learning model on wetland CH4 emissions across global wetlands</a> (Yuan et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Kunxiaojia Yuan, Qing Zhu, Fa Li, William J. Riley, M. S. Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hengbo Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, et al.. 2022. Causality guided machine learning model on wetland CH4 emissions across global wetlands. <i>Agricultural and Forest Meteorology, Volume 324</i>, 324:109115.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Causality guided machine learning model on wetland CH4 emissions across global wetlands](https://gwf-uwaterloo.github.io/gwf-publications/G22-28002) (Yuan et al., GWF 2022)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G22-28002>Causality guided machine learning model on wetland CH4 emissions across global wetlands</a> (Yuan et al., GWF 2022)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Kunxiaojia Yuan, Qing Zhu, Fa Li, W. J. Riley, Margaret Torn, Housen Chu, Gavin McNicol, Min Chen, Sara Knox, Kyle Delwiche, Huayi Wu, Dennis Baldocchi, Hongxu Ma, Ankur R. Desai, Jiquan Chen, Torsten Sachs, Masahito Ueyama, Oliver Sonnentag, Manuel Helbig, et al.. 2022. Causality guided machine learning model on wetland CH4 emissions across global wetlands. <i>Agricultural and Forest Meteorology, Volume 324</i>, 324:109115.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
 <button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>
