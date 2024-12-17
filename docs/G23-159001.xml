@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Attiah-2023-Four">
+    <titleInfo>
+        <title>Four decades of lake surface temperature in the Northwest Territories, Canada, using a lake-specific satellite-derived dataset</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Gifty</namePart>
+        <namePart type="family">Attiah</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Homa</namePart>
+        <namePart type="given">Kheyrollah</namePart>
+        <namePart type="family">Pour</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">K</namePart>
+        <namePart type="given">Andrea</namePart>
+        <namePart type="family">Scott</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Journal of Hydrology: Regional Studies, Volume 50</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>This study analyzed lake surface temperature (LST) trends and spatial distribution across 535 predominantly small to medium lakes across the North Slave Region (NSR) of the Northwest Territories (NWT), Canada. The NWT is characterized by a vast number of lakes covering a significant portion of its spatial extent. However, there is limited knowledge of how LST responds to climate warming in this region. To address this, LST was analyzed in four distinct periods: open water season (OW), ice cover season (IC), and the transitional months of May (TM) and October (TO). LSTs from 1984 to 2021 were retrieved from a lake-specific satellite-derived LST dataset (North Slave LST). LST trend distribution and relationships were analyzed using the Mann-Kendall test and a multilinear regression model. The analysis revealed an overall increase in LST, with average rates (max) of 0.03 °C/year (0.05 °C/year), 0.03 °C/year (0.06 °C/year), and 0.13 °C/year (0.27 °C/year) for OW, TM, and TO, respectively accross study lakes. A faster rate of change was observed in October compared to other periods. Results indicated significant increases in LST for 411 lakes (77%) during OW, 418 lakes (78%) during TO, and 490 lakes (92%) during TM. The spatial distribution and magnitude of LST change were primarily influenced by geographical than morphometric properties. The analysis demonstrated later freeze-up (0.20 day/year) and earlier break-up (−0.17 day/year) of lake ice across the NSR.</abstract>
+    <identifier type="citekey">Attiah-2023-Four</identifier>
+    <identifier type="doi">10.1016/j.ejrh.2023.101571</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-37001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>50</number></detail>
+        <detail type="page"><number>101571</number></detail>
+    </part>
+</mods>
+</modsCollection>

@@ -1,0 +1,16 @@
+﻿%0 Journal Article
+%T Bias-Corrected RADARSAT-2 Soil Moisture Dynamics Reveal Discharge Hysteresis at An Agricultural Watershed
+%A Lee, Ju Hyoung
+%A Lindenschmidt, Karl‐Erich
+%J Remote Sensing, Volume 15, Issue 10
+%D 2023
+%V 15
+%N 10
+%I MDPI AG
+%F Lee-2023-Bias-Corrected
+%X Satellites are designed to monitor geospatial data over large areas at a catchment scale. However, most of satellite validation works are conducted at local point scales with a lack of spatial representativeness. Although upscaling them with a spatial average of several point data collected in the field, it is almost impossible to reorganize backscattering responses at pixel scales. Considering the influence of soil storage on watershed streamflow, we thus suggested watershed-scale hydrological validation. In addition, to overcome the limitations of backscattering models that are widely used for C-band Synthetic Aperture Radar (SAR) soil moisture but applied to bare soils only, in this study, RADARSAT-2 soil moisture was stochastically retrieved to correct vegetation effects arising from agricultural lands. Roughness-corrected soil moisture retrievals were assessed at various spatial scales over the Brightwater Creek basin (land cover: crop lands, gross drainage area: 1540 km2) in Saskatchewan, Canada. At the point scale, local station data showed that the Root Mean Square Errors (RMSEs), Unbiased RMSEs (ubRMSEs) and biases of Radarsat-2 were 0.06~0.09 m3/m3, 0.04~0.08 m3/m3 and 0.01~0.05 m3/m3, respectively, while 1 km Soil Moisture Active Passive (SMAP) showed underestimation at RMSEs of 0.1~0.22 m3/m3 and biases of −0.036~−0.2080 m3/m3. Although SMAP soil moisture better distinguished the contributing area at the catchment scale, Radarsat-2 soil moisture showed a better discharge hysteresis. A reliable estimation of the soil storage dynamics is more important for discharge forecasting than a static classification of contributing and noncontributing areas.
+%R 10.3390/rs15102677
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-46001
+%U https://doi.org/10.3390/rs15102677
+%P 2677
+

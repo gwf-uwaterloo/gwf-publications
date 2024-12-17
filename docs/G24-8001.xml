@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Wei-2024-The">
+    <titleInfo>
+        <title>The effect of splitting strategy on qualitative property preservation</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Siqi</namePart>
+        <namePart type="family">Wei</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2024</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Numerical Algorithms, Volume 96, Issue 3</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Springer Science and Business Media LLC</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Wei-2024-The</identifier>
+    <identifier type="doi">10.1007/s11075-023-01730-7</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G24-4001</url>
+    </location>
+    <part>
+        <date>2024</date>
+        <detail type="volume"><number>96</number></detail>
+        <detail type="issue"><number>3</number></detail>
+        <extent unit="page">
+            <start>1391</start>
+            <end>1421</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

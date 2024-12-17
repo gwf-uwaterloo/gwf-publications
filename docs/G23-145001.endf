@@ -1,0 +1,27 @@
+﻿%0 Journal Article
+%T A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)
+%A Qu, Bo
+%A Roy, Alexandre
+%A Melton, Joe R.
+%A Black, T. Andrew
+%A Amiro, B. D.
+%A Euskirchen, E. S.
+%A Ueyama, Masahito
+%A Kobayashi, Hideki
+%A Schulze, Christopher
+%A Gosselin, Gabriel Hould
+%A Cannon, Alex J.
+%A Detto, Matteo
+%A Sonnentag, Oliver
+%J Environmental Research Letters, Volume 18, Issue 8
+%D 2023
+%V 18
+%N 8
+%I IOP Publishing
+%F Qu-2023-A
+%X Abstract Climate change is rapidly altering composition, structure, and functioning of the boreal biome, across North America often broadly categorized into ecoregions. The resulting complex changes in different ecoregions present a challenge for efforts to accurately simulate carbon dioxide (CO 2 ) and energy exchanges between boreal forests and the atmosphere with terrestrial ecosystem models (TEMs). Eddy covariance measurements provide valuable information for evaluating the performance of TEMs and guiding their development. Here, we compiled a boreal forest model benchmarking dataset for North America by harmonizing eddy covariance and supporting measurements from eight black spruce ( Picea mariana )-dominated, mature forest stands. The eight forest stands, located in six boreal ecoregions of North America, differ in stand characteristics, disturbance history, climate, permafrost conditions and soil properties. By compiling various data streams, the benchmarking dataset comprises data to parameterize, force, and evaluate TEMs. Specifically, it includes half-hourly, gap-filled meteorological forcing data, ancillary data essential for model parameterization, and half-hourly, gap-filled or partitioned component flux data on CO 2 (net ecosystem production, gross primary production [GPP], and ecosystem respiration [ER]) and energy (latent [LE] and sensible heat [H]) and their daily aggregates screened based on half-hourly gap-filling quality criteria. We present a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) to: (1) demonstrate the utility of our dataset to benchmark TEMs and (2) provide guidance for model development and refinement. Model skill was evaluated using several statistical metrics and further examined through the flux responses to their environmental controls. Our results suggest that CLASSIC tended to overestimate GPP and ER among all stands. Model performance regarding the energy fluxes (i.e., LE and H) varied greatly among the stands and exhibited a moderate correlation with latitude. We identified strong relationships between simulated fluxes and their environmental controls except for H, thus highlighting current strengths and limitations of CLASSIC.
+%R 10.1088/1748-9326/ace376
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-22001
+%U https://doi.org/10.1088/1748-9326/ace376
+%P 085002
+

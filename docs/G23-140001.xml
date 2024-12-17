@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Aziz-2023-Comparative">
+    <titleInfo>
+        <title>Comparative Valuation of Three Ecosystem Services in a Canadian Watershed Using Global, Regional, and Local Unit Values</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Tariq</namePart>
+        <namePart type="family">Aziz</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Alain‐Désiré</namePart>
+        <namePart type="family">Nimubona</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Sustainability, Volume 15, Issue 14</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Economic valuations of ecosystem services often transfer previously estimated global unit values to the geographical setting of interest. While this approach produces quick results, its reliability depends on how representative the large-scale average unit values are for the given local context. Here, we estimate the values of three ecosystem services (ES)—water filtration, nutrient cycling, and carbon sequestration—in the Grand River watershed (GRW) of southern Ontario, Canada. The watershed covers nearly 7000 km2, has a humid continental climate and a population of close to one million people. Land cover is dominated by agriculture. We compare ES valuations using locally derived (i.e., GRW-specific) unit values to valuations based on unit values from a regional database and those compiled in the global Ecosystem Services Valuation Database (ESVD). The regional database includes mean unit values from three case studies within southern Ontario and one boreal watershed in British Columbia. As expected, the regional database yields average monetary values for the three ES that are close to those obtained using the local unit values but with larger associated uncertainties. Using the ESVD, however, results in significantly higher monetary values for the ES. For water filtration, the ESVD value is more than five times higher than the regional and local estimates. We further illustrate the effect of the extent of aggregation of forested and agricultural land categories on the ES values. For example, by subdividing the forest category into three subcategories (deciduous, coniferous, and mixed forest), the estimated value of the carbon sequestration service from forested areas within the GRW decreases by 7%. Overall, our results emphasize the importance of critically assessing the origin of unit values and the land cover resolution in ES valuation, especially when ES valuation is used as a policy-guiding tool.</abstract>
+    <identifier type="citekey">Aziz-2023-Comparative</identifier>
+    <identifier type="doi">10.3390/su151411024</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-17001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>14</number></detail>
+        <detail type="page"><number>11024</number></detail>
+    </part>
+</mods>
+</modsCollection>

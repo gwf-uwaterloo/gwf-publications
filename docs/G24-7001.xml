@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Klenk-2024-Improving">
+    <titleInfo>
+        <title>Improving resource utilization and fault tolerance in large simulations via actors</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Kyle</namePart>
+        <namePart type="family">Klenk</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Raymond</namePart>
+        <namePart type="given">J</namePart>
+        <namePart type="family">Spiteri</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2024</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Cluster Computing, Volume 27, Issue 5</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Springer Science and Business Media LLC</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <identifier type="citekey">Klenk-2024-Improving</identifier>
+    <identifier type="doi">10.1007/s10586-024-04318-5</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G24-3001</url>
+    </location>
+    <part>
+        <date>2024</date>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>5</number></detail>
+        <extent unit="page">
+            <start>6323</start>
+            <end>6340</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

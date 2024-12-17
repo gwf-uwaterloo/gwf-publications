@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Woldegiorgis-2023-Impacts">
+    <titleInfo>
+        <title>Impacts of Uncontrolled Operator Splitting Methods on Parameter Identification, Prediction Uncertainty, and Subsurface Flux Representation in Conceptual Hydrological Models</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Befekadu</namePart>
+        <namePart type="given">Taddesse</namePart>
+        <namePart type="family">Woldegiorgis</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Helen</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Baulch</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">H</namePart>
+        <namePart type="given">S</namePart>
+        <namePart type="family">Wheater</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Jill</namePart>
+        <namePart type="family">Crossman</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Martyn</namePart>
+        <namePart type="family">Clark</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Tricia</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Stadnyk</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">A</namePart>
+        <namePart type="given">R</namePart>
+        <namePart type="family">Bajracharya</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Water Resources Research, Volume 59, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract The proper numerical representation of physical processes in mechanistic hydrological models is essential to produce robust predictions. A common problem with numerical schemes in hydrological models is that multiple concurrent fluxes are calculated sequentially. Although the importance of errors introduced by inappropriate numerical schemes is well recognized in the literature, many hydrological models calculate concurrent fluxes sequentially. Here, two versions of the HYPE model are used to investigate the limitations of sequential calculations. A fourth order Gear‐Nordsieck solution of the continuous state‐space formulation of HYPE (I‐HYPE) is developed to provide a robust solution, and a fixed‐step implicit Euler scheme (IE‐HYPE) is implemented to provide a computationally efficient and robust approximation of the I‐HYPE simulations. In contrast to I‐HYPE, results show that the original HYPE and the sequential calculation implemented in the continuous state‐space formulation of HYPE (SQ‐HYPE) typically simulate no interflow when soil moisture levels exceed the field capacity. The discrepancy between SQ‐HYPE and I‐HYPE grows with the size of the computation time step, and this implies a compromised representation of flow paths by sequential schemes. IE‐HYPE provides responses comparable with I‐HYPE for both daily and hourly time steps. IE‐HYPE and SQ‐HYPE are compared in terms of their groundwater representation, parameter identifiability, and predictive skills for two catchments. The sequential models have larger groundwater contributions to flow than IE‐HYPE because the splitting errors in SQ‐HYPE limit the interflow flux. IE‐HYPE estimates of the groundwater flux are more consistent with literature values of groundwater contributions to flow for the basins studied.</abstract>
+    <identifier type="citekey">Woldegiorgis-2023-Impacts</identifier>
+    <identifier type="doi">10.1029/2022wr033250</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-41001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>59</number></detail>
+        <detail type="issue"><number>7</number></detail>
+    </part>
+</mods>
+</modsCollection>

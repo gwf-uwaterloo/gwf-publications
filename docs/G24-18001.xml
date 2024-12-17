@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Shahvaran-2024-Comparative">
+    <titleInfo>
+        <title>Comparative Evaluation of Semi-Empirical Approaches to Retrieve Satellite-Derived Chlorophyll-a Concentrations from Nearshore and Offshore Waters of a Large Lake (Lake Ontario)</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ali</namePart>
+        <namePart type="given">Reza</namePart>
+        <namePart type="family">Shahvaran</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Homa</namePart>
+        <namePart type="given">Kheyrollah</namePart>
+        <namePart type="family">Pour</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Philippe</namePart>
+        <namePart type="given">Van</namePart>
+        <namePart type="family">Cappellen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2024</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 16, Issue 9</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Chlorophyll-a concentration (Chl-a) is commonly used as a proxy for phytoplankton abundance in surface waters of large lakes. Mapping spatial and temporal Chl-a distributions derived from multispectral satellite data is therefore increasingly popular for monitoring trends in trophic state of these important ecosystems. We evaluated products of eleven atmospheric correction processors (LEDAPS, LaSRC, Sen2Cor, ACOLITE, ATCOR, C2RCC, DOS 1, FLAASH, iCOR, Polymer, and QUAC) and 27 reflectance indexes (including band-ratio, three-band, and four-band algorithms) recommended for Chl-a concentration retrieval. These were applied to the western basin of Lake Ontario by pairing 236 satellite scenes from Landsat 5, 7, 8, and Sentinel-2 acquired between 2000 and 2022 to 600 near-synchronous and co-located in situ-measured Chl-a concentrations. The in situ data were categorized based on location, seasonality, and Carlson’s Trophic State Index (TSI). Linear regression Chl-a models were calibrated for each processing scheme plus data category. The models were compared using a range of performance metrics. Categorization of data based on trophic state yielded improved outcomes. Furthermore, Sentinel-2 and Landsat 8 data provided the best results, while Landsat 5 and 7 underperformed. A total of 28 Chl-a models were developed across the different data categorization schemes, with RMSEs ranging from 1.1 to 14.1 μg/L. ACOLITE-corrected images paired with the blue-to-green band ratio emerged as the generally best performing scheme. However, model performance was dependent on the data filtration practices and varied between satellites.</abstract>
+    <identifier type="citekey">Shahvaran-2024-Comparative</identifier>
+    <identifier type="doi">10.3390/rs16091595</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G24-14001</url>
+    </location>
+    <part>
+        <date>2024</date>
+        <detail type="volume"><number>16</number></detail>
+        <detail type="issue"><number>9</number></detail>
+        <detail type="page"><number>1595</number></detail>
+    </part>
+</mods>
+</modsCollection>

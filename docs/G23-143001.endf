@@ -1,0 +1,18 @@
+﻿%0 Journal Article
+%T GPTCloneBench: A comprehensive benchmark of semantic clones and cross-language clones using GPT-3 model and SemanticCloneBench
+%A Alam, Ajmain Inqiad
+%A Roy, Palash Ranjan
+%A Al-omari, Farouq
+%A Roy, Chanchal K.
+%A Roy, Banani
+%A Schneider, Kevin A.
+%J 2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+%D 2023
+%I IEEE
+%F Alam-2023-GPTCloneBench:
+%X With the emergence of Machine Learning, there has been a surge in leveraging its capabilities for problem-solving across various domains. In the code clone realm, the identification of type-4 or semantic clones has emerged as a crucial yet challenging task. Researchers aim to utilize Machine Learning to tackle this challenge, often relying on the Big-CloneBench dataset. However, it’s worth noting that BigCloneBench, originally not designed for semantic clone detection, presents several limitations that hinder its suitability as a comprehensive training dataset for this specific purpose. Furthermore, CLCDSA dataset suffers from a lack of reusable examples aligning with real-world software systems, rendering it inadequate for cross-language clone detection approaches. In this work, we present a comprehensive semantic clone and cross-language clone benchmark, GPTCloneBench \textlesssup xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater1\textless/sup\textgreater by exploiting SemanticCloneBench and OpenAI’s GPT-3 model. In particular, using code fragments from SemanticCloneBench as sample inputs along with appropriate prompt engineering for GPT-3 model, we generate semantic and cross-language clones for these specific fragments and then conduct a combination of extensive manual analysis, tool-assisted filtering, functionality testing and automated validation in building the benchmark. From 79,928 clone pairs of GPT-3 output, we created a benchmark with 37,149 true semantic clone pairs, 19,288 false semantic pairs(Type-1/Type-2), and 20,770 cross-language clones across four languages (Java, C, C#, and Python). Our benchmark is 15-fold larger than SemanticCloneBench, has more functional code examples for software systems and programming language support than CLCDSA, and overcomes BigCloneBench’s qualities, quantification, and language variety limitations. GPTCloneBench can be found here \textlesssup xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater1\textless/sup\textgreater .
+%R 10.1109/icsme58846.2023.00013
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-20001
+%U https://doi.org/10.1109/icsme58846.2023.00013
+%P 1-13
+

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Merchant-2023-Leveraging">
+    <titleInfo>
+        <title>Leveraging google earth engine cloud computing for large-scale arctic wetland mapping</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Michael</namePart>
+        <namePart type="family">Merchant</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Brian</namePart>
+        <namePart type="family">Brisco</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Masoud</namePart>
+        <namePart type="family">Mahdianpari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Laura</namePart>
+        <namePart type="family">Bourgeau‐Chavez</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="family">Murnaghan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ben</namePart>
+        <namePart type="family">DeVries</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Aaron</namePart>
+        <namePart type="family">Berg</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>International Journal of Applied Earth Observation and Geoinformation, Volume 125</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Elsevier BV</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Climate-driven permafrost degradation and an intensification of the hydrological cycle are rapidly altering the intricate ecohydrological processes of Arctic wetlands, threatening their long-term carbon sequestration capabilities. Addressing this concern through effective management holds immense potential for climate regulation, mitigation, and adaptation efforts. As such, there is growing need for timely spatial inventory data identifying Arctic wetlands with sufficient accuracy, resolution, and detail. Wetland mapping at large scales necessitates the processing of large volumes of Earth observation (EO) data, a challenge known as “Big Data”. Consequently, in this study, we present a cloud-based methodology exploiting the remarkable collection of EO data and computational power of Google Earth Engine (GEE) to map Arctic wetlands at 10 m spatial resolution. Our workflow evaluated temporally aggregated optical and radar satellite imagery and novel hydro-physiographic layers as inputs into a robust Random Forest (RF) machine learning (ML) algorithm. Both pixel and object-based classification approaches were assessed, whereby ML models were calibrated with a training dataset of sufficient and comprehensive samples. The study was conducted over Canada’s Southern Arctic ecozone (830,000 km2). GEE enabled the efficient preprocessing and classification of large volumes of EO data and resulted in excellent yet similar statistical performance for both pixel and object-based approaches, achieving overall accuracies of \textgreater 89 % and mean F1-scores of \textgreater 0.79. Moreover, McNemar tests indicated that these classifications were not statistically different, which has significant implications regarding computing time and processing efficiencies. These results demonstrate the efficacy and scalability of our cloud-based GEE methodology, and as such can support future endeavors around Pan-Arctic wetland mapping and monitoring.</abstract>
+    <identifier type="citekey">Merchant-2023-Leveraging</identifier>
+    <identifier type="doi">10.1016/j.jag.2023.103589</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-15001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>125</number></detail>
+        <detail type="page"><number>103589</number></detail>
+    </part>
+</mods>
+</modsCollection>

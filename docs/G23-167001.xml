@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Lee-2023-Bias-Corrected">
+    <titleInfo>
+        <title>Bias-Corrected RADARSAT-2 Soil Moisture Dynamics Reveal Discharge Hysteresis at An Agricultural Watershed</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ju</namePart>
+        <namePart type="given">Hyoung</namePart>
+        <namePart type="family">Lee</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Karl‐Erich</namePart>
+        <namePart type="family">Lindenschmidt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Remote Sensing, Volume 15, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>MDPI AG</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Satellites are designed to monitor geospatial data over large areas at a catchment scale. However, most of satellite validation works are conducted at local point scales with a lack of spatial representativeness. Although upscaling them with a spatial average of several point data collected in the field, it is almost impossible to reorganize backscattering responses at pixel scales. Considering the influence of soil storage on watershed streamflow, we thus suggested watershed-scale hydrological validation. In addition, to overcome the limitations of backscattering models that are widely used for C-band Synthetic Aperture Radar (SAR) soil moisture but applied to bare soils only, in this study, RADARSAT-2 soil moisture was stochastically retrieved to correct vegetation effects arising from agricultural lands. Roughness-corrected soil moisture retrievals were assessed at various spatial scales over the Brightwater Creek basin (land cover: crop lands, gross drainage area: 1540 km2) in Saskatchewan, Canada. At the point scale, local station data showed that the Root Mean Square Errors (RMSEs), Unbiased RMSEs (ubRMSEs) and biases of Radarsat-2 were 0.06~0.09 m3/m3, 0.04~0.08 m3/m3 and 0.01~0.05 m3/m3, respectively, while 1 km Soil Moisture Active Passive (SMAP) showed underestimation at RMSEs of 0.1~0.22 m3/m3 and biases of −0.036~−0.2080 m3/m3. Although SMAP soil moisture better distinguished the contributing area at the catchment scale, Radarsat-2 soil moisture showed a better discharge hysteresis. A reliable estimation of the soil storage dynamics is more important for discharge forecasting than a static classification of contributing and noncontributing areas.</abstract>
+    <identifier type="citekey">Lee-2023-Bias-Corrected</identifier>
+    <identifier type="doi">10.3390/rs15102677</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-46001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>15</number></detail>
+        <detail type="issue"><number>10</number></detail>
+        <detail type="page"><number>2677</number></detail>
+    </part>
+</mods>
+</modsCollection>

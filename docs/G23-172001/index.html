@@ -1,0 +1,678 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison - GWF Publications</title>
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison" name=citation_title><meta content="Gavin McNicol" name=citation_author><meta content="Etienne Fluet‐Chouinard" name=citation_author><meta content="Zutao Ouyang" name=citation_author><meta content="Sara Knox" name=citation_author><meta content="Zhen Zhang" name=citation_author><meta content="Tuula Aalto" name=citation_author><meta content="Sheel Bansal" name=citation_author><meta content="Kuang‐Yu Chang" name=citation_author><meta content="Min Chen" name=citation_author><meta content="Kyle Delwiche" name=citation_author><meta content="Sarah Féron" name=citation_author><meta content="Mathias Goeckede" name=citation_author><meta content="Jinxun Liu" name=citation_author><meta content="Avni Malhotra" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="W. J. Riley" name=citation_author><meta content="Rodrigo Vargas" name=citation_author><meta content="Kunxiaojia Yuan" name=citation_author><meta content="Qing Ying" name=citation_author><meta content="Qing Zhu" name=citation_author><meta content="Pavel Alekseychik" name=citation_author><meta content="Mika Aurela" name=citation_author><meta content="David P. Billesbach" name=citation_author><meta content="David I. Campbell" name=citation_author><meta content="Jiquan Chen" name=citation_author><meta content="Housen Chu" name=citation_author><meta content="Ankur R. Desai" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="Jordan P. Goodrich" name=citation_author><meta content="Timothy J. Griffis" name=citation_author><meta content="Manuel Helbig" name=citation_author><meta content="Takashi Hirano" name=citation_author><meta content="Hiroki Iwata" name=citation_author><meta content="Gerald Jurasinski" name=citation_author><meta content="John S. King" name=citation_author><meta content="Franziska Koebsch" name=citation_author><meta content="Randall K. Kolka" name=citation_author><meta content="Ken W. Krauss" name=citation_author><meta content="Annalea Lohila" name=citation_author><meta content="Ivan Mammarella" name=citation_author><meta content="Mats E Nilson" name=citation_author><meta content="Asko Noormets" name=citation_author><meta content="Walter C. Oechel" name=citation_author><meta content="Matthias Peichl" name=citation_author><meta content="Torsten Sachs" name=citation_author><meta content="Ayaka Sakabe" name=citation_author><meta content="Christopher Schulze" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Ryan C. Sullivan" name=citation_author><meta content="Eeva‐Stiina Tuittila" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Timo Vesala" name=citation_author><meta content="Eric J. Ward" name=citation_author><meta content="Christian Wille" name=citation_author><meta content="Guan Xhuan Wong" name=citation_author><meta content="Donatella Zona" name=citation_author><meta content="L. Windham‐Myers" name=citation_author><meta content="Benjamin Poulter" name=citation_author><meta content="Robert B. Jackson" name=citation_author><meta content="AGU Advances, Volume 4, Issue 5" name=citation_journal_title><meta content="4" name=citation_volume><meta content="5" name=citation_issue><meta content="2023" name=citation_publication_date><meta content="https://www.doi.org/10.1029/2023av000956" name=citation_pdf_url><meta content="10.1029/2023av000956" name=citation_doi><meta property="og:title" content="Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G23-172001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G23-52001"><meta property="og:description" content="Gavin McNicol, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Zhen Zhang, Tuula Aalto, Sheel Bansal, Kuang‐Yu Chang, Min Chen, Kyle Delwiche, Sarah Féron, Mathias Goeckede, Jinxun Liu, Avni Malhotra, Joe R. Melton, W. J. Riley, Rodrigo Vargas, Kunxiaojia Yuan, Qing Ying, Qing Zhu, Pavel Alekseychik, Mika Aurela, David P. Billesbach, David I. Campbell, Jiquan Chen, Housen Chu, Ankur R. Desai, E. S. Euskirchen, Jordan P. Goodrich, Timothy J. Griffis, Manuel Helbig, Takashi Hirano, Hiroki Iwata, Gerald Jurasinski, John S. King, Franziska Koebsch, Randall K. Kolka, Ken W. Krauss, Annalea Lohila, Ivan Mammarella, Mats E Nilson, Asko Noormets, Walter C. Oechel, Matthias Peichl, Torsten Sachs, Ayaka Sakabe, Christopher Schulze, Oliver Sonnentag, Ryan C. Sullivan, Eeva‐Stiina Tuittila, Masahito Ueyama, Timo Vesala, Eric J. Ward, Christian Wille, Guan Xhuan Wong, Donatella Zona, L. Windham‐Myers, Benjamin Poulter, Robert B. Jackson. AGU Advances, Volume 4, Issue 5. 2023."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G23-52001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-52001>Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison</a></h2><p class=lead><a href=/gwf-publications/people/G/Gavin-McNicol/ data-uni=uni0103>Gavin McNicol</a>,
+<a href=/gwf-publications/people/E/Etienne-FluetChouinard/ data-uni=uni0067>Etienne Fluet‐Chouinard</a>,
+<a href=/gwf-publications/people/Z/Zutao-Ouyang/ data-uni=uni0200>Zutao Ouyang</a>,
+<a href=/gwf-publications/people/S/Sara-Knox/ data-uni=uni0013>Sara Knox</a>,
+<a href=/gwf-publications/people/Z/Zhen-Zhang/ data-uni=uni0183>Zhen Zhang</a>,
+<a href=/gwf-publications/people/T/Tuula-Aalto/ data-uni=uni0018>Tuula Aalto</a>,
+<a href=/gwf-publications/people/S/Sheel-Bansal/ data-uni=uni0024>Sheel Bansal</a>,
+<a href=/gwf-publications/people/K/KuangYu-Chang/ data-uni=uni0012>Kuang‐Yu Chang</a>,
+<a href=/gwf-publications/people/M/Min-Chen/ data-uni=uni1041>Min Chen</a>,
+<a href=/gwf-publications/people/K/Kyle-Delwiche/ data-uni=uni0038>Kyle Delwiche</a>,
+<a href=/gwf-publications/people/S/Sarah-F%C3%A9ron/ data-uni=uni0357>Sarah Féron</a>,
+<a href=/gwf-publications/people/M/Mathias-Goeckede/ data-uni=uni0037>Mathias Goeckede</a>,
+<a href=/gwf-publications/people/J/Jinxun-Liu/ data-uni=uni0301>Jinxun Liu</a>,
+<a href=/gwf-publications/people/A/Avni-Malhotra/ data-uni=uni0067>Avni Malhotra</a>,
+<a href=/gwf-publications/people/J/Joe-R-Melton/ data-uni=uni0006>Joe R. Melton</a>,
+<a href=/gwf-publications/people/W/W-J-Riley/ data-uni=uni0012>W. J. Riley</a>,
+<a href=/gwf-publications/people/R/Rodrigo-Vargas/ data-uni=uni0204>Rodrigo Vargas</a>,
+<a href=/gwf-publications/people/K/Kunxiaojia-Yuan/ data-uni=uni0012>Kunxiaojia Yuan</a>,
+<a href=/gwf-publications/people/Q/Qing-Ying/ data-uni=uni0324>Qing Ying</a>,
+<a href=/gwf-publications/people/Q/Qing-Zhu/ data-uni=uni0012>Qing Zhu</a>,
+<a href=/gwf-publications/people/P/Pavel-Alekseychik/ data-uni=uni0064>Pavel Alekseychik</a>,
+<a href=/gwf-publications/people/M/Mika-Aurela/ data-uni=uni0018>Mika Aurela</a>,
+<a href=/gwf-publications/people/D/David-P-Billesbach/ data-uni=uni0041>David P. Billesbach</a>,
+<a href=/gwf-publications/people/D/David-I-Campbell/ data-uni=uni0239>David I. Campbell</a>,
+<a href=/gwf-publications/people/J/Jiquan-Chen/ data-uni=uni0054>Jiquan Chen</a>,
+<a href=/gwf-publications/people/H/Housen-Chu/ data-uni=uni0012>Housen Chu</a>,
+<a href=/gwf-publications/people/A/Ankur-R-Desai/ data-uni=uni0046>Ankur R. Desai</a>,
+<a href=/gwf-publications/people/E/E-S-Euskirchen/ data-uni=uni0010>E. S. Euskirchen</a>,
+<a href=/gwf-publications/people/J/Jordan-P-Goodrich/ data-uni=uni0270>Jordan P. Goodrich</a>,
+<a href=/gwf-publications/people/T/Timothy-J-Griffis/ data-uni=uni0181>Timothy J. Griffis</a>,
+<a href=/gwf-publications/people/M/Manuel-Helbig/ data-uni=uni0017>Manuel Helbig</a>,
+<a href=/gwf-publications/people/T/Takashi-Hirano/ data-uni=uni0122>Takashi Hirano</a>,
+<a href=/gwf-publications/people/H/Hiroki-Iwata/ data-uni=uni0118>Hiroki Iwata</a>,
+<a href=/gwf-publications/people/G/Gerald-Jurasinski/ data-uni=uni0255>Gerald Jurasinski</a>,
+<a href=/gwf-publications/people/J/John-S-King/ data-uni=uni0121>John S. King</a>,
+<a href=/gwf-publications/people/F/Franziska-Koebsch/ data-uni=uni0081>Franziska Koebsch</a>,
+<a href=/gwf-publications/people/R/Randall-K-Kolka/ data-uni=uni0154>Randall K. Kolka</a>,
+<a href=/gwf-publications/people/K/Ken-W-Krauss/ data-uni=uni0024>Ken W. Krauss</a>,
+<a href=/gwf-publications/people/A/Annalea-Lohila/ data-uni=uni0018>Annalea Lohila</a>,
+<a href=/gwf-publications/people/I/Ivan-Mammarella/ data-uni=uni0025>Ivan Mammarella</a>,
+<a href=/gwf-publications/people/M/Mats-E-Nilson/ data-uni=uni0023>Mats E Nilson</a>,
+<a href=/gwf-publications/people/A/Asko-Noormets/ data-uni=uni0099>Asko Noormets</a>,
+<a href=/gwf-publications/people/W/Walter-C-Oechel/ data-uni=uni0053>Walter C. Oechel</a>,
+<a href=/gwf-publications/people/M/Matthias-Peichl/ data-uni=uni0023>Matthias Peichl</a>,
+<a href=/gwf-publications/people/T/Torsten-Sachs/ data-uni=uni0017>Torsten Sachs</a>,
+<a href=/gwf-publications/people/A/Ayaka-Sakabe/ data-uni=uni0306>Ayaka Sakabe</a>,
+<a href=/gwf-publications/people/C/Christopher-Schulze/ data-uni=uni0015>Christopher Schulze</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0008>Oliver Sonnentag</a>,
+<a href=/gwf-publications/people/R/Ryan-C-Sullivan/ data-uni=uni0164>Ryan C. Sullivan</a>,
+<a href=/gwf-publications/people/E/EevaStiina-Tuittila/ data-uni=uni0044>Eeva‐Stiina Tuittila</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/T/Timo-Vesala/ data-uni=uni0025>Timo Vesala</a>,
+<a href=/gwf-publications/people/E/Eric-J-Ward/ data-uni=uni0024>Eric J. Ward</a>,
+<a href=/gwf-publications/people/C/Christian-Wille/ data-uni=uni0017>Christian Wille</a>,
+<a href=/gwf-publications/people/G/Guan-Xhuan-Wong/ data-uni=uni0018>Guan Xhuan Wong</a>,
+<a href=/gwf-publications/people/D/Donatella-Zona/ data-uni=uni0070>Donatella Zona</a>,
+<a href=/gwf-publications/people/L/L-WindhamMyers/ data-uni=uni0024>L. Windham‐Myers</a>,
+<a href=/gwf-publications/people/B/Benjamin-Poulter/ data-uni=uni0042>Benjamin Poulter</a>,
+<a href=/gwf-publications/people/R/Robert-B-Jackson/ data-uni=uni0072>Robert B. Jackson</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Wetlands are responsible for 20%–31% of global methane (CH 4 ) emissions and account for a large source of uncertainty in the global CH 4 budget. Data‐driven upscaling of CH 4 fluxes from eddy covariance measurements can provide new and independent bottom‐up estimates of wetland CH 4 emissions. Here, we develop a six‐predictor random forest upscaling model (UpCH4), trained on 119 site‐years of eddy covariance CH 4 flux data from 43 freshwater wetland sites in the FLUXNET‐CH4 Community Product. Network patterns in site‐level annual means and mean seasonal cycles of CH 4 fluxes were reproduced accurately in tundra, boreal, and temperate regions (Nash‐Sutcliffe Efficiency ∼0.52–0.63 and 0.53). UpCH4 estimated annual global wetland CH 4 emissions of 146 ± 43 TgCH 4 y −1 for 2001–2018 which agrees closely with current bottom‐up land surface models (102–181 TgCH 4 y −1 ) and overlaps with top‐down atmospheric inversion models (155–200 TgCH 4 y −1 ). However, UpCH4 diverged from both types of models in the spatial pattern and seasonal dynamics of tropical wetland emissions. We conclude that upscaling of eddy covariance CH 4 fluxes has the potential to produce realistic extra‐tropical wetland CH 4 emissions estimates which will improve with more flux data. To reduce uncertainty in upscaled estimates, researchers could prioritize new wetland flux sites along humid‐to‐arid tropical climate gradients, from major rainforest basins (Congo, Amazon, and SE Asia), into monsoon (Bangladesh and India) and savannah regions (African Sahel) and be paired with improved knowledge of wetland extent seasonal dynamics in these regions. The monthly wetland methane products gridded at 0.25° from UpCH4 are available via ORNL DAAC ( https://doi.org/10.3334/ORNLDAAC/2253 ).</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Gavin McNicol, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Zhen Zhang, Tuula Aalto, Sheel Bansal, Kuang‐Yu Chang, Min Chen, Kyle Delwiche, Sarah Féron, Mathias Goeckede, Jinxun Liu, Avni Malhotra, Joe R. Melton, W. J. Riley, Rodrigo Vargas, Kunxiaojia Yuan, Qing Ying, et al.. 2023. Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison. <i>AGU Advances, Volume 4, Issue 5</i>, 4(5).</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span>
+</a><a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=Upscaling+Wetland+Methane+Emissions+From+the+FLUXNET%E2%80%90CH4+Eddy+Covariance+Network+%28UpCH4+v1.0%29%3A+Model+Development%2C+Network+Assessment%2C+and+Budget+Comparison" title="Search for 'Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{McNicol-2023-Upscaling,
+    title = &#34;Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison&#34;,
+    author = &#34;McNicol, Gavin  and
+      Fluet‐Chouinard, Etienne  and
+      Ouyang, Zutao  and
+      Knox, Sara  and
+      Zhang, Zhen  and
+      Aalto, Tuula  and
+      Bansal, Sheel  and
+      Chang, Kuang‐Yu  and
+      Chen, Min  and
+      Delwiche, Kyle  and
+      F{\&#39;e}ron, Sarah  and
+      Goeckede, Mathias  and
+      Liu, Jinxun  and
+      Malhotra, Avni  and
+      Melton, Joe R.  and
+      Riley, W. J.  and
+      Vargas, Rodrigo  and
+      Yuan, Kunxiaojia  and
+      Ying, Qing  and
+      Zhu, Qing  and
+      Alekseychik, Pavel  and
+      Aurela, Mika  and
+      Billesbach, David P.  and
+      Campbell, David I.  and
+      Chen, Jiquan  and
+      Chu, Housen  and
+      Desai, Ankur R.  and
+      Euskirchen, E. S.  and
+      Goodrich, Jordan P.  and
+      Griffis, Timothy J.  and
+      Helbig, Manuel  and
+      Hirano, Takashi  and
+      Iwata, Hiroki  and
+      Jurasinski, Gerald  and
+      King, John S.  and
+      Koebsch, Franziska  and
+      Kolka, Randall K.  and
+      Krauss, Ken W.  and
+      Lohila, Annalea  and
+      Mammarella, Ivan  and
+      Nilson, Mats E  and
+      Noormets, Asko  and
+      Oechel, Walter C.  and
+      Peichl, Matthias  and
+      Sachs, Torsten  and
+      Sakabe, Ayaka  and
+      Schulze, Christopher  and
+      Sonnentag, Oliver  and
+      Sullivan, Ryan C.  and
+      Tuittila, Eeva‐Stiina  and
+      Ueyama, Masahito  and
+      Vesala, Timo  and
+      Ward, Eric J.  and
+      Wille, Christian  and
+      Wong, Guan Xhuan  and
+      Zona, Donatella  and
+      Windham‐Myers, L.  and
+      Poulter, Benjamin  and
+      Jackson, Robert B.&#34;,
+    journal = &#34;AGU Advances, Volume 4, Issue 5&#34;,
+    volume = &#34;4&#34;,
+    number = &#34;5&#34;,
+    year = &#34;2023&#34;,
+    publisher = &#34;American Geophysical Union (AGU)&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G23-52001&#34;,
+    doi = &#34;10.1029/2023av000956&#34;,
+    abstract = &#34;Abstract Wetlands are responsible for 20{\%}{--}31{\%} of global methane (CH 4 ) emissions and account for a large source of uncertainty in the global CH 4 budget. Data‐driven upscaling of CH 4 fluxes from eddy covariance measurements can provide new and independent bottom‐up estimates of wetland CH 4 emissions. Here, we develop a six‐predictor random forest upscaling model (UpCH4), trained on 119 site‐years of eddy covariance CH 4 flux data from 43 freshwater wetland sites in the FLUXNET‐CH4 Community Product. Network patterns in site‐level annual means and mean seasonal cycles of CH 4 fluxes were reproduced accurately in tundra, boreal, and temperate regions (Nash‐Sutcliffe Efficiency ∼0.52{--}0.63 and 0.53). UpCH4 estimated annual global wetland CH 4 emissions of 146 {\mbox{$\pm$}} 43 TgCH 4 y −1 for 2001{--}2018 which agrees closely with current bottom‐up land surface models (102{--}181 TgCH 4 y −1 ) and overlaps with top‐down atmospheric inversion models (155{--}200 TgCH 4 y −1 ). However, UpCH4 diverged from both types of models in the spatial pattern and seasonal dynamics of tropical wetland emissions. We conclude that upscaling of eddy covariance CH 4 fluxes has the potential to produce realistic extra‐tropical wetland CH 4 emissions estimates which will improve with more flux data. To reduce uncertainty in upscaled estimates, researchers could prioritize new wetland flux sites along humid‐to‐arid tropical climate gradients, from major rainforest basins (Congo, Amazon, and SE Asia), into monsoon (Bangladesh and India) and savannah regions (African Sahel) and be paired with improved knowledge of wetland extent seasonal dynamics in these regions. The monthly wetland methane products gridded at 0.25{\mbox{$^\circ$}} from UpCH4 are available via ORNL DAAC ( https://doi.org/10.3334/ORNLDAAC/2253 ).&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-172001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;McNicol-2023-Upscaling&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gavin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;McNicol&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Etienne&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Fluet‐Chouinard&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zutao&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ouyang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sara&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Knox&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Zhen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Tuula&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aalto&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sheel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Bansal&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kuang‐Yu&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chang&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Min&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kyle&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Delwiche&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Sarah&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Féron&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mathias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goeckede&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jinxun&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Liu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Avni&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Malhotra&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Joe&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Melton&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Riley&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Rodrigo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vargas&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Kunxiaojia&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Yuan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Qing&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ying&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Qing&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zhu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Pavel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Alekseychik&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mika&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Aurela&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Billesbach&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;David&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;I&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Campbell&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jiquan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Housen&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Chu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ankur&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Desai&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Jordan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;P&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Goodrich&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timothy&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Griffis&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Manuel&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Helbig&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Takashi&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Hirano&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hiroki&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Iwata&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gerald&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jurasinski&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;John&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;King&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Franziska&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Koebsch&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Randall&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;K&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kolka&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ken&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;W&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Krauss&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Annalea&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Lohila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ivan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Mammarella&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Mats&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Nilson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Asko&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Noormets&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Walter&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Oechel&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matthias&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Peichl&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Torsten&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sachs&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ayaka&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sakabe&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schulze&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oliver&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sonnentag&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Ryan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;C&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sullivan&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eeva‐Stiina&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Tuittila&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Masahito&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ueyama&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Timo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Vesala&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Eric&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ward&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christian&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wille&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Guan&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Xhuan&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Wong&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Donatella&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Zona&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;L&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Windham‐Myers&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Benjamin&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Poulter&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Robert&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Jackson&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2023&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;AGU Advances, Volume 4, Issue 5&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;American Geophysical Union (AGU)&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Abstract Wetlands are responsible for 20%–31% of global methane (CH 4 ) emissions and account for a large source of uncertainty in the global CH 4 budget. Data‐driven upscaling of CH 4 fluxes from eddy covariance measurements can provide new and independent bottom‐up estimates of wetland CH 4 emissions. Here, we develop a six‐predictor random forest upscaling model (UpCH4), trained on 119 site‐years of eddy covariance CH 4 flux data from 43 freshwater wetland sites in the FLUXNET‐CH4 Community Product. Network patterns in site‐level annual means and mean seasonal cycles of CH 4 fluxes were reproduced accurately in tundra, boreal, and temperate regions (Nash‐Sutcliffe Efficiency ∼0.52–0.63 and 0.53). UpCH4 estimated annual global wetland CH 4 emissions of 146 \pm 43 TgCH 4 y −1 for 2001–2018 which agrees closely with current bottom‐up land surface models (102–181 TgCH 4 y −1 ) and overlaps with top‐down atmospheric inversion models (155–200 TgCH 4 y −1 ). However, UpCH4 diverged from both types of models in the spatial pattern and seasonal dynamics of tropical wetland emissions. We conclude that upscaling of eddy covariance CH 4 fluxes has the potential to produce realistic extra‐tropical wetland CH 4 emissions estimates which will improve with more flux data. To reduce uncertainty in upscaled estimates, researchers could prioritize new wetland flux sites along humid‐to‐arid tropical climate gradients, from major rainforest basins (Congo, Amazon, and SE Asia), into monsoon (Bangladesh and India) and savannah regions (African Sahel) and be paired with improved knowledge of wetland extent seasonal dynamics in these regions. The monthly wetland methane products gridded at 0.25° from UpCH4 are available via ORNL DAAC ( https://doi.org/10.3334/ORNLDAAC/2253 ).&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;McNicol-2023-Upscaling&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1029/2023av000956&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G23-52001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2023&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;4&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;5&lt;/number&gt;&lt;/detail&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-172001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison
+%A McNicol, Gavin
+%A Fluet‐Chouinard, Etienne
+%A Ouyang, Zutao
+%A Knox, Sara
+%A Zhang, Zhen
+%A Aalto, Tuula
+%A Bansal, Sheel
+%A Chang, Kuang‐Yu
+%A Chen, Min
+%A Delwiche, Kyle
+%A Féron, Sarah
+%A Goeckede, Mathias
+%A Liu, Jinxun
+%A Malhotra, Avni
+%A Melton, Joe R.
+%A Riley, W. J.
+%A Vargas, Rodrigo
+%A Yuan, Kunxiaojia
+%A Ying, Qing
+%A Zhu, Qing
+%A Alekseychik, Pavel
+%A Aurela, Mika
+%A Billesbach, David P.
+%A Campbell, David I.
+%A Chen, Jiquan
+%A Chu, Housen
+%A Desai, Ankur R.
+%A Euskirchen, E. S.
+%A Goodrich, Jordan P.
+%A Griffis, Timothy J.
+%A Helbig, Manuel
+%A Hirano, Takashi
+%A Iwata, Hiroki
+%A Jurasinski, Gerald
+%A King, John S.
+%A Koebsch, Franziska
+%A Kolka, Randall K.
+%A Krauss, Ken W.
+%A Lohila, Annalea
+%A Mammarella, Ivan
+%A Nilson, Mats E.
+%A Noormets, Asko
+%A Oechel, Walter C.
+%A Peichl, Matthias
+%A Sachs, Torsten
+%A Sakabe, Ayaka
+%A Schulze, Christopher
+%A Sonnentag, Oliver
+%A Sullivan, Ryan C.
+%A Tuittila, Eeva‐Stiina
+%A Ueyama, Masahito
+%A Vesala, Timo
+%A Ward, Eric J.
+%A Wille, Christian
+%A Wong, Guan Xhuan
+%A Zona, Donatella
+%A Windham‐Myers, L.
+%A Poulter, Benjamin
+%A Jackson, Robert B.
+%J AGU Advances, Volume 4, Issue 5
+%D 2023
+%V 4
+%N 5
+%I American Geophysical Union (AGU)
+%F McNicol-2023-Upscaling
+%X Abstract Wetlands are responsible for 20%–31% of global methane (CH 4 ) emissions and account for a large source of uncertainty in the global CH 4 budget. Data‐driven upscaling of CH 4 fluxes from eddy covariance measurements can provide new and independent bottom‐up estimates of wetland CH 4 emissions. Here, we develop a six‐predictor random forest upscaling model (UpCH4), trained on 119 site‐years of eddy covariance CH 4 flux data from 43 freshwater wetland sites in the FLUXNET‐CH4 Community Product. Network patterns in site‐level annual means and mean seasonal cycles of CH 4 fluxes were reproduced accurately in tundra, boreal, and temperate regions (Nash‐Sutcliffe Efficiency ∼0.52–0.63 and 0.53). UpCH4 estimated annual global wetland CH 4 emissions of 146 \pm 43 TgCH 4 y −1 for 2001–2018 which agrees closely with current bottom‐up land surface models (102–181 TgCH 4 y −1 ) and overlaps with top‐down atmospheric inversion models (155–200 TgCH 4 y −1 ). However, UpCH4 diverged from both types of models in the spatial pattern and seasonal dynamics of tropical wetland emissions. We conclude that upscaling of eddy covariance CH 4 fluxes has the potential to produce realistic extra‐tropical wetland CH 4 emissions estimates which will improve with more flux data. To reduce uncertainty in upscaled estimates, researchers could prioritize new wetland flux sites along humid‐to‐arid tropical climate gradients, from major rainforest basins (Congo, Amazon, and SE Asia), into monsoon (Bangladesh and India) and savannah regions (African Sahel) and be paired with improved knowledge of wetland extent seasonal dynamics in these regions. The monthly wetland methane products gridded at 0.25° from UpCH4 are available via ORNL DAAC ( https://doi.org/10.3334/ORNLDAAC/2253 ).
+%R 10.1029/2023av000956
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-52001
+%U https://doi.org/10.1029/2023av000956
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-172001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison](https://gwf-uwaterloo.github.io/gwf-publications/G23-52001) (McNicol et al., GWF 2023)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-52001>Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison</a> (McNicol et al., GWF 2023)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Gavin McNicol, Etienne Fluet‐Chouinard, Zutao Ouyang, Sara Knox, Zhen Zhang, Tuula Aalto, Sheel Bansal, Kuang‐Yu Chang, Min Chen, Kyle Delwiche, Sarah Féron, Mathias Goeckede, Jinxun Liu, Avni Malhotra, Joe R. Melton, W. J. Riley, Rodrigo Vargas, Kunxiaojia Yuan, Qing Ying, et al.. 2023. Upscaling Wetland Methane Emissions From the FLUXNET‐CH4 Eddy Covariance Network (UpCH4 v1.0): Model Development, Network Assessment, and Budget Comparison. <i>AGU Advances, Volume 4, Issue 5</i>, 4(5).</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>

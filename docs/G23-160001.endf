@@ -1,0 +1,20 @@
+﻿%0 Journal Article
+%T Implementing a parsimonious variable contributing area algorithm for the prairie pothole region in the HYPE modelling framework
+%A Ahmed, Mohamed Ismaiel
+%A Shook, Kevin
+%A Pietroniro, Alain
+%A Stadnyk, Tricia A.
+%A Pomeroy, John W.
+%A Pers, Charlotta
+%A Gustafsson, David
+%J Environmental Modelling & Software, Volume 167
+%D 2023
+%V 167
+%I Elsevier BV
+%F Ahmed-2023-Implementing
+%X The North American prairie region is known for its poorly defined drainage system with numerous surface depressions that lead to variable contributing areas for streamflow generation. Current approaches of representing surface depressions are either simplistic or computationally demanding. In this study, a variable contributing area algorithm is implemented in the HYdrological Predictions for the Environment (HYPE) model and evaluated in the Canadian prairies. HYPE’s local lake module is replaced with a Hysteretic Depressional Storage (HDS) algorithm to estimate the variable contributing fractions of subbasins. The modified model shows significant improvements in simulating the streamflows of two prairie basins in Saskatchewan, Canada. The modified model can replicate the hysteretic relationships between the water volume and contributing area of the basins. With the inclusion of the HDS algorithm in HYPE, the global HYPE modelling community can now simulate an important hydrological phenomenon, previously unavailable in the model.
+%R 10.1016/j.envsoft.2023.105769
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-38001
+%U https://doi.org/10.1016/j.envsoft.2023.105769
+%P 105769
+

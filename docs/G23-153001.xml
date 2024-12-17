@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Rohanizadegan-2023-High‐Resolution">
+    <titleInfo>
+        <title>High‐Resolution Large‐Eddy Simulations of Flow in the Complex Terrain of the Canadian Rockies</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Mina</namePart>
+        <namePart type="family">Rohanizadegan</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Richard</namePart>
+        <namePart type="given">M</namePart>
+        <namePart type="family">Petrone</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Branko</namePart>
+        <namePart type="family">Kosović</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Domingo</namePart>
+        <namePart type="family">Muñoz‐Esparza</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Warren</namePart>
+        <namePart type="family">Helgason</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Earth and Space Science, Volume 10, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>American Geophysical Union (AGU)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Improving the calculation of land‐atmosphere fluxes of heat and water vapor in mountain terrain requires better resolution of thermally driven diurnal winds (i.e., valley, slope winds) due to differential heating by terrain and radiative fluxes. In this study, the Weather Research and Forecasting model is used to simulate flow in large‐eddy simulation (LES) mode over the complex terrain of the Fortress Mountain and Marmot Creek research basins, Kananaskis Valley, Canadian Rockies, Alberta in mid‐summer. The model was used to examine the temporal and spatial evolution of local winds and near‐surface boundary layer processes with variability in topography and elevation. Numerically resolving complex terrain wind flow effects require smaller grid cell size. However, the use of terrain‐following coordinates in most numerical weather prediction models results in large numerical errors when flow over steep terrain is simulated. These errors propagate through the domain and can result in numerical instability. To avoid this issue when simulating flow over steep terrain a local smoothing approach was used, where smoothing is applied only where slope exceeds some predetermined threshold. LES results from local smoothing were compared with a mesoscale model and LES with global smoothing. Simulations are evaluated using sounding data and meteorological stations. The differences in flow patterns and reversals in two mountain basins suggest that valley geometry and volume is relevant to the break up of inversion layers, removal of cold‐air pools, and strength of thermally driven winds.</abstract>
+    <identifier type="citekey">Rohanizadegan-2023-High‐Resolution</identifier>
+    <identifier type="doi">10.1029/2023ea003166</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-30001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>10</number></detail>
+        <detail type="issue"><number>10</number></detail>
+    </part>
+</mods>
+</modsCollection>

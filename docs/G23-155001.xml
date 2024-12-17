@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Staines-2023-Influence">
+    <titleInfo>
+        <title>Influence of forest canopy structure and wind flow on patterns of sub‐canopy snow accumulation in montane needleleaf forests</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Jacob</namePart>
+        <namePart type="family">Staines</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">John</namePart>
+        <namePart type="given">W</namePart>
+        <namePart type="family">Pomeroy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrological Processes, Volume 37, Issue 10</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Wiley</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract Vegetation structure is considered one of the most important factors shaping the spatial variation of snow accumulation under forest canopies. However, fine scale relationships between canopy density, snow interception, wind redistribution and sub‐canopy accumulation are poorly understood and difficult to observe, and their influence governing stand‐scale snow distributions that determine snow covered area depletion during melt is largely unknown. In this study, fine‐scale observations of forest structure and sub‐canopy snow accumulation were analysed over two mid‐winter snowfalls to a sub‐alpine forest in Marmot Creek Research Basin, Canadian Rockies, Alberta, to identify the impact of snow‐canopy interactions on spatial patterns of sub‐canopy snow accumulation. High spatial resolution (5 and 25 cm) snow accumulation estimates and canopy structure metrics were calculated from the combination of repeated UAV‐lidar observations with snow and photographic surveys, utilizing novel resampling methods including voxel ray sampling of lidar (VoxRS) to improve metric robustness and reduce bias. Over 50% of the spatial variance in forest snow accumulation was found at length scales less than 2 m, supporting the role of local scale canopy structure in governing variation in subcanopy snow accumulation. Additionally, subcanopy snow accumulation showed significant angular spread in relationships with overhead canopy structure; the vertical asymmetry coinciding with local windflow directions during snowfall. Detailed angular analysis showed nontrivial snow‐vegetation relationships that likely reflect multiple snowfall‐vegetation processes, including unloading and entrainment of intercepted snowfall during wind gusts and funnelling of entrained particles by downwind vegetation. These fine‐scale findings suggest several emergent processes which may influence snow accumulation at the scale of forest stands, with novel considerations for representing snow water equivalent distributions under dense evergreen canopies under varying environmental and canopy conditions. Similar studies over a broad range of conditions and forests will help refine and generalize the effects observed here for further snow hydrology and forestry applications.</abstract>
+    <identifier type="citekey">Staines-2023-Influence</identifier>
+    <identifier type="doi">10.1002/hyp.15005</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-33001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>37</number></detail>
+        <detail type="issue"><number>10</number></detail>
+    </part>
+</mods>
+</modsCollection>

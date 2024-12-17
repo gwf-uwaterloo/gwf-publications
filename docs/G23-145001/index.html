@@ -1,0 +1,210 @@
+<!doctype html><html lang=en-us><head><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel=stylesheet><meta charset=utf-8><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js></script><script>window.onload=function(){document.getElementById("expand-proj").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."}),document.getElementById("expand-uni").addEventListener("click",function(){this.textContent=="show less..."?this.textContent="show all...":this.textContent="show less..."})}</script><script>var unis={};$(document).on("change","input[type='checkbox']",function(){if(this.id.startsWith("check_year")){var e,n,t=$(':input[id^="check_year"]').map(function(){return $(this).prop("checked")}).get().includes(!0);const s=document.getElementById("main").children;if($("#year_list li:first-child").css("display")=="none"&&($("#year_list li:first-child").prop("style","display:initial !important"),$('div[id^="year_"]').prop("style","display:none !important")),t)for(child of s)child.id.startsWith(this.id.slice(-9))&&(this.checked?child.style.display="initial":child.style.display="none");else{$("#year_list li:first-child").prop("style","display:none !important");for(child of s)child.style.display="initial"}}else if(this.id.startsWith("uni"))if(console.log("Hi2"),t=$(':input[id^="uni"]').map(function(){return $(this).prop("checked")}).get().includes(!0),e=this.id.slice(-7),unis[e]==void 0&&(unis[e]=!0),this.checked?unis[e]=!0:unis[e]=!1,$("#university_list li:first-child").css("display")=="none"&&($("#university_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:none !important")})),t){const t=document.querySelectorAll("[data-uni="+e+"]");for(child of t)if(this.checked)child.parentNode.parentNode.setAttribute("style","display:flex !important");else{disp_off_flag=!0;for(child of child.parentNode.querySelectorAll("[data-uni]"))if(unis[child.getAttribute("data-uni")]==void 0&&(unis[child.getAttribute("data-uni")]=!0),unis[child.getAttribute("data-uni")]==!0){disp_off_flag=!1;break}disp_off_flag&&child.parentNode.parentNode.setAttribute("style","display:none !important")}}else $("#university_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")});else if(this.id.startsWith("prj"))if(t=$(':input[id^="prj"]').map(function(){return $(this).prop("checked")}).get().includes(!0),n=this.id.slice(4),$("#project_list li:first-child").css("display")=="none"&&($("#project_list li:first-child").prop("style","display:initial !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:none !important")})),t){const e=document.querySelectorAll("[data-prj="+n+"]");for(child of e)this.checked?child.setAttribute("style","display:initial !important"):child.setAttribute("style","display:none !important")}else console.log("all unckecked"),$("#project_list li:first-child").prop("style","display:none !important"),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")})});function clearAll(e){e=="year"?($(':input[id^="check_year"]').prop("checked",!1),$('div[id^="year_"]').prop("style","display:initial;"),$("#year_list li:first-child").prop("style","display:none !important")):e=="uni"?($(':input[id^="uni"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).children().first().prop("style","display:flex !important")}),$("#university_list li:first-child").prop("style","display:none !important")):e=="prj"&&($(':input[id^="prj"]').prop("checked",!1),$('div[data-prj^="prj"]').each(function(){$(this).prop("style","display:initial !important")}),$("#project_list li:first-child").prop("style","display:none !important"))}</script><style>.arrowup{border:solid #fff;border-width:0 3px 3px 0;display:inline-block;padding:5px;transform:rotate(-135deg);-webkit-transform:rotate(-135deg)}#topBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:30px;border:none;outline:none;background-color:#29abe0;color:#fff;cursor:pointer;padding:15px;border-radius:8px;height:10dp}#topBtn:hover{background-color:#1b8dbb}.card-header-custom{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.clear-widget{color:#747474!important;background-color:#dee2e6;font-size:80%!important}.clear-widget:hover{color:#212529!important;background-color:#c1c9d0;cursor:pointer}</style><!--[if IEMobile]><meta http-equiv=cleartype content="on"><![endif]--><title>A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) - GWF Publications</title>
+<meta name=generator content="Hugo 0.139.4"><link href=/gwf-publications/gwficon.ico rel="shortcut icon" type=image/x-icon><link rel=stylesheet href=/gwf-publications/css/main.min.b1d14a9a8f6bb9c608ca4de9aad72a6e06945119f97951f2908522dc220e6277.css media=screen><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.7.2/css/all.css integrity=sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin=anonymous><link rel=stylesheet href=/css/academicons.min.css><meta content="A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)" name=citation_title><meta content="Bo Qu" name=citation_author><meta content="Alexandre Roy" name=citation_author><meta content="Joe R. Melton" name=citation_author><meta content="T. Andrew Black" name=citation_author><meta content="B. D. Amiro" name=citation_author><meta content="E. S. Euskirchen" name=citation_author><meta content="Masahito Ueyama" name=citation_author><meta content="Hideki Kobayashi" name=citation_author><meta content="Christopher Schulze" name=citation_author><meta content="Gabriel Hould Gosselin" name=citation_author><meta content="Alex J. Cannon" name=citation_author><meta content="Matteo Detto" name=citation_author><meta content="Oliver Sonnentag" name=citation_author><meta content="Environmental Research Letters, Volume 18, Issue 8" name=citation_journal_title><meta content="18" name=citation_volume><meta content="8" name=citation_issue><meta content="2023" name=citation_publication_date><meta content="https://www.doi.org/10.1088/1748-9326/ace376" name=citation_pdf_url><meta content="10.1088/1748-9326/ace376" name=citation_doi><meta property="og:title" content="A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)"><meta property="og:image" content="https://gwf-uwaterloo.github.io/gwf-publications/thumb/G23-145001.jpg"><meta property="og:image:alt" content="First page of paper PDF."><meta property="og:type" content="article"><meta property="og:site_name" content="GWF Publications"><meta property="og:url" content="https://gwf-uwaterloo.github.io/gwf-publications/G23-22001"><meta property="og:description" content="Bo Qu, Alexandre Roy, Joe R. Melton, T. Andrew Black, B. D. Amiro, E. S. Euskirchen, Masahito Ueyama, Hideki Kobayashi, Christopher Schulze, Gabriel Hould Gosselin, Alex J. Cannon, Matteo Detto, Oliver Sonnentag. Environmental Research Letters, Volume 18, Issue 8. 2023."><link rel=canonical href=https://gwf-uwaterloo.github.io/gwf-publications/G23-22001></head><body><header style='display:block;box-sizing:border-box;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><div id=navbar-container style='height:54px;width:100%;background:rgba(255,255,255,.95);overflow:hidden;-webkit-box-shadow:rgba(0,0,0,9%)0 1px 0;box-shadow:rgba(0,0,0,9%)0 1px;box-sizing:border-box;display:block;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#222;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'><a href=/ style='color:#0072bc;text-decoration:none;display:inline-block;height:100%;line-height:54px;border-right:1px solid #e6e6e6;margin-left:6px;padding-right:6px;outline-offset:-4px!important;font-weight:700;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent'><img src=/images/gwf-logo.png alt="ACL Logo" style='margin-right:0;height:54px;padding:6px;width:auto;margin-top:-2px;max-width:100%;vertical-align:middle;border:0;box-sizing:border-box;color:#0072bc;line-height:54px;font-weight:700;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%'>
+</a><a href=/ style='text-decoration:none;color:#222!important;display:inline-block;font-size:16px;line-height:54px;font-weight:700;outline-offset:-4px!important;padding:0 6px;margin:0 -6px;background:0 0;box-sizing:border-box;cursor:pointer;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;padding-left:4px'>Global Water Futures</a></div></header><div id=main-container class=container><section id=main><div><h2 id=title style=padding-top:20px!important><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-22001>A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)</a></h2><p class=lead><a href=/gwf-publications/people/B/Bo-Qu/ data-uni=uni1631>Bo Qu</a>,
+<a href=/gwf-publications/people/A/Alexandre-Roy/ data-uni=uni0063>Alexandre Roy</a>,
+<a href=/gwf-publications/people/J/Joe-R-Melton/ data-uni=uni0006>Joe R. Melton</a>,
+<a href=/gwf-publications/people/T/T-Andrew-Black/ data-uni=uni0013>T. Andrew Black</a>,
+<a href=/gwf-publications/people/B/B-D-Amiro/ data-uni=uni0014>B. D. Amiro</a>,
+<a href=/gwf-publications/people/E/E-S-Euskirchen/ data-uni=uni0010>E. S. Euskirchen</a>,
+<a href=/gwf-publications/people/M/Masahito-Ueyama/ data-uni=uni0010>Masahito Ueyama</a>,
+<a href=/gwf-publications/people/H/Hideki-Kobayashi/ data-uni=uni0134>Hideki Kobayashi</a>,
+<a href=/gwf-publications/people/C/Christopher-Schulze/ data-uni=uni0015>Christopher Schulze</a>,
+<a href=/gwf-publications/people/G/Gabriel-Hould-Gosselin/ data-uni=uni0020>Gabriel Hould Gosselin</a>,
+<a href=/gwf-publications/people/A/Alex-J-Cannon/ data-uni=uni0006>Alex J. Cannon</a>,
+<a href=/gwf-publications/people/M/Matteo-Detto/ data-uni=uni0375>Matteo Detto</a>,
+<a href=/gwf-publications/people/O/Oliver-Sonnentag/ data-uni=uni0008>Oliver Sonnentag</a></p></div><hr><div class="row acl-paper-details"><div class="col col-lg-10 order-2"><div class="card bg-light mb-2 mb-lg-3"><div class="card-body acl-abstract"><h5 class=card-title>Abstract</h5><span>Abstract Climate change is rapidly altering composition, structure, and functioning of the boreal biome, across North America often broadly categorized into ecoregions. The resulting complex changes in different ecoregions present a challenge for efforts to accurately simulate carbon dioxide (CO 2 ) and energy exchanges between boreal forests and the atmosphere with terrestrial ecosystem models (TEMs). Eddy covariance measurements provide valuable information for evaluating the performance of TEMs and guiding their development. Here, we compiled a boreal forest model benchmarking dataset for North America by harmonizing eddy covariance and supporting measurements from eight black spruce ( Picea mariana )-dominated, mature forest stands. The eight forest stands, located in six boreal ecoregions of North America, differ in stand characteristics, disturbance history, climate, permafrost conditions and soil properties. By compiling various data streams, the benchmarking dataset comprises data to parameterize, force, and evaluate TEMs. Specifically, it includes half-hourly, gap-filled meteorological forcing data, ancillary data essential for model parameterization, and half-hourly, gap-filled or partitioned component flux data on CO 2 (net ecosystem production, gross primary production [GPP], and ecosystem respiration [ER]) and energy (latent [LE] and sensible heat [H]) and their daily aggregates screened based on half-hourly gap-filling quality criteria. We present a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) to: (1) demonstrate the utility of our dataset to benchmark TEMs and (2) provide guidance for model development and refinement. Model skill was evaluated using several statistical metrics and further examined through the flux responses to their environmental controls. Our results suggest that CLASSIC tended to overestimate GPP and ER among all stands. Model performance regarding the energy fluxes (i.e., LE and H) varied greatly among the stands and exhibited a moderate correlation with latitude. We identified strong relationships between simulated fluxes and their environmental controls except for H, thus highlighting current strengths and limitations of CLASSIC.</span></div></div><dl><dt>Cite:</dt><dd><span id=citeACL>Bo Qu, Alexandre Roy, Joe R. Melton, T. Andrew Black, B. D. Amiro, E. S. Euskirchen, Masahito Ueyama, Hideki Kobayashi, Christopher Schulze, Gabriel Hould Gosselin, Alex J. Cannon, Matteo Detto, and Oliver Sonnentag. 2023. A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC). <i>Environmental Research Letters, Volume 18, Issue 8</i>, 18(8):085002.</span><button type=button class="btn btn-clipboard btn-secondary btn-sm d-none ml-2" data-clipboard-target=#citeACL><i class="far fa-clipboard"></i></button></dd><dt class=acl-button-row>Copy Citation:</dt><dd class=acl-button-row><button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>BibTeX</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Markdown</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>MODS XML</button>
+<button type=button class="btn btn-clipboard-outside btn-secondary btn-sm d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Endnote</button>
+<button type=button class="btn btn-secondary btn-sm" data-toggle=modal data-target=#citeModal>More options…</button></dd></dl></div><div class=acl-paper-link-block><a class="btn btn-secondary" title="Open dialog for exporting citations" data-toggle=modal data-target=#citeModal href=#><i class="fas fa-quote-left"></i><span class=pl-2>Cite</span>
+</a><a class="btn btn-secondary" href="https://www.semanticscholar.org/search?q=A+boreal+forest+model+benchmarking+dataset+for+North+America%3A+a+case+study+with+the+Canadian+Land+Surface+Scheme+Including+Biogeochemical+Cycles+%28CLASSIC%29" title="Search for 'A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)' on Semantic Scholar"><i class="ai ai-semantic-scholar"></i><span class="pl-sm-2 d-none d-sm-inline">Search</span></a></div></div><hr><div class="modal fade" id=citeModal tabindex=-1 role=dialog aria-labelledby=citeModalLabel aria-hidden=true><div class="modal-dialog modal-lg" role=document><div class=modal-content><div class=modal-header><h5 class=modal-title id=citeModalLabel>Export citation</h5><button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span></button></div><div class=modal-body><ul class="nav nav-tabs mb-2" id=citeFormats role=tablist><li class=nav-item><a class="nav-link active" data-toggle=list href=#citeBibtex role=tab aria-controls=citeBibtex aria-selected=true>BibTeX</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMods role=tab aria-controls=citeMods aria-selected=false>MODS XML</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeEndnote role=tab aria-controls=citeEndnote aria-selected=false>Endnote</a></li><li class=nav-item><a class=nav-link data-toggle=list href=#citeMarkdown role=tab aria-controls=citeMarkdown aria-selected=false>Preformatted</a></li></ul><div class=tab-content id=citeFormatsContent><div class="tab-pane active" id=citeBibtex role=tabpanel><pre id=citeBibtexContent class="bg-light border p-2" style=max-height:50vh>@article{Qu-2023-A,
+    title = &#34;A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)&#34;,
+    author = &#34;Qu, Bo  and
+      Roy, Alexandre  and
+      Melton, Joe R.  and
+      Black, T. Andrew  and
+      Amiro, B. D.  and
+      Euskirchen, E. S.  and
+      Ueyama, Masahito  and
+      Kobayashi, Hideki  and
+      Schulze, Christopher  and
+      Gosselin, Gabriel Hould  and
+      Cannon, Alex J.  and
+      Detto, Matteo  and
+      Sonnentag, Oliver&#34;,
+    journal = &#34;Environmental Research Letters, Volume 18, Issue 8&#34;,
+    volume = &#34;18&#34;,
+    number = &#34;8&#34;,
+    year = &#34;2023&#34;,
+    publisher = &#34;IOP Publishing&#34;,
+    url = &#34;https://gwf-uwaterloo.github.io/gwf-publications/G23-22001&#34;,
+    doi = &#34;10.1088/1748-9326/ace376&#34;,
+    pages = &#34;085002&#34;,
+    abstract = &#34;Abstract Climate change is rapidly altering composition, structure, and functioning of the boreal biome, across North America often broadly categorized into ecoregions. The resulting complex changes in different ecoregions present a challenge for efforts to accurately simulate carbon dioxide (CO 2 ) and energy exchanges between boreal forests and the atmosphere with terrestrial ecosystem models (TEMs). Eddy covariance measurements provide valuable information for evaluating the performance of TEMs and guiding their development. Here, we compiled a boreal forest model benchmarking dataset for North America by harmonizing eddy covariance and supporting measurements from eight black spruce ( Picea mariana )-dominated, mature forest stands. The eight forest stands, located in six boreal ecoregions of North America, differ in stand characteristics, disturbance history, climate, permafrost conditions and soil properties. By compiling various data streams, the benchmarking dataset comprises data to parameterize, force, and evaluate TEMs. Specifically, it includes half-hourly, gap-filled meteorological forcing data, ancillary data essential for model parameterization, and half-hourly, gap-filled or partitioned component flux data on CO 2 (net ecosystem production, gross primary production [GPP], and ecosystem respiration [ER]) and energy (latent [LE] and sensible heat [H]) and their daily aggregates screened based on half-hourly gap-filling quality criteria. We present a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) to: (1) demonstrate the utility of our dataset to benchmark TEMs and (2) provide guidance for model development and refinement. Model skill was evaluated using several statistical metrics and further examined through the flux responses to their environmental controls. Our results suggest that CLASSIC tended to overestimate GPP and ER among all stands. Model performance regarding the energy fluxes (i.e., LE and H) varied greatly among the stands and exhibited a moderate correlation with latitude. We identified strong relationships between simulated fluxes and their environmental controls except for H, thus highlighting current strengths and limitations of CLASSIC.&#34;,
+}
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-145001.bib><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeBibtexContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMods role=tabpanel><pre id=citeModsContent class="bg-light border p-2" style=max-height:50vh>﻿&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;
+&lt;modsCollection xmlns=&#34;http://www.loc.gov/mods/v3&#34;&gt;
+&lt;mods ID=&#34;Qu-2023-A&#34;&gt;
+    &lt;titleInfo&gt;
+        &lt;title&gt;A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)&lt;/title&gt;
+    &lt;/titleInfo&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Bo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Qu&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alexandre&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Roy&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Joe&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;R&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Melton&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;T&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Andrew&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Black&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;B&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;D&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Amiro&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;E&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;S&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Euskirchen&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Masahito&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Ueyama&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hideki&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Kobayashi&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Christopher&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Schulze&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Gabriel&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Hould&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Gosselin&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Alex&lt;/namePart&gt;
+        &lt;namePart type=&#34;given&#34;&gt;J&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Cannon&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Matteo&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Detto&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;name type=&#34;personal&#34;&gt;
+        &lt;namePart type=&#34;given&#34;&gt;Oliver&lt;/namePart&gt;
+        &lt;namePart type=&#34;family&#34;&gt;Sonnentag&lt;/namePart&gt;
+        &lt;role&gt;
+            &lt;roleTerm authority=&#34;marcrelator&#34; type=&#34;text&#34;&gt;author&lt;/roleTerm&gt;
+        &lt;/role&gt;
+    &lt;/name&gt;
+    &lt;originInfo&gt;
+        &lt;dateIssued&gt;2023&lt;/dateIssued&gt;
+    &lt;/originInfo&gt;
+    &lt;typeOfResource&gt;text&lt;/typeOfResource&gt;
+    &lt;genre authority=&#34;bibutilsgt&#34;&gt;journal article&lt;/genre&gt;
+    &lt;relatedItem type=&#34;host&#34;&gt;
+        &lt;titleInfo&gt;
+            &lt;title&gt;Environmental Research Letters, Volume 18, Issue 8&lt;/title&gt;
+        &lt;/titleInfo&gt;
+        &lt;originInfo&gt;
+            &lt;issuance&gt;continuing&lt;/issuance&gt;
+            &lt;publisher&gt;IOP Publishing&lt;/publisher&gt;
+        &lt;/originInfo&gt;
+        &lt;genre authority=&#34;marcgt&#34;&gt;periodical&lt;/genre&gt;
+        &lt;genre authority=&#34;bibutilsgt&#34;&gt;academic journal&lt;/genre&gt;
+    &lt;/relatedItem&gt;
+    &lt;abstract&gt;Abstract Climate change is rapidly altering composition, structure, and functioning of the boreal biome, across North America often broadly categorized into ecoregions. The resulting complex changes in different ecoregions present a challenge for efforts to accurately simulate carbon dioxide (CO 2 ) and energy exchanges between boreal forests and the atmosphere with terrestrial ecosystem models (TEMs). Eddy covariance measurements provide valuable information for evaluating the performance of TEMs and guiding their development. Here, we compiled a boreal forest model benchmarking dataset for North America by harmonizing eddy covariance and supporting measurements from eight black spruce ( Picea mariana )-dominated, mature forest stands. The eight forest stands, located in six boreal ecoregions of North America, differ in stand characteristics, disturbance history, climate, permafrost conditions and soil properties. By compiling various data streams, the benchmarking dataset comprises data to parameterize, force, and evaluate TEMs. Specifically, it includes half-hourly, gap-filled meteorological forcing data, ancillary data essential for model parameterization, and half-hourly, gap-filled or partitioned component flux data on CO 2 (net ecosystem production, gross primary production [GPP], and ecosystem respiration [ER]) and energy (latent [LE] and sensible heat [H]) and their daily aggregates screened based on half-hourly gap-filling quality criteria. We present a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) to: (1) demonstrate the utility of our dataset to benchmark TEMs and (2) provide guidance for model development and refinement. Model skill was evaluated using several statistical metrics and further examined through the flux responses to their environmental controls. Our results suggest that CLASSIC tended to overestimate GPP and ER among all stands. Model performance regarding the energy fluxes (i.e., LE and H) varied greatly among the stands and exhibited a moderate correlation with latitude. We identified strong relationships between simulated fluxes and their environmental controls except for H, thus highlighting current strengths and limitations of CLASSIC.&lt;/abstract&gt;
+    &lt;identifier type=&#34;citekey&#34;&gt;Qu-2023-A&lt;/identifier&gt;
+    &lt;identifier type=&#34;doi&#34;&gt;10.1088/1748-9326/ace376&lt;/identifier&gt;
+    &lt;location&gt;
+        &lt;url&gt;https://gwf-uwaterloo.github.io/gwf-publications/G23-22001&lt;/url&gt;
+    &lt;/location&gt;
+    &lt;part&gt;
+        &lt;date&gt;2023&lt;/date&gt;
+        &lt;detail type=&#34;volume&#34;&gt;&lt;number&gt;18&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;issue&#34;&gt;&lt;number&gt;8&lt;/number&gt;&lt;/detail&gt;
+        &lt;detail type=&#34;page&#34;&gt;&lt;number&gt;085002&lt;/number&gt;&lt;/detail&gt;
+    &lt;/part&gt;
+&lt;/mods&gt;
+&lt;/modsCollection&gt;
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-145001.xml><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeModsContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeEndnote role=tabpanel><pre id=citeEndnoteContent class="bg-light border p-2" style=max-height:50vh>﻿%0 Journal Article
+%T A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)
+%A Qu, Bo
+%A Roy, Alexandre
+%A Melton, Joe R.
+%A Black, T. Andrew
+%A Amiro, B. D.
+%A Euskirchen, E. S.
+%A Ueyama, Masahito
+%A Kobayashi, Hideki
+%A Schulze, Christopher
+%A Gosselin, Gabriel Hould
+%A Cannon, Alex J.
+%A Detto, Matteo
+%A Sonnentag, Oliver
+%J Environmental Research Letters, Volume 18, Issue 8
+%D 2023
+%V 18
+%N 8
+%I IOP Publishing
+%F Qu-2023-A
+%X Abstract Climate change is rapidly altering composition, structure, and functioning of the boreal biome, across North America often broadly categorized into ecoregions. The resulting complex changes in different ecoregions present a challenge for efforts to accurately simulate carbon dioxide (CO 2 ) and energy exchanges between boreal forests and the atmosphere with terrestrial ecosystem models (TEMs). Eddy covariance measurements provide valuable information for evaluating the performance of TEMs and guiding their development. Here, we compiled a boreal forest model benchmarking dataset for North America by harmonizing eddy covariance and supporting measurements from eight black spruce ( Picea mariana )-dominated, mature forest stands. The eight forest stands, located in six boreal ecoregions of North America, differ in stand characteristics, disturbance history, climate, permafrost conditions and soil properties. By compiling various data streams, the benchmarking dataset comprises data to parameterize, force, and evaluate TEMs. Specifically, it includes half-hourly, gap-filled meteorological forcing data, ancillary data essential for model parameterization, and half-hourly, gap-filled or partitioned component flux data on CO 2 (net ecosystem production, gross primary production [GPP], and ecosystem respiration [ER]) and energy (latent [LE] and sensible heat [H]) and their daily aggregates screened based on half-hourly gap-filling quality criteria. We present a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC) to: (1) demonstrate the utility of our dataset to benchmark TEMs and (2) provide guidance for model development and refinement. Model skill was evaluated using several statistical metrics and further examined through the flux responses to their environmental controls. Our results suggest that CLASSIC tended to overestimate GPP and ER among all stands. Model performance regarding the energy fluxes (i.e., LE and H) varied greatly among the stands and exhibited a moderate correlation with latitude. We identified strong relationships between simulated fluxes and their environmental controls except for H, thus highlighting current strengths and limitations of CLASSIC.
+%R 10.1088/1748-9326/ace376
+%U https://gwf-uwaterloo.github.io/gwf-publications/G23-22001
+%U https://doi.org/10.1088/1748-9326/ace376
+%P 085002
+
+</pre><div class="modal-footer pb-1"><a class="btn btn-secondary" href=/G23-145001.endf><i class="fas fa-download pr-2"></i>Download as File</a>
+<button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeEndnoteContent><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button></div></div><div class=tab-pane id=citeMarkdown role=tabpanel><h5>Markdown (Informal)</h5><p id=citeMarkdownContent class="text-monospace small bg-light border p-2">[A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)](https://gwf-uwaterloo.github.io/gwf-publications/G23-22001) (Qu et al., GWF 2023)</p><ul class=mt-2><li><a href=https://gwf-uwaterloo.github.io/gwf-publications/G23-22001>A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC)</a> (Qu et al., GWF 2023)</li></ul><h5>ACL</h5><ul class=mt-2><li id=citeACLstyleContent>Bo Qu, Alexandre Roy, Joe R. Melton, T. Andrew Black, B. D. Amiro, E. S. Euskirchen, Masahito Ueyama, Hideki Kobayashi, Christopher Schulze, Gabriel Hould Gosselin, Alex J. Cannon, Matteo Detto, and Oliver Sonnentag. 2023. A boreal forest model benchmarking dataset for North America: a case study with the Canadian Land Surface Scheme Including Biogeochemical Cycles (CLASSIC). <i>Environmental Research Letters, Volume 18, Issue 8</i>, 18(8):085002.</li></ul><div class="modal-footer pb-1"><button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeMarkdownContent><i class="far fa-clipboard pr-2"></i>Copy Markdown to Clipboard</button>
+<button type=button class="btn btn-clipboard btn-primary d-none" data-clipboard-target=#citeACLstyleContent><i class="far fa-clipboard pr-2"></i>Copy ACL to Clipboard</button></div></div></div></div></div></div></div></section></div><footer class="bg-gradient-light py-2 py-xl-3 mt-3 mt-md-4 mt-xl-5"><div class=container><p class="text-muted small px-1">Global Water Futures Publications!</p></div></footer><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js integrity=sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js integrity=sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k crossorigin=anonymous></script><script>$(function(){$('[data-toggle="tooltip"]').tooltip(),$("#toggle-all-abstracts")&&($("#toggle-all-abstracts").click(function(){var e=$("#toggle-all-abstracts");e.attr("disabled",!0),e.attr("data-toggle-state")=="hide"?($(".abstract-collapse").collapse("show"),e.attr("data-toggle-state","show")):($(".abstract-collapse").collapse("hide"),e.attr("data-toggle-state","hide")),e.attr("disabled",!1)}),$("#toggle-all-abstracts").attr("disabled",!1))})</script><script src=/js/clipboard.min.js></script><script>$(document).ready(function(){if(ClipboardJS.isSupported()){success_fn=function(e){var t=$(e.trigger);t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check"),e.clearSelection(),setTimeout(function(){t.toggleClass("btn-success"),t.children("i").toggleClass("far fa-clipboard fas fa-clipboard-check")},2e3)};var e,t=new ClipboardJS(".btn-clipboard");t.on("success",success_fn),$(".btn-clipboard").removeClass("d-none"),e=new ClipboardJS(".btn-clipboard-outside",{text:function(e){var t=e.getAttribute("data-clipboard-target");return $(t).text()}}),e.on("success",success_fn),$(".btn-clipboard-outside").removeClass("d-none")}})</script></body></html>

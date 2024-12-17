@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Ghiasi-2024-Potential">
+    <titleInfo>
+        <title>Potential of GNSS-R for the Monitoring of Lake Ice Phenology</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Yusof</namePart>
+        <namePart type="family">Ghiasi</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Claude</namePart>
+        <namePart type="family">Duguay</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Justin</namePart>
+        <namePart type="family">Murfitt</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Milad</namePart>
+        <namePart type="family">Asgarimehr</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yuhao</namePart>
+        <namePart type="family">Wu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2024</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Volume 17</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>This study introduces the first use of Global Navigation Satellite System Reflectometry (GNSS-R) for monitoring lake ice phenology. This is demonstrated using Qinghai Lake, Tibetan Plateau, as a case study. Signal-to-Noise Ratio (SNR) values obtained from the Cyclone GNSS (CYGNSS) constellation over four ice seasons (2018 to 2022) were used to examine the impact of lake surface conditions on reflected GNSS signals during open water and ice cover seasons. A moving t-test algorithm was applied to time-varying SNR values allowing for the detection of lake ice at daily temporal resolution. Good agreement was achieved between ice phenology records derived from CYGNSS data and Moderate Resolution Imaging Spectroradiometer (MODIS) imagery. The CYGNSS timings for freeze-up, i.e., the period starting with the first appearance of ice on the lake (freeze-up start; FUS) until the lake becomes fully ice covered (freeze-up end; FUE), as well as those for breakup, i.e., the period beginning with the first pixel of open water (breakup start; BUS) and ending when the whole lake becomes ice-free (breakup end; BUE), were validated against the phenology dates derived from MODIS images. Mean absolute errors are 7, 5, 10, 4 and 5 days for FUS, FUE, BUS, BUE and ice cover duration, respectively. Observations revealed the sensitivity of GNSS reflected signals to surface melt prior to the appearance of open water conditions as determined from MODIS, which explains the larger difference of 10 days for BUS.</abstract>
+    <identifier type="citekey">Ghiasi-2024-Potential</identifier>
+    <identifier type="doi">10.1109/jstars.2023.3330745</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G24-20001</url>
+    </location>
+    <part>
+        <date>2024</date>
+        <detail type="volume"><number>17</number></detail>
+        <extent unit="page">
+            <start>660</start>
+            <end>673</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

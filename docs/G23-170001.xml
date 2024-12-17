@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="He-2023-Improving">
+    <titleInfo>
+        <title>Improving regional climate simulations based on a hybrid data assimilation and machine learning method</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Xinlei</namePart>
+        <namePart type="family">He</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Yanping</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Shaomin</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Ziwei</namePart>
+        <namePart type="family">Xu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Fei</namePart>
+        <namePart type="family">Chen</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhenhua</namePart>
+        <namePart type="family">Li</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Zhe</namePart>
+        <namePart type="family">Zhang</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Rui</namePart>
+        <namePart type="family">Liu</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Lisheng</namePart>
+        <namePart type="family">Song</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Peng</namePart>
+        <namePart type="family">Zhixing</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chen</namePart>
+        <namePart type="family">Zheng</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>Hydrology and Earth System Sciences, Volume 27, Issue 7</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>Copernicus GmbH</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>Abstract. The energy and water vapor exchange between the land surface and atmospheric boundary layer plays a critical role in regional climate simulations. This paper implemented a hybrid data assimilation and machine learning framework (DA-ML method) into the Weather Research and Forecasting (WRF) model to optimize surface soil and vegetation conditions. The hybrid method can integrate remotely sensed leaf area index (LAI), multi-source soil moisture (SM) observations, and land surface models (LSMs) to accurately describe regional climate and land–atmosphere interactions. The performance of the hybrid method on the regional climate was evaluated in the Heihe River basin (HRB), the second-largest endorheic river basin in Northwest China. The results show that the estimated sensible (H) and latent heat (LE) fluxes from the WRF (DA-ML) model agree well with the large aperture scintillometer (LAS) observations. Compared to the WRF (open loop – OL), the WRF (DA-ML) model improved the estimation of evapotranspiration (ET) and generated a spatial distribution consistent with the ML-based watershed ET (ETMap). The proposed WRF (DA-ML) method effectively reduces air warming and drying biases in simulations, particularly in the oasis region. The estimated air temperature and specific humidity from WRF (DA-ML) agree well with the observations. In addition, this method can simulate more realistic oasis–desert boundaries, including wetting and cooling effects and wind shield effects within the oasis. The oasis–desert interactions can transfer water vapor to the surrounding desert in the lower atmosphere. In contrast, the dry and hot air over the desert is transferred to the oasis from the upper atmosphere. The results show that the integration of LAI and SM will induce water vapor intensification and promote precipitation in the upstream of the HRB, particularly on windward slopes. In general, the proposed WRF (DA-ML) model can improve climate modeling by implementing detailed land characterization information in basins with complex underlying surfaces.</abstract>
+    <identifier type="citekey">He-2023-Improving</identifier>
+    <identifier type="doi">10.5194/hess-27-1583-2023</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-49001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <detail type="volume"><number>27</number></detail>
+        <detail type="issue"><number>7</number></detail>
+        <extent unit="page">
+            <start>1583</start>
+            <end>1606</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>

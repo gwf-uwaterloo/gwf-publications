@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<mods ID="Alam-2023-GPTCloneBench:">
+    <titleInfo>
+        <title>GPTCloneBench: A comprehensive benchmark of semantic clones and cross-language clones using GPT-3 model and SemanticCloneBench</title>
+    </titleInfo>
+    <name type="personal">
+        <namePart type="given">Ajmain</namePart>
+        <namePart type="given">Inqiad</namePart>
+        <namePart type="family">Alam</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Palash</namePart>
+        <namePart type="given">Ranjan</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Farouq</namePart>
+        <namePart type="family">Al-omari</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Chanchal</namePart>
+        <namePart type="given">K</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Banani</namePart>
+        <namePart type="family">Roy</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <name type="personal">
+        <namePart type="given">Kevin</namePart>
+        <namePart type="given">A</namePart>
+        <namePart type="family">Schneider</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text">author</roleTerm>
+        </role>
+    </name>
+    <originInfo>
+        <dateIssued>2023</dateIssued>
+    </originInfo>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="bibutilsgt">journal article</genre>
+    <relatedItem type="host">
+        <titleInfo>
+            <title>2023 IEEE International Conference on Software Maintenance and Evolution (ICSME)</title>
+        </titleInfo>
+        <originInfo>
+            <issuance>continuing</issuance>
+            <publisher>IEEE</publisher>
+        </originInfo>
+        <genre authority="marcgt">periodical</genre>
+        <genre authority="bibutilsgt">academic journal</genre>
+    </relatedItem>
+    <abstract>With the emergence of Machine Learning, there has been a surge in leveraging its capabilities for problem-solving across various domains. In the code clone realm, the identification of type-4 or semantic clones has emerged as a crucial yet challenging task. Researchers aim to utilize Machine Learning to tackle this challenge, often relying on the Big-CloneBench dataset. However, it’s worth noting that BigCloneBench, originally not designed for semantic clone detection, presents several limitations that hinder its suitability as a comprehensive training dataset for this specific purpose. Furthermore, CLCDSA dataset suffers from a lack of reusable examples aligning with real-world software systems, rendering it inadequate for cross-language clone detection approaches. In this work, we present a comprehensive semantic clone and cross-language clone benchmark, GPTCloneBench \textlesssup xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater1\textless/sup\textgreater by exploiting SemanticCloneBench and OpenAI’s GPT-3 model. In particular, using code fragments from SemanticCloneBench as sample inputs along with appropriate prompt engineering for GPT-3 model, we generate semantic and cross-language clones for these specific fragments and then conduct a combination of extensive manual analysis, tool-assisted filtering, functionality testing and automated validation in building the benchmark. From 79,928 clone pairs of GPT-3 output, we created a benchmark with 37,149 true semantic clone pairs, 19,288 false semantic pairs(Type-1/Type-2), and 20,770 cross-language clones across four languages (Java, C, C#, and Python). Our benchmark is 15-fold larger than SemanticCloneBench, has more functional code examples for software systems and programming language support than CLCDSA, and overcomes BigCloneBench’s qualities, quantification, and language variety limitations. GPTCloneBench can be found here \textlesssup xmlns:mml=“http://www.w3.org/1998/Math/MathML” xmlns:xlink=“http://www.w3.org/1999/xlink”\textgreater1\textless/sup\textgreater .</abstract>
+    <identifier type="citekey">Alam-2023-GPTCloneBench:</identifier>
+    <identifier type="doi">10.1109/icsme58846.2023.00013</identifier>
+    <location>
+        <url>https://gwf-uwaterloo.github.io/gwf-publications/G23-20001</url>
+    </location>
+    <part>
+        <date>2023</date>
+        <extent unit="page">
+            <start>1</start>
+            <end>13</end>
+        </extent>
+    </part>
+</mods>
+</modsCollection>
