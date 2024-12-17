@@ -33,7 +33,7 @@ def extract_to_files(doi2prj_xlsx):
         doi_prj_df = pd.read_excel(doi2prj_xlsx)
         doi_prj_df = doi_prj_df.drop('DOI', axis=1)
         doi_prj_df = doi_prj_df.drop_duplicates()
-        doi_prj_df = doi_prj_df.append({'Project Name':'Others','prj':'prj46'}, ignore_index=True)
+        doi_prj_df = pd.concat([doi_prj_df, pd.DataFrame([{'Project Name':'Others','prj':'prj46'}])], ignore_index=True)
         sheet['project'] = sheet['project'].map(doi_prj_df.set_index('prj')['Project Name'].to_dict())
 
         sheet.to_csv(output, index=False)
@@ -66,10 +66,10 @@ def extract_to_one_file(doi2prj_xlsx):
     doi_prj_df = pd.read_excel(doi2prj_xlsx)
     doi_prj_df = doi_prj_df.drop('DOI', axis=1)
     doi_prj_df = doi_prj_df.drop_duplicates()
-    doi_prj_df = doi_prj_df.append({'Project Name':'Others','prj':'prj46'}, ignore_index=True)
+    doi_prj_df = pd.concat([doi_prj_df, pd.DataFrame([{'Project Name':'Others','prj':'prj46'}])], ignore_index=True)
     sheet['project'] = sheet['project'].map(doi_prj_df.set_index('prj')['Project Name'].to_dict())
     sheet.to_csv(output, index=False)
 
-extract_to_files('gwf_data_extract/check/doi2projects.xlsx')
-# extract_to_one_file('gwf_data_extract/check/doi2projects.xlsx')
+# extract_to_files('gwf_data_extract/doi2projects.xlsx')
+extract_to_one_file('gwf_data_extract/doi2projects.xlsx')
 
