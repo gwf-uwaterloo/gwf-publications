@@ -9,7 +9,7 @@
     </a>
     {{- end -}}
     {{- if (fileExists (printf "/data-export/%s.bib" .Params.anthology_id)) -}}
-    <a class="badge badge-secondary align-middle mr-1" href="{{ (printf "/%s.bib" .Params.anthology_id) | relURL }}" data-toggle="tooltip" data-placement="top" title="Export to BibTeX">
+    <a class="badge badge-secondary align-middle mr-1" href="{{ (printf "/gwf-publications/%s.bib" .Params.anthology_id) | relURL }}" data-toggle="tooltip" data-placement="top" title="Export to BibTeX">
       bib
     </a>
     {{- end -}}

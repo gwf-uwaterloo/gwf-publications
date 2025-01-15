@@ -91,8 +91,8 @@ endif
 
 # hugo version check
 HUGO_VERSION_MIN=58
-HUGO_VERSION=$(shell hugo version | sed -E 's/^.*v0\.([0-9]+)\..*/\1/')
-HUGO_VERSION_TOO_LOW:=$(shell [ $(HUGO_VERSION) -lt $(HUGO_VERSION_MIN) ] && echo true)
+HUGO_VERSION=$(shell hugo version | sed 's/^.* v0\.\(.*\)\..*/\1/')
+HUGO_VERSION_TOO_LOW:=$(shell [[ $(HUGO_VERSION_MIN) -gt $(HUGO_VERSION) ]] && echo true)
 ifeq ($(HUGO_VERSION_TOO_LOW),true)
   $(error "incorrect hugo version installed! Need hugo 0.$(HUGO_VERSION_MIN), but only found hugo 0.$(HUGO_VERSION)!")
 endif
@@ -115,9 +115,9 @@ sitemap: build/.sitemap
 
 build/.sitemap: venv/bin/activate build/.hugo
 	. $(VENV) && python3 bin/split_sitemap.py build/website/$(ANTHOLOGYDIR)/sitemap.xml
-	@rm -f build/website/$(ANTHOLOGYDIR)/sitemap*.xml.gz
-	@gzip -9n build/website/$(ANTHOLOGYDIR)/sitemap*.xml
-	@bin/create_sitemapindex.sh `ls build/website/$(ANTHOLOGYDIR)/ | grep 'sitemap*.xml.gz'` > build/website/$(ANTHOLOGYDIR)/sitemapindex.xml
+	@rm -f build/website/$(ANTHOLOGYDIR)/sitemap_*.xml.gz
+	@gzip -9n build/website/$(ANTHOLOGYDIR)/sitemap_*.xml
+	@bin/create_sitemapindex.sh `ls build/website/$(ANTHOLOGYDIR)/ | grep '_.*xml.gz'` > build/website/$(ANTHOLOGYDIR)/sitemapindex.xml
 	@touch build/.sitemap
 
 .PHONY: venv

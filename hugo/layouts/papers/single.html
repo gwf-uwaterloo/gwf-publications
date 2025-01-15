@@ -361,7 +361,7 @@
                 {{- readFile (printf "/data-export/%s.bib" $anthology_id) -}}
               </pre>
               <div class="modal-footer pb-1">
-                <a class="btn btn-secondary" href="{{ (printf "/%s.bib" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
+                <a class="btn btn-secondary" href="{{ (printf "/gwf-publications/%s.bib" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
                 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target="#citeBibtexContent"><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button>
               </div>
               {{- end -}}
@@ -372,7 +372,7 @@
                 {{- readFile (printf "/data-export/%s.xml" $anthology_id) -}}
               </pre>
               <div class="modal-footer pb-1">
-                <a class="btn btn-secondary" href="{{ (printf "/%s.xml" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
+                <a class="btn btn-secondary" href="{{ (printf "/gwf-publications/%s.xml" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
                 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target="#citeModsContent"><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button>
               </div>
               {{- end -}}
@@ -383,7 +383,7 @@
                 {{- readFile (printf "/data-export/%s.endf" $anthology_id) -}}
               </pre>
               <div class="modal-footer pb-1">
-                <a class="btn btn-secondary" href="{{ (printf "/%s.endf" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
+                <a class="btn btn-secondary" href="{{ (printf "/gwf-publications/%s.endf" $anthology_id) | relURL }}"><i class="fas fa-download pr-2"></i>Download as File</a>
                 <button class="btn btn-clipboard btn-primary d-none" data-clipboard-target="#citeEndnoteContent"><i class="far fa-clipboard pr-2"></i>Copy to Clipboard</button>
               </div>
               {{- end -}}
