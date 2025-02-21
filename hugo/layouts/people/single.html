@@ -2,7 +2,7 @@
 {{ $first_letter := slicestr .Params.name 0 1 }}
 {{ $person := index .Site.Data.people $first_letter .Params.name }}
 <section id="main">
-  <h2 id="title">
+  <h2 id="title"> 
     <!-- {{- .Title -}} -->
     <span class="font-weight-normal">{{ $person.first }}</span> <span class="font-weight-bold">{{ $person.last }}</span>
   </h2>
@@ -33,7 +33,7 @@
   <div class="row">
     <div class="col-lg-9">
       {{ .Scratch.Set "current_year" "" }}
-      {{ range $person.papers }}
+      {{ range (uniq $person.papers) }}
         {{/* Generate a heading per year -- assumes that papers are already sorted by year,
              which the YAML exporter should take care of */}}
         {{ $paper := index (index $.Site.Data.papers (index (split . "-") 0)) . }}
